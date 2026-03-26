@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Trending - Week 13 - 2026</title>
+
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+                line-height: 1.6;
+                color: #111827;
+                background: #F8F9FA;
+                min-height: 100vh;
+            }
+
+            .container {
+                max-width: 1400px;
+                margin: 0 auto;
+                background: #FFFFFF;
+                min-height: 100vh;
+                box-shadow: 0 0 0 1px #E5E7EB;
+            }
+
+            .header {
+                background: #1E293B;
+                color: white;
+                padding: 2rem 2.5rem;
+                border-bottom: 3px solid #334155;
+            }
+
+            .header h1 {
+                font-size: 1.75rem;
+                margin-bottom: 0.25rem;
+                font-weight: 600;
+                color: #FFFFFF;
+            }
+
+            .header .subtitle {
+                font-size: 0.875rem;
+                color: #94A3B8;
+                font-weight: 400;
+            }
+
+            .summary {
+                background: #F8F9FA;
+                padding: 2rem 2.5rem;
+                border-bottom: 1px solid #E5E7EB;
+            }
+
+            .summary h2 {
+                color: #1E293B;
+                margin-bottom: 1rem;
+                font-size: 1.25rem;
+                font-weight: 600;
+            }
+
+            .summary-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+                gap: 1rem;
+                margin-top: 1rem;
+            }
+
+            .summary-item {
+                background: white;
+                padding: 1.25rem;
+                border-radius: 6px;
+                border: 1px solid #E5E7EB;
+            }
+
+            .summary-item .label {
+                font-size: 0.8125rem;
+                color: #64748B;
+                margin-bottom: 0.5rem;
+                text-transform: uppercase;
+                letter-spacing: 0.05em;
+                font-weight: 500;
+            }
+
+            .summary-item .value {
+                font-size: 1.75rem;
+                font-weight: 600;
+                color: #1E293B;
+            }
+
+            .content {
+                padding: 2rem 2.5rem;
+            }
+
+            .section-title {
+                font-size: 1.5rem;
+                color: #1E293B;
+                margin-bottom: 1.5rem;
+                padding-bottom: 0.75rem;
+                border-bottom: 2px solid #E5E7EB;
+                font-weight: 600;
+            }
+
+            .badge {
+                display: inline-block;
+                padding: 0.25rem 0.625rem;
+                border-radius: 4px;
+                font-size: 0.75rem;
+                font-weight: 500;
+                margin-right: 0.5rem;
+            }
+
+            .badge-stars {
+                background: #FEF3C7;
+                color: #92400E;
+            }
+
+            .badge-forks {
+                background: #DBEAFE;
+                color: #1E40AF;
+            }
+
+            .badge-language {
+                background: #D1FAE5;
+                color: #065F46;
+            }
+
+            .badge-today {
+                background: #FEE2E2;
+                color: #991B1B;
+            }
+
+            .badge-consistent {
+                background: #D1FAE5;
+                color: #065F46;
+            }
+
+            .badge-trending {
+                background: #FEF3C7;
+                color: #92400E;
+            }
+
+            .badge-new {
+                background: #DBEAFE;
+                color: #1E40AF;
+            }
+
+            .footer {
+                background: #F8F9FA;
+                padding: 1.5rem 2.5rem;
+                text-align: center;
+                color: #64748B;
+                font-size: 0.8125rem;
+                border-top: 1px solid #E5E7EB;
+            }
+
+            @media (max-width: 768px) {
+                .header {
+                    padding: 1.5rem;
+                }
+
+                .summary {
+                    padding: 1.5rem;
+                }
+
+                .content {
+                    padding: 1.5rem;
+                }
+
+                .summary-grid {
+                    grid-template-columns: 1fr;
+                }
+            }
+        </style>
+        
+        <style>
+            .section {
+                margin-bottom: 2rem;
+            }
+
+            .repo-table {
+                width: 100%;
+                border-collapse: collapse;
+                background: white;
+                border: 1px solid #E5E7EB;
+                border-radius: 6px;
+                overflow: hidden;
+                font-size: 0.9375rem;
+            }
+
+            .repo-table th {
+                background: #F8F9FA;
+                padding: 0.875rem 1rem;
+                text-align: left;
+                font-weight: 600;
+                color: #1E293B;
+                border-bottom: 2px solid #E5E7EB;
+                font-size: 0.8125rem;
+                text-transform: uppercase;
+                letter-spacing: 0.05em;
+            }
+
+            .repo-table td {
+                padding: 1rem;
+                border-bottom: 1px solid #E5E7EB;
+                vertical-align: middle;
+            }
+
+            .repo-table tbody tr {
+                transition: background-color 0.15s;
+            }
+
+            .repo-table tbody tr:nth-child(even) {
+                background: #F8F9FA;
+            }
+
+            .repo-table tbody tr:hover {
+                background: #F1F5F9;
+            }
+
+            .repo-table tr:last-child td {
+                border-bottom: none;
+            }
+
+            .repo-name {
+                font-weight: 600;
+            }
+
+            .repo-name a {
+                color: #1E293B;
+                text-decoration: none;
+            }
+
+            .repo-name a:hover {
+                color: #334155;
+                text-decoration: underline;
+            }
+
+            .repo-description {
+                color: #64748B;
+                font-size: 0.875rem;
+                margin-top: 0.25rem;
+                line-height: 1.5;
+            }
+
+            .rank-badge {
+                background: #334155;
+                color: white;
+                min-width: 28px;
+                height: 28px;
+                border-radius: 4px;
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                font-weight: 600;
+                font-size: 0.8125rem;
+            }
+
+            .appearances {
+                color: #059669;
+                font-weight: 600;
+            }
+
+            .stats-inline {
+                color: #64748B;
+                font-size: 0.875rem;
+            }
+
+            .contributors {
+                font-size: 0.75rem;
+                color: #64748B;
+            }
+
+            .contributor-link {
+                color: #334155;
+                text-decoration: none;
+                font-weight: 500;
+            }
+
+            .contributor-link:hover {
+                text-decoration: underline;
+                color: #1E293B;
+            }
+
+            @media (max-width: 768px) {
+                .repo-table {
+                    font-size: 0.875rem;
+                }
+
+                .repo-table th,
+                .repo-table td {
+                    padding: 0.625rem 0.75rem;
+                }
+            }
+        </style>
+        
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Python Trending Repositories</h1>
+            <div class="subtitle">Week 13 - 2026</div>
+            <div class="subtitle">2026-03-23 to 2026-03-29</div>
+        </div>
+        <div class="summary">
+            <h2>Summary</h2>
+            <div class="summary-grid">
+                <div class="summary-item">
+                    <div class="label">Period</div>
+                    <div class="value">Week 13 - 2026</div>
+                </div>
+                <div class="summary-item">
+                    <div class="label">Days Analyzed</div>
+                    <div class="value">1</div>
+                </div>
+                <div class="summary-item">
+                    <div class="label">Unique Repos</div>
+                    <div class="value">13</div>
+                </div>
+                <div class="summary-item">
+                    <div class="label">Language</div>
+                    <div class="value">Python</div>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="section">
+                <h2 class="section-title">Top Trending Repositories</h2>
+                <table class="repo-table">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Repository</th>
+                            <th>Days</th>
+                            <th>Best Rank</th>
+                            <th>Stars</th>
+                            <th>Forks</th>
+                            <th>Language</th>
+                            <th>Built By</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+            <tr>
+                <td><span class="rank-badge">1</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/mvanhorn/last30days-skill" target="_blank">mvanhorn/last30days-skill</a></div>
+                    <div class="repo-description">AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#1</td>
+                <td class="stats-inline">9,775</td>
+                <td class="stats-inline">851</td>
+                <td class="stats-inline">Python</td>
+                <td class="contributors"><a href="https://github.com/claude" class="contributor-link">@claude</a>, <a href="https://github.com/iliaal" class="contributor-link">@iliaal</a>, <a href="https://github.com/j-sperling" class="contributor-link">@j-sperling</a>, <a href="https://github.com/mvanhorn" class="contributor-link">@mvanhorn</a>, <a href="https://github.com/phjlljp" class="contributor-link">@phjlljp</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">2</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/bytedance/deer-flow" target="_blank">bytedance/deer-flow</a></div>
+                    <div class="repo-description">An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#2</td>
+                <td class="stats-inline">48,115</td>
+                <td class="stats-inline">5,729</td>
+                <td class="stats-inline">Python</td>
+                <td class="contributors"><a href="https://github.com/MagicCube" class="contributor-link">@MagicCube</a>, <a href="https://github.com/WillemJiang" class="contributor-link">@WillemJiang</a>, <a href="https://github.com/claude" class="contributor-link">@claude</a>, <a href="https://github.com/henry-byted" class="contributor-link">@henry-byted</a>, <a href="https://github.com/hetaoBackend" class="contributor-link">@hetaoBackend</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">3</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/agentscope-ai/agentscope" target="_blank">agentscope-ai/agentscope</a></div>
+                    <div class="repo-description">Build and run agents you can see, understand and trust.</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#3</td>
+                <td class="stats-inline">20,273</td>
+                <td class="stats-inline">1,974</td>
+                <td class="stats-inline">Python</td>
+                <td class="contributors"><a href="https://github.com/DavdGao" class="contributor-link">@DavdGao</a>, <a href="https://github.com/Osier-Yi" class="contributor-link">@Osier-Yi</a>, <a href="https://github.com/pan-x-c" class="contributor-link">@pan-x-c</a>, <a href="https://github.com/qbc2016" class="contributor-link">@qbc2016</a>, <a href="https://github.com/zhijianma" class="contributor-link">@zhijianma</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">4</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/datalab-to/chandra" target="_blank">datalab-to/chandra</a></div>
+                    <div class="repo-description">OCR model that handles complex tables, forms, handwriting with full layout.</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#4</td>
+                <td class="stats-inline">5,994</td>
+                <td class="stats-inline">663</td>
+                <td class="stats-inline">Python</td>
+                <td class="contributors"><a href="https://github.com/VikParuchuri" class="contributor-link">@VikParuchuri</a>, <a href="https://github.com/sandy0kwon" class="contributor-link">@sandy0kwon</a>, <a href="https://github.com/zanussbaum" class="contributor-link">@zanussbaum</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">5</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/usestrix/strix" target="_blank">usestrix/strix</a></div>
+                    <div class="repo-description">Open-source AI hackers to find and fix your app’s vulnerabilities.</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#5</td>
+                <td class="stats-inline">22,017</td>
+                <td class="stats-inline">2,322</td>
+                <td class="stats-inline">Python</td>
+                <td class="contributors"><a href="https://github.com/0xallam" class="contributor-link">@0xallam</a>, <a href="https://github.com/Vincent550102" class="contributor-link">@Vincent550102</a>, <a href="https://github.com/claude" class="contributor-link">@claude</a>, <a href="https://github.com/dependabot" class="contributor-link">@dependabot</a>, <a href="https://github.com/octovimmer" class="contributor-link">@octovimmer</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">6</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/p-e-w/heretic" target="_blank">p-e-w/heretic</a></div>
+                    <div class="repo-description">Fully automatic censorship removal for language models</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#6</td>
+                <td class="stats-inline">17,374</td>
+                <td class="stats-inline">1,734</td>
+                <td class="stats-inline">Python</td>
+                <td class="contributors"><a href="https://github.com/anrp" class="contributor-link">@anrp</a>, <a href="https://github.com/kldzj" class="contributor-link">@kldzj</a>, <a href="https://github.com/p-e-w" class="contributor-link">@p-e-w</a>, <a href="https://github.com/red40maxxer" class="contributor-link">@red40maxxer</a>, <a href="https://github.com/spikymoth" class="contributor-link">@spikymoth</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">7</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/hsliuping/TradingAgents-CN" target="_blank">hsliuping/TradingAgents-CN</a></div>
+                    <div class="repo-description">基于多智能体LLM的中文金融交易框架 - TradingAgents中文增强版</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#7</td>
+                <td class="stats-inline">21,651</td>
+                <td class="stats-inline">4,480</td>
+                <td class="stats-inline">Python</td>
+                <td class="contributors"><a href="https://github.com/BG8CFB" class="contributor-link">@BG8CFB</a>, <a href="https://github.com/EdwardoSunny" class="contributor-link">@EdwardoSunny</a>, <a href="https://github.com/Yijia-Xiao" class="contributor-link">@Yijia-Xiao</a>, <a href="https://github.com/ZeroAct" class="contributor-link">@ZeroAct</a>, <a href="https://github.com/hsliuping" class="contributor-link">@hsliuping</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">8</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/hesreallyhim/awesome-claude-code" target="_blank">hesreallyhim/awesome-claude-code</a></div>
+                    <div class="repo-description">A curated list of awesome skills, hooks, slash-commands, agent orchestrators, applications, and plugins for Claude Code by Anthropic</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#8</td>
+                <td class="stats-inline">32,734</td>
+                <td class="stats-inline">2,298</td>
+                <td class="stats-inline">Python</td>
+                <td class="contributors"><a href="https://github.com/Copilot" class="contributor-link">@Copilot</a>, <a href="https://github.com/claude" class="contributor-link">@claude</a>, <a href="https://github.com/github-actions" class="contributor-link">@github-actions</a>, <a href="https://github.com/hesreallyhim" class="contributor-link">@hesreallyhim</a>, <a href="https://github.com/tninja" class="contributor-link">@tninja</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">9</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/trustgraph-ai/trustgraph" target="_blank">trustgraph-ai/trustgraph</a></div>
+                    <div class="repo-description">The context development platform. Store, enrich, and retrieve structured knowledge with graph-native infrastructure, semantic retrieval, and portable context cores.</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#9</td>
+                <td class="stats-inline">1,561</td>
+                <td class="stats-inline">148</td>
+                <td class="stats-inline">Python</td>
+                <td class="contributors"><a href="https://github.com/AviAvni" class="contributor-link">@AviAvni</a>, <a href="https://github.com/JackColquitt" class="contributor-link">@JackColquitt</a>, <a href="https://github.com/cybermaggedon" class="contributor-link">@cybermaggedon</a>, <a href="https://github.com/s-ben" class="contributor-link">@s-ben</a>, <a href="https://github.com/toliver-hb" class="contributor-link">@toliver-hb</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">10</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/datawhalechina/hello-agents" target="_blank">datawhalechina/hello-agents</a></div>
+                    <div class="repo-description">📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#10</td>
+                <td class="stats-inline">31,170</td>
+                <td class="stats-inline">3,534</td>
+                <td class="stats-inline">Python</td>
+                <td class="contributors"><a href="https://github.com/HeteroCat" class="contributor-link">@HeteroCat</a>, <a href="https://github.com/JJasonSun" class="contributor-link">@JJasonSun</a>, <a href="https://github.com/Tasselszcx" class="contributor-link">@Tasselszcx</a>, <a href="https://github.com/fengju0213" class="contributor-link">@fengju0213</a>, <a href="https://github.com/jjyaoao" class="contributor-link">@jjyaoao</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">11</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/anthropics/skills" target="_blank">anthropics/skills</a></div>
+                    <div class="repo-description">Public repository for Agent Skills</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#11</td>
+                <td class="stats-inline">103,685</td>
+                <td class="stats-inline">11,404</td>
+                <td class="stats-inline">Python</td>
+                <td class="contributors"><a href="https://github.com/claude" class="contributor-link">@claude</a>, <a href="https://github.com/github-actions" class="contributor-link">@github-actions</a>, <a href="https://github.com/klazuka" class="contributor-link">@klazuka</a>, <a href="https://github.com/maheshmurag" class="contributor-link">@maheshmurag</a>, <a href="https://github.com/mattpic-ant" class="contributor-link">@mattpic-ant</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">12</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/harry0703/MoneyPrinterTurbo" target="_blank">harry0703/MoneyPrinterTurbo</a></div>
+                    <div class="repo-description">利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#12</td>
+                <td class="stats-inline">53,343</td>
+                <td class="stats-inline">7,541</td>
+                <td class="stats-inline">Python</td>
+                <td class="contributors"><a href="https://github.com/KevinZhang19870314" class="contributor-link">@KevinZhang19870314</a>, <a href="https://github.com/garylab" class="contributor-link">@garylab</a>, <a href="https://github.com/harry0703" class="contributor-link">@harry0703</a>, <a href="https://github.com/vuisme" class="contributor-link">@vuisme</a>, <a href="https://github.com/yyhhyyyyyy" class="contributor-link">@yyhhyyyyyy</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">13</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/deepseek-ai/Engram" target="_blank">deepseek-ai/Engram</a></div>
+                    <div class="repo-description">Conditional Memory via Scalable Lookup: A New Axis of Sparsity for Large Language Models</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#13</td>
+                <td class="stats-inline">4,125</td>
+                <td class="stats-inline">295</td>
+                <td class="stats-inline">Python</td>
+                <td class="contributors"><a href="https://github.com/Hannibal046" class="contributor-link">@Hannibal046</a>, <a href="https://github.com/study8677" class="contributor-link">@study8677</a></td>
+            </tr>
+        
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="footer">
+            <p>Generated on 2026-03-29</p>
+            <p>GitHub Trending Scraper</p>
+        </div>
+    </div>
+</body>
+</html>

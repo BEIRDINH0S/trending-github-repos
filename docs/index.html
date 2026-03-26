@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Trending Reports</title>
+
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+                line-height: 1.6;
+                color: #111827;
+                background: #F8F9FA;
+                min-height: 100vh;
+            }
+
+            .layout {
+                display: flex;
+                min-height: 100vh;
+            }
+
+            .sidebar {
+                width: 260px;
+                background: #1E293B;
+                color: white;
+                position: fixed;
+                height: 100vh;
+                overflow-y: auto;
+                border-right: 1px solid #334155;
+                z-index: 100;
+            }
+
+            .sidebar-header {
+                padding: 2rem 1.5rem;
+                border-bottom: 1px solid #334155;
+            }
+
+            .sidebar-title {
+                font-size: 1.25rem;
+                font-weight: 600;
+                color: #FFFFFF;
+                margin-bottom: 0.25rem;
+            }
+
+            .sidebar-subtitle {
+                font-size: 0.75rem;
+                color: #94A3B8;
+            }
+
+            .sidebar-search {
+                padding: 1rem 1.5rem;
+                border-bottom: 1px solid #334155;
+            }
+
+            .search-input {
+                width: 100%;
+                padding: 0.625rem 0.875rem;
+                background: #334155;
+                border: 1px solid #475569;
+                border-radius: 4px;
+                color: white;
+                font-size: 0.875rem;
+            }
+
+            .search-input::placeholder {
+                color: #94A3B8;
+            }
+
+            .search-input:focus {
+                outline: none;
+                border-color: #64748B;
+            }
+
+            .sidebar-nav {
+                padding: 1rem 0;
+            }
+
+            .nav-item {
+                padding: 0.75rem 1.5rem;
+                cursor: pointer;
+                transition: background 0.2s;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            .nav-item:hover {
+                background: #334155;
+            }
+
+            .nav-item.active {
+                background: #334155;
+                border-left: 3px solid #60A5FA;
+            }
+
+            .nav-item-name {
+                font-size: 0.9375rem;
+                font-weight: 500;
+                color: #FFFFFF;
+            }
+
+            .nav-item-count {
+                font-size: 0.75rem;
+                color: #94A3B8;
+                background: #475569;
+                padding: 0.125rem 0.5rem;
+                border-radius: 10px;
+            }
+
+            .main-content {
+                flex: 1;
+                margin-left: 260px;
+                background: #FFFFFF;
+            }
+
+            .header {
+                background: white;
+                padding: 1.5rem 2.5rem;
+                border-bottom: 1px solid #E5E7EB;
+                position: sticky;
+                top: 0;
+                z-index: 50;
+            }
+
+            .breadcrumbs {
+                display: flex;
+                align-items: center;
+                gap: 0.5rem;
+                font-size: 0.875rem;
+                color: #64748B;
+                margin-bottom: 1rem;
+            }
+
+            .breadcrumb-item {
+                color: #64748B;
+                text-decoration: none;
+            }
+
+            .breadcrumb-item:hover {
+                color: #1E293B;
+            }
+
+            .breadcrumb-separator {
+                color: #CBD5E1;
+            }
+
+            .breadcrumb-current {
+                color: #1E293B;
+                font-weight: 500;
+            }
+
+            .page-title {
+                font-size: 1.75rem;
+                font-weight: 600;
+                color: #1E293B;
+            }
+
+            .content {
+                padding: 2rem 2.5rem;
+            }
+
+            .stats {
+                background: #F8F9FA;
+                padding: 2rem;
+                border-radius: 6px;
+                margin-bottom: 2rem;
+                border: 1px solid #E5E7EB;
+            }
+
+            .stats h2 {
+                color: #1E293B;
+                margin-bottom: 1rem;
+                font-size: 1.25rem;
+                font-weight: 600;
+            }
+
+            .stats-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+                gap: 1rem;
+            }
+
+            .stat-item {
+                background: white;
+                padding: 1.25rem;
+                border-radius: 6px;
+                border: 1px solid #E5E7EB;
+                text-align: center;
+            }
+
+            .stat-value {
+                font-size: 2rem;
+                font-weight: 600;
+                color: #1E293B;
+            }
+
+            .stat-label {
+                font-size: 0.8125rem;
+                color: #64748B;
+                margin-top: 0.5rem;
+                text-transform: uppercase;
+                letter-spacing: 0.05em;
+                font-weight: 500;
+            }
+
+            .language-section {
+                margin-bottom: 3rem;
+            }
+
+            .language-title {
+                font-size: 1.5rem;
+                color: #1E293B;
+                margin-bottom: 1.5rem;
+                padding-bottom: 0.75rem;
+                border-bottom: 2px solid #E5E7EB;
+                font-weight: 600;
+                display: flex;
+                align-items: center;
+                gap: 1rem;
+            }
+
+            .language-badge {
+                background: #334155;
+                color: white;
+                padding: 0.375rem 0.875rem;
+                border-radius: 4px;
+                font-size: 0.8125rem;
+                font-weight: 500;
+            }
+
+            .tabs {
+                display: flex;
+                gap: 0.5rem;
+                border-bottom: 2px solid #E5E7EB;
+                margin-bottom: 1.5rem;
+            }
+
+            .tab {
+                padding: 0.75rem 1.25rem;
+                background: transparent;
+                border: none;
+                border-bottom: 3px solid transparent;
+                cursor: pointer;
+                font-size: 0.9375rem;
+                font-weight: 500;
+                color: #64748B;
+                transition: all 0.2s;
+                margin-bottom: -2px;
+            }
+
+            .tab:hover {
+                color: #1E293B;
+                background: #F8F9FA;
+            }
+
+            .tab.active {
+                color: #1E293B;
+                border-bottom-color: #334155;
+            }
+
+            .tab-content {
+                display: none;
+            }
+
+            .tab-content.active {
+                display: block;
+            }
+
+            .reports-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+                gap: 1rem;
+            }
+
+            .report-card {
+                background: white;
+                border: 1px solid #E5E7EB;
+                border-radius: 6px;
+                padding: 1.25rem;
+                transition: box-shadow 0.2s, border-color 0.2s;
+            }
+
+            .report-card:hover {
+                border-color: #334155;
+                box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+            }
+
+            .report-date {
+                font-size: 1rem;
+                font-weight: 600;
+                color: #1E293B;
+                margin-bottom: 0.875rem;
+            }
+
+            .report-links {
+                display: flex;
+                gap: 0.5rem;
+                flex-wrap: wrap;
+            }
+
+            .format-link {
+                display: inline-block;
+                padding: 0.5rem 0.875rem;
+                border-radius: 4px;
+                text-decoration: none;
+                font-size: 0.8125rem;
+                font-weight: 500;
+                transition: opacity 0.2s;
+            }
+
+            .format-link:hover {
+                opacity: 0.85;
+            }
+
+            .format-html {
+                background: #334155;
+                color: white;
+            }
+
+            .format-json {
+                background: #059669;
+                color: white;
+            }
+
+            .format-md {
+                background: #D97706;
+                color: white;
+            }
+
+            .format-csv {
+                background: #0891B2;
+                color: white;
+            }
+
+            .footer {
+                background: #F8F9FA;
+                padding: 1.5rem 2.5rem;
+                text-align: center;
+                color: #64748B;
+                font-size: 0.8125rem;
+                border-top: 1px solid #E5E7EB;
+            }
+
+            @media (max-width: 768px) {
+                .sidebar {
+                    display: none;
+                }
+
+                .main-content {
+                    margin-left: 0;
+                }
+
+                .header {
+                    padding: 1.5rem;
+                }
+
+                .content {
+                    padding: 1.5rem;
+                }
+
+                .reports-grid {
+                    grid-template-columns: 1fr;
+                }
+
+                .tabs {
+                    overflow-x: auto;
+                }
+            }
+
+            ::-webkit-scrollbar {
+                width: 8px;
+                height: 8px;
+            }
+
+            ::-webkit-scrollbar-track {
+                background: #1E293B;
+            }
+
+            ::-webkit-scrollbar-thumb {
+                background: #475569;
+                border-radius: 4px;
+            }
+
+            ::-webkit-scrollbar-thumb:hover {
+                background: #64748B;
+            }
+        </style>
+        
+</head>
+<body>
+    <div class="layout">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <div class="sidebar-header">
+                <div class="sidebar-title">GitHub Trends</div>
+                <div class="sidebar-subtitle">Repository Analytics</div>
+            </div>
+            <div class="sidebar-search">
+                <input type="text" class="search-input" placeholder="Search language..." id="searchInput" onkeyup="filterLanguages()">
+            </div>
+            <nav class="sidebar-nav" id="sidebarNav">
+                <div class="nav-item" onclick="scrollToLanguage('javascript')">
+                    <span class="nav-item-name">Javascript</span>
+                    <span class="nav-item-count">3</span>
+                </div>
+                <div class="nav-item" onclick="scrollToLanguage('python')">
+                    <span class="nav-item-name">Python</span>
+                    <span class="nav-item-count">3</span>
+                </div>
+            </nav>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <div class="header">
+                <div class="breadcrumbs">
+                    <a href="#" class="breadcrumb-item">Home</a>
+                    <span class="breadcrumb-separator">/</span>
+                    <span class="breadcrumb-current">Dashboard</span>
+                </div>
+                <h1 class="page-title">GitHub Trending Reports</h1>
+            </div>
+            <div class="content">
+            <div class="stats">
+                <h2>Statistics</h2>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-value">2</div>
+                        <div class="stat-label">Languages</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value">6</div>
+                        <div class="stat-label">Total Reports</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value">2026-03-26</div>
+                        <div class="stat-label">Latest Update</div>
+                    </div>
+                </div>
+            </div>
+            <div class="language-section" id="section-javascript">
+                <div class="language-title">
+                    Javascript
+                    <span class="language-badge">3 reports</span>
+                </div>
+                <div class="tabs">
+                    <button class="tab active" onclick="showTab(event, 'javascript-daily')">Daily (1)</button>
+                    <button class="tab" onclick="showTab(event, 'javascript-weekly')">Weekly (1)</button>
+                    <button class="tab" onclick="showTab(event, 'javascript-monthly')">Monthly (1)</button>
+                </div>
+                <div id="javascript-daily" class="tab-content active">
+                    <div class="reports-grid">
+                        <div class="report-card">
+                            <div class="report-date">2026-03-26</div>
+                            <div class="report-links">
+                                <a href="javascript/2026/2026-03-26/report.html" class="format-link format-html">HTML</a>
+                                <a href="javascript/2026/2026-03-26/report.json" class="format-link format-json" download>JSON</a>
+                                <a href="javascript/2026/2026-03-26/report.md" class="format-link format-md">MD</a>
+                                <a href="javascript/2026/2026-03-26/report.csv" class="format-link format-csv" download>CSV</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="javascript-weekly" class="tab-content">
+                    <div class="reports-grid">
+                        <div class="report-card">
+                            <div class="report-date">2026-W13</div>
+                            <div class="report-links">
+                                <a href="javascript/2026/weekly/2026-W13.html" class="format-link format-html">View Report</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="javascript-monthly" class="tab-content">
+                    <div class="reports-grid">
+                        <div class="report-card">
+                            <div class="report-date">2026-03</div>
+                            <div class="report-links">
+                                <a href="javascript/2026/monthly/2026-03.html" class="format-link format-html">View Report</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="language-section" id="section-python">
+                <div class="language-title">
+                    Python
+                    <span class="language-badge">3 reports</span>
+                </div>
+                <div class="tabs">
+                    <button class="tab active" onclick="showTab(event, 'python-daily')">Daily (1)</button>
+                    <button class="tab" onclick="showTab(event, 'python-weekly')">Weekly (1)</button>
+                    <button class="tab" onclick="showTab(event, 'python-monthly')">Monthly (1)</button>
+                </div>
+                <div id="python-daily" class="tab-content active">
+                    <div class="reports-grid">
+                        <div class="report-card">
+                            <div class="report-date">2026-03-26</div>
+                            <div class="report-links">
+                                <a href="python/2026/2026-03-26/report.html" class="format-link format-html">HTML</a>
+                                <a href="python/2026/2026-03-26/report.json" class="format-link format-json" download>JSON</a>
+                                <a href="python/2026/2026-03-26/report.md" class="format-link format-md">MD</a>
+                                <a href="python/2026/2026-03-26/report.csv" class="format-link format-csv" download>CSV</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="python-weekly" class="tab-content">
+                    <div class="reports-grid">
+                        <div class="report-card">
+                            <div class="report-date">2026-W13</div>
+                            <div class="report-links">
+                                <a href="python/2026/weekly/2026-W13.html" class="format-link format-html">View Report</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="python-monthly" class="tab-content">
+                    <div class="reports-grid">
+                        <div class="report-card">
+                            <div class="report-date">2026-03</div>
+                            <div class="report-links">
+                                <a href="python/2026/monthly/2026-03.html" class="format-link format-html">View Report</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="footer">
+                <p>&copy; 2026 GitHub Trending Scraper</p>
+                <p>Generated automatically with Python</p>
+            </div>
+        </div>
+    </div>
+    <script>
+        function showTab(event, tabId) {
+            const button = event.currentTarget;
+            const parent = button.parentElement.parentElement;
+            
+            // Hide all tab contents in this section
+            parent.querySelectorAll(".tab-content").forEach(content => {
+                content.classList.remove("active");
+            });
+            
+            // Deactivate all tabs in this section
+            parent.querySelectorAll(".tab").forEach(tab => {
+                tab.classList.remove("active");
+            });
+            
+            // Show selected tab content
+            document.getElementById(tabId).classList.add("active");
+            button.classList.add("active");
+        }
+        
+        function scrollToLanguage(language) {
+            const section = document.getElementById("section-" + language);
+            if (section) {
+                section.scrollIntoView({ behavior: "smooth", block: "start" });
+                
+                // Highlight active nav item
+                document.querySelectorAll(".nav-item").forEach(item => {
+                    item.classList.remove("active");
+                });
+                event.currentTarget.classList.add("active");
+            }
+        }
+        
+        function filterLanguages() {
+            const input = document.getElementById("searchInput");
+            const filter = input.value.toLowerCase();
+            const navItems = document.querySelectorAll(".nav-item");
+            
+            navItems.forEach(item => {
+                const name = item.querySelector(".nav-item-name").textContent.toLowerCase();
+                if (name.includes(filter)) {
+                    item.style.display = "";
+                } else {
+                    item.style.display = "none";
+                }
+            });
+        }
+    </script>
+</body>
+</html>
