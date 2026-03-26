@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Go Trending - March 2026</title>
+
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+                line-height: 1.6;
+                color: #111827;
+                background: #F8F9FA;
+                min-height: 100vh;
+            }
+
+            .container {
+                max-width: 1400px;
+                margin: 0 auto;
+                background: #FFFFFF;
+                min-height: 100vh;
+                box-shadow: 0 0 0 1px #E5E7EB;
+            }
+
+            .header {
+                background: #1E293B;
+                color: white;
+                padding: 2rem 2.5rem;
+                border-bottom: 3px solid #334155;
+            }
+
+            .header h1 {
+                font-size: 1.75rem;
+                margin-bottom: 0.25rem;
+                font-weight: 600;
+                color: #FFFFFF;
+            }
+
+            .header .subtitle {
+                font-size: 0.875rem;
+                color: #94A3B8;
+                font-weight: 400;
+            }
+
+            .summary {
+                background: #F8F9FA;
+                padding: 2rem 2.5rem;
+                border-bottom: 1px solid #E5E7EB;
+            }
+
+            .summary h2 {
+                color: #1E293B;
+                margin-bottom: 1rem;
+                font-size: 1.25rem;
+                font-weight: 600;
+            }
+
+            .summary-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+                gap: 1rem;
+                margin-top: 1rem;
+            }
+
+            .summary-item {
+                background: white;
+                padding: 1.25rem;
+                border-radius: 6px;
+                border: 1px solid #E5E7EB;
+            }
+
+            .summary-item .label {
+                font-size: 0.8125rem;
+                color: #64748B;
+                margin-bottom: 0.5rem;
+                text-transform: uppercase;
+                letter-spacing: 0.05em;
+                font-weight: 500;
+            }
+
+            .summary-item .value {
+                font-size: 1.75rem;
+                font-weight: 600;
+                color: #1E293B;
+            }
+
+            .content {
+                padding: 2rem 2.5rem;
+            }
+
+            .section-title {
+                font-size: 1.5rem;
+                color: #1E293B;
+                margin-bottom: 1.5rem;
+                padding-bottom: 0.75rem;
+                border-bottom: 2px solid #E5E7EB;
+                font-weight: 600;
+            }
+
+            .badge {
+                display: inline-block;
+                padding: 0.25rem 0.625rem;
+                border-radius: 4px;
+                font-size: 0.75rem;
+                font-weight: 500;
+                margin-right: 0.5rem;
+            }
+
+            .badge-stars {
+                background: #FEF3C7;
+                color: #92400E;
+            }
+
+            .badge-forks {
+                background: #DBEAFE;
+                color: #1E40AF;
+            }
+
+            .badge-language {
+                background: #D1FAE5;
+                color: #065F46;
+            }
+
+            .badge-today {
+                background: #FEE2E2;
+                color: #991B1B;
+            }
+
+            .badge-consistent {
+                background: #D1FAE5;
+                color: #065F46;
+            }
+
+            .badge-trending {
+                background: #FEF3C7;
+                color: #92400E;
+            }
+
+            .badge-new {
+                background: #DBEAFE;
+                color: #1E40AF;
+            }
+
+            .footer {
+                background: #F8F9FA;
+                padding: 1.5rem 2.5rem;
+                text-align: center;
+                color: #64748B;
+                font-size: 0.8125rem;
+                border-top: 1px solid #E5E7EB;
+            }
+
+            @media (max-width: 768px) {
+                .header {
+                    padding: 1.5rem;
+                }
+
+                .summary {
+                    padding: 1.5rem;
+                }
+
+                .content {
+                    padding: 1.5rem;
+                }
+
+                .summary-grid {
+                    grid-template-columns: 1fr;
+                }
+            }
+        </style>
+        
+        <style>
+            .section {
+                margin-bottom: 2rem;
+            }
+
+            .repo-table {
+                width: 100%;
+                border-collapse: collapse;
+                background: white;
+                border: 1px solid #E5E7EB;
+                border-radius: 6px;
+                overflow: hidden;
+                font-size: 0.9375rem;
+            }
+
+            .repo-table th {
+                background: #F8F9FA;
+                padding: 0.875rem 1rem;
+                text-align: left;
+                font-weight: 600;
+                color: #1E293B;
+                border-bottom: 2px solid #E5E7EB;
+                font-size: 0.8125rem;
+                text-transform: uppercase;
+                letter-spacing: 0.05em;
+            }
+
+            .repo-table td {
+                padding: 1rem;
+                border-bottom: 1px solid #E5E7EB;
+                vertical-align: middle;
+            }
+
+            .repo-table tbody tr {
+                transition: background-color 0.15s;
+            }
+
+            .repo-table tbody tr:nth-child(even) {
+                background: #F8F9FA;
+            }
+
+            .repo-table tbody tr:hover {
+                background: #F1F5F9;
+            }
+
+            .repo-table tr:last-child td {
+                border-bottom: none;
+            }
+
+            .repo-name {
+                font-weight: 600;
+            }
+
+            .repo-name a {
+                color: #1E293B;
+                text-decoration: none;
+            }
+
+            .repo-name a:hover {
+                color: #334155;
+                text-decoration: underline;
+            }
+
+            .repo-description {
+                color: #64748B;
+                font-size: 0.875rem;
+                margin-top: 0.25rem;
+                line-height: 1.5;
+            }
+
+            .rank-badge {
+                background: #334155;
+                color: white;
+                min-width: 28px;
+                height: 28px;
+                border-radius: 4px;
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                font-weight: 600;
+                font-size: 0.8125rem;
+            }
+
+            .appearances {
+                color: #059669;
+                font-weight: 600;
+            }
+
+            .stats-inline {
+                color: #64748B;
+                font-size: 0.875rem;
+            }
+
+            .contributors {
+                font-size: 0.75rem;
+                color: #64748B;
+            }
+
+            .contributor-link {
+                color: #334155;
+                text-decoration: none;
+                font-weight: 500;
+            }
+
+            .contributor-link:hover {
+                text-decoration: underline;
+                color: #1E293B;
+            }
+
+            @media (max-width: 768px) {
+                .repo-table {
+                    font-size: 0.875rem;
+                }
+
+                .repo-table th,
+                .repo-table td {
+                    padding: 0.625rem 0.75rem;
+                }
+            }
+        </style>
+        
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Go Trending Repositories</h1>
+            <div class="subtitle">March 2026</div>
+            <div class="subtitle">2026-03-01 to 2026-03-31</div>
+        </div>
+        <div class="summary">
+            <h2>Summary</h2>
+            <div class="summary-grid">
+                <div class="summary-item">
+                    <div class="label">Period</div>
+                    <div class="value">March 2026</div>
+                </div>
+                <div class="summary-item">
+                    <div class="label">Days Analyzed</div>
+                    <div class="value">1</div>
+                </div>
+                <div class="summary-item">
+                    <div class="label">Unique Repos</div>
+                    <div class="value">19</div>
+                </div>
+                <div class="summary-item">
+                    <div class="label">Language</div>
+                    <div class="value">Go</div>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="section">
+                <h2 class="section-title">Top Trending Repositories</h2>
+                <table class="repo-table">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Repository</th>
+                            <th>Days</th>
+                            <th>Best Rank</th>
+                            <th>Stars</th>
+                            <th>Forks</th>
+                            <th>Language</th>
+                            <th>Built By</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+            <tr>
+                <td><span class="rank-badge">1</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/coder/coder" target="_blank">coder/coder</a></div>
+                    <div class="repo-description">Secure environments for developers and their agents</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#1</td>
+                <td class="stats-inline">12,662</td>
+                <td class="stats-inline">1,232</td>
+                <td class="stats-inline">Go</td>
+                <td class="contributors"><a href="https://github.com/BrunoQuaresma" class="contributor-link">@BrunoQuaresma</a>, <a href="https://github.com/dependabot" class="contributor-link">@dependabot</a>, <a href="https://github.com/johnstcn" class="contributor-link">@johnstcn</a>, <a href="https://github.com/kylecarbs" class="contributor-link">@kylecarbs</a>, <a href="https://github.com/mafredri" class="contributor-link">@mafredri</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">2</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/kyverno/kyverno" target="_blank">kyverno/kyverno</a></div>
+                    <div class="repo-description">Unified Policy as Code</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#2</td>
+                <td class="stats-inline">7,549</td>
+                <td class="stats-inline">1,271</td>
+                <td class="stats-inline">Go</td>
+                <td class="contributors"><a href="https://github.com/JimBugwadia" class="contributor-link">@JimBugwadia</a>, <a href="https://github.com/MariamFahmy98" class="contributor-link">@MariamFahmy98</a>, <a href="https://github.com/dependabot" class="contributor-link">@dependabot</a>, <a href="https://github.com/eddycharly" class="contributor-link">@eddycharly</a>, <a href="https://github.com/realshuting" class="contributor-link">@realshuting</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">3</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/grafana/loki" target="_blank">grafana/loki</a></div>
+                    <div class="repo-description">Like Prometheus, but for logs.</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#3</td>
+                <td class="stats-inline">27,880</td>
+                <td class="stats-inline">3,964</td>
+                <td class="stats-inline">Go</td>
+                <td class="contributors"><a href="https://github.com/JStickler" class="contributor-link">@JStickler</a>, <a href="https://github.com/chaudum" class="contributor-link">@chaudum</a>, <a href="https://github.com/cyriltovena" class="contributor-link">@cyriltovena</a>, <a href="https://github.com/owen-d" class="contributor-link">@owen-d</a>, <a href="https://github.com/renovate" class="contributor-link">@renovate</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">4</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/open-policy-agent/opa" target="_blank">open-policy-agent/opa</a></div>
+                    <div class="repo-description">Open Policy Agent (OPA) is an open source, general-purpose policy engine.</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#4</td>
+                <td class="stats-inline">11,488</td>
+                <td class="stats-inline">1,532</td>
+                <td class="stats-inline">Go</td>
+                <td class="contributors"><a href="https://github.com/anderseknert" class="contributor-link">@anderseknert</a>, <a href="https://github.com/dependabot" class="contributor-link">@dependabot</a>, <a href="https://github.com/patrick-east" class="contributor-link">@patrick-east</a>, <a href="https://github.com/srenatus" class="contributor-link">@srenatus</a>, <a href="https://github.com/tsandall" class="contributor-link">@tsandall</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">5</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/riba2534/feishu-cli" target="_blank">riba2534/feishu-cli</a></div>
+                    <div class="repo-description">Pas de description</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#5</td>
+                <td class="stats-inline">529</td>
+                <td class="stats-inline">62</td>
+                <td class="stats-inline">Go</td>
+                <td class="contributors"><a href="https://github.com/claude" class="contributor-link">@claude</a>, <a href="https://github.com/cursoragent" class="contributor-link">@cursoragent</a>, <a href="https://github.com/deepcoldy" class="contributor-link">@deepcoldy</a>, <a href="https://github.com/riba2534" class="contributor-link">@riba2534</a>, <a href="https://github.com/wujunyi792" class="contributor-link">@wujunyi792</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">6</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/anchore/syft" target="_blank">anchore/syft</a></div>
+                    <div class="repo-description">CLI tool and library for generating a Software Bill of Materials from container images and filesystems</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#6</td>
+                <td class="stats-inline">8,578</td>
+                <td class="stats-inline">790</td>
+                <td class="stats-inline">Go</td>
+                <td class="contributors"><a href="https://github.com/anchore-actions-token-generator" class="contributor-link">@anchore-actions-token-generator</a>, <a href="https://github.com/dependabot" class="contributor-link">@dependabot</a>, <a href="https://github.com/kzantow" class="contributor-link">@kzantow</a>, <a href="https://github.com/spiffcs" class="contributor-link">@spiffcs</a>, <a href="https://github.com/wagoodman" class="contributor-link">@wagoodman</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">7</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/gofiber/fiber" target="_blank">gofiber/fiber</a></div>
+                    <div class="repo-description">⚡️ Express inspired web framework written in Go</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#7</td>
+                <td class="stats-inline">39,471</td>
+                <td class="stats-inline">1,966</td>
+                <td class="stats-inline">Go</td>
+                <td class="contributors"><a href="https://github.com/Fenny" class="contributor-link">@Fenny</a>, <a href="https://github.com/ReneWerner87" class="contributor-link">@ReneWerner87</a>, <a href="https://github.com/dependabot" class="contributor-link">@dependabot</a>, <a href="https://github.com/gaby" class="contributor-link">@gaby</a>, <a href="https://github.com/kiyonlin" class="contributor-link">@kiyonlin</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">8</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/putyy/res-downloader" target="_blank">putyy/res-downloader</a></div>
+                    <div class="repo-description">视频号、小程序、抖音、快手、小红书、直播流、m3u8、酷狗、QQ音乐等常见网络资源下载!</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#8</td>
+                <td class="stats-inline">16,040</td>
+                <td class="stats-inline">1,978</td>
+                <td class="stats-inline">Go</td>
+                <td class="contributors"><a href="https://github.com/claviering" class="contributor-link">@claviering</a>, <a href="https://github.com/putyy" class="contributor-link">@putyy</a>, <a href="https://github.com/qiuzhiqian" class="contributor-link">@qiuzhiqian</a>, <a href="https://github.com/taotieren" class="contributor-link">@taotieren</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">9</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/anchore/grype" target="_blank">anchore/grype</a></div>
+                    <div class="repo-description">A vulnerability scanner for container images and filesystems</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#9</td>
+                <td class="stats-inline">11,867</td>
+                <td class="stats-inline">761</td>
+                <td class="stats-inline">Go</td>
+                <td class="contributors"><a href="https://github.com/anchore-actions-token-generator" class="contributor-link">@anchore-actions-token-generator</a>, <a href="https://github.com/dependabot" class="contributor-link">@dependabot</a>, <a href="https://github.com/spiffcs" class="contributor-link">@spiffcs</a>, <a href="https://github.com/wagoodman" class="contributor-link">@wagoodman</a>, <a href="https://github.com/westonsteimel" class="contributor-link">@westonsteimel</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">10</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/steveyegge/beads" target="_blank">steveyegge/beads</a></div>
+                    <div class="repo-description">Beads - A memory upgrade for your coding agent</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#10</td>
+                <td class="stats-inline">19,786</td>
+                <td class="stats-inline">1,307</td>
+                <td class="stats-inline">Go</td>
+                <td class="contributors"><a href="https://github.com/ampcode-com" class="contributor-link">@ampcode-com</a>, <a href="https://github.com/claude" class="contributor-link">@claude</a>, <a href="https://github.com/coffeegoddd" class="contributor-link">@coffeegoddd</a>, <a href="https://github.com/maphew" class="contributor-link">@maphew</a>, <a href="https://github.com/steveyegge" class="contributor-link">@steveyegge</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">11</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/microsoft/typescript-go" target="_blank">microsoft/typescript-go</a></div>
+                    <div class="repo-description">Staging repo for development of native port of TypeScript</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#11</td>
+                <td class="stats-inline">24,611</td>
+                <td class="stats-inline">879</td>
+                <td class="stats-inline">Go</td>
+                <td class="contributors"><a href="https://github.com/Andarist" class="contributor-link">@Andarist</a>, <a href="https://github.com/Copilot" class="contributor-link">@Copilot</a>, <a href="https://github.com/ahejlsberg" class="contributor-link">@ahejlsberg</a>, <a href="https://github.com/andrewbranch" class="contributor-link">@andrewbranch</a>, <a href="https://github.com/jakebailey" class="contributor-link">@jakebailey</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">12</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/kubernetes-sigs/ingress2gateway" target="_blank">kubernetes-sigs/ingress2gateway</a></div>
+                    <div class="repo-description">Convert Ingress resources to Gateway API resources</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#12</td>
+                <td class="stats-inline">926</td>
+                <td class="stats-inline">142</td>
+                <td class="stats-inline">Go</td>
+                <td class="contributors"><a href="https://github.com/LiorLieberman" class="contributor-link">@LiorLieberman</a>, <a href="https://github.com/Stevenjin8" class="contributor-link">@Stevenjin8</a>, <a href="https://github.com/k8s-ci-robot" class="contributor-link">@k8s-ci-robot</a>, <a href="https://github.com/levikobi" class="contributor-link">@levikobi</a>, <a href="https://github.com/mlavacca" class="contributor-link">@mlavacca</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">13</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/hashicorp/terraform" target="_blank">hashicorp/terraform</a></div>
+                    <div class="repo-description">Terraform enables you to safely and predictably create, change, and improve infrastructure. It is a source-available tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned.</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#13</td>
+                <td class="stats-inline">48,022</td>
+                <td class="stats-inline">10,258</td>
+                <td class="stats-inline">Go</td>
+                <td class="contributors"><a href="https://github.com/apparentlymart" class="contributor-link">@apparentlymart</a>, <a href="https://github.com/catsby" class="contributor-link">@catsby</a>, <a href="https://github.com/jbardin" class="contributor-link">@jbardin</a>, <a href="https://github.com/mitchellh" class="contributor-link">@mitchellh</a>, <a href="https://github.com/stack72" class="contributor-link">@stack72</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">14</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/maximhq/bifrost" target="_blank">maximhq/bifrost</a></div>
+                    <div class="repo-description">Fastest enterprise AI gateway (50x faster than LiteLLM) with adaptive load balancer, cluster mode, guardrails, 1000+ models support &amp; &lt;100 µs overhead at 5k RPS.</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#14</td>
+                <td class="stats-inline">3,251</td>
+                <td class="stats-inline">347</td>
+                <td class="stats-inline">Go</td>
+                <td class="contributors"><a href="https://github.com/Pratham-Mishra04" class="contributor-link">@Pratham-Mishra04</a>, <a href="https://github.com/Radheshg04" class="contributor-link">@Radheshg04</a>, <a href="https://github.com/TejasGhatte" class="contributor-link">@TejasGhatte</a>, <a href="https://github.com/akshaydeo" class="contributor-link">@akshaydeo</a>, <a href="https://github.com/github-actions" class="contributor-link">@github-actions</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">15</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/goharbor/harbor" target="_blank">goharbor/harbor</a></div>
+                    <div class="repo-description">An open source trusted cloud native registry project that stores, signs, and scans content.</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#15</td>
+                <td class="stats-inline">27,820</td>
+                <td class="stats-inline">5,142</td>
+                <td class="stats-inline">Go</td>
+                <td class="contributors"><a href="https://github.com/reasonerjt" class="contributor-link">@reasonerjt</a>, <a href="https://github.com/steven-zou" class="contributor-link">@steven-zou</a>, <a href="https://github.com/wknet123" class="contributor-link">@wknet123</a>, <a href="https://github.com/wy65701436" class="contributor-link">@wy65701436</a>, <a href="https://github.com/ywk253100" class="contributor-link">@ywk253100</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">16</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/kubernetes/ingress-nginx" target="_blank">kubernetes/ingress-nginx</a></div>
+                    <div class="repo-description">Ingress NGINX Controller for Kubernetes</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#16</td>
+                <td class="stats-inline">19,488</td>
+                <td class="stats-inline">8,540</td>
+                <td class="stats-inline">Go</td>
+                <td class="contributors"><a href="https://github.com/ElvinEfendi" class="contributor-link">@ElvinEfendi</a>, <a href="https://github.com/Gacko" class="contributor-link">@Gacko</a>, <a href="https://github.com/aledbf" class="contributor-link">@aledbf</a>, <a href="https://github.com/dependabot" class="contributor-link">@dependabot</a>, <a href="https://github.com/k8s-ci-robot" class="contributor-link">@k8s-ci-robot</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">17</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/googleapis/genai-toolbox" target="_blank">googleapis/genai-toolbox</a></div>
+                    <div class="repo-description">MCP Toolbox for Databases is an open source MCP server for databases.</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#17</td>
+                <td class="stats-inline">13,537</td>
+                <td class="stats-inline">1,290</td>
+                <td class="stats-inline">Go</td>
+                <td class="contributors"><a href="https://github.com/Yuan325" class="contributor-link">@Yuan325</a>, <a href="https://github.com/averikitsch" class="contributor-link">@averikitsch</a>, <a href="https://github.com/duwenxin99" class="contributor-link">@duwenxin99</a>, <a href="https://github.com/release-please" class="contributor-link">@release-please</a>, <a href="https://github.com/twishabansal" class="contributor-link">@twishabansal</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">18</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/ankitpokhrel/jira-cli" target="_blank">ankitpokhrel/jira-cli</a></div>
+                    <div class="repo-description">🔥 Feature-rich interactive Jira command line.</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#18</td>
+                <td class="stats-inline">5,403</td>
+                <td class="stats-inline">357</td>
+                <td class="stats-inline">Go</td>
+                <td class="contributors"><a href="https://github.com/ankitpokhrel" class="contributor-link">@ankitpokhrel</a>, <a href="https://github.com/dependabot" class="contributor-link">@dependabot</a>, <a href="https://github.com/fraggerfox" class="contributor-link">@fraggerfox</a>, <a href="https://github.com/kmdpl" class="contributor-link">@kmdpl</a>, <a href="https://github.com/realtime-neil" class="contributor-link">@realtime-neil</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">19</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/tulir/whatsmeow" target="_blank">tulir/whatsmeow</a></div>
+                    <div class="repo-description">Go library for the WhatsApp web multidevice API</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#19</td>
+                <td class="stats-inline">5,680</td>
+                <td class="stats-inline">897</td>
+                <td class="stats-inline">Go</td>
+                <td class="contributors"><a href="https://github.com/Rhymen" class="contributor-link">@Rhymen</a>, <a href="https://github.com/SchulteMK" class="contributor-link">@SchulteMK</a>, <a href="https://github.com/houstondapaz" class="contributor-link">@houstondapaz</a>, <a href="https://github.com/sthales" class="contributor-link">@sthales</a>, <a href="https://github.com/tulir" class="contributor-link">@tulir</a></td>
+            </tr>
+        
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="footer">
+            <p>Generated on 2026-03-31</p>
+            <p>GitHub Trending Scraper</p>
+        </div>
+    </div>
+</body>
+</html>

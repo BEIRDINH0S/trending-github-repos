@@ -9,8 +9,8 @@
 
 - **Date:** 2026-03-26
 - **Total Repositories:** 12
-- **Total Stars:** 430,739
-- **Total Forks:** 76,088
+- **Total Stars:** 430,770
+- **Total Forks:** 76,087
 - **Language:** Javascript
 
 ---
@@ -36,12 +36,12 @@
 
 ### 1. [affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code)
 
-![Stars](https://img.shields.io/badge/Stars-110,004-yellow) ![Forks](https://img.shields.io/badge/Forks-14,357-blue) ![Language](https://img.shields.io/badge/Language-JavaScript-green)
+![Stars](https://img.shields.io/badge/Stars-110,031-yellow) ![Forks](https://img.shields.io/badge/Forks-14,357-blue) ![Language](https://img.shields.io/badge/Language-JavaScript-green)
 
 **Description:** The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.
 
 **Stats:**
-- **Total Stars:** 110,004
+- **Total Stars:** 110,031
 - **Forks:** 14,357
 - **Today:** 2,712 stars today
 - **Language:** JavaScript
@@ -52,12 +52,12 @@
 
 ### 2. [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills)
 
-![Stars](https://img.shields.io/badge/Stars-16,747-yellow) ![Forks](https://img.shields.io/badge/Forks-2,509-blue) ![Language](https://img.shields.io/badge/Language-JavaScript-green)
+![Stars](https://img.shields.io/badge/Stars-16,751-yellow) ![Forks](https://img.shields.io/badge/Forks-2,509-blue) ![Language](https://img.shields.io/badge/Language-JavaScript-green)
 
 **Description:** Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.
 
 **Stats:**
-- **Total Stars:** 16,747
+- **Total Stars:** 16,751
 - **Forks:** 2,509
 - **Today:** 315 stars today
 - **Language:** JavaScript
@@ -68,13 +68,13 @@
 
 ### 3. [WhiskeySockets/Baileys](https://github.com/WhiskeySockets/Baileys)
 
-![Stars](https://img.shields.io/badge/Stars-8,739-yellow) ![Forks](https://img.shields.io/badge/Forks-2,839-blue) ![Language](https://img.shields.io/badge/Language-JavaScript-green)
+![Stars](https://img.shields.io/badge/Stars-8,739-yellow) ![Forks](https://img.shields.io/badge/Forks-2,838-blue) ![Language](https://img.shields.io/badge/Language-JavaScript-green)
 
 **Description:** Socket-based TS/JavaScript API for WhatsApp Web
 
 **Stats:**
 - **Total Stars:** 8,739
-- **Forks:** 2,839
+- **Forks:** 2,838
 - **Today:** 21 stars today
 - **Language:** JavaScript
 
@@ -110,7 +110,7 @@
 - **Today:** 79 stars today
 - **Language:** JavaScript
 
-**Built by:** [sanbuphy](https://github.com/sanbuphy), [GeoDaoyu](https://github.com/GeoDaoyu), [claude](https://github.com/claude), [1985312383](https://github.com/1985312383), [Kinokinou](https://github.com/Kinokinou)
+**Built by:** [sanbuphy](https://github.com/sanbuphy), [GeoDaoyu](https://github.com/GeoDaoyu), [claude](https://github.com/claude), [1985312383](https://github.com/1985312383), [SherryTECNU](https://github.com/SherryTECNU)
 
 ---
 

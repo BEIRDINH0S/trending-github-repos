@@ -9,8 +9,8 @@
 
 - **Date:** 2026-03-26
 - **Total Repositories:** 13
-- **Total Stars:** 371,875
-- **Total Forks:** 42,981
+- **Total Stars:** 371,956
+- **Total Forks:** 42,986
 - **Language:** Python
 
 ---
@@ -37,13 +37,13 @@
 
 ### 1. [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill)
 
-![Stars](https://img.shields.io/badge/Stars-9,798-yellow) ![Forks](https://img.shields.io/badge/Forks-852-blue) ![Language](https://img.shields.io/badge/Language-Python-green)
+![Stars](https://img.shields.io/badge/Stars-9,830-yellow) ![Forks](https://img.shields.io/badge/Forks-856-blue) ![Language](https://img.shields.io/badge/Language-Python-green)
 
 **Description:** AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary
 
 **Stats:**
-- **Total Stars:** 9,798
-- **Forks:** 852
+- **Total Stars:** 9,830
+- **Forks:** 856
 - **Today:** 2,684 stars today
 - **Language:** Python
 
@@ -53,12 +53,12 @@
 
 ### 2. [bytedance/deer-flow](https://github.com/bytedance/deer-flow)
 
-![Stars](https://img.shields.io/badge/Stars-48,122-yellow) ![Forks](https://img.shields.io/badge/Forks-5,729-blue) ![Language](https://img.shields.io/badge/Language-Python-green)
+![Stars](https://img.shields.io/badge/Stars-48,132-yellow) ![Forks](https://img.shields.io/badge/Forks-5,729-blue) ![Language](https://img.shields.io/badge/Language-Python-green)
 
 **Description:** An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.
 
 **Stats:**
-- **Total Stars:** 48,122
+- **Total Stars:** 48,132
 - **Forks:** 5,729
 - **Today:** 2,388 stars today
 - **Language:** Python
@@ -69,13 +69,13 @@
 
 ### 3. [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope)
 
-![Stars](https://img.shields.io/badge/Stars-20,276-yellow) ![Forks](https://img.shields.io/badge/Forks-1,976-blue) ![Language](https://img.shields.io/badge/Language-Python-green)
+![Stars](https://img.shields.io/badge/Stars-20,283-yellow) ![Forks](https://img.shields.io/badge/Forks-1,977-blue) ![Language](https://img.shields.io/badge/Language-Python-green)
 
 **Description:** Build and run agents you can see, understand and trust.
 
 **Stats:**
-- **Total Stars:** 20,276
-- **Forks:** 1,976
+- **Total Stars:** 20,283
+- **Forks:** 1,977
 - **Today:** 439 stars today
 - **Language:** Python
 
@@ -85,12 +85,12 @@
 
 ### 4. [datalab-to/chandra](https://github.com/datalab-to/chandra)
 
-![Stars](https://img.shields.io/badge/Stars-5,999-yellow) ![Forks](https://img.shields.io/badge/Forks-663-blue) ![Language](https://img.shields.io/badge/Language-Python-green)
+![Stars](https://img.shields.io/badge/Stars-6,012-yellow) ![Forks](https://img.shields.io/badge/Forks-663-blue) ![Language](https://img.shields.io/badge/Language-Python-green)
 
 **Description:** OCR model that handles complex tables, forms, handwriting with full layout.
 
 **Stats:**
-- **Total Stars:** 5,999
+- **Total Stars:** 6,012
 - **Forks:** 663
 - **Today:** 546 stars today
 - **Language:** Python
@@ -101,12 +101,12 @@
 
 ### 5. [usestrix/strix](https://github.com/usestrix/strix)
 
-![Stars](https://img.shields.io/badge/Stars-22,017-yellow) ![Forks](https://img.shields.io/badge/Forks-2,322-blue) ![Language](https://img.shields.io/badge/Language-Python-green)
+![Stars](https://img.shields.io/badge/Stars-22,018-yellow) ![Forks](https://img.shields.io/badge/Forks-2,322-blue) ![Language](https://img.shields.io/badge/Language-Python-green)
 
 **Description:** Open-source AI hackers to find and fix your app’s vulnerabilities.
 
 **Stats:**
-- **Total Stars:** 22,017
+- **Total Stars:** 22,018
 - **Forks:** 2,322
 - **Today:** 609 stars today
 - **Language:** Python
@@ -117,12 +117,12 @@
 
 ### 6. [p-e-w/heretic](https://github.com/p-e-w/heretic)
 
-![Stars](https://img.shields.io/badge/Stars-17,379-yellow) ![Forks](https://img.shields.io/badge/Forks-1,734-blue) ![Language](https://img.shields.io/badge/Language-Python-green)
+![Stars](https://img.shields.io/badge/Stars-17,382-yellow) ![Forks](https://img.shields.io/badge/Forks-1,734-blue) ![Language](https://img.shields.io/badge/Language-Python-green)
 
 **Description:** Fully automatic censorship removal for language models
 
 **Stats:**
-- **Total Stars:** 17,379
+- **Total Stars:** 17,382
 - **Forks:** 1,734
 - **Today:** 233 stars today
 - **Language:** Python
@@ -149,12 +149,12 @@
 
 ### 8. [hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code)
 
-![Stars](https://img.shields.io/badge/Stars-32,739-yellow) ![Forks](https://img.shields.io/badge/Forks-2,299-blue) ![Language](https://img.shields.io/badge/Language-Python-green)
+![Stars](https://img.shields.io/badge/Stars-32,744-yellow) ![Forks](https://img.shields.io/badge/Forks-2,299-blue) ![Language](https://img.shields.io/badge/Language-Python-green)
 
 **Description:** A curated list of awesome skills, hooks, slash-commands, agent orchestrators, applications, and plugins for Claude Code by Anthropic
 
 **Stats:**
-- **Total Stars:** 32,739
+- **Total Stars:** 32,744
 - **Forks:** 2,299
 - **Today:** 352 stars today
 - **Language:** Python
@@ -165,12 +165,12 @@
 
 ### 9. [trustgraph-ai/trustgraph](https://github.com/trustgraph-ai/trustgraph)
 
-![Stars](https://img.shields.io/badge/Stars-1,561-yellow) ![Forks](https://img.shields.io/badge/Forks-148-blue) ![Language](https://img.shields.io/badge/Language-Python-green)
+![Stars](https://img.shields.io/badge/Stars-1,563-yellow) ![Forks](https://img.shields.io/badge/Forks-148-blue) ![Language](https://img.shields.io/badge/Language-Python-green)
 
 **Description:** The context development platform. Store, enrich, and retrieve structured knowledge with graph-native infrastructure, semantic retrieval, and portable context cores.
 
 **Stats:**
-- **Total Stars:** 1,561
+- **Total Stars:** 1,563
 - **Forks:** 148
 - **Today:** 57 stars today
 - **Language:** Python
@@ -181,12 +181,12 @@
 
 ### 10. [datawhalechina/hello-agents](https://github.com/datawhalechina/hello-agents)
 
-![Stars](https://img.shields.io/badge/Stars-31,170-yellow) ![Forks](https://img.shields.io/badge/Forks-3,534-blue) ![Language](https://img.shields.io/badge/Language-Python-green)
+![Stars](https://img.shields.io/badge/Stars-31,171-yellow) ![Forks](https://img.shields.io/badge/Forks-3,534-blue) ![Language](https://img.shields.io/badge/Language-Python-green)
 
 **Description:** 📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程
 
 **Stats:**
-- **Total Stars:** 31,170
+- **Total Stars:** 31,171
 - **Forks:** 3,534
 - **Today:** 607 stars today
 - **Language:** Python
@@ -197,12 +197,12 @@
 
 ### 11. [anthropics/skills](https://github.com/anthropics/skills)
 
-![Stars](https://img.shields.io/badge/Stars-103,692-yellow) ![Forks](https://img.shields.io/badge/Forks-11,408-blue) ![Language](https://img.shields.io/badge/Language-Python-green)
+![Stars](https://img.shields.io/badge/Stars-103,698-yellow) ![Forks](https://img.shields.io/badge/Forks-11,408-blue) ![Language](https://img.shields.io/badge/Language-Python-green)
 
 **Description:** Public repository for Agent Skills
 
 **Stats:**
-- **Total Stars:** 103,692
+- **Total Stars:** 103,698
 - **Forks:** 11,408
 - **Today:** 902 stars today
 - **Language:** Python
@@ -213,12 +213,12 @@
 
 ### 12. [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo)
 
-![Stars](https://img.shields.io/badge/Stars-53,343-yellow) ![Forks](https://img.shields.io/badge/Forks-7,541-blue) ![Language](https://img.shields.io/badge/Language-Python-green)
+![Stars](https://img.shields.io/badge/Stars-53,344-yellow) ![Forks](https://img.shields.io/badge/Forks-7,541-blue) ![Language](https://img.shields.io/badge/Language-Python-green)
 
 **Description:** 利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.
 
 **Stats:**
-- **Total Stars:** 53,343
+- **Total Stars:** 53,344
 - **Forks:** 7,541
 - **Today:** 237 stars today
 - **Language:** Python

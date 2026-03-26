@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C Trending - Week 13 - 2026</title>
+
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+                line-height: 1.6;
+                color: #111827;
+                background: #F8F9FA;
+                min-height: 100vh;
+            }
+
+            .container {
+                max-width: 1400px;
+                margin: 0 auto;
+                background: #FFFFFF;
+                min-height: 100vh;
+                box-shadow: 0 0 0 1px #E5E7EB;
+            }
+
+            .header {
+                background: #1E293B;
+                color: white;
+                padding: 2rem 2.5rem;
+                border-bottom: 3px solid #334155;
+            }
+
+            .header h1 {
+                font-size: 1.75rem;
+                margin-bottom: 0.25rem;
+                font-weight: 600;
+                color: #FFFFFF;
+            }
+
+            .header .subtitle {
+                font-size: 0.875rem;
+                color: #94A3B8;
+                font-weight: 400;
+            }
+
+            .summary {
+                background: #F8F9FA;
+                padding: 2rem 2.5rem;
+                border-bottom: 1px solid #E5E7EB;
+            }
+
+            .summary h2 {
+                color: #1E293B;
+                margin-bottom: 1rem;
+                font-size: 1.25rem;
+                font-weight: 600;
+            }
+
+            .summary-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+                gap: 1rem;
+                margin-top: 1rem;
+            }
+
+            .summary-item {
+                background: white;
+                padding: 1.25rem;
+                border-radius: 6px;
+                border: 1px solid #E5E7EB;
+            }
+
+            .summary-item .label {
+                font-size: 0.8125rem;
+                color: #64748B;
+                margin-bottom: 0.5rem;
+                text-transform: uppercase;
+                letter-spacing: 0.05em;
+                font-weight: 500;
+            }
+
+            .summary-item .value {
+                font-size: 1.75rem;
+                font-weight: 600;
+                color: #1E293B;
+            }
+
+            .content {
+                padding: 2rem 2.5rem;
+            }
+
+            .section-title {
+                font-size: 1.5rem;
+                color: #1E293B;
+                margin-bottom: 1.5rem;
+                padding-bottom: 0.75rem;
+                border-bottom: 2px solid #E5E7EB;
+                font-weight: 600;
+            }
+
+            .badge {
+                display: inline-block;
+                padding: 0.25rem 0.625rem;
+                border-radius: 4px;
+                font-size: 0.75rem;
+                font-weight: 500;
+                margin-right: 0.5rem;
+            }
+
+            .badge-stars {
+                background: #FEF3C7;
+                color: #92400E;
+            }
+
+            .badge-forks {
+                background: #DBEAFE;
+                color: #1E40AF;
+            }
+
+            .badge-language {
+                background: #D1FAE5;
+                color: #065F46;
+            }
+
+            .badge-today {
+                background: #FEE2E2;
+                color: #991B1B;
+            }
+
+            .badge-consistent {
+                background: #D1FAE5;
+                color: #065F46;
+            }
+
+            .badge-trending {
+                background: #FEF3C7;
+                color: #92400E;
+            }
+
+            .badge-new {
+                background: #DBEAFE;
+                color: #1E40AF;
+            }
+
+            .footer {
+                background: #F8F9FA;
+                padding: 1.5rem 2.5rem;
+                text-align: center;
+                color: #64748B;
+                font-size: 0.8125rem;
+                border-top: 1px solid #E5E7EB;
+            }
+
+            @media (max-width: 768px) {
+                .header {
+                    padding: 1.5rem;
+                }
+
+                .summary {
+                    padding: 1.5rem;
+                }
+
+                .content {
+                    padding: 1.5rem;
+                }
+
+                .summary-grid {
+                    grid-template-columns: 1fr;
+                }
+            }
+        </style>
+        
+        <style>
+            .section {
+                margin-bottom: 2rem;
+            }
+
+            .repo-table {
+                width: 100%;
+                border-collapse: collapse;
+                background: white;
+                border: 1px solid #E5E7EB;
+                border-radius: 6px;
+                overflow: hidden;
+                font-size: 0.9375rem;
+            }
+
+            .repo-table th {
+                background: #F8F9FA;
+                padding: 0.875rem 1rem;
+                text-align: left;
+                font-weight: 600;
+                color: #1E293B;
+                border-bottom: 2px solid #E5E7EB;
+                font-size: 0.8125rem;
+                text-transform: uppercase;
+                letter-spacing: 0.05em;
+            }
+
+            .repo-table td {
+                padding: 1rem;
+                border-bottom: 1px solid #E5E7EB;
+                vertical-align: middle;
+            }
+
+            .repo-table tbody tr {
+                transition: background-color 0.15s;
+            }
+
+            .repo-table tbody tr:nth-child(even) {
+                background: #F8F9FA;
+            }
+
+            .repo-table tbody tr:hover {
+                background: #F1F5F9;
+            }
+
+            .repo-table tr:last-child td {
+                border-bottom: none;
+            }
+
+            .repo-name {
+                font-weight: 600;
+            }
+
+            .repo-name a {
+                color: #1E293B;
+                text-decoration: none;
+            }
+
+            .repo-name a:hover {
+                color: #334155;
+                text-decoration: underline;
+            }
+
+            .repo-description {
+                color: #64748B;
+                font-size: 0.875rem;
+                margin-top: 0.25rem;
+                line-height: 1.5;
+            }
+
+            .rank-badge {
+                background: #334155;
+                color: white;
+                min-width: 28px;
+                height: 28px;
+                border-radius: 4px;
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                font-weight: 600;
+                font-size: 0.8125rem;
+            }
+
+            .appearances {
+                color: #059669;
+                font-weight: 600;
+            }
+
+            .stats-inline {
+                color: #64748B;
+                font-size: 0.875rem;
+            }
+
+            .contributors {
+                font-size: 0.75rem;
+                color: #64748B;
+            }
+
+            .contributor-link {
+                color: #334155;
+                text-decoration: none;
+                font-weight: 500;
+            }
+
+            .contributor-link:hover {
+                text-decoration: underline;
+                color: #1E293B;
+            }
+
+            @media (max-width: 768px) {
+                .repo-table {
+                    font-size: 0.875rem;
+                }
+
+                .repo-table th,
+                .repo-table td {
+                    padding: 0.625rem 0.75rem;
+                }
+            }
+        </style>
+        
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>C Trending Repositories</h1>
+            <div class="subtitle">Week 13 - 2026</div>
+            <div class="subtitle">2026-03-23 to 2026-03-29</div>
+        </div>
+        <div class="summary">
+            <h2>Summary</h2>
+            <div class="summary-grid">
+                <div class="summary-item">
+                    <div class="label">Period</div>
+                    <div class="value">Week 13 - 2026</div>
+                </div>
+                <div class="summary-item">
+                    <div class="label">Days Analyzed</div>
+                    <div class="value">1</div>
+                </div>
+                <div class="summary-item">
+                    <div class="label">Unique Repos</div>
+                    <div class="value">16</div>
+                </div>
+                <div class="summary-item">
+                    <div class="label">Language</div>
+                    <div class="value">C</div>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="section">
+                <h2 class="section-title">Top Trending Repositories</h2>
+                <table class="repo-table">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Repository</th>
+                            <th>Days</th>
+                            <th>Best Rank</th>
+                            <th>Stars</th>
+                            <th>Forks</th>
+                            <th>Language</th>
+                            <th>Built By</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+            <tr>
+                <td><span class="rank-badge">1</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/paxx12/SnapmakerU1-Extended-Firmware" target="_blank">paxx12/SnapmakerU1-Extended-Firmware</a></div>
+                    <div class="repo-description">Custom and repackaged Snapmaker U1 firmware</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#1</td>
+                <td class="stats-inline">470</td>
+                <td class="stats-inline">60</td>
+                <td class="stats-inline">C</td>
+                <td class="contributors"><a href="https://github.com/QuinnDamerell" class="contributor-link">@QuinnDamerell</a>, <a href="https://github.com/horzadome" class="contributor-link">@horzadome</a>, <a href="https://github.com/justinh-rahb" class="contributor-link">@justinh-rahb</a>, <a href="https://github.com/paxx12" class="contributor-link">@paxx12</a>, <a href="https://github.com/suchmememanyskill" class="contributor-link">@suchmememanyskill</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">2</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/zephyrproject-rtos/zephyr" target="_blank">zephyrproject-rtos/zephyr</a></div>
+                    <div class="repo-description">Primary Git Repository for the Zephyr Project. Zephyr is a new generation, scalable, optimized, secure RTOS for multiple hardware architectures.</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#2</td>
+                <td class="stats-inline">14,815</td>
+                <td class="stats-inline">8,867</td>
+                <td class="stats-inline">C</td>
+                <td class="contributors"><a href="https://github.com/cvinayak" class="contributor-link">@cvinayak</a>, <a href="https://github.com/galak" class="contributor-link">@galak</a>, <a href="https://github.com/gmarull" class="contributor-link">@gmarull</a>, <a href="https://github.com/jukkar" class="contributor-link">@jukkar</a>, <a href="https://github.com/nashif" class="contributor-link">@nashif</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">3</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/PufferAI/PufferLib" target="_blank">PufferAI/PufferLib</a></div>
+                    <div class="repo-description">Simplifying reinforcement learning for complex game environments</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#3</td>
+                <td class="stats-inline">5,310</td>
+                <td class="stats-inline">415</td>
+                <td class="stats-inline">C</td>
+                <td class="contributors"><a href="https://github.com/Kinvert" class="contributor-link">@Kinvert</a>, <a href="https://github.com/PLAZMAMA" class="contributor-link">@PLAZMAMA</a>, <a href="https://github.com/jsuarez5341" class="contributor-link">@jsuarez5341</a>, <a href="https://github.com/kywch" class="contributor-link">@kywch</a>, <a href="https://github.com/l1onh3art88" class="contributor-link">@l1onh3art88</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">4</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/git/git" target="_blank">git/git</a></div>
+                    <div class="repo-description">Git Source Code Mirror - This is a publish-only repository but pull requests can be turned into patches to the mailing list via GitGitGadget (https://gitgitgadget.github.io/). Please follow Documentation/SubmittingPatches procedure for any of your improvements.</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#4</td>
+                <td class="stats-inline">59,930</td>
+                <td class="stats-inline">27,701</td>
+                <td class="stats-inline">C</td>
+                <td class="contributors"><a href="https://github.com/avar" class="contributor-link">@avar</a>, <a href="https://github.com/dscho" class="contributor-link">@dscho</a>, <a href="https://github.com/gitster" class="contributor-link">@gitster</a>, <a href="https://github.com/peff" class="contributor-link">@peff</a>, <a href="https://github.com/pks-t" class="contributor-link">@pks-t</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">5</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/taosdata/TDengine" target="_blank">taosdata/TDengine</a></div>
+                    <div class="repo-description">High-performance, scalable time-series database designed for Industrial IoT (IIoT) scenarios</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#5</td>
+                <td class="stats-inline">24,791</td>
+                <td class="stats-inline">5,003</td>
+                <td class="stats-inline">C</td>
+                <td class="contributors"><a href="https://github.com/dapan1121" class="contributor-link">@dapan1121</a>, <a href="https://github.com/guanshengliang" class="contributor-link">@guanshengliang</a>, <a href="https://github.com/hjxilinx" class="contributor-link">@hjxilinx</a>, <a href="https://github.com/hzcheng" class="contributor-link">@hzcheng</a>, <a href="https://github.com/yihaoDeng" class="contributor-link">@yihaoDeng</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">6</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/portapack-mayhem/mayhem-firmware" target="_blank">portapack-mayhem/mayhem-firmware</a></div>
+                    <div class="repo-description">The firmware for the HackRF+PortaPack H1/H2/H4/H4M</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#6</td>
+                <td class="stats-inline">4,986</td>
+                <td class="stats-inline">852</td>
+                <td class="stats-inline">C</td>
+                <td class="contributors"><a href="https://github.com/NotherNgineer" class="contributor-link">@NotherNgineer</a>, <a href="https://github.com/eried" class="contributor-link">@eried</a>, <a href="https://github.com/furrtek" class="contributor-link">@furrtek</a>, <a href="https://github.com/gullradriel" class="contributor-link">@gullradriel</a>, <a href="https://github.com/jboone" class="contributor-link">@jboone</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">7</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/hathach/tinyusb" target="_blank">hathach/tinyusb</a></div>
+                    <div class="repo-description">An open source cross-platform USB stack for embedded system</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#7</td>
+                <td class="stats-inline">6,640</td>
+                <td class="stats-inline">1,385</td>
+                <td class="stats-inline">C</td>
+                <td class="contributors"><a href="https://github.com/HiFiPhile" class="contributor-link">@HiFiPhile</a>, <a href="https://github.com/cr1901" class="contributor-link">@cr1901</a>, <a href="https://github.com/hathach" class="contributor-link">@hathach</a>, <a href="https://github.com/kkitayam" class="contributor-link">@kkitayam</a>, <a href="https://github.com/pigrew" class="contributor-link">@pigrew</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">8</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/nginx/nginx" target="_blank">nginx/nginx</a></div>
+                    <div class="repo-description">The official NGINX Open Source repository.</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#8</td>
+                <td class="stats-inline">29,782</td>
+                <td class="stats-inline">7,824</td>
+                <td class="stats-inline">C</td>
+                <td class="contributors"><a href="https://github.com/VBart" class="contributor-link">@VBart</a>, <a href="https://github.com/arut" class="contributor-link">@arut</a>, <a href="https://github.com/mdounin" class="contributor-link">@mdounin</a>, <a href="https://github.com/pluknet" class="contributor-link">@pluknet</a>, <a href="https://github.com/vl-homutov" class="contributor-link">@vl-homutov</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">9</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/openssl/openssl" target="_blank">openssl/openssl</a></div>
+                    <div class="repo-description">TLS/SSL and crypto library</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#9</td>
+                <td class="stats-inline">29,842</td>
+                <td class="stats-inline">11,156</td>
+                <td class="stats-inline">C</td>
+                <td class="contributors"><a href="https://github.com/dot-asm" class="contributor-link">@dot-asm</a>, <a href="https://github.com/levitte" class="contributor-link">@levitte</a>, <a href="https://github.com/mattcaswell" class="contributor-link">@mattcaswell</a>, <a href="https://github.com/paulidale" class="contributor-link">@paulidale</a>, <a href="https://github.com/snhenson" class="contributor-link">@snhenson</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">10</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/nanopb/nanopb" target="_blank">nanopb/nanopb</a></div>
+                    <div class="repo-description">Protocol Buffers with small code size</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#10</td>
+                <td class="stats-inline">5,276</td>
+                <td class="stats-inline">998</td>
+                <td class="stats-inline">C</td>
+                <td class="contributors"><a href="https://github.com/PetteriAimonen" class="contributor-link">@PetteriAimonen</a>, <a href="https://github.com/joshstrohminger" class="contributor-link">@joshstrohminger</a>, <a href="https://github.com/kylemanna" class="contributor-link">@kylemanna</a>, <a href="https://github.com/oliverlee" class="contributor-link">@oliverlee</a>, <a href="https://github.com/theunkn0wn1" class="contributor-link">@theunkn0wn1</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">11</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/Cyan4973/xxHash" target="_blank">Cyan4973/xxHash</a></div>
+                    <div class="repo-description">Extremely fast non-cryptographic hash algorithm</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#11</td>
+                <td class="stats-inline">10,954</td>
+                <td class="stats-inline">890</td>
+                <td class="stats-inline">C</td>
+                <td class="contributors"><a href="https://github.com/Cyan4973" class="contributor-link">@Cyan4973</a>, <a href="https://github.com/WayneD" class="contributor-link">@WayneD</a>, <a href="https://github.com/dependabot" class="contributor-link">@dependabot</a>, <a href="https://github.com/easyaspi314" class="contributor-link">@easyaspi314</a>, <a href="https://github.com/t-mat" class="contributor-link">@t-mat</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">12</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/DoctorWkt/acwj" target="_blank">DoctorWkt/acwj</a></div>
+                    <div class="repo-description">A Compiler Writing Journey</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#12</td>
+                <td class="stats-inline">13,112</td>
+                <td class="stats-inline">1,181</td>
+                <td class="stats-inline">C</td>
+                <td class="contributors"><a href="https://github.com/DoctorWkt" class="contributor-link">@DoctorWkt</a>, <a href="https://github.com/caballeto" class="contributor-link">@caballeto</a>, <a href="https://github.com/davidbuzz" class="contributor-link">@davidbuzz</a>, <a href="https://github.com/the-grue" class="contributor-link">@the-grue</a>, <a href="https://github.com/zuluoaaa" class="contributor-link">@zuluoaaa</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">13</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/containers/bubblewrap" target="_blank">containers/bubblewrap</a></div>
+                    <div class="repo-description">Low-level unprivileged sandboxing tool used by Flatpak and similar projects</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#13</td>
+                <td class="stats-inline">6,294</td>
+                <td class="stats-inline">299</td>
+                <td class="stats-inline">C</td>
+                <td class="contributors"><a href="https://github.com/alexlarsson" class="contributor-link">@alexlarsson</a>, <a href="https://github.com/cgwalters" class="contributor-link">@cgwalters</a>, <a href="https://github.com/giuseppe" class="contributor-link">@giuseppe</a>, <a href="https://github.com/pwithnall" class="contributor-link">@pwithnall</a>, <a href="https://github.com/smcv" class="contributor-link">@smcv</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">14</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/sonic-net/sonic-buildimage" target="_blank">sonic-net/sonic-buildimage</a></div>
+                    <div class="repo-description">Scripts which perform an installable binary image build for SONiC</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#14</td>
+                <td class="stats-inline">943</td>
+                <td class="stats-inline">1,772</td>
+                <td class="stats-inline">C</td>
+                <td class="contributors"><a href="https://github.com/jleveque" class="contributor-link">@jleveque</a>, <a href="https://github.com/lguohan" class="contributor-link">@lguohan</a>, <a href="https://github.com/mssonicbld" class="contributor-link">@mssonicbld</a>, <a href="https://github.com/qiluo-msft" class="contributor-link">@qiluo-msft</a>, <a href="https://github.com/saiarcot895" class="contributor-link">@saiarcot895</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">15</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/libarchive/libarchive" target="_blank">libarchive/libarchive</a></div>
+                    <div class="repo-description">Multi-format archive and compression library</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#15</td>
+                <td class="stats-inline">3,451</td>
+                <td class="stats-inline">904</td>
+                <td class="stats-inline">C</td>
+                <td class="contributors"><a href="https://github.com/amejia1" class="contributor-link">@amejia1</a>, <a href="https://github.com/ggcueroad" class="contributor-link">@ggcueroad</a>, <a href="https://github.com/kientzle" class="contributor-link">@kientzle</a>, <a href="https://github.com/mmatuska" class="contributor-link">@mmatuska</a>, <a href="https://github.com/stoeckmann" class="contributor-link">@stoeckmann</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">16</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/the-tcpdump-group/libpcap" target="_blank">the-tcpdump-group/libpcap</a></div>
+                    <div class="repo-description">the LIBpcap interface to various kernel packet capture mechanism</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#16</td>
+                <td class="stats-inline">3,080</td>
+                <td class="stats-inline">926</td>
+                <td class="stats-inline">C</td>
+                <td class="contributors"><a href="https://github.com/fxlb" class="contributor-link">@fxlb</a>, <a href="https://github.com/guyharris" class="contributor-link">@guyharris</a>, <a href="https://github.com/infrastation" class="contributor-link">@infrastation</a>, <a href="https://github.com/mcr" class="contributor-link">@mcr</a>, <a href="https://github.com/yuguy" class="contributor-link">@yuguy</a></td>
+            </tr>
+        
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="footer">
+            <p>Generated on 2026-03-29</p>
+            <p>GitHub Trending Scraper</p>
+        </div>
+    </div>
+</body>
+</html>
