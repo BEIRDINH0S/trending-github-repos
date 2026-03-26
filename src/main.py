@@ -5,22 +5,27 @@ from typing import List
 from aggregator import TrendingAggregator
 from core import DEFAULT_OUTPUT_DIR, VALID_OUTPUT_FORMATS, OutputFormat
 from index_generator import IndexGenerator
-from renderers import CSVRenderer, HTMLRenderer, JSONRenderer, MarkdownRenderer, PeriodRenderer
+from renderers import (
+    CSVRenderer,
+    HTMLRenderer,
+    JSONRenderer,
+    MarkdownRenderer,
+    PeriodRenderer,
+)
 from scraper import GitHubTrendingScraper
 
 # Configuration du logging
 logging.basicConfig(
     level=logging.INFO,
-    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
-    datefmt='%Y-%m-%d %H:%M:%S'
+    format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+    datefmt="%Y-%m-%d %H:%M:%S",
 )
 
 logger = logging.getLogger(__name__)
 
 
 def generate_period_reports(
-    languages: List[str],
-    output_dir: str = DEFAULT_OUTPUT_DIR
+    languages: List[str], output_dir: str = DEFAULT_OUTPUT_DIR
 ) -> None:
     """Génère les rapports hebdomadaires et mensuels.
 
@@ -42,13 +47,17 @@ def generate_period_reports(
 
     for lang in languages:
         # Rapport hebdomadaire
-        logger.info("Génération du rapport hebdomadaire pour %s (semaine %d)", lang, week)
+        logger.info(
+            "Génération du rapport hebdomadaire pour %s (semaine %d)", lang, week
+        )
         try:
             weekly_data = aggregator.aggregate_weekly(lang, year, week)
             if weekly_data:
                 period_renderer.render(weekly_data, "weekly")
             else:
-                logger.warning("Pas assez de données pour le rapport hebdomadaire de %s", lang)
+                logger.warning(
+                    "Pas assez de données pour le rapport hebdomadaire de %s", lang
+                )
         except Exception as e:
             logger.error("Erreur lors du rapport hebdomadaire pour %s: %s", lang, e)
 
@@ -59,7 +68,9 @@ def generate_period_reports(
             if monthly_data:
                 period_renderer.render(monthly_data, "monthly")
             else:
-                logger.warning("Pas assez de données pour le rapport mensuel de %s", lang)
+                logger.warning(
+                    "Pas assez de données pour le rapport mensuel de %s", lang
+                )
         except Exception as e:
             logger.error("Erreur lors du rapport mensuel pour %s: %s", lang, e)
 
@@ -68,7 +79,7 @@ def main(
     languages: List[str],
     output_formats: List[str] = None,
     output_dir: str = DEFAULT_OUTPUT_DIR,
-    generate_periods: bool = True
+    generate_periods: bool = True,
 ) -> None:
     """Point d'entrée principal du scraper.
 
@@ -103,7 +114,7 @@ def main(
         OutputFormat.HTML.value: HTMLRenderer,
         OutputFormat.MARKDOWN.value: MarkdownRenderer,
         OutputFormat.JSON.value: JSONRenderer,
-        OutputFormat.CSV.value: CSVRenderer
+        OutputFormat.CSV.value: CSVRenderer,
     }
 
     # Générer les rapports dans chaque format
@@ -128,10 +139,7 @@ def main(
                     renderer.render(lang, data)
                 except Exception as e:
                     logger.error(
-                        "Erreur lors du rendu %s pour %s: %s",
-                        format_value,
-                        lang,
-                        e
+                        "Erreur lors du rendu %s pour %s: %s", format_value, lang, e
                     )
 
     # Générer les rapports de période
@@ -154,7 +162,7 @@ def main(
 
 if __name__ == "__main__":
     # Configuration
-    MY_LANGUAGES = ["python", "javascript"]
+    MY_LANGUAGES = ["python", "javascript", "typescript", "rust", "go", "c", "c++"]
     MY_FORMATS = VALID_OUTPUT_FORMATS  # Tous les formats
     MY_OUTPUT_DIR = DEFAULT_OUTPUT_DIR  # Pour GitHub Pages
     GENERATE_PERIODS = True  # Générer rapports hebdomadaires/mensuels
@@ -164,5 +172,5 @@ if __name__ == "__main__":
         languages=MY_LANGUAGES,
         output_formats=MY_FORMATS,
         output_dir=MY_OUTPUT_DIR,
-        generate_periods=GENERATE_PERIODS
+        generate_periods=GENERATE_PERIODS,
     )
