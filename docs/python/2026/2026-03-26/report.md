@@ -9,8 +9,8 @@
 
 - **Date:** 2026-03-26
 - **Total Repositories:** 13
-- **Total Stars:** 371,817
-- **Total Forks:** 42,973
+- **Total Stars:** 371,875
+- **Total Forks:** 42,981
 - **Language:** Python
 
 ---
@@ -37,13 +37,13 @@
 
 ### 1. [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill)
 
-![Stars](https://img.shields.io/badge/Stars-9,775-yellow) ![Forks](https://img.shields.io/badge/Forks-851-blue) ![Language](https://img.shields.io/badge/Language-Python-green)
+![Stars](https://img.shields.io/badge/Stars-9,798-yellow) ![Forks](https://img.shields.io/badge/Forks-852-blue) ![Language](https://img.shields.io/badge/Language-Python-green)
 
 **Description:** AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary
 
 **Stats:**
-- **Total Stars:** 9,775
-- **Forks:** 851
+- **Total Stars:** 9,798
+- **Forks:** 852
 - **Today:** 2,684 stars today
 - **Language:** Python
 
@@ -53,12 +53,12 @@
 
 ### 2. [bytedance/deer-flow](https://github.com/bytedance/deer-flow)
 
-![Stars](https://img.shields.io/badge/Stars-48,115-yellow) ![Forks](https://img.shields.io/badge/Forks-5,729-blue) ![Language](https://img.shields.io/badge/Language-Python-green)
+![Stars](https://img.shields.io/badge/Stars-48,122-yellow) ![Forks](https://img.shields.io/badge/Forks-5,729-blue) ![Language](https://img.shields.io/badge/Language-Python-green)
 
 **Description:** An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.
 
 **Stats:**
-- **Total Stars:** 48,115
+- **Total Stars:** 48,122
 - **Forks:** 5,729
 - **Today:** 2,388 stars today
 - **Language:** Python
@@ -69,13 +69,13 @@
 
 ### 3. [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope)
 
-![Stars](https://img.shields.io/badge/Stars-20,273-yellow) ![Forks](https://img.shields.io/badge/Forks-1,974-blue) ![Language](https://img.shields.io/badge/Language-Python-green)
+![Stars](https://img.shields.io/badge/Stars-20,276-yellow) ![Forks](https://img.shields.io/badge/Forks-1,976-blue) ![Language](https://img.shields.io/badge/Language-Python-green)
 
 **Description:** Build and run agents you can see, understand and trust.
 
 **Stats:**
-- **Total Stars:** 20,273
-- **Forks:** 1,974
+- **Total Stars:** 20,276
+- **Forks:** 1,976
 - **Today:** 439 stars today
 - **Language:** Python
 
@@ -85,12 +85,12 @@
 
 ### 4. [datalab-to/chandra](https://github.com/datalab-to/chandra)
 
-![Stars](https://img.shields.io/badge/Stars-5,994-yellow) ![Forks](https://img.shields.io/badge/Forks-663-blue) ![Language](https://img.shields.io/badge/Language-Python-green)
+![Stars](https://img.shields.io/badge/Stars-5,999-yellow) ![Forks](https://img.shields.io/badge/Forks-663-blue) ![Language](https://img.shields.io/badge/Language-Python-green)
 
 **Description:** OCR model that handles complex tables, forms, handwriting with full layout.
 
 **Stats:**
-- **Total Stars:** 5,994
+- **Total Stars:** 5,999
 - **Forks:** 663
 - **Today:** 546 stars today
 - **Language:** Python
@@ -117,12 +117,12 @@
 
 ### 6. [p-e-w/heretic](https://github.com/p-e-w/heretic)
 
-![Stars](https://img.shields.io/badge/Stars-17,374-yellow) ![Forks](https://img.shields.io/badge/Forks-1,734-blue) ![Language](https://img.shields.io/badge/Language-Python-green)
+![Stars](https://img.shields.io/badge/Stars-17,379-yellow) ![Forks](https://img.shields.io/badge/Forks-1,734-blue) ![Language](https://img.shields.io/badge/Language-Python-green)
 
 **Description:** Fully automatic censorship removal for language models
 
 **Stats:**
-- **Total Stars:** 17,374
+- **Total Stars:** 17,379
 - **Forks:** 1,734
 - **Today:** 233 stars today
 - **Language:** Python
@@ -133,12 +133,12 @@
 
 ### 7. [hsliuping/TradingAgents-CN](https://github.com/hsliuping/TradingAgents-CN)
 
-![Stars](https://img.shields.io/badge/Stars-21,651-yellow) ![Forks](https://img.shields.io/badge/Forks-4,480-blue) ![Language](https://img.shields.io/badge/Language-Python-green)
+![Stars](https://img.shields.io/badge/Stars-21,653-yellow) ![Forks](https://img.shields.io/badge/Forks-4,480-blue) ![Language](https://img.shields.io/badge/Language-Python-green)
 
 **Description:** 基于多智能体LLM的中文金融交易框架 - TradingAgents中文增强版
 
 **Stats:**
-- **Total Stars:** 21,651
+- **Total Stars:** 21,653
 - **Forks:** 4,480
 - **Today:** 451 stars today
 - **Language:** Python
@@ -149,13 +149,13 @@
 
 ### 8. [hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code)
 
-![Stars](https://img.shields.io/badge/Stars-32,734-yellow) ![Forks](https://img.shields.io/badge/Forks-2,298-blue) ![Language](https://img.shields.io/badge/Language-Python-green)
+![Stars](https://img.shields.io/badge/Stars-32,739-yellow) ![Forks](https://img.shields.io/badge/Forks-2,299-blue) ![Language](https://img.shields.io/badge/Language-Python-green)
 
 **Description:** A curated list of awesome skills, hooks, slash-commands, agent orchestrators, applications, and plugins for Claude Code by Anthropic
 
 **Stats:**
-- **Total Stars:** 32,734
-- **Forks:** 2,298
+- **Total Stars:** 32,739
+- **Forks:** 2,299
 - **Today:** 352 stars today
 - **Language:** Python
 
@@ -197,13 +197,13 @@
 
 ### 11. [anthropics/skills](https://github.com/anthropics/skills)
 
-![Stars](https://img.shields.io/badge/Stars-103,685-yellow) ![Forks](https://img.shields.io/badge/Forks-11,404-blue) ![Language](https://img.shields.io/badge/Language-Python-green)
+![Stars](https://img.shields.io/badge/Stars-103,692-yellow) ![Forks](https://img.shields.io/badge/Forks-11,408-blue) ![Language](https://img.shields.io/badge/Language-Python-green)
 
 **Description:** Public repository for Agent Skills
 
 **Stats:**
-- **Total Stars:** 103,685
-- **Forks:** 11,404
+- **Total Stars:** 103,692
+- **Forks:** 11,408
 - **Today:** 902 stars today
 - **Language:** Python
 
@@ -229,12 +229,12 @@
 
 ### 13. [deepseek-ai/Engram](https://github.com/deepseek-ai/Engram)
 
-![Stars](https://img.shields.io/badge/Stars-4,125-yellow) ![Forks](https://img.shields.io/badge/Forks-295-blue) ![Language](https://img.shields.io/badge/Language-Python-green)
+![Stars](https://img.shields.io/badge/Stars-4,126-yellow) ![Forks](https://img.shields.io/badge/Forks-295-blue) ![Language](https://img.shields.io/badge/Language-Python-green)
 
 **Description:** Conditional Memory via Scalable Lookup: A New Axis of Sparsity for Large Language Models
 
 **Stats:**
-- **Total Stars:** 4,125
+- **Total Stars:** 4,126
 - **Forks:** 295
 - **Today:** 71 stars today
 - **Language:** Python

@@ -9,8 +9,8 @@
 
 - **Date:** 2026-03-26
 - **Total Repositories:** 12
-- **Total Stars:** 430,713
-- **Total Forks:** 76,086
+- **Total Stars:** 430,739
+- **Total Forks:** 76,088
 - **Language:** Javascript
 
 ---
@@ -36,13 +36,13 @@
 
 ### 1. [affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code)
 
-![Stars](https://img.shields.io/badge/Stars-109,981-yellow) ![Forks](https://img.shields.io/badge/Forks-14,356-blue) ![Language](https://img.shields.io/badge/Language-JavaScript-green)
+![Stars](https://img.shields.io/badge/Stars-110,004-yellow) ![Forks](https://img.shields.io/badge/Forks-14,357-blue) ![Language](https://img.shields.io/badge/Language-JavaScript-green)
 
 **Description:** The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.
 
 **Stats:**
-- **Total Stars:** 109,981
-- **Forks:** 14,356
+- **Total Stars:** 110,004
+- **Forks:** 14,357
 - **Today:** 2,712 stars today
 - **Language:** JavaScript
 
@@ -52,12 +52,12 @@
 
 ### 2. [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills)
 
-![Stars](https://img.shields.io/badge/Stars-16,745-yellow) ![Forks](https://img.shields.io/badge/Forks-2,509-blue) ![Language](https://img.shields.io/badge/Language-JavaScript-green)
+![Stars](https://img.shields.io/badge/Stars-16,747-yellow) ![Forks](https://img.shields.io/badge/Forks-2,509-blue) ![Language](https://img.shields.io/badge/Language-JavaScript-green)
 
 **Description:** Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.
 
 **Stats:**
-- **Total Stars:** 16,745
+- **Total Stars:** 16,747
 - **Forks:** 2,509
 - **Today:** 315 stars today
 - **Language:** JavaScript
@@ -116,12 +116,12 @@
 
 ### 6. [mrdoob/three.js](https://github.com/mrdoob/three.js)
 
-![Stars](https://img.shields.io/badge/Stars-111,579-yellow) ![Forks](https://img.shields.io/badge/Forks-36,316-blue) ![Language](https://img.shields.io/badge/Language-JavaScript-green)
+![Stars](https://img.shields.io/badge/Stars-111,580-yellow) ![Forks](https://img.shields.io/badge/Forks-36,316-blue) ![Language](https://img.shields.io/badge/Language-JavaScript-green)
 
 **Description:** JavaScript 3D Library.
 
 **Stats:**
-- **Total Stars:** 111,579
+- **Total Stars:** 111,580
 - **Forks:** 36,316
 - **Today:** 22 stars today
 - **Language:** JavaScript
@@ -164,13 +164,13 @@
 
 ### 9. [sveltejs/svelte](https://github.com/sveltejs/svelte)
 
-![Stars](https://img.shields.io/badge/Stars-86,140-yellow) ![Forks](https://img.shields.io/badge/Forks-4,831-blue) ![Language](https://img.shields.io/badge/Language-JavaScript-green)
+![Stars](https://img.shields.io/badge/Stars-86,140-yellow) ![Forks](https://img.shields.io/badge/Forks-4,832-blue) ![Language](https://img.shields.io/badge/Language-JavaScript-green)
 
 **Description:** web development for the rest of us
 
 **Stats:**
 - **Total Stars:** 86,140
-- **Forks:** 4,831
+- **Forks:** 4,832
 - **Today:** 5 stars today
 - **Language:** JavaScript
 
