@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trending Rust Repositories - 2026-03-28</title>
+
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+                line-height: 1.6;
+                color: #111827;
+                background: #F8F9FA;
+                min-height: 100vh;
+            }
+
+            .container {
+                max-width: 1400px;
+                margin: 0 auto;
+                background: #FFFFFF;
+                min-height: 100vh;
+                box-shadow: 0 0 0 1px #E5E7EB;
+            }
+
+            .header {
+                background: #1E293B;
+                color: white;
+                padding: 2rem 2.5rem;
+                border-bottom: 3px solid #334155;
+            }
+
+            .header h1 {
+                font-size: 1.75rem;
+                margin-bottom: 0.25rem;
+                font-weight: 600;
+                color: #FFFFFF;
+            }
+
+            .header .subtitle {
+                font-size: 0.875rem;
+                color: #94A3B8;
+                font-weight: 400;
+            }
+
+            .summary {
+                background: #F8F9FA;
+                padding: 2rem 2.5rem;
+                border-bottom: 1px solid #E5E7EB;
+            }
+
+            .summary h2 {
+                color: #1E293B;
+                margin-bottom: 1rem;
+                font-size: 1.25rem;
+                font-weight: 600;
+            }
+
+            .summary-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+                gap: 1rem;
+                margin-top: 1rem;
+            }
+
+            .summary-item {
+                background: white;
+                padding: 1.25rem;
+                border-radius: 6px;
+                border: 1px solid #E5E7EB;
+            }
+
+            .summary-item .label {
+                font-size: 0.8125rem;
+                color: #64748B;
+                margin-bottom: 0.5rem;
+                text-transform: uppercase;
+                letter-spacing: 0.05em;
+                font-weight: 500;
+            }
+
+            .summary-item .value {
+                font-size: 1.75rem;
+                font-weight: 600;
+                color: #1E293B;
+            }
+
+            .content {
+                padding: 2rem 2.5rem;
+            }
+
+            .section-title {
+                font-size: 1.5rem;
+                color: #1E293B;
+                margin-bottom: 1.5rem;
+                padding-bottom: 0.75rem;
+                border-bottom: 2px solid #E5E7EB;
+                font-weight: 600;
+            }
+
+            .badge {
+                display: inline-block;
+                padding: 0.25rem 0.625rem;
+                border-radius: 4px;
+                font-size: 0.75rem;
+                font-weight: 500;
+                margin-right: 0.5rem;
+            }
+
+            .badge-stars {
+                background: #FEF3C7;
+                color: #92400E;
+            }
+
+            .badge-forks {
+                background: #DBEAFE;
+                color: #1E40AF;
+            }
+
+            .badge-language {
+                background: #D1FAE5;
+                color: #065F46;
+            }
+
+            .badge-today {
+                background: #FEE2E2;
+                color: #991B1B;
+            }
+
+            .badge-consistent {
+                background: #D1FAE5;
+                color: #065F46;
+            }
+
+            .badge-trending {
+                background: #FEF3C7;
+                color: #92400E;
+            }
+
+            .badge-new {
+                background: #DBEAFE;
+                color: #1E40AF;
+            }
+
+            .footer {
+                background: #F8F9FA;
+                padding: 1.5rem 2.5rem;
+                text-align: center;
+                color: #64748B;
+                font-size: 0.8125rem;
+                border-top: 1px solid #E5E7EB;
+            }
+
+            @media (max-width: 768px) {
+                .header {
+                    padding: 1.5rem;
+                }
+
+                .summary {
+                    padding: 1.5rem;
+                }
+
+                .content {
+                    padding: 1.5rem;
+                }
+
+                .summary-grid {
+                    grid-template-columns: 1fr;
+                }
+            }
+        </style>
+        
+        <style>
+            .repo-card {
+                background: white;
+                border: 1px solid #E5E7EB;
+                border-radius: 6px;
+                padding: 1.5rem;
+                margin-bottom: 1rem;
+                transition: box-shadow 0.2s, border-color 0.2s;
+            }
+
+            .repo-card:hover {
+                border-color: #334155;
+                box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+            }
+
+            .repo-header {
+                display: flex;
+                align-items: flex-start;
+                gap: 1rem;
+                margin-bottom: 1rem;
+            }
+
+            .repo-rank {
+                background: #334155;
+                color: white;
+                min-width: 36px;
+                height: 36px;
+                border-radius: 4px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-weight: 600;
+                font-size: 1rem;
+                flex-shrink: 0;
+            }
+
+            .repo-title {
+                flex: 1;
+            }
+
+            .repo-title a {
+                color: #1E293B;
+                text-decoration: none;
+                font-size: 1.125rem;
+                font-weight: 600;
+            }
+
+            .repo-title a:hover {
+                color: #334155;
+                text-decoration: underline;
+            }
+
+            .repo-description {
+                color: #64748B;
+                margin-bottom: 1rem;
+                line-height: 1.6;
+                font-size: 0.9375rem;
+            }
+
+            .repo-stats {
+                display: flex;
+                gap: 1.5rem;
+                flex-wrap: wrap;
+                margin-bottom: 1rem;
+            }
+
+            .contributors {
+                margin-top: 1rem;
+                padding-top: 1rem;
+                border-top: 1px solid #E5E7EB;
+            }
+
+            .contributors-label {
+                font-size: 0.8125rem;
+                color: #64748B;
+                margin-bottom: 0.5rem;
+                font-weight: 500;
+            }
+
+            .contributors-list {
+                display: flex;
+                gap: 0.5rem;
+                flex-wrap: wrap;
+            }
+
+            .contributor-link {
+                color: #334155;
+                text-decoration: none;
+                font-size: 0.8125rem;
+                font-weight: 500;
+            }
+
+            .contributor-link:hover {
+                text-decoration: underline;
+                color: #1E293B;
+            }
+        </style>
+        
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Trending Rust Repositories</h1>
+            <div class="subtitle">2026-03-28</div>
+        </div>
+
+        <div class="summary">
+            <h2>Summary</h2>
+            <div class="summary-grid">
+                <div class="summary-item">
+                    <div class="label">Date</div>
+                    <div class="value">2026-03-28</div>
+                </div>
+                <div class="summary-item">
+                    <div class="label">Total Repositories</div>
+                    <div class="value">16</div>
+                </div>
+                <div class="summary-item">
+                    <div class="label">Total Stars</div>
+                    <div class="value">479,463</div>
+                </div>
+                <div class="summary-item">
+                    <div class="label">Total Forks</div>
+                    <div class="value">36,595</div>
+                </div>
+                <div class="summary-item">
+                    <div class="label">Language</div>
+                    <div class="value">Rust</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="content">
+            <h2 class="section-title">Trending Repositories</h2>
+<div class="repo-card">
+    <div class="repo-header">
+        <div class="repo-rank">1</div>
+        <div class="repo-title">
+            <a href="https://github.com/ruvnet/RuView" target="_blank" rel="noopener noreferrer">ruvnet/RuView</a>
+        </div>
+    </div>
+    <div class="repo-description">π RuView: WiFi DensePose turns commodity WiFi signals into real-time human pose estimation, vital sign monitoring, and presence detection — all without a single pixel of video.</div>
+    <div class="repo-stats">
+        <span class="badge badge-stars">⭐ 43,874 stars</span>
+        <span class="badge badge-forks">🍴 5,907 forks</span>
+        <span class="badge badge-language">💻 Rust</span>
+        <span class="badge badge-today">🔥 846 stars today</span>
+    </div>
+    <div class="contributors">
+        <div class="contributors-label">Built by:</div>
+        <div class="contributors-list">
+            <a href="https://github.com/ruvnet" class="contributor-link" target="_blank" rel="noopener noreferrer">@ruvnet</a>
+            <a href="https://github.com/claude" class="contributor-link" target="_blank" rel="noopener noreferrer">@claude</a>
+            <a href="https://github.com/fr4iser90" class="contributor-link" target="_blank" rel="noopener noreferrer">@fr4iser90</a>
+            <a href="https://github.com/MaTriXy" class="contributor-link" target="_blank" rel="noopener noreferrer">@MaTriXy</a>
+            <a href="https://github.com/TropicalDog17" class="contributor-link" target="_blank" rel="noopener noreferrer">@TropicalDog17</a>
+        </div>
+    </div>
+</div>
+<div class="repo-card">
+    <div class="repo-header">
+        <div class="repo-rank">2</div>
+        <div class="repo-title">
+            <a href="https://github.com/starship/starship" target="_blank" rel="noopener noreferrer">starship/starship</a>
+        </div>
+    </div>
+    <div class="repo-description">☄🌌️ The minimal, blazing-fast, and infinitely customizable prompt for any shell!</div>
+    <div class="repo-stats">
+        <span class="badge badge-stars">⭐ 55,437 stars</span>
+        <span class="badge badge-forks">🍴 2,434 forks</span>
+        <span class="badge badge-language">💻 Rust</span>
+        <span class="badge badge-today">🔥 69 stars today</span>
+    </div>
+    <div class="contributors">
+        <div class="contributors-label">Built by:</div>
+        <div class="contributors-list">
+            <a href="https://github.com/renovate" class="contributor-link" target="_blank" rel="noopener noreferrer">@renovate</a>
+            <a href="https://github.com/matchai" class="contributor-link" target="_blank" rel="noopener noreferrer">@matchai</a>
+            <a href="https://github.com/davidkna" class="contributor-link" target="_blank" rel="noopener noreferrer">@davidkna</a>
+            <a href="https://github.com/dependabot" class="contributor-link" target="_blank" rel="noopener noreferrer">@dependabot</a>
+            <a href="https://github.com/dependabot-preview" class="contributor-link" target="_blank" rel="noopener noreferrer">@dependabot-preview</a>
+        </div>
+    </div>
+</div>
+<div class="repo-card">
+    <div class="repo-header">
+        <div class="repo-rank">3</div>
+        <div class="repo-title">
+            <a href="https://github.com/fathyb/carbonyl" target="_blank" rel="noopener noreferrer">fathyb/carbonyl</a>
+        </div>
+    </div>
+    <div class="repo-description">Chromium running inside your terminal</div>
+    <div class="repo-stats">
+        <span class="badge badge-stars">⭐ 17,166 stars</span>
+        <span class="badge badge-forks">🍴 393 forks</span>
+        <span class="badge badge-language">💻 Rust</span>
+        <span class="badge badge-today">🔥 275 stars today</span>
+    </div>
+    <div class="contributors">
+        <div class="contributors-label">Built by:</div>
+        <div class="contributors-list">
+            <a href="https://github.com/fathyb" class="contributor-link" target="_blank" rel="noopener noreferrer">@fathyb</a>
+            <a href="https://github.com/licy183" class="contributor-link" target="_blank" rel="noopener noreferrer">@licy183</a>
+            <a href="https://github.com/kianmeng" class="contributor-link" target="_blank" rel="noopener noreferrer">@kianmeng</a>
+            <a href="https://github.com/glensc" class="contributor-link" target="_blank" rel="noopener noreferrer">@glensc</a>
+            <a href="https://github.com/reynoldsme" class="contributor-link" target="_blank" rel="noopener noreferrer">@reynoldsme</a>
+        </div>
+    </div>
+</div>
+<div class="repo-card">
+    <div class="repo-header">
+        <div class="repo-rank">4</div>
+        <div class="repo-title">
+            <a href="https://github.com/katanemo/plano" target="_blank" rel="noopener noreferrer">katanemo/plano</a>
+        </div>
+    </div>
+    <div class="repo-description">Plano is an AI-native proxy and data plane for agentic apps — with built-in orchestration, safety, observability, and smart LLM routing so you stay focused on your agents core logic.</div>
+    <div class="repo-stats">
+        <span class="badge badge-stars">⭐ 6,111 stars</span>
+        <span class="badge badge-forks">🍴 373 forks</span>
+        <span class="badge badge-language">💻 Rust</span>
+        <span class="badge badge-today">🔥 42 stars today</span>
+    </div>
+    <div class="contributors">
+        <div class="contributors-label">Built by:</div>
+        <div class="contributors-list">
+            <a href="https://github.com/adilhafeez" class="contributor-link" target="_blank" rel="noopener noreferrer">@adilhafeez</a>
+            <a href="https://github.com/salmanap" class="contributor-link" target="_blank" rel="noopener noreferrer">@salmanap</a>
+            <a href="https://github.com/junr03" class="contributor-link" target="_blank" rel="noopener noreferrer">@junr03</a>
+            <a href="https://github.com/cotran2" class="contributor-link" target="_blank" rel="noopener noreferrer">@cotran2</a>
+            <a href="https://github.com/Spherrrical" class="contributor-link" target="_blank" rel="noopener noreferrer">@Spherrrical</a>
+        </div>
+    </div>
+</div>
+<div class="repo-card">
+    <div class="repo-header">
+        <div class="repo-rank">5</div>
+        <div class="repo-title">
+            <a href="https://github.com/openai/codex" target="_blank" rel="noopener noreferrer">openai/codex</a>
+        </div>
+    </div>
+    <div class="repo-description">Lightweight coding agent that runs in your terminal</div>
+    <div class="repo-stats">
+        <span class="badge badge-stars">⭐ 68,019 stars</span>
+        <span class="badge badge-forks">🍴 9,117 forks</span>
+        <span class="badge badge-language">💻 Rust</span>
+        <span class="badge badge-today">🔥 230 stars today</span>
+    </div>
+    <div class="contributors">
+        <div class="contributors-label">Built by:</div>
+        <div class="contributors-list">
+            <a href="https://github.com/bolinfest" class="contributor-link" target="_blank" rel="noopener noreferrer">@bolinfest</a>
+            <a href="https://github.com/jif-oai" class="contributor-link" target="_blank" rel="noopener noreferrer">@jif-oai</a>
+            <a href="https://github.com/aibrahim-oai" class="contributor-link" target="_blank" rel="noopener noreferrer">@aibrahim-oai</a>
+            <a href="https://github.com/pakrym-oai" class="contributor-link" target="_blank" rel="noopener noreferrer">@pakrym-oai</a>
+            <a href="https://github.com/etraut-openai" class="contributor-link" target="_blank" rel="noopener noreferrer">@etraut-openai</a>
+        </div>
+    </div>
+</div>
+<div class="repo-card">
+    <div class="repo-header">
+        <div class="repo-rank">6</div>
+        <div class="repo-title">
+            <a href="https://github.com/max-sixty/worktrunk" target="_blank" rel="noopener noreferrer">max-sixty/worktrunk</a>
+        </div>
+    </div>
+    <div class="repo-description">Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows</div>
+    <div class="repo-stats">
+        <span class="badge badge-stars">⭐ 3,898 stars</span>
+        <span class="badge badge-forks">🍴 128 forks</span>
+        <span class="badge badge-language">💻 Rust</span>
+        <span class="badge badge-today">🔥 73 stars today</span>
+    </div>
+    <div class="contributors">
+        <div class="contributors-label">Built by:</div>
+        <div class="contributors-list">
+            <a href="https://github.com/max-sixty" class="contributor-link" target="_blank" rel="noopener noreferrer">@max-sixty</a>
+            <a href="https://github.com/claude" class="contributor-link" target="_blank" rel="noopener noreferrer">@claude</a>
+            <a href="https://github.com/worktrunk-bot" class="contributor-link" target="_blank" rel="noopener noreferrer">@worktrunk-bot</a>
+            <a href="https://github.com/dependabot" class="contributor-link" target="_blank" rel="noopener noreferrer">@dependabot</a>
+            <a href="https://github.com/github-actions" class="contributor-link" target="_blank" rel="noopener noreferrer">@github-actions</a>
+        </div>
+    </div>
+</div>
+<div class="repo-card">
+    <div class="repo-header">
+        <div class="repo-rank">7</div>
+        <div class="repo-title">
+            <a href="https://github.com/TabbyML/tabby" target="_blank" rel="noopener noreferrer">TabbyML/tabby</a>
+        </div>
+    </div>
+    <div class="repo-description">Self-hosted AI coding assistant</div>
+    <div class="repo-stats">
+        <span class="badge badge-stars">⭐ 33,145 stars</span>
+        <span class="badge badge-forks">🍴 1,698 forks</span>
+        <span class="badge badge-language">💻 Rust</span>
+        <span class="badge badge-today">🔥 33 stars today</span>
+    </div>
+    <div class="contributors">
+        <div class="contributors-label">Built by:</div>
+        <div class="contributors-list">
+            <a href="https://github.com/wsxiaoys" class="contributor-link" target="_blank" rel="noopener noreferrer">@wsxiaoys</a>
+            <a href="https://github.com/autofix-ci" class="contributor-link" target="_blank" rel="noopener noreferrer">@autofix-ci</a>
+            <a href="https://github.com/icycodes" class="contributor-link" target="_blank" rel="noopener noreferrer">@icycodes</a>
+            <a href="https://github.com/liangfung" class="contributor-link" target="_blank" rel="noopener noreferrer">@liangfung</a>
+            <a href="https://github.com/zwpaper" class="contributor-link" target="_blank" rel="noopener noreferrer">@zwpaper</a>
+        </div>
+    </div>
+</div>
+<div class="repo-card">
+    <div class="repo-header">
+        <div class="repo-rank">8</div>
+        <div class="repo-title">
+            <a href="https://github.com/Eventual-Inc/Daft" target="_blank" rel="noopener noreferrer">Eventual-Inc/Daft</a>
+        </div>
+    </div>
+    <div class="repo-description">High-performance data engine for AI and multimodal workloads. Process images, audio, video, and structured data at any scale</div>
+    <div class="repo-stats">
+        <span class="badge badge-stars">⭐ 5,350 stars</span>
+        <span class="badge badge-forks">🍴 426 forks</span>
+        <span class="badge badge-language">💻 Rust</span>
+        <span class="badge badge-today">🔥 2 stars today</span>
+    </div>
+    <div class="contributors">
+        <div class="contributors-label">Built by:</div>
+        <div class="contributors-list">
+            <a href="https://github.com/jaychia" class="contributor-link" target="_blank" rel="noopener noreferrer">@jaychia</a>
+            <a href="https://github.com/samster25" class="contributor-link" target="_blank" rel="noopener noreferrer">@samster25</a>
+            <a href="https://github.com/colin-ho" class="contributor-link" target="_blank" rel="noopener noreferrer">@colin-ho</a>
+            <a href="https://github.com/universalmind303" class="contributor-link" target="_blank" rel="noopener noreferrer">@universalmind303</a>
+            <a href="https://github.com/desmondcheongzx" class="contributor-link" target="_blank" rel="noopener noreferrer">@desmondcheongzx</a>
+        </div>
+    </div>
+</div>
+<div class="repo-card">
+    <div class="repo-header">
+        <div class="repo-rank">9</div>
+        <div class="repo-title">
+            <a href="https://github.com/fish-shell/fish-shell" target="_blank" rel="noopener noreferrer">fish-shell/fish-shell</a>
+        </div>
+    </div>
+    <div class="repo-description">The user-friendly command line shell.</div>
+    <div class="repo-stats">
+        <span class="badge badge-stars">⭐ 32,971 stars</span>
+        <span class="badge badge-forks">🍴 2,262 forks</span>
+        <span class="badge badge-language">💻 Rust</span>
+        <span class="badge badge-today">🔥 14 stars today</span>
+    </div>
+    <div class="contributors">
+        <div class="contributors-label">Built by:</div>
+        <div class="contributors-list">
+            <a href="https://github.com/ridiculousfish" class="contributor-link" target="_blank" rel="noopener noreferrer">@ridiculousfish</a>
+            <a href="https://github.com/faho" class="contributor-link" target="_blank" rel="noopener noreferrer">@faho</a>
+            <a href="https://github.com/krobelus" class="contributor-link" target="_blank" rel="noopener noreferrer">@krobelus</a>
+            <a href="https://github.com/liljencrantz" class="contributor-link" target="_blank" rel="noopener noreferrer">@liljencrantz</a>
+            <a href="https://github.com/mqudsi" class="contributor-link" target="_blank" rel="noopener noreferrer">@mqudsi</a>
+        </div>
+    </div>
+</div>
+<div class="repo-card">
+    <div class="repo-header">
+        <div class="repo-rank">10</div>
+        <div class="repo-title">
+            <a href="https://github.com/emilk/egui" target="_blank" rel="noopener noreferrer">emilk/egui</a>
+        </div>
+    </div>
+    <div class="repo-description">egui: an easy-to-use immediate mode GUI in Rust that runs on both web and native</div>
+    <div class="repo-stats">
+        <span class="badge badge-stars">⭐ 28,545 stars</span>
+        <span class="badge badge-forks">🍴 1,993 forks</span>
+        <span class="badge badge-language">💻 Rust</span>
+        <span class="badge badge-today">🔥 26 stars today</span>
+    </div>
+    <div class="contributors">
+        <div class="contributors-label">Built by:</div>
+        <div class="contributors-list">
+            <a href="https://github.com/emilk" class="contributor-link" target="_blank" rel="noopener noreferrer">@emilk</a>
+            <a href="https://github.com/lucasmerlin" class="contributor-link" target="_blank" rel="noopener noreferrer">@lucasmerlin</a>
+            <a href="https://github.com/Wumpf" class="contributor-link" target="_blank" rel="noopener noreferrer">@Wumpf</a>
+            <a href="https://github.com/YgorSouza" class="contributor-link" target="_blank" rel="noopener noreferrer">@YgorSouza</a>
+            <a href="https://github.com/rustbasic" class="contributor-link" target="_blank" rel="noopener noreferrer">@rustbasic</a>
+        </div>
+    </div>
+</div>
+<div class="repo-card">
+    <div class="repo-header">
+        <div class="repo-rank">11</div>
+        <div class="repo-title">
+            <a href="https://github.com/chroma-core/chroma" target="_blank" rel="noopener noreferrer">chroma-core/chroma</a>
+        </div>
+    </div>
+    <div class="repo-description">Data infrastructure for AI</div>
+    <div class="repo-stats">
+        <span class="badge badge-stars">⭐ 26,951 stars</span>
+        <span class="badge badge-forks">🍴 2,147 forks</span>
+        <span class="badge badge-language">💻 Rust</span>
+        <span class="badge badge-today">🔥 89 stars today</span>
+    </div>
+    <div class="contributors">
+        <div class="contributors-label">Built by:</div>
+        <div class="contributors-list">
+            <a href="https://github.com/HammadB" class="contributor-link" target="_blank" rel="noopener noreferrer">@HammadB</a>
+            <a href="https://github.com/rescrv" class="contributor-link" target="_blank" rel="noopener noreferrer">@rescrv</a>
+            <a href="https://github.com/codetheweb" class="contributor-link" target="_blank" rel="noopener noreferrer">@codetheweb</a>
+            <a href="https://github.com/jeffchuber" class="contributor-link" target="_blank" rel="noopener noreferrer">@jeffchuber</a>
+            <a href="https://github.com/Sicheng-Pan" class="contributor-link" target="_blank" rel="noopener noreferrer">@Sicheng-Pan</a>
+        </div>
+    </div>
+</div>
+<div class="repo-card">
+    <div class="repo-header">
+        <div class="repo-rank">12</div>
+        <div class="repo-title">
+            <a href="https://github.com/git-ai-project/git-ai" target="_blank" rel="noopener noreferrer">git-ai-project/git-ai</a>
+        </div>
+    </div>
+    <div class="repo-description">A Git extension for tracking the AI-generated code in your repos</div>
+    <div class="repo-stats">
+        <span class="badge badge-stars">⭐ 1,432 stars</span>
+        <span class="badge badge-forks">🍴 113 forks</span>
+        <span class="badge badge-language">💻 Rust</span>
+        <span class="badge badge-today">🔥 8 stars today</span>
+    </div>
+    <div class="contributors">
+        <div class="contributors-label">Built by:</div>
+        <div class="contributors-list">
+            <a href="https://github.com/svarlamov" class="contributor-link" target="_blank" rel="noopener noreferrer">@svarlamov</a>
+            <a href="https://github.com/acunniffe" class="contributor-link" target="_blank" rel="noopener noreferrer">@acunniffe</a>
+            <a href="https://github.com/claude" class="contributor-link" target="_blank" rel="noopener noreferrer">@claude</a>
+            <a href="https://github.com/jwiegley" class="contributor-link" target="_blank" rel="noopener noreferrer">@jwiegley</a>
+            <a href="https://github.com/devin-ai-integration" class="contributor-link" target="_blank" rel="noopener noreferrer">@devin-ai-integration</a>
+        </div>
+    </div>
+</div>
+<div class="repo-card">
+    <div class="repo-header">
+        <div class="repo-rank">13</div>
+        <div class="repo-title">
+            <a href="https://github.com/pola-rs/polars" target="_blank" rel="noopener noreferrer">pola-rs/polars</a>
+        </div>
+    </div>
+    <div class="repo-description">Extremely fast Query Engine for DataFrames, written in Rust</div>
+    <div class="repo-stats">
+        <span class="badge badge-stars">⭐ 37,883 stars</span>
+        <span class="badge badge-forks">🍴 2,707 forks</span>
+        <span class="badge badge-language">💻 Rust</span>
+        <span class="badge badge-today">🔥 15 stars today</span>
+    </div>
+    <div class="contributors">
+        <div class="contributors-label">Built by:</div>
+        <div class="contributors-list">
+            <a href="https://github.com/ritchie46" class="contributor-link" target="_blank" rel="noopener noreferrer">@ritchie46</a>
+            <a href="https://github.com/alexander-beedie" class="contributor-link" target="_blank" rel="noopener noreferrer">@alexander-beedie</a>
+            <a href="https://github.com/coastalwhite" class="contributor-link" target="_blank" rel="noopener noreferrer">@coastalwhite</a>
+            <a href="https://github.com/orlp" class="contributor-link" target="_blank" rel="noopener noreferrer">@orlp</a>
+            <a href="https://github.com/nameexhaustion" class="contributor-link" target="_blank" rel="noopener noreferrer">@nameexhaustion</a>
+        </div>
+    </div>
+</div>
+<div class="repo-card">
+    <div class="repo-header">
+        <div class="repo-rank">14</div>
+        <div class="repo-title">
+            <a href="https://github.com/denoland/deno" target="_blank" rel="noopener noreferrer">denoland/deno</a>
+        </div>
+    </div>
+    <div class="repo-description">A modern runtime for JavaScript and TypeScript.</div>
+    <div class="repo-stats">
+        <span class="badge badge-stars">⭐ 106,437 stars</span>
+        <span class="badge badge-forks">🍴 5,965 forks</span>
+        <span class="badge badge-language">💻 Rust</span>
+        <span class="badge badge-today">🔥 14 stars today</span>
+    </div>
+    <div class="contributors">
+        <div class="contributors-label">Built by:</div>
+        <div class="contributors-list">
+            <a href="https://github.com/bartlomieju" class="contributor-link" target="_blank" rel="noopener noreferrer">@bartlomieju</a>
+            <a href="https://github.com/dsherret" class="contributor-link" target="_blank" rel="noopener noreferrer">@dsherret</a>
+            <a href="https://github.com/ry" class="contributor-link" target="_blank" rel="noopener noreferrer">@ry</a>
+            <a href="https://github.com/littledivy" class="contributor-link" target="_blank" rel="noopener noreferrer">@littledivy</a>
+            <a href="https://github.com/nayeemrmn" class="contributor-link" target="_blank" rel="noopener noreferrer">@nayeemrmn</a>
+        </div>
+    </div>
+</div>
+<div class="repo-card">
+    <div class="repo-header">
+        <div class="repo-rank">15</div>
+        <div class="repo-title">
+            <a href="https://github.com/sigoden/aichat" target="_blank" rel="noopener noreferrer">sigoden/aichat</a>
+        </div>
+    </div>
+    <div class="repo-description">All-in-one LLM CLI tool featuring Shell Assistant, Chat-REPL, RAG, AI Tools &amp; Agents, with access to OpenAI, Claude, Gemini, Ollama, Groq, and more.</div>
+    <div class="repo-stats">
+        <span class="badge badge-stars">⭐ 9,665 stars</span>
+        <span class="badge badge-forks">🍴 658 forks</span>
+        <span class="badge badge-language">💻 Rust</span>
+        <span class="badge badge-today">🔥 16 stars today</span>
+    </div>
+    <div class="contributors">
+        <div class="contributors-label">Built by:</div>
+        <div class="contributors-list">
+            <a href="https://github.com/sigoden" class="contributor-link" target="_blank" rel="noopener noreferrer">@sigoden</a>
+            <a href="https://github.com/cramosc" class="contributor-link" target="_blank" rel="noopener noreferrer">@cramosc</a>
+            <a href="https://github.com/rolfwilms" class="contributor-link" target="_blank" rel="noopener noreferrer">@rolfwilms</a>
+            <a href="https://github.com/mtul0729" class="contributor-link" target="_blank" rel="noopener noreferrer">@mtul0729</a>
+            <a href="https://github.com/kelvie" class="contributor-link" target="_blank" rel="noopener noreferrer">@kelvie</a>
+        </div>
+    </div>
+</div>
+<div class="repo-card">
+    <div class="repo-header">
+        <div class="repo-rank">16</div>
+        <div class="repo-title">
+            <a href="https://github.com/eclipse-zenoh/zenoh" target="_blank" rel="noopener noreferrer">eclipse-zenoh/zenoh</a>
+        </div>
+    </div>
+    <div class="repo-description">zenoh unifies data in motion, data in-use, data at rest and computations. It carefully blends traditional pub/sub with geo-distributed storages, queries and computations, while retaining a level of time and space efficiency that is well beyond any of the mainstream stacks.</div>
+    <div class="repo-stats">
+        <span class="badge badge-stars">⭐ 2,579 stars</span>
+        <span class="badge badge-forks">🍴 274 forks</span>
+        <span class="badge badge-language">💻 Rust</span>
+        <span class="badge badge-today">🔥 2 stars today</span>
+    </div>
+    <div class="contributors">
+        <div class="contributors-label">Built by:</div>
+        <div class="contributors-list">
+            <a href="https://github.com/Mallets" class="contributor-link" target="_blank" rel="noopener noreferrer">@Mallets</a>
+            <a href="https://github.com/OlivierHecart" class="contributor-link" target="_blank" rel="noopener noreferrer">@OlivierHecart</a>
+            <a href="https://github.com/milyin" class="contributor-link" target="_blank" rel="noopener noreferrer">@milyin</a>
+            <a href="https://github.com/JEnoch" class="contributor-link" target="_blank" rel="noopener noreferrer">@JEnoch</a>
+            <a href="https://github.com/wyfo" class="contributor-link" target="_blank" rel="noopener noreferrer">@wyfo</a>
+        </div>
+    </div>
+</div>
+        </div>
+        <div class="footer">
+            <p>Last updated: 2026-03-28</p>
+            <p>Generated by GitHub Trending Scraper</p>
+        </div>
+    </div>
+</body>
+</html>
