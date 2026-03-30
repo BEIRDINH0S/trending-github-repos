@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Trending - Week 14 - 2026</title>
+
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+                line-height: 1.6;
+                color: #111827;
+                background: #F8F9FA;
+                min-height: 100vh;
+            }
+
+            .container {
+                max-width: 1400px;
+                margin: 0 auto;
+                background: #FFFFFF;
+                min-height: 100vh;
+                box-shadow: 0 0 0 1px #E5E7EB;
+            }
+
+            .header {
+                background: #1E293B;
+                color: white;
+                padding: 2rem 2.5rem;
+                border-bottom: 3px solid #334155;
+            }
+
+            .header h1 {
+                font-size: 1.75rem;
+                margin-bottom: 0.25rem;
+                font-weight: 600;
+                color: #FFFFFF;
+            }
+
+            .header .subtitle {
+                font-size: 0.875rem;
+                color: #94A3B8;
+                font-weight: 400;
+            }
+
+            .summary {
+                background: #F8F9FA;
+                padding: 2rem 2.5rem;
+                border-bottom: 1px solid #E5E7EB;
+            }
+
+            .summary h2 {
+                color: #1E293B;
+                margin-bottom: 1rem;
+                font-size: 1.25rem;
+                font-weight: 600;
+            }
+
+            .summary-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+                gap: 1rem;
+                margin-top: 1rem;
+            }
+
+            .summary-item {
+                background: white;
+                padding: 1.25rem;
+                border-radius: 6px;
+                border: 1px solid #E5E7EB;
+            }
+
+            .summary-item .label {
+                font-size: 0.8125rem;
+                color: #64748B;
+                margin-bottom: 0.5rem;
+                text-transform: uppercase;
+                letter-spacing: 0.05em;
+                font-weight: 500;
+            }
+
+            .summary-item .value {
+                font-size: 1.75rem;
+                font-weight: 600;
+                color: #1E293B;
+            }
+
+            .content {
+                padding: 2rem 2.5rem;
+            }
+
+            .section-title {
+                font-size: 1.5rem;
+                color: #1E293B;
+                margin-bottom: 1.5rem;
+                padding-bottom: 0.75rem;
+                border-bottom: 2px solid #E5E7EB;
+                font-weight: 600;
+            }
+
+            .badge {
+                display: inline-block;
+                padding: 0.25rem 0.625rem;
+                border-radius: 4px;
+                font-size: 0.75rem;
+                font-weight: 500;
+                margin-right: 0.5rem;
+            }
+
+            .badge-stars {
+                background: #FEF3C7;
+                color: #92400E;
+            }
+
+            .badge-forks {
+                background: #DBEAFE;
+                color: #1E40AF;
+            }
+
+            .badge-language {
+                background: #D1FAE5;
+                color: #065F46;
+            }
+
+            .badge-today {
+                background: #FEE2E2;
+                color: #991B1B;
+            }
+
+            .badge-consistent {
+                background: #D1FAE5;
+                color: #065F46;
+            }
+
+            .badge-trending {
+                background: #FEF3C7;
+                color: #92400E;
+            }
+
+            .badge-new {
+                background: #DBEAFE;
+                color: #1E40AF;
+            }
+
+            .footer {
+                background: #F8F9FA;
+                padding: 1.5rem 2.5rem;
+                text-align: center;
+                color: #64748B;
+                font-size: 0.8125rem;
+                border-top: 1px solid #E5E7EB;
+            }
+
+            @media (max-width: 768px) {
+                .header {
+                    padding: 1.5rem;
+                }
+
+                .summary {
+                    padding: 1.5rem;
+                }
+
+                .content {
+                    padding: 1.5rem;
+                }
+
+                .summary-grid {
+                    grid-template-columns: 1fr;
+                }
+            }
+        </style>
+        
+        <style>
+            .section {
+                margin-bottom: 2rem;
+            }
+
+            .repo-table {
+                width: 100%;
+                border-collapse: collapse;
+                background: white;
+                border: 1px solid #E5E7EB;
+                border-radius: 6px;
+                overflow: hidden;
+                font-size: 0.9375rem;
+            }
+
+            .repo-table th {
+                background: #F8F9FA;
+                padding: 0.875rem 1rem;
+                text-align: left;
+                font-weight: 600;
+                color: #1E293B;
+                border-bottom: 2px solid #E5E7EB;
+                font-size: 0.8125rem;
+                text-transform: uppercase;
+                letter-spacing: 0.05em;
+            }
+
+            .repo-table td {
+                padding: 1rem;
+                border-bottom: 1px solid #E5E7EB;
+                vertical-align: middle;
+            }
+
+            .repo-table tbody tr {
+                transition: background-color 0.15s;
+            }
+
+            .repo-table tbody tr:nth-child(even) {
+                background: #F8F9FA;
+            }
+
+            .repo-table tbody tr:hover {
+                background: #F1F5F9;
+            }
+
+            .repo-table tr:last-child td {
+                border-bottom: none;
+            }
+
+            .repo-name {
+                font-weight: 600;
+            }
+
+            .repo-name a {
+                color: #1E293B;
+                text-decoration: none;
+            }
+
+            .repo-name a:hover {
+                color: #334155;
+                text-decoration: underline;
+            }
+
+            .repo-description {
+                color: #64748B;
+                font-size: 0.875rem;
+                margin-top: 0.25rem;
+                line-height: 1.5;
+            }
+
+            .rank-badge {
+                background: #334155;
+                color: white;
+                min-width: 28px;
+                height: 28px;
+                border-radius: 4px;
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                font-weight: 600;
+                font-size: 0.8125rem;
+            }
+
+            .appearances {
+                color: #059669;
+                font-weight: 600;
+            }
+
+            .stats-inline {
+                color: #64748B;
+                font-size: 0.875rem;
+            }
+
+            .contributors {
+                font-size: 0.75rem;
+                color: #64748B;
+            }
+
+            .contributor-link {
+                color: #334155;
+                text-decoration: none;
+                font-weight: 500;
+            }
+
+            .contributor-link:hover {
+                text-decoration: underline;
+                color: #1E293B;
+            }
+
+            @media (max-width: 768px) {
+                .repo-table {
+                    font-size: 0.875rem;
+                }
+
+                .repo-table th,
+                .repo-table td {
+                    padding: 0.625rem 0.75rem;
+                }
+            }
+        </style>
+        
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Javascript Trending Repositories</h1>
+            <div class="subtitle">Week 14 - 2026</div>
+            <div class="subtitle">2026-03-30 to 2026-04-05</div>
+        </div>
+        <div class="summary">
+            <h2>Summary</h2>
+            <div class="summary-grid">
+                <div class="summary-item">
+                    <div class="label">Period</div>
+                    <div class="value">Week 14 - 2026</div>
+                </div>
+                <div class="summary-item">
+                    <div class="label">Days Analyzed</div>
+                    <div class="value">1</div>
+                </div>
+                <div class="summary-item">
+                    <div class="label">Unique Repos</div>
+                    <div class="value">10</div>
+                </div>
+                <div class="summary-item">
+                    <div class="label">Language</div>
+                    <div class="value">Javascript</div>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="section">
+                <h2 class="section-title">Top Trending Repositories</h2>
+                <table class="repo-table">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Repository</th>
+                            <th>Days</th>
+                            <th>Best Rank</th>
+                            <th>Stars</th>
+                            <th>Forks</th>
+                            <th>Language</th>
+                            <th>Built By</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+            <tr>
+                <td><span class="rank-badge">1</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/Mintplex-Labs/anything-llm" target="_blank">Mintplex-Labs/anything-llm</a></div>
+                    <div class="repo-description">The all-in-one AI productivity accelerator. On device and privacy first with no annoying setup or configuration.</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#1</td>
+                <td class="stats-inline">57,102</td>
+                <td class="stats-inline">6,176</td>
+                <td class="stats-inline">JavaScript</td>
+                <td class="contributors"><a href="https://github.com/17ColinMiPerry" class="contributor-link">@17ColinMiPerry</a>, <a href="https://github.com/KPCOFGS" class="contributor-link">@KPCOFGS</a>, <a href="https://github.com/angelplusultra" class="contributor-link">@angelplusultra</a>, <a href="https://github.com/shatfield4" class="contributor-link">@shatfield4</a>, <a href="https://github.com/timothycarambat" class="contributor-link">@timothycarambat</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">2</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/TryGhost/Ghost" target="_blank">TryGhost/Ghost</a></div>
+                    <div class="repo-description">Independent technology for modern publishing, memberships, subscriptions and newsletters.</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#2</td>
+                <td class="stats-inline">52,214</td>
+                <td class="stats-inline">11,403</td>
+                <td class="stats-inline">JavaScript</td>
+                <td class="contributors"><a href="https://github.com/ErisDS" class="contributor-link">@ErisDS</a>, <a href="https://github.com/daniellockyer" class="contributor-link">@daniellockyer</a>, <a href="https://github.com/kevinansfield" class="contributor-link">@kevinansfield</a>, <a href="https://github.com/renovate" class="contributor-link">@renovate</a>, <a href="https://github.com/renovate-bot" class="contributor-link">@renovate-bot</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">3</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/gorhill/uBlock" target="_blank">gorhill/uBlock</a></div>
+                    <div class="repo-description">uBlock Origin - An efficient blocker for Chromium and Firefox. Fast and lean.</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#3</td>
+                <td class="stats-inline">62,401</td>
+                <td class="stats-inline">3,990</td>
+                <td class="stats-inline">JavaScript</td>
+                <td class="contributors"><a href="https://github.com/AlexVallat" class="contributor-link">@AlexVallat</a>, <a href="https://github.com/Deathamns" class="contributor-link">@Deathamns</a>, <a href="https://github.com/chrisaljoudi" class="contributor-link">@chrisaljoudi</a>, <a href="https://github.com/gorhill" class="contributor-link">@gorhill</a>, <a href="https://github.com/mjethani" class="contributor-link">@mjethani</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">4</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/HabitRPG/habitica" target="_blank">HabitRPG/habitica</a></div>
+                    <div class="repo-description">A habit tracker app which treats your goals like a Role Playing Game.</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#4</td>
+                <td class="stats-inline">13,772</td>
+                <td class="stats-inline">4,399</td>
+                <td class="stats-inline">JavaScript</td>
+                <td class="contributors"><a href="https://github.com/Alys" class="contributor-link">@Alys</a>, <a href="https://github.com/SabreCat" class="contributor-link">@SabreCat</a>, <a href="https://github.com/crookedneighbor" class="contributor-link">@crookedneighbor</a>, <a href="https://github.com/lefnire" class="contributor-link">@lefnire</a>, <a href="https://github.com/paglias" class="contributor-link">@paglias</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">5</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/PrismarineJS/mineflayer" target="_blank">PrismarineJS/mineflayer</a></div>
+                    <div class="repo-description">Create Minecraft bots with a powerful, stable, and high level JavaScript API.</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#5</td>
+                <td class="stats-inline">6,795</td>
+                <td class="stats-inline">1,231</td>
+                <td class="stats-inline">JavaScript</td>
+                <td class="contributors"><a href="https://github.com/Darthfett" class="contributor-link">@Darthfett</a>, <a href="https://github.com/andrewrk" class="contributor-link">@andrewrk</a>, <a href="https://github.com/rom1504" class="contributor-link">@rom1504</a>, <a href="https://github.com/thejoshwolfe" class="contributor-link">@thejoshwolfe</a>, <a href="https://github.com/u9g" class="contributor-link">@u9g</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">6</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/CodeWithHarry/Sigma-Web-Dev-Course" target="_blank">CodeWithHarry/Sigma-Web-Dev-Course</a></div>
+                    <div class="repo-description">Source Code for Sigma Web Development Course</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#6</td>
+                <td class="stats-inline">11,131</td>
+                <td class="stats-inline">3,063</td>
+                <td class="stats-inline">JavaScript</td>
+                <td class="contributors"><a href="https://github.com/CodeWithHarry" class="contributor-link">@CodeWithHarry</a>, <a href="https://github.com/it-is-Aman" class="contributor-link">@it-is-Aman</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">7</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/expressjs/express" target="_blank">expressjs/express</a></div>
+                    <div class="repo-description">Fast, unopinionated, minimalist web framework for node.</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#7</td>
+                <td class="stats-inline">68,876</td>
+                <td class="stats-inline">22,951</td>
+                <td class="stats-inline">JavaScript</td>
+                <td class="contributors"><a href="https://github.com/UlisesGascon" class="contributor-link">@UlisesGascon</a>, <a href="https://github.com/defunctzombie" class="contributor-link">@defunctzombie</a>, <a href="https://github.com/dougwilson" class="contributor-link">@dougwilson</a>, <a href="https://github.com/jonathanong" class="contributor-link">@jonathanong</a>, <a href="https://github.com/tj" class="contributor-link">@tj</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">8</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/browsh-org/browsh" target="_blank">browsh-org/browsh</a></div>
+                    <div class="repo-description">A fully-modern text-based browser, rendering to TTY and browsers</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#8</td>
+                <td class="stats-inline">18,695</td>
+                <td class="stats-inline">465</td>
+                <td class="stats-inline">JavaScript</td>
+                <td class="contributors"><a href="https://github.com/CodyGramlich" class="contributor-link">@CodyGramlich</a>, <a href="https://github.com/dependabot" class="contributor-link">@dependabot</a>, <a href="https://github.com/j-rewerts" class="contributor-link">@j-rewerts</a>, <a href="https://github.com/tobimensch" class="contributor-link">@tobimensch</a>, <a href="https://github.com/tombh" class="contributor-link">@tombh</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">9</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/reactjs/react.dev" target="_blank">reactjs/react.dev</a></div>
+                    <div class="repo-description">The React documentation website</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#9</td>
+                <td class="stats-inline">11,712</td>
+                <td class="stats-inline">7,877</td>
+                <td class="stats-inline">JavaScript</td>
+                <td class="contributors"><a href="https://github.com/alexkrolick" class="contributor-link">@alexkrolick</a>, <a href="https://github.com/bvaughn" class="contributor-link">@bvaughn</a>, <a href="https://github.com/gaearon" class="contributor-link">@gaearon</a>, <a href="https://github.com/sophiebits" class="contributor-link">@sophiebits</a>, <a href="https://github.com/zpao" class="contributor-link">@zpao</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">10</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/gsd-build/get-shit-done" target="_blank">gsd-build/get-shit-done</a></div>
+                    <div class="repo-description">A light-weight and powerful meta-prompting, context engineering and spec-driven development system for Claude Code by TÂCHES.</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#10</td>
+                <td class="stats-inline">44,721</td>
+                <td class="stats-inline">3,619</td>
+                <td class="stats-inline">JavaScript</td>
+                <td class="contributors"><a href="https://github.com/Solvely-Colin" class="contributor-link">@Solvely-Colin</a>, <a href="https://github.com/Tibsfox" class="contributor-link">@Tibsfox</a>, <a href="https://github.com/claude" class="contributor-link">@claude</a>, <a href="https://github.com/glittercowboy" class="contributor-link">@glittercowboy</a>, <a href="https://github.com/trek-e" class="contributor-link">@trek-e</a></td>
+            </tr>
+        
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="footer">
+            <p>Generated on 2026-04-05</p>
+            <p>GitHub Trending Scraper</p>
+        </div>
+    </div>
+</body>
+</html>
