@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typescript Trending - April 2026</title>
+
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+                line-height: 1.6;
+                color: #111827;
+                background: #F8F9FA;
+                min-height: 100vh;
+            }
+
+            .container {
+                max-width: 1400px;
+                margin: 0 auto;
+                background: #FFFFFF;
+                min-height: 100vh;
+                box-shadow: 0 0 0 1px #E5E7EB;
+            }
+
+            .header {
+                background: #1E293B;
+                color: white;
+                padding: 2rem 2.5rem;
+                border-bottom: 3px solid #334155;
+            }
+
+            .header h1 {
+                font-size: 1.75rem;
+                margin-bottom: 0.25rem;
+                font-weight: 600;
+                color: #FFFFFF;
+            }
+
+            .header .subtitle {
+                font-size: 0.875rem;
+                color: #94A3B8;
+                font-weight: 400;
+            }
+
+            .summary {
+                background: #F8F9FA;
+                padding: 2rem 2.5rem;
+                border-bottom: 1px solid #E5E7EB;
+            }
+
+            .summary h2 {
+                color: #1E293B;
+                margin-bottom: 1rem;
+                font-size: 1.25rem;
+                font-weight: 600;
+            }
+
+            .summary-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+                gap: 1rem;
+                margin-top: 1rem;
+            }
+
+            .summary-item {
+                background: white;
+                padding: 1.25rem;
+                border-radius: 6px;
+                border: 1px solid #E5E7EB;
+            }
+
+            .summary-item .label {
+                font-size: 0.8125rem;
+                color: #64748B;
+                margin-bottom: 0.5rem;
+                text-transform: uppercase;
+                letter-spacing: 0.05em;
+                font-weight: 500;
+            }
+
+            .summary-item .value {
+                font-size: 1.75rem;
+                font-weight: 600;
+                color: #1E293B;
+            }
+
+            .content {
+                padding: 2rem 2.5rem;
+            }
+
+            .section-title {
+                font-size: 1.5rem;
+                color: #1E293B;
+                margin-bottom: 1.5rem;
+                padding-bottom: 0.75rem;
+                border-bottom: 2px solid #E5E7EB;
+                font-weight: 600;
+            }
+
+            .badge {
+                display: inline-block;
+                padding: 0.25rem 0.625rem;
+                border-radius: 4px;
+                font-size: 0.75rem;
+                font-weight: 500;
+                margin-right: 0.5rem;
+            }
+
+            .badge-stars {
+                background: #FEF3C7;
+                color: #92400E;
+            }
+
+            .badge-forks {
+                background: #DBEAFE;
+                color: #1E40AF;
+            }
+
+            .badge-language {
+                background: #D1FAE5;
+                color: #065F46;
+            }
+
+            .badge-today {
+                background: #FEE2E2;
+                color: #991B1B;
+            }
+
+            .badge-consistent {
+                background: #D1FAE5;
+                color: #065F46;
+            }
+
+            .badge-trending {
+                background: #FEF3C7;
+                color: #92400E;
+            }
+
+            .badge-new {
+                background: #DBEAFE;
+                color: #1E40AF;
+            }
+
+            .footer {
+                background: #F8F9FA;
+                padding: 1.5rem 2.5rem;
+                text-align: center;
+                color: #64748B;
+                font-size: 0.8125rem;
+                border-top: 1px solid #E5E7EB;
+            }
+
+            @media (max-width: 768px) {
+                .header {
+                    padding: 1.5rem;
+                }
+
+                .summary {
+                    padding: 1.5rem;
+                }
+
+                .content {
+                    padding: 1.5rem;
+                }
+
+                .summary-grid {
+                    grid-template-columns: 1fr;
+                }
+            }
+        </style>
+        
+        <style>
+            .section {
+                margin-bottom: 2rem;
+            }
+
+            .repo-table {
+                width: 100%;
+                border-collapse: collapse;
+                background: white;
+                border: 1px solid #E5E7EB;
+                border-radius: 6px;
+                overflow: hidden;
+                font-size: 0.9375rem;
+            }
+
+            .repo-table th {
+                background: #F8F9FA;
+                padding: 0.875rem 1rem;
+                text-align: left;
+                font-weight: 600;
+                color: #1E293B;
+                border-bottom: 2px solid #E5E7EB;
+                font-size: 0.8125rem;
+                text-transform: uppercase;
+                letter-spacing: 0.05em;
+            }
+
+            .repo-table td {
+                padding: 1rem;
+                border-bottom: 1px solid #E5E7EB;
+                vertical-align: middle;
+            }
+
+            .repo-table tbody tr {
+                transition: background-color 0.15s;
+            }
+
+            .repo-table tbody tr:nth-child(even) {
+                background: #F8F9FA;
+            }
+
+            .repo-table tbody tr:hover {
+                background: #F1F5F9;
+            }
+
+            .repo-table tr:last-child td {
+                border-bottom: none;
+            }
+
+            .repo-name {
+                font-weight: 600;
+            }
+
+            .repo-name a {
+                color: #1E293B;
+                text-decoration: none;
+            }
+
+            .repo-name a:hover {
+                color: #334155;
+                text-decoration: underline;
+            }
+
+            .repo-description {
+                color: #64748B;
+                font-size: 0.875rem;
+                margin-top: 0.25rem;
+                line-height: 1.5;
+            }
+
+            .rank-badge {
+                background: #334155;
+                color: white;
+                min-width: 28px;
+                height: 28px;
+                border-radius: 4px;
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                font-weight: 600;
+                font-size: 0.8125rem;
+            }
+
+            .appearances {
+                color: #059669;
+                font-weight: 600;
+            }
+
+            .stats-inline {
+                color: #64748B;
+                font-size: 0.875rem;
+            }
+
+            .contributors {
+                font-size: 0.75rem;
+                color: #64748B;
+            }
+
+            .contributor-link {
+                color: #334155;
+                text-decoration: none;
+                font-weight: 500;
+            }
+
+            .contributor-link:hover {
+                text-decoration: underline;
+                color: #1E293B;
+            }
+
+            @media (max-width: 768px) {
+                .repo-table {
+                    font-size: 0.875rem;
+                }
+
+                .repo-table th,
+                .repo-table td {
+                    padding: 0.625rem 0.75rem;
+                }
+            }
+        </style>
+        
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Typescript Trending Repositories</h1>
+            <div class="subtitle">April 2026</div>
+            <div class="subtitle">2026-04-01 to 2026-04-30</div>
+        </div>
+        <div class="summary">
+            <h2>Summary</h2>
+            <div class="summary-grid">
+                <div class="summary-item">
+                    <div class="label">Period</div>
+                    <div class="value">April 2026</div>
+                </div>
+                <div class="summary-item">
+                    <div class="label">Days Analyzed</div>
+                    <div class="value">1</div>
+                </div>
+                <div class="summary-item">
+                    <div class="label">Unique Repos</div>
+                    <div class="value">13</div>
+                </div>
+                <div class="summary-item">
+                    <div class="label">Language</div>
+                    <div class="value">Typescript</div>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="section">
+                <h2 class="section-title">Top Trending Repositories</h2>
+                <table class="repo-table">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Repository</th>
+                            <th>Days</th>
+                            <th>Best Rank</th>
+                            <th>Stars</th>
+                            <th>Forks</th>
+                            <th>Language</th>
+                            <th>Built By</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+            <tr>
+                <td><span class="rank-badge">1</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/Yeachan-Heo/oh-my-claudecode" target="_blank">Yeachan-Heo/oh-my-claudecode</a></div>
+                    <div class="repo-description">Teams-first Multi-agent orchestration for Claude Code</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#1</td>
+                <td class="stats-inline">19,293</td>
+                <td class="stats-inline">1,464</td>
+                <td class="stats-inline">TypeScript</td>
+                <td class="contributors"><a href="https://github.com/Yeachan-Heo" class="contributor-link">@Yeachan-Heo</a>, <a href="https://github.com/claude" class="contributor-link">@claude</a>, <a href="https://github.com/devseunggwan" class="contributor-link">@devseunggwan</a>, <a href="https://github.com/riftzen-bit" class="contributor-link">@riftzen-bit</a>, <a href="https://github.com/shaun0927" class="contributor-link">@shaun0927</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">2</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/vas3k/TaxHacker" target="_blank">vas3k/TaxHacker</a></div>
+                    <div class="repo-description">Self-hosted AI accounting app. LLM analyzer for receipts, invoices, transactions with custom prompts and categories</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#2</td>
+                <td class="stats-inline">3,774</td>
+                <td class="stats-inline">596</td>
+                <td class="stats-inline">TypeScript</td>
+                <td class="contributors"><a href="https://github.com/H1D" class="contributor-link">@H1D</a>, <a href="https://github.com/danfimov" class="contributor-link">@danfimov</a>, <a href="https://github.com/dependabot" class="contributor-link">@dependabot</a>, <a href="https://github.com/mmplisskin" class="contributor-link">@mmplisskin</a>, <a href="https://github.com/vas3k" class="contributor-link">@vas3k</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">3</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/thedotmack/claude-mem" target="_blank">thedotmack/claude-mem</a></div>
+                    <div class="repo-description">A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude&#x27;s agent-sdk), and injects relevant context back into future sessions.</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#3</td>
+                <td class="stats-inline">44,117</td>
+                <td class="stats-inline">3,296</td>
+                <td class="stats-inline">TypeScript</td>
+                <td class="contributors"><a href="https://github.com/Copilot" class="contributor-link">@Copilot</a>, <a href="https://github.com/claude" class="contributor-link">@claude</a>, <a href="https://github.com/github-actions" class="contributor-link">@github-actions</a>, <a href="https://github.com/rodboev" class="contributor-link">@rodboev</a>, <a href="https://github.com/thedotmack" class="contributor-link">@thedotmack</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">4</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/Canner/WrenAI" target="_blank">Canner/WrenAI</a></div>
+                    <div class="repo-description">Open-source text-to-SQL and text-to-chart GenBI agent with a semantic layer. Ask your database questions in natural language — get accurate SQL, charts, and BI insights. Supports 12+ data sources (PostgreSQL, BigQuery, Snowflake, etc.) and any LLM (OpenAI, Claude, Gemini, Ollama).</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#4</td>
+                <td class="stats-inline">14,820</td>
+                <td class="stats-inline">1,624</td>
+                <td class="stats-inline">TypeScript</td>
+                <td class="contributors"><a href="https://github.com/andreashimin" class="contributor-link">@andreashimin</a>, <a href="https://github.com/cyyeh" class="contributor-link">@cyyeh</a>, <a href="https://github.com/onlyjackfrost" class="contributor-link">@onlyjackfrost</a>, <a href="https://github.com/paopa" class="contributor-link">@paopa</a>, <a href="https://github.com/wwwy3y3" class="contributor-link">@wwwy3y3</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">5</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/fluxerapp/fluxer" target="_blank">fluxerapp/fluxer</a></div>
+                    <div class="repo-description">A free and open source instant messaging and VoIP platform built for friends, groups, and communities. Self-hosting and more activity in this repository is coming very soon! See the README.</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#5</td>
+                <td class="stats-inline">7,599</td>
+                <td class="stats-inline">410</td>
+                <td class="stats-inline">TypeScript</td>
+                <td class="contributors"><a href="https://github.com/Jiralite" class="contributor-link">@Jiralite</a>, <a href="https://github.com/M0n7y5" class="contributor-link">@M0n7y5</a>, <a href="https://github.com/dynamicbark" class="contributor-link">@dynamicbark</a>, <a href="https://github.com/fenbyte" class="contributor-link">@fenbyte</a>, <a href="https://github.com/hampus-fluxer" class="contributor-link">@hampus-fluxer</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">6</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/shareAI-lab/learn-claude-code" target="_blank">shareAI-lab/learn-claude-code</a></div>
+                    <div class="repo-description">Bash is all you need - A nano claude code–like 「agent harness」, built from 0 to 1</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#6</td>
+                <td class="stats-inline">45,418</td>
+                <td class="stats-inline">7,067</td>
+                <td class="stats-inline">TypeScript</td>
+                <td class="contributors"><a href="https://github.com/CrazyBoyM" class="contributor-link">@CrazyBoyM</a>, <a href="https://github.com/Octane0411" class="contributor-link">@Octane0411</a>, <a href="https://github.com/bansalkanav" class="contributor-link">@bansalkanav</a>, <a href="https://github.com/chablino" class="contributor-link">@chablino</a>, <a href="https://github.com/claude" class="contributor-link">@claude</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">7</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/freeCodeCamp/freeCodeCamp" target="_blank">freeCodeCamp/freeCodeCamp</a></div>
+                    <div class="repo-description">freeCodeCamp.org&#x27;s open-source codebase and curriculum. Learn math, programming, and computer science for free.</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#7</td>
+                <td class="stats-inline">440,256</td>
+                <td class="stats-inline">43,934</td>
+                <td class="stats-inline">TypeScript</td>
+                <td class="contributors"><a href="https://github.com/camperbot" class="contributor-link">@camperbot</a>, <a href="https://github.com/ojeytonwilliams" class="contributor-link">@ojeytonwilliams</a>, <a href="https://github.com/raisedadead" class="contributor-link">@raisedadead</a>, <a href="https://github.com/renovate" class="contributor-link">@renovate</a>, <a href="https://github.com/renovate-bot" class="contributor-link">@renovate-bot</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">8</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/dreamhunter2333/cloudflare_temp_email" target="_blank">dreamhunter2333/cloudflare_temp_email</a></div>
+                    <div class="repo-description">CloudFlare free temp domain email 免费收发 临时域名邮箱 支持附件 IMAP SMTP TelegramBot</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#8</td>
+                <td class="stats-inline">7,683</td>
+                <td class="stats-inline">4,312</td>
+                <td class="stats-inline">TypeScript</td>
+                <td class="contributors"><a href="https://github.com/Bowl42" class="contributor-link">@Bowl42</a>, <a href="https://github.com/claude" class="contributor-link">@claude</a>, <a href="https://github.com/dependabot" class="contributor-link">@dependabot</a>, <a href="https://github.com/dreamhunter2333" class="contributor-link">@dreamhunter2333</a>, <a href="https://github.com/oneisall8955" class="contributor-link">@oneisall8955</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">9</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/czlonkowski/n8n-mcp" target="_blank">czlonkowski/n8n-mcp</a></div>
+                    <div class="repo-description">A MCP for Claude Desktop / Claude Code / Windsurf / Cursor to build n8n workflows for you</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#9</td>
+                <td class="stats-inline">17,216</td>
+                <td class="stats-inline">2,898</td>
+                <td class="stats-inline">TypeScript</td>
+                <td class="contributors"><a href="https://github.com/claude" class="contributor-link">@claude</a>, <a href="https://github.com/czlonkowski" class="contributor-link">@czlonkowski</a>, <a href="https://github.com/kimbo128" class="contributor-link">@kimbo128</a>, <a href="https://github.com/naXa777" class="contributor-link">@naXa777</a>, <a href="https://github.com/thesved" class="contributor-link">@thesved</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">10</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/coder/mux" target="_blank">coder/mux</a></div>
+                    <div class="repo-description">A desktop app for isolated, parallel agentic development</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#10</td>
+                <td class="stats-inline">1,553</td>
+                <td class="stats-inline">87</td>
+                <td class="stats-inline">TypeScript</td>
+                <td class="contributors"><a href="https://github.com/ThomasK33" class="contributor-link">@ThomasK33</a>, <a href="https://github.com/ammar-agent" class="contributor-link">@ammar-agent</a>, <a href="https://github.com/ammario" class="contributor-link">@ammario</a>, <a href="https://github.com/ethanndickson" class="contributor-link">@ethanndickson</a>, <a href="https://github.com/ibetitsmike" class="contributor-link">@ibetitsmike</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">11</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/twentyhq/twenty" target="_blank">twentyhq/twenty</a></div>
+                    <div class="repo-description">Building a modern alternative to Salesforce, powered by the community.</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#11</td>
+                <td class="stats-inline">43,390</td>
+                <td class="stats-inline">5,750</td>
+                <td class="stats-inline">TypeScript</td>
+                <td class="contributors"><a href="https://github.com/FelixMalfait" class="contributor-link">@FelixMalfait</a>, <a href="https://github.com/Weiko" class="contributor-link">@Weiko</a>, <a href="https://github.com/charlesBochet" class="contributor-link">@charlesBochet</a>, <a href="https://github.com/github-actions" class="contributor-link">@github-actions</a>, <a href="https://github.com/lucasbordeau" class="contributor-link">@lucasbordeau</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">12</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/langfuse/langfuse" target="_blank">langfuse/langfuse</a></div>
+                    <div class="repo-description">🪢 Open source LLM engineering platform: LLM Observability, metrics, evals, prompt management, playground, datasets. Integrates with OpenTelemetry, Langchain, OpenAI SDK, LiteLLM, and more. 🍊YC W23</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#12</td>
+                <td class="stats-inline">24,126</td>
+                <td class="stats-inline">2,436</td>
+                <td class="stats-inline">TypeScript</td>
+                <td class="contributors"><a href="https://github.com/Steffen911" class="contributor-link">@Steffen911</a>, <a href="https://github.com/hassiebp" class="contributor-link">@hassiebp</a>, <a href="https://github.com/marcklingen" class="contributor-link">@marcklingen</a>, <a href="https://github.com/marliessophie" class="contributor-link">@marliessophie</a>, <a href="https://github.com/maxdeichmann" class="contributor-link">@maxdeichmann</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">13</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/steipete/mcporter" target="_blank">steipete/mcporter</a></div>
+                    <div class="repo-description">Call MCPs via TypeScript, masquerading as simple TypeScript API. Or package them as cli.</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#13</td>
+                <td class="stats-inline">3,586</td>
+                <td class="stats-inline">230</td>
+                <td class="stats-inline">TypeScript</td>
+                <td class="contributors"><a href="https://github.com/aryasaatvik" class="contributor-link">@aryasaatvik</a>, <a href="https://github.com/caseyg" class="contributor-link">@caseyg</a>, <a href="https://github.com/claude" class="contributor-link">@claude</a>, <a href="https://github.com/ryoppippi" class="contributor-link">@ryoppippi</a>, <a href="https://github.com/steipete" class="contributor-link">@steipete</a></td>
+            </tr>
+        
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="footer">
+            <p>Generated on 2026-04-30</p>
+            <p>GitHub Trending Scraper</p>
+        </div>
+    </div>
+</body>
+</html>

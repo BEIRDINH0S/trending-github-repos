@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C Trending - April 2026</title>
+
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+                line-height: 1.6;
+                color: #111827;
+                background: #F8F9FA;
+                min-height: 100vh;
+            }
+
+            .container {
+                max-width: 1400px;
+                margin: 0 auto;
+                background: #FFFFFF;
+                min-height: 100vh;
+                box-shadow: 0 0 0 1px #E5E7EB;
+            }
+
+            .header {
+                background: #1E293B;
+                color: white;
+                padding: 2rem 2.5rem;
+                border-bottom: 3px solid #334155;
+            }
+
+            .header h1 {
+                font-size: 1.75rem;
+                margin-bottom: 0.25rem;
+                font-weight: 600;
+                color: #FFFFFF;
+            }
+
+            .header .subtitle {
+                font-size: 0.875rem;
+                color: #94A3B8;
+                font-weight: 400;
+            }
+
+            .summary {
+                background: #F8F9FA;
+                padding: 2rem 2.5rem;
+                border-bottom: 1px solid #E5E7EB;
+            }
+
+            .summary h2 {
+                color: #1E293B;
+                margin-bottom: 1rem;
+                font-size: 1.25rem;
+                font-weight: 600;
+            }
+
+            .summary-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+                gap: 1rem;
+                margin-top: 1rem;
+            }
+
+            .summary-item {
+                background: white;
+                padding: 1.25rem;
+                border-radius: 6px;
+                border: 1px solid #E5E7EB;
+            }
+
+            .summary-item .label {
+                font-size: 0.8125rem;
+                color: #64748B;
+                margin-bottom: 0.5rem;
+                text-transform: uppercase;
+                letter-spacing: 0.05em;
+                font-weight: 500;
+            }
+
+            .summary-item .value {
+                font-size: 1.75rem;
+                font-weight: 600;
+                color: #1E293B;
+            }
+
+            .content {
+                padding: 2rem 2.5rem;
+            }
+
+            .section-title {
+                font-size: 1.5rem;
+                color: #1E293B;
+                margin-bottom: 1.5rem;
+                padding-bottom: 0.75rem;
+                border-bottom: 2px solid #E5E7EB;
+                font-weight: 600;
+            }
+
+            .badge {
+                display: inline-block;
+                padding: 0.25rem 0.625rem;
+                border-radius: 4px;
+                font-size: 0.75rem;
+                font-weight: 500;
+                margin-right: 0.5rem;
+            }
+
+            .badge-stars {
+                background: #FEF3C7;
+                color: #92400E;
+            }
+
+            .badge-forks {
+                background: #DBEAFE;
+                color: #1E40AF;
+            }
+
+            .badge-language {
+                background: #D1FAE5;
+                color: #065F46;
+            }
+
+            .badge-today {
+                background: #FEE2E2;
+                color: #991B1B;
+            }
+
+            .badge-consistent {
+                background: #D1FAE5;
+                color: #065F46;
+            }
+
+            .badge-trending {
+                background: #FEF3C7;
+                color: #92400E;
+            }
+
+            .badge-new {
+                background: #DBEAFE;
+                color: #1E40AF;
+            }
+
+            .footer {
+                background: #F8F9FA;
+                padding: 1.5rem 2.5rem;
+                text-align: center;
+                color: #64748B;
+                font-size: 0.8125rem;
+                border-top: 1px solid #E5E7EB;
+            }
+
+            @media (max-width: 768px) {
+                .header {
+                    padding: 1.5rem;
+                }
+
+                .summary {
+                    padding: 1.5rem;
+                }
+
+                .content {
+                    padding: 1.5rem;
+                }
+
+                .summary-grid {
+                    grid-template-columns: 1fr;
+                }
+            }
+        </style>
+        
+        <style>
+            .section {
+                margin-bottom: 2rem;
+            }
+
+            .repo-table {
+                width: 100%;
+                border-collapse: collapse;
+                background: white;
+                border: 1px solid #E5E7EB;
+                border-radius: 6px;
+                overflow: hidden;
+                font-size: 0.9375rem;
+            }
+
+            .repo-table th {
+                background: #F8F9FA;
+                padding: 0.875rem 1rem;
+                text-align: left;
+                font-weight: 600;
+                color: #1E293B;
+                border-bottom: 2px solid #E5E7EB;
+                font-size: 0.8125rem;
+                text-transform: uppercase;
+                letter-spacing: 0.05em;
+            }
+
+            .repo-table td {
+                padding: 1rem;
+                border-bottom: 1px solid #E5E7EB;
+                vertical-align: middle;
+            }
+
+            .repo-table tbody tr {
+                transition: background-color 0.15s;
+            }
+
+            .repo-table tbody tr:nth-child(even) {
+                background: #F8F9FA;
+            }
+
+            .repo-table tbody tr:hover {
+                background: #F1F5F9;
+            }
+
+            .repo-table tr:last-child td {
+                border-bottom: none;
+            }
+
+            .repo-name {
+                font-weight: 600;
+            }
+
+            .repo-name a {
+                color: #1E293B;
+                text-decoration: none;
+            }
+
+            .repo-name a:hover {
+                color: #334155;
+                text-decoration: underline;
+            }
+
+            .repo-description {
+                color: #64748B;
+                font-size: 0.875rem;
+                margin-top: 0.25rem;
+                line-height: 1.5;
+            }
+
+            .rank-badge {
+                background: #334155;
+                color: white;
+                min-width: 28px;
+                height: 28px;
+                border-radius: 4px;
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                font-weight: 600;
+                font-size: 0.8125rem;
+            }
+
+            .appearances {
+                color: #059669;
+                font-weight: 600;
+            }
+
+            .stats-inline {
+                color: #64748B;
+                font-size: 0.875rem;
+            }
+
+            .contributors {
+                font-size: 0.75rem;
+                color: #64748B;
+            }
+
+            .contributor-link {
+                color: #334155;
+                text-decoration: none;
+                font-weight: 500;
+            }
+
+            .contributor-link:hover {
+                text-decoration: underline;
+                color: #1E293B;
+            }
+
+            @media (max-width: 768px) {
+                .repo-table {
+                    font-size: 0.875rem;
+                }
+
+                .repo-table th,
+                .repo-table td {
+                    padding: 0.625rem 0.75rem;
+                }
+            }
+        </style>
+        
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>C Trending Repositories</h1>
+            <div class="subtitle">April 2026</div>
+            <div class="subtitle">2026-04-01 to 2026-04-30</div>
+        </div>
+        <div class="summary">
+            <h2>Summary</h2>
+            <div class="summary-grid">
+                <div class="summary-item">
+                    <div class="label">Period</div>
+                    <div class="value">April 2026</div>
+                </div>
+                <div class="summary-item">
+                    <div class="label">Days Analyzed</div>
+                    <div class="value">1</div>
+                </div>
+                <div class="summary-item">
+                    <div class="label">Unique Repos</div>
+                    <div class="value">19</div>
+                </div>
+                <div class="summary-item">
+                    <div class="label">Language</div>
+                    <div class="value">C</div>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="section">
+                <h2 class="section-title">Top Trending Repositories</h2>
+                <table class="repo-table">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Repository</th>
+                            <th>Days</th>
+                            <th>Best Rank</th>
+                            <th>Stars</th>
+                            <th>Forks</th>
+                            <th>Language</th>
+                            <th>Built By</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+            <tr>
+                <td><span class="rank-badge">1</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/fastfetch-cli/fastfetch" target="_blank">fastfetch-cli/fastfetch</a></div>
+                    <div class="repo-description">A maintained, feature-rich and performance oriented, neofetch like system information tool.</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#1</td>
+                <td class="stats-inline">21,545</td>
+                <td class="stats-inline">727</td>
+                <td class="stats-inline">C</td>
+                <td class="contributors"><a href="https://github.com/CarterLi" class="contributor-link">@CarterLi</a>, <a href="https://github.com/DarNCelsius" class="contributor-link">@DarNCelsius</a>, <a href="https://github.com/LinusDierheimer" class="contributor-link">@LinusDierheimer</a>, <a href="https://github.com/apocelipes" class="contributor-link">@apocelipes</a>, <a href="https://github.com/x-zvf" class="contributor-link">@x-zvf</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">2</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/NVIDIA/cuda-samples" target="_blank">NVIDIA/cuda-samples</a></div>
+                    <div class="repo-description">Samples for CUDA Developers which demonstrates features in CUDA Toolkit</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#2</td>
+                <td class="stats-inline">9,036</td>
+                <td class="stats-inline">2,305</td>
+                <td class="stats-inline">C</td>
+                <td class="contributors"><a href="https://github.com/Ru7w1k" class="contributor-link">@Ru7w1k</a>, <a href="https://github.com/XSShawnZeng" class="contributor-link">@XSShawnZeng</a>, <a href="https://github.com/jnbntz" class="contributor-link">@jnbntz</a>, <a href="https://github.com/mdoijade" class="contributor-link">@mdoijade</a>, <a href="https://github.com/rwarmstr" class="contributor-link">@rwarmstr</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">3</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/valkey-io/valkey" target="_blank">valkey-io/valkey</a></div>
+                    <div class="repo-description">A flexible distributed key-value database that is optimized for caching and other realtime workloads.</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#3</td>
+                <td class="stats-inline">25,317</td>
+                <td class="stats-inline">1,078</td>
+                <td class="stats-inline">C</td>
+                <td class="contributors"><a href="https://github.com/antirez" class="contributor-link">@antirez</a>, <a href="https://github.com/enjoy-binbin" class="contributor-link">@enjoy-binbin</a>, <a href="https://github.com/madolson" class="contributor-link">@madolson</a>, <a href="https://github.com/oranagra" class="contributor-link">@oranagra</a>, <a href="https://github.com/pietern" class="contributor-link">@pietern</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">4</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/NLnetLabs/unbound" target="_blank">NLnetLabs/unbound</a></div>
+                    <div class="repo-description">Unbound is a validating, recursive, and caching DNS resolver.</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#4</td>
+                <td class="stats-inline">4,378</td>
+                <td class="stats-inline">432</td>
+                <td class="stats-inline">C</td>
+                <td class="contributors"><a href="https://github.com/Philip-NLnetLabs" class="contributor-link">@Philip-NLnetLabs</a>, <a href="https://github.com/gthess" class="contributor-link">@gthess</a>, <a href="https://github.com/ralphdolmans" class="contributor-link">@ralphdolmans</a>, <a href="https://github.com/wcawijngaards" class="contributor-link">@wcawijngaards</a>, <a href="https://github.com/wtoorop" class="contributor-link">@wtoorop</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">5</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/nicbarker/clay" target="_blank">nicbarker/clay</a></div>
+                    <div class="repo-description">High performance UI layout library in C.</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#5</td>
+                <td class="stats-inline">16,934</td>
+                <td class="stats-inline">654</td>
+                <td class="stats-inline">C</td>
+                <td class="contributors"><a href="https://github.com/FintasticMan" class="contributor-link">@FintasticMan</a>, <a href="https://github.com/SuperOptimizer" class="contributor-link">@SuperOptimizer</a>, <a href="https://github.com/github-actions" class="contributor-link">@github-actions</a>, <a href="https://github.com/monodop" class="contributor-link">@monodop</a>, <a href="https://github.com/nicbarker" class="contributor-link">@nicbarker</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">6</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/bytecodealliance/wasm-micro-runtime" target="_blank">bytecodealliance/wasm-micro-runtime</a></div>
+                    <div class="repo-description">WebAssembly Micro Runtime (WAMR)</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#6</td>
+                <td class="stats-inline">5,869</td>
+                <td class="stats-inline">777</td>
+                <td class="stats-inline">C</td>
+                <td class="contributors"><a href="https://github.com/lum1n0us" class="contributor-link">@lum1n0us</a>, <a href="https://github.com/no1wudi" class="contributor-link">@no1wudi</a>, <a href="https://github.com/wenyongh" class="contributor-link">@wenyongh</a>, <a href="https://github.com/xujuntwt95329" class="contributor-link">@xujuntwt95329</a>, <a href="https://github.com/yamt" class="contributor-link">@yamt</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">7</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/lmarzen/esp32-weather-epd" target="_blank">lmarzen/esp32-weather-epd</a></div>
+                    <div class="repo-description">A low-power E-Paper weather display powered by an ESP32 microcontroller. Utilizes the OpenWeatherMap API.</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#7</td>
+                <td class="stats-inline">6,029</td>
+                <td class="stats-inline">454</td>
+                <td class="stats-inline">C</td>
+                <td class="contributors"><a href="https://github.com/ble-dev" class="contributor-link">@ble-dev</a>, <a href="https://github.com/cwitting" class="contributor-link">@cwitting</a>, <a href="https://github.com/freakydude" class="contributor-link">@freakydude</a>, <a href="https://github.com/kenwch92" class="contributor-link">@kenwch92</a>, <a href="https://github.com/lmarzen" class="contributor-link">@lmarzen</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">8</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/FreeRTOS/FreeRTOS-Kernel" target="_blank">FreeRTOS/FreeRTOS-Kernel</a></div>
+                    <div class="repo-description">FreeRTOS kernel files only, submoduled into https://github.com/FreeRTOS/FreeRTOS and various other repos.</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#8</td>
+                <td class="stats-inline">3,967</td>
+                <td class="stats-inline">1,477</td>
+                <td class="stats-inline">C</td>
+                <td class="contributors"><a href="https://github.com/RichardBarry" class="contributor-link">@RichardBarry</a>, <a href="https://github.com/Skptak" class="contributor-link">@Skptak</a>, <a href="https://github.com/aggarg" class="contributor-link">@aggarg</a>, <a href="https://github.com/chinglee-iot" class="contributor-link">@chinglee-iot</a>, <a href="https://github.com/kar-rahul-aws" class="contributor-link">@kar-rahul-aws</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">9</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/pygame/pygame" target="_blank">pygame/pygame</a></div>
+                    <div class="repo-description">🐍🎮 pygame (the library) is a Free and Open Source python programming language library for making multimedia applications like games built on top of the excellent SDL library. C, Python, Native, OpenGL.</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#9</td>
+                <td class="stats-inline">8,695</td>
+                <td class="stats-inline">4,069</td>
+                <td class="stats-inline">C</td>
+                <td class="contributors"><a href="https://github.com/MyreMylar" class="contributor-link">@MyreMylar</a>, <a href="https://github.com/PeterShinners" class="contributor-link">@PeterShinners</a>, <a href="https://github.com/dlon" class="contributor-link">@dlon</a>, <a href="https://github.com/illume" class="contributor-link">@illume</a>, <a href="https://github.com/llindstrom" class="contributor-link">@llindstrom</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">10</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/moonshine-ai/moonshine" target="_blank">moonshine-ai/moonshine</a></div>
+                    <div class="repo-description">Fast and accurate automatic speech recognition (ASR) for edge devices</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#10</td>
+                <td class="stats-inline">7,560</td>
+                <td class="stats-inline">382</td>
+                <td class="stats-inline">C</td>
+                <td class="contributors"><a href="https://github.com/evmaki" class="contributor-link">@evmaki</a>, <a href="https://github.com/giovanninibarbosa" class="contributor-link">@giovanninibarbosa</a>, <a href="https://github.com/keveman" class="contributor-link">@keveman</a>, <a href="https://github.com/kylehowells" class="contributor-link">@kylehowells</a>, <a href="https://github.com/petewarden" class="contributor-link">@petewarden</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">11</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/libarchive/libarchive" target="_blank">libarchive/libarchive</a></div>
+                    <div class="repo-description">Multi-format archive and compression library</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#11</td>
+                <td class="stats-inline">3,453</td>
+                <td class="stats-inline">907</td>
+                <td class="stats-inline">C</td>
+                <td class="contributors"><a href="https://github.com/amejia1" class="contributor-link">@amejia1</a>, <a href="https://github.com/ggcueroad" class="contributor-link">@ggcueroad</a>, <a href="https://github.com/kientzle" class="contributor-link">@kientzle</a>, <a href="https://github.com/mmatuska" class="contributor-link">@mmatuska</a>, <a href="https://github.com/stoeckmann" class="contributor-link">@stoeckmann</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">12</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/libimobiledevice/libimobiledevice" target="_blank">libimobiledevice/libimobiledevice</a></div>
+                    <div class="repo-description">A cross-platform protocol library to communicate with iOS devices</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#12</td>
+                <td class="stats-inline">7,808</td>
+                <td class="stats-inline">1,488</td>
+                <td class="stats-inline">C</td>
+                <td class="contributors"><a href="https://github.com/FunkyM" class="contributor-link">@FunkyM</a>, <a href="https://github.com/JonathanBeck" class="contributor-link">@JonathanBeck</a>, <a href="https://github.com/cfergeau" class="contributor-link">@cfergeau</a>, <a href="https://github.com/mcolyer" class="contributor-link">@mcolyer</a>, <a href="https://github.com/nikias" class="contributor-link">@nikias</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">13</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/LNH-team/pico-launcher" target="_blank">LNH-team/pico-launcher</a></div>
+                    <div class="repo-description">Rom browser frontend for Pico Loader.</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#13</td>
+                <td class="stats-inline">225</td>
+                <td class="stats-inline">27</td>
+                <td class="stats-inline">C</td>
+                <td class="contributors"><a href="https://github.com/Gericom" class="contributor-link">@Gericom</a>, <a href="https://github.com/lifehackerhansol" class="contributor-link">@lifehackerhansol</a>, <a href="https://github.com/oakwoodwolf" class="contributor-link">@oakwoodwolf</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">14</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/riscv-software-src/riscv-isa-sim" target="_blank">riscv-software-src/riscv-isa-sim</a></div>
+                    <div class="repo-description">Spike, a RISC-V ISA Simulator</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#14</td>
+                <td class="stats-inline">3,050</td>
+                <td class="stats-inline">1,045</td>
+                <td class="stats-inline">C</td>
+                <td class="contributors"><a href="https://github.com/YenHaoChen" class="contributor-link">@YenHaoChen</a>, <a href="https://github.com/aswaterman" class="contributor-link">@aswaterman</a>, <a href="https://github.com/chihminchao" class="contributor-link">@chihminchao</a>, <a href="https://github.com/scottj97" class="contributor-link">@scottj97</a>, <a href="https://github.com/timsifive" class="contributor-link">@timsifive</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">15</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/FreeRTOS/FreeRTOS" target="_blank">FreeRTOS/FreeRTOS</a></div>
+                    <div class="repo-description">&#x27;Classic&#x27; FreeRTOS distribution. Started as Git clone of FreeRTOS SourceForge SVN repo. Submodules the kernel.</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#15</td>
+                <td class="stats-inline">7,143</td>
+                <td class="stats-inline">1,979</td>
+                <td class="stats-inline">C</td>
+                <td class="contributors"><a href="https://github.com/AniruddhaKanhere" class="contributor-link">@AniruddhaKanhere</a>, <a href="https://github.com/RichardBarry" class="contributor-link">@RichardBarry</a>, <a href="https://github.com/aggarg" class="contributor-link">@aggarg</a>, <a href="https://github.com/chinglee-iot" class="contributor-link">@chinglee-iot</a>, <a href="https://github.com/paulbartell" class="contributor-link">@paulbartell</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">16</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/ExpressLRS/ExpressLRS" target="_blank">ExpressLRS/ExpressLRS</a></div>
+                    <div class="repo-description">ESP32/ESP8285-based High-Performance Radio Link for RC applications</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#16</td>
+                <td class="stats-inline">4,828</td>
+                <td class="stats-inline">1,358</td>
+                <td class="stats-inline">C</td>
+                <td class="contributors"><a href="https://github.com/AlessandroAU" class="contributor-link">@AlessandroAU</a>, <a href="https://github.com/CapnBry" class="contributor-link">@CapnBry</a>, <a href="https://github.com/JyeSmith" class="contributor-link">@JyeSmith</a>, <a href="https://github.com/mha1" class="contributor-link">@mha1</a>, <a href="https://github.com/pkendall64" class="contributor-link">@pkendall64</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">17</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/libjpeg-turbo/libjpeg-turbo" target="_blank">libjpeg-turbo/libjpeg-turbo</a></div>
+                    <div class="repo-description">Main libjpeg-turbo repository</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#17</td>
+                <td class="stats-inline">4,271</td>
+                <td class="stats-inline">1,133</td>
+                <td class="stats-inline">C</td>
+                <td class="contributors"><a href="https://github.com/CendioOssman" class="contributor-link">@CendioOssman</a>, <a href="https://github.com/dcommander" class="contributor-link">@dcommander</a>, <a href="https://github.com/jwright-arm" class="contributor-link">@jwright-arm</a>, <a href="https://github.com/kornelski" class="contributor-link">@kornelski</a>, <a href="https://github.com/mayeut" class="contributor-link">@mayeut</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">18</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/betaflight/betaflight" target="_blank">betaflight/betaflight</a></div>
+                    <div class="repo-description">Open Source Flight Controller Firmware</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#18</td>
+                <td class="stats-inline">10,777</td>
+                <td class="stats-inline">3,679</td>
+                <td class="stats-inline">C</td>
+                <td class="contributors"><a href="https://github.com/blckmn" class="contributor-link">@blckmn</a>, <a href="https://github.com/borisbstyle" class="contributor-link">@borisbstyle</a>, <a href="https://github.com/hydra" class="contributor-link">@hydra</a>, <a href="https://github.com/martinbudden" class="contributor-link">@martinbudden</a>, <a href="https://github.com/mikeller" class="contributor-link">@mikeller</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">19</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/quickjs-ng/quickjs" target="_blank">quickjs-ng/quickjs</a></div>
+                    <div class="repo-description">QuickJS, the Next Generation: a mighty JavaScript engine</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#19</td>
+                <td class="stats-inline">2,848</td>
+                <td class="stats-inline">278</td>
+                <td class="stats-inline">C</td>
+                <td class="contributors"><a href="https://github.com/andrjohns" class="contributor-link">@andrjohns</a>, <a href="https://github.com/bellard" class="contributor-link">@bellard</a>, <a href="https://github.com/bnoordhuis" class="contributor-link">@bnoordhuis</a>, <a href="https://github.com/chqrlie" class="contributor-link">@chqrlie</a>, <a href="https://github.com/saghul" class="contributor-link">@saghul</a></td>
+            </tr>
+        
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="footer">
+            <p>Generated on 2026-04-30</p>
+            <p>GitHub Trending Scraper</p>
+        </div>
+    </div>
+</body>
+</html>
