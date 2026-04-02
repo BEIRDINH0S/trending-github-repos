@@ -1,0 +1,369 @@
+{
+  "metadata": {
+    "date": "2026-04-02",
+    "language": "c",
+    "total_repositories": 21,
+    "total_stars": 355101,
+    "total_forks": 91506,
+    "generated_by": "GitHub Trending Scraper",
+    "format_version": "1.0"
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "valkey-io/valkey",
+      "url": "https://github.com/valkey-io/valkey",
+      "description": "A flexible distributed key-value database that is optimized for caching and other realtime workloads.",
+      "language": "C",
+      "stars": 25329,
+      "forks": 1081,
+      "stars_today": "12 stars today",
+      "built_by": [
+        "antirez",
+        "oranagra",
+        "enjoy-binbin",
+        "pietern",
+        "madolson"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "zephyrproject-rtos/zephyr",
+      "url": "https://github.com/zephyrproject-rtos/zephyr",
+      "description": "Primary Git Repository for the Zephyr Project. Zephyr is a new generation, scalable, optimized, secure RTOS for multiple hardware architectures.",
+      "language": "C",
+      "stars": 14881,
+      "forks": 8902,
+      "stars_today": "28 stars today",
+      "built_by": [
+        "nashif",
+        "jukkar",
+        "galak",
+        "gmarull",
+        "cvinayak"
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "openssh/openssh-portable",
+      "url": "https://github.com/openssh/openssh-portable",
+      "description": "Portable OpenSSH",
+      "language": "C",
+      "stars": 3757,
+      "forks": 2054,
+      "stars_today": "3 stars today",
+      "built_by": [
+        "djmdjm",
+        "daztucker",
+        "mfriedl",
+        "jonathangray",
+        "botovq"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "fluent/fluent-bit",
+      "url": "https://github.com/fluent/fluent-bit",
+      "description": "Fast and Lightweight Logs, Metrics and Traces processor for Linux, BSD, OSX and Windows",
+      "language": "C",
+      "stars": 7768,
+      "forks": 1890,
+      "stars_today": "9 stars today",
+      "built_by": [
+        "edsiper",
+        "cosmo0920",
+        "nokute78",
+        "pwhelan",
+        "leonardo-albertovich"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "FRRouting/frr",
+      "url": "https://github.com/FRRouting/frr",
+      "description": "The FRRouting Protocol Suite",
+      "language": "C",
+      "stars": 4077,
+      "forks": 1485,
+      "stars_today": "2 stars today",
+      "built_by": [
+        "donaldsharp",
+        "ton31337",
+        "eqvinox",
+        "qlyoung",
+        "riw777"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "git/git",
+      "url": "https://github.com/git/git",
+      "description": "Git Source Code Mirror - This is a publish-only repository but pull requests can be turned into patches to the mailing list via GitGitGadget (https://gitgitgadget.github.io/). Please follow Documentation/SubmittingPatches procedure for any of your improvements.",
+      "language": "C",
+      "stars": 60056,
+      "forks": 27777,
+      "stars_today": "26 stars today",
+      "built_by": [
+        "gitster",
+        "peff",
+        "dscho",
+        "pks-t",
+        "avar"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "curl/curl",
+      "url": "https://github.com/curl/curl",
+      "description": "A command line tool and library for transferring data with URL syntax, supporting DICT, FILE, FTP, FTPS, GOPHER, GOPHERS, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, MQTT, MQTTS, POP3, POP3S, RTMP, RTMPS, RTSP, SCP, SFTP, SMB, SMBS, SMTP, SMTPS, TELNET, TFTP, WS and WSS. libcurl offers a myriad of powerful features",
+      "language": "C",
+      "stars": 41164,
+      "forks": 7114,
+      "stars_today": "17 stars today",
+      "built_by": [
+        "bagder",
+        "vszakats",
+        "yangtse",
+        "captain-caveman2k",
+        "dfandrich"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "Mbed-TLS/mbedtls",
+      "url": "https://github.com/Mbed-TLS/mbedtls",
+      "description": "An open source, portable, easy to use, readable and flexible TLS library, and reference implementation of the PSA Cryptography API. Releases are on a varying cadence, typically around 3 - 6 months between releases.",
+      "language": "C",
+      "stars": 6561,
+      "forks": 2856,
+      "stars_today": "4 stars today",
+      "built_by": [
+        "gilles-peskine-arm",
+        "mpg",
+        "ronald-cron-arm",
+        "daverodgman",
+        "valeriosetti"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "openwrt/openwrt",
+      "url": "https://github.com/openwrt/openwrt",
+      "description": "This repository is a mirror of https://git.openwrt.org/openwrt/openwrt.git It is for reference only and is not active for check-ins. We will continue to accept Pull Requests here. They will be merged via staging trees then into openwrt.git.",
+      "language": "C",
+      "stars": 26115,
+      "forks": 12212,
+      "stars_today": "19 stars today",
+      "built_by": [
+        "juhosg",
+        "ffainelli",
+        "nbd168",
+        "hauke",
+        "jow-"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "cilium/tetragon",
+      "url": "https://github.com/cilium/tetragon",
+      "description": "eBPF-based Security Observability and Runtime Enforcement",
+      "language": "C",
+      "stars": 4537,
+      "forks": 519,
+      "stars_today": "7 stars today",
+      "built_by": [
+        "olsajiri",
+        "kkourt",
+        "cilium-renovate",
+        "mtardy",
+        "tixxdz"
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "fastfetch-cli/fastfetch",
+      "url": "https://github.com/fastfetch-cli/fastfetch",
+      "description": "A maintained, feature-rich and performance oriented, neofetch like system information tool.",
+      "language": "C",
+      "stars": 21576,
+      "forks": 728,
+      "stars_today": "39 stars today",
+      "built_by": [
+        "CarterLi",
+        "LinusDierheimer",
+        "DarNCelsius",
+        "apocelipes",
+        "x-zvf"
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "libevent/libevent",
+      "url": "https://github.com/libevent/libevent",
+      "description": "Event notification library",
+      "language": "C",
+      "stars": 11859,
+      "forks": 3465,
+      "stars_today": "3 stars today",
+      "built_by": [
+        "nmathewson",
+        "azat",
+        "provos",
+        "JoakimSoderberg",
+        "fanquake"
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "nxp-imx/linux-imx",
+      "url": "https://github.com/nxp-imx/linux-imx",
+      "description": "i.MX Linux kernel",
+      "language": "C",
+      "stars": 294,
+      "forks": 300,
+      "stars_today": "0 stars today",
+      "built_by": [
+        "torvalds",
+        "davem330",
+        "arndb",
+        "broonie",
+        "tiwai"
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "espressif/esp-idf",
+      "url": "https://github.com/espressif/esp-idf",
+      "description": "Espressif IoT Development Framework. Official development framework for Espressif SoCs.",
+      "language": "C",
+      "stars": 17702,
+      "forks": 8181,
+      "stars_today": "11 stars today",
+      "built_by": [
+        "igrr",
+        "projectgus",
+        "jack0c",
+        "suda-morris",
+        "mahavirj"
+      ]
+    },
+    {
+      "rank": 15,
+      "name": "openucx/ucx",
+      "url": "https://github.com/openucx/ucx",
+      "description": "Unified Communication X (mailing list - https://elist.ornl.gov/mailman/listinfo/ucx-group)",
+      "language": "C",
+      "stars": 1603,
+      "forks": 538,
+      "stars_today": "0 stars today",
+      "built_by": [
+        "yosefe",
+        "dmitrygx",
+        "brminich",
+        "evgeny-leksikov",
+        "alinask"
+      ]
+    },
+    {
+      "rank": 16,
+      "name": "FreeRTOS/FreeRTOS-Kernel",
+      "url": "https://github.com/FreeRTOS/FreeRTOS-Kernel",
+      "description": "FreeRTOS kernel files only, submoduled into https://github.com/FreeRTOS/FreeRTOS and various other repos.",
+      "language": "C",
+      "stars": 3972,
+      "forks": 1478,
+      "stars_today": "7 stars today",
+      "built_by": [
+        "RichardBarry",
+        "aggarg",
+        "kar-rahul-aws",
+        "chinglee-iot",
+        "Skptak"
+      ]
+    },
+    {
+      "rank": 17,
+      "name": "nanopb/nanopb",
+      "url": "https://github.com/nanopb/nanopb",
+      "description": "Protocol Buffers with small code size",
+      "language": "C",
+      "stars": 5284,
+      "forks": 999,
+      "stars_today": "3 stars today",
+      "built_by": [
+        "PetteriAimonen",
+        "kylemanna",
+        "oliverlee",
+        "joshstrohminger",
+        "theunkn0wn1"
+      ]
+    },
+    {
+      "rank": 18,
+      "name": "netdata/netdata",
+      "url": "https://github.com/netdata/netdata",
+      "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
+      "language": "C",
+      "stars": 78282,
+      "forks": 6392,
+      "stars_today": "11 stars today",
+      "built_by": [
+        "ktsaou",
+        "netdatabot",
+        "ilyam8",
+        "Ferroin",
+        "stelfrag"
+      ]
+    },
+    {
+      "rank": 19,
+      "name": "vedderb/bldc",
+      "url": "https://github.com/vedderb/bldc",
+      "description": "The VESC motor control firmware",
+      "language": "C",
+      "stars": 3027,
+      "forks": 1746,
+      "stars_today": "1 star today",
+      "built_by": [
+        "vedderb",
+        "Mitchlol",
+        "nitrousnrg",
+        "kubark42",
+        "Jfriesen222"
+      ]
+    },
+    {
+      "rank": 20,
+      "name": "ARM-software/CMSIS_6",
+      "url": "https://github.com/ARM-software/CMSIS_6",
+      "description": "CMSIS version 6 (successor of CMSIS_5)",
+      "language": "C",
+      "stars": 408,
+      "forks": 141,
+      "stars_today": "1 star today",
+      "built_by": [
+        "JonatanAntoni",
+        "RobertRostohar",
+        "ReinhardKeil",
+        "KeilChris"
+      ]
+    },
+    {
+      "rank": 21,
+      "name": "NVIDIA/open-gpu-kernel-modules",
+      "url": "https://github.com/NVIDIA/open-gpu-kernel-modules",
+      "description": "NVIDIA Linux open GPU kernel module source",
+      "language": "C",
+      "stars": 16849,
+      "forks": 1648,
+      "stars_today": "4 stars today",
+      "built_by": [
+        "niv",
+        "aritger",
+        "mmaneetsingh",
+        "misyltoad",
+        "gauravjuvekar"
+      ]
+    }
+  ]
+}

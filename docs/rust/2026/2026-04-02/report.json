@@ -1,0 +1,268 @@
+{
+  "metadata": {
+    "date": "2026-04-02",
+    "language": "rust",
+    "total_repositories": 15,
+    "total_stars": 465194,
+    "total_forks": 45125,
+    "generated_by": "GitHub Trending Scraper",
+    "format_version": "1.0"
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "openai/codex",
+      "url": "https://github.com/openai/codex",
+      "description": "Lightweight coding agent that runs in your terminal",
+      "language": "Rust",
+      "stars": 71845,
+      "forks": 10038,
+      "stars_today": "2,390 stars today",
+      "built_by": [
+        "bolinfest",
+        "jif-oai",
+        "aibrahim-oai",
+        "pakrym-oai",
+        "etraut-openai"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "screenpipe/screenpipe",
+      "url": "https://github.com/screenpipe/screenpipe",
+      "description": "run agents that work for you in the background based on what you do",
+      "language": "Rust",
+      "stars": 17937,
+      "forks": 1584,
+      "stars_today": "53 stars today",
+      "built_by": [
+        "louis030195",
+        "claude",
+        "github-actions",
+        "divanshu-go",
+        "Neptune650"
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "farion1231/cc-switch",
+      "url": "https://github.com/farion1231/cc-switch",
+      "description": "A cross-platform desktop All-in-One assistant tool for Claude Code, Codex, OpenCode, openclaw & Gemini CLI.",
+      "language": "Rust",
+      "stars": 37152,
+      "forks": 2239,
+      "stars_today": "706 stars today",
+      "built_by": [
+        "farion1231",
+        "yovinchen",
+        "claude",
+        "TinsFox",
+        "tianrking"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "mayocream/koharu",
+      "url": "https://github.com/mayocream/koharu",
+      "description": "ML-powered manga translator, written in Rust.",
+      "language": "Rust",
+      "stars": 1664,
+      "forks": 78,
+      "stars_today": "47 stars today",
+      "built_by": [
+        "mayocream",
+        "fffonion",
+        "dependabot",
+        "Map1en",
+        "karrot0"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "antinomyhq/forgecode",
+      "url": "https://github.com/antinomyhq/forgecode",
+      "description": "AI enabled pair programmer for Claude, GPT, O Series, Grok, Deepseek, Gemini and 300+ models",
+      "language": "Rust",
+      "stars": 5543,
+      "forks": 1238,
+      "stars_today": "149 stars today",
+      "built_by": [
+        "tusharmath",
+        "autofix-ci",
+        "amitksingh1490",
+        "laststylebender14",
+        "ssddOnTop"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "linera-io/linera-protocol",
+      "url": "https://github.com/linera-io/linera-protocol",
+      "description": "Main repository for the Linera protocol",
+      "language": "Rust",
+      "stars": 32149,
+      "forks": 2332,
+      "stars_today": "2 stars today",
+      "built_by": [
+        "ma2bd",
+        "jvff",
+        "afck",
+        "ndr-ds",
+        "github-merge-queue"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "dani-garcia/vaultwarden",
+      "url": "https://github.com/dani-garcia/vaultwarden",
+      "description": "Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs",
+      "language": "Rust",
+      "stars": 57770,
+      "forks": 2672,
+      "stars_today": "118 stars today",
+      "built_by": [
+        "dani-garcia",
+        "BlackDex",
+        "jjlin",
+        "mprasil",
+        "stefan0xC"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "nautechsystems/nautilus_trader",
+      "url": "https://github.com/nautechsystems/nautilus_trader",
+      "description": "Production-grade Rust-native trading engine with deterministic event-driven architecture",
+      "language": "Rust",
+      "stars": 21591,
+      "forks": 2575,
+      "stars_today": "46 stars today",
+      "built_by": [
+        "cjdsellers",
+        "limx0",
+        "filipmacek",
+        "faysou",
+        "davidsblom"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "raine/workmux",
+      "url": "https://github.com/raine/workmux",
+      "description": "git worktrees + tmux windows for zero-friction parallel dev",
+      "language": "Rust",
+      "stars": 1109,
+      "forks": 78,
+      "stars_today": "14 stars today",
+      "built_by": [
+        "raine",
+        "Infonautica",
+        "rstacruz",
+        "evatt-harvey-salinger",
+        "bps"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "cloud-hypervisor/cloud-hypervisor",
+      "url": "https://github.com/cloud-hypervisor/cloud-hypervisor",
+      "description": "A Virtual Machine Monitor for modern Cloud workloads. Features include CPU, memory and device hotplug, support for running Windows and Linux guests, device offload with vhost-user and a minimal compact footprint. Written in Rust with a strong focus on security.",
+      "language": "Rust",
+      "stars": 5439,
+      "forks": 612,
+      "stars_today": "8 stars today",
+      "built_by": [
+        "rbradford",
+        "dependabot",
+        "dependabot-preview",
+        "liuw",
+        "likebreath"
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "BurntSushi/ripgrep",
+      "url": "https://github.com/BurntSushi/ripgrep",
+      "description": "ripgrep recursively searches directories for a regex pattern while respecting your gitignore",
+      "language": "Rust",
+      "stars": 61756,
+      "forks": 2456,
+      "stars_today": "80 stars today",
+      "built_by": [
+        "BurntSushi",
+        "okdana",
+        "balajisivaraman",
+        "igor-raits",
+        "jgarte"
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "rustdesk/rustdesk",
+      "url": "https://github.com/rustdesk/rustdesk",
+      "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
+      "language": "Rust",
+      "stars": 110387,
+      "forks": 16515,
+      "stars_today": "71 stars today",
+      "built_by": [
+        "rustdesk",
+        "fufesou",
+        "21pages",
+        "Kingtous",
+        "Heap-Hop"
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "oxc-project/oxc",
+      "url": "https://github.com/oxc-project/oxc",
+      "description": "⚓ A collection of high-performance JavaScript tools.",
+      "language": "Rust",
+      "stars": 20469,
+      "forks": 944,
+      "stars_today": "24 stars today",
+      "built_by": [
+        "Boshen",
+        "overlookmotel",
+        "camc314",
+        "Dunqing",
+        "renovate"
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "sunface/rust-by-practice",
+      "url": "https://github.com/sunface/rust-by-practice",
+      "description": "Learning Rust By Practice, narrowing the gap between beginner and skilled-dev through challenging examples, exercises and projects.",
+      "language": "Rust",
+      "stars": 14125,
+      "forks": 1156,
+      "stars_today": "5 stars today",
+      "built_by": [
+        "congim",
+        "sunface",
+        "Tanish-Eagle",
+        "katopz",
+        "Scott169"
+      ]
+    },
+    {
+      "rank": 15,
+      "name": "lance-format/lance",
+      "url": "https://github.com/lance-format/lance",
+      "description": "Open Lakehouse Format for Multimodal AI. Convert from Parquet in 2 lines of code for 100x faster random access, vector index, and data versioning. Compatible with Pandas, DuckDB, Polars, Pyarrow, and PyTorch with more integrations coming..",
+      "language": "Rust",
+      "stars": 6258,
+      "forks": 608,
+      "stars_today": "20 stars today",
+      "built_by": [
+        "github-actions",
+        "eddyxu",
+        "westonpace",
+        "wjones127",
+        "BubbleCal"
+      ]
+    }
+  ]
+}
