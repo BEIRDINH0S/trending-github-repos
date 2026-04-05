@@ -1,0 +1,386 @@
+{
+  "metadata": {
+    "date": "2026-04-05",
+    "language": "go",
+    "total_repositories": 22,
+    "total_stars": 724783,
+    "total_forks": 110664,
+    "generated_by": "GitHub Trending Scraper",
+    "format_version": "1.0"
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "ollama/ollama",
+      "url": "https://github.com/ollama/ollama",
+      "description": "Get up and running with Kimi-K2.5, GLM-5, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+      "language": "Go",
+      "stars": 167182,
+      "forks": 15324,
+      "stars_today": "171 stars today",
+      "built_by": [
+        "mxyng",
+        "jmorganca",
+        "dhiltgen",
+        "BruceMacD",
+        "jessegross"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "Wei-Shaw/sub2api",
+      "url": "https://github.com/Wei-Shaw/sub2api",
+      "description": "Sub2API-CRS2 一站式开源中转服务，让 Claude、Openai 、Gemini、Antigravity订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
+      "language": "Go",
+      "stars": 10270,
+      "forks": 1644,
+      "stars_today": "118 stars today",
+      "built_by": [
+        "Wei-Shaw",
+        "IanShaw027",
+        "touwaeriol",
+        "claude",
+        "slovx2"
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "QuantumNous/new-api",
+      "url": "https://github.com/QuantumNous/new-api",
+      "description": "A unified AI model hub for aggregation & distribution. It supports cross-converting various LLMs into OpenAI-compatible, Claude-compatible, or Gemini-compatible formats. A centralized gateway for personal and enterprise model management. 🍥",
+      "language": "Go",
+      "stars": 24842,
+      "forks": 4950,
+      "stars_today": "132 stars today",
+      "built_by": [
+        "Calcium-Ion",
+        "seefs001",
+        "t0ng7u",
+        "songquanpeng"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "masterking32/MasterDnsVPN",
+      "url": "https://github.com/masterking32/MasterDnsVPN",
+      "description": "Advanced DNS tunneling VPN for censorship bypass, optimized beyond DNSTT and SlipStream with low-overhead ARQ, SOCKS5 multiplexing, resolver load balancing, and high packet-loss stability.",
+      "language": "Go",
+      "stars": 485,
+      "forks": 52,
+      "stars_today": "143 stars today",
+      "built_by": [
+        "masterking32",
+        "abolix",
+        "PentSec",
+        "MahdiMirzadeh",
+        "typerhack"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "googleapis/genai-toolbox",
+      "url": "https://github.com/googleapis/genai-toolbox",
+      "description": "MCP Toolbox for Databases is an open source MCP server for databases.",
+      "language": "Go",
+      "stars": 13727,
+      "forks": 1319,
+      "stars_today": "31 stars today",
+      "built_by": [
+        "Yuan325",
+        "twishabansal",
+        "averikitsch",
+        "duwenxin99",
+        "release-please"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "kubernetes/kubernetes",
+      "url": "https://github.com/kubernetes/kubernetes",
+      "description": "Production-Grade Container Scheduling and Management",
+      "language": "Go",
+      "stars": 121489,
+      "forks": 42792,
+      "stars_today": "27 stars today",
+      "built_by": [
+        "k8s-ci-robot",
+        "liggitt",
+        "thockin",
+        "wojtek-t",
+        "brendandburns"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "mudler/LocalAI",
+      "url": "https://github.com/mudler/LocalAI",
+      "description": "LocalAI is the open-source AI engine. Run any model - LLMs, vision, voice, image, video - on any hardware. No GPU required.",
+      "language": "Go",
+      "stars": 44888,
+      "forks": 3861,
+      "stars_today": "52 stars today",
+      "built_by": [
+        "mudler",
+        "localai-bot",
+        "dependabot",
+        "renovate",
+        "dave-gray101"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "sipeed/picoclaw",
+      "url": "https://github.com/sipeed/picoclaw",
+      "description": "Tiny, Fast, and Deployable anywhere — automate the mundane, unleash your creativity",
+      "language": "Go",
+      "stars": 27479,
+      "forks": 3878,
+      "stars_today": "160 stars today",
+      "built_by": [
+        "yinwm",
+        "claude",
+        "afjcjsbx",
+        "alexhoshina",
+        "lxowalle"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "vllm-project/semantic-router",
+      "url": "https://github.com/vllm-project/semantic-router",
+      "description": "System Level Intelligent Router for Mixture-of-Models at Cloud, Data Center and Edge",
+      "language": "Go",
+      "stars": 3610,
+      "forks": 596,
+      "stars_today": "17 stars today",
+      "built_by": [
+        "Xunzhuo",
+        "rootfs",
+        "samzong",
+        "yuluo-yx",
+        "yossiovadia"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "Netflix/chaosmonkey",
+      "url": "https://github.com/Netflix/chaosmonkey",
+      "description": "Chaos Monkey is a resiliency tool that helps applications tolerate random instance failures.",
+      "language": "Go",
+      "stars": 16789,
+      "forks": 1285,
+      "stars_today": "39 stars today",
+      "built_by": [
+        "lorin",
+        "prytoegrian",
+        "anotherchrisberry",
+        "ttomsu",
+        "d6o"
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "navidrome/navidrome",
+      "url": "https://github.com/navidrome/navidrome",
+      "description": "🎧 Your Personal Streaming Service",
+      "language": "Go",
+      "stars": 20235,
+      "forks": 1439,
+      "stars_today": "27 stars today",
+      "built_by": [
+        "deluan",
+        "dependabot",
+        "kgarner7",
+        "dependabot-preview",
+        "caiocotts"
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "rudrankriyam/App-Store-Connect-CLI",
+      "url": "https://github.com/rudrankriyam/App-Store-Connect-CLI",
+      "description": "Fast, scriptable CLI for the App Store Connect API. Automate TestFlight, builds, submissions, signing, analytics, screenshots, subscriptions, and more. JSON-first, no interactive prompts",
+      "language": "Go",
+      "stars": 3664,
+      "forks": 305,
+      "stars_today": "59 stars today",
+      "built_by": [
+        "rudrankriyam",
+        "cursoragent",
+        "mithileshchellappan",
+        "Abdo-codes",
+        "claude"
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "9seconds/mtg",
+      "url": "https://github.com/9seconds/mtg",
+      "description": "Highly opinionated MTPROTO proxy for Telegram",
+      "language": "Go",
+      "stars": 3142,
+      "forks": 337,
+      "stars_today": "41 stars today",
+      "built_by": [
+        "9seconds",
+        "dolonet",
+        "savely-krasovsky",
+        "im-kulikov",
+        "Dank-del"
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "fengshao1227/ccg-workflow",
+      "url": "https://github.com/fengshao1227/ccg-workflow",
+      "description": "多模型协作开发系统 - Claude 编排 + Codex 后端 + Gemini 前端，28 个命令覆盖开发全流程，一键安装零配置",
+      "language": "Go",
+      "stars": 4892,
+      "forks": 359,
+      "stars_today": "40 stars today",
+      "built_by": [
+        "claude",
+        "fengshao1227",
+        "RebornQ",
+        "SXP-Simon",
+        "GGzili"
+      ]
+    },
+    {
+      "rank": 15,
+      "name": "trufflesecurity/trufflehog",
+      "url": "https://github.com/trufflesecurity/trufflehog",
+      "description": "Find, verify, and analyze leaked credentials",
+      "language": "Go",
+      "stars": 25490,
+      "forks": 2299,
+      "stars_today": "96 stars today",
+      "built_by": [
+        "renovate",
+        "lonmarsDev",
+        "roxanne-tampus",
+        "ahrav",
+        "dustin-decker"
+      ]
+    },
+    {
+      "rank": 16,
+      "name": "alibaba/higress",
+      "url": "https://github.com/alibaba/higress",
+      "description": "🤖 AI Gateway | AI Native API Gateway",
+      "language": "Go",
+      "stars": 8043,
+      "forks": 1061,
+      "stars_today": "6 stars today",
+      "built_by": [
+        "johnlanni",
+        "CH3CHO",
+        "rinfx",
+        "Xunzhuo",
+        "hanxiantao"
+      ]
+    },
+    {
+      "rank": 17,
+      "name": "NoFxAiOS/nofx",
+      "url": "https://github.com/NoFxAiOS/nofx",
+      "description": "Your personal AI trading assistant. Any market. Any model. Pay with USDC, not API keys.",
+      "language": "Go",
+      "stars": 11708,
+      "forks": 2880,
+      "stars_today": "129 stars today",
+      "built_by": [
+        "tinkle-community",
+        "icyouo",
+        "the-dev-z",
+        "0xEmberZz",
+        "claude"
+      ]
+    },
+    {
+      "rank": 18,
+      "name": "golang/go",
+      "url": "https://github.com/golang/go",
+      "description": "The Go programming language",
+      "language": "Go",
+      "stars": 133285,
+      "forks": 18892,
+      "stars_today": "33 stars today",
+      "built_by": [
+        "rsc",
+        "griesemer",
+        "robpike",
+        "ianlancetaylor",
+        "bradfitz"
+      ]
+    },
+    {
+      "rank": 19,
+      "name": "zitadel/zitadel",
+      "url": "https://github.com/zitadel/zitadel",
+      "description": "ZITADEL - Identity infrastructure, simplified for you.",
+      "language": "Go",
+      "stars": 13437,
+      "forks": 1013,
+      "stars_today": "14 stars today",
+      "built_by": [
+        "livio-a",
+        "peintnermax",
+        "hifabienne",
+        "adlerhurst",
+        "fforootd"
+      ]
+    },
+    {
+      "rank": 20,
+      "name": "go-gorm/gorm",
+      "url": "https://github.com/go-gorm/gorm",
+      "description": "The fantastic ORM library for Golang, aims to be developer friendly",
+      "language": "Go",
+      "stars": 39636,
+      "forks": 4145,
+      "stars_today": "5 stars today",
+      "built_by": [
+        "jinzhu",
+        "emirb",
+        "a631807682",
+        "dependabot",
+        "daheige"
+      ]
+    },
+    {
+      "rank": 21,
+      "name": "m1k1o/neko",
+      "url": "https://github.com/m1k1o/neko",
+      "description": "A self hosted virtual browser that runs in docker and uses WebRTC.",
+      "language": "Go",
+      "stars": 20317,
+      "forks": 1426,
+      "stars_today": "22 stars today",
+      "built_by": [
+        "m1k1o",
+        "nurdism",
+        "mbattista",
+        "prophetofxenu",
+        "gbrian"
+      ]
+    },
+    {
+      "rank": 22,
+      "name": "siderolabs/talos",
+      "url": "https://github.com/siderolabs/talos",
+      "description": "Talos Linux is a modern Linux distribution built for Kubernetes.",
+      "language": "Go",
+      "stars": 10173,
+      "forks": 807,
+      "stars_today": "12 stars today",
+      "built_by": [
+        "smira",
+        "andrewrynhard",
+        "frezbo",
+        "rsmitty",
+        "Unix4ever"
+      ]
+    }
+  ]
+}
