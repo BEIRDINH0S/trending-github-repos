@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C++ Trending - Week 15 - 2026</title>
+
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+                line-height: 1.6;
+                color: #111827;
+                background: #F8F9FA;
+                min-height: 100vh;
+            }
+
+            .container {
+                max-width: 1400px;
+                margin: 0 auto;
+                background: #FFFFFF;
+                min-height: 100vh;
+                box-shadow: 0 0 0 1px #E5E7EB;
+            }
+
+            .header {
+                background: #1E293B;
+                color: white;
+                padding: 2rem 2.5rem;
+                border-bottom: 3px solid #334155;
+            }
+
+            .header h1 {
+                font-size: 1.75rem;
+                margin-bottom: 0.25rem;
+                font-weight: 600;
+                color: #FFFFFF;
+            }
+
+            .header .subtitle {
+                font-size: 0.875rem;
+                color: #94A3B8;
+                font-weight: 400;
+            }
+
+            .summary {
+                background: #F8F9FA;
+                padding: 2rem 2.5rem;
+                border-bottom: 1px solid #E5E7EB;
+            }
+
+            .summary h2 {
+                color: #1E293B;
+                margin-bottom: 1rem;
+                font-size: 1.25rem;
+                font-weight: 600;
+            }
+
+            .summary-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+                gap: 1rem;
+                margin-top: 1rem;
+            }
+
+            .summary-item {
+                background: white;
+                padding: 1.25rem;
+                border-radius: 6px;
+                border: 1px solid #E5E7EB;
+            }
+
+            .summary-item .label {
+                font-size: 0.8125rem;
+                color: #64748B;
+                margin-bottom: 0.5rem;
+                text-transform: uppercase;
+                letter-spacing: 0.05em;
+                font-weight: 500;
+            }
+
+            .summary-item .value {
+                font-size: 1.75rem;
+                font-weight: 600;
+                color: #1E293B;
+            }
+
+            .content {
+                padding: 2rem 2.5rem;
+            }
+
+            .section-title {
+                font-size: 1.5rem;
+                color: #1E293B;
+                margin-bottom: 1.5rem;
+                padding-bottom: 0.75rem;
+                border-bottom: 2px solid #E5E7EB;
+                font-weight: 600;
+            }
+
+            .badge {
+                display: inline-block;
+                padding: 0.25rem 0.625rem;
+                border-radius: 4px;
+                font-size: 0.75rem;
+                font-weight: 500;
+                margin-right: 0.5rem;
+            }
+
+            .badge-stars {
+                background: #FEF3C7;
+                color: #92400E;
+            }
+
+            .badge-forks {
+                background: #DBEAFE;
+                color: #1E40AF;
+            }
+
+            .badge-language {
+                background: #D1FAE5;
+                color: #065F46;
+            }
+
+            .badge-today {
+                background: #FEE2E2;
+                color: #991B1B;
+            }
+
+            .badge-consistent {
+                background: #D1FAE5;
+                color: #065F46;
+            }
+
+            .badge-trending {
+                background: #FEF3C7;
+                color: #92400E;
+            }
+
+            .badge-new {
+                background: #DBEAFE;
+                color: #1E40AF;
+            }
+
+            .footer {
+                background: #F8F9FA;
+                padding: 1.5rem 2.5rem;
+                text-align: center;
+                color: #64748B;
+                font-size: 0.8125rem;
+                border-top: 1px solid #E5E7EB;
+            }
+
+            @media (max-width: 768px) {
+                .header {
+                    padding: 1.5rem;
+                }
+
+                .summary {
+                    padding: 1.5rem;
+                }
+
+                .content {
+                    padding: 1.5rem;
+                }
+
+                .summary-grid {
+                    grid-template-columns: 1fr;
+                }
+            }
+        </style>
+        
+        <style>
+            .section {
+                margin-bottom: 2rem;
+            }
+
+            .repo-table {
+                width: 100%;
+                border-collapse: collapse;
+                background: white;
+                border: 1px solid #E5E7EB;
+                border-radius: 6px;
+                overflow: hidden;
+                font-size: 0.9375rem;
+            }
+
+            .repo-table th {
+                background: #F8F9FA;
+                padding: 0.875rem 1rem;
+                text-align: left;
+                font-weight: 600;
+                color: #1E293B;
+                border-bottom: 2px solid #E5E7EB;
+                font-size: 0.8125rem;
+                text-transform: uppercase;
+                letter-spacing: 0.05em;
+            }
+
+            .repo-table td {
+                padding: 1rem;
+                border-bottom: 1px solid #E5E7EB;
+                vertical-align: middle;
+            }
+
+            .repo-table tbody tr {
+                transition: background-color 0.15s;
+            }
+
+            .repo-table tbody tr:nth-child(even) {
+                background: #F8F9FA;
+            }
+
+            .repo-table tbody tr:hover {
+                background: #F1F5F9;
+            }
+
+            .repo-table tr:last-child td {
+                border-bottom: none;
+            }
+
+            .repo-name {
+                font-weight: 600;
+            }
+
+            .repo-name a {
+                color: #1E293B;
+                text-decoration: none;
+            }
+
+            .repo-name a:hover {
+                color: #334155;
+                text-decoration: underline;
+            }
+
+            .repo-description {
+                color: #64748B;
+                font-size: 0.875rem;
+                margin-top: 0.25rem;
+                line-height: 1.5;
+            }
+
+            .rank-badge {
+                background: #334155;
+                color: white;
+                min-width: 28px;
+                height: 28px;
+                border-radius: 4px;
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                font-weight: 600;
+                font-size: 0.8125rem;
+            }
+
+            .appearances {
+                color: #059669;
+                font-weight: 600;
+            }
+
+            .stats-inline {
+                color: #64748B;
+                font-size: 0.875rem;
+            }
+
+            .contributors {
+                font-size: 0.75rem;
+                color: #64748B;
+            }
+
+            .contributor-link {
+                color: #334155;
+                text-decoration: none;
+                font-weight: 500;
+            }
+
+            .contributor-link:hover {
+                text-decoration: underline;
+                color: #1E293B;
+            }
+
+            @media (max-width: 768px) {
+                .repo-table {
+                    font-size: 0.875rem;
+                }
+
+                .repo-table th,
+                .repo-table td {
+                    padding: 0.625rem 0.75rem;
+                }
+            }
+        </style>
+        
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>C++ Trending Repositories</h1>
+            <div class="subtitle">Week 15 - 2026</div>
+            <div class="subtitle">2026-04-06 to 2026-04-12</div>
+        </div>
+        <div class="summary">
+            <h2>Summary</h2>
+            <div class="summary-grid">
+                <div class="summary-item">
+                    <div class="label">Period</div>
+                    <div class="value">Week 15 - 2026</div>
+                </div>
+                <div class="summary-item">
+                    <div class="label">Days Analyzed</div>
+                    <div class="value">1</div>
+                </div>
+                <div class="summary-item">
+                    <div class="label">Unique Repos</div>
+                    <div class="value">25</div>
+                </div>
+                <div class="summary-item">
+                    <div class="label">Language</div>
+                    <div class="value">C++</div>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="section">
+                <h2 class="section-title">Top Trending Repositories</h2>
+                <table class="repo-table">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Repository</th>
+                            <th>Days</th>
+                            <th>Best Rank</th>
+                            <th>Stars</th>
+                            <th>Forks</th>
+                            <th>Language</th>
+                            <th>Built By</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+            <tr>
+                <td><span class="rank-badge">1</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/google-ai-edge/LiteRT-LM" target="_blank">google-ai-edge/LiteRT-LM</a></div>
+                    <div class="repo-description">Pas de description</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#1</td>
+                <td class="stats-inline">1,593</td>
+                <td class="stats-inline">187</td>
+                <td class="stats-inline">C++</td>
+                <td class="contributors"><a href="https://github.com/ai-edge-bot" class="contributor-link">@ai-edge-bot</a>, <a href="https://github.com/hheydary" class="contributor-link">@hheydary</a>, <a href="https://github.com/matthewchan-g" class="contributor-link">@matthewchan-g</a>, <a href="https://github.com/protobird-git" class="contributor-link">@protobird-git</a>, <a href="https://github.com/whhone" class="contributor-link">@whhone</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">2</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/telegramdesktop/tdesktop" target="_blank">telegramdesktop/tdesktop</a></div>
+                    <div class="repo-description">Telegram Desktop messaging app</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#2</td>
+                <td class="stats-inline">31,085</td>
+                <td class="stats-inline">6,537</td>
+                <td class="stats-inline">C++</td>
+                <td class="contributors"><a href="https://github.com/23rd" class="contributor-link">@23rd</a>, <a href="https://github.com/auchri" class="contributor-link">@auchri</a>, <a href="https://github.com/claude" class="contributor-link">@claude</a>, <a href="https://github.com/ilya-fedin" class="contributor-link">@ilya-fedin</a>, <a href="https://github.com/john-preston" class="contributor-link">@john-preston</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">3</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/ml-explore/mlx" target="_blank">ml-explore/mlx</a></div>
+                    <div class="repo-description">MLX: An array framework for Apple silicon</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#3</td>
+                <td class="stats-inline">25,131</td>
+                <td class="stats-inline">1,649</td>
+                <td class="stats-inline">C++</td>
+                <td class="contributors"><a href="https://github.com/angeloskath" class="contributor-link">@angeloskath</a>, <a href="https://github.com/awni" class="contributor-link">@awni</a>, <a href="https://github.com/barronalex" class="contributor-link">@barronalex</a>, <a href="https://github.com/jagrit06" class="contributor-link">@jagrit06</a>, <a href="https://github.com/zcbenz" class="contributor-link">@zcbenz</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">4</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/LadybirdBrowser/ladybird" target="_blank">LadybirdBrowser/ladybird</a></div>
+                    <div class="repo-description">Truly independent web browser</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#4</td>
+                <td class="stats-inline">62,166</td>
+                <td class="stats-inline">2,921</td>
+                <td class="stats-inline">C++</td>
+                <td class="contributors"><a href="https://github.com/AtkinsSJ" class="contributor-link">@AtkinsSJ</a>, <a href="https://github.com/alimpfard" class="contributor-link">@alimpfard</a>, <a href="https://github.com/awesomekling" class="contributor-link">@awesomekling</a>, <a href="https://github.com/linusg" class="contributor-link">@linusg</a>, <a href="https://github.com/trflynn89" class="contributor-link">@trflynn89</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">5</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/ggml-org/llama.cpp" target="_blank">ggml-org/llama.cpp</a></div>
+                    <div class="repo-description">LLM inference in C/C++</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#5</td>
+                <td class="stats-inline">101,630</td>
+                <td class="stats-inline">16,409</td>
+                <td class="stats-inline">C++</td>
+                <td class="contributors"><a href="https://github.com/CISC" class="contributor-link">@CISC</a>, <a href="https://github.com/JohannesGaessler" class="contributor-link">@JohannesGaessler</a>, <a href="https://github.com/ggerganov" class="contributor-link">@ggerganov</a>, <a href="https://github.com/ngxson" class="contributor-link">@ngxson</a>, <a href="https://github.com/slaren" class="contributor-link">@slaren</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">6</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/esphome/esphome" target="_blank">esphome/esphome</a></div>
+                    <div class="repo-description">ESPHome is a system to control your ESP32, ESP8266, BK72xx, RP2040 by simple yet powerful configuration files and control them remotely through Home Automation systems.</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#6</td>
+                <td class="stats-inline">10,829</td>
+                <td class="stats-inline">5,162</td>
+                <td class="stats-inline">C++</td>
+                <td class="contributors"><a href="https://github.com/OttoWinter" class="contributor-link">@OttoWinter</a>, <a href="https://github.com/bdraco" class="contributor-link">@bdraco</a>, <a href="https://github.com/dependabot" class="contributor-link">@dependabot</a>, <a href="https://github.com/jesserockz" class="contributor-link">@jesserockz</a>, <a href="https://github.com/swoboda1337" class="contributor-link">@swoboda1337</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">7</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/ClickHouse/ClickHouse" target="_blank">ClickHouse/ClickHouse</a></div>
+                    <div class="repo-description">ClickHouse® is a real-time analytics database management system</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#7</td>
+                <td class="stats-inline">46,718</td>
+                <td class="stats-inline">8,268</td>
+                <td class="stats-inline">C++</td>
+                <td class="contributors"><a href="https://github.com/Avogar" class="contributor-link">@Avogar</a>, <a href="https://github.com/KochetovNicolai" class="contributor-link">@KochetovNicolai</a>, <a href="https://github.com/alesapin" class="contributor-link">@alesapin</a>, <a href="https://github.com/alexey-milovidov" class="contributor-link">@alexey-milovidov</a>, <a href="https://github.com/azat" class="contributor-link">@azat</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">8</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/amnezia-vpn/amnezia-client" target="_blank">amnezia-vpn/amnezia-client</a></div>
+                    <div class="repo-description">Amnezia VPN Client (Desktop+Mobile)</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#8</td>
+                <td class="stats-inline">11,123</td>
+                <td class="stats-inline">801</td>
+                <td class="stats-inline">C++</td>
+                <td class="contributors"><a href="https://github.com/Nethius" class="contributor-link">@Nethius</a>, <a href="https://github.com/albexk" class="contributor-link">@albexk</a>, <a href="https://github.com/outspace" class="contributor-link">@outspace</a>, <a href="https://github.com/pokamest" class="contributor-link">@pokamest</a>, <a href="https://github.com/vkamn" class="contributor-link">@vkamn</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">9</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/tdlib/td" target="_blank">tdlib/td</a></div>
+                    <div class="repo-description">Cross-platform library for building Telegram clients</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#9</td>
+                <td class="stats-inline">8,637</td>
+                <td class="stats-inline">2,007</td>
+                <td class="stats-inline">C++</td>
+                <td class="contributors"><a href="https://github.com/AYMENJD" class="contributor-link">@AYMENJD</a>, <a href="https://github.com/FrayxRulez" class="contributor-link">@FrayxRulez</a>, <a href="https://github.com/arseny30" class="contributor-link">@arseny30</a>, <a href="https://github.com/isopen" class="contributor-link">@isopen</a>, <a href="https://github.com/levlam" class="contributor-link">@levlam</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">10</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/microsoft/terminal" target="_blank">microsoft/terminal</a></div>
+                    <div class="repo-description">The new Windows Terminal and the original Windows console host, all in the same place!</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#10</td>
+                <td class="stats-inline">102,539</td>
+                <td class="stats-inline">9,185</td>
+                <td class="stats-inline">C++</td>
+                <td class="contributors"><a href="https://github.com/DHowett" class="contributor-link">@DHowett</a>, <a href="https://github.com/carlos-zamora" class="contributor-link">@carlos-zamora</a>, <a href="https://github.com/lhecker" class="contributor-link">@lhecker</a>, <a href="https://github.com/miniksa" class="contributor-link">@miniksa</a>, <a href="https://github.com/zadjii-msft" class="contributor-link">@zadjii-msft</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">11</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/azerothcore/azerothcore-wotlk" target="_blank">azerothcore/azerothcore-wotlk</a></div>
+                    <div class="repo-description">Complete Open Source and Modular solution for MMO</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#11</td>
+                <td class="stats-inline">8,153</td>
+                <td class="stats-inline">3,271</td>
+                <td class="stats-inline">C++</td>
+                <td class="contributors"><a href="https://github.com/Gultask" class="contributor-link">@Gultask</a>, <a href="https://github.com/Kitzunu" class="contributor-link">@Kitzunu</a>, <a href="https://github.com/Nyeriah" class="contributor-link">@Nyeriah</a>, <a href="https://github.com/UltraNix" class="contributor-link">@UltraNix</a>, <a href="https://github.com/github-actions" class="contributor-link">@github-actions</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">12</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/mozilla-ai/llamafile" target="_blank">mozilla-ai/llamafile</a></div>
+                    <div class="repo-description">Distribute and run LLMs with a single file.</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#12</td>
+                <td class="stats-inline">24,012</td>
+                <td class="stats-inline">1,302</td>
+                <td class="stats-inline">C++</td>
+                <td class="contributors"><a href="https://github.com/aittalam" class="contributor-link">@aittalam</a>, <a href="https://github.com/cjpais" class="contributor-link">@cjpais</a>, <a href="https://github.com/corebonts" class="contributor-link">@corebonts</a>, <a href="https://github.com/jart" class="contributor-link">@jart</a>, <a href="https://github.com/stlhood" class="contributor-link">@stlhood</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">13</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/alibaba/MNN" target="_blank">alibaba/MNN</a></div>
+                    <div class="repo-description">MNN: A blazing-fast, lightweight inference engine battle-tested by Alibaba, powering high-performance on-device LLMs and Edge AI.</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#13</td>
+                <td class="stats-inline">14,776</td>
+                <td class="stats-inline">2,274</td>
+                <td class="stats-inline">C++</td>
+                <td class="contributors"><a href="https://github.com/Juude" class="contributor-link">@Juude</a>, <a href="https://github.com/MNNTeam" class="contributor-link">@MNNTeam</a>, <a href="https://github.com/Yogayu" class="contributor-link">@Yogayu</a>, <a href="https://github.com/jxt1234" class="contributor-link">@jxt1234</a>, <a href="https://github.com/wangzhaode" class="contributor-link">@wangzhaode</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">14</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/Alexays/Waybar" target="_blank">Alexays/Waybar</a></div>
+                    <div class="repo-description">Highly customizable Wayland bar for Sway and Wlroots based compositors. ✌️ 🎉</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#14</td>
+                <td class="stats-inline">11,019</td>
+                <td class="stats-inline">1,022</td>
+                <td class="stats-inline">C++</td>
+                <td class="contributors"><a href="https://github.com/Alexays" class="contributor-link">@Alexays</a>, <a href="https://github.com/Anakael" class="contributor-link">@Anakael</a>, <a href="https://github.com/LukashonakV" class="contributor-link">@LukashonakV</a>, <a href="https://github.com/alebastr" class="contributor-link">@alebastr</a>, <a href="https://github.com/khaneliman" class="contributor-link">@khaneliman</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">15</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/official-stockfish/Stockfish" target="_blank">official-stockfish/Stockfish</a></div>
+                    <div class="repo-description">A free and strong UCI chess engine</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#15</td>
+                <td class="stats-inline">15,193</td>
+                <td class="stats-inline">2,848</td>
+                <td class="stats-inline">C++</td>
+                <td class="contributors"><a href="https://github.com/FauziAkram" class="contributor-link">@FauziAkram</a>, <a href="https://github.com/Vizvezdenec" class="contributor-link">@Vizvezdenec</a>, <a href="https://github.com/mcostalba" class="contributor-link">@mcostalba</a>, <a href="https://github.com/snicolet" class="contributor-link">@snicolet</a>, <a href="https://github.com/vondele" class="contributor-link">@vondele</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">16</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/Atmosphere-NX/Atmosphere" target="_blank">Atmosphere-NX/Atmosphere</a></div>
+                    <div class="repo-description">Atmosphère is a work-in-progress customized firmware for the Nintendo Switch.</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#16</td>
+                <td class="stats-inline">18,791</td>
+                <td class="stats-inline">1,429</td>
+                <td class="stats-inline">C++</td>
+                <td class="contributors"><a href="https://github.com/SciresM" class="contributor-link">@SciresM</a>, <a href="https://github.com/TuxSH" class="contributor-link">@TuxSH</a>, <a href="https://github.com/hexkyz" class="contributor-link">@hexkyz</a>, <a href="https://github.com/ktemkin" class="contributor-link">@ktemkin</a>, <a href="https://github.com/lioncash" class="contributor-link">@lioncash</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">17</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/qbittorrent/qBittorrent" target="_blank">qbittorrent/qBittorrent</a></div>
+                    <div class="repo-description">qBittorrent BitTorrent client</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#17</td>
+                <td class="stats-inline">36,348</td>
+                <td class="stats-inline">4,609</td>
+                <td class="stats-inline">C++</td>
+                <td class="contributors"><a href="https://github.com/Chocobo1" class="contributor-link">@Chocobo1</a>, <a href="https://github.com/Piccirello" class="contributor-link">@Piccirello</a>, <a href="https://github.com/glassez" class="contributor-link">@glassez</a>, <a href="https://github.com/sledgehammer999" class="contributor-link">@sledgehammer999</a>, <a href="https://github.com/zeule" class="contributor-link">@zeule</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">18</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/gcc-mirror/gcc" target="_blank">gcc-mirror/gcc</a></div>
+                    <div class="repo-description">Pas de description</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#18</td>
+                <td class="stats-inline">10,830</td>
+                <td class="stats-inline">4,736</td>
+                <td class="stats-inline">C++</td>
+                <td class="contributors"><a href="https://github.com/ebotcazou" class="contributor-link">@ebotcazou</a>, <a href="https://github.com/jakubjelinek" class="contributor-link">@jakubjelinek</a>, <a href="https://github.com/jicama" class="contributor-link">@jicama</a>, <a href="https://github.com/jwakely" class="contributor-link">@jwakely</a>, <a href="https://github.com/rguenth" class="contributor-link">@rguenth</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">19</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/stenzek/duckstation" target="_blank">stenzek/duckstation</a></div>
+                    <div class="repo-description">Fast PlayStation 1 emulator for x86-64/AArch32/AArch64/RV64</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#19</td>
+                <td class="stats-inline">9,959</td>
+                <td class="stats-inline">903</td>
+                <td class="stats-inline">C++</td>
+                <td class="contributors"><a href="https://github.com/Pesa" class="contributor-link">@Pesa</a>, <a href="https://github.com/andercard0" class="contributor-link">@andercard0</a>, <a href="https://github.com/ggrtk" class="contributor-link">@ggrtk</a>, <a href="https://github.com/stenzek" class="contributor-link">@stenzek</a>, <a href="https://github.com/zkdpower" class="contributor-link">@zkdpower</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">20</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/MatsuriDayo/nekoray" target="_blank">MatsuriDayo/nekoray</a></div>
+                    <div class="repo-description">不再维护，自寻替代品。 Qt based cross-platform GUI proxy configuration manager (backend: sing-box)</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#20</td>
+                <td class="stats-inline">15,319</td>
+                <td class="stats-inline">1,474</td>
+                <td class="stats-inline">C++</td>
+                <td class="contributors"><a href="https://github.com/Misaka-blog" class="contributor-link">@Misaka-blog</a>, <a href="https://github.com/TheWeirdDev" class="contributor-link">@TheWeirdDev</a>, <a href="https://github.com/arm64v8a" class="contributor-link">@arm64v8a</a>, <a href="https://github.com/purofle" class="contributor-link">@purofle</a>, <a href="https://github.com/xchacha20-poly1305" class="contributor-link">@xchacha20-poly1305</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">21</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/google-ai-edge/mediapipe" target="_blank">google-ai-edge/mediapipe</a></div>
+                    <div class="repo-description">Cross-platform, customizable ML solutions for live and streaming media.</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#21</td>
+                <td class="stats-inline">34,550</td>
+                <td class="stats-inline">5,876</td>
+                <td class="stats-inline">C++</td>
+                <td class="contributors"><a href="https://github.com/camillol" class="contributor-link">@camillol</a>, <a href="https://github.com/kinarr" class="contributor-link">@kinarr</a>, <a href="https://github.com/kuaashish" class="contributor-link">@kuaashish</a>, <a href="https://github.com/priankakariat" class="contributor-link">@priankakariat</a>, <a href="https://github.com/schmidt-sebastian" class="contributor-link">@schmidt-sebastian</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">22</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/luanti-org/luanti" target="_blank">luanti-org/luanti</a></div>
+                    <div class="repo-description">Luanti (formerly Minetest) is an open source voxel game-creation platform with easy modding and game creation</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#22</td>
+                <td class="stats-inline">12,569</td>
+                <td class="stats-inline">2,280</td>
+                <td class="stats-inline">C++</td>
+                <td class="contributors"><a href="https://github.com/SmallJoker" class="contributor-link">@SmallJoker</a>, <a href="https://github.com/celeron55" class="contributor-link">@celeron55</a>, <a href="https://github.com/nerzhul" class="contributor-link">@nerzhul</a>, <a href="https://github.com/paramat" class="contributor-link">@paramat</a>, <a href="https://github.com/sfan5" class="contributor-link">@sfan5</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">23</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/WerWolv/ImHex" target="_blank">WerWolv/ImHex</a></div>
+                    <div class="repo-description">🔍 A Hex Editor for Reverse Engineers, Programmers and people who value their retinas when working at 3 AM.</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#23</td>
+                <td class="stats-inline">53,071</td>
+                <td class="stats-inline">2,352</td>
+                <td class="stats-inline">C++</td>
+                <td class="contributors"><a href="https://github.com/WerWolv" class="contributor-link">@WerWolv</a>, <a href="https://github.com/WerWolvTranslationBot" class="contributor-link">@WerWolvTranslationBot</a>, <a href="https://github.com/iTrooz" class="contributor-link">@iTrooz</a>, <a href="https://github.com/marysaka" class="contributor-link">@marysaka</a>, <a href="https://github.com/paxcut" class="contributor-link">@paxcut</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">24</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/ml-explore/mlx-swift" target="_blank">ml-explore/mlx-swift</a></div>
+                    <div class="repo-description">Swift API for MLX</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#24</td>
+                <td class="stats-inline">1,728</td>
+                <td class="stats-inline">185</td>
+                <td class="stats-inline">C++</td>
+                <td class="contributors"><a href="https://github.com/andresy" class="contributor-link">@andresy</a>, <a href="https://github.com/awni" class="contributor-link">@awni</a>, <a href="https://github.com/davidkoski" class="contributor-link">@davidkoski</a>, <a href="https://github.com/kemchenj" class="contributor-link">@kemchenj</a>, <a href="https://github.com/louen" class="contributor-link">@louen</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">25</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/godotengine/godot" target="_blank">godotengine/godot</a></div>
+                    <div class="repo-description">Godot Engine – Multi-platform 2D and 3D game engine</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#25</td>
+                <td class="stats-inline">108,992</td>
+                <td class="stats-inline">24,878</td>
+                <td class="stats-inline">C++</td>
+                <td class="contributors"><a href="https://github.com/Calinou" class="contributor-link">@Calinou</a>, <a href="https://github.com/Repiteo" class="contributor-link">@Repiteo</a>, <a href="https://github.com/akien-mga" class="contributor-link">@akien-mga</a>, <a href="https://github.com/bruvzg" class="contributor-link">@bruvzg</a>, <a href="https://github.com/reduz" class="contributor-link">@reduz</a></td>
+            </tr>
+        
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="footer">
+            <p>Generated on 2026-04-12</p>
+            <p>GitHub Trending Scraper</p>
+        </div>
+    </div>
+</body>
+</html>

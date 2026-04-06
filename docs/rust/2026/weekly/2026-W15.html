@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rust Trending - Week 15 - 2026</title>
+
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+                line-height: 1.6;
+                color: #111827;
+                background: #F8F9FA;
+                min-height: 100vh;
+            }
+
+            .container {
+                max-width: 1400px;
+                margin: 0 auto;
+                background: #FFFFFF;
+                min-height: 100vh;
+                box-shadow: 0 0 0 1px #E5E7EB;
+            }
+
+            .header {
+                background: #1E293B;
+                color: white;
+                padding: 2rem 2.5rem;
+                border-bottom: 3px solid #334155;
+            }
+
+            .header h1 {
+                font-size: 1.75rem;
+                margin-bottom: 0.25rem;
+                font-weight: 600;
+                color: #FFFFFF;
+            }
+
+            .header .subtitle {
+                font-size: 0.875rem;
+                color: #94A3B8;
+                font-weight: 400;
+            }
+
+            .summary {
+                background: #F8F9FA;
+                padding: 2rem 2.5rem;
+                border-bottom: 1px solid #E5E7EB;
+            }
+
+            .summary h2 {
+                color: #1E293B;
+                margin-bottom: 1rem;
+                font-size: 1.25rem;
+                font-weight: 600;
+            }
+
+            .summary-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+                gap: 1rem;
+                margin-top: 1rem;
+            }
+
+            .summary-item {
+                background: white;
+                padding: 1.25rem;
+                border-radius: 6px;
+                border: 1px solid #E5E7EB;
+            }
+
+            .summary-item .label {
+                font-size: 0.8125rem;
+                color: #64748B;
+                margin-bottom: 0.5rem;
+                text-transform: uppercase;
+                letter-spacing: 0.05em;
+                font-weight: 500;
+            }
+
+            .summary-item .value {
+                font-size: 1.75rem;
+                font-weight: 600;
+                color: #1E293B;
+            }
+
+            .content {
+                padding: 2rem 2.5rem;
+            }
+
+            .section-title {
+                font-size: 1.5rem;
+                color: #1E293B;
+                margin-bottom: 1.5rem;
+                padding-bottom: 0.75rem;
+                border-bottom: 2px solid #E5E7EB;
+                font-weight: 600;
+            }
+
+            .badge {
+                display: inline-block;
+                padding: 0.25rem 0.625rem;
+                border-radius: 4px;
+                font-size: 0.75rem;
+                font-weight: 500;
+                margin-right: 0.5rem;
+            }
+
+            .badge-stars {
+                background: #FEF3C7;
+                color: #92400E;
+            }
+
+            .badge-forks {
+                background: #DBEAFE;
+                color: #1E40AF;
+            }
+
+            .badge-language {
+                background: #D1FAE5;
+                color: #065F46;
+            }
+
+            .badge-today {
+                background: #FEE2E2;
+                color: #991B1B;
+            }
+
+            .badge-consistent {
+                background: #D1FAE5;
+                color: #065F46;
+            }
+
+            .badge-trending {
+                background: #FEF3C7;
+                color: #92400E;
+            }
+
+            .badge-new {
+                background: #DBEAFE;
+                color: #1E40AF;
+            }
+
+            .footer {
+                background: #F8F9FA;
+                padding: 1.5rem 2.5rem;
+                text-align: center;
+                color: #64748B;
+                font-size: 0.8125rem;
+                border-top: 1px solid #E5E7EB;
+            }
+
+            @media (max-width: 768px) {
+                .header {
+                    padding: 1.5rem;
+                }
+
+                .summary {
+                    padding: 1.5rem;
+                }
+
+                .content {
+                    padding: 1.5rem;
+                }
+
+                .summary-grid {
+                    grid-template-columns: 1fr;
+                }
+            }
+        </style>
+        
+        <style>
+            .section {
+                margin-bottom: 2rem;
+            }
+
+            .repo-table {
+                width: 100%;
+                border-collapse: collapse;
+                background: white;
+                border: 1px solid #E5E7EB;
+                border-radius: 6px;
+                overflow: hidden;
+                font-size: 0.9375rem;
+            }
+
+            .repo-table th {
+                background: #F8F9FA;
+                padding: 0.875rem 1rem;
+                text-align: left;
+                font-weight: 600;
+                color: #1E293B;
+                border-bottom: 2px solid #E5E7EB;
+                font-size: 0.8125rem;
+                text-transform: uppercase;
+                letter-spacing: 0.05em;
+            }
+
+            .repo-table td {
+                padding: 1rem;
+                border-bottom: 1px solid #E5E7EB;
+                vertical-align: middle;
+            }
+
+            .repo-table tbody tr {
+                transition: background-color 0.15s;
+            }
+
+            .repo-table tbody tr:nth-child(even) {
+                background: #F8F9FA;
+            }
+
+            .repo-table tbody tr:hover {
+                background: #F1F5F9;
+            }
+
+            .repo-table tr:last-child td {
+                border-bottom: none;
+            }
+
+            .repo-name {
+                font-weight: 600;
+            }
+
+            .repo-name a {
+                color: #1E293B;
+                text-decoration: none;
+            }
+
+            .repo-name a:hover {
+                color: #334155;
+                text-decoration: underline;
+            }
+
+            .repo-description {
+                color: #64748B;
+                font-size: 0.875rem;
+                margin-top: 0.25rem;
+                line-height: 1.5;
+            }
+
+            .rank-badge {
+                background: #334155;
+                color: white;
+                min-width: 28px;
+                height: 28px;
+                border-radius: 4px;
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                font-weight: 600;
+                font-size: 0.8125rem;
+            }
+
+            .appearances {
+                color: #059669;
+                font-weight: 600;
+            }
+
+            .stats-inline {
+                color: #64748B;
+                font-size: 0.875rem;
+            }
+
+            .contributors {
+                font-size: 0.75rem;
+                color: #64748B;
+            }
+
+            .contributor-link {
+                color: #334155;
+                text-decoration: none;
+                font-weight: 500;
+            }
+
+            .contributor-link:hover {
+                text-decoration: underline;
+                color: #1E293B;
+            }
+
+            @media (max-width: 768px) {
+                .repo-table {
+                    font-size: 0.875rem;
+                }
+
+                .repo-table th,
+                .repo-table td {
+                    padding: 0.625rem 0.75rem;
+                }
+            }
+        </style>
+        
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Rust Trending Repositories</h1>
+            <div class="subtitle">Week 15 - 2026</div>
+            <div class="subtitle">2026-04-06 to 2026-04-12</div>
+        </div>
+        <div class="summary">
+            <h2>Summary</h2>
+            <div class="summary-grid">
+                <div class="summary-item">
+                    <div class="label">Period</div>
+                    <div class="value">Week 15 - 2026</div>
+                </div>
+                <div class="summary-item">
+                    <div class="label">Days Analyzed</div>
+                    <div class="value">1</div>
+                </div>
+                <div class="summary-item">
+                    <div class="label">Unique Repos</div>
+                    <div class="value">14</div>
+                </div>
+                <div class="summary-item">
+                    <div class="label">Language</div>
+                    <div class="value">Rust</div>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="section">
+                <h2 class="section-title">Top Trending Repositories</h2>
+                <table class="repo-table">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Repository</th>
+                            <th>Days</th>
+                            <th>Best Rank</th>
+                            <th>Stars</th>
+                            <th>Forks</th>
+                            <th>Language</th>
+                            <th>Built By</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+            <tr>
+                <td><span class="rank-badge">1</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/block/goose" target="_blank">block/goose</a></div>
+                    <div class="repo-description">an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#1</td>
+                <td class="stats-inline">37,112</td>
+                <td class="stats-inline">3,556</td>
+                <td class="stats-inline">Rust</td>
+                <td class="contributors"><a href="https://github.com/EbonyLouis" class="contributor-link">@EbonyLouis</a>, <a href="https://github.com/angiejones" class="contributor-link">@angiejones</a>, <a href="https://github.com/blackgirlbytes" class="contributor-link">@blackgirlbytes</a>, <a href="https://github.com/dianed-square" class="contributor-link">@dianed-square</a>, <a href="https://github.com/michaelneale" class="contributor-link">@michaelneale</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">2</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/dmtrKovalenko/fff.nvim" target="_blank">dmtrKovalenko/fff.nvim</a></div>
+                    <div class="repo-description">The fastest and the most accurate file search toolkit for AI agents, Neovim, Rust, C, and NodeJS</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#2</td>
+                <td class="stats-inline">3,712</td>
+                <td class="stats-inline">151</td>
+                <td class="stats-inline">Rust</td>
+                <td class="contributors"><a href="https://github.com/WillLillis" class="contributor-link">@WillLillis</a>, <a href="https://github.com/disrupted" class="contributor-link">@disrupted</a>, <a href="https://github.com/dmtrKovalenko" class="contributor-link">@dmtrKovalenko</a>, <a href="https://github.com/github-actions" class="contributor-link">@github-actions</a>, <a href="https://github.com/sQVe" class="contributor-link">@sQVe</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">3</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/vercel-labs/agent-browser" target="_blank">vercel-labs/agent-browser</a></div>
+                    <div class="repo-description">Browser automation CLI for AI agents</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#3</td>
+                <td class="stats-inline">27,433</td>
+                <td class="stats-inline">1,658</td>
+                <td class="stats-inline">Rust</td>
+                <td class="contributors"><a href="https://github.com/claude" class="contributor-link">@claude</a>, <a href="https://github.com/ctate" class="contributor-link">@ctate</a>, <a href="https://github.com/github-actions" class="contributor-link">@github-actions</a>, <a href="https://github.com/hyunjinee" class="contributor-link">@hyunjinee</a>, <a href="https://github.com/jin-2-kakaoent" class="contributor-link">@jin-2-kakaoent</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">4</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/rust-lang/rust" target="_blank">rust-lang/rust</a></div>
+                    <div class="repo-description">Empowering everyone to build reliable and efficient software.</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#4</td>
+                <td class="stats-inline">111,727</td>
+                <td class="stats-inline">14,778</td>
+                <td class="stats-inline">Rust</td>
+                <td class="contributors"><a href="https://github.com/GuillaumeGomez" class="contributor-link">@GuillaumeGomez</a>, <a href="https://github.com/RalfJung" class="contributor-link">@RalfJung</a>, <a href="https://github.com/bors" class="contributor-link">@bors</a>, <a href="https://github.com/matklad" class="contributor-link">@matklad</a>, <a href="https://github.com/matthiaskrgr" class="contributor-link">@matthiaskrgr</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">5</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/tauri-apps/tauri" target="_blank">tauri-apps/tauri</a></div>
+                    <div class="repo-description">Build smaller, faster, and more secure desktop and mobile applications with a web frontend.</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#5</td>
+                <td class="stats-inline">104,986</td>
+                <td class="stats-inline">3,494</td>
+                <td class="stats-inline">Rust</td>
+                <td class="contributors"><a href="https://github.com/FabianLars" class="contributor-link">@FabianLars</a>, <a href="https://github.com/amrbashir" class="contributor-link">@amrbashir</a>, <a href="https://github.com/lucasfernog" class="contributor-link">@lucasfernog</a>, <a href="https://github.com/renovate" class="contributor-link">@renovate</a>, <a href="https://github.com/renovate-bot" class="contributor-link">@renovate-bot</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">6</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/servo/servo" target="_blank">servo/servo</a></div>
+                    <div class="repo-description">Servo aims to empower developers with a lightweight, high-performance alternative for embedding web technologies in applications.</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#6</td>
+                <td class="stats-inline">36,199</td>
+                <td class="stats-inline">3,571</td>
+                <td class="stats-inline">Rust</td>
+                <td class="contributors"><a href="https://github.com/Ms2ger" class="contributor-link">@Ms2ger</a>, <a href="https://github.com/SimonSapin" class="contributor-link">@SimonSapin</a>, <a href="https://github.com/dependabot" class="contributor-link">@dependabot</a>, <a href="https://github.com/emilio" class="contributor-link">@emilio</a>, <a href="https://github.com/jdm" class="contributor-link">@jdm</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">7</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/memvid/memvid" target="_blank">memvid/memvid</a></div>
+                    <div class="repo-description">Memory layer for AI Agents. Replace complex RAG pipelines with a serverless, single-file memory layer. Give your agents instant retrieval and long-term memory.</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#7</td>
+                <td class="stats-inline">14,260</td>
+                <td class="stats-inline">1,214</td>
+                <td class="stats-inline">Rust</td>
+                <td class="contributors"><a href="https://github.com/Olow304" class="contributor-link">@Olow304</a>, <a href="https://github.com/TyJK" class="contributor-link">@TyJK</a>, <a href="https://github.com/akash-R-A-J" class="contributor-link">@akash-R-A-J</a>, <a href="https://github.com/mo-omar-0197" class="contributor-link">@mo-omar-0197</a>, <a href="https://github.com/sharafdin" class="contributor-link">@sharafdin</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">8</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/atuinsh/atuin" target="_blank">atuinsh/atuin</a></div>
+                    <div class="repo-description">✨ Making your shell magical</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#8</td>
+                <td class="stats-inline">28,981</td>
+                <td class="stats-inline">819</td>
+                <td class="stats-inline">Rust</td>
+                <td class="contributors"><a href="https://github.com/BinaryMuse" class="contributor-link">@BinaryMuse</a>, <a href="https://github.com/akinomyoga" class="contributor-link">@akinomyoga</a>, <a href="https://github.com/conradludgate" class="contributor-link">@conradludgate</a>, <a href="https://github.com/dependabot" class="contributor-link">@dependabot</a>, <a href="https://github.com/ellie" class="contributor-link">@ellie</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">9</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/tree-sitter/tree-sitter" target="_blank">tree-sitter/tree-sitter</a></div>
+                    <div class="repo-description">An incremental parsing system for programming tools</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#9</td>
+                <td class="stats-inline">24,504</td>
+                <td class="stats-inline">2,544</td>
+                <td class="stats-inline">Rust</td>
+                <td class="contributors"><a href="https://github.com/ObserverOfTime" class="contributor-link">@ObserverOfTime</a>, <a href="https://github.com/WillLillis" class="contributor-link">@WillLillis</a>, <a href="https://github.com/ahlinc" class="contributor-link">@ahlinc</a>, <a href="https://github.com/amaanq" class="contributor-link">@amaanq</a>, <a href="https://github.com/maxbrunsfeld" class="contributor-link">@maxbrunsfeld</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">10</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/a2x/cs2-dumper" target="_blank">a2x/cs2-dumper</a></div>
+                    <div class="repo-description">Counter-Strike: 2 Offset Dumper</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#10</td>
+                <td class="stats-inline">1,896</td>
+                <td class="stats-inline">284</td>
+                <td class="stats-inline">Rust</td>
+                <td class="contributors"><a href="https://github.com/Albert24GG" class="contributor-link">@Albert24GG</a>, <a href="https://github.com/Coslly" class="contributor-link">@Coslly</a>, <a href="https://github.com/a2x" class="contributor-link">@a2x</a>, <a href="https://github.com/mildnsj" class="contributor-link">@mildnsj</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">11</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/fathyb/carbonyl" target="_blank">fathyb/carbonyl</a></div>
+                    <div class="repo-description">Chromium running inside your terminal</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#11</td>
+                <td class="stats-inline">18,163</td>
+                <td class="stats-inline">470</td>
+                <td class="stats-inline">Rust</td>
+                <td class="contributors"><a href="https://github.com/fathyb" class="contributor-link">@fathyb</a>, <a href="https://github.com/glensc" class="contributor-link">@glensc</a>, <a href="https://github.com/kianmeng" class="contributor-link">@kianmeng</a>, <a href="https://github.com/licy183" class="contributor-link">@licy183</a>, <a href="https://github.com/reynoldsme" class="contributor-link">@reynoldsme</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">12</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/zed-industries/zed" target="_blank">zed-industries/zed</a></div>
+                    <div class="repo-description">Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#12</td>
+                <td class="stats-inline">78,539</td>
+                <td class="stats-inline">7,705</td>
+                <td class="stats-inline">Rust</td>
+                <td class="contributors"><a href="https://github.com/ConradIrwin" class="contributor-link">@ConradIrwin</a>, <a href="https://github.com/as-cii" class="contributor-link">@as-cii</a>, <a href="https://github.com/maxbrunsfeld" class="contributor-link">@maxbrunsfeld</a>, <a href="https://github.com/maxdeviant" class="contributor-link">@maxdeviant</a>, <a href="https://github.com/nathansobo" class="contributor-link">@nathansobo</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">13</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/EasyTier/EasyTier" target="_blank">EasyTier/EasyTier</a></div>
+                    <div class="repo-description">A simple, decentralized mesh VPN with WireGuard support.</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#13</td>
+                <td class="stats-inline">10,694</td>
+                <td class="stats-inline">1,047</td>
+                <td class="stats-inline">Rust</td>
+                <td class="contributors"><a href="https://github.com/KKRainbow" class="contributor-link">@KKRainbow</a>, <a href="https://github.com/ZnqbuZ" class="contributor-link">@ZnqbuZ</a>, <a href="https://github.com/fanyang89" class="contributor-link">@fanyang89</a>, <a href="https://github.com/m1m1sha" class="contributor-link">@m1m1sha</a>, <a href="https://github.com/xzzpig" class="contributor-link">@xzzpig</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">14</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/EricLBuehler/mistral.rs" target="_blank">EricLBuehler/mistral.rs</a></div>
+                    <div class="repo-description">Fast, flexible LLM inference</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#14</td>
+                <td class="stats-inline">6,865</td>
+                <td class="stats-inline">557</td>
+                <td class="stats-inline">Rust</td>
+                <td class="contributors"><a href="https://github.com/EricLBuehler" class="contributor-link">@EricLBuehler</a>, <a href="https://github.com/LLukas22" class="contributor-link">@LLukas22</a>, <a href="https://github.com/guoqingbao" class="contributor-link">@guoqingbao</a>, <a href="https://github.com/lucasavila00" class="contributor-link">@lucasavila00</a>, <a href="https://github.com/polarathene" class="contributor-link">@polarathene</a></td>
+            </tr>
+        
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="footer">
+            <p>Generated on 2026-04-12</p>
+            <p>GitHub Trending Scraper</p>
+        </div>
+    </div>
+</body>
+</html>
