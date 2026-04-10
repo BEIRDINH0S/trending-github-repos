@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trending Typescript Repositories - 2026-04-10</title>
+
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+                line-height: 1.6;
+                color: #111827;
+                background: #F8F9FA;
+                min-height: 100vh;
+            }
+
+            .container {
+                max-width: 1400px;
+                margin: 0 auto;
+                background: #FFFFFF;
+                min-height: 100vh;
+                box-shadow: 0 0 0 1px #E5E7EB;
+            }
+
+            .header {
+                background: #1E293B;
+                color: white;
+                padding: 2rem 2.5rem;
+                border-bottom: 3px solid #334155;
+            }
+
+            .header h1 {
+                font-size: 1.75rem;
+                margin-bottom: 0.25rem;
+                font-weight: 600;
+                color: #FFFFFF;
+            }
+
+            .header .subtitle {
+                font-size: 0.875rem;
+                color: #94A3B8;
+                font-weight: 400;
+            }
+
+            .summary {
+                background: #F8F9FA;
+                padding: 2rem 2.5rem;
+                border-bottom: 1px solid #E5E7EB;
+            }
+
+            .summary h2 {
+                color: #1E293B;
+                margin-bottom: 1rem;
+                font-size: 1.25rem;
+                font-weight: 600;
+            }
+
+            .summary-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+                gap: 1rem;
+                margin-top: 1rem;
+            }
+
+            .summary-item {
+                background: white;
+                padding: 1.25rem;
+                border-radius: 6px;
+                border: 1px solid #E5E7EB;
+            }
+
+            .summary-item .label {
+                font-size: 0.8125rem;
+                color: #64748B;
+                margin-bottom: 0.5rem;
+                text-transform: uppercase;
+                letter-spacing: 0.05em;
+                font-weight: 500;
+            }
+
+            .summary-item .value {
+                font-size: 1.75rem;
+                font-weight: 600;
+                color: #1E293B;
+            }
+
+            .content {
+                padding: 2rem 2.5rem;
+            }
+
+            .section-title {
+                font-size: 1.5rem;
+                color: #1E293B;
+                margin-bottom: 1.5rem;
+                padding-bottom: 0.75rem;
+                border-bottom: 2px solid #E5E7EB;
+                font-weight: 600;
+            }
+
+            .badge {
+                display: inline-block;
+                padding: 0.25rem 0.625rem;
+                border-radius: 4px;
+                font-size: 0.75rem;
+                font-weight: 500;
+                margin-right: 0.5rem;
+            }
+
+            .badge-stars {
+                background: #FEF3C7;
+                color: #92400E;
+            }
+
+            .badge-forks {
+                background: #DBEAFE;
+                color: #1E40AF;
+            }
+
+            .badge-language {
+                background: #D1FAE5;
+                color: #065F46;
+            }
+
+            .badge-today {
+                background: #FEE2E2;
+                color: #991B1B;
+            }
+
+            .badge-consistent {
+                background: #D1FAE5;
+                color: #065F46;
+            }
+
+            .badge-trending {
+                background: #FEF3C7;
+                color: #92400E;
+            }
+
+            .badge-new {
+                background: #DBEAFE;
+                color: #1E40AF;
+            }
+
+            .footer {
+                background: #F8F9FA;
+                padding: 1.5rem 2.5rem;
+                text-align: center;
+                color: #64748B;
+                font-size: 0.8125rem;
+                border-top: 1px solid #E5E7EB;
+            }
+
+            @media (max-width: 768px) {
+                .header {
+                    padding: 1.5rem;
+                }
+
+                .summary {
+                    padding: 1.5rem;
+                }
+
+                .content {
+                    padding: 1.5rem;
+                }
+
+                .summary-grid {
+                    grid-template-columns: 1fr;
+                }
+            }
+        </style>
+        
+        <style>
+            .repo-card {
+                background: white;
+                border: 1px solid #E5E7EB;
+                border-radius: 6px;
+                padding: 1.5rem;
+                margin-bottom: 1rem;
+                transition: box-shadow 0.2s, border-color 0.2s;
+            }
+
+            .repo-card:hover {
+                border-color: #334155;
+                box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+            }
+
+            .repo-header {
+                display: flex;
+                align-items: flex-start;
+                gap: 1rem;
+                margin-bottom: 1rem;
+            }
+
+            .repo-rank {
+                background: #334155;
+                color: white;
+                min-width: 36px;
+                height: 36px;
+                border-radius: 4px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-weight: 600;
+                font-size: 1rem;
+                flex-shrink: 0;
+            }
+
+            .repo-title {
+                flex: 1;
+            }
+
+            .repo-title a {
+                color: #1E293B;
+                text-decoration: none;
+                font-size: 1.125rem;
+                font-weight: 600;
+            }
+
+            .repo-title a:hover {
+                color: #334155;
+                text-decoration: underline;
+            }
+
+            .repo-description {
+                color: #64748B;
+                margin-bottom: 1rem;
+                line-height: 1.6;
+                font-size: 0.9375rem;
+            }
+
+            .repo-stats {
+                display: flex;
+                gap: 1.5rem;
+                flex-wrap: wrap;
+                margin-bottom: 1rem;
+            }
+
+            .contributors {
+                margin-top: 1rem;
+                padding-top: 1rem;
+                border-top: 1px solid #E5E7EB;
+            }
+
+            .contributors-label {
+                font-size: 0.8125rem;
+                color: #64748B;
+                margin-bottom: 0.5rem;
+                font-weight: 500;
+            }
+
+            .contributors-list {
+                display: flex;
+                gap: 0.5rem;
+                flex-wrap: wrap;
+            }
+
+            .contributor-link {
+                color: #334155;
+                text-decoration: none;
+                font-size: 0.8125rem;
+                font-weight: 500;
+            }
+
+            .contributor-link:hover {
+                text-decoration: underline;
+                color: #1E293B;
+            }
+        </style>
+        
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Trending Typescript Repositories</h1>
+            <div class="subtitle">2026-04-10</div>
+        </div>
+
+        <div class="summary">
+            <h2>Summary</h2>
+            <div class="summary-grid">
+                <div class="summary-item">
+                    <div class="label">Date</div>
+                    <div class="value">2026-04-10</div>
+                </div>
+                <div class="summary-item">
+                    <div class="label">Total Repositories</div>
+                    <div class="value">16</div>
+                </div>
+                <div class="summary-item">
+                    <div class="label">Total Stars</div>
+                    <div class="value">557,769</div>
+                </div>
+                <div class="summary-item">
+                    <div class="label">Total Forks</div>
+                    <div class="value">69,159</div>
+                </div>
+                <div class="summary-item">
+                    <div class="label">Language</div>
+                    <div class="value">Typescript</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="content">
+            <h2 class="section-title">Trending Repositories</h2>
+<div class="repo-card">
+    <div class="repo-header">
+        <div class="repo-rank">1</div>
+        <div class="repo-title">
+            <a href="https://github.com/coleam00/Archon" target="_blank" rel="noopener noreferrer">coleam00/Archon</a>
+        </div>
+    </div>
+    <div class="repo-description">The first open-source harness builder for AI coding. Make AI coding deterministic and repeatable.</div>
+    <div class="repo-stats">
+        <span class="badge badge-stars">⭐ 14,476 stars</span>
+        <span class="badge badge-forks">🍴 2,466 forks</span>
+        <span class="badge badge-language">💻 TypeScript</span>
+        <span class="badge badge-today">🔥 185 stars today</span>
+    </div>
+    <div class="contributors">
+        <div class="contributors-label">Built by:</div>
+        <div class="contributors-list">
+            <a href="https://github.com/Wirasm" class="contributor-link" target="_blank" rel="noopener noreferrer">@Wirasm</a>
+            <a href="https://github.com/coleam00" class="contributor-link" target="_blank" rel="noopener noreferrer">@coleam00</a>
+            <a href="https://github.com/claude" class="contributor-link" target="_blank" rel="noopener noreferrer">@claude</a>
+            <a href="https://github.com/leex279" class="contributor-link" target="_blank" rel="noopener noreferrer">@leex279</a>
+            <a href="https://github.com/github-actions" class="contributor-link" target="_blank" rel="noopener noreferrer">@github-actions</a>
+        </div>
+    </div>
+</div>
+<div class="repo-card">
+    <div class="repo-header">
+        <div class="repo-rank">2</div>
+        <div class="repo-title">
+            <a href="https://github.com/YishenTu/claudian" target="_blank" rel="noopener noreferrer">YishenTu/claudian</a>
+        </div>
+    </div>
+    <div class="repo-description">An Obsidian plugin that embeds Claude Code as an AI collaborator in your vault</div>
+    <div class="repo-stats">
+        <span class="badge badge-stars">⭐ 6,881 stars</span>
+        <span class="badge badge-forks">🍴 402 forks</span>
+        <span class="badge badge-language">💻 TypeScript</span>
+        <span class="badge badge-today">🔥 200 stars today</span>
+    </div>
+    <div class="contributors">
+        <div class="contributors-label">Built by:</div>
+        <div class="contributors-list">
+            <a href="https://github.com/YishenTu" class="contributor-link" target="_blank" rel="noopener noreferrer">@YishenTu</a>
+            <a href="https://github.com/claude" class="contributor-link" target="_blank" rel="noopener noreferrer">@claude</a>
+            <a href="https://github.com/summerKK" class="contributor-link" target="_blank" rel="noopener noreferrer">@summerKK</a>
+            <a href="https://github.com/github-actions" class="contributor-link" target="_blank" rel="noopener noreferrer">@github-actions</a>
+            <a href="https://github.com/AlexSuprun" class="contributor-link" target="_blank" rel="noopener noreferrer">@AlexSuprun</a>
+        </div>
+    </div>
+</div>
+<div class="repo-card">
+    <div class="repo-header">
+        <div class="repo-rank">3</div>
+        <div class="repo-title">
+            <a href="https://github.com/rowboatlabs/rowboat" target="_blank" rel="noopener noreferrer">rowboatlabs/rowboat</a>
+        </div>
+    </div>
+    <div class="repo-description">Open-source AI coworker, with memory</div>
+    <div class="repo-stats">
+        <span class="badge badge-stars">⭐ 11,232 stars</span>
+        <span class="badge badge-forks">🍴 1,059 forks</span>
+        <span class="badge badge-language">💻 TypeScript</span>
+        <span class="badge badge-today">🔥 1,187 stars today</span>
+    </div>
+    <div class="contributors">
+        <div class="contributors-label">Built by:</div>
+        <div class="contributors-list">
+            <a href="https://github.com/ramnique" class="contributor-link" target="_blank" rel="noopener noreferrer">@ramnique</a>
+            <a href="https://github.com/arkml" class="contributor-link" target="_blank" rel="noopener noreferrer">@arkml</a>
+            <a href="https://github.com/akhisud3195" class="contributor-link" target="_blank" rel="noopener noreferrer">@akhisud3195</a>
+            <a href="https://github.com/tusharmagar" class="contributor-link" target="_blank" rel="noopener noreferrer">@tusharmagar</a>
+            <a href="https://github.com/github-actions" class="contributor-link" target="_blank" rel="noopener noreferrer">@github-actions</a>
+        </div>
+    </div>
+</div>
+<div class="repo-card">
+    <div class="repo-header">
+        <div class="repo-rank">4</div>
+        <div class="repo-title">
+            <a href="https://github.com/tobi/qmd" target="_blank" rel="noopener noreferrer">tobi/qmd</a>
+        </div>
+    </div>
+    <div class="repo-description">mini cli search engine for your docs, knowledge bases, meeting notes, whatever. Tracking current sota approaches while being all local</div>
+    <div class="repo-stats">
+        <span class="badge badge-stars">⭐ 20,378 stars</span>
+        <span class="badge badge-forks">🍴 1,246 forks</span>
+        <span class="badge badge-language">💻 TypeScript</span>
+        <span class="badge badge-today">🔥 313 stars today</span>
+    </div>
+    <div class="contributors">
+        <div class="contributors-label">Built by:</div>
+        <div class="contributors-list">
+            <a href="https://github.com/tobi" class="contributor-link" target="_blank" rel="noopener noreferrer">@tobi</a>
+            <a href="https://github.com/claude" class="contributor-link" target="_blank" rel="noopener noreferrer">@claude</a>
+            <a href="https://github.com/danmackinlay" class="contributor-link" target="_blank" rel="noopener noreferrer">@danmackinlay</a>
+            <a href="https://github.com/shreyaskarnik" class="contributor-link" target="_blank" rel="noopener noreferrer">@shreyaskarnik</a>
+            <a href="https://github.com/burke" class="contributor-link" target="_blank" rel="noopener noreferrer">@burke</a>
+        </div>
+    </div>
+</div>
+<div class="repo-card">
+    <div class="repo-header">
+        <div class="repo-rank">5</div>
+        <div class="repo-title">
+            <a href="https://github.com/daytonaio/daytona" target="_blank" rel="noopener noreferrer">daytonaio/daytona</a>
+        </div>
+    </div>
+    <div class="repo-description">Daytona is a Secure and Elastic Infrastructure for Running AI-Generated Code</div>
+    <div class="repo-stats">
+        <span class="badge badge-stars">⭐ 72,189 stars</span>
+        <span class="badge badge-forks">🍴 5,545 forks</span>
+        <span class="badge badge-language">💻 TypeScript</span>
+        <span class="badge badge-today">🔥 301 stars today</span>
+    </div>
+    <div class="contributors">
+        <div class="contributors-label">Built by:</div>
+        <div class="contributors-list">
+            <a href="https://github.com/Tpuljak" class="contributor-link" target="_blank" rel="noopener noreferrer">@Tpuljak</a>
+            <a href="https://github.com/idagelic" class="contributor-link" target="_blank" rel="noopener noreferrer">@idagelic</a>
+            <a href="https://github.com/fabjanvucina" class="contributor-link" target="_blank" rel="noopener noreferrer">@fabjanvucina</a>
+            <a href="https://github.com/MDzaja" class="contributor-link" target="_blank" rel="noopener noreferrer">@MDzaja</a>
+            <a href="https://github.com/lbrecic" class="contributor-link" target="_blank" rel="noopener noreferrer">@lbrecic</a>
+        </div>
+    </div>
+</div>
+<div class="repo-card">
+    <div class="repo-header">
+        <div class="repo-rank">6</div>
+        <div class="repo-title">
+            <a href="https://github.com/multica-ai/multica" target="_blank" rel="noopener noreferrer">multica-ai/multica</a>
+        </div>
+    </div>
+    <div class="repo-description">The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.</div>
+    <div class="repo-stats">
+        <span class="badge badge-stars">⭐ 4,417 stars</span>
+        <span class="badge badge-forks">🍴 512 forks</span>
+        <span class="badge badge-language">💻 TypeScript</span>
+        <span class="badge badge-today">🔥 1,680 stars today</span>
+    </div>
+    <div class="contributors">
+        <div class="contributors-label">Built by:</div>
+        <div class="contributors-list">
+            <a href="https://github.com/claude" class="contributor-link" target="_blank" rel="noopener noreferrer">@claude</a>
+            <a href="https://github.com/forrestchang" class="contributor-link" target="_blank" rel="noopener noreferrer">@forrestchang</a>
+            <a href="https://github.com/NevilleQingNY" class="contributor-link" target="_blank" rel="noopener noreferrer">@NevilleQingNY</a>
+            <a href="https://github.com/ldnvnbl" class="contributor-link" target="_blank" rel="noopener noreferrer">@ldnvnbl</a>
+            <a href="https://github.com/Bohan-J" class="contributor-link" target="_blank" rel="noopener noreferrer">@Bohan-J</a>
+        </div>
+    </div>
+</div>
+<div class="repo-card">
+    <div class="repo-header">
+        <div class="repo-rank">7</div>
+        <div class="repo-title">
+            <a href="https://github.com/VoltAgent/voltagent" target="_blank" rel="noopener noreferrer">VoltAgent/voltagent</a>
+        </div>
+    </div>
+    <div class="repo-description">AI Agent Engineering Platform built on an Open Source TypeScript AI Agent Framework</div>
+    <div class="repo-stats">
+        <span class="badge badge-stars">⭐ 7,729 stars</span>
+        <span class="badge badge-forks">🍴 761 forks</span>
+        <span class="badge badge-language">💻 TypeScript</span>
+        <span class="badge badge-today">🔥 111 stars today</span>
+    </div>
+    <div class="contributors">
+        <div class="contributors-label">Built by:</div>
+        <div class="contributors-list">
+            <a href="https://github.com/omeraplak" class="contributor-link" target="_blank" rel="noopener noreferrer">@omeraplak</a>
+            <a href="https://github.com/necatiozmen" class="contributor-link" target="_blank" rel="noopener noreferrer">@necatiozmen</a>
+            <a href="https://github.com/voltagent-bot" class="contributor-link" target="_blank" rel="noopener noreferrer">@voltagent-bot</a>
+            <a href="https://github.com/github-actions" class="contributor-link" target="_blank" rel="noopener noreferrer">@github-actions</a>
+            <a href="https://github.com/zrosenbauer" class="contributor-link" target="_blank" rel="noopener noreferrer">@zrosenbauer</a>
+        </div>
+    </div>
+</div>
+<div class="repo-card">
+    <div class="repo-header">
+        <div class="repo-rank">8</div>
+        <div class="repo-title">
+            <a href="https://github.com/run-llama/liteparse" target="_blank" rel="noopener noreferrer">run-llama/liteparse</a>
+        </div>
+    </div>
+    <div class="repo-description">A fast, helpful, and open-source document parser</div>
+    <div class="repo-stats">
+        <span class="badge badge-stars">⭐ 4,077 stars</span>
+        <span class="badge badge-forks">🍴 265 forks</span>
+        <span class="badge badge-language">💻 TypeScript</span>
+        <span class="badge badge-today">🔥 75 stars today</span>
+    </div>
+    <div class="contributors">
+        <div class="contributors-label">Built by:</div>
+        <div class="contributors-list">
+            <a href="https://github.com/logan-markewich" class="contributor-link" target="_blank" rel="noopener noreferrer">@logan-markewich</a>
+            <a href="https://github.com/AstraBert" class="contributor-link" target="_blank" rel="noopener noreferrer">@AstraBert</a>
+            <a href="https://github.com/github-actions" class="contributor-link" target="_blank" rel="noopener noreferrer">@github-actions</a>
+            <a href="https://github.com/AdemBoukhris457" class="contributor-link" target="_blank" rel="noopener noreferrer">@AdemBoukhris457</a>
+            <a href="https://github.com/hexapode" class="contributor-link" target="_blank" rel="noopener noreferrer">@hexapode</a>
+        </div>
+    </div>
+</div>
+<div class="repo-card">
+    <div class="repo-header">
+        <div class="repo-rank">9</div>
+        <div class="repo-title">
+            <a href="https://github.com/abhigyanpatwari/GitNexus" target="_blank" rel="noopener noreferrer">abhigyanpatwari/GitNexus</a>
+        </div>
+    </div>
+    <div class="repo-description">GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration</div>
+    <div class="repo-stats">
+        <span class="badge badge-stars">⭐ 25,900 stars</span>
+        <span class="badge badge-forks">🍴 2,902 forks</span>
+        <span class="badge badge-language">💻 TypeScript</span>
+        <span class="badge badge-today">🔥 664 stars today</span>
+    </div>
+    <div class="contributors">
+        <div class="contributors-label">Built by:</div>
+        <div class="contributors-list">
+            <a href="https://github.com/abhigyanpatwari" class="contributor-link" target="_blank" rel="noopener noreferrer">@abhigyanpatwari</a>
+            <a href="https://github.com/claude" class="contributor-link" target="_blank" rel="noopener noreferrer">@claude</a>
+            <a href="https://github.com/magyargergo" class="contributor-link" target="_blank" rel="noopener noreferrer">@magyargergo</a>
+            <a href="https://github.com/naicud" class="contributor-link" target="_blank" rel="noopener noreferrer">@naicud</a>
+            <a href="https://github.com/zander-raycraft" class="contributor-link" target="_blank" rel="noopener noreferrer">@zander-raycraft</a>
+        </div>
+    </div>
+</div>
+<div class="repo-card">
+    <div class="repo-header">
+        <div class="repo-rank">10</div>
+        <div class="repo-title">
+            <a href="https://github.com/fluxerapp/fluxer" target="_blank" rel="noopener noreferrer">fluxerapp/fluxer</a>
+        </div>
+    </div>
+    <div class="repo-description">A free and open source instant messaging and VoIP platform built for friends, groups, and communities. Self-hosting and more activity in this repository is coming very soon! See the README.</div>
+    <div class="repo-stats">
+        <span class="badge badge-stars">⭐ 8,143 stars</span>
+        <span class="badge badge-forks">🍴 448 forks</span>
+        <span class="badge badge-language">💻 TypeScript</span>
+        <span class="badge badge-today">🔥 71 stars today</span>
+    </div>
+    <div class="contributors">
+        <div class="contributors-label">Built by:</div>
+        <div class="contributors-list">
+            <a href="https://github.com/hampus-fluxer" class="contributor-link" target="_blank" rel="noopener noreferrer">@hampus-fluxer</a>
+            <a href="https://github.com/Jiralite" class="contributor-link" target="_blank" rel="noopener noreferrer">@Jiralite</a>
+            <a href="https://github.com/M0n7y5" class="contributor-link" target="_blank" rel="noopener noreferrer">@M0n7y5</a>
+            <a href="https://github.com/fenbyte" class="contributor-link" target="_blank" rel="noopener noreferrer">@fenbyte</a>
+            <a href="https://github.com/dynamicbark" class="contributor-link" target="_blank" rel="noopener noreferrer">@dynamicbark</a>
+        </div>
+    </div>
+</div>
+<div class="repo-card">
+    <div class="repo-header">
+        <div class="repo-rank">11</div>
+        <div class="repo-title">
+            <a href="https://github.com/QwenLM/qwen-code" target="_blank" rel="noopener noreferrer">QwenLM/qwen-code</a>
+        </div>
+    </div>
+    <div class="repo-description">An open-source AI agent that lives in your terminal.</div>
+    <div class="repo-stats">
+        <span class="badge badge-stars">⭐ 22,249 stars</span>
+        <span class="badge badge-forks">🍴 2,061 forks</span>
+        <span class="badge badge-language">💻 TypeScript</span>
+        <span class="badge badge-today">🔥 91 stars today</span>
+    </div>
+    <div class="contributors">
+        <div class="contributors-label">Built by:</div>
+        <div class="contributors-list">
+            <a href="https://github.com/tanzhenxin" class="contributor-link" target="_blank" rel="noopener noreferrer">@tanzhenxin</a>
+            <a href="https://github.com/qwencoder" class="contributor-link" target="_blank" rel="noopener noreferrer">@qwencoder</a>
+            <a href="https://github.com/yiliang114" class="contributor-link" target="_blank" rel="noopener noreferrer">@yiliang114</a>
+            <a href="https://github.com/Mingholy" class="contributor-link" target="_blank" rel="noopener noreferrer">@Mingholy</a>
+            <a href="https://github.com/LaZzyMan" class="contributor-link" target="_blank" rel="noopener noreferrer">@LaZzyMan</a>
+        </div>
+    </div>
+</div>
+<div class="repo-card">
+    <div class="repo-header">
+        <div class="repo-rank">12</div>
+        <div class="repo-title">
+            <a href="https://github.com/RhysSullivan/executor" target="_blank" rel="noopener noreferrer">RhysSullivan/executor</a>
+        </div>
+    </div>
+    <div class="repo-description">The missing integration layer for AI agents. Let them call any OpenAPI / MCP / GraphQL / custom js functions in secure environment.</div>
+    <div class="repo-stats">
+        <span class="badge badge-stars">⭐ 961 stars</span>
+        <span class="badge badge-forks">🍴 48 forks</span>
+        <span class="badge badge-language">💻 TypeScript</span>
+        <span class="badge badge-today">🔥 28 stars today</span>
+    </div>
+    <div class="contributors">
+        <div class="contributors-label">Built by:</div>
+        <div class="contributors-list">
+            <a href="https://github.com/RhysSullivan" class="contributor-link" target="_blank" rel="noopener noreferrer">@RhysSullivan</a>
+            <a href="https://github.com/aryasaatvik" class="contributor-link" target="_blank" rel="noopener noreferrer">@aryasaatvik</a>
+            <a href="https://github.com/github-actions" class="contributor-link" target="_blank" rel="noopener noreferrer">@github-actions</a>
+            <a href="https://github.com/claude" class="contributor-link" target="_blank" rel="noopener noreferrer">@claude</a>
+            <a href="https://github.com/bam4564" class="contributor-link" target="_blank" rel="noopener noreferrer">@bam4564</a>
+        </div>
+    </div>
+</div>
+<div class="repo-card">
+    <div class="repo-header">
+        <div class="repo-rank">13</div>
+        <div class="repo-title">
+            <a href="https://github.com/anomalyco/opencode" target="_blank" rel="noopener noreferrer">anomalyco/opencode</a>
+        </div>
+    </div>
+    <div class="repo-description">The open source coding agent.</div>
+    <div class="repo-stats">
+        <span class="badge badge-stars">⭐ 140,623 stars</span>
+        <span class="badge badge-forks">🍴 15,647 forks</span>
+        <span class="badge badge-language">💻 TypeScript</span>
+        <span class="badge badge-today">🔥 775 stars today</span>
+    </div>
+    <div class="contributors">
+        <div class="contributors-label">Built by:</div>
+        <div class="contributors-list">
+            <a href="https://github.com/thdxr" class="contributor-link" target="_blank" rel="noopener noreferrer">@thdxr</a>
+            <a href="https://github.com/adamdotdevin" class="contributor-link" target="_blank" rel="noopener noreferrer">@adamdotdevin</a>
+            <a href="https://github.com/rekram1-node" class="contributor-link" target="_blank" rel="noopener noreferrer">@rekram1-node</a>
+            <a href="https://github.com/actions-user" class="contributor-link" target="_blank" rel="noopener noreferrer">@actions-user</a>
+            <a href="https://github.com/iamdavidhill" class="contributor-link" target="_blank" rel="noopener noreferrer">@iamdavidhill</a>
+        </div>
+    </div>
+</div>
+<div class="repo-card">
+    <div class="repo-header">
+        <div class="repo-rank">14</div>
+        <div class="repo-title">
+            <a href="https://github.com/angular/angular" target="_blank" rel="noopener noreferrer">angular/angular</a>
+        </div>
+    </div>
+    <div class="repo-description">Deliver web apps with confidence 🚀</div>
+    <div class="repo-stats">
+        <span class="badge badge-stars">⭐ 100,083 stars</span>
+        <span class="badge badge-forks">🍴 27,148 forks</span>
+        <span class="badge badge-language">💻 TypeScript</span>
+        <span class="badge badge-today">🔥 15 stars today</span>
+    </div>
+    <div class="contributors">
+        <div class="contributors-label">Built by:</div>
+        <div class="contributors-list">
+            <a href="https://github.com/gkalpak" class="contributor-link" target="_blank" rel="noopener noreferrer">@gkalpak</a>
+            <a href="https://github.com/petebacondarwin" class="contributor-link" target="_blank" rel="noopener noreferrer">@petebacondarwin</a>
+            <a href="https://github.com/devversion" class="contributor-link" target="_blank" rel="noopener noreferrer">@devversion</a>
+            <a href="https://github.com/crisbeto" class="contributor-link" target="_blank" rel="noopener noreferrer">@crisbeto</a>
+            <a href="https://github.com/angular-robot" class="contributor-link" target="_blank" rel="noopener noreferrer">@angular-robot</a>
+        </div>
+    </div>
+</div>
+<div class="repo-card">
+    <div class="repo-header">
+        <div class="repo-rank">15</div>
+        <div class="repo-title">
+            <a href="https://github.com/superset-sh/superset" target="_blank" rel="noopener noreferrer">superset-sh/superset</a>
+        </div>
+    </div>
+    <div class="repo-description">Code Editor for the AI Agents Era - Run an army of Claude Code, Codex, etc. on your machine</div>
+    <div class="repo-stats">
+        <span class="badge badge-stars">⭐ 9,204 stars</span>
+        <span class="badge badge-forks">🍴 709 forks</span>
+        <span class="badge badge-language">💻 TypeScript</span>
+        <span class="badge badge-today">🔥 120 stars today</span>
+    </div>
+    <div class="contributors">
+        <div class="contributors-label">Built by:</div>
+        <div class="contributors-list">
+            <a href="https://github.com/Kitenite" class="contributor-link" target="_blank" rel="noopener noreferrer">@Kitenite</a>
+            <a href="https://github.com/saddlepaddle" class="contributor-link" target="_blank" rel="noopener noreferrer">@saddlepaddle</a>
+            <a href="https://github.com/AviPeltz" class="contributor-link" target="_blank" rel="noopener noreferrer">@AviPeltz</a>
+            <a href="https://github.com/claude" class="contributor-link" target="_blank" rel="noopener noreferrer">@claude</a>
+            <a href="https://github.com/github-actions" class="contributor-link" target="_blank" rel="noopener noreferrer">@github-actions</a>
+        </div>
+    </div>
+</div>
+<div class="repo-card">
+    <div class="repo-header">
+        <div class="repo-rank">16</div>
+        <div class="repo-title">
+            <a href="https://github.com/clash-verge-rev/clash-verge-rev" target="_blank" rel="noopener noreferrer">clash-verge-rev/clash-verge-rev</a>
+        </div>
+    </div>
+    <div class="repo-description">A modern GUI client based on Tauri, designed to run in Windows, macOS and Linux for tailored proxy experience</div>
+    <div class="repo-stats">
+        <span class="badge badge-stars">⭐ 109,227 stars</span>
+        <span class="badge badge-forks">🍴 7,940 forks</span>
+        <span class="badge badge-language">💻 TypeScript</span>
+        <span class="badge badge-today">🔥 409 stars today</span>
+    </div>
+    <div class="contributors">
+        <div class="contributors-label">Built by:</div>
+        <div class="contributors-list">
+            <a href="https://github.com/zzzgydi" class="contributor-link" target="_blank" rel="noopener noreferrer">@zzzgydi</a>
+            <a href="https://github.com/Tunglies" class="contributor-link" target="_blank" rel="noopener noreferrer">@Tunglies</a>
+            <a href="https://github.com/MystiPanda" class="contributor-link" target="_blank" rel="noopener noreferrer">@MystiPanda</a>
+            <a href="https://github.com/wonfen" class="contributor-link" target="_blank" rel="noopener noreferrer">@wonfen</a>
+            <a href="https://github.com/huzibaca" class="contributor-link" target="_blank" rel="noopener noreferrer">@huzibaca</a>
+        </div>
+    </div>
+</div>
+        </div>
+        <div class="footer">
+            <p>Last updated: 2026-04-10</p>
+            <p>Generated by GitHub Trending Scraper</p>
+        </div>
+    </div>
+</body>
+</html>
