@@ -1,0 +1,352 @@
+{
+  "metadata": {
+    "date": "2026-04-12",
+    "language": "go",
+    "total_repositories": 20,
+    "total_stars": 439115,
+    "total_forks": 43753,
+    "generated_by": "GitHub Trending Scraper",
+    "format_version": "1.0"
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "steipete/wacli",
+      "url": "https://github.com/steipete/wacli",
+      "description": "WhatsApp CLI",
+      "language": "Go",
+      "stars": 889,
+      "forks": 161,
+      "stars_today": "130 stars today",
+      "built_by": [
+        "steipete",
+        "plattenschieber",
+        "zats",
+        "nitinalabur",
+        "ramarivera"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "googleapis/mcp-toolbox",
+      "url": "https://github.com/googleapis/mcp-toolbox",
+      "description": "MCP Toolbox for Databases is an open source MCP server for databases.",
+      "language": "Go",
+      "stars": 14407,
+      "forks": 1428,
+      "stars_today": "227 stars today",
+      "built_by": [
+        "Yuan325",
+        "twishabansal",
+        "averikitsch",
+        "duwenxin99",
+        "release-please"
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "1Panel-dev/1Panel",
+      "url": "https://github.com/1Panel-dev/1Panel",
+      "description": "🔥 1Panel is a modern, open-source VPS control panel — and the only one with native AI agent support. Run Ollama models, deploy OpenClaw agents, and manage your entire server stack from one clean web interface.",
+      "language": "Go",
+      "stars": 34920,
+      "forks": 3088,
+      "stars_today": "37 stars today",
+      "built_by": [
+        "zhengkunwang223",
+        "ssongliu",
+        "lan-yonghui",
+        "HynoR",
+        "wanghe-fit2cloud"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "NVIDIA/gpu-operator",
+      "url": "https://github.com/NVIDIA/gpu-operator",
+      "description": "NVIDIA GPU Operator creates, configures, and manages GPUs in Kubernetes",
+      "language": "Go",
+      "stars": 2632,
+      "forks": 479,
+      "stars_today": "1 star today",
+      "built_by": [
+        "tariq1890",
+        "cdesiniotis",
+        "shivamerla",
+        "dependabot",
+        "nvjmayo"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "pingcap/tidb",
+      "url": "https://github.com/pingcap/tidb",
+      "description": "TiDB - the open-source, cloud-native, distributed SQL database designed for modern applications.",
+      "language": "Go",
+      "stars": 39956,
+      "forks": 6168,
+      "stars_today": "14 stars today",
+      "built_by": [
+        "hawkingrei",
+        "tiancaiamao",
+        "coocood",
+        "zimulala",
+        "qw4990"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "fluxcd/flux2",
+      "url": "https://github.com/fluxcd/flux2",
+      "description": "Open and extensible continuous delivery solution for Kubernetes. Powered by GitOps Toolkit.",
+      "language": "Go",
+      "stars": 8031,
+      "forks": 728,
+      "stars_today": "6 stars today",
+      "built_by": [
+        "stefanprodan",
+        "hiddeco",
+        "fluxcdbot",
+        "matheuscscp",
+        "dependabot"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "Wei-Shaw/sub2api",
+      "url": "https://github.com/Wei-Shaw/sub2api",
+      "description": "Sub2API-CRS2 一站式开源中转服务，让 Claude、Openai 、Gemini、Antigravity订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
+      "language": "Go",
+      "stars": 11788,
+      "forks": 1951,
+      "stars_today": "215 stars today",
+      "built_by": [
+        "Wei-Shaw",
+        "IanShaw027",
+        "touwaeriol",
+        "claude",
+        "slovx2"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "glanceapp/glance",
+      "url": "https://github.com/glanceapp/glance",
+      "description": "A self-hosted dashboard that puts all your feeds in one place",
+      "language": "Go",
+      "stars": 33293,
+      "forks": 1281,
+      "stars_today": "58 stars today",
+      "built_by": [
+        "svilenmarkov",
+        "ralphocdol",
+        "c0smicdev",
+        "wfg",
+        "DVDAndroid"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "Project-HAMi/HAMi",
+      "url": "https://github.com/Project-HAMi/HAMi",
+      "description": "Heterogeneous GPU Sharing on Kubernetes",
+      "language": "Go",
+      "stars": 3265,
+      "forks": 506,
+      "stars_today": "8 stars today",
+      "built_by": [
+        "archlitchi",
+        "dependabot",
+        "lengrongfu",
+        "wawa0210",
+        "Shouren"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "bitnami-labs/sealed-secrets",
+      "url": "https://github.com/bitnami-labs/sealed-secrets",
+      "description": "A Kubernetes controller and tool for one-way encrypted Secrets",
+      "language": "Go",
+      "stars": 9027,
+      "forks": 767,
+      "stars_today": "10 stars today",
+      "built_by": [
+        "dependabot",
+        "anguslees",
+        "bors",
+        "alvneiayu",
+        "alemorcuq"
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "tmc/langchaingo",
+      "url": "https://github.com/tmc/langchaingo",
+      "description": "LangChain for Go, the easiest way to write LLM-based programs in Go",
+      "language": "Go",
+      "stars": 9036,
+      "forks": 1078,
+      "stars_today": "11 stars today",
+      "built_by": [
+        "tmc",
+        "FluffyKebab",
+        "eliben",
+        "Abraxas-365",
+        "zivkovicn"
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "grpc/grpc-go",
+      "url": "https://github.com/grpc/grpc-go",
+      "description": "The Go language implementation of gRPC. HTTP/2 based RPC",
+      "language": "Go",
+      "stars": 22896,
+      "forks": 4649,
+      "stars_today": "4 stars today",
+      "built_by": [
+        "iamqizhao",
+        "menghanl",
+        "easwars",
+        "dfawley",
+        "zasweq"
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "harness/harness",
+      "url": "https://github.com/harness/harness",
+      "description": "Harness Open Source is an end-to-end developer platform with Source Control Management, CI/CD Pipelines, Hosted Developer Environments, and Artifact Registries.",
+      "language": "Go",
+      "stars": 34540,
+      "forks": 2971,
+      "stars_today": "40 stars today",
+      "built_by": [
+        "johannesHarness",
+        "marko-gacesa",
+        "cjlee01",
+        "shivanand-harness",
+        "tan-nhu"
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "spf13/cobra",
+      "url": "https://github.com/spf13/cobra",
+      "description": "A Commander for modern Go CLI interactions",
+      "language": "Go",
+      "stars": 43646,
+      "forks": 3109,
+      "stars_today": "14 stars today",
+      "built_by": [
+        "eparis",
+        "n10v",
+        "spf13",
+        "umarcor",
+        "marckhouzam"
+      ]
+    },
+    {
+      "rank": 15,
+      "name": "cloudwego/eino",
+      "url": "https://github.com/cloudwego/eino",
+      "description": "The ultimate LLM/AI application development framework in Go.",
+      "language": "Go",
+      "stars": 10567,
+      "forks": 836,
+      "stars_today": "18 stars today",
+      "built_by": [
+        "meguminnnnnnnnn",
+        "shentongmartin",
+        "hi-pender",
+        "luohq-bytedance",
+        "N3kox"
+      ]
+    },
+    {
+      "rank": 16,
+      "name": "QuantumNous/new-api",
+      "url": "https://github.com/QuantumNous/new-api",
+      "description": "A unified AI model hub for aggregation & distribution. It supports cross-converting various LLMs into OpenAI-compatible, Claude-compatible, or Gemini-compatible formats. A centralized gateway for personal and enterprise model management. 🍥",
+      "language": "Go",
+      "stars": 26188,
+      "forks": 5304,
+      "stars_today": "154 stars today",
+      "built_by": [
+        "Calcium-Ion",
+        "seefs001",
+        "t0ng7u",
+        "songquanpeng"
+      ]
+    },
+    {
+      "rank": 17,
+      "name": "stretchr/testify",
+      "url": "https://github.com/stretchr/testify",
+      "description": "A toolkit with common assertions and mocks that plays nicely with the standard library",
+      "language": "Go",
+      "stars": 25922,
+      "forks": 1701,
+      "stars_today": "5 stars today",
+      "built_by": [
+        "ernesto-jimenez",
+        "brackendawson",
+        "dolmen",
+        "tylerstillwater",
+        "boyan-soubachov"
+      ]
+    },
+    {
+      "rank": 18,
+      "name": "mudler/LocalAI",
+      "url": "https://github.com/mudler/LocalAI",
+      "description": "LocalAI is the open-source AI engine. Run any model - LLMs, vision, voice, image, video - on any hardware. No GPU required.",
+      "language": "Go",
+      "stars": 45271,
+      "forks": 3922,
+      "stars_today": "56 stars today",
+      "built_by": [
+        "mudler",
+        "localai-bot",
+        "dependabot",
+        "renovate",
+        "dave-gray101"
+      ]
+    },
+    {
+      "rank": 19,
+      "name": "wagoodman/dive",
+      "url": "https://github.com/wagoodman/dive",
+      "description": "A tool for exploring each layer in a docker image",
+      "language": "Go",
+      "stars": 53759,
+      "forks": 1981,
+      "stars_today": "6 stars today",
+      "built_by": [
+        "wagoodman",
+        "willmurphyscode",
+        "abitrolly",
+        "dependabot",
+        "muesli"
+      ]
+    },
+    {
+      "rank": 20,
+      "name": "kubernetes-sigs/kubebuilder",
+      "url": "https://github.com/kubernetes-sigs/kubebuilder",
+      "description": "Kubebuilder - SDK for building Kubernetes APIs using CRDs",
+      "language": "Go",
+      "stars": 9082,
+      "forks": 1645,
+      "stars_today": "5 stars today",
+      "built_by": [
+        "k8s-ci-robot",
+        "camilamacedo86",
+        "dependabot",
+        "droot",
+        "pwittrock"
+      ]
+    }
+  ]
+}
