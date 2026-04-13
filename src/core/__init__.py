@@ -5,6 +5,7 @@ from .constants import (
     BADGE_TRENDING_THRESHOLD,
     DEFAULT_OUTPUT_DIR,
     GITHUB_BASE_URL,
+    LANGUAGE_DISPLAY_NAMES,
     MAX_CONTRIBUTORS_DISPLAY,
     MAX_MONTH_NUMBER,
     MAX_WEEK_NUMBER,
@@ -12,6 +13,7 @@ from .constants import (
     MIN_WEEK_NUMBER,
     MONTH_NAMES,
     VALID_OUTPUT_FORMATS,
+    display_language,
 )
 from .enums import OutputFormat, PeriodType
 from .types import (
@@ -38,6 +40,8 @@ __all__ = [
     "BADGE_TRENDING_THRESHOLD",
     "MAX_CONTRIBUTORS_DISPLAY",
     "MONTH_NAMES",
+    "LANGUAGE_DISPLAY_NAMES",
+    "display_language",
     # Enums
     "OutputFormat",
     "PeriodType",

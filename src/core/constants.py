@@ -20,6 +20,30 @@ BADGE_CONSISTENT_THRESHOLD = 7  # Jours minimum pour être "consistent"
 BADGE_TRENDING_THRESHOLD = 3    # Jours minimum pour être "trending"
 MAX_CONTRIBUTORS_DISPLAY = 5    # Nombre max de contributeurs affichés
 
+# Noms d'affichage des langages (capitalisation correcte)
+LANGUAGE_DISPLAY_NAMES = {
+    "c":          "C",
+    "c++":        "C++",
+    "go":         "Go",
+    "javascript": "JavaScript",
+    "python":     "Python",
+    "rust":       "Rust",
+    "typescript": "TypeScript",
+}
+
+
+def display_language(language: str) -> str:
+    """Retourne le nom d'affichage correct d'un langage.
+
+    Args:
+        language (str): Nom interne du langage (ex: "typescript").
+
+    Returns:
+        str: Nom d'affichage (ex: "TypeScript").
+    """
+    return LANGUAGE_DISPLAY_NAMES.get(language.lower(), language.capitalize())
+
+
 # Noms des mois
 MONTH_NAMES = [
     "",

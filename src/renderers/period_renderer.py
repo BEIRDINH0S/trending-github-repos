@@ -1,6 +1,7 @@
 import html
 import logging
 import os
+from typing import Optional
 
 from core import (
     BADGE_CONSISTENT_THRESHOLD,
@@ -11,11 +12,14 @@ from core import (
     MONTH_NAMES,
     AggregatedData,
     AggregatedRepository,
+    display_language,
 )
 
 from .css_styles import get_period_report_css
 
 logger = logging.getLogger(__name__)
+
+_ICON_HOME = '<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>'
 
 
 class PeriodRenderer:
@@ -59,14 +63,52 @@ class PeriodRenderer:
         return html.escape(text)
 
     def _generate_css(self) -> str:
-        """Génère le CSS (avec cache).
-
-        Returns:
-            str: Code CSS.
-        """
+        """Génère le CSS (avec cache)."""
         if PeriodRenderer._css_cache is None:
             PeriodRenderer._css_cache = get_period_report_css()
         return PeriodRenderer._css_cache
+
+    def _generate_navbar(self, language: str, period_type: str, period_label: str) -> str:
+        """Génère la barre de navigation supérieure pour les rapports de période.
+
+        Args:
+            language (str): Nom du langage.
+            period_type (str): "weekly" ou "monthly".
+            period_label (str): Libellé de la période (ex: "Week 15 - 2026").
+
+        Returns:
+            str: HTML de la navbar.
+        """
+        lang_cap = html.escape(display_language(language))
+        lang_anchor = html.escape(language)
+        period_type_cap = period_type.capitalize()
+        period_label_esc = html.escape(period_label)
+
+        return f"""
+    <nav class="top-nav" aria-label="Site navigation">
+        <div class="top-nav-inner">
+            <div class="top-nav-left">
+                <a href="../../../index.html" class="nav-logo" aria-label="GitHub Trends home">
+                    {_ICON_HOME} GitHub Trends
+                </a>
+                <div class="nav-divider" aria-hidden="true"></div>
+                <div class="top-nav-breadcrumbs" aria-label="Breadcrumb">
+                    <a href="../../../index.html" class="nav-breadcrumb-link">Home</a>
+                    <span class="nav-breadcrumb-sep" aria-hidden="true">/</span>
+                    <a href="../../index.html" class="nav-breadcrumb-link">{lang_cap}</a>
+                    <span class="nav-breadcrumb-sep" aria-hidden="true">/</span>
+                    <a href="../../index.html#{period_type}" class="nav-breadcrumb-link">{period_type_cap}</a>
+                    <span class="nav-breadcrumb-sep" aria-hidden="true">/</span>
+                    <span class="nav-breadcrumb-current" aria-current="page">{period_label_esc}</span>
+                </div>
+            </div>
+            <div class="top-nav-right" aria-label="Navigation">
+                <a href="../../index.html#{period_type}" class="format-pill pill-html" aria-label="Back to dashboard">
+                    ← Dashboard
+                </a>
+            </div>
+        </div>
+    </nav>"""
 
     def _generate_repo_row(self, repo: AggregatedRepository, index: int) -> str:
         """Génère une ligne de tableau pour un repo.
@@ -142,12 +184,14 @@ class PeriodRenderer:
 
         # Titre selon le type
         if period_type == "weekly":
-            title = f"Week {metadata['week']} - {metadata['year']}"
+            title = f"Week {metadata['week']} – {metadata['year']}"
             subtitle = f"{metadata['start_date']} to {metadata['end_date']}"
         else:  # monthly
             month_name = MONTH_NAMES[metadata['month']]
             title = f"{month_name} {metadata['year']}"
             subtitle = f"{metadata['start_date']} to {metadata['end_date']}"
+
+        navbar = self._generate_navbar(language, period_type, title)
 
         # HTML
         html_parts = [
@@ -156,13 +200,14 @@ class PeriodRenderer:
             '<head>',
             '    <meta charset="UTF-8">',
             '    <meta name="viewport" content="width=device-width, initial-scale=1.0">',
-            f'    <title>{language.capitalize()} Trending - {title}</title>',
+            f'    <title>{display_language(language)} Trending – {title} | GitHub Trends</title>',
             self._generate_css(),
             '</head>',
             '<body>',
+            navbar,
             '    <div class="container">',
             '        <div class="header">',
-            f'            <h1>{language.capitalize()} Trending Repositories</h1>',
+            f'            <h1>{display_language(language)} Trending Repositories</h1>',
             f'            <div class="subtitle">{title}</div>',
             f'            <div class="subtitle">{subtitle}</div>',
             '        </div>',
@@ -183,13 +228,14 @@ class PeriodRenderer:
             '                </div>',
             '                <div class="summary-item">',
             '                    <div class="label">Language</div>',
-            f'                    <div class="value">{language.capitalize()}</div>',
+            f'                    <div class="value">{display_language(language)}</div>',
             '                </div>',
             '            </div>',
             '        </div>',
             '        <div class="content">',
             '            <div class="section">',
             '                <h2 class="section-title">Top Trending Repositories</h2>',
+            '                <div class="table-wrapper">',
             '                <table class="repo-table">',
             '                    <thead>',
             '                        <tr>',
@@ -214,10 +260,11 @@ class PeriodRenderer:
         html_parts.extend([
             '                    </tbody>',
             '                </table>',
+            '                </div>',  # .table-wrapper
             '            </div>',
             '        </div>',
             '        <div class="footer">',
-            f'            <p>Generated on {metadata["end_date"]}</p>',
+            f'            <p>Generated on {metadata["end_date"]} &mdash; <a href="../../index.html" style="color:inherit">Back to {display_language(language)}</a></p>',
             '            <p>GitHub Trending Scraper</p>',
             '        </div>',
             '    </div>',
