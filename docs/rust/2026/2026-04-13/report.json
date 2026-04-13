@@ -1,0 +1,319 @@
+{
+  "metadata": {
+    "date": "2026-04-13",
+    "language": "rust",
+    "total_repositories": 18,
+    "total_stars": 415445,
+    "total_forks": 36050,
+    "generated_by": "GitHub Trending Scraper",
+    "format_version": "1.0"
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "rustfs/rustfs",
+      "url": "https://github.com/rustfs/rustfs",
+      "description": "🚀2.3x faster than MinIO for 4KB object payloads. RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph.",
+      "language": "Rust",
+      "stars": 25281,
+      "forks": 1076,
+      "stars_today": "182 stars today",
+      "built_by": [
+        "houseme",
+        "overtrue",
+        "weisd",
+        "guojidan",
+        "loverustfs"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "pydantic/monty",
+      "url": "https://github.com/pydantic/monty",
+      "description": "A minimal, secure Python interpreter written in Rust for use by AI",
+      "language": "Rust",
+      "stars": 6776,
+      "forks": 280,
+      "stars_today": "30 stars today",
+      "built_by": [
+        "samuelcolvin",
+        "davidhewitt",
+        "claude",
+        "petyosi",
+        "evalstate"
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "openai/codex",
+      "url": "https://github.com/openai/codex",
+      "description": "Lightweight coding agent that runs in your terminal",
+      "language": "Rust",
+      "stars": 74842,
+      "forks": 10582,
+      "stars_today": "218 stars today",
+      "built_by": [
+        "bolinfest",
+        "jif-oai",
+        "aibrahim-oai",
+        "pakrym-oai",
+        "etraut-openai"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "louis-e/arnis",
+      "url": "https://github.com/louis-e/arnis",
+      "description": "Generate any location from the real world in Minecraft with a high level of detail.",
+      "language": "Rust",
+      "stars": 14849,
+      "forks": 1183,
+      "stars_today": "74 stars today",
+      "built_by": [
+        "louis-e",
+        "dependabot",
+        "Oleg4260",
+        "claude",
+        "XianlinSheng"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "nearai/ironclaw",
+      "url": "https://github.com/nearai/ironclaw",
+      "description": "IronClaw is OpenClaw inspired implementation in Rust focused on privacy and security",
+      "language": "Rust",
+      "stars": 11694,
+      "forks": 1339,
+      "stars_today": "41 stars today",
+      "built_by": [
+        "claude",
+        "ilblackdragon",
+        "henrypark133",
+        "zmanian",
+        "serrrfirat"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "pola-rs/polars",
+      "url": "https://github.com/pola-rs/polars",
+      "description": "Extremely fast Query Engine for DataFrames, written in Rust",
+      "language": "Rust",
+      "stars": 38128,
+      "forks": 2776,
+      "stars_today": "10 stars today",
+      "built_by": [
+        "ritchie46",
+        "alexander-beedie",
+        "coastalwhite",
+        "orlp",
+        "nameexhaustion"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "longbridge/gpui-component",
+      "url": "https://github.com/longbridge/gpui-component",
+      "description": "Rust GUI components for building fantastic cross-platform desktop application by using GPUI.",
+      "language": "Rust",
+      "stars": 10939,
+      "forks": 547,
+      "stars_today": "34 stars today",
+      "built_by": [
+        "huacnlee",
+        "madcodelife",
+        "ihavecoke",
+        "claude",
+        "xda2023"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "nautechsystems/nautilus_trader",
+      "url": "https://github.com/nautechsystems/nautilus_trader",
+      "description": "Production-grade Rust-native trading engine with deterministic event-driven architecture",
+      "language": "Rust",
+      "stars": 21828,
+      "forks": 2633,
+      "stars_today": "27 stars today",
+      "built_by": [
+        "cjdsellers",
+        "limx0",
+        "filipmacek",
+        "faysou",
+        "davidsblom"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "dora-rs/dora",
+      "url": "https://github.com/dora-rs/dora",
+      "description": "DORA (Dataflow-Oriented Robotic Architecture) is middleware designed to streamline and simplify the creation of AI-based robotic applications. It offers low latency, composable, and distributed dataflow capabilities. Applications are modeled as directed graphs, also referred to as pipelines.",
+      "language": "Rust",
+      "stars": 3445,
+      "forks": 365,
+      "stars_today": "29 stars today",
+      "built_by": [
+        "phil-opp",
+        "haixuanTao",
+        "eduidl",
+        "claude",
+        "ShashwatPatil"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "iced-rs/iced",
+      "url": "https://github.com/iced-rs/iced",
+      "description": "A cross-platform GUI library for Rust, inspired by Elm",
+      "language": "Rust",
+      "stars": 30172,
+      "forks": 1557,
+      "stars_today": "21 stars today",
+      "built_by": [
+        "hecrj",
+        "tarkah",
+        "bungoboingo",
+        "derezzedex",
+        "nicksenger"
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "mikeyobrien/ralph-orchestrator",
+      "url": "https://github.com/mikeyobrien/ralph-orchestrator",
+      "description": "An improved implementation of the Ralph Wiggum technique for autonomous AI agent orchestration",
+      "language": "Rust",
+      "stars": 2659,
+      "forks": 243,
+      "stars_today": "124 stars today",
+      "built_by": [
+        "mikeyobrien",
+        "claude",
+        "rookopenclaw",
+        "github-actions",
+        "luisherranz"
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "tree-sitter/tree-sitter",
+      "url": "https://github.com/tree-sitter/tree-sitter",
+      "description": "An incremental parsing system for programming tools",
+      "language": "Rust",
+      "stars": 24681,
+      "forks": 2570,
+      "stars_today": "17 stars today",
+      "built_by": [
+        "maxbrunsfeld",
+        "amaanq",
+        "ahlinc",
+        "WillLillis",
+        "ObserverOfTime"
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "gitbutlerapp/gitbutler",
+      "url": "https://github.com/gitbutlerapp/gitbutler",
+      "description": "The GitButler version control client, backed by Git, powered by Tauri/Rust/Svelte",
+      "language": "Rust",
+      "stars": 20329,
+      "forks": 906,
+      "stars_today": "38 stars today",
+      "built_by": [
+        "krlvi",
+        "estib-vega",
+        "Byron",
+        "mtsgrd",
+        "Caleb-T-Owens"
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "emilk/egui",
+      "url": "https://github.com/emilk/egui",
+      "description": "egui: an easy-to-use immediate mode GUI in Rust that runs on both web and native",
+      "language": "Rust",
+      "stars": 28717,
+      "forks": 2004,
+      "stars_today": "13 stars today",
+      "built_by": [
+        "emilk",
+        "lucasmerlin",
+        "Wumpf",
+        "YgorSouza",
+        "rustbasic"
+      ]
+    },
+    {
+      "rank": 15,
+      "name": "rolldown/rolldown",
+      "url": "https://github.com/rolldown/rolldown",
+      "description": "Fast Rust bundler for JavaScript/TypeScript with Rollup-compatible API.",
+      "language": "Rust",
+      "stars": 13320,
+      "forks": 750,
+      "stars_today": "4 stars today",
+      "built_by": [
+        "hyf0",
+        "IWANABETHATGUY",
+        "shulaoda",
+        "renovate",
+        "sapphi-red"
+      ]
+    },
+    {
+      "rank": 16,
+      "name": "launchbadge/sqlx",
+      "url": "https://github.com/launchbadge/sqlx",
+      "description": "🧰 The Rust SQL Toolkit. An async, pure Rust SQL crate featuring compile-time checked queries without a DSL. Supports PostgreSQL, MySQL, and SQLite.",
+      "language": "Rust",
+      "stars": 16871,
+      "forks": 1590,
+      "stars_today": "6 stars today",
+      "built_by": [
+        "mehcode",
+        "abonander",
+        "jplatte",
+        "janaakhterov",
+        "pimeys"
+      ]
+    },
+    {
+      "rank": 17,
+      "name": "farion1231/cc-switch",
+      "url": "https://github.com/farion1231/cc-switch",
+      "description": "A cross-platform desktop All-in-One assistant tool for Claude Code, Codex, OpenCode, openclaw & Gemini CLI.",
+      "language": "Rust",
+      "stars": 43514,
+      "forks": 2743,
+      "stars_today": "487 stars today",
+      "built_by": [
+        "farion1231",
+        "yovinchen",
+        "claude",
+        "TinsFox",
+        "tianrking"
+      ]
+    },
+    {
+      "rank": 18,
+      "name": "ankitects/anki",
+      "url": "https://github.com/ankitects/anki",
+      "description": "Anki is a smart spaced repetition flashcard program",
+      "language": "Rust",
+      "stars": 27400,
+      "forks": 2906,
+      "stars_today": "27 stars today",
+      "built_by": [
+        "dae",
+        "hgiesel",
+        "RumovZ",
+        "abdnh",
+        "Arthur-Milchior"
+      ]
+    }
+  ]
+}

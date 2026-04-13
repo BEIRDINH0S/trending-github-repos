@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rust Trending - Week 16 - 2026</title>
+
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+                line-height: 1.6;
+                color: #111827;
+                background: #F8F9FA;
+                min-height: 100vh;
+            }
+
+            .container {
+                max-width: 1400px;
+                margin: 0 auto;
+                background: #FFFFFF;
+                min-height: 100vh;
+                box-shadow: 0 0 0 1px #E5E7EB;
+            }
+
+            .header {
+                background: #1E293B;
+                color: white;
+                padding: 2rem 2.5rem;
+                border-bottom: 3px solid #334155;
+            }
+
+            .header h1 {
+                font-size: 1.75rem;
+                margin-bottom: 0.25rem;
+                font-weight: 600;
+                color: #FFFFFF;
+            }
+
+            .header .subtitle {
+                font-size: 0.875rem;
+                color: #94A3B8;
+                font-weight: 400;
+            }
+
+            .summary {
+                background: #F8F9FA;
+                padding: 2rem 2.5rem;
+                border-bottom: 1px solid #E5E7EB;
+            }
+
+            .summary h2 {
+                color: #1E293B;
+                margin-bottom: 1rem;
+                font-size: 1.25rem;
+                font-weight: 600;
+            }
+
+            .summary-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+                gap: 1rem;
+                margin-top: 1rem;
+            }
+
+            .summary-item {
+                background: white;
+                padding: 1.25rem;
+                border-radius: 6px;
+                border: 1px solid #E5E7EB;
+            }
+
+            .summary-item .label {
+                font-size: 0.8125rem;
+                color: #64748B;
+                margin-bottom: 0.5rem;
+                text-transform: uppercase;
+                letter-spacing: 0.05em;
+                font-weight: 500;
+            }
+
+            .summary-item .value {
+                font-size: 1.75rem;
+                font-weight: 600;
+                color: #1E293B;
+            }
+
+            .content {
+                padding: 2rem 2.5rem;
+            }
+
+            .section-title {
+                font-size: 1.5rem;
+                color: #1E293B;
+                margin-bottom: 1.5rem;
+                padding-bottom: 0.75rem;
+                border-bottom: 2px solid #E5E7EB;
+                font-weight: 600;
+            }
+
+            .badge {
+                display: inline-block;
+                padding: 0.25rem 0.625rem;
+                border-radius: 4px;
+                font-size: 0.75rem;
+                font-weight: 500;
+                margin-right: 0.5rem;
+            }
+
+            .badge-stars {
+                background: #FEF3C7;
+                color: #92400E;
+            }
+
+            .badge-forks {
+                background: #DBEAFE;
+                color: #1E40AF;
+            }
+
+            .badge-language {
+                background: #D1FAE5;
+                color: #065F46;
+            }
+
+            .badge-today {
+                background: #FEE2E2;
+                color: #991B1B;
+            }
+
+            .badge-consistent {
+                background: #D1FAE5;
+                color: #065F46;
+            }
+
+            .badge-trending {
+                background: #FEF3C7;
+                color: #92400E;
+            }
+
+            .badge-new {
+                background: #DBEAFE;
+                color: #1E40AF;
+            }
+
+            .footer {
+                background: #F8F9FA;
+                padding: 1.5rem 2.5rem;
+                text-align: center;
+                color: #64748B;
+                font-size: 0.8125rem;
+                border-top: 1px solid #E5E7EB;
+            }
+
+            @media (max-width: 768px) {
+                .header {
+                    padding: 1.5rem;
+                }
+
+                .summary {
+                    padding: 1.5rem;
+                }
+
+                .content {
+                    padding: 1.5rem;
+                }
+
+                .summary-grid {
+                    grid-template-columns: 1fr;
+                }
+            }
+        </style>
+        
+        <style>
+            .section {
+                margin-bottom: 2rem;
+            }
+
+            .repo-table {
+                width: 100%;
+                border-collapse: collapse;
+                background: white;
+                border: 1px solid #E5E7EB;
+                border-radius: 6px;
+                overflow: hidden;
+                font-size: 0.9375rem;
+            }
+
+            .repo-table th {
+                background: #F8F9FA;
+                padding: 0.875rem 1rem;
+                text-align: left;
+                font-weight: 600;
+                color: #1E293B;
+                border-bottom: 2px solid #E5E7EB;
+                font-size: 0.8125rem;
+                text-transform: uppercase;
+                letter-spacing: 0.05em;
+            }
+
+            .repo-table td {
+                padding: 1rem;
+                border-bottom: 1px solid #E5E7EB;
+                vertical-align: middle;
+            }
+
+            .repo-table tbody tr {
+                transition: background-color 0.15s;
+            }
+
+            .repo-table tbody tr:nth-child(even) {
+                background: #F8F9FA;
+            }
+
+            .repo-table tbody tr:hover {
+                background: #F1F5F9;
+            }
+
+            .repo-table tr:last-child td {
+                border-bottom: none;
+            }
+
+            .repo-name {
+                font-weight: 600;
+            }
+
+            .repo-name a {
+                color: #1E293B;
+                text-decoration: none;
+            }
+
+            .repo-name a:hover {
+                color: #334155;
+                text-decoration: underline;
+            }
+
+            .repo-description {
+                color: #64748B;
+                font-size: 0.875rem;
+                margin-top: 0.25rem;
+                line-height: 1.5;
+            }
+
+            .rank-badge {
+                background: #334155;
+                color: white;
+                min-width: 28px;
+                height: 28px;
+                border-radius: 4px;
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                font-weight: 600;
+                font-size: 0.8125rem;
+            }
+
+            .appearances {
+                color: #059669;
+                font-weight: 600;
+            }
+
+            .stats-inline {
+                color: #64748B;
+                font-size: 0.875rem;
+            }
+
+            .contributors {
+                font-size: 0.75rem;
+                color: #64748B;
+            }
+
+            .contributor-link {
+                color: #334155;
+                text-decoration: none;
+                font-weight: 500;
+            }
+
+            .contributor-link:hover {
+                text-decoration: underline;
+                color: #1E293B;
+            }
+
+            @media (max-width: 768px) {
+                .repo-table {
+                    font-size: 0.875rem;
+                }
+
+                .repo-table th,
+                .repo-table td {
+                    padding: 0.625rem 0.75rem;
+                }
+            }
+        </style>
+        
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Rust Trending Repositories</h1>
+            <div class="subtitle">Week 16 - 2026</div>
+            <div class="subtitle">2026-04-13 to 2026-04-19</div>
+        </div>
+        <div class="summary">
+            <h2>Summary</h2>
+            <div class="summary-grid">
+                <div class="summary-item">
+                    <div class="label">Period</div>
+                    <div class="value">Week 16 - 2026</div>
+                </div>
+                <div class="summary-item">
+                    <div class="label">Days Analyzed</div>
+                    <div class="value">1</div>
+                </div>
+                <div class="summary-item">
+                    <div class="label">Unique Repos</div>
+                    <div class="value">18</div>
+                </div>
+                <div class="summary-item">
+                    <div class="label">Language</div>
+                    <div class="value">Rust</div>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="section">
+                <h2 class="section-title">Top Trending Repositories</h2>
+                <table class="repo-table">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Repository</th>
+                            <th>Days</th>
+                            <th>Best Rank</th>
+                            <th>Stars</th>
+                            <th>Forks</th>
+                            <th>Language</th>
+                            <th>Built By</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+            <tr>
+                <td><span class="rank-badge">1</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/rustfs/rustfs" target="_blank">rustfs/rustfs</a></div>
+                    <div class="repo-description">🚀2.3x faster than MinIO for 4KB object payloads. RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph.</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#1</td>
+                <td class="stats-inline">25,281</td>
+                <td class="stats-inline">1,076</td>
+                <td class="stats-inline">Rust</td>
+                <td class="contributors"><a href="https://github.com/guojidan" class="contributor-link">@guojidan</a>, <a href="https://github.com/houseme" class="contributor-link">@houseme</a>, <a href="https://github.com/loverustfs" class="contributor-link">@loverustfs</a>, <a href="https://github.com/overtrue" class="contributor-link">@overtrue</a>, <a href="https://github.com/weisd" class="contributor-link">@weisd</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">2</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/pydantic/monty" target="_blank">pydantic/monty</a></div>
+                    <div class="repo-description">A minimal, secure Python interpreter written in Rust for use by AI</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#2</td>
+                <td class="stats-inline">6,776</td>
+                <td class="stats-inline">280</td>
+                <td class="stats-inline">Rust</td>
+                <td class="contributors"><a href="https://github.com/claude" class="contributor-link">@claude</a>, <a href="https://github.com/davidhewitt" class="contributor-link">@davidhewitt</a>, <a href="https://github.com/evalstate" class="contributor-link">@evalstate</a>, <a href="https://github.com/petyosi" class="contributor-link">@petyosi</a>, <a href="https://github.com/samuelcolvin" class="contributor-link">@samuelcolvin</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">3</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/openai/codex" target="_blank">openai/codex</a></div>
+                    <div class="repo-description">Lightweight coding agent that runs in your terminal</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#3</td>
+                <td class="stats-inline">74,842</td>
+                <td class="stats-inline">10,582</td>
+                <td class="stats-inline">Rust</td>
+                <td class="contributors"><a href="https://github.com/aibrahim-oai" class="contributor-link">@aibrahim-oai</a>, <a href="https://github.com/bolinfest" class="contributor-link">@bolinfest</a>, <a href="https://github.com/etraut-openai" class="contributor-link">@etraut-openai</a>, <a href="https://github.com/jif-oai" class="contributor-link">@jif-oai</a>, <a href="https://github.com/pakrym-oai" class="contributor-link">@pakrym-oai</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">4</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/louis-e/arnis" target="_blank">louis-e/arnis</a></div>
+                    <div class="repo-description">Generate any location from the real world in Minecraft with a high level of detail.</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#4</td>
+                <td class="stats-inline">14,849</td>
+                <td class="stats-inline">1,183</td>
+                <td class="stats-inline">Rust</td>
+                <td class="contributors"><a href="https://github.com/Oleg4260" class="contributor-link">@Oleg4260</a>, <a href="https://github.com/XianlinSheng" class="contributor-link">@XianlinSheng</a>, <a href="https://github.com/claude" class="contributor-link">@claude</a>, <a href="https://github.com/dependabot" class="contributor-link">@dependabot</a>, <a href="https://github.com/louis-e" class="contributor-link">@louis-e</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">5</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/nearai/ironclaw" target="_blank">nearai/ironclaw</a></div>
+                    <div class="repo-description">IronClaw is OpenClaw inspired implementation in Rust focused on privacy and security</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#5</td>
+                <td class="stats-inline">11,694</td>
+                <td class="stats-inline">1,339</td>
+                <td class="stats-inline">Rust</td>
+                <td class="contributors"><a href="https://github.com/claude" class="contributor-link">@claude</a>, <a href="https://github.com/henrypark133" class="contributor-link">@henrypark133</a>, <a href="https://github.com/ilblackdragon" class="contributor-link">@ilblackdragon</a>, <a href="https://github.com/serrrfirat" class="contributor-link">@serrrfirat</a>, <a href="https://github.com/zmanian" class="contributor-link">@zmanian</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">6</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/pola-rs/polars" target="_blank">pola-rs/polars</a></div>
+                    <div class="repo-description">Extremely fast Query Engine for DataFrames, written in Rust</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#6</td>
+                <td class="stats-inline">38,128</td>
+                <td class="stats-inline">2,776</td>
+                <td class="stats-inline">Rust</td>
+                <td class="contributors"><a href="https://github.com/alexander-beedie" class="contributor-link">@alexander-beedie</a>, <a href="https://github.com/coastalwhite" class="contributor-link">@coastalwhite</a>, <a href="https://github.com/nameexhaustion" class="contributor-link">@nameexhaustion</a>, <a href="https://github.com/orlp" class="contributor-link">@orlp</a>, <a href="https://github.com/ritchie46" class="contributor-link">@ritchie46</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">7</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/longbridge/gpui-component" target="_blank">longbridge/gpui-component</a></div>
+                    <div class="repo-description">Rust GUI components for building fantastic cross-platform desktop application by using GPUI.</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#7</td>
+                <td class="stats-inline">10,939</td>
+                <td class="stats-inline">547</td>
+                <td class="stats-inline">Rust</td>
+                <td class="contributors"><a href="https://github.com/claude" class="contributor-link">@claude</a>, <a href="https://github.com/huacnlee" class="contributor-link">@huacnlee</a>, <a href="https://github.com/ihavecoke" class="contributor-link">@ihavecoke</a>, <a href="https://github.com/madcodelife" class="contributor-link">@madcodelife</a>, <a href="https://github.com/xda2023" class="contributor-link">@xda2023</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">8</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/nautechsystems/nautilus_trader" target="_blank">nautechsystems/nautilus_trader</a></div>
+                    <div class="repo-description">Production-grade Rust-native trading engine with deterministic event-driven architecture</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#8</td>
+                <td class="stats-inline">21,828</td>
+                <td class="stats-inline">2,633</td>
+                <td class="stats-inline">Rust</td>
+                <td class="contributors"><a href="https://github.com/cjdsellers" class="contributor-link">@cjdsellers</a>, <a href="https://github.com/davidsblom" class="contributor-link">@davidsblom</a>, <a href="https://github.com/faysou" class="contributor-link">@faysou</a>, <a href="https://github.com/filipmacek" class="contributor-link">@filipmacek</a>, <a href="https://github.com/limx0" class="contributor-link">@limx0</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">9</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/dora-rs/dora" target="_blank">dora-rs/dora</a></div>
+                    <div class="repo-description">DORA (Dataflow-Oriented Robotic Architecture) is middleware designed to streamline and simplify the creation of AI-based robotic applications. It offers low latency, composable, and distributed dataflow capabilities. Applications are modeled as directed graphs, also referred to as pipelines.</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#9</td>
+                <td class="stats-inline">3,445</td>
+                <td class="stats-inline">365</td>
+                <td class="stats-inline">Rust</td>
+                <td class="contributors"><a href="https://github.com/ShashwatPatil" class="contributor-link">@ShashwatPatil</a>, <a href="https://github.com/claude" class="contributor-link">@claude</a>, <a href="https://github.com/eduidl" class="contributor-link">@eduidl</a>, <a href="https://github.com/haixuanTao" class="contributor-link">@haixuanTao</a>, <a href="https://github.com/phil-opp" class="contributor-link">@phil-opp</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">10</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/iced-rs/iced" target="_blank">iced-rs/iced</a></div>
+                    <div class="repo-description">A cross-platform GUI library for Rust, inspired by Elm</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#10</td>
+                <td class="stats-inline">30,172</td>
+                <td class="stats-inline">1,557</td>
+                <td class="stats-inline">Rust</td>
+                <td class="contributors"><a href="https://github.com/bungoboingo" class="contributor-link">@bungoboingo</a>, <a href="https://github.com/derezzedex" class="contributor-link">@derezzedex</a>, <a href="https://github.com/hecrj" class="contributor-link">@hecrj</a>, <a href="https://github.com/nicksenger" class="contributor-link">@nicksenger</a>, <a href="https://github.com/tarkah" class="contributor-link">@tarkah</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">11</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/mikeyobrien/ralph-orchestrator" target="_blank">mikeyobrien/ralph-orchestrator</a></div>
+                    <div class="repo-description">An improved implementation of the Ralph Wiggum technique for autonomous AI agent orchestration</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#11</td>
+                <td class="stats-inline">2,659</td>
+                <td class="stats-inline">243</td>
+                <td class="stats-inline">Rust</td>
+                <td class="contributors"><a href="https://github.com/claude" class="contributor-link">@claude</a>, <a href="https://github.com/github-actions" class="contributor-link">@github-actions</a>, <a href="https://github.com/luisherranz" class="contributor-link">@luisherranz</a>, <a href="https://github.com/mikeyobrien" class="contributor-link">@mikeyobrien</a>, <a href="https://github.com/rookopenclaw" class="contributor-link">@rookopenclaw</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">12</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/tree-sitter/tree-sitter" target="_blank">tree-sitter/tree-sitter</a></div>
+                    <div class="repo-description">An incremental parsing system for programming tools</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#12</td>
+                <td class="stats-inline">24,681</td>
+                <td class="stats-inline">2,570</td>
+                <td class="stats-inline">Rust</td>
+                <td class="contributors"><a href="https://github.com/ObserverOfTime" class="contributor-link">@ObserverOfTime</a>, <a href="https://github.com/WillLillis" class="contributor-link">@WillLillis</a>, <a href="https://github.com/ahlinc" class="contributor-link">@ahlinc</a>, <a href="https://github.com/amaanq" class="contributor-link">@amaanq</a>, <a href="https://github.com/maxbrunsfeld" class="contributor-link">@maxbrunsfeld</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">13</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/gitbutlerapp/gitbutler" target="_blank">gitbutlerapp/gitbutler</a></div>
+                    <div class="repo-description">The GitButler version control client, backed by Git, powered by Tauri/Rust/Svelte</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#13</td>
+                <td class="stats-inline">20,329</td>
+                <td class="stats-inline">906</td>
+                <td class="stats-inline">Rust</td>
+                <td class="contributors"><a href="https://github.com/Byron" class="contributor-link">@Byron</a>, <a href="https://github.com/Caleb-T-Owens" class="contributor-link">@Caleb-T-Owens</a>, <a href="https://github.com/estib-vega" class="contributor-link">@estib-vega</a>, <a href="https://github.com/krlvi" class="contributor-link">@krlvi</a>, <a href="https://github.com/mtsgrd" class="contributor-link">@mtsgrd</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">14</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/emilk/egui" target="_blank">emilk/egui</a></div>
+                    <div class="repo-description">egui: an easy-to-use immediate mode GUI in Rust that runs on both web and native</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#14</td>
+                <td class="stats-inline">28,717</td>
+                <td class="stats-inline">2,004</td>
+                <td class="stats-inline">Rust</td>
+                <td class="contributors"><a href="https://github.com/Wumpf" class="contributor-link">@Wumpf</a>, <a href="https://github.com/YgorSouza" class="contributor-link">@YgorSouza</a>, <a href="https://github.com/emilk" class="contributor-link">@emilk</a>, <a href="https://github.com/lucasmerlin" class="contributor-link">@lucasmerlin</a>, <a href="https://github.com/rustbasic" class="contributor-link">@rustbasic</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">15</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/rolldown/rolldown" target="_blank">rolldown/rolldown</a></div>
+                    <div class="repo-description">Fast Rust bundler for JavaScript/TypeScript with Rollup-compatible API.</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#15</td>
+                <td class="stats-inline">13,320</td>
+                <td class="stats-inline">750</td>
+                <td class="stats-inline">Rust</td>
+                <td class="contributors"><a href="https://github.com/IWANABETHATGUY" class="contributor-link">@IWANABETHATGUY</a>, <a href="https://github.com/hyf0" class="contributor-link">@hyf0</a>, <a href="https://github.com/renovate" class="contributor-link">@renovate</a>, <a href="https://github.com/sapphi-red" class="contributor-link">@sapphi-red</a>, <a href="https://github.com/shulaoda" class="contributor-link">@shulaoda</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">16</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/launchbadge/sqlx" target="_blank">launchbadge/sqlx</a></div>
+                    <div class="repo-description">🧰 The Rust SQL Toolkit. An async, pure Rust SQL crate featuring compile-time checked queries without a DSL. Supports PostgreSQL, MySQL, and SQLite.</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#16</td>
+                <td class="stats-inline">16,871</td>
+                <td class="stats-inline">1,590</td>
+                <td class="stats-inline">Rust</td>
+                <td class="contributors"><a href="https://github.com/abonander" class="contributor-link">@abonander</a>, <a href="https://github.com/janaakhterov" class="contributor-link">@janaakhterov</a>, <a href="https://github.com/jplatte" class="contributor-link">@jplatte</a>, <a href="https://github.com/mehcode" class="contributor-link">@mehcode</a>, <a href="https://github.com/pimeys" class="contributor-link">@pimeys</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">17</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/farion1231/cc-switch" target="_blank">farion1231/cc-switch</a></div>
+                    <div class="repo-description">A cross-platform desktop All-in-One assistant tool for Claude Code, Codex, OpenCode, openclaw &amp; Gemini CLI.</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#17</td>
+                <td class="stats-inline">43,514</td>
+                <td class="stats-inline">2,743</td>
+                <td class="stats-inline">Rust</td>
+                <td class="contributors"><a href="https://github.com/TinsFox" class="contributor-link">@TinsFox</a>, <a href="https://github.com/claude" class="contributor-link">@claude</a>, <a href="https://github.com/farion1231" class="contributor-link">@farion1231</a>, <a href="https://github.com/tianrking" class="contributor-link">@tianrking</a>, <a href="https://github.com/yovinchen" class="contributor-link">@yovinchen</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">18</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/ankitects/anki" target="_blank">ankitects/anki</a></div>
+                    <div class="repo-description">Anki is a smart spaced repetition flashcard program</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#18</td>
+                <td class="stats-inline">27,400</td>
+                <td class="stats-inline">2,906</td>
+                <td class="stats-inline">Rust</td>
+                <td class="contributors"><a href="https://github.com/Arthur-Milchior" class="contributor-link">@Arthur-Milchior</a>, <a href="https://github.com/RumovZ" class="contributor-link">@RumovZ</a>, <a href="https://github.com/abdnh" class="contributor-link">@abdnh</a>, <a href="https://github.com/dae" class="contributor-link">@dae</a>, <a href="https://github.com/hgiesel" class="contributor-link">@hgiesel</a></td>
+            </tr>
+        
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="footer">
+            <p>Generated on 2026-04-19</p>
+            <p>GitHub Trending Scraper</p>
+        </div>
+    </div>
+</body>
+</html>
