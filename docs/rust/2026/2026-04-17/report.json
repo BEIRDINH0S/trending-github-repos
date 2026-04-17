@@ -1,0 +1,334 @@
+{
+  "metadata": {
+    "date": "2026-04-17",
+    "language": "rust",
+    "total_repositories": 19,
+    "total_stars": 415839,
+    "total_forks": 34851,
+    "generated_by": "GitHub Trending Scraper",
+    "format_version": "1.0"
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "GyulyVGC/sniffnet",
+      "url": "https://github.com/GyulyVGC/sniffnet",
+      "description": "Comfortably monitor your Internet traffic 🕵️‍♂️",
+      "language": "Rust",
+      "stars": 33962,
+      "forks": 1236,
+      "stars_today": "388 stars today",
+      "built_by": [
+        "GyulyVGC",
+        "dependabot",
+        "allcontributors",
+        "Crirock",
+        "colin99d"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "rustdesk/rustdesk",
+      "url": "https://github.com/rustdesk/rustdesk",
+      "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
+      "language": "Rust",
+      "stars": 111392,
+      "forks": 16685,
+      "stars_today": "111 stars today",
+      "built_by": [
+        "rustdesk",
+        "fufesou",
+        "21pages",
+        "Kingtous",
+        "Heap-Hop"
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "farion1231/cc-switch",
+      "url": "https://github.com/farion1231/cc-switch",
+      "description": "A cross-platform desktop All-in-One assistant tool for Claude Code, Codex, OpenCode, openclaw & Gemini CLI.",
+      "language": "Rust",
+      "stars": 46032,
+      "forks": 2930,
+      "stars_today": "599 stars today",
+      "built_by": [
+        "farion1231",
+        "yovinchen",
+        "claude",
+        "TinsFox",
+        "tianrking"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "dmtrKovalenko/fff.nvim",
+      "url": "https://github.com/dmtrKovalenko/fff.nvim",
+      "description": "The fastest and the most accurate file search toolkit for AI agents, Neovim, Rust, C, and NodeJS",
+      "language": "Rust",
+      "stars": 5057,
+      "forks": 224,
+      "stars_today": "56 stars today",
+      "built_by": [
+        "dmtrKovalenko",
+        "github-actions",
+        "sQVe",
+        "WillLillis",
+        "claude"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "firecrawl/pdf-inspector",
+      "url": "https://github.com/firecrawl/pdf-inspector",
+      "description": "Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions.",
+      "language": "Rust",
+      "stars": 541,
+      "forks": 48,
+      "stars_today": "101 stars today",
+      "built_by": [
+        "abimaelmartell",
+        "claude",
+        "rth",
+        "Jacqkues"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "rust-lang/rust-clippy",
+      "url": "https://github.com/rust-lang/rust-clippy",
+      "description": "A bunch of lints to catch common mistakes and improve your Rust code. Book: https://doc.rust-lang.org/clippy/",
+      "language": "Rust",
+      "stars": 13062,
+      "forks": 1966,
+      "stars_today": "4 stars today",
+      "built_by": [
+        "bors",
+        "flip1995",
+        "oli-obk",
+        "Manishearth",
+        "Jarcho"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "fathyb/carbonyl",
+      "url": "https://github.com/fathyb/carbonyl",
+      "description": "Chromium running inside your terminal",
+      "language": "Rust",
+      "stars": 18500,
+      "forks": 499,
+      "stars_today": "31 stars today",
+      "built_by": [
+        "fathyb",
+        "licy183",
+        "kianmeng",
+        "glensc",
+        "reynoldsme"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "nautechsystems/nautilus_trader",
+      "url": "https://github.com/nautechsystems/nautilus_trader",
+      "description": "Production-grade Rust-native trading engine with deterministic event-driven architecture",
+      "language": "Rust",
+      "stars": 22027,
+      "forks": 2664,
+      "stars_today": "50 stars today",
+      "built_by": [
+        "cjdsellers",
+        "limx0",
+        "filipmacek",
+        "faysou",
+        "davidsblom"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "raphaelmansuy/edgequake",
+      "url": "https://github.com/raphaelmansuy/edgequake",
+      "description": "EdegQuake 🌋 High-performance GraphRAG inspired from LightRag written in Rust; Transform documents into intelligent knowledge graphs for superior retrieval and generation",
+      "language": "Rust",
+      "stars": 1869,
+      "forks": 208,
+      "stars_today": "38 stars today",
+      "built_by": [
+        "raphaelmansuy",
+        "dependabot",
+        "claude",
+        "carueda",
+        "DevKCS"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "embassy-rs/embassy",
+      "url": "https://github.com/embassy-rs/embassy",
+      "description": "Modern embedded framework, using Rust and async.",
+      "language": "Rust",
+      "stars": 9067,
+      "forks": 1447,
+      "stars_today": "3 stars today",
+      "built_by": [
+        "Dirbaio",
+        "xoviat",
+        "lulf",
+        "bors",
+        "jamesmunns"
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "lakehq/sail",
+      "url": "https://github.com/lakehq/sail",
+      "description": "LakeSail's computation framework with a mission to unify batch processing, stream processing, and compute-intensive AI workloads.",
+      "language": "Rust",
+      "stars": 1375,
+      "forks": 87,
+      "stars_today": "21 stars today",
+      "built_by": [
+        "linhr",
+        "shehabgamin",
+        "dependabot",
+        "lonless9",
+        "davidlghellin"
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "NVIDIA/ncx-infra-controller-core",
+      "url": "https://github.com/NVIDIA/ncx-infra-controller-core",
+      "description": "NCX Infra Controller - Hardware Lifecycle Management and multitenant networking",
+      "language": "Rust",
+      "stars": 124,
+      "forks": 80,
+      "stars_today": "3 stars today",
+      "built_by": [
+        "Matthias247",
+        "abvarshney-nv",
+        "ianderson-nvidia",
+        "michaelbasnight-nv",
+        "ajf"
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "jj-vcs/jj",
+      "url": "https://github.com/jj-vcs/jj",
+      "description": "A Git-compatible VCS that is both simple and powerful",
+      "language": "Rust",
+      "stars": 28067,
+      "forks": 1007,
+      "stars_today": "81 stars today",
+      "built_by": [
+        "yuja",
+        "martinvonz",
+        "dependabot",
+        "ilyagr",
+        "thoughtpolice"
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "astral-sh/uv",
+      "url": "https://github.com/astral-sh/uv",
+      "description": "An extremely fast Python package and project manager, written in Rust.",
+      "language": "Rust",
+      "stars": 83410,
+      "forks": 2950,
+      "stars_today": "76 stars today",
+      "built_by": [
+        "charliermarsh",
+        "zanieb",
+        "konstin",
+        "renovate",
+        "BurntSushi"
+      ]
+    },
+    {
+      "rank": 15,
+      "name": "paritytech/polkadot-sdk",
+      "url": "https://github.com/paritytech/polkadot-sdk",
+      "description": "The Parity Polkadot Blockchain SDK",
+      "language": "Rust",
+      "stars": 2748,
+      "forks": 1188,
+      "stars_today": "1 star today",
+      "built_by": [
+        "bkchr",
+        "gavofyork",
+        "dependabot",
+        "github-actions",
+        "shawntabrizi"
+      ]
+    },
+    {
+      "rank": 16,
+      "name": "qxcnm/Codex-Manager",
+      "url": "https://github.com/qxcnm/Codex-Manager",
+      "description": "一个Codex cli 账号管理与切换工具。为 Codex cli提供本地网关转发。",
+      "language": "Rust",
+      "stars": 1395,
+      "forks": 199,
+      "stars_today": "39 stars today",
+      "built_by": [
+        "qxcnm",
+        "xiaoyiluck666",
+        "amine123max",
+        "ckckck"
+      ]
+    },
+    {
+      "rank": 17,
+      "name": "always-further/nono",
+      "url": "https://github.com/always-further/nono",
+      "description": "nono - a capability-based, multiplexing sandbox tool, built for developers - lift'n'shift seamless path to prod. Run agents securely without needing any additional infra, zero setup, zero latency.",
+      "language": "Rust",
+      "stars": 1970,
+      "forks": 132,
+      "stars_today": "29 stars today",
+      "built_by": [
+        "lukehinds",
+        "dependabot",
+        "claude",
+        "scp7",
+        "andreaTP"
+      ]
+    },
+    {
+      "rank": 18,
+      "name": "mayocream/koharu",
+      "url": "https://github.com/mayocream/koharu",
+      "description": "ML-powered manga translator, written in Rust.",
+      "language": "Rust",
+      "stars": 3604,
+      "forks": 186,
+      "stars_today": "130 stars today",
+      "built_by": [
+        "mayocream",
+        "fffonion",
+        "dependabot",
+        "Map1en",
+        "karrot0"
+      ]
+    },
+    {
+      "rank": 19,
+      "name": "zellij-org/zellij",
+      "url": "https://github.com/zellij-org/zellij",
+      "description": "A terminal workspace with batteries included",
+      "language": "Rust",
+      "stars": 31637,
+      "forks": 1115,
+      "stars_today": "56 stars today",
+      "built_by": [
+        "imsnif",
+        "a-kenji",
+        "TheLostLambda",
+        "kunalmohan",
+        "jaeheonji"
+      ]
+    }
+  ]
+}
