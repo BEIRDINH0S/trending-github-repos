@@ -1,0 +1,1069 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C Trending – Week 17 – 2026 | GitHub Trends</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <style>
+            /* ── Design tokens ── */
+            :root {
+                /* Backgrounds */
+                --bg-base:          #080C14;
+                --bg-surface:       rgba(8, 18, 36, 0.72);
+                --bg-elevated:      rgba(14, 28, 54, 0.80);
+                --bg-hover:         rgba(22, 42, 78, 0.60);
+
+                /* Borders */
+                --border-default:   rgba(255, 255, 255, 0.06);
+                --border-subtle:    rgba(255, 255, 255, 0.04);
+                --border-hover:     rgba(56, 189, 248, 0.35);
+                --border-glow:      rgba(139, 92, 246, 0.30);
+
+                /* Accent palette */
+                --color-primary:      #38BDF8;
+                --color-primary-dark: #0EA5E9;
+                --color-violet:       #A78BFA;
+                --color-emerald:      #34D399;
+                --color-amber:        #FBBF24;
+                --color-rose:         #FB7185;
+                --color-orange:       #FB923C;
+
+                /* Glows */
+                --glow-primary:  rgba(56, 189, 248, 0.14);
+                --glow-violet:   rgba(167, 139, 250, 0.12);
+                --glow-emerald:  rgba(52, 211, 153, 0.10);
+                --glow-amber:    rgba(251, 191, 36, 0.14);
+
+                /* Text */
+                --text-primary:  #E2E8F0;
+                --text-secondary:#94A3B8;
+                --text-muted:    #64748B;
+                --text-dim:      #475569;
+
+                /* Navbar */
+                --nav-bg:          rgba(6, 10, 20, 0.88);
+                --nav-border:      rgba(255, 255, 255, 0.07);
+                --nav-hover-bg:    rgba(255, 255, 255, 0.05);
+                --nav-text:        #E2E8F0;
+                --nav-text-muted:  #94A3B8;
+                --nav-text-dim:    #64748B;
+                --nav-accent:      #38BDF8;
+
+                /* Sidebar aliases (used by index_generator too) */
+                --sidebar-bg:      #080C14;
+                --sidebar-hover:   rgba(255,255,255,0.05);
+                --sidebar-border:  rgba(255,255,255,0.07);
+                --sidebar-accent:  #38BDF8;
+
+                /* Legacy aliases for backward-compat with renderer code */
+                --color-background:    #080C14;
+                --color-surface:       rgba(8, 18, 36, 0.72);
+                --color-border:        rgba(255,255,255,0.08);
+                --color-border-subtle: rgba(255,255,255,0.05);
+                --color-text:          #E2E8F0;
+                --color-text-muted:    #94A3B8;
+                --color-text-subtle:   #64748B;
+                --color-secondary:     #38BDF8;
+                --color-accent:        #FBBF24;
+                --color-primary-dark:  #0EA5E9;
+            }
+
+            /* ── Reset ── */
+            *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+            /* ── Body + aurora background ── */
+            body {
+                font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+                line-height: 1.65;
+                color: var(--text-primary);
+                background: var(--bg-base);
+                min-height: 100vh;
+                overflow-x: hidden;
+            }
+
+            /* Animated aurora mesh */
+            body::before {
+                content: '';
+                position: fixed;
+                inset: 0;
+                background:
+                    radial-gradient(ellipse 90% 60% at 15% 5%,  rgba(56, 189, 248, 0.08) 0%, transparent 60%),
+                    radial-gradient(ellipse 70% 55% at 85% 85%, rgba(139, 92, 246, 0.07) 0%, transparent 55%),
+                    radial-gradient(ellipse 55% 45% at 55% 40%, rgba(52, 211, 153, 0.04) 0%, transparent 50%),
+                    radial-gradient(ellipse 40% 35% at 30% 75%, rgba(251, 191, 36, 0.03) 0%, transparent 50%);
+                animation: aurora 24s ease-in-out infinite alternate;
+                pointer-events: none;
+                z-index: 0;
+            }
+
+            /* Dot-grid overlay */
+            body::after {
+                content: '';
+                position: fixed;
+                inset: 0;
+                background-image: radial-gradient(rgba(255, 255, 255, 0.028) 1px, transparent 1px);
+                background-size: 26px 26px;
+                pointer-events: none;
+                z-index: 0;
+            }
+
+            /* ── Keyframes ── */
+            @keyframes aurora {
+                0%   { opacity: 0.85; transform: scale(1.00) rotate(0deg); }
+                40%  { opacity: 1.00; transform: scale(1.04) rotate(1.2deg); }
+                100% { opacity: 0.90; transform: scale(1.02) rotate(-0.8deg); }
+            }
+
+            @keyframes fadeInUp {
+                from { opacity: 0; transform: translateY(18px); }
+                to   { opacity: 1; transform: translateY(0); }
+            }
+
+            @keyframes glowPulse {
+                0%, 100% { box-shadow: 0 0 0 0   rgba(56,189,248,0.40); }
+                50%       { box-shadow: 0 0 0 7px rgba(56,189,248,0.00); }
+            }
+
+            @keyframes shimmerSlide {
+                0%   { background-position: -200% center; }
+                100% { background-position:  200% center; }
+            }
+
+            @media (prefers-reduced-motion: reduce) {
+                body::before { animation: none; }
+                *, *::before, *::after {
+                    animation-duration: 0.01ms !important;
+                    transition-duration: 0.01ms !important;
+                }
+            }
+
+            /* ── Links ── */
+            a { color: inherit; text-decoration: none; }
+
+            /* ── Scrollbar ── */
+            ::-webkit-scrollbar          { width: 6px; height: 6px; }
+            ::-webkit-scrollbar-track    { background: transparent; }
+            ::-webkit-scrollbar-thumb    { background: rgba(255,255,255,0.10); border-radius: 3px; }
+            ::-webkit-scrollbar-thumb:hover { background: rgba(255,255,255,0.20); }
+
+            /* ── Layout container ── */
+            .container {
+                max-width: 1400px;
+                margin: 0 auto;
+                min-height: 100vh;
+                position: relative;
+                z-index: 1;
+            }
+
+            /* ── Page header ── */
+            .header {
+                padding: 3rem 2.5rem 2.25rem;
+                position: relative;
+                overflow: hidden;
+            }
+
+            .header::before {
+                content: '';
+                position: absolute;
+                inset: 0;
+                background: linear-gradient(135deg,
+                    rgba(56,189,248,0.07) 0%,
+                    rgba(139,92,246,0.05) 50%,
+                    transparent 100%);
+                pointer-events: none;
+            }
+
+            /* Bottom accent line */
+            .header::after {
+                content: '';
+                position: absolute;
+                bottom: 0; left: 0; right: 0;
+                height: 1px;
+                background: linear-gradient(90deg,
+                    transparent 0%,
+                    rgba(56,189,248,0.50) 30%,
+                    rgba(139,92,246,0.40) 70%,
+                    transparent 100%);
+            }
+
+            .header h1 {
+                font-family: 'Fira Code', monospace;
+                font-size: 1.875rem;
+                font-weight: 700;
+                position: relative;
+                z-index: 1;
+                /* Gradient text */
+                background: linear-gradient(120deg, #F1F5F9 0%, #38BDF8 45%, #A78BFA 100%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+                margin-bottom: 0.5rem;
+                line-height: 1.25;
+                /* Shimmer effect */
+                background-size: 200% auto;
+                animation: shimmerSlide 6s linear infinite;
+            }
+
+            .header .subtitle {
+                color: var(--text-secondary);
+                font-size: 0.9375rem;
+                position: relative;
+                z-index: 1;
+            }
+
+            /* ── Summary ── */
+            .summary {
+                padding: 2rem 2.5rem;
+                border-bottom: 1px solid var(--border-default);
+                position: relative;
+                z-index: 1;
+            }
+
+            .summary h2 {
+                font-size: 0.6875rem;
+                color: var(--text-muted);
+                font-weight: 700;
+                text-transform: uppercase;
+                letter-spacing: 0.12em;
+                margin-bottom: 1.25rem;
+            }
+
+            .summary-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(175px, 1fr));
+                gap: 1rem;
+            }
+
+            .summary-item {
+                background: var(--bg-surface);
+                padding: 1.25rem 1.5rem;
+                border-radius: 12px;
+                border: 1px solid var(--border-default);
+                backdrop-filter: blur(12px);
+                -webkit-backdrop-filter: blur(12px);
+                transition: border-color 0.25s ease, box-shadow 0.25s ease, transform 0.25s ease;
+                animation: fadeInUp 0.45s cubic-bezier(0.22, 1, 0.36, 1) both;
+            }
+
+            .summary-item:nth-child(1) { animation-delay: 0.04s; }
+            .summary-item:nth-child(2) { animation-delay: 0.09s; }
+            .summary-item:nth-child(3) { animation-delay: 0.14s; }
+            .summary-item:nth-child(4) { animation-delay: 0.19s; }
+            .summary-item:nth-child(5) { animation-delay: 0.24s; }
+
+            .summary-item:hover {
+                border-color: var(--border-hover);
+                box-shadow: 0 0 24px var(--glow-primary), 0 8px 32px rgba(0,0,0,0.3);
+                transform: translateY(-2px);
+            }
+
+            .summary-item .label {
+                font-size: 0.6875rem;
+                color: var(--text-muted);
+                margin-bottom: 0.625rem;
+                text-transform: uppercase;
+                letter-spacing: 0.09em;
+                font-weight: 600;
+            }
+
+            .summary-item .value {
+                font-family: 'Fira Code', monospace;
+                font-size: 1.875rem;
+                font-weight: 700;
+                color: var(--color-primary);
+                text-shadow: 0 0 18px rgba(56,189,248,0.35);
+                line-height: 1;
+            }
+
+            /* ── Content area ── */
+            .content {
+                padding: 2rem 2.5rem;
+                position: relative;
+                z-index: 1;
+            }
+
+            .section-title {
+                font-size: 0.75rem;
+                color: var(--text-muted);
+                font-weight: 700;
+                text-transform: uppercase;
+                letter-spacing: 0.10em;
+                margin-bottom: 1.5rem;
+                display: flex;
+                align-items: center;
+                gap: 0.75rem;
+            }
+
+            .section-title::after {
+                content: '';
+                flex: 1;
+                height: 1px;
+                background: linear-gradient(90deg, var(--border-default), transparent);
+            }
+
+            /* ── Badges ── */
+            .badge {
+                display: inline-flex;
+                align-items: center;
+                gap: 0.375rem;
+                padding: 0.25rem 0.625rem;
+                border-radius: 6px;
+                font-size: 0.7rem;
+                font-weight: 700;
+                margin-right: 0.375rem;
+                font-family: 'Fira Code', monospace;
+                border: 1px solid transparent;
+                letter-spacing: 0.02em;
+                transition: box-shadow 0.2s;
+            }
+
+            .badge svg { flex-shrink: 0; }
+
+            .badge-stars {
+                background: rgba(251,191,36, 0.10);
+                color: var(--color-amber);
+                border-color: rgba(251,191,36, 0.22);
+            }
+            .badge-stars:hover { box-shadow: 0 0 10px var(--glow-amber); }
+
+            .badge-forks {
+                background: rgba(56,189,248, 0.10);
+                color: var(--color-primary);
+                border-color: rgba(56,189,248, 0.22);
+            }
+
+            .badge-language {
+                background: rgba(52,211,153, 0.10);
+                color: var(--color-emerald);
+                border-color: rgba(52,211,153, 0.22);
+            }
+
+            .badge-today {
+                background: rgba(251,113,133, 0.10);
+                color: var(--color-rose);
+                border-color: rgba(251,113,133, 0.22);
+            }
+
+            .badge-consistent {
+                background: rgba(52,211,153, 0.10);
+                color: var(--color-emerald);
+                border-color: rgba(52,211,153, 0.22);
+            }
+
+            .badge-trending {
+                background: rgba(251,191,36, 0.10);
+                color: var(--color-amber);
+                border-color: rgba(251,191,36, 0.22);
+            }
+
+            .badge-new {
+                background: rgba(167,139,250, 0.10);
+                color: var(--color-violet);
+                border-color: rgba(167,139,250, 0.22);
+            }
+
+            /* ── Footer ── */
+            .footer {
+                padding: 2rem 2.5rem;
+                text-align: center;
+                color: var(--text-muted);
+                font-size: 0.8125rem;
+                border-top: 1px solid var(--border-default);
+                position: relative;
+                z-index: 1;
+            }
+
+            .footer a:hover { color: var(--color-primary); }
+
+            /* ── Responsive ── */
+            @media (max-width: 768px) {
+                .header  { padding: 2rem 1.25rem 1.75rem; }
+                .header h1 { font-size: 1.375rem; }
+                .summary { padding: 1.5rem 1.25rem; }
+                .content { padding: 1.5rem 1.25rem; }
+                .summary-grid { grid-template-columns: repeat(2, 1fr); }
+            }
+
+            @media (max-width: 480px) {
+                .summary-grid { grid-template-columns: 1fr; }
+            }
+        </style>
+        <style>
+            .top-nav {
+                background: var(--nav-bg, rgba(6,10,20,0.88));
+                border-bottom: 1px solid var(--nav-border, rgba(255,255,255,0.07));
+                position: sticky;
+                top: 0;
+                z-index: 200;
+                backdrop-filter: blur(20px) saturate(160%);
+                -webkit-backdrop-filter: blur(20px) saturate(160%);
+            }
+
+            .top-nav-inner {
+                max-width: 1400px;
+                margin: 0 auto;
+                padding: 0 2.5rem;
+                height: 52px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                gap: 1.5rem;
+            }
+
+            .top-nav-left {
+                display: flex;
+                align-items: center;
+                gap: 1.25rem;
+                min-width: 0;
+                overflow: hidden;
+            }
+
+            .nav-logo {
+                font-family: 'Fira Code', monospace;
+                font-size: 0.875rem;
+                font-weight: 700;
+                color: var(--nav-text, #E2E8F0);
+                text-decoration: none;
+                white-space: nowrap;
+                flex-shrink: 0;
+                transition: color 0.2s, text-shadow 0.2s;
+                display: flex;
+                align-items: center;
+                gap: 0.5rem;
+            }
+
+            .nav-logo:hover {
+                color: var(--nav-accent, #38BDF8);
+                text-shadow: 0 0 14px rgba(56,189,248,0.50);
+            }
+
+            .nav-divider {
+                width: 1px;
+                height: 16px;
+                background: var(--nav-border, rgba(255,255,255,0.08));
+                flex-shrink: 0;
+            }
+
+            .top-nav-breadcrumbs {
+                display: flex;
+                align-items: center;
+                gap: 0.45rem;
+                font-size: 0.8125rem;
+                min-width: 0;
+                overflow: hidden;
+            }
+
+            .nav-breadcrumb-link {
+                color: var(--nav-text-muted, #94A3B8);
+                text-decoration: none;
+                white-space: nowrap;
+                flex-shrink: 0;
+                transition: color 0.15s;
+            }
+
+            .nav-breadcrumb-link:hover { color: var(--nav-accent, #38BDF8); }
+
+            .nav-breadcrumb-sep {
+                color: rgba(255,255,255,0.18);
+                flex-shrink: 0;
+                user-select: none;
+            }
+
+            .nav-breadcrumb-current {
+                color: #CBD5E1;
+                font-weight: 500;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+
+            .top-nav-right {
+                display: flex;
+                align-items: center;
+                gap: 0.5rem;
+                flex-shrink: 0;
+            }
+
+            .format-label {
+                font-size: 0.75rem;
+                color: var(--nav-text-dim, #64748B);
+                white-space: nowrap;
+            }
+
+            .format-pill {
+                display: inline-flex;
+                align-items: center;
+                padding: 0.2rem 0.625rem;
+                border-radius: 6px;
+                text-decoration: none;
+                font-size: 0.6875rem;
+                font-weight: 700;
+                font-family: 'Fira Code', monospace;
+                border: 1px solid transparent;
+                letter-spacing: 0.04em;
+                transition: transform 0.18s ease, box-shadow 0.18s ease, background 0.18s ease;
+                cursor: pointer;
+                white-space: nowrap;
+            }
+
+            .format-pill:hover { transform: translateY(-1px); }
+
+            .pill-json {
+                background: rgba(251,191,36, 0.10);
+                color: #FBBF24;
+                border-color: rgba(251,191,36, 0.22);
+            }
+            .pill-json:hover {
+                background: rgba(251,191,36, 0.18);
+                box-shadow: 0 0 12px rgba(251,191,36,0.22);
+            }
+
+            .pill-md {
+                background: rgba(52,211,153, 0.10);
+                color: #34D399;
+                border-color: rgba(52,211,153, 0.22);
+            }
+            .pill-md:hover {
+                background: rgba(52,211,153, 0.18);
+                box-shadow: 0 0 12px rgba(52,211,153,0.22);
+            }
+
+            .pill-csv {
+                background: rgba(167,139,250, 0.10);
+                color: #A78BFA;
+                border-color: rgba(167,139,250, 0.22);
+            }
+            .pill-csv:hover {
+                background: rgba(167,139,250, 0.18);
+                box-shadow: 0 0 12px rgba(167,139,250,0.22);
+            }
+
+            .pill-html {
+                background: rgba(56,189,248, 0.10);
+                color: #38BDF8;
+                border-color: rgba(56,189,248, 0.22);
+            }
+            .pill-html:hover {
+                background: rgba(56,189,248, 0.18);
+                box-shadow: 0 0 12px rgba(56,189,248,0.22);
+            }
+
+            @media (max-width: 768px) {
+                .top-nav-inner { padding: 0 1rem; gap: 0.75rem; }
+                .format-label  { display: none; }
+                .nav-divider   { display: none; }
+                .top-nav-breadcrumbs { font-size: 0.75rem; }
+            }
+        </style>
+        <style>
+            .section { margin-bottom: 2rem; }
+
+            .table-wrapper {
+                width: 100%;
+                overflow-x: auto;
+                -webkit-overflow-scrolling: touch;
+                border-radius: 14px;
+                border: 1px solid var(--border-default);
+                backdrop-filter: blur(12px);
+                -webkit-backdrop-filter: blur(12px);
+                animation: fadeInUp 0.45s cubic-bezier(0.22, 1, 0.36, 1) 0.08s both;
+            }
+
+            .repo-table {
+                width: 100%;
+                border-collapse: collapse;
+                background: var(--bg-surface);
+                font-size: 0.9375rem;
+                min-width: 700px;
+            }
+
+            .repo-table th {
+                background: rgba(255,255,255,0.025);
+                padding: 0.875rem 1rem;
+                text-align: left;
+                font-weight: 700;
+                color: var(--text-muted);
+                border-bottom: 1px solid var(--border-default);
+                font-size: 0.6875rem;
+                text-transform: uppercase;
+                letter-spacing: 0.10em;
+                font-family: 'Fira Code', monospace;
+                white-space: nowrap;
+            }
+
+            .repo-table td {
+                padding: 1rem;
+                border-bottom: 1px solid var(--border-subtle);
+                vertical-align: middle;
+                color: var(--text-secondary);
+            }
+
+            .repo-table tbody tr {
+                transition: background-color 0.15s;
+            }
+
+            .repo-table tbody tr:hover {
+                background: var(--bg-hover);
+            }
+
+            .repo-table tr:last-child td { border-bottom: none; }
+
+            .repo-name { font-weight: 600; }
+
+            .repo-name a {
+                color: var(--text-primary);
+                text-decoration: none;
+                transition: color 0.15s;
+                cursor: pointer;
+            }
+
+            .repo-name a:hover { color: var(--color-primary); }
+
+            .repo-description {
+                color: var(--text-muted);
+                font-size: 0.8125rem;
+                margin-top: 0.25rem;
+                line-height: 1.5;
+            }
+
+            .rank-badge {
+                background: linear-gradient(135deg, rgba(56,189,248,0.15), rgba(56,189,248,0.07));
+                color: var(--color-primary);
+                border: 1px solid rgba(56,189,248,0.20);
+                min-width: 28px;
+                height: 28px;
+                border-radius: 6px;
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                font-family: 'Fira Code', monospace;
+                font-weight: 700;
+                font-size: 0.8125rem;
+            }
+
+            .appearances {
+                color: var(--color-emerald);
+                font-family: 'Fira Code', monospace;
+                font-weight: 700;
+                font-size: 0.875rem;
+                text-shadow: 0 0 10px rgba(52,211,153,0.25);
+            }
+
+            .stats-inline {
+                color: var(--text-secondary);
+                font-family: 'Fira Code', monospace;
+                font-size: 0.875rem;
+            }
+
+            .contributors {
+                font-size: 0.75rem;
+                color: var(--text-muted);
+            }
+
+            .contributor-link {
+                color: var(--text-secondary);
+                text-decoration: none;
+                font-weight: 500;
+                transition: color 0.15s;
+                cursor: pointer;
+            }
+
+            .contributor-link:hover { color: var(--color-primary); }
+
+            @media (max-width: 768px) {
+                .repo-table th,
+                .repo-table td { padding: 0.625rem 0.75rem; }
+            }
+        </style>
+</head>
+<body>
+
+    <nav class="top-nav" aria-label="Site navigation">
+        <div class="top-nav-inner">
+            <div class="top-nav-left">
+                <a href="../../../index.html" class="nav-logo" aria-label="GitHub Trends home">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg> GitHub Trends
+                </a>
+                <div class="nav-divider" aria-hidden="true"></div>
+                <div class="top-nav-breadcrumbs" aria-label="Breadcrumb">
+                    <a href="../../../index.html" class="nav-breadcrumb-link">Home</a>
+                    <span class="nav-breadcrumb-sep" aria-hidden="true">/</span>
+                    <a href="../../index.html" class="nav-breadcrumb-link">C</a>
+                    <span class="nav-breadcrumb-sep" aria-hidden="true">/</span>
+                    <a href="../../index.html#weekly" class="nav-breadcrumb-link">Weekly</a>
+                    <span class="nav-breadcrumb-sep" aria-hidden="true">/</span>
+                    <span class="nav-breadcrumb-current" aria-current="page">Week 17 – 2026</span>
+                </div>
+            </div>
+            <div class="top-nav-right" aria-label="Navigation">
+                <a href="../../index.html#weekly" class="format-pill pill-html" aria-label="Back to dashboard">
+                    ← Dashboard
+                </a>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="header">
+            <h1>C Trending Repositories</h1>
+            <div class="subtitle">Week 17 – 2026</div>
+            <div class="subtitle">2026-04-20 to 2026-04-26</div>
+        </div>
+        <div class="summary">
+            <h2>Summary</h2>
+            <div class="summary-grid">
+                <div class="summary-item">
+                    <div class="label">Period</div>
+                    <div class="value">Week 17 – 2026</div>
+                </div>
+                <div class="summary-item">
+                    <div class="label">Days Analyzed</div>
+                    <div class="value">1</div>
+                </div>
+                <div class="summary-item">
+                    <div class="label">Unique Repos</div>
+                    <div class="value">19</div>
+                </div>
+                <div class="summary-item">
+                    <div class="label">Language</div>
+                    <div class="value">C</div>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="section">
+                <h2 class="section-title">Top Trending Repositories</h2>
+                <div class="table-wrapper">
+                <table class="repo-table">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Repository</th>
+                            <th>Days</th>
+                            <th>Best Rank</th>
+                            <th>Stars</th>
+                            <th>Forks</th>
+                            <th>Language</th>
+                            <th>Built By</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+            <tr>
+                <td><span class="rank-badge">1</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/cactus-compute/cactus" target="_blank">cactus-compute/cactus</a></div>
+                    <div class="repo-description">Low-latency AI engine for mobile devices &amp; wearables</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#1</td>
+                <td class="stats-inline">4,671</td>
+                <td class="stats-inline">363</td>
+                <td class="stats-inline">C</td>
+                <td class="contributors"><a href="https://github.com/HenryNdubuaku" class="contributor-link">@HenryNdubuaku</a>, <a href="https://github.com/devabhixda" class="contributor-link">@devabhixda</a>, <a href="https://github.com/jakmro" class="contributor-link">@jakmro</a>, <a href="https://github.com/ncylich" class="contributor-link">@ncylich</a>, <a href="https://github.com/rshemet" class="contributor-link">@rshemet</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">2</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/DarkFlippers/unleashed-firmware" target="_blank">DarkFlippers/unleashed-firmware</a></div>
+                    <div class="repo-description">Flipper Zero Unleashed Firmware</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#2</td>
+                <td class="stats-inline">21,422</td>
+                <td class="stats-inline">1,857</td>
+                <td class="stats-inline">C</td>
+                <td class="contributors"><a href="https://github.com/DrZlo13" class="contributor-link">@DrZlo13</a>, <a href="https://github.com/gornekich" class="contributor-link">@gornekich</a>, <a href="https://github.com/hedger" class="contributor-link">@hedger</a>, <a href="https://github.com/skotopes" class="contributor-link">@skotopes</a>, <a href="https://github.com/xMasterX" class="contributor-link">@xMasterX</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">3</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/Genymobile/scrcpy" target="_blank">Genymobile/scrcpy</a></div>
+                    <div class="repo-description">Display and control your Android device</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#3</td>
+                <td class="stats-inline">138,734</td>
+                <td class="stats-inline">12,923</td>
+                <td class="stats-inline">C</td>
+                <td class="contributors"><a href="https://github.com/brunoais" class="contributor-link">@brunoais</a>, <a href="https://github.com/npes87184" class="contributor-link">@npes87184</a>, <a href="https://github.com/rom1v" class="contributor-link">@rom1v</a>, <a href="https://github.com/rootkea" class="contributor-link">@rootkea</a>, <a href="https://github.com/yume-chan" class="contributor-link">@yume-chan</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">4</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/acidanthera/OpenCorePkg" target="_blank">acidanthera/OpenCorePkg</a></div>
+                    <div class="repo-description">OpenCore bootloader</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#4</td>
+                <td class="stats-inline">14,902</td>
+                <td class="stats-inline">2,251</td>
+                <td class="stats-inline">C</td>
+                <td class="contributors"><a href="https://github.com/Andrey1970AppleLife" class="contributor-link">@Andrey1970AppleLife</a>, <a href="https://github.com/PMheart" class="contributor-link">@PMheart</a>, <a href="https://github.com/mhaeuser" class="contributor-link">@mhaeuser</a>, <a href="https://github.com/mikebeaton" class="contributor-link">@mikebeaton</a>, <a href="https://github.com/vit9696" class="contributor-link">@vit9696</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">5</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/mpv-player/mpv" target="_blank">mpv-player/mpv</a></div>
+                    <div class="repo-description">🎥 Command line media player</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#5</td>
+                <td class="stats-inline">34,876</td>
+                <td class="stats-inline">3,288</td>
+                <td class="stats-inline">C</td>
+                <td class="contributors"><a href="https://github.com/Dudemanguy" class="contributor-link">@Dudemanguy</a>, <a href="https://github.com/guidocella" class="contributor-link">@guidocella</a>, <a href="https://github.com/haasn" class="contributor-link">@haasn</a>, <a href="https://github.com/kasper93" class="contributor-link">@kasper93</a>, <a href="https://github.com/pigoz" class="contributor-link">@pigoz</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">6</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/OpenVPN/openvpn" target="_blank">OpenVPN/openvpn</a></div>
+                    <div class="repo-description">OpenVPN is an open source VPN daemon</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#6</td>
+                <td class="stats-inline">13,545</td>
+                <td class="stats-inline">3,288</td>
+                <td class="stats-inline">C</td>
+                <td class="contributors"><a href="https://github.com/cron2" class="contributor-link">@cron2</a>, <a href="https://github.com/flichtenheld" class="contributor-link">@flichtenheld</a>, <a href="https://github.com/ordex" class="contributor-link">@ordex</a>, <a href="https://github.com/schwabe" class="contributor-link">@schwabe</a>, <a href="https://github.com/syzzer" class="contributor-link">@syzzer</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">7</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/Limine-Bootloader/Limine" target="_blank">Limine-Bootloader/Limine</a></div>
+                    <div class="repo-description">Modern, advanced, portable, multiprotocol bootloader and boot manager.</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#7</td>
+                <td class="stats-inline">3,035</td>
+                <td class="stats-inline">190</td>
+                <td class="stats-inline">C</td>
+                <td class="contributors"><a href="https://github.com/Andy-Python-Programmer" class="contributor-link">@Andy-Python-Programmer</a>, <a href="https://github.com/Mintsuki" class="contributor-link">@Mintsuki</a>, <a href="https://github.com/dependabot" class="contributor-link">@dependabot</a>, <a href="https://github.com/pitust" class="contributor-link">@pitust</a>, <a href="https://github.com/qookei" class="contributor-link">@qookei</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">8</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/espeak-ng/espeak-ng" target="_blank">espeak-ng/espeak-ng</a></div>
+                    <div class="repo-description">eSpeak NG is an open source speech synthesizer that supports more than hundred languages and accents.</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#8</td>
+                <td class="stats-inline">6,368</td>
+                <td class="stats-inline">1,216</td>
+                <td class="stats-inline">C</td>
+                <td class="contributors"><a href="https://github.com/alex19EP" class="contributor-link">@alex19EP</a>, <a href="https://github.com/jaacoppi" class="contributor-link">@jaacoppi</a>, <a href="https://github.com/rhdunn" class="contributor-link">@rhdunn</a>, <a href="https://github.com/sthibaul" class="contributor-link">@sthibaul</a>, <a href="https://github.com/valdisvi" class="contributor-link">@valdisvi</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">9</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/google/security-research" target="_blank">google/security-research</a></div>
+                    <div class="repo-description">This project hosts security advisories and their accompanying proof-of-concepts related to research conducted at Google which impact non-Google owned code.</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#9</td>
+                <td class="stats-inline">4,419</td>
+                <td class="stats-inline">529</td>
+                <td class="stats-inline">C</td>
+                <td class="contributors"><a href="https://github.com/artmetla" class="contributor-link">@artmetla</a>, <a href="https://github.com/koczkatamas" class="contributor-link">@koczkatamas</a>, <a href="https://github.com/rcorrea35" class="contributor-link">@rcorrea35</a>, <a href="https://github.com/sirdarckcat" class="contributor-link">@sirdarckcat</a>, <a href="https://github.com/sroettger" class="contributor-link">@sroettger</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">10</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/Next-Flip/Momentum-Firmware" target="_blank">Next-Flip/Momentum-Firmware</a></div>
+                    <div class="repo-description">🐬 Feature-rich, stable and customizable Flipper Firmware</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#10</td>
+                <td class="stats-inline">8,365</td>
+                <td class="stats-inline">503</td>
+                <td class="stats-inline">C</td>
+                <td class="contributors"><a href="https://github.com/Astrrra" class="contributor-link">@Astrrra</a>, <a href="https://github.com/WillyJL" class="contributor-link">@WillyJL</a>, <a href="https://github.com/hedger" class="contributor-link">@hedger</a>, <a href="https://github.com/skotopes" class="contributor-link">@skotopes</a>, <a href="https://github.com/xMasterX" class="contributor-link">@xMasterX</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">11</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/libretro/RetroArch" target="_blank">libretro/RetroArch</a></div>
+                    <div class="repo-description">Cross-platform, sophisticated frontend for the libretro API. Licensed GPLv3.</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#11</td>
+                <td class="stats-inline">12,987</td>
+                <td class="stats-inline">2,088</td>
+                <td class="stats-inline">C</td>
+                <td class="contributors"><a href="https://github.com/LibretroAdmin" class="contributor-link">@LibretroAdmin</a>, <a href="https://github.com/Themaister" class="contributor-link">@Themaister</a>, <a href="https://github.com/andres-asm" class="contributor-link">@andres-asm</a>, <a href="https://github.com/inactive123" class="contributor-link">@inactive123</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">12</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/fastfetch-cli/fastfetch" target="_blank">fastfetch-cli/fastfetch</a></div>
+                    <div class="repo-description">A maintained, feature-rich and performance oriented, neofetch like system information tool.</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#12</td>
+                <td class="stats-inline">22,081</td>
+                <td class="stats-inline">745</td>
+                <td class="stats-inline">C</td>
+                <td class="contributors"><a href="https://github.com/CarterLi" class="contributor-link">@CarterLi</a>, <a href="https://github.com/DarNCelsius" class="contributor-link">@DarNCelsius</a>, <a href="https://github.com/LinusDierheimer" class="contributor-link">@LinusDierheimer</a>, <a href="https://github.com/apocelipes" class="contributor-link">@apocelipes</a>, <a href="https://github.com/x-zvf" class="contributor-link">@x-zvf</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">13</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/brunodev85/winlator" target="_blank">brunodev85/winlator</a></div>
+                    <div class="repo-description">Android application for running Windows applications with Wine and Box86/Box64</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#13</td>
+                <td class="stats-inline">17,297</td>
+                <td class="stats-inline">1,370</td>
+                <td class="stats-inline">C</td>
+                <td class="contributors"><a href="https://github.com/Kashinathpat" class="contributor-link">@Kashinathpat</a>, <a href="https://github.com/brunodev85" class="contributor-link">@brunodev85</a>, <a href="https://github.com/hackcasual" class="contributor-link">@hackcasual</a>, <a href="https://github.com/kazimaruf991" class="contributor-link">@kazimaruf991</a>, <a href="https://github.com/lvonasek" class="contributor-link">@lvonasek</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">14</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/palera1n/palera1n" target="_blank">palera1n/palera1n</a></div>
+                    <div class="repo-description">Jailbreak for A8 through A11, T2 devices, on iOS/iPadOS/tvOS 15.0, bridgeOS 5.0 and higher.</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#14</td>
+                <td class="stats-inline">6,155</td>
+                <td class="stats-inline">747</td>
+                <td class="stats-inline">C</td>
+                <td class="contributors"><a href="https://github.com/CLARATION" class="contributor-link">@CLARATION</a>, <a href="https://github.com/asdfugil" class="contributor-link">@asdfugil</a>, <a href="https://github.com/itsnebulalol" class="contributor-link">@itsnebulalol</a>, <a href="https://github.com/junepark678" class="contributor-link">@junepark678</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">15</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/valkey-io/valkey" target="_blank">valkey-io/valkey</a></div>
+                    <div class="repo-description">A flexible distributed key-value database that is optimized for caching and other realtime workloads.</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#15</td>
+                <td class="stats-inline">25,516</td>
+                <td class="stats-inline">1,101</td>
+                <td class="stats-inline">C</td>
+                <td class="contributors"><a href="https://github.com/antirez" class="contributor-link">@antirez</a>, <a href="https://github.com/enjoy-binbin" class="contributor-link">@enjoy-binbin</a>, <a href="https://github.com/madolson" class="contributor-link">@madolson</a>, <a href="https://github.com/oranagra" class="contributor-link">@oranagra</a>, <a href="https://github.com/pietern" class="contributor-link">@pietern</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">16</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/iczelia/bzip3" target="_blank">iczelia/bzip3</a></div>
+                    <div class="repo-description">A better and stronger spiritual successor to BZip2.</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#16</td>
+                <td class="stats-inline">1,182</td>
+                <td class="stats-inline">57</td>
+                <td class="stats-inline">C</td>
+                <td class="contributors"><a href="https://github.com/alerque" class="contributor-link">@alerque</a>, <a href="https://github.com/iczelia" class="contributor-link">@iczelia</a>, <a href="https://github.com/iwamatsu" class="contributor-link">@iwamatsu</a>, <a href="https://github.com/ppisar" class="contributor-link">@ppisar</a>, <a href="https://github.com/tansy" class="contributor-link">@tansy</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">17</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/madler/zlib" target="_blank">madler/zlib</a></div>
+                    <div class="repo-description">A massively spiffy yet delicately unobtrusive compression library.</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#17</td>
+                <td class="stats-inline">6,812</td>
+                <td class="stats-inline">2,743</td>
+                <td class="stats-inline">C</td>
+                <td class="contributors"><a href="https://github.com/Chi-Iroh" class="contributor-link">@Chi-Iroh</a>, <a href="https://github.com/DimitriPapadopoulos" class="contributor-link">@DimitriPapadopoulos</a>, <a href="https://github.com/jrn" class="contributor-link">@jrn</a>, <a href="https://github.com/madler" class="contributor-link">@madler</a>, <a href="https://github.com/nmoinvaz" class="contributor-link">@nmoinvaz</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">18</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/ventoy/Ventoy" target="_blank">ventoy/Ventoy</a></div>
+                    <div class="repo-description">A new bootable USB solution.</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#18</td>
+                <td class="stats-inline">75,956</td>
+                <td class="stats-inline">4,752</td>
+                <td class="stats-inline">C</td>
+                <td class="contributors"><a href="https://github.com/AnomSanjaya" class="contributor-link">@AnomSanjaya</a>, <a href="https://github.com/VenusGirl" class="contributor-link">@VenusGirl</a>, <a href="https://github.com/crasadure" class="contributor-link">@crasadure</a>, <a href="https://github.com/ventoy" class="contributor-link">@ventoy</a>, <a href="https://github.com/wiz64" class="contributor-link">@wiz64</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">19</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/Immediate-Mode-UI/Nuklear" target="_blank">Immediate-Mode-UI/Nuklear</a></div>
+                    <div class="repo-description">A single-header ANSI C immediate mode cross-platform GUI library</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#19</td>
+                <td class="stats-inline">11,064</td>
+                <td class="stats-inline">673</td>
+                <td class="stats-inline">C</td>
+                <td class="contributors"><a href="https://github.com/RobLoach" class="contributor-link">@RobLoach</a>, <a href="https://github.com/dumblob" class="contributor-link">@dumblob</a>, <a href="https://github.com/riri" class="contributor-link">@riri</a>, <a href="https://github.com/rswinkle" class="contributor-link">@rswinkle</a>, <a href="https://github.com/vurtun" class="contributor-link">@vurtun</a></td>
+            </tr>
+        
+                    </tbody>
+                </table>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <p>Generated on 2026-04-26 &mdash; <a href="../../index.html" style="color:inherit">Back to C</a></p>
+            <p>GitHub Trending Scraper</p>
+        </div>
+    </div>
+</body>
+</html>
