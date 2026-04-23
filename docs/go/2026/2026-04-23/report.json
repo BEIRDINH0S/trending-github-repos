@@ -1,0 +1,353 @@
+{
+  "metadata": {
+    "date": "2026-04-23",
+    "language": "go",
+    "total_repositories": 20,
+    "total_stars": 487336,
+    "total_forks": 62540,
+    "generated_by": "GitHub Trending Scraper",
+    "format_version": "1.0"
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "XTLS/Xray-core",
+      "url": "https://github.com/XTLS/Xray-core",
+      "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
+      "language": "Go",
+      "stars": 37709,
+      "forks": 5234,
+      "stars_today": "53 stars today",
+      "built_by": [
+        "RPRX",
+        "dependabot",
+        "yuhan6665",
+        "Fangliding",
+        "mmmray"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "prometheus/prometheus",
+      "url": "https://github.com/prometheus/prometheus",
+      "description": "The Prometheus monitoring system and time series database.",
+      "language": "Go",
+      "stars": 63714,
+      "forks": 10349,
+      "stars_today": "33 stars today",
+      "built_by": [
+        "fabxc",
+        "juliusv",
+        "beorn7",
+        "bboreham",
+        "dependabot"
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "helm/helm",
+      "url": "https://github.com/helm/helm",
+      "description": "The Kubernetes Package Manager",
+      "language": "Go",
+      "stars": 29723,
+      "forks": 7589,
+      "stars_today": "7 stars today",
+      "built_by": [
+        "technosophos",
+        "adamreese",
+        "mattfarina",
+        "dependabot",
+        "gjenkins8"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "steipete/gogcli",
+      "url": "https://github.com/steipete/gogcli",
+      "description": "Google Suite CLI: Gmail, GCal, GDrive, GContacts.",
+      "language": "Go",
+      "stars": 7003,
+      "forks": 536,
+      "stars_today": "28 stars today",
+      "built_by": [
+        "steipete",
+        "claude",
+        "andybergon",
+        "visionik",
+        "jeanregisser"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "pocketbase/pocketbase",
+      "url": "https://github.com/pocketbase/pocketbase",
+      "description": "Open Source realtime backend in 1 file",
+      "language": "Go",
+      "stars": 57838,
+      "forks": 3321,
+      "stars_today": "43 stars today",
+      "built_by": [
+        "ganigeorgiev",
+        "ValleyZw",
+        "yuxiang-gao",
+        "ghostdevv",
+        "pnmcosta"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "vllm-project/semantic-router",
+      "url": "https://github.com/vllm-project/semantic-router",
+      "description": "System Level Intelligent Router for Mixture-of-Models at Cloud, Data Center and Edge",
+      "language": "Go",
+      "stars": 3793,
+      "forks": 637,
+      "stars_today": "22 stars today",
+      "built_by": [
+        "Xunzhuo",
+        "rootfs",
+        "samzong",
+        "yuluo-yx",
+        "yossiovadia"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "hashicorp/terraform",
+      "url": "https://github.com/hashicorp/terraform",
+      "description": "Terraform enables you to safely and predictably create, change, and improve infrastructure. It is a source-available tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned.",
+      "language": "Go",
+      "stars": 48215,
+      "forks": 10297,
+      "stars_today": "25 stars today",
+      "built_by": [
+        "jbardin",
+        "mitchellh",
+        "apparentlymart",
+        "stack72",
+        "catsby"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "grafana/loki",
+      "url": "https://github.com/grafana/loki",
+      "description": "Like Prometheus, but for logs.",
+      "language": "Go",
+      "stars": 28053,
+      "forks": 3976,
+      "stars_today": "12 stars today",
+      "built_by": [
+        "renovate",
+        "JStickler",
+        "cyriltovena",
+        "chaudum",
+        "owen-d"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "pingcap/tidb",
+      "url": "https://github.com/pingcap/tidb",
+      "description": "TiDB is built for agentic workloads that grow unpredictably, with ACID guarantees and native support for transactions, analytics, and vector search. No data silos. No noisy neighbors. No infrastructure ceiling.",
+      "language": "Go",
+      "stars": 40002,
+      "forks": 6169,
+      "stars_today": "7 stars today",
+      "built_by": [
+        "hawkingrei",
+        "tiancaiamao",
+        "coocood",
+        "zimulala",
+        "qw4990"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "casdoor/casdoor",
+      "url": "https://github.com/casdoor/casdoor",
+      "description": "An open-source Agent-first Identity and Access Management (IAM) /LLM MCP & agent gateway and auth server with web UI supporting OpenClaw, MCP, OAuth, OIDC, SAML, CAS, LDAP, SCIM, WebAuthn, TOTP, MFA, Face ID, Google Workspace, Azure AD",
+      "language": "Go",
+      "stars": 13458,
+      "forks": 1658,
+      "stars_today": "22 stars today",
+      "built_by": [
+        "hsluoyz",
+        "nomeguy",
+        "dacongda",
+        "Copilot",
+        "leo220yuyaodog"
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "jackc/pgx",
+      "url": "https://github.com/jackc/pgx",
+      "description": "PostgreSQL driver and toolkit for Go",
+      "language": "Go",
+      "stars": 13677,
+      "forks": 1013,
+      "stars_today": "8 stars today",
+      "built_by": [
+        "jackc",
+        "manniwood",
+        "furdarius",
+        "claude",
+        "drakkan"
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "ArvinLovegood/go-stock",
+      "url": "https://github.com/ArvinLovegood/go-stock",
+      "description": "🦄🦄🦄AI赋能股票分析：AI加持的股票分析/选股工具。股票行情获取，AI热点资讯分析，AI资金/财务分析，涨跌报警推送。支持A股，港股，美股。支持市场整体/个股情绪分析，AI辅助选股等。数据全部保留在本地。支持DeepSeek，OpenAI， Ollama，LMStudio，AnythingLLM，硅基流动，火山方舟，阿里云百炼等平台或模型。",
+      "language": "Go",
+      "stars": 5386,
+      "forks": 944,
+      "stars_today": "11 stars today",
+      "built_by": [
+        "ArvinLovegood",
+        "CodeNoobLH",
+        "dependabot",
+        "GiCo001",
+        "github-advanced-security"
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "gosom/google-maps-scraper",
+      "url": "https://github.com/gosom/google-maps-scraper",
+      "description": "scrape data from Google Maps. Extracts data such as the name, address, phone number, website URL, rating, reviews number, latitude and longitude, reviews,email and more for each place",
+      "language": "Go",
+      "stars": 3752,
+      "forks": 535,
+      "stars_today": "9 stars today",
+      "built_by": [
+        "gosom",
+        "sbOogway",
+        "dredozubov",
+        "Lucifer-02",
+        "lucifer-vcb"
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "syncthing/syncthing",
+      "url": "https://github.com/syncthing/syncthing",
+      "description": "Open Source Continuous File Synchronization",
+      "language": "Go",
+      "stars": 82933,
+      "forks": 5097,
+      "stars_today": "309 stars today",
+      "built_by": [
+        "calmh",
+        "AudriusButkevicius",
+        "imsodin",
+        "st-release",
+        "tomasz1986"
+      ]
+    },
+    {
+      "rank": 15,
+      "name": "sysadminsmedia/homebox",
+      "url": "https://github.com/sysadminsmedia/homebox",
+      "description": "A continuation of HomeBox the inventory and organization system built for the Home User",
+      "language": "Go",
+      "stars": 5826,
+      "forks": 384,
+      "stars_today": "33 stars today",
+      "built_by": [
+        "weblate",
+        "tankerkiller125",
+        "hay-kot",
+        "katosdev",
+        "renovate"
+      ]
+    },
+    {
+      "rank": 16,
+      "name": "maximhq/bifrost",
+      "url": "https://github.com/maximhq/bifrost",
+      "description": "Fastest enterprise AI gateway (50x faster than LiteLLM) with adaptive load balancer, cluster mode, guardrails, 1000+ models support & <100 µs overhead at 5k RPS.",
+      "language": "Go",
+      "stars": 4190,
+      "forks": 487,
+      "stars_today": "67 stars today",
+      "built_by": [
+        "github-actions",
+        "akshaydeo",
+        "Pratham-Mishra04",
+        "TejasGhatte",
+        "danpiths"
+      ]
+    },
+    {
+      "rank": 17,
+      "name": "looplj/axonhub",
+      "url": "https://github.com/looplj/axonhub",
+      "description": "⚡️ Open-source AI Gateway — Use any SDK to call 100+ LLMs. Built-in failover, load balancing, cost control & end-to-end tracing.",
+      "language": "Go",
+      "stars": 3270,
+      "forks": 370,
+      "stars_today": "39 stars today",
+      "built_by": [
+        "looplj",
+        "github-actions",
+        "djdembeck",
+        "sisyphus-dev-ai",
+        "gemini-code-assist"
+      ]
+    },
+    {
+      "rank": 18,
+      "name": "Wei-Shaw/sub2api",
+      "url": "https://github.com/Wei-Shaw/sub2api",
+      "description": "Sub2API-CRS2 一站式开源中转服务，让 Claude、Openai 、Gemini、Antigravity订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
+      "language": "Go",
+      "stars": 14505,
+      "forks": 2518,
+      "stars_today": "267 stars today",
+      "built_by": [
+        "Wei-Shaw",
+        "IanShaw027",
+        "touwaeriol",
+        "claude",
+        "slovx2"
+      ]
+    },
+    {
+      "rank": 19,
+      "name": "Ed1s0nZ/CyberStrikeAI",
+      "url": "https://github.com/Ed1s0nZ/CyberStrikeAI",
+      "description": "CyberStrikeAI is an AI-native security testing platform built in Go. It integrates 100+ security tools, an intelligent orchestration engine, role-based testing with predefined security roles, a skills system with specialized testing skills, and comprehensive lifecycle management capabilities.",
+      "language": "Go",
+      "stars": 3436,
+      "forks": 575,
+      "stars_today": "23 stars today",
+      "built_by": [
+        "Ed1s0nZ",
+        "donnel666",
+        "claude",
+        "chhs1129",
+        "huajinping"
+      ]
+    },
+    {
+      "rank": 20,
+      "name": "lima-vm/lima",
+      "url": "https://github.com/lima-vm/lima",
+      "description": "Linux virtual machines, with a focus on running containers",
+      "language": "Go",
+      "stars": 20853,
+      "forks": 851,
+      "stars_today": "33 stars today",
+      "built_by": [
+        "AkihiroSuda",
+        "jandubois",
+        "dependabot",
+        "afbjorklund",
+        "norio-nomura"
+      ]
+    }
+  ]
+}
