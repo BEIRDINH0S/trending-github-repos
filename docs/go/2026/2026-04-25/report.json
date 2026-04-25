@@ -1,0 +1,387 @@
+{
+  "metadata": {
+    "date": "2026-04-25",
+    "language": "go",
+    "total_repositories": 22,
+    "total_stars": 340082,
+    "total_forks": 42796,
+    "generated_by": "GitHub Trending Scraper",
+    "format_version": "1.0"
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "google/osv-scanner",
+      "url": "https://github.com/google/osv-scanner",
+      "description": "Vulnerability scanner written in Go which uses the data provided by https://osv.dev",
+      "language": "Go",
+      "stars": 9541,
+      "forks": 622,
+      "stars_today": "141 stars today",
+      "built_by": [
+        "another-rex",
+        "G-Rath",
+        "renovate-bot",
+        "cuixq",
+        "osv-robot"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "microsoft/typescript-go",
+      "url": "https://github.com/microsoft/typescript-go",
+      "description": "Staging repo for development of native port of TypeScript",
+      "language": "Go",
+      "stars": 25029,
+      "forks": 907,
+      "stars_today": "38 stars today",
+      "built_by": [
+        "jakebailey",
+        "ahejlsberg",
+        "andrewbranch",
+        "Copilot",
+        "Andarist"
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "pingcap/tidb",
+      "url": "https://github.com/pingcap/tidb",
+      "description": "TiDB is built for agentic workloads that grow unpredictably, with ACID guarantees and native support for transactions, analytics, and vector search. No data silos. No noisy neighbors. No infrastructure ceiling.",
+      "language": "Go",
+      "stars": 40023,
+      "forks": 6177,
+      "stars_today": "8 stars today",
+      "built_by": [
+        "hawkingrei",
+        "tiancaiamao",
+        "coocood",
+        "zimulala",
+        "qw4990"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "danielmiessler/Fabric",
+      "url": "https://github.com/danielmiessler/Fabric",
+      "description": "Fabric is an open-source framework for augmenting humans using AI. It provides a modular system for solving specific problems using a crowdsourced set of AI prompts that can be used anywhere.",
+      "language": "Go",
+      "stars": 41032,
+      "forks": 4088,
+      "stars_today": "55 stars today",
+      "built_by": [
+        "danielmiessler",
+        "ksylvan",
+        "github-actions",
+        "eugeis",
+        "xssdoctor"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "hatchet-dev/hatchet",
+      "url": "https://github.com/hatchet-dev/hatchet",
+      "description": "🪓 Run Background Tasks at Scale",
+      "language": "Go",
+      "stars": 6971,
+      "forks": 353,
+      "stars_today": "55 stars today",
+      "built_by": [
+        "dependabot",
+        "abelanger5",
+        "grutt",
+        "mrkaye97",
+        "mnafees"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "vxcontrol/pentagi",
+      "url": "https://github.com/vxcontrol/pentagi",
+      "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
+      "language": "Go",
+      "stars": 15573,
+      "forks": 2101,
+      "stars_today": "98 stars today",
+      "built_by": [
+        "asdek",
+        "mason5052",
+        "sirozha",
+        "dependabot",
+        "hhktony"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "Wei-Shaw/sub2api",
+      "url": "https://github.com/Wei-Shaw/sub2api",
+      "description": "Sub2API-CRS2 一站式开源中转服务，让 Claude、Openai 、Gemini、Antigravity订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
+      "language": "Go",
+      "stars": 15215,
+      "forks": 2657,
+      "stars_today": "373 stars today",
+      "built_by": [
+        "Wei-Shaw",
+        "IanShaw027",
+        "touwaeriol",
+        "claude",
+        "slovx2"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "sivchari/kumo",
+      "url": "https://github.com/sivchari/kumo",
+      "description": "A lightweight AWS service emulator written in Go",
+      "language": "Go",
+      "stars": 1011,
+      "forks": 49,
+      "stars_today": "44 stars today",
+      "built_by": [
+        "sivchari",
+        "github-actions",
+        "kahirokunn",
+        "claude",
+        "tchssk"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "kubernetes-sigs/gateway-api",
+      "url": "https://github.com/kubernetes-sigs/gateway-api",
+      "description": "Repository for the next iteration of composite service (e.g. Ingress) and load balancing APIs.",
+      "language": "Go",
+      "stars": 2809,
+      "forks": 703,
+      "stars_today": "7 stars today",
+      "built_by": [
+        "k8s-ci-robot",
+        "robscott",
+        "dependabot",
+        "shaneutt",
+        "howardjohn"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "operacle/checkcle",
+      "url": "https://github.com/operacle/checkcle",
+      "description": "CheckCle is a self-hosted, open-source monitoring platform for seamless, real-time full-stack systems, applications, and infrastructure. It provides real-time uptime monitoring, distributed checks, incident tracking, and alerts. All deployable anywhere.",
+      "language": "Go",
+      "stars": 2601,
+      "forks": 196,
+      "stars_today": "18 stars today",
+      "built_by": [
+        "tolaleng",
+        "ghotso",
+        "sqkkyzx",
+        "gnsworks",
+        "samang-dauth"
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "fleetdm/fleet",
+      "url": "https://github.com/fleetdm/fleet",
+      "description": "Open device management",
+      "language": "Go",
+      "stars": 6287,
+      "forks": 849,
+      "stars_today": "9 stars today",
+      "built_by": [
+        "eashaw",
+        "noahtalerman",
+        "RachelElysia",
+        "mikermcneil",
+        "zwass"
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "masterking32/MasterDnsVPN",
+      "url": "https://github.com/masterking32/MasterDnsVPN",
+      "description": "Advanced DNS tunneling VPN for censorship bypass, optimized beyond DNSTT and SlipStream with low-overhead ARQ, resolver load balancing, high packet-loss stability and speed.",
+      "language": "Go",
+      "stars": 922,
+      "forks": 79,
+      "stars_today": "28 stars today",
+      "built_by": [
+        "masterking32",
+        "abolix",
+        "PentSec",
+        "MahdiMirzadeh",
+        "typerhack"
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "pressly/goose",
+      "url": "https://github.com/pressly/goose",
+      "description": "A database migration tool. Supports SQL migrations and Go functions.",
+      "language": "Go",
+      "stars": 10567,
+      "forks": 644,
+      "stars_today": "8 stars today",
+      "built_by": [
+        "mfridman",
+        "VojtechVitek",
+        "liamstask",
+        "dependabot",
+        "1vn"
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "hashicorp/terraform-provider-azurerm",
+      "url": "https://github.com/hashicorp/terraform-provider-azurerm",
+      "description": "Terraform provider for Azure Resource Manager",
+      "language": "Go",
+      "stars": 4925,
+      "forks": 4986,
+      "stars_today": "2 stars today",
+      "built_by": [
+        "tombuildsstuff",
+        "katbyte",
+        "mbfrahry",
+        "jackofallops",
+        "stephybun"
+      ]
+    },
+    {
+      "rank": 15,
+      "name": "grafana/loki",
+      "url": "https://github.com/grafana/loki",
+      "description": "Like Prometheus, but for logs.",
+      "language": "Go",
+      "stars": 28079,
+      "forks": 3978,
+      "stars_today": "13 stars today",
+      "built_by": [
+        "renovate",
+        "JStickler",
+        "cyriltovena",
+        "chaudum",
+        "owen-d"
+      ]
+    },
+    {
+      "rank": 16,
+      "name": "distribution/distribution",
+      "url": "https://github.com/distribution/distribution",
+      "description": "The toolkit to pack, ship, store, and deliver container content",
+      "language": "Go",
+      "stars": 10374,
+      "forks": 2739,
+      "stars_today": "2 stars today",
+      "built_by": [
+        "stevvooe",
+        "milosgajdos",
+        "dmcgowan",
+        "dmp42",
+        "thaJeztah"
+      ]
+    },
+    {
+      "rank": 17,
+      "name": "gorilla/websocket",
+      "url": "https://github.com/gorilla/websocket",
+      "description": "Package gorilla/websocket is a fast, well-tested and widely used WebSocket implementation for Go.",
+      "language": "Go",
+      "stars": 24666,
+      "forks": 3578,
+      "stars_today": "5 stars today",
+      "built_by": [
+        "fancycode",
+        "elithrar",
+        "rfyiamcool",
+        "FZambia",
+        "apoorvajagtap"
+      ]
+    },
+    {
+      "rank": 18,
+      "name": "jackc/pgx",
+      "url": "https://github.com/jackc/pgx",
+      "description": "PostgreSQL driver and toolkit for Go",
+      "language": "Go",
+      "stars": 13695,
+      "forks": 1016,
+      "stars_today": "10 stars today",
+      "built_by": [
+        "jackc",
+        "manniwood",
+        "furdarius",
+        "claude",
+        "drakkan"
+      ]
+    },
+    {
+      "rank": 19,
+      "name": "gastownhall/beads",
+      "url": "https://github.com/gastownhall/beads",
+      "description": "Beads - A memory upgrade for your coding agent",
+      "language": "Go",
+      "stars": 21220,
+      "forks": 1421,
+      "stars_today": "49 stars today",
+      "built_by": [
+        "steveyegge",
+        "claude",
+        "ampcode-com",
+        "maphew",
+        "coffeegoddd"
+      ]
+    },
+    {
+      "rank": 20,
+      "name": "looplj/axonhub",
+      "url": "https://github.com/looplj/axonhub",
+      "description": "⚡️ Open-source AI Gateway — Use any SDK to call 100+ LLMs. Built-in failover, load balancing, cost control & end-to-end tracing.",
+      "language": "Go",
+      "stars": 3337,
+      "forks": 381,
+      "stars_today": "26 stars today",
+      "built_by": [
+        "looplj",
+        "github-actions",
+        "djdembeck",
+        "sisyphus-dev-ai",
+        "gemini-code-assist"
+      ]
+    },
+    {
+      "rank": 21,
+      "name": "containers/podman",
+      "url": "https://github.com/containers/podman",
+      "description": "Podman: A tool for managing OCI containers and pods.",
+      "language": "Go",
+      "stars": 31506,
+      "forks": 3071,
+      "stars_today": "16 stars today",
+      "built_by": [
+        "openshift-merge-robot",
+        "openshift-merge-bot",
+        "mheon",
+        "rhatdan",
+        "Luap99"
+      ]
+    },
+    {
+      "rank": 22,
+      "name": "go-delve/delve",
+      "url": "https://github.com/go-delve/delve",
+      "description": "Delve is a debugger for the Go programming language.",
+      "language": "Go",
+      "stars": 24699,
+      "forks": 2201,
+      "stars_today": "4 stars today",
+      "built_by": [
+        "aarzilli",
+        "derekparker",
+        "polinasok",
+        "suzmue",
+        "alexandear"
+      ]
+    }
+  ]
+}

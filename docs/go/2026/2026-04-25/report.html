@@ -1,0 +1,1366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trending Go – 2026-04-25 | GitHub Trends</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <style>
+            /* ── Design tokens ── */
+            :root {
+                /* Backgrounds */
+                --bg-base:          #080C14;
+                --bg-surface:       rgba(8, 18, 36, 0.72);
+                --bg-elevated:      rgba(14, 28, 54, 0.80);
+                --bg-hover:         rgba(22, 42, 78, 0.60);
+
+                /* Borders */
+                --border-default:   rgba(255, 255, 255, 0.06);
+                --border-subtle:    rgba(255, 255, 255, 0.04);
+                --border-hover:     rgba(56, 189, 248, 0.35);
+                --border-glow:      rgba(139, 92, 246, 0.30);
+
+                /* Accent palette */
+                --color-primary:      #38BDF8;
+                --color-primary-dark: #0EA5E9;
+                --color-violet:       #A78BFA;
+                --color-emerald:      #34D399;
+                --color-amber:        #FBBF24;
+                --color-rose:         #FB7185;
+                --color-orange:       #FB923C;
+
+                /* Glows */
+                --glow-primary:  rgba(56, 189, 248, 0.14);
+                --glow-violet:   rgba(167, 139, 250, 0.12);
+                --glow-emerald:  rgba(52, 211, 153, 0.10);
+                --glow-amber:    rgba(251, 191, 36, 0.14);
+
+                /* Text */
+                --text-primary:  #E2E8F0;
+                --text-secondary:#94A3B8;
+                --text-muted:    #64748B;
+                --text-dim:      #475569;
+
+                /* Navbar */
+                --nav-bg:          rgba(6, 10, 20, 0.88);
+                --nav-border:      rgba(255, 255, 255, 0.07);
+                --nav-hover-bg:    rgba(255, 255, 255, 0.05);
+                --nav-text:        #E2E8F0;
+                --nav-text-muted:  #94A3B8;
+                --nav-text-dim:    #64748B;
+                --nav-accent:      #38BDF8;
+
+                /* Sidebar aliases (used by index_generator too) */
+                --sidebar-bg:      #080C14;
+                --sidebar-hover:   rgba(255,255,255,0.05);
+                --sidebar-border:  rgba(255,255,255,0.07);
+                --sidebar-accent:  #38BDF8;
+
+                /* Legacy aliases for backward-compat with renderer code */
+                --color-background:    #080C14;
+                --color-surface:       rgba(8, 18, 36, 0.72);
+                --color-border:        rgba(255,255,255,0.08);
+                --color-border-subtle: rgba(255,255,255,0.05);
+                --color-text:          #E2E8F0;
+                --color-text-muted:    #94A3B8;
+                --color-text-subtle:   #64748B;
+                --color-secondary:     #38BDF8;
+                --color-accent:        #FBBF24;
+                --color-primary-dark:  #0EA5E9;
+            }
+
+            /* ── Reset ── */
+            *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+            /* ── Body + aurora background ── */
+            body {
+                font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+                line-height: 1.65;
+                color: var(--text-primary);
+                background: var(--bg-base);
+                min-height: 100vh;
+                overflow-x: hidden;
+            }
+
+            /* Animated aurora mesh */
+            body::before {
+                content: '';
+                position: fixed;
+                inset: 0;
+                background:
+                    radial-gradient(ellipse 90% 60% at 15% 5%,  rgba(56, 189, 248, 0.08) 0%, transparent 60%),
+                    radial-gradient(ellipse 70% 55% at 85% 85%, rgba(139, 92, 246, 0.07) 0%, transparent 55%),
+                    radial-gradient(ellipse 55% 45% at 55% 40%, rgba(52, 211, 153, 0.04) 0%, transparent 50%),
+                    radial-gradient(ellipse 40% 35% at 30% 75%, rgba(251, 191, 36, 0.03) 0%, transparent 50%);
+                animation: aurora 24s ease-in-out infinite alternate;
+                pointer-events: none;
+                z-index: 0;
+            }
+
+            /* Dot-grid overlay */
+            body::after {
+                content: '';
+                position: fixed;
+                inset: 0;
+                background-image: radial-gradient(rgba(255, 255, 255, 0.028) 1px, transparent 1px);
+                background-size: 26px 26px;
+                pointer-events: none;
+                z-index: 0;
+            }
+
+            /* ── Keyframes ── */
+            @keyframes aurora {
+                0%   { opacity: 0.85; transform: scale(1.00) rotate(0deg); }
+                40%  { opacity: 1.00; transform: scale(1.04) rotate(1.2deg); }
+                100% { opacity: 0.90; transform: scale(1.02) rotate(-0.8deg); }
+            }
+
+            @keyframes fadeInUp {
+                from { opacity: 0; transform: translateY(18px); }
+                to   { opacity: 1; transform: translateY(0); }
+            }
+
+            @keyframes glowPulse {
+                0%, 100% { box-shadow: 0 0 0 0   rgba(56,189,248,0.40); }
+                50%       { box-shadow: 0 0 0 7px rgba(56,189,248,0.00); }
+            }
+
+            @keyframes shimmerSlide {
+                0%   { background-position: -200% center; }
+                100% { background-position:  200% center; }
+            }
+
+            @media (prefers-reduced-motion: reduce) {
+                body::before { animation: none; }
+                *, *::before, *::after {
+                    animation-duration: 0.01ms !important;
+                    transition-duration: 0.01ms !important;
+                }
+            }
+
+            /* ── Links ── */
+            a { color: inherit; text-decoration: none; }
+
+            /* ── Scrollbar ── */
+            ::-webkit-scrollbar          { width: 6px; height: 6px; }
+            ::-webkit-scrollbar-track    { background: transparent; }
+            ::-webkit-scrollbar-thumb    { background: rgba(255,255,255,0.10); border-radius: 3px; }
+            ::-webkit-scrollbar-thumb:hover { background: rgba(255,255,255,0.20); }
+
+            /* ── Layout container ── */
+            .container {
+                max-width: 1400px;
+                margin: 0 auto;
+                min-height: 100vh;
+                position: relative;
+                z-index: 1;
+            }
+
+            /* ── Page header ── */
+            .header {
+                padding: 3rem 2.5rem 2.25rem;
+                position: relative;
+                overflow: hidden;
+            }
+
+            .header::before {
+                content: '';
+                position: absolute;
+                inset: 0;
+                background: linear-gradient(135deg,
+                    rgba(56,189,248,0.07) 0%,
+                    rgba(139,92,246,0.05) 50%,
+                    transparent 100%);
+                pointer-events: none;
+            }
+
+            /* Bottom accent line */
+            .header::after {
+                content: '';
+                position: absolute;
+                bottom: 0; left: 0; right: 0;
+                height: 1px;
+                background: linear-gradient(90deg,
+                    transparent 0%,
+                    rgba(56,189,248,0.50) 30%,
+                    rgba(139,92,246,0.40) 70%,
+                    transparent 100%);
+            }
+
+            .header h1 {
+                font-family: 'Fira Code', monospace;
+                font-size: 1.875rem;
+                font-weight: 700;
+                position: relative;
+                z-index: 1;
+                /* Gradient text */
+                background: linear-gradient(120deg, #F1F5F9 0%, #38BDF8 45%, #A78BFA 100%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+                margin-bottom: 0.5rem;
+                line-height: 1.25;
+                /* Shimmer effect */
+                background-size: 200% auto;
+                animation: shimmerSlide 6s linear infinite;
+            }
+
+            .header .subtitle {
+                color: var(--text-secondary);
+                font-size: 0.9375rem;
+                position: relative;
+                z-index: 1;
+            }
+
+            /* ── Summary ── */
+            .summary {
+                padding: 2rem 2.5rem;
+                border-bottom: 1px solid var(--border-default);
+                position: relative;
+                z-index: 1;
+            }
+
+            .summary h2 {
+                font-size: 0.6875rem;
+                color: var(--text-muted);
+                font-weight: 700;
+                text-transform: uppercase;
+                letter-spacing: 0.12em;
+                margin-bottom: 1.25rem;
+            }
+
+            .summary-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(175px, 1fr));
+                gap: 1rem;
+            }
+
+            .summary-item {
+                background: var(--bg-surface);
+                padding: 1.25rem 1.5rem;
+                border-radius: 12px;
+                border: 1px solid var(--border-default);
+                backdrop-filter: blur(12px);
+                -webkit-backdrop-filter: blur(12px);
+                transition: border-color 0.25s ease, box-shadow 0.25s ease, transform 0.25s ease;
+                animation: fadeInUp 0.45s cubic-bezier(0.22, 1, 0.36, 1) both;
+            }
+
+            .summary-item:nth-child(1) { animation-delay: 0.04s; }
+            .summary-item:nth-child(2) { animation-delay: 0.09s; }
+            .summary-item:nth-child(3) { animation-delay: 0.14s; }
+            .summary-item:nth-child(4) { animation-delay: 0.19s; }
+            .summary-item:nth-child(5) { animation-delay: 0.24s; }
+
+            .summary-item:hover {
+                border-color: var(--border-hover);
+                box-shadow: 0 0 24px var(--glow-primary), 0 8px 32px rgba(0,0,0,0.3);
+                transform: translateY(-2px);
+            }
+
+            .summary-item .label {
+                font-size: 0.6875rem;
+                color: var(--text-muted);
+                margin-bottom: 0.625rem;
+                text-transform: uppercase;
+                letter-spacing: 0.09em;
+                font-weight: 600;
+            }
+
+            .summary-item .value {
+                font-family: 'Fira Code', monospace;
+                font-size: 1.875rem;
+                font-weight: 700;
+                color: var(--color-primary);
+                text-shadow: 0 0 18px rgba(56,189,248,0.35);
+                line-height: 1;
+            }
+
+            /* ── Content area ── */
+            .content {
+                padding: 2rem 2.5rem;
+                position: relative;
+                z-index: 1;
+            }
+
+            .section-title {
+                font-size: 0.75rem;
+                color: var(--text-muted);
+                font-weight: 700;
+                text-transform: uppercase;
+                letter-spacing: 0.10em;
+                margin-bottom: 1.5rem;
+                display: flex;
+                align-items: center;
+                gap: 0.75rem;
+            }
+
+            .section-title::after {
+                content: '';
+                flex: 1;
+                height: 1px;
+                background: linear-gradient(90deg, var(--border-default), transparent);
+            }
+
+            /* ── Badges ── */
+            .badge {
+                display: inline-flex;
+                align-items: center;
+                gap: 0.375rem;
+                padding: 0.25rem 0.625rem;
+                border-radius: 6px;
+                font-size: 0.7rem;
+                font-weight: 700;
+                margin-right: 0.375rem;
+                font-family: 'Fira Code', monospace;
+                border: 1px solid transparent;
+                letter-spacing: 0.02em;
+                transition: box-shadow 0.2s;
+            }
+
+            .badge svg { flex-shrink: 0; }
+
+            .badge-stars {
+                background: rgba(251,191,36, 0.10);
+                color: var(--color-amber);
+                border-color: rgba(251,191,36, 0.22);
+            }
+            .badge-stars:hover { box-shadow: 0 0 10px var(--glow-amber); }
+
+            .badge-forks {
+                background: rgba(56,189,248, 0.10);
+                color: var(--color-primary);
+                border-color: rgba(56,189,248, 0.22);
+            }
+
+            .badge-language {
+                background: rgba(52,211,153, 0.10);
+                color: var(--color-emerald);
+                border-color: rgba(52,211,153, 0.22);
+            }
+
+            .badge-today {
+                background: rgba(251,113,133, 0.10);
+                color: var(--color-rose);
+                border-color: rgba(251,113,133, 0.22);
+            }
+
+            .badge-consistent {
+                background: rgba(52,211,153, 0.10);
+                color: var(--color-emerald);
+                border-color: rgba(52,211,153, 0.22);
+            }
+
+            .badge-trending {
+                background: rgba(251,191,36, 0.10);
+                color: var(--color-amber);
+                border-color: rgba(251,191,36, 0.22);
+            }
+
+            .badge-new {
+                background: rgba(167,139,250, 0.10);
+                color: var(--color-violet);
+                border-color: rgba(167,139,250, 0.22);
+            }
+
+            /* ── Footer ── */
+            .footer {
+                padding: 2rem 2.5rem;
+                text-align: center;
+                color: var(--text-muted);
+                font-size: 0.8125rem;
+                border-top: 1px solid var(--border-default);
+                position: relative;
+                z-index: 1;
+            }
+
+            .footer a:hover { color: var(--color-primary); }
+
+            /* ── Responsive ── */
+            @media (max-width: 768px) {
+                .header  { padding: 2rem 1.25rem 1.75rem; }
+                .header h1 { font-size: 1.375rem; }
+                .summary { padding: 1.5rem 1.25rem; }
+                .content { padding: 1.5rem 1.25rem; }
+                .summary-grid { grid-template-columns: repeat(2, 1fr); }
+            }
+
+            @media (max-width: 480px) {
+                .summary-grid { grid-template-columns: 1fr; }
+            }
+        </style>
+        <style>
+            .top-nav {
+                background: var(--nav-bg, rgba(6,10,20,0.88));
+                border-bottom: 1px solid var(--nav-border, rgba(255,255,255,0.07));
+                position: sticky;
+                top: 0;
+                z-index: 200;
+                backdrop-filter: blur(20px) saturate(160%);
+                -webkit-backdrop-filter: blur(20px) saturate(160%);
+            }
+
+            .top-nav-inner {
+                max-width: 1400px;
+                margin: 0 auto;
+                padding: 0 2.5rem;
+                height: 52px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                gap: 1.5rem;
+            }
+
+            .top-nav-left {
+                display: flex;
+                align-items: center;
+                gap: 1.25rem;
+                min-width: 0;
+                overflow: hidden;
+            }
+
+            .nav-logo {
+                font-family: 'Fira Code', monospace;
+                font-size: 0.875rem;
+                font-weight: 700;
+                color: var(--nav-text, #E2E8F0);
+                text-decoration: none;
+                white-space: nowrap;
+                flex-shrink: 0;
+                transition: color 0.2s, text-shadow 0.2s;
+                display: flex;
+                align-items: center;
+                gap: 0.5rem;
+            }
+
+            .nav-logo:hover {
+                color: var(--nav-accent, #38BDF8);
+                text-shadow: 0 0 14px rgba(56,189,248,0.50);
+            }
+
+            .nav-divider {
+                width: 1px;
+                height: 16px;
+                background: var(--nav-border, rgba(255,255,255,0.08));
+                flex-shrink: 0;
+            }
+
+            .top-nav-breadcrumbs {
+                display: flex;
+                align-items: center;
+                gap: 0.45rem;
+                font-size: 0.8125rem;
+                min-width: 0;
+                overflow: hidden;
+            }
+
+            .nav-breadcrumb-link {
+                color: var(--nav-text-muted, #94A3B8);
+                text-decoration: none;
+                white-space: nowrap;
+                flex-shrink: 0;
+                transition: color 0.15s;
+            }
+
+            .nav-breadcrumb-link:hover { color: var(--nav-accent, #38BDF8); }
+
+            .nav-breadcrumb-sep {
+                color: rgba(255,255,255,0.18);
+                flex-shrink: 0;
+                user-select: none;
+            }
+
+            .nav-breadcrumb-current {
+                color: #CBD5E1;
+                font-weight: 500;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+
+            .top-nav-right {
+                display: flex;
+                align-items: center;
+                gap: 0.5rem;
+                flex-shrink: 0;
+            }
+
+            .format-label {
+                font-size: 0.75rem;
+                color: var(--nav-text-dim, #64748B);
+                white-space: nowrap;
+            }
+
+            .format-pill {
+                display: inline-flex;
+                align-items: center;
+                padding: 0.2rem 0.625rem;
+                border-radius: 6px;
+                text-decoration: none;
+                font-size: 0.6875rem;
+                font-weight: 700;
+                font-family: 'Fira Code', monospace;
+                border: 1px solid transparent;
+                letter-spacing: 0.04em;
+                transition: transform 0.18s ease, box-shadow 0.18s ease, background 0.18s ease;
+                cursor: pointer;
+                white-space: nowrap;
+            }
+
+            .format-pill:hover { transform: translateY(-1px); }
+
+            .pill-json {
+                background: rgba(251,191,36, 0.10);
+                color: #FBBF24;
+                border-color: rgba(251,191,36, 0.22);
+            }
+            .pill-json:hover {
+                background: rgba(251,191,36, 0.18);
+                box-shadow: 0 0 12px rgba(251,191,36,0.22);
+            }
+
+            .pill-md {
+                background: rgba(52,211,153, 0.10);
+                color: #34D399;
+                border-color: rgba(52,211,153, 0.22);
+            }
+            .pill-md:hover {
+                background: rgba(52,211,153, 0.18);
+                box-shadow: 0 0 12px rgba(52,211,153,0.22);
+            }
+
+            .pill-csv {
+                background: rgba(167,139,250, 0.10);
+                color: #A78BFA;
+                border-color: rgba(167,139,250, 0.22);
+            }
+            .pill-csv:hover {
+                background: rgba(167,139,250, 0.18);
+                box-shadow: 0 0 12px rgba(167,139,250,0.22);
+            }
+
+            .pill-html {
+                background: rgba(56,189,248, 0.10);
+                color: #38BDF8;
+                border-color: rgba(56,189,248, 0.22);
+            }
+            .pill-html:hover {
+                background: rgba(56,189,248, 0.18);
+                box-shadow: 0 0 12px rgba(56,189,248,0.22);
+            }
+
+            @media (max-width: 768px) {
+                .top-nav-inner { padding: 0 1rem; gap: 0.75rem; }
+                .format-label  { display: none; }
+                .nav-divider   { display: none; }
+                .top-nav-breadcrumbs { font-size: 0.75rem; }
+            }
+        </style>
+        <style>
+            .repo-card {
+                background: var(--bg-surface);
+                border: 1px solid var(--border-default);
+                border-radius: 14px;
+                padding: 1.5rem;
+                margin-bottom: 0.75rem;
+                backdrop-filter: blur(12px);
+                -webkit-backdrop-filter: blur(12px);
+                transition: border-color 0.25s ease, box-shadow 0.25s ease, transform 0.25s ease;
+                cursor: default;
+                position: relative;
+                overflow: hidden;
+                animation: fadeInUp 0.45s cubic-bezier(0.22, 1, 0.36, 1) both;
+            }
+
+            /* Stagger entrance by position */
+            .repo-card:nth-child(1)  { animation-delay: 0.03s; }
+            .repo-card:nth-child(2)  { animation-delay: 0.07s; }
+            .repo-card:nth-child(3)  { animation-delay: 0.11s; }
+            .repo-card:nth-child(4)  { animation-delay: 0.15s; }
+            .repo-card:nth-child(5)  { animation-delay: 0.19s; }
+            .repo-card:nth-child(6)  { animation-delay: 0.23s; }
+            .repo-card:nth-child(7)  { animation-delay: 0.27s; }
+            .repo-card:nth-child(8)  { animation-delay: 0.31s; }
+            .repo-card:nth-child(9)  { animation-delay: 0.35s; }
+            .repo-card:nth-child(10) { animation-delay: 0.39s; }
+            .repo-card:nth-child(n+11) { animation-delay: 0.43s; }
+
+            /* Top-edge glow line, visible on hover */
+            .repo-card::before {
+                content: '';
+                position: absolute;
+                top: 0; left: 0; right: 0;
+                height: 1px;
+                background: linear-gradient(90deg, transparent, var(--color-primary), transparent);
+                opacity: 0;
+                transition: opacity 0.3s ease;
+            }
+
+            .repo-card:hover {
+                border-color: rgba(56, 189, 248, 0.28);
+                box-shadow:
+                    0 0 0 1px rgba(56,189,248,0.10),
+                    0 0 28px rgba(56,189,248,0.08),
+                    0 8px 36px rgba(0,0,0,0.35);
+                transform: translateY(-2px);
+            }
+
+            .repo-card:hover::before { opacity: 1; }
+
+            /* ── Rank #1 gold / #2 silver / #3 bronze distinctions ── */
+            .repo-card:nth-child(1) {
+                border-color: rgba(251,191,36,0.20);
+            }
+            .repo-card:nth-child(1):hover {
+                border-color: rgba(251,191,36,0.40);
+                box-shadow:
+                    0 0 0 1px rgba(251,191,36,0.15),
+                    0 0 30px rgba(251,191,36,0.10),
+                    0 8px 36px rgba(0,0,0,0.35);
+            }
+            .repo-card:nth-child(1)::before {
+                background: linear-gradient(90deg, transparent, #FBBF24, transparent);
+                opacity: 0.5;
+            }
+
+            .repo-card:nth-child(2) {
+                border-color: rgba(203,213,225,0.12);
+            }
+
+            .repo-card:nth-child(3) {
+                border-color: rgba(249,115,22,0.15);
+            }
+
+            /* ── Header row ── */
+            .repo-header {
+                display: flex;
+                align-items: flex-start;
+                gap: 1rem;
+                margin-bottom: 0.875rem;
+            }
+
+            .repo-rank {
+                min-width: 36px;
+                height: 36px;
+                border-radius: 8px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-family: 'Fira Code', monospace;
+                font-weight: 700;
+                font-size: 0.875rem;
+                flex-shrink: 0;
+                color: #060B14;
+                background: linear-gradient(135deg, var(--color-primary), var(--color-primary-dark));
+                box-shadow: 0 0 12px rgba(56,189,248,0.28);
+            }
+
+            /* #1 gold badge + pulse animation */
+            .repo-card:nth-child(1) .repo-rank {
+                background: linear-gradient(135deg, #FBBF24, #F59E0B);
+                box-shadow: 0 0 14px rgba(251,191,36,0.45);
+                animation: glowPulse 2.8s ease-in-out infinite;
+                color: #1A0F00;
+            }
+
+            /* #2 silver */
+            .repo-card:nth-child(2) .repo-rank {
+                background: linear-gradient(135deg, #CBD5E1, #94A3B8);
+                box-shadow: 0 0 10px rgba(203,213,225,0.28);
+                color: #1E293B;
+            }
+
+            /* #3 bronze */
+            .repo-card:nth-child(3) .repo-rank {
+                background: linear-gradient(135deg, #FB923C, #EA580C);
+                box-shadow: 0 0 12px rgba(249,115,22,0.32);
+                color: #1A0800;
+            }
+
+            .repo-title { flex: 1; min-width: 0; }
+
+            .repo-title a {
+                color: var(--text-primary);
+                text-decoration: none;
+                font-size: 1.0625rem;
+                font-weight: 600;
+                transition: color 0.15s, text-shadow 0.15s;
+                cursor: pointer;
+                display: block;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+            }
+
+            .repo-title a:hover {
+                color: var(--color-primary);
+                text-shadow: 0 0 14px rgba(56,189,248,0.30);
+            }
+
+            .repo-description {
+                color: var(--text-secondary);
+                margin-bottom: 0.875rem;
+                line-height: 1.65;
+                font-size: 0.9375rem;
+            }
+
+            .repo-stats {
+                display: flex;
+                gap: 0.5rem;
+                flex-wrap: wrap;
+                margin-bottom: 0.875rem;
+            }
+
+            .contributors {
+                margin-top: 0.875rem;
+                padding-top: 0.875rem;
+                border-top: 1px solid var(--border-default);
+            }
+
+            .contributors-label {
+                font-size: 0.75rem;
+                color: var(--text-muted);
+                margin-bottom: 0.375rem;
+                font-weight: 500;
+            }
+
+            .contributors-list {
+                display: flex;
+                gap: 0.5rem;
+                flex-wrap: wrap;
+            }
+
+            .contributor-link {
+                color: var(--text-secondary);
+                text-decoration: none;
+                font-size: 0.8125rem;
+                font-weight: 500;
+                transition: color 0.15s;
+                cursor: pointer;
+            }
+
+            .contributor-link:hover { color: var(--color-primary); }
+        </style>
+</head>
+<body>
+
+    <nav class="top-nav" aria-label="Site navigation">
+        <div class="top-nav-inner">
+            <div class="top-nav-left">
+                <a href="../../../index.html" class="nav-logo" aria-label="GitHub Trends home">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg> GitHub Trends
+                </a>
+                <div class="nav-divider" aria-hidden="true"></div>
+                <div class="top-nav-breadcrumbs" aria-label="Breadcrumb">
+                    <a href="../../../index.html" class="nav-breadcrumb-link">Home</a>
+                    <span class="nav-breadcrumb-sep" aria-hidden="true">/</span>
+                    <a href="../../index.html" class="nav-breadcrumb-link">Go</a>
+                    <span class="nav-breadcrumb-sep" aria-hidden="true">/</span>
+                    <a href="../../index.html#daily" class="nav-breadcrumb-link">Daily</a>
+                    <span class="nav-breadcrumb-sep" aria-hidden="true">/</span>
+                    <span class="nav-breadcrumb-current" aria-current="page">2026-04-25</span>
+                </div>
+            </div>
+            <div class="top-nav-right" aria-label="Other formats">
+                <span class="format-label">Also available:</span>
+                <a href="report.json" class="format-pill pill-json" download aria-label="Download JSON report">JSON</a>
+                <a href="report.md" class="format-pill pill-md" download aria-label="Download Markdown report">MD</a>
+                <a href="report.csv" class="format-pill pill-csv" download aria-label="Download CSV report">CSV</a>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="header">
+            <h1>Trending Go Repositories</h1>
+            <div class="subtitle">2026-04-25</div>
+        </div>
+
+        <div class="summary">
+            <h2>Summary</h2>
+            <div class="summary-grid">
+                <div class="summary-item">
+                    <div class="label">Date</div>
+                    <div class="value">2026-04-25</div>
+                </div>
+                <div class="summary-item">
+                    <div class="label">Repositories</div>
+                    <div class="value">22</div>
+                </div>
+                <div class="summary-item">
+                    <div class="label">Total Stars</div>
+                    <div class="value">340,082</div>
+                </div>
+                <div class="summary-item">
+                    <div class="label">Total Forks</div>
+                    <div class="value">42,796</div>
+                </div>
+                <div class="summary-item">
+                    <div class="label">Language</div>
+                    <div class="value">Go</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="content">
+            <h2 class="section-title">Trending Repositories</h2>
+<div class="repo-card">
+    <div class="repo-header">
+        <div class="repo-rank" aria-label="Rank 1">1</div>
+        <div class="repo-title">
+            <a href="https://github.com/google/osv-scanner" target="_blank" rel="noopener noreferrer">google/osv-scanner</a>
+        </div>
+    </div>
+    <p class="repo-description">Vulnerability scanner written in Go which uses the data provided by https://osv.dev</p>
+    <div class="repo-stats">
+        <span class="badge badge-stars"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg> 9,541 stars</span>
+        <span class="badge badge-forks"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><circle cx="18" cy="6" r="3"/><path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9"/><line x1="12" y1="12" x2="12" y2="15"/></svg> 622 forks</span>
+        <span class="badge badge-language"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg> Go</span>
+        <span class="badge badge-today"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg> 141 stars today</span>
+    </div>
+    <div class="contributors">
+        <div class="contributors-label">Built by:</div>
+        <div class="contributors-list">
+            <a href="https://github.com/another-rex" class="contributor-link" target="_blank" rel="noopener noreferrer">@another-rex</a>
+            <a href="https://github.com/G-Rath" class="contributor-link" target="_blank" rel="noopener noreferrer">@G-Rath</a>
+            <a href="https://github.com/renovate-bot" class="contributor-link" target="_blank" rel="noopener noreferrer">@renovate-bot</a>
+            <a href="https://github.com/cuixq" class="contributor-link" target="_blank" rel="noopener noreferrer">@cuixq</a>
+            <a href="https://github.com/osv-robot" class="contributor-link" target="_blank" rel="noopener noreferrer">@osv-robot</a>
+        </div>
+    </div>
+</div>
+<div class="repo-card">
+    <div class="repo-header">
+        <div class="repo-rank" aria-label="Rank 2">2</div>
+        <div class="repo-title">
+            <a href="https://github.com/microsoft/typescript-go" target="_blank" rel="noopener noreferrer">microsoft/typescript-go</a>
+        </div>
+    </div>
+    <p class="repo-description">Staging repo for development of native port of TypeScript</p>
+    <div class="repo-stats">
+        <span class="badge badge-stars"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg> 25,029 stars</span>
+        <span class="badge badge-forks"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><circle cx="18" cy="6" r="3"/><path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9"/><line x1="12" y1="12" x2="12" y2="15"/></svg> 907 forks</span>
+        <span class="badge badge-language"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg> Go</span>
+        <span class="badge badge-today"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg> 38 stars today</span>
+    </div>
+    <div class="contributors">
+        <div class="contributors-label">Built by:</div>
+        <div class="contributors-list">
+            <a href="https://github.com/jakebailey" class="contributor-link" target="_blank" rel="noopener noreferrer">@jakebailey</a>
+            <a href="https://github.com/ahejlsberg" class="contributor-link" target="_blank" rel="noopener noreferrer">@ahejlsberg</a>
+            <a href="https://github.com/andrewbranch" class="contributor-link" target="_blank" rel="noopener noreferrer">@andrewbranch</a>
+            <a href="https://github.com/Copilot" class="contributor-link" target="_blank" rel="noopener noreferrer">@Copilot</a>
+            <a href="https://github.com/Andarist" class="contributor-link" target="_blank" rel="noopener noreferrer">@Andarist</a>
+        </div>
+    </div>
+</div>
+<div class="repo-card">
+    <div class="repo-header">
+        <div class="repo-rank" aria-label="Rank 3">3</div>
+        <div class="repo-title">
+            <a href="https://github.com/pingcap/tidb" target="_blank" rel="noopener noreferrer">pingcap/tidb</a>
+        </div>
+    </div>
+    <p class="repo-description">TiDB is built for agentic workloads that grow unpredictably, with ACID guarantees and native support for transactions, analytics, and vector search. No data silos. No noisy neighbors. No infrastructure ceiling.</p>
+    <div class="repo-stats">
+        <span class="badge badge-stars"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg> 40,023 stars</span>
+        <span class="badge badge-forks"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><circle cx="18" cy="6" r="3"/><path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9"/><line x1="12" y1="12" x2="12" y2="15"/></svg> 6,177 forks</span>
+        <span class="badge badge-language"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg> Go</span>
+        <span class="badge badge-today"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg> 8 stars today</span>
+    </div>
+    <div class="contributors">
+        <div class="contributors-label">Built by:</div>
+        <div class="contributors-list">
+            <a href="https://github.com/hawkingrei" class="contributor-link" target="_blank" rel="noopener noreferrer">@hawkingrei</a>
+            <a href="https://github.com/tiancaiamao" class="contributor-link" target="_blank" rel="noopener noreferrer">@tiancaiamao</a>
+            <a href="https://github.com/coocood" class="contributor-link" target="_blank" rel="noopener noreferrer">@coocood</a>
+            <a href="https://github.com/zimulala" class="contributor-link" target="_blank" rel="noopener noreferrer">@zimulala</a>
+            <a href="https://github.com/qw4990" class="contributor-link" target="_blank" rel="noopener noreferrer">@qw4990</a>
+        </div>
+    </div>
+</div>
+<div class="repo-card">
+    <div class="repo-header">
+        <div class="repo-rank" aria-label="Rank 4">4</div>
+        <div class="repo-title">
+            <a href="https://github.com/danielmiessler/Fabric" target="_blank" rel="noopener noreferrer">danielmiessler/Fabric</a>
+        </div>
+    </div>
+    <p class="repo-description">Fabric is an open-source framework for augmenting humans using AI. It provides a modular system for solving specific problems using a crowdsourced set of AI prompts that can be used anywhere.</p>
+    <div class="repo-stats">
+        <span class="badge badge-stars"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg> 41,032 stars</span>
+        <span class="badge badge-forks"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><circle cx="18" cy="6" r="3"/><path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9"/><line x1="12" y1="12" x2="12" y2="15"/></svg> 4,088 forks</span>
+        <span class="badge badge-language"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg> Go</span>
+        <span class="badge badge-today"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg> 55 stars today</span>
+    </div>
+    <div class="contributors">
+        <div class="contributors-label">Built by:</div>
+        <div class="contributors-list">
+            <a href="https://github.com/danielmiessler" class="contributor-link" target="_blank" rel="noopener noreferrer">@danielmiessler</a>
+            <a href="https://github.com/ksylvan" class="contributor-link" target="_blank" rel="noopener noreferrer">@ksylvan</a>
+            <a href="https://github.com/github-actions" class="contributor-link" target="_blank" rel="noopener noreferrer">@github-actions</a>
+            <a href="https://github.com/eugeis" class="contributor-link" target="_blank" rel="noopener noreferrer">@eugeis</a>
+            <a href="https://github.com/xssdoctor" class="contributor-link" target="_blank" rel="noopener noreferrer">@xssdoctor</a>
+        </div>
+    </div>
+</div>
+<div class="repo-card">
+    <div class="repo-header">
+        <div class="repo-rank" aria-label="Rank 5">5</div>
+        <div class="repo-title">
+            <a href="https://github.com/hatchet-dev/hatchet" target="_blank" rel="noopener noreferrer">hatchet-dev/hatchet</a>
+        </div>
+    </div>
+    <p class="repo-description">🪓 Run Background Tasks at Scale</p>
+    <div class="repo-stats">
+        <span class="badge badge-stars"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg> 6,971 stars</span>
+        <span class="badge badge-forks"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><circle cx="18" cy="6" r="3"/><path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9"/><line x1="12" y1="12" x2="12" y2="15"/></svg> 353 forks</span>
+        <span class="badge badge-language"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg> Go</span>
+        <span class="badge badge-today"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg> 55 stars today</span>
+    </div>
+    <div class="contributors">
+        <div class="contributors-label">Built by:</div>
+        <div class="contributors-list">
+            <a href="https://github.com/dependabot" class="contributor-link" target="_blank" rel="noopener noreferrer">@dependabot</a>
+            <a href="https://github.com/abelanger5" class="contributor-link" target="_blank" rel="noopener noreferrer">@abelanger5</a>
+            <a href="https://github.com/grutt" class="contributor-link" target="_blank" rel="noopener noreferrer">@grutt</a>
+            <a href="https://github.com/mrkaye97" class="contributor-link" target="_blank" rel="noopener noreferrer">@mrkaye97</a>
+            <a href="https://github.com/mnafees" class="contributor-link" target="_blank" rel="noopener noreferrer">@mnafees</a>
+        </div>
+    </div>
+</div>
+<div class="repo-card">
+    <div class="repo-header">
+        <div class="repo-rank" aria-label="Rank 6">6</div>
+        <div class="repo-title">
+            <a href="https://github.com/vxcontrol/pentagi" target="_blank" rel="noopener noreferrer">vxcontrol/pentagi</a>
+        </div>
+    </div>
+    <p class="repo-description">Fully autonomous AI Agents system capable of performing complex penetration testing tasks</p>
+    <div class="repo-stats">
+        <span class="badge badge-stars"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg> 15,573 stars</span>
+        <span class="badge badge-forks"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><circle cx="18" cy="6" r="3"/><path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9"/><line x1="12" y1="12" x2="12" y2="15"/></svg> 2,101 forks</span>
+        <span class="badge badge-language"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg> Go</span>
+        <span class="badge badge-today"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg> 98 stars today</span>
+    </div>
+    <div class="contributors">
+        <div class="contributors-label">Built by:</div>
+        <div class="contributors-list">
+            <a href="https://github.com/asdek" class="contributor-link" target="_blank" rel="noopener noreferrer">@asdek</a>
+            <a href="https://github.com/mason5052" class="contributor-link" target="_blank" rel="noopener noreferrer">@mason5052</a>
+            <a href="https://github.com/sirozha" class="contributor-link" target="_blank" rel="noopener noreferrer">@sirozha</a>
+            <a href="https://github.com/dependabot" class="contributor-link" target="_blank" rel="noopener noreferrer">@dependabot</a>
+            <a href="https://github.com/hhktony" class="contributor-link" target="_blank" rel="noopener noreferrer">@hhktony</a>
+        </div>
+    </div>
+</div>
+<div class="repo-card">
+    <div class="repo-header">
+        <div class="repo-rank" aria-label="Rank 7">7</div>
+        <div class="repo-title">
+            <a href="https://github.com/Wei-Shaw/sub2api" target="_blank" rel="noopener noreferrer">Wei-Shaw/sub2api</a>
+        </div>
+    </div>
+    <p class="repo-description">Sub2API-CRS2 一站式开源中转服务，让 Claude、Openai 、Gemini、Antigravity订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。</p>
+    <div class="repo-stats">
+        <span class="badge badge-stars"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg> 15,215 stars</span>
+        <span class="badge badge-forks"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><circle cx="18" cy="6" r="3"/><path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9"/><line x1="12" y1="12" x2="12" y2="15"/></svg> 2,657 forks</span>
+        <span class="badge badge-language"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg> Go</span>
+        <span class="badge badge-today"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg> 373 stars today</span>
+    </div>
+    <div class="contributors">
+        <div class="contributors-label">Built by:</div>
+        <div class="contributors-list">
+            <a href="https://github.com/Wei-Shaw" class="contributor-link" target="_blank" rel="noopener noreferrer">@Wei-Shaw</a>
+            <a href="https://github.com/IanShaw027" class="contributor-link" target="_blank" rel="noopener noreferrer">@IanShaw027</a>
+            <a href="https://github.com/touwaeriol" class="contributor-link" target="_blank" rel="noopener noreferrer">@touwaeriol</a>
+            <a href="https://github.com/claude" class="contributor-link" target="_blank" rel="noopener noreferrer">@claude</a>
+            <a href="https://github.com/slovx2" class="contributor-link" target="_blank" rel="noopener noreferrer">@slovx2</a>
+        </div>
+    </div>
+</div>
+<div class="repo-card">
+    <div class="repo-header">
+        <div class="repo-rank" aria-label="Rank 8">8</div>
+        <div class="repo-title">
+            <a href="https://github.com/sivchari/kumo" target="_blank" rel="noopener noreferrer">sivchari/kumo</a>
+        </div>
+    </div>
+    <p class="repo-description">A lightweight AWS service emulator written in Go</p>
+    <div class="repo-stats">
+        <span class="badge badge-stars"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg> 1,011 stars</span>
+        <span class="badge badge-forks"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><circle cx="18" cy="6" r="3"/><path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9"/><line x1="12" y1="12" x2="12" y2="15"/></svg> 49 forks</span>
+        <span class="badge badge-language"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg> Go</span>
+        <span class="badge badge-today"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg> 44 stars today</span>
+    </div>
+    <div class="contributors">
+        <div class="contributors-label">Built by:</div>
+        <div class="contributors-list">
+            <a href="https://github.com/sivchari" class="contributor-link" target="_blank" rel="noopener noreferrer">@sivchari</a>
+            <a href="https://github.com/github-actions" class="contributor-link" target="_blank" rel="noopener noreferrer">@github-actions</a>
+            <a href="https://github.com/kahirokunn" class="contributor-link" target="_blank" rel="noopener noreferrer">@kahirokunn</a>
+            <a href="https://github.com/claude" class="contributor-link" target="_blank" rel="noopener noreferrer">@claude</a>
+            <a href="https://github.com/tchssk" class="contributor-link" target="_blank" rel="noopener noreferrer">@tchssk</a>
+        </div>
+    </div>
+</div>
+<div class="repo-card">
+    <div class="repo-header">
+        <div class="repo-rank" aria-label="Rank 9">9</div>
+        <div class="repo-title">
+            <a href="https://github.com/kubernetes-sigs/gateway-api" target="_blank" rel="noopener noreferrer">kubernetes-sigs/gateway-api</a>
+        </div>
+    </div>
+    <p class="repo-description">Repository for the next iteration of composite service (e.g. Ingress) and load balancing APIs.</p>
+    <div class="repo-stats">
+        <span class="badge badge-stars"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg> 2,809 stars</span>
+        <span class="badge badge-forks"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><circle cx="18" cy="6" r="3"/><path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9"/><line x1="12" y1="12" x2="12" y2="15"/></svg> 703 forks</span>
+        <span class="badge badge-language"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg> Go</span>
+        <span class="badge badge-today"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg> 7 stars today</span>
+    </div>
+    <div class="contributors">
+        <div class="contributors-label">Built by:</div>
+        <div class="contributors-list">
+            <a href="https://github.com/k8s-ci-robot" class="contributor-link" target="_blank" rel="noopener noreferrer">@k8s-ci-robot</a>
+            <a href="https://github.com/robscott" class="contributor-link" target="_blank" rel="noopener noreferrer">@robscott</a>
+            <a href="https://github.com/dependabot" class="contributor-link" target="_blank" rel="noopener noreferrer">@dependabot</a>
+            <a href="https://github.com/shaneutt" class="contributor-link" target="_blank" rel="noopener noreferrer">@shaneutt</a>
+            <a href="https://github.com/howardjohn" class="contributor-link" target="_blank" rel="noopener noreferrer">@howardjohn</a>
+        </div>
+    </div>
+</div>
+<div class="repo-card">
+    <div class="repo-header">
+        <div class="repo-rank" aria-label="Rank 10">10</div>
+        <div class="repo-title">
+            <a href="https://github.com/operacle/checkcle" target="_blank" rel="noopener noreferrer">operacle/checkcle</a>
+        </div>
+    </div>
+    <p class="repo-description">CheckCle is a self-hosted, open-source monitoring platform for seamless, real-time full-stack systems, applications, and infrastructure. It provides real-time uptime monitoring, distributed checks, incident tracking, and alerts. All deployable anywhere.</p>
+    <div class="repo-stats">
+        <span class="badge badge-stars"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg> 2,601 stars</span>
+        <span class="badge badge-forks"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><circle cx="18" cy="6" r="3"/><path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9"/><line x1="12" y1="12" x2="12" y2="15"/></svg> 196 forks</span>
+        <span class="badge badge-language"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg> Go</span>
+        <span class="badge badge-today"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg> 18 stars today</span>
+    </div>
+    <div class="contributors">
+        <div class="contributors-label">Built by:</div>
+        <div class="contributors-list">
+            <a href="https://github.com/tolaleng" class="contributor-link" target="_blank" rel="noopener noreferrer">@tolaleng</a>
+            <a href="https://github.com/ghotso" class="contributor-link" target="_blank" rel="noopener noreferrer">@ghotso</a>
+            <a href="https://github.com/sqkkyzx" class="contributor-link" target="_blank" rel="noopener noreferrer">@sqkkyzx</a>
+            <a href="https://github.com/gnsworks" class="contributor-link" target="_blank" rel="noopener noreferrer">@gnsworks</a>
+            <a href="https://github.com/samang-dauth" class="contributor-link" target="_blank" rel="noopener noreferrer">@samang-dauth</a>
+        </div>
+    </div>
+</div>
+<div class="repo-card">
+    <div class="repo-header">
+        <div class="repo-rank" aria-label="Rank 11">11</div>
+        <div class="repo-title">
+            <a href="https://github.com/fleetdm/fleet" target="_blank" rel="noopener noreferrer">fleetdm/fleet</a>
+        </div>
+    </div>
+    <p class="repo-description">Open device management</p>
+    <div class="repo-stats">
+        <span class="badge badge-stars"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg> 6,287 stars</span>
+        <span class="badge badge-forks"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><circle cx="18" cy="6" r="3"/><path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9"/><line x1="12" y1="12" x2="12" y2="15"/></svg> 849 forks</span>
+        <span class="badge badge-language"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg> Go</span>
+        <span class="badge badge-today"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg> 9 stars today</span>
+    </div>
+    <div class="contributors">
+        <div class="contributors-label">Built by:</div>
+        <div class="contributors-list">
+            <a href="https://github.com/eashaw" class="contributor-link" target="_blank" rel="noopener noreferrer">@eashaw</a>
+            <a href="https://github.com/noahtalerman" class="contributor-link" target="_blank" rel="noopener noreferrer">@noahtalerman</a>
+            <a href="https://github.com/RachelElysia" class="contributor-link" target="_blank" rel="noopener noreferrer">@RachelElysia</a>
+            <a href="https://github.com/mikermcneil" class="contributor-link" target="_blank" rel="noopener noreferrer">@mikermcneil</a>
+            <a href="https://github.com/zwass" class="contributor-link" target="_blank" rel="noopener noreferrer">@zwass</a>
+        </div>
+    </div>
+</div>
+<div class="repo-card">
+    <div class="repo-header">
+        <div class="repo-rank" aria-label="Rank 12">12</div>
+        <div class="repo-title">
+            <a href="https://github.com/masterking32/MasterDnsVPN" target="_blank" rel="noopener noreferrer">masterking32/MasterDnsVPN</a>
+        </div>
+    </div>
+    <p class="repo-description">Advanced DNS tunneling VPN for censorship bypass, optimized beyond DNSTT and SlipStream with low-overhead ARQ, resolver load balancing, high packet-loss stability and speed.</p>
+    <div class="repo-stats">
+        <span class="badge badge-stars"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg> 922 stars</span>
+        <span class="badge badge-forks"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><circle cx="18" cy="6" r="3"/><path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9"/><line x1="12" y1="12" x2="12" y2="15"/></svg> 79 forks</span>
+        <span class="badge badge-language"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg> Go</span>
+        <span class="badge badge-today"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg> 28 stars today</span>
+    </div>
+    <div class="contributors">
+        <div class="contributors-label">Built by:</div>
+        <div class="contributors-list">
+            <a href="https://github.com/masterking32" class="contributor-link" target="_blank" rel="noopener noreferrer">@masterking32</a>
+            <a href="https://github.com/abolix" class="contributor-link" target="_blank" rel="noopener noreferrer">@abolix</a>
+            <a href="https://github.com/PentSec" class="contributor-link" target="_blank" rel="noopener noreferrer">@PentSec</a>
+            <a href="https://github.com/MahdiMirzadeh" class="contributor-link" target="_blank" rel="noopener noreferrer">@MahdiMirzadeh</a>
+            <a href="https://github.com/typerhack" class="contributor-link" target="_blank" rel="noopener noreferrer">@typerhack</a>
+        </div>
+    </div>
+</div>
+<div class="repo-card">
+    <div class="repo-header">
+        <div class="repo-rank" aria-label="Rank 13">13</div>
+        <div class="repo-title">
+            <a href="https://github.com/pressly/goose" target="_blank" rel="noopener noreferrer">pressly/goose</a>
+        </div>
+    </div>
+    <p class="repo-description">A database migration tool. Supports SQL migrations and Go functions.</p>
+    <div class="repo-stats">
+        <span class="badge badge-stars"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg> 10,567 stars</span>
+        <span class="badge badge-forks"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><circle cx="18" cy="6" r="3"/><path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9"/><line x1="12" y1="12" x2="12" y2="15"/></svg> 644 forks</span>
+        <span class="badge badge-language"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg> Go</span>
+        <span class="badge badge-today"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg> 8 stars today</span>
+    </div>
+    <div class="contributors">
+        <div class="contributors-label">Built by:</div>
+        <div class="contributors-list">
+            <a href="https://github.com/mfridman" class="contributor-link" target="_blank" rel="noopener noreferrer">@mfridman</a>
+            <a href="https://github.com/VojtechVitek" class="contributor-link" target="_blank" rel="noopener noreferrer">@VojtechVitek</a>
+            <a href="https://github.com/liamstask" class="contributor-link" target="_blank" rel="noopener noreferrer">@liamstask</a>
+            <a href="https://github.com/dependabot" class="contributor-link" target="_blank" rel="noopener noreferrer">@dependabot</a>
+            <a href="https://github.com/1vn" class="contributor-link" target="_blank" rel="noopener noreferrer">@1vn</a>
+        </div>
+    </div>
+</div>
+<div class="repo-card">
+    <div class="repo-header">
+        <div class="repo-rank" aria-label="Rank 14">14</div>
+        <div class="repo-title">
+            <a href="https://github.com/hashicorp/terraform-provider-azurerm" target="_blank" rel="noopener noreferrer">hashicorp/terraform-provider-azurerm</a>
+        </div>
+    </div>
+    <p class="repo-description">Terraform provider for Azure Resource Manager</p>
+    <div class="repo-stats">
+        <span class="badge badge-stars"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg> 4,925 stars</span>
+        <span class="badge badge-forks"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><circle cx="18" cy="6" r="3"/><path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9"/><line x1="12" y1="12" x2="12" y2="15"/></svg> 4,986 forks</span>
+        <span class="badge badge-language"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg> Go</span>
+        <span class="badge badge-today"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg> 2 stars today</span>
+    </div>
+    <div class="contributors">
+        <div class="contributors-label">Built by:</div>
+        <div class="contributors-list">
+            <a href="https://github.com/tombuildsstuff" class="contributor-link" target="_blank" rel="noopener noreferrer">@tombuildsstuff</a>
+            <a href="https://github.com/katbyte" class="contributor-link" target="_blank" rel="noopener noreferrer">@katbyte</a>
+            <a href="https://github.com/mbfrahry" class="contributor-link" target="_blank" rel="noopener noreferrer">@mbfrahry</a>
+            <a href="https://github.com/jackofallops" class="contributor-link" target="_blank" rel="noopener noreferrer">@jackofallops</a>
+            <a href="https://github.com/stephybun" class="contributor-link" target="_blank" rel="noopener noreferrer">@stephybun</a>
+        </div>
+    </div>
+</div>
+<div class="repo-card">
+    <div class="repo-header">
+        <div class="repo-rank" aria-label="Rank 15">15</div>
+        <div class="repo-title">
+            <a href="https://github.com/grafana/loki" target="_blank" rel="noopener noreferrer">grafana/loki</a>
+        </div>
+    </div>
+    <p class="repo-description">Like Prometheus, but for logs.</p>
+    <div class="repo-stats">
+        <span class="badge badge-stars"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg> 28,079 stars</span>
+        <span class="badge badge-forks"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><circle cx="18" cy="6" r="3"/><path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9"/><line x1="12" y1="12" x2="12" y2="15"/></svg> 3,978 forks</span>
+        <span class="badge badge-language"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg> Go</span>
+        <span class="badge badge-today"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg> 13 stars today</span>
+    </div>
+    <div class="contributors">
+        <div class="contributors-label">Built by:</div>
+        <div class="contributors-list">
+            <a href="https://github.com/renovate" class="contributor-link" target="_blank" rel="noopener noreferrer">@renovate</a>
+            <a href="https://github.com/JStickler" class="contributor-link" target="_blank" rel="noopener noreferrer">@JStickler</a>
+            <a href="https://github.com/cyriltovena" class="contributor-link" target="_blank" rel="noopener noreferrer">@cyriltovena</a>
+            <a href="https://github.com/chaudum" class="contributor-link" target="_blank" rel="noopener noreferrer">@chaudum</a>
+            <a href="https://github.com/owen-d" class="contributor-link" target="_blank" rel="noopener noreferrer">@owen-d</a>
+        </div>
+    </div>
+</div>
+<div class="repo-card">
+    <div class="repo-header">
+        <div class="repo-rank" aria-label="Rank 16">16</div>
+        <div class="repo-title">
+            <a href="https://github.com/distribution/distribution" target="_blank" rel="noopener noreferrer">distribution/distribution</a>
+        </div>
+    </div>
+    <p class="repo-description">The toolkit to pack, ship, store, and deliver container content</p>
+    <div class="repo-stats">
+        <span class="badge badge-stars"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg> 10,374 stars</span>
+        <span class="badge badge-forks"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><circle cx="18" cy="6" r="3"/><path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9"/><line x1="12" y1="12" x2="12" y2="15"/></svg> 2,739 forks</span>
+        <span class="badge badge-language"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg> Go</span>
+        <span class="badge badge-today"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg> 2 stars today</span>
+    </div>
+    <div class="contributors">
+        <div class="contributors-label">Built by:</div>
+        <div class="contributors-list">
+            <a href="https://github.com/stevvooe" class="contributor-link" target="_blank" rel="noopener noreferrer">@stevvooe</a>
+            <a href="https://github.com/milosgajdos" class="contributor-link" target="_blank" rel="noopener noreferrer">@milosgajdos</a>
+            <a href="https://github.com/dmcgowan" class="contributor-link" target="_blank" rel="noopener noreferrer">@dmcgowan</a>
+            <a href="https://github.com/dmp42" class="contributor-link" target="_blank" rel="noopener noreferrer">@dmp42</a>
+            <a href="https://github.com/thaJeztah" class="contributor-link" target="_blank" rel="noopener noreferrer">@thaJeztah</a>
+        </div>
+    </div>
+</div>
+<div class="repo-card">
+    <div class="repo-header">
+        <div class="repo-rank" aria-label="Rank 17">17</div>
+        <div class="repo-title">
+            <a href="https://github.com/gorilla/websocket" target="_blank" rel="noopener noreferrer">gorilla/websocket</a>
+        </div>
+    </div>
+    <p class="repo-description">Package gorilla/websocket is a fast, well-tested and widely used WebSocket implementation for Go.</p>
+    <div class="repo-stats">
+        <span class="badge badge-stars"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg> 24,666 stars</span>
+        <span class="badge badge-forks"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><circle cx="18" cy="6" r="3"/><path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9"/><line x1="12" y1="12" x2="12" y2="15"/></svg> 3,578 forks</span>
+        <span class="badge badge-language"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg> Go</span>
+        <span class="badge badge-today"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg> 5 stars today</span>
+    </div>
+    <div class="contributors">
+        <div class="contributors-label">Built by:</div>
+        <div class="contributors-list">
+            <a href="https://github.com/fancycode" class="contributor-link" target="_blank" rel="noopener noreferrer">@fancycode</a>
+            <a href="https://github.com/elithrar" class="contributor-link" target="_blank" rel="noopener noreferrer">@elithrar</a>
+            <a href="https://github.com/rfyiamcool" class="contributor-link" target="_blank" rel="noopener noreferrer">@rfyiamcool</a>
+            <a href="https://github.com/FZambia" class="contributor-link" target="_blank" rel="noopener noreferrer">@FZambia</a>
+            <a href="https://github.com/apoorvajagtap" class="contributor-link" target="_blank" rel="noopener noreferrer">@apoorvajagtap</a>
+        </div>
+    </div>
+</div>
+<div class="repo-card">
+    <div class="repo-header">
+        <div class="repo-rank" aria-label="Rank 18">18</div>
+        <div class="repo-title">
+            <a href="https://github.com/jackc/pgx" target="_blank" rel="noopener noreferrer">jackc/pgx</a>
+        </div>
+    </div>
+    <p class="repo-description">PostgreSQL driver and toolkit for Go</p>
+    <div class="repo-stats">
+        <span class="badge badge-stars"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg> 13,695 stars</span>
+        <span class="badge badge-forks"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><circle cx="18" cy="6" r="3"/><path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9"/><line x1="12" y1="12" x2="12" y2="15"/></svg> 1,016 forks</span>
+        <span class="badge badge-language"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg> Go</span>
+        <span class="badge badge-today"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg> 10 stars today</span>
+    </div>
+    <div class="contributors">
+        <div class="contributors-label">Built by:</div>
+        <div class="contributors-list">
+            <a href="https://github.com/jackc" class="contributor-link" target="_blank" rel="noopener noreferrer">@jackc</a>
+            <a href="https://github.com/manniwood" class="contributor-link" target="_blank" rel="noopener noreferrer">@manniwood</a>
+            <a href="https://github.com/furdarius" class="contributor-link" target="_blank" rel="noopener noreferrer">@furdarius</a>
+            <a href="https://github.com/claude" class="contributor-link" target="_blank" rel="noopener noreferrer">@claude</a>
+            <a href="https://github.com/drakkan" class="contributor-link" target="_blank" rel="noopener noreferrer">@drakkan</a>
+        </div>
+    </div>
+</div>
+<div class="repo-card">
+    <div class="repo-header">
+        <div class="repo-rank" aria-label="Rank 19">19</div>
+        <div class="repo-title">
+            <a href="https://github.com/gastownhall/beads" target="_blank" rel="noopener noreferrer">gastownhall/beads</a>
+        </div>
+    </div>
+    <p class="repo-description">Beads - A memory upgrade for your coding agent</p>
+    <div class="repo-stats">
+        <span class="badge badge-stars"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg> 21,220 stars</span>
+        <span class="badge badge-forks"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><circle cx="18" cy="6" r="3"/><path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9"/><line x1="12" y1="12" x2="12" y2="15"/></svg> 1,421 forks</span>
+        <span class="badge badge-language"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg> Go</span>
+        <span class="badge badge-today"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg> 49 stars today</span>
+    </div>
+    <div class="contributors">
+        <div class="contributors-label">Built by:</div>
+        <div class="contributors-list">
+            <a href="https://github.com/steveyegge" class="contributor-link" target="_blank" rel="noopener noreferrer">@steveyegge</a>
+            <a href="https://github.com/claude" class="contributor-link" target="_blank" rel="noopener noreferrer">@claude</a>
+            <a href="https://github.com/ampcode-com" class="contributor-link" target="_blank" rel="noopener noreferrer">@ampcode-com</a>
+            <a href="https://github.com/maphew" class="contributor-link" target="_blank" rel="noopener noreferrer">@maphew</a>
+            <a href="https://github.com/coffeegoddd" class="contributor-link" target="_blank" rel="noopener noreferrer">@coffeegoddd</a>
+        </div>
+    </div>
+</div>
+<div class="repo-card">
+    <div class="repo-header">
+        <div class="repo-rank" aria-label="Rank 20">20</div>
+        <div class="repo-title">
+            <a href="https://github.com/looplj/axonhub" target="_blank" rel="noopener noreferrer">looplj/axonhub</a>
+        </div>
+    </div>
+    <p class="repo-description">⚡️ Open-source AI Gateway — Use any SDK to call 100+ LLMs. Built-in failover, load balancing, cost control &amp; end-to-end tracing.</p>
+    <div class="repo-stats">
+        <span class="badge badge-stars"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg> 3,337 stars</span>
+        <span class="badge badge-forks"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><circle cx="18" cy="6" r="3"/><path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9"/><line x1="12" y1="12" x2="12" y2="15"/></svg> 381 forks</span>
+        <span class="badge badge-language"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg> Go</span>
+        <span class="badge badge-today"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg> 26 stars today</span>
+    </div>
+    <div class="contributors">
+        <div class="contributors-label">Built by:</div>
+        <div class="contributors-list">
+            <a href="https://github.com/looplj" class="contributor-link" target="_blank" rel="noopener noreferrer">@looplj</a>
+            <a href="https://github.com/github-actions" class="contributor-link" target="_blank" rel="noopener noreferrer">@github-actions</a>
+            <a href="https://github.com/djdembeck" class="contributor-link" target="_blank" rel="noopener noreferrer">@djdembeck</a>
+            <a href="https://github.com/sisyphus-dev-ai" class="contributor-link" target="_blank" rel="noopener noreferrer">@sisyphus-dev-ai</a>
+            <a href="https://github.com/gemini-code-assist" class="contributor-link" target="_blank" rel="noopener noreferrer">@gemini-code-assist</a>
+        </div>
+    </div>
+</div>
+<div class="repo-card">
+    <div class="repo-header">
+        <div class="repo-rank" aria-label="Rank 21">21</div>
+        <div class="repo-title">
+            <a href="https://github.com/containers/podman" target="_blank" rel="noopener noreferrer">containers/podman</a>
+        </div>
+    </div>
+    <p class="repo-description">Podman: A tool for managing OCI containers and pods.</p>
+    <div class="repo-stats">
+        <span class="badge badge-stars"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg> 31,506 stars</span>
+        <span class="badge badge-forks"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><circle cx="18" cy="6" r="3"/><path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9"/><line x1="12" y1="12" x2="12" y2="15"/></svg> 3,071 forks</span>
+        <span class="badge badge-language"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg> Go</span>
+        <span class="badge badge-today"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg> 16 stars today</span>
+    </div>
+    <div class="contributors">
+        <div class="contributors-label">Built by:</div>
+        <div class="contributors-list">
+            <a href="https://github.com/openshift-merge-robot" class="contributor-link" target="_blank" rel="noopener noreferrer">@openshift-merge-robot</a>
+            <a href="https://github.com/openshift-merge-bot" class="contributor-link" target="_blank" rel="noopener noreferrer">@openshift-merge-bot</a>
+            <a href="https://github.com/mheon" class="contributor-link" target="_blank" rel="noopener noreferrer">@mheon</a>
+            <a href="https://github.com/rhatdan" class="contributor-link" target="_blank" rel="noopener noreferrer">@rhatdan</a>
+            <a href="https://github.com/Luap99" class="contributor-link" target="_blank" rel="noopener noreferrer">@Luap99</a>
+        </div>
+    </div>
+</div>
+<div class="repo-card">
+    <div class="repo-header">
+        <div class="repo-rank" aria-label="Rank 22">22</div>
+        <div class="repo-title">
+            <a href="https://github.com/go-delve/delve" target="_blank" rel="noopener noreferrer">go-delve/delve</a>
+        </div>
+    </div>
+    <p class="repo-description">Delve is a debugger for the Go programming language.</p>
+    <div class="repo-stats">
+        <span class="badge badge-stars"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg> 24,699 stars</span>
+        <span class="badge badge-forks"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><circle cx="18" cy="6" r="3"/><path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9"/><line x1="12" y1="12" x2="12" y2="15"/></svg> 2,201 forks</span>
+        <span class="badge badge-language"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg> Go</span>
+        <span class="badge badge-today"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg> 4 stars today</span>
+    </div>
+    <div class="contributors">
+        <div class="contributors-label">Built by:</div>
+        <div class="contributors-list">
+            <a href="https://github.com/aarzilli" class="contributor-link" target="_blank" rel="noopener noreferrer">@aarzilli</a>
+            <a href="https://github.com/derekparker" class="contributor-link" target="_blank" rel="noopener noreferrer">@derekparker</a>
+            <a href="https://github.com/polinasok" class="contributor-link" target="_blank" rel="noopener noreferrer">@polinasok</a>
+            <a href="https://github.com/suzmue" class="contributor-link" target="_blank" rel="noopener noreferrer">@suzmue</a>
+            <a href="https://github.com/alexandear" class="contributor-link" target="_blank" rel="noopener noreferrer">@alexandear</a>
+        </div>
+    </div>
+</div>
+        </div>
+        <div class="footer">
+            <p>Last updated: 2026-04-25 &mdash; <a href="../../../index.html" style="color:inherit">Back to dashboard</a></p>
+            <p>Generated by GitHub Trending Scraper</p>
+        </div>
+    </div>
+</body>
+</html>
