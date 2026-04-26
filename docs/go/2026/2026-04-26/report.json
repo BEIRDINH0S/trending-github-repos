@@ -1,0 +1,353 @@
+{
+  "metadata": {
+    "date": "2026-04-26",
+    "language": "go",
+    "total_repositories": 20,
+    "total_stars": 470285,
+    "total_forks": 73932,
+    "generated_by": "GitHub Trending Scraper",
+    "format_version": "1.0"
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "google/osv-scanner",
+      "url": "https://github.com/google/osv-scanner",
+      "description": "Vulnerability scanner written in Go which uses the data provided by https://osv.dev",
+      "language": "Go",
+      "stars": 9744,
+      "forks": 642,
+      "stars_today": "404 stars today",
+      "built_by": [
+        "another-rex",
+        "G-Rath",
+        "renovate-bot",
+        "cuixq",
+        "osv-robot"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "hatchet-dev/hatchet",
+      "url": "https://github.com/hatchet-dev/hatchet",
+      "description": "🪓 Run Background Tasks at Scale",
+      "language": "Go",
+      "stars": 6982,
+      "forks": 353,
+      "stars_today": "18 stars today",
+      "built_by": [
+        "dependabot",
+        "abelanger5",
+        "grutt",
+        "mrkaye97",
+        "mnafees"
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "etcd-io/etcd",
+      "url": "https://github.com/etcd-io/etcd",
+      "description": "Distributed reliable key-value store for the most critical data of a distributed system",
+      "language": "Go",
+      "stars": 51640,
+      "forks": 10325,
+      "stars_today": "10 stars today",
+      "built_by": [
+        "gyuho",
+        "xiang90",
+        "ahrtr",
+        "serathius",
+        "yichengq"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "kubernetes-sigs/agent-sandbox",
+      "url": "https://github.com/kubernetes-sigs/agent-sandbox",
+      "description": "agent-sandbox enables easy management of isolated, stateful, singleton workloads, ideal for use cases like AI agent runtimes.",
+      "language": "Go",
+      "stars": 1936,
+      "forks": 215,
+      "stars_today": "19 stars today",
+      "built_by": [
+        "k8s-ci-robot",
+        "janetkuo",
+        "justinsb",
+        "barney-s",
+        "shrutiyam-glitch"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "moby/moby",
+      "url": "https://github.com/moby/moby",
+      "description": "The Moby Project - a collaborative project for the container ecosystem to assemble container-based systems",
+      "language": "Go",
+      "stars": 71490,
+      "forks": 18920,
+      "stars_today": "2 stars today",
+      "built_by": [
+        "thaJeztah",
+        "cpuguy83",
+        "crosbymichael",
+        "vdemeester",
+        "vieux"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "microsoft/typescript-go",
+      "url": "https://github.com/microsoft/typescript-go",
+      "description": "Staging repo for development of native port of TypeScript",
+      "language": "Go",
+      "stars": 25091,
+      "forks": 912,
+      "stars_today": "130 stars today",
+      "built_by": [
+        "jakebailey",
+        "ahejlsberg",
+        "andrewbranch",
+        "Copilot",
+        "Andarist"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "Wei-Shaw/sub2api",
+      "url": "https://github.com/Wei-Shaw/sub2api",
+      "description": "Sub2API-CRS2 一站式开源中转服务，让 Claude、Openai 、Gemini、Antigravity订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
+      "language": "Go",
+      "stars": 15426,
+      "forks": 2706,
+      "stars_today": "240 stars today",
+      "built_by": [
+        "Wei-Shaw",
+        "IanShaw027",
+        "touwaeriol",
+        "claude",
+        "slovx2"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "gastownhall/gascity",
+      "url": "https://github.com/gastownhall/gascity",
+      "description": "Orchestration-builder SDK for multi-agent coding workflows",
+      "language": "Go",
+      "stars": 417,
+      "forks": 109,
+      "stars_today": "55 stars today",
+      "built_by": [
+        "julianknutsen",
+        "claude",
+        "sjarmak",
+        "GraemeF",
+        "csells"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "gin-gonic/gin",
+      "url": "https://github.com/gin-gonic/gin",
+      "description": "Gin is a high-performance HTTP web framework written in Go. It provides a Martini-like API but with significantly better performance—up to 40 times faster—thanks to httprouter. Gin is designed for building REST APIs, web applications, and microservices.",
+      "language": "Go",
+      "stars": 88378,
+      "forks": 8583,
+      "stars_today": "11 stars today",
+      "built_by": [
+        "manucorporat",
+        "appleboy",
+        "javierprovecho",
+        "thinkerou",
+        "dependabot"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "everywall/ladder",
+      "url": "https://github.com/everywall/ladder",
+      "description": "Selfhosted alternative to 12ft.io. and 1ft.io. Proxy to remove CORS headers and modify HTML",
+      "language": "Go",
+      "stars": 6438,
+      "forks": 301,
+      "stars_today": "9 stars today",
+      "built_by": [
+        "mms-gianni",
+        "joncrangle",
+        "deoxykev",
+        "boomam",
+        "dkbednarczyk"
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "cli/cli",
+      "url": "https://github.com/cli/cli",
+      "description": "GitHub’s official command line tool",
+      "language": "Go",
+      "stars": 44057,
+      "forks": 8336,
+      "stars_today": "25 stars today",
+      "built_by": [
+        "mislav",
+        "vilmibm",
+        "BagToad",
+        "williammartin",
+        "babakks"
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "aldinokemal/go-whatsapp-web-multidevice",
+      "url": "https://github.com/aldinokemal/go-whatsapp-web-multidevice",
+      "description": "GOWA - WhatsApp REST API with support for UI, Multi Account, Webhooks, and MCP, and Chatwoot. Built with Golang for efficient memory use.",
+      "language": "Go",
+      "stars": 3831,
+      "forks": 911,
+      "stars_today": "6 stars today",
+      "built_by": [
+        "aldinokemal",
+        "cursoragent",
+        "coderabbitai",
+        "AlmogBaku",
+        "claude"
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "kgateway-dev/kgateway",
+      "url": "https://github.com/kgateway-dev/kgateway",
+      "description": "The Cloud-Native API Gateway and AI Gateway",
+      "language": "Go",
+      "stars": 5468,
+      "forks": 744,
+      "stars_today": "3 stars today",
+      "built_by": [
+        "soloio-bulldozer",
+        "jenshu",
+        "kdorosh",
+        "sam-heilbron",
+        "yuval-k"
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "quic-go/quic-go",
+      "url": "https://github.com/quic-go/quic-go",
+      "description": "A production-ready QUIC implementation in pure Go",
+      "language": "Go",
+      "stars": 11553,
+      "forks": 1548,
+      "stars_today": "0 stars today",
+      "built_by": [
+        "marten-seemann",
+        "lucas-clemente",
+        "dependabot",
+        "WeidiDeng",
+        "Glonee"
+      ]
+    },
+    {
+      "rank": 15,
+      "name": "krillinai/KrillinAI",
+      "url": "https://github.com/krillinai/KrillinAI",
+      "description": "Video translation and dubbing tool powered by LLMs. The video translator offers 100 language translations and one-click full-process deployment. The video translation output is optimized for platforms like YouTube，TikTok. AI视频翻译配音工具，100种语言双向翻译，一键部署全流程，可以生抖音，小红书，哔哩哔哩，视频号，TikTok，Youtube等形态的内容成适配",
+      "language": "Go",
+      "stars": 9905,
+      "forks": 887,
+      "stars_today": "15 stars today",
+      "built_by": [
+        "maranello-o",
+        "wulien",
+        "krillinai",
+        "puji4810",
+        "PairZhu"
+      ]
+    },
+    {
+      "rank": 16,
+      "name": "grpc/grpc-go",
+      "url": "https://github.com/grpc/grpc-go",
+      "description": "The Go language implementation of gRPC. HTTP/2 based RPC",
+      "language": "Go",
+      "stars": 22918,
+      "forks": 4664,
+      "stars_today": "1 star today",
+      "built_by": [
+        "iamqizhao",
+        "menghanl",
+        "easwars",
+        "dfawley",
+        "zasweq"
+      ]
+    },
+    {
+      "rank": 17,
+      "name": "hashicorp/consul",
+      "url": "https://github.com/hashicorp/consul",
+      "description": "Consul is a distributed, highly available, and data center aware solution to connect and configure applications across dynamic, distributed infrastructure.",
+      "language": "Go",
+      "stars": 29860,
+      "forks": 4582,
+      "stars_today": "5 stars today",
+      "built_by": [
+        "slackpad",
+        "dnephin",
+        "armon",
+        "johncowen",
+        "mkeeler"
+      ]
+    },
+    {
+      "rank": 18,
+      "name": "hashicorp/vault",
+      "url": "https://github.com/hashicorp/vault",
+      "description": "A tool for secrets management, encryption as a service, and privileged access management",
+      "language": "Go",
+      "stars": 35502,
+      "forks": 4657,
+      "stars_today": "10 stars today",
+      "built_by": [
+        "jefferai",
+        "hc-github-team-secure-vault-core",
+        "vishalnayak",
+        "armon",
+        "ncabatoff"
+      ]
+    },
+    {
+      "rank": 19,
+      "name": "vxcontrol/pentagi",
+      "url": "https://github.com/vxcontrol/pentagi",
+      "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
+      "language": "Go",
+      "stars": 15629,
+      "forks": 2102,
+      "stars_today": "60 stars today",
+      "built_by": [
+        "asdek",
+        "mason5052",
+        "sirozha",
+        "dependabot",
+        "hhktony"
+      ]
+    },
+    {
+      "rank": 20,
+      "name": "coredns/coredns",
+      "url": "https://github.com/coredns/coredns",
+      "description": "CoreDNS is a DNS server that chains plugins",
+      "language": "Go",
+      "stars": 14020,
+      "forks": 2435,
+      "stars_today": "1 star today",
+      "built_by": [
+        "miekg",
+        "dependabot",
+        "chrisohaver",
+        "yongtang",
+        "dependabot-preview"
+      ]
+    }
+  ]
+}
