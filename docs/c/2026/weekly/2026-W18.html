@@ -1,0 +1,1085 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C Trending – Week 18 – 2026 | GitHub Trends</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <style>
+            /* ── Design tokens ── */
+            :root {
+                /* Backgrounds */
+                --bg-base:          #080C14;
+                --bg-surface:       rgba(8, 18, 36, 0.72);
+                --bg-elevated:      rgba(14, 28, 54, 0.80);
+                --bg-hover:         rgba(22, 42, 78, 0.60);
+
+                /* Borders */
+                --border-default:   rgba(255, 255, 255, 0.06);
+                --border-subtle:    rgba(255, 255, 255, 0.04);
+                --border-hover:     rgba(56, 189, 248, 0.35);
+                --border-glow:      rgba(139, 92, 246, 0.30);
+
+                /* Accent palette */
+                --color-primary:      #38BDF8;
+                --color-primary-dark: #0EA5E9;
+                --color-violet:       #A78BFA;
+                --color-emerald:      #34D399;
+                --color-amber:        #FBBF24;
+                --color-rose:         #FB7185;
+                --color-orange:       #FB923C;
+
+                /* Glows */
+                --glow-primary:  rgba(56, 189, 248, 0.14);
+                --glow-violet:   rgba(167, 139, 250, 0.12);
+                --glow-emerald:  rgba(52, 211, 153, 0.10);
+                --glow-amber:    rgba(251, 191, 36, 0.14);
+
+                /* Text */
+                --text-primary:  #E2E8F0;
+                --text-secondary:#94A3B8;
+                --text-muted:    #64748B;
+                --text-dim:      #475569;
+
+                /* Navbar */
+                --nav-bg:          rgba(6, 10, 20, 0.88);
+                --nav-border:      rgba(255, 255, 255, 0.07);
+                --nav-hover-bg:    rgba(255, 255, 255, 0.05);
+                --nav-text:        #E2E8F0;
+                --nav-text-muted:  #94A3B8;
+                --nav-text-dim:    #64748B;
+                --nav-accent:      #38BDF8;
+
+                /* Sidebar aliases (used by index_generator too) */
+                --sidebar-bg:      #080C14;
+                --sidebar-hover:   rgba(255,255,255,0.05);
+                --sidebar-border:  rgba(255,255,255,0.07);
+                --sidebar-accent:  #38BDF8;
+
+                /* Legacy aliases for backward-compat with renderer code */
+                --color-background:    #080C14;
+                --color-surface:       rgba(8, 18, 36, 0.72);
+                --color-border:        rgba(255,255,255,0.08);
+                --color-border-subtle: rgba(255,255,255,0.05);
+                --color-text:          #E2E8F0;
+                --color-text-muted:    #94A3B8;
+                --color-text-subtle:   #64748B;
+                --color-secondary:     #38BDF8;
+                --color-accent:        #FBBF24;
+                --color-primary-dark:  #0EA5E9;
+            }
+
+            /* ── Reset ── */
+            *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+            /* ── Body + aurora background ── */
+            body {
+                font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+                line-height: 1.65;
+                color: var(--text-primary);
+                background: var(--bg-base);
+                min-height: 100vh;
+                overflow-x: hidden;
+            }
+
+            /* Animated aurora mesh */
+            body::before {
+                content: '';
+                position: fixed;
+                inset: 0;
+                background:
+                    radial-gradient(ellipse 90% 60% at 15% 5%,  rgba(56, 189, 248, 0.08) 0%, transparent 60%),
+                    radial-gradient(ellipse 70% 55% at 85% 85%, rgba(139, 92, 246, 0.07) 0%, transparent 55%),
+                    radial-gradient(ellipse 55% 45% at 55% 40%, rgba(52, 211, 153, 0.04) 0%, transparent 50%),
+                    radial-gradient(ellipse 40% 35% at 30% 75%, rgba(251, 191, 36, 0.03) 0%, transparent 50%);
+                animation: aurora 24s ease-in-out infinite alternate;
+                pointer-events: none;
+                z-index: 0;
+            }
+
+            /* Dot-grid overlay */
+            body::after {
+                content: '';
+                position: fixed;
+                inset: 0;
+                background-image: radial-gradient(rgba(255, 255, 255, 0.028) 1px, transparent 1px);
+                background-size: 26px 26px;
+                pointer-events: none;
+                z-index: 0;
+            }
+
+            /* ── Keyframes ── */
+            @keyframes aurora {
+                0%   { opacity: 0.85; transform: scale(1.00) rotate(0deg); }
+                40%  { opacity: 1.00; transform: scale(1.04) rotate(1.2deg); }
+                100% { opacity: 0.90; transform: scale(1.02) rotate(-0.8deg); }
+            }
+
+            @keyframes fadeInUp {
+                from { opacity: 0; transform: translateY(18px); }
+                to   { opacity: 1; transform: translateY(0); }
+            }
+
+            @keyframes glowPulse {
+                0%, 100% { box-shadow: 0 0 0 0   rgba(56,189,248,0.40); }
+                50%       { box-shadow: 0 0 0 7px rgba(56,189,248,0.00); }
+            }
+
+            @keyframes shimmerSlide {
+                0%   { background-position: -200% center; }
+                100% { background-position:  200% center; }
+            }
+
+            @media (prefers-reduced-motion: reduce) {
+                body::before { animation: none; }
+                *, *::before, *::after {
+                    animation-duration: 0.01ms !important;
+                    transition-duration: 0.01ms !important;
+                }
+            }
+
+            /* ── Links ── */
+            a { color: inherit; text-decoration: none; }
+
+            /* ── Scrollbar ── */
+            ::-webkit-scrollbar          { width: 6px; height: 6px; }
+            ::-webkit-scrollbar-track    { background: transparent; }
+            ::-webkit-scrollbar-thumb    { background: rgba(255,255,255,0.10); border-radius: 3px; }
+            ::-webkit-scrollbar-thumb:hover { background: rgba(255,255,255,0.20); }
+
+            /* ── Layout container ── */
+            .container {
+                max-width: 1400px;
+                margin: 0 auto;
+                min-height: 100vh;
+                position: relative;
+                z-index: 1;
+            }
+
+            /* ── Page header ── */
+            .header {
+                padding: 3rem 2.5rem 2.25rem;
+                position: relative;
+                overflow: hidden;
+            }
+
+            .header::before {
+                content: '';
+                position: absolute;
+                inset: 0;
+                background: linear-gradient(135deg,
+                    rgba(56,189,248,0.07) 0%,
+                    rgba(139,92,246,0.05) 50%,
+                    transparent 100%);
+                pointer-events: none;
+            }
+
+            /* Bottom accent line */
+            .header::after {
+                content: '';
+                position: absolute;
+                bottom: 0; left: 0; right: 0;
+                height: 1px;
+                background: linear-gradient(90deg,
+                    transparent 0%,
+                    rgba(56,189,248,0.50) 30%,
+                    rgba(139,92,246,0.40) 70%,
+                    transparent 100%);
+            }
+
+            .header h1 {
+                font-family: 'Fira Code', monospace;
+                font-size: 1.875rem;
+                font-weight: 700;
+                position: relative;
+                z-index: 1;
+                /* Gradient text */
+                background: linear-gradient(120deg, #F1F5F9 0%, #38BDF8 45%, #A78BFA 100%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+                margin-bottom: 0.5rem;
+                line-height: 1.25;
+                /* Shimmer effect */
+                background-size: 200% auto;
+                animation: shimmerSlide 6s linear infinite;
+            }
+
+            .header .subtitle {
+                color: var(--text-secondary);
+                font-size: 0.9375rem;
+                position: relative;
+                z-index: 1;
+            }
+
+            /* ── Summary ── */
+            .summary {
+                padding: 2rem 2.5rem;
+                border-bottom: 1px solid var(--border-default);
+                position: relative;
+                z-index: 1;
+            }
+
+            .summary h2 {
+                font-size: 0.6875rem;
+                color: var(--text-muted);
+                font-weight: 700;
+                text-transform: uppercase;
+                letter-spacing: 0.12em;
+                margin-bottom: 1.25rem;
+            }
+
+            .summary-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(175px, 1fr));
+                gap: 1rem;
+            }
+
+            .summary-item {
+                background: var(--bg-surface);
+                padding: 1.25rem 1.5rem;
+                border-radius: 12px;
+                border: 1px solid var(--border-default);
+                backdrop-filter: blur(12px);
+                -webkit-backdrop-filter: blur(12px);
+                transition: border-color 0.25s ease, box-shadow 0.25s ease, transform 0.25s ease;
+                animation: fadeInUp 0.45s cubic-bezier(0.22, 1, 0.36, 1) both;
+            }
+
+            .summary-item:nth-child(1) { animation-delay: 0.04s; }
+            .summary-item:nth-child(2) { animation-delay: 0.09s; }
+            .summary-item:nth-child(3) { animation-delay: 0.14s; }
+            .summary-item:nth-child(4) { animation-delay: 0.19s; }
+            .summary-item:nth-child(5) { animation-delay: 0.24s; }
+
+            .summary-item:hover {
+                border-color: var(--border-hover);
+                box-shadow: 0 0 24px var(--glow-primary), 0 8px 32px rgba(0,0,0,0.3);
+                transform: translateY(-2px);
+            }
+
+            .summary-item .label {
+                font-size: 0.6875rem;
+                color: var(--text-muted);
+                margin-bottom: 0.625rem;
+                text-transform: uppercase;
+                letter-spacing: 0.09em;
+                font-weight: 600;
+            }
+
+            .summary-item .value {
+                font-family: 'Fira Code', monospace;
+                font-size: 1.875rem;
+                font-weight: 700;
+                color: var(--color-primary);
+                text-shadow: 0 0 18px rgba(56,189,248,0.35);
+                line-height: 1;
+            }
+
+            /* ── Content area ── */
+            .content {
+                padding: 2rem 2.5rem;
+                position: relative;
+                z-index: 1;
+            }
+
+            .section-title {
+                font-size: 0.75rem;
+                color: var(--text-muted);
+                font-weight: 700;
+                text-transform: uppercase;
+                letter-spacing: 0.10em;
+                margin-bottom: 1.5rem;
+                display: flex;
+                align-items: center;
+                gap: 0.75rem;
+            }
+
+            .section-title::after {
+                content: '';
+                flex: 1;
+                height: 1px;
+                background: linear-gradient(90deg, var(--border-default), transparent);
+            }
+
+            /* ── Badges ── */
+            .badge {
+                display: inline-flex;
+                align-items: center;
+                gap: 0.375rem;
+                padding: 0.25rem 0.625rem;
+                border-radius: 6px;
+                font-size: 0.7rem;
+                font-weight: 700;
+                margin-right: 0.375rem;
+                font-family: 'Fira Code', monospace;
+                border: 1px solid transparent;
+                letter-spacing: 0.02em;
+                transition: box-shadow 0.2s;
+            }
+
+            .badge svg { flex-shrink: 0; }
+
+            .badge-stars {
+                background: rgba(251,191,36, 0.10);
+                color: var(--color-amber);
+                border-color: rgba(251,191,36, 0.22);
+            }
+            .badge-stars:hover { box-shadow: 0 0 10px var(--glow-amber); }
+
+            .badge-forks {
+                background: rgba(56,189,248, 0.10);
+                color: var(--color-primary);
+                border-color: rgba(56,189,248, 0.22);
+            }
+
+            .badge-language {
+                background: rgba(52,211,153, 0.10);
+                color: var(--color-emerald);
+                border-color: rgba(52,211,153, 0.22);
+            }
+
+            .badge-today {
+                background: rgba(251,113,133, 0.10);
+                color: var(--color-rose);
+                border-color: rgba(251,113,133, 0.22);
+            }
+
+            .badge-consistent {
+                background: rgba(52,211,153, 0.10);
+                color: var(--color-emerald);
+                border-color: rgba(52,211,153, 0.22);
+            }
+
+            .badge-trending {
+                background: rgba(251,191,36, 0.10);
+                color: var(--color-amber);
+                border-color: rgba(251,191,36, 0.22);
+            }
+
+            .badge-new {
+                background: rgba(167,139,250, 0.10);
+                color: var(--color-violet);
+                border-color: rgba(167,139,250, 0.22);
+            }
+
+            /* ── Footer ── */
+            .footer {
+                padding: 2rem 2.5rem;
+                text-align: center;
+                color: var(--text-muted);
+                font-size: 0.8125rem;
+                border-top: 1px solid var(--border-default);
+                position: relative;
+                z-index: 1;
+            }
+
+            .footer a:hover { color: var(--color-primary); }
+
+            /* ── Responsive ── */
+            @media (max-width: 768px) {
+                .header  { padding: 2rem 1.25rem 1.75rem; }
+                .header h1 { font-size: 1.375rem; }
+                .summary { padding: 1.5rem 1.25rem; }
+                .content { padding: 1.5rem 1.25rem; }
+                .summary-grid { grid-template-columns: repeat(2, 1fr); }
+            }
+
+            @media (max-width: 480px) {
+                .summary-grid { grid-template-columns: 1fr; }
+            }
+        </style>
+        <style>
+            .top-nav {
+                background: var(--nav-bg, rgba(6,10,20,0.88));
+                border-bottom: 1px solid var(--nav-border, rgba(255,255,255,0.07));
+                position: sticky;
+                top: 0;
+                z-index: 200;
+                backdrop-filter: blur(20px) saturate(160%);
+                -webkit-backdrop-filter: blur(20px) saturate(160%);
+            }
+
+            .top-nav-inner {
+                max-width: 1400px;
+                margin: 0 auto;
+                padding: 0 2.5rem;
+                height: 52px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                gap: 1.5rem;
+            }
+
+            .top-nav-left {
+                display: flex;
+                align-items: center;
+                gap: 1.25rem;
+                min-width: 0;
+                overflow: hidden;
+            }
+
+            .nav-logo {
+                font-family: 'Fira Code', monospace;
+                font-size: 0.875rem;
+                font-weight: 700;
+                color: var(--nav-text, #E2E8F0);
+                text-decoration: none;
+                white-space: nowrap;
+                flex-shrink: 0;
+                transition: color 0.2s, text-shadow 0.2s;
+                display: flex;
+                align-items: center;
+                gap: 0.5rem;
+            }
+
+            .nav-logo:hover {
+                color: var(--nav-accent, #38BDF8);
+                text-shadow: 0 0 14px rgba(56,189,248,0.50);
+            }
+
+            .nav-divider {
+                width: 1px;
+                height: 16px;
+                background: var(--nav-border, rgba(255,255,255,0.08));
+                flex-shrink: 0;
+            }
+
+            .top-nav-breadcrumbs {
+                display: flex;
+                align-items: center;
+                gap: 0.45rem;
+                font-size: 0.8125rem;
+                min-width: 0;
+                overflow: hidden;
+            }
+
+            .nav-breadcrumb-link {
+                color: var(--nav-text-muted, #94A3B8);
+                text-decoration: none;
+                white-space: nowrap;
+                flex-shrink: 0;
+                transition: color 0.15s;
+            }
+
+            .nav-breadcrumb-link:hover { color: var(--nav-accent, #38BDF8); }
+
+            .nav-breadcrumb-sep {
+                color: rgba(255,255,255,0.18);
+                flex-shrink: 0;
+                user-select: none;
+            }
+
+            .nav-breadcrumb-current {
+                color: #CBD5E1;
+                font-weight: 500;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+
+            .top-nav-right {
+                display: flex;
+                align-items: center;
+                gap: 0.5rem;
+                flex-shrink: 0;
+            }
+
+            .format-label {
+                font-size: 0.75rem;
+                color: var(--nav-text-dim, #64748B);
+                white-space: nowrap;
+            }
+
+            .format-pill {
+                display: inline-flex;
+                align-items: center;
+                padding: 0.2rem 0.625rem;
+                border-radius: 6px;
+                text-decoration: none;
+                font-size: 0.6875rem;
+                font-weight: 700;
+                font-family: 'Fira Code', monospace;
+                border: 1px solid transparent;
+                letter-spacing: 0.04em;
+                transition: transform 0.18s ease, box-shadow 0.18s ease, background 0.18s ease;
+                cursor: pointer;
+                white-space: nowrap;
+            }
+
+            .format-pill:hover { transform: translateY(-1px); }
+
+            .pill-json {
+                background: rgba(251,191,36, 0.10);
+                color: #FBBF24;
+                border-color: rgba(251,191,36, 0.22);
+            }
+            .pill-json:hover {
+                background: rgba(251,191,36, 0.18);
+                box-shadow: 0 0 12px rgba(251,191,36,0.22);
+            }
+
+            .pill-md {
+                background: rgba(52,211,153, 0.10);
+                color: #34D399;
+                border-color: rgba(52,211,153, 0.22);
+            }
+            .pill-md:hover {
+                background: rgba(52,211,153, 0.18);
+                box-shadow: 0 0 12px rgba(52,211,153,0.22);
+            }
+
+            .pill-csv {
+                background: rgba(167,139,250, 0.10);
+                color: #A78BFA;
+                border-color: rgba(167,139,250, 0.22);
+            }
+            .pill-csv:hover {
+                background: rgba(167,139,250, 0.18);
+                box-shadow: 0 0 12px rgba(167,139,250,0.22);
+            }
+
+            .pill-html {
+                background: rgba(56,189,248, 0.10);
+                color: #38BDF8;
+                border-color: rgba(56,189,248, 0.22);
+            }
+            .pill-html:hover {
+                background: rgba(56,189,248, 0.18);
+                box-shadow: 0 0 12px rgba(56,189,248,0.22);
+            }
+
+            @media (max-width: 768px) {
+                .top-nav-inner { padding: 0 1rem; gap: 0.75rem; }
+                .format-label  { display: none; }
+                .nav-divider   { display: none; }
+                .top-nav-breadcrumbs { font-size: 0.75rem; }
+            }
+        </style>
+        <style>
+            .section { margin-bottom: 2rem; }
+
+            .table-wrapper {
+                width: 100%;
+                overflow-x: auto;
+                -webkit-overflow-scrolling: touch;
+                border-radius: 14px;
+                border: 1px solid var(--border-default);
+                backdrop-filter: blur(12px);
+                -webkit-backdrop-filter: blur(12px);
+                animation: fadeInUp 0.45s cubic-bezier(0.22, 1, 0.36, 1) 0.08s both;
+            }
+
+            .repo-table {
+                width: 100%;
+                border-collapse: collapse;
+                background: var(--bg-surface);
+                font-size: 0.9375rem;
+                min-width: 700px;
+            }
+
+            .repo-table th {
+                background: rgba(255,255,255,0.025);
+                padding: 0.875rem 1rem;
+                text-align: left;
+                font-weight: 700;
+                color: var(--text-muted);
+                border-bottom: 1px solid var(--border-default);
+                font-size: 0.6875rem;
+                text-transform: uppercase;
+                letter-spacing: 0.10em;
+                font-family: 'Fira Code', monospace;
+                white-space: nowrap;
+            }
+
+            .repo-table td {
+                padding: 1rem;
+                border-bottom: 1px solid var(--border-subtle);
+                vertical-align: middle;
+                color: var(--text-secondary);
+            }
+
+            .repo-table tbody tr {
+                transition: background-color 0.15s;
+            }
+
+            .repo-table tbody tr:hover {
+                background: var(--bg-hover);
+            }
+
+            .repo-table tr:last-child td { border-bottom: none; }
+
+            .repo-name { font-weight: 600; }
+
+            .repo-name a {
+                color: var(--text-primary);
+                text-decoration: none;
+                transition: color 0.15s;
+                cursor: pointer;
+            }
+
+            .repo-name a:hover { color: var(--color-primary); }
+
+            .repo-description {
+                color: var(--text-muted);
+                font-size: 0.8125rem;
+                margin-top: 0.25rem;
+                line-height: 1.5;
+            }
+
+            .rank-badge {
+                background: linear-gradient(135deg, rgba(56,189,248,0.15), rgba(56,189,248,0.07));
+                color: var(--color-primary);
+                border: 1px solid rgba(56,189,248,0.20);
+                min-width: 28px;
+                height: 28px;
+                border-radius: 6px;
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                font-family: 'Fira Code', monospace;
+                font-weight: 700;
+                font-size: 0.8125rem;
+            }
+
+            .appearances {
+                color: var(--color-emerald);
+                font-family: 'Fira Code', monospace;
+                font-weight: 700;
+                font-size: 0.875rem;
+                text-shadow: 0 0 10px rgba(52,211,153,0.25);
+            }
+
+            .stats-inline {
+                color: var(--text-secondary);
+                font-family: 'Fira Code', monospace;
+                font-size: 0.875rem;
+            }
+
+            .contributors {
+                font-size: 0.75rem;
+                color: var(--text-muted);
+            }
+
+            .contributor-link {
+                color: var(--text-secondary);
+                text-decoration: none;
+                font-weight: 500;
+                transition: color 0.15s;
+                cursor: pointer;
+            }
+
+            .contributor-link:hover { color: var(--color-primary); }
+
+            @media (max-width: 768px) {
+                .repo-table th,
+                .repo-table td { padding: 0.625rem 0.75rem; }
+            }
+        </style>
+</head>
+<body>
+
+    <nav class="top-nav" aria-label="Site navigation">
+        <div class="top-nav-inner">
+            <div class="top-nav-left">
+                <a href="../../../index.html" class="nav-logo" aria-label="GitHub Trends home">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg> GitHub Trends
+                </a>
+                <div class="nav-divider" aria-hidden="true"></div>
+                <div class="top-nav-breadcrumbs" aria-label="Breadcrumb">
+                    <a href="../../../index.html" class="nav-breadcrumb-link">Home</a>
+                    <span class="nav-breadcrumb-sep" aria-hidden="true">/</span>
+                    <a href="../../index.html" class="nav-breadcrumb-link">C</a>
+                    <span class="nav-breadcrumb-sep" aria-hidden="true">/</span>
+                    <a href="../../index.html#weekly" class="nav-breadcrumb-link">Weekly</a>
+                    <span class="nav-breadcrumb-sep" aria-hidden="true">/</span>
+                    <span class="nav-breadcrumb-current" aria-current="page">Week 18 – 2026</span>
+                </div>
+            </div>
+            <div class="top-nav-right" aria-label="Navigation">
+                <a href="../../index.html#weekly" class="format-pill pill-html" aria-label="Back to dashboard">
+                    ← Dashboard
+                </a>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="header">
+            <h1>C Trending Repositories</h1>
+            <div class="subtitle">Week 18 – 2026</div>
+            <div class="subtitle">2026-04-27 to 2026-05-03</div>
+        </div>
+        <div class="summary">
+            <h2>Summary</h2>
+            <div class="summary-grid">
+                <div class="summary-item">
+                    <div class="label">Period</div>
+                    <div class="value">Week 18 – 2026</div>
+                </div>
+                <div class="summary-item">
+                    <div class="label">Days Analyzed</div>
+                    <div class="value">1</div>
+                </div>
+                <div class="summary-item">
+                    <div class="label">Unique Repos</div>
+                    <div class="value">20</div>
+                </div>
+                <div class="summary-item">
+                    <div class="label">Language</div>
+                    <div class="value">C</div>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="section">
+                <h2 class="section-title">Top Trending Repositories</h2>
+                <div class="table-wrapper">
+                <table class="repo-table">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Repository</th>
+                            <th>Days</th>
+                            <th>Best Rank</th>
+                            <th>Stars</th>
+                            <th>Forks</th>
+                            <th>Language</th>
+                            <th>Built By</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+            <tr>
+                <td><span class="rank-badge">1</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/curl/curl" target="_blank">curl/curl</a></div>
+                    <div class="repo-description">A command line tool and library for transferring data with URL syntax, supporting DICT, FILE, FTP, FTPS, GOPHER, GOPHERS, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, MQTT, MQTTS, POP3, POP3S, RTMP, RTMPS, RTSP, SCP, SFTP, SMB, SMBS, SMTP, SMTPS, TELNET, TFTP, WS and WSS. libcurl offers a myriad of powerful features</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#1</td>
+                <td class="stats-inline">41,569</td>
+                <td class="stats-inline">7,154</td>
+                <td class="stats-inline">C</td>
+                <td class="contributors"><a href="https://github.com/bagder" class="contributor-link">@bagder</a>, <a href="https://github.com/captain-caveman2k" class="contributor-link">@captain-caveman2k</a>, <a href="https://github.com/dfandrich" class="contributor-link">@dfandrich</a>, <a href="https://github.com/vszakats" class="contributor-link">@vszakats</a>, <a href="https://github.com/yangtse" class="contributor-link">@yangtse</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">2</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/raysan5/raylib" target="_blank">raysan5/raylib</a></div>
+                    <div class="repo-description">A simple and easy-to-use library to enjoy videogames programming</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#2</td>
+                <td class="stats-inline">32,571</td>
+                <td class="stats-inline">3,057</td>
+                <td class="stats-inline">C</td>
+                <td class="contributors"><a href="https://github.com/JeffM2501" class="contributor-link">@JeffM2501</a>, <a href="https://github.com/a3f" class="contributor-link">@a3f</a>, <a href="https://github.com/github-actions" class="contributor-link">@github-actions</a>, <a href="https://github.com/raysan5" class="contributor-link">@raysan5</a>, <a href="https://github.com/victorfisac" class="contributor-link">@victorfisac</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">3</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/libsdl-org/SDL" target="_blank">libsdl-org/SDL</a></div>
+                    <div class="repo-description">Simple DirectMedia Layer</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#3</td>
+                <td class="stats-inline">15,479</td>
+                <td class="stats-inline">2,722</td>
+                <td class="stats-inline">C</td>
+                <td class="contributors"><a href="https://github.com/SDLWikiBot" class="contributor-link">@SDLWikiBot</a>, <a href="https://github.com/icculus" class="contributor-link">@icculus</a>, <a href="https://github.com/madebr" class="contributor-link">@madebr</a>, <a href="https://github.com/sezero" class="contributor-link">@sezero</a>, <a href="https://github.com/slouken" class="contributor-link">@slouken</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">4</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/winsiderss/systeminformer" target="_blank">winsiderss/systeminformer</a></div>
+                    <div class="repo-description">A free, powerful, multi-purpose tool that helps you monitor system resources, debug software and detect malware. Brought to you by Winsider Seminars &amp; Solutions, Inc. @ http://www.windows-internals.com</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#4</td>
+                <td class="stats-inline">14,097</td>
+                <td class="stats-inline">1,654</td>
+                <td class="stats-inline">C</td>
+                <td class="contributors"><a href="https://github.com/XhmikosR" class="contributor-link">@XhmikosR</a>, <a href="https://github.com/diversenok" class="contributor-link">@diversenok</a>, <a href="https://github.com/dmex" class="contributor-link">@dmex</a>, <a href="https://github.com/jxy-s" class="contributor-link">@jxy-s</a>, <a href="https://github.com/wj32" class="contributor-link">@wj32</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">5</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/ventoy/Ventoy" target="_blank">ventoy/Ventoy</a></div>
+                    <div class="repo-description">A new bootable USB solution.</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#5</td>
+                <td class="stats-inline">76,173</td>
+                <td class="stats-inline">4,775</td>
+                <td class="stats-inline">C</td>
+                <td class="contributors"><a href="https://github.com/AnomSanjaya" class="contributor-link">@AnomSanjaya</a>, <a href="https://github.com/VenusGirl" class="contributor-link">@VenusGirl</a>, <a href="https://github.com/crasadure" class="contributor-link">@crasadure</a>, <a href="https://github.com/ventoy" class="contributor-link">@ventoy</a>, <a href="https://github.com/wiz64" class="contributor-link">@wiz64</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">6</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/DeusData/codebase-memory-mcp" target="_blank">DeusData/codebase-memory-mcp</a></div>
+                    <div class="repo-description">High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 66 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#6</td>
+                <td class="stats-inline">1,870</td>
+                <td class="stats-inline">212</td>
+                <td class="stats-inline">C</td>
+                <td class="contributors"><a href="https://github.com/DeusData" class="contributor-link">@DeusData</a>, <a href="https://github.com/claude" class="contributor-link">@claude</a>, <a href="https://github.com/dLo999" class="contributor-link">@dLo999</a>, <a href="https://github.com/dependabot" class="contributor-link">@dependabot</a>, <a href="https://github.com/shanemccarron-maker" class="contributor-link">@shanemccarron-maker</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">7</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/obsproject/obs-studio" target="_blank">obsproject/obs-studio</a></div>
+                    <div class="repo-description">OBS Studio - Free and open source software for live streaming and screen recording</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#7</td>
+                <td class="stats-inline">71,972</td>
+                <td class="stats-inline">9,192</td>
+                <td class="stats-inline">C</td>
+                <td class="contributors"><a href="https://github.com/PatTheMav" class="contributor-link">@PatTheMav</a>, <a href="https://github.com/RytoEX" class="contributor-link">@RytoEX</a>, <a href="https://github.com/derrod" class="contributor-link">@derrod</a>, <a href="https://github.com/jp9000" class="contributor-link">@jp9000</a>, <a href="https://github.com/jpark37" class="contributor-link">@jpark37</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">8</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/brunodev85/winlator" target="_blank">brunodev85/winlator</a></div>
+                    <div class="repo-description">Android application for running Windows applications with Wine and Box86/Box64</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#8</td>
+                <td class="stats-inline">17,387</td>
+                <td class="stats-inline">1,381</td>
+                <td class="stats-inline">C</td>
+                <td class="contributors"><a href="https://github.com/Kashinathpat" class="contributor-link">@Kashinathpat</a>, <a href="https://github.com/brunodev85" class="contributor-link">@brunodev85</a>, <a href="https://github.com/hackcasual" class="contributor-link">@hackcasual</a>, <a href="https://github.com/kazimaruf991" class="contributor-link">@kazimaruf991</a>, <a href="https://github.com/lvonasek" class="contributor-link">@lvonasek</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">9</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/OpenMathLib/OpenBLAS" target="_blank">OpenMathLib/OpenBLAS</a></div>
+                    <div class="repo-description">OpenBLAS is an optimized BLAS library based on GotoBLAS2 1.13 BSD version.</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#9</td>
+                <td class="stats-inline">7,409</td>
+                <td class="stats-inline">1,670</td>
+                <td class="stats-inline">C</td>
+                <td class="contributors"><a href="https://github.com/hpanderson" class="contributor-link">@hpanderson</a>, <a href="https://github.com/martin-frbg" class="contributor-link">@martin-frbg</a>, <a href="https://github.com/wernsaar" class="contributor-link">@wernsaar</a>, <a href="https://github.com/wjc404" class="contributor-link">@wjc404</a>, <a href="https://github.com/xianyi" class="contributor-link">@xianyi</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">10</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/openwrt/openwrt" target="_blank">openwrt/openwrt</a></div>
+                    <div class="repo-description">This repository is a mirror of https://git.openwrt.org/openwrt/openwrt.git It is for reference only and is not active for check-ins. We will continue to accept Pull Requests here. They will be merged via staging trees then into openwrt.git.</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#10</td>
+                <td class="stats-inline">26,433</td>
+                <td class="stats-inline">12,332</td>
+                <td class="stats-inline">C</td>
+                <td class="contributors"><a href="https://github.com/ffainelli" class="contributor-link">@ffainelli</a>, <a href="https://github.com/hauke" class="contributor-link">@hauke</a>, <a href="https://github.com/jow-" class="contributor-link">@jow-</a>, <a href="https://github.com/juhosg" class="contributor-link">@juhosg</a>, <a href="https://github.com/nbd168" class="contributor-link">@nbd168</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">11</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/netdata/netdata" target="_blank">netdata/netdata</a></div>
+                    <div class="repo-description">The fastest path to AI-powered full stack observability, even for lean teams.</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#11</td>
+                <td class="stats-inline">78,614</td>
+                <td class="stats-inline">6,422</td>
+                <td class="stats-inline">C</td>
+                <td class="contributors"><a href="https://github.com/Ferroin" class="contributor-link">@Ferroin</a>, <a href="https://github.com/ilyam8" class="contributor-link">@ilyam8</a>, <a href="https://github.com/ktsaou" class="contributor-link">@ktsaou</a>, <a href="https://github.com/netdatabot" class="contributor-link">@netdatabot</a>, <a href="https://github.com/stelfrag" class="contributor-link">@stelfrag</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">12</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/git/git" target="_blank">git/git</a></div>
+                    <div class="repo-description">Git Source Code Mirror - This is a publish-only repository but pull requests can be turned into patches to the mailing list via GitGitGadget (https://gitgitgadget.github.io/). Please follow Documentation/SubmittingPatches procedure for any of your improvements.</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#12</td>
+                <td class="stats-inline">60,594</td>
+                <td class="stats-inline">27,847</td>
+                <td class="stats-inline">C</td>
+                <td class="contributors"><a href="https://github.com/avar" class="contributor-link">@avar</a>, <a href="https://github.com/dscho" class="contributor-link">@dscho</a>, <a href="https://github.com/gitster" class="contributor-link">@gitster</a>, <a href="https://github.com/peff" class="contributor-link">@peff</a>, <a href="https://github.com/pks-t" class="contributor-link">@pks-t</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">13</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/opa334/Dopamine" target="_blank">opa334/Dopamine</a></div>
+                    <div class="repo-description">Dopamine is a semi-untethered jailbreak for iOS 15 and 16</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#13</td>
+                <td class="stats-inline">4,988</td>
+                <td class="stats-inline">6,053</td>
+                <td class="stats-inline">C</td>
+                <td class="contributors"><a href="https://github.com/ancalina" class="contributor-link">@ancalina</a>, <a href="https://github.com/dhinakg" class="contributor-link">@dhinakg</a>, <a href="https://github.com/kok3shidoll" class="contributor-link">@kok3shidoll</a>, <a href="https://github.com/opa334" class="contributor-link">@opa334</a>, <a href="https://github.com/tomt000" class="contributor-link">@tomt000</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">14</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/haproxy/haproxy" target="_blank">haproxy/haproxy</a></div>
+                    <div class="repo-description">HAProxy Load Balancer&#x27;s development branch (mirror of git.haproxy.org)</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#14</td>
+                <td class="stats-inline">6,499</td>
+                <td class="stats-inline">923</td>
+                <td class="stats-inline">C</td>
+                <td class="contributors"><a href="https://github.com/a-denoyelle" class="contributor-link">@a-denoyelle</a>, <a href="https://github.com/capflam" class="contributor-link">@capflam</a>, <a href="https://github.com/haproxyFred" class="contributor-link">@haproxyFred</a>, <a href="https://github.com/wlallemand" class="contributor-link">@wlallemand</a>, <a href="https://github.com/wtarreau" class="contributor-link">@wtarreau</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">15</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/pgvector/pgvector" target="_blank">pgvector/pgvector</a></div>
+                    <div class="repo-description">Open-source vector similarity search for Postgres</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#15</td>
+                <td class="stats-inline">21,007</td>
+                <td class="stats-inline">1,156</td>
+                <td class="stats-inline">C</td>
+                <td class="contributors"><a href="https://github.com/ankane" class="contributor-link">@ankane</a>, <a href="https://github.com/binarycleric" class="contributor-link">@binarycleric</a>, <a href="https://github.com/hlinnaka" class="contributor-link">@hlinnaka</a>, <a href="https://github.com/jkatz" class="contributor-link">@jkatz</a>, <a href="https://github.com/lychen0618" class="contributor-link">@lychen0618</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">16</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/Klipper3d/klipper" target="_blank">Klipper3d/klipper</a></div>
+                    <div class="repo-description">Klipper is a 3d-printer firmware</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#16</td>
+                <td class="stats-inline">11,480</td>
+                <td class="stats-inline">5,854</td>
+                <td class="stats-inline">C</td>
+                <td class="contributors"><a href="https://github.com/Arksine" class="contributor-link">@Arksine</a>, <a href="https://github.com/KevinOConnor" class="contributor-link">@KevinOConnor</a>, <a href="https://github.com/dmbutyugin" class="contributor-link">@dmbutyugin</a>, <a href="https://github.com/mcmatrix" class="contributor-link">@mcmatrix</a>, <a href="https://github.com/nefelim4ag" class="contributor-link">@nefelim4ag</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">17</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/mpv-player/mpv" target="_blank">mpv-player/mpv</a></div>
+                    <div class="repo-description">🎥 Command line media player</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#17</td>
+                <td class="stats-inline">34,976</td>
+                <td class="stats-inline">3,303</td>
+                <td class="stats-inline">C</td>
+                <td class="contributors"><a href="https://github.com/Dudemanguy" class="contributor-link">@Dudemanguy</a>, <a href="https://github.com/guidocella" class="contributor-link">@guidocella</a>, <a href="https://github.com/haasn" class="contributor-link">@haasn</a>, <a href="https://github.com/kasper93" class="contributor-link">@kasper93</a>, <a href="https://github.com/pigoz" class="contributor-link">@pigoz</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">18</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/HarbourMasters/Shipwright" target="_blank">HarbourMasters/Shipwright</a></div>
+                    <div class="repo-description">Pas de description</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#18</td>
+                <td class="stats-inline">4,660</td>
+                <td class="stats-inline">685</td>
+                <td class="stats-inline">C</td>
+                <td class="contributors"><a href="https://github.com/Archez" class="contributor-link">@Archez</a>, <a href="https://github.com/Malkierian" class="contributor-link">@Malkierian</a>, <a href="https://github.com/briaguya0" class="contributor-link">@briaguya0</a>, <a href="https://github.com/garrettjoecox" class="contributor-link">@garrettjoecox</a>, <a href="https://github.com/serprex" class="contributor-link">@serprex</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">19</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/OpenVPN/openvpn" target="_blank">OpenVPN/openvpn</a></div>
+                    <div class="repo-description">OpenVPN is an open source VPN daemon</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#19</td>
+                <td class="stats-inline">13,604</td>
+                <td class="stats-inline">3,290</td>
+                <td class="stats-inline">C</td>
+                <td class="contributors"><a href="https://github.com/cron2" class="contributor-link">@cron2</a>, <a href="https://github.com/flichtenheld" class="contributor-link">@flichtenheld</a>, <a href="https://github.com/ordex" class="contributor-link">@ordex</a>, <a href="https://github.com/schwabe" class="contributor-link">@schwabe</a>, <a href="https://github.com/syzzer" class="contributor-link">@syzzer</a></td>
+            </tr>
+        
+
+            <tr>
+                <td><span class="rank-badge">20</span></td>
+                <td>
+                    <div class="repo-name"><a href="https://github.com/betaflight/betaflight" target="_blank">betaflight/betaflight</a></div>
+                    <div class="repo-description">Open Source Flight Controller Firmware</div>
+                    <span class="badge badge-new">New</span>
+                </td>
+                <td><span class="appearances">1d</span></td>
+                <td>#20</td>
+                <td class="stats-inline">10,897</td>
+                <td class="stats-inline">3,733</td>
+                <td class="stats-inline">C</td>
+                <td class="contributors"><a href="https://github.com/blckmn" class="contributor-link">@blckmn</a>, <a href="https://github.com/borisbstyle" class="contributor-link">@borisbstyle</a>, <a href="https://github.com/hydra" class="contributor-link">@hydra</a>, <a href="https://github.com/martinbudden" class="contributor-link">@martinbudden</a>, <a href="https://github.com/mikeller" class="contributor-link">@mikeller</a></td>
+            </tr>
+        
+                    </tbody>
+                </table>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <p>Generated on 2026-05-03 &mdash; <a href="../../index.html" style="color:inherit">Back to C</a></p>
+            <p>GitHub Trending Scraper</p>
+        </div>
+    </div>
+</body>
+</html>
