@@ -1,0 +1,250 @@
+# Trending Javascript Repositories
+### 2026-04-29
+
+> Daily report of trending repositories in the GitHub community
+
+---
+
+## Summary
+
+- **Date:** 2026-04-29
+- **Total Repositories:** 13
+- **Total Stars:** 586,617
+- **Total Forks:** 99,122
+- **Language:** Javascript
+
+---
+
+## Table of Contents
+
+1. [fspecii/ace-step-ui](#1-fspeciiace-step-ui)
+2. [gsd-build/get-shit-done](#2-gsd-buildget-shit-done)
+3. [hmjz100/LinkSwift](#3-hmjz100linkswift)
+4. [ToolJet/ToolJet](#4-tooljettooljet)
+5. [gorhill/uBlock](#5-gorhillublock)
+6. [jamez-bondos/awesome-gpt4o-images](#6-jamez-bondosawesome-gpt4o-images)
+7. [liyupi/ai-guide](#7-liyupiai-guide)
+8. [copy/v86](#8-copyv86)
+9. [nodejs/node](#9-nodejsnode)
+10. [SillyTavern/SillyTavern](#10-sillytavernsillytavern)
+11. [CesiumGS/cesium](#11-cesiumgscesium)
+12. [projectdiscovery/nuclei-templates](#12-projectdiscoverynuclei-templates)
+13. [trekhleb/javascript-algorithms](#13-trekhlebjavascript-algorithms)
+
+---
+
+## Trending Repositories
+
+### 1. [fspecii/ace-step-ui](https://github.com/fspecii/ace-step-ui)
+
+![Stars](https://img.shields.io/badge/Stars-1,772-yellow) ![Forks](https://img.shields.io/badge/Forks-266-blue) ![Language](https://img.shields.io/badge/Language-JavaScript-green)
+
+**Description:** 🎵 The Ultimate Open Source Suno Alternative - Professional UI for ACE-Step 1.5 AI Music Generation. Free, local, unlimited. Stop paying for Suno!
+
+**Stats:**
+- **Total Stars:** 1,772
+- **Forks:** 266
+- **Today:** 162 stars today
+- **Language:** JavaScript
+
+**Built by:** [fspecii](https://github.com/fspecii), [riversedge](https://github.com/riversedge), [claude](https://github.com/claude)
+
+---
+
+### 2. [gsd-build/get-shit-done](https://github.com/gsd-build/get-shit-done)
+
+![Stars](https://img.shields.io/badge/Stars-58,512-yellow) ![Forks](https://img.shields.io/badge/Forks-4,950-blue) ![Language](https://img.shields.io/badge/Language-JavaScript-green)
+
+**Description:** A light-weight and powerful meta-prompting, context engineering and spec-driven development system for Claude Code by TÂCHES.
+
+**Stats:**
+- **Total Stars:** 58,512
+- **Forks:** 4,950
+- **Today:** 535 stars today
+- **Language:** JavaScript
+
+**Built by:** [claude](https://github.com/claude), [glittercowboy](https://github.com/glittercowboy), [trek-e](https://github.com/trek-e), [Tibsfox](https://github.com/Tibsfox), [jeremymcs](https://github.com/jeremymcs)
+
+---
+
+### 3. [hmjz100/LinkSwift](https://github.com/hmjz100/LinkSwift)
+
+![Stars](https://img.shields.io/badge/Stars-14,502-yellow) ![Forks](https://img.shields.io/badge/Forks-845-blue) ![Language](https://img.shields.io/badge/Language-JavaScript-green)
+
+**Description:** 一个基于 JavaScript 的网盘文件下载地址获取工具。基于【网盘直链下载助手】修改 ，支持 百度网盘 / 阿里云盘 / 中国移动云盘 / 天翼云盘 / 迅雷云盘 / 夸克网盘 / UC网盘 / 123云盘 八大网盘
+
+**Stats:**
+- **Total Stars:** 14,502
+- **Forks:** 845
+- **Today:** 71 stars today
+- **Language:** JavaScript
+
+**Built by:** [hmjz100](https://github.com/hmjz100), [MisaLiu](https://github.com/MisaLiu), [Night-stars-1](https://github.com/Night-stars-1), [AstralFlare-owo](https://github.com/AstralFlare-owo)
+
+---
+
+### 4. [ToolJet/ToolJet](https://github.com/ToolJet/ToolJet)
+
+![Stars](https://img.shields.io/badge/Stars-37,811-yellow) ![Forks](https://img.shields.io/badge/Forks-5,030-blue) ![Language](https://img.shields.io/badge/Language-JavaScript-green)
+
+**Description:** ToolJet is the open-source foundation of ToolJet AI - the enterprise app generation platform for building internal tools, dashboard, business applications, workflows and AI agents 🚀
+
+**Stats:**
+- **Total Stars:** 37,811
+- **Forks:** 5,030
+- **Today:** 8 stars today
+- **Language:** JavaScript
+
+**Built by:** [Navaneeth-pk](https://github.com/Navaneeth-pk), [adishM98](https://github.com/adishM98), [arpitnath](https://github.com/arpitnath), [akshaysasidrn](https://github.com/akshaysasidrn), [johnsoncherian](https://github.com/johnsoncherian)
+
+---
+
+### 5. [gorhill/uBlock](https://github.com/gorhill/uBlock)
+
+![Stars](https://img.shields.io/badge/Stars-63,809-yellow) ![Forks](https://img.shields.io/badge/Forks-4,064-blue) ![Language](https://img.shields.io/badge/Language-JavaScript-green)
+
+**Description:** uBlock Origin - An efficient blocker for Chromium and Firefox. Fast and lean.
+
+**Stats:**
+- **Total Stars:** 63,809
+- **Forks:** 4,064
+- **Today:** 569 stars today
+- **Language:** JavaScript
+
+**Built by:** [gorhill](https://github.com/gorhill), [Deathamns](https://github.com/Deathamns), [chrisaljoudi](https://github.com/chrisaljoudi), [mjethani](https://github.com/mjethani), [AlexVallat](https://github.com/AlexVallat)
+
+---
+
+### 6. [jamez-bondos/awesome-gpt4o-images](https://github.com/jamez-bondos/awesome-gpt4o-images)
+
+![Stars](https://img.shields.io/badge/Stars-7,971-yellow) ![Forks](https://img.shields.io/badge/Forks-1,797-blue) ![Language](https://img.shields.io/badge/Language-JavaScript-green)
+
+**Description:** Awesome curated collection of images and prompts generated by GPT-4o and gpt-image-1. Explore AI generated visuals created with ChatGPT and Sora, showcasing OpenAI’s advanced image generation capabilities.
+
+**Stats:**
+- **Total Stars:** 7,971
+- **Forks:** 1,797
+- **Today:** 22 stars today
+- **Language:** JavaScript
+
+**Built by:** [jamez-bondos](https://github.com/jamez-bondos), [github-actions](https://github.com/github-actions), [wowmarcomei](https://github.com/wowmarcomei), [f-is-h](https://github.com/f-is-h), [terry623](https://github.com/terry623)
+
+---
+
+### 7. [liyupi/ai-guide](https://github.com/liyupi/ai-guide)
+
+![Stars](https://img.shields.io/badge/Stars-12,681-yellow) ![Forks](https://img.shields.io/badge/Forks-1,421-blue) ![Language](https://img.shields.io/badge/Language-JavaScript-green)
+
+**Description:** 程序员鱼皮的 AI 资源大全 + Vibe Coding 零基础教程，分享 OpenClaw 保姆级教程、大模型玩法（DeepSeek / GPT / Gemini / Claude）、最新 AI 资讯、Prompt 提示词大全、AI 知识百科（Agent Skills / RAG / MCP / A2A）、AI 编程教程（Harness Engineering）、AI 工具用法（Cursor / Claude Code / TRAE / Lovable / Copilot）、AI 开发框架教程（Spring AI / LangChain）、AI 产品变现指南，帮你快速掌握 AI 技术，走在时代前沿。本项目为开源文档，已升级为鱼皮 AI 导航网站
+
+**Stats:**
+- **Total Stars:** 12,681
+- **Forks:** 1,421
+- **Today:** 83 stars today
+- **Language:** JavaScript
+
+**Built by:** [yupi-translate-app](https://github.com/yupi-translate-app), [liyupi](https://github.com/liyupi), [chaseFunny](https://github.com/chaseFunny), [cq2021-coder](https://github.com/cq2021-coder), [gulihua10010](https://github.com/gulihua10010)
+
+---
+
+### 8. [copy/v86](https://github.com/copy/v86)
+
+![Stars](https://img.shields.io/badge/Stars-22,657-yellow) ![Forks](https://img.shields.io/badge/Forks-1,771-blue) ![Language](https://img.shields.io/badge/Language-JavaScript-green)
+
+**Description:** x86 PC emulator and x86-to-wasm JIT, running in the browser
+
+**Stats:**
+- **Total Stars:** 22,657
+- **Forks:** 1,771
+- **Today:** 43 stars today
+- **Language:** JavaScript
+
+**Built by:** [copy](https://github.com/copy), [ErnWong](https://github.com/ErnWong), [AmaanC](https://github.com/AmaanC), [chschnell](https://github.com/chschnell), [SuperMaxusa](https://github.com/SuperMaxusa)
+
+---
+
+### 9. [nodejs/node](https://github.com/nodejs/node)
+
+![Stars](https://img.shields.io/badge/Stars-116,969-yellow) ![Forks](https://img.shields.io/badge/Forks-35,456-blue) ![Language](https://img.shields.io/badge/Language-JavaScript-green)
+
+**Description:** Node.js JavaScript runtime ✨🐢🚀✨
+
+**Stats:**
+- **Total Stars:** 116,969
+- **Forks:** 35,456
+- **Today:** 23 stars today
+- **Language:** JavaScript
+
+**Built by:** [Trott](https://github.com/Trott), [ry](https://github.com/ry), [bnoordhuis](https://github.com/bnoordhuis), [addaleax](https://github.com/addaleax), [isaacs](https://github.com/isaacs)
+
+---
+
+### 10. [SillyTavern/SillyTavern](https://github.com/SillyTavern/SillyTavern)
+
+![Stars](https://img.shields.io/badge/Stars-26,567-yellow) ![Forks](https://img.shields.io/badge/Forks-5,193-blue) ![Language](https://img.shields.io/badge/Language-JavaScript-green)
+
+**Description:** LLM Frontend for Power Users.
+
+**Stats:**
+- **Total Stars:** 26,567
+- **Forks:** 5,193
+- **Today:** 110 stars today
+- **Language:** JavaScript
+
+**Built by:** [Cohee1207](https://github.com/Cohee1207), [Wolfsblvt](https://github.com/Wolfsblvt), [RossAscends](https://github.com/RossAscends), [LenAnderson](https://github.com/LenAnderson), [valadaptive](https://github.com/valadaptive)
+
+---
+
+### 11. [CesiumGS/cesium](https://github.com/CesiumGS/cesium)
+
+![Stars](https://img.shields.io/badge/Stars-15,214-yellow) ![Forks](https://img.shields.io/badge/Forks-3,788-blue) ![Language](https://img.shields.io/badge/Language-JavaScript-green)
+
+**Description:** An open-source JavaScript library for world-class 3D globes and maps 🌎
+
+**Stats:**
+- **Total Stars:** 15,214
+- **Forks:** 3,788
+- **Today:** 29 stars today
+- **Language:** JavaScript
+
+**Built by:** [bagnell](https://github.com/bagnell), [pjcozzi](https://github.com/pjcozzi), [mramato](https://github.com/mramato), [lilleyse](https://github.com/lilleyse), [ggetz](https://github.com/ggetz)
+
+---
+
+### 12. [projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates)
+
+![Stars](https://img.shields.io/badge/Stars-12,255-yellow) ![Forks](https://img.shields.io/badge/Forks-3,451-blue) ![Language](https://img.shields.io/badge/Language-JavaScript-green)
+
+**Description:** Community curated list of templates for the nuclei engine to find security vulnerabilities.
+
+**Stats:**
+- **Total Stars:** 12,255
+- **Forks:** 3,451
+- **Today:** 12 stars today
+- **Language:** JavaScript
+
+**Built by:** [actions-user](https://github.com/actions-user), [DhiyaneshGeek](https://github.com/DhiyaneshGeek), [princechaddha](https://github.com/princechaddha), [ritikchaddha](https://github.com/ritikchaddha), [ehsandeep](https://github.com/ehsandeep)
+
+---
+
+### 13. [trekhleb/javascript-algorithms](https://github.com/trekhleb/javascript-algorithms)
+
+![Stars](https://img.shields.io/badge/Stars-195,897-yellow) ![Forks](https://img.shields.io/badge/Forks-31,090-blue) ![Language](https://img.shields.io/badge/Language-JavaScript-green)
+
+**Description:** 📝 Algorithms and data structures implemented in JavaScript with explanations and links to further readings
+
+**Stats:**
+- **Total Stars:** 195,897
+- **Forks:** 31,090
+- **Today:** 15 stars today
+- **Language:** JavaScript
+
+**Built by:** [trekhleb](https://github.com/trekhleb), [alexstulov](https://github.com/alexstulov), [m-maksyutin](https://github.com/m-maksyutin), [appleJax](https://github.com/appleJax), [albertstill](https://github.com/albertstill)
+
+---
+
+---
+
+*Last updated: 2026-04-29*
+
+*Generated by GitHub Trending Scraper*

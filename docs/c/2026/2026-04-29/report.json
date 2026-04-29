@@ -1,0 +1,319 @@
+{
+  "metadata": {
+    "date": "2026-04-29",
+    "language": "c",
+    "total_repositories": 18,
+    "total_stars": 134363,
+    "total_forks": 29585,
+    "generated_by": "GitHub Trending Scraper",
+    "format_version": "1.0"
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "curl/curl",
+      "url": "https://github.com/curl/curl",
+      "description": "A command line tool and library for transferring data with URL syntax, supporting DICT, FILE, FTP, FTPS, GOPHER, GOPHERS, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, MQTT, MQTTS, POP3, POP3S, RTSP, SCP, SFTP, SMB, SMBS, SMTP, SMTPS, TELNET, TFTP, WS and WSS. libcurl offers a myriad of powerful features",
+      "language": "C",
+      "stars": 41694,
+      "forks": 7159,
+      "stars_today": "12 stars today",
+      "built_by": [
+        "bagder",
+        "vszakats",
+        "yangtse",
+        "captain-caveman2k",
+        "dfandrich"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "Mbed-TLS/mbedtls",
+      "url": "https://github.com/Mbed-TLS/mbedtls",
+      "description": "An open source, portable, easy to use, readable and flexible TLS library, and reference implementation of the PSA Cryptography API. Releases are on a varying cadence, typically around 3 - 6 months between releases.",
+      "language": "C",
+      "stars": 6617,
+      "forks": 2866,
+      "stars_today": "1 star today",
+      "built_by": [
+        "gilles-peskine-arm",
+        "mpg",
+        "ronald-cron-arm",
+        "daverodgman",
+        "valeriosetti"
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "timescale/timescaledb",
+      "url": "https://github.com/timescale/timescaledb",
+      "description": "A time-series database for high-performance real-time analytics packaged as a Postgres extension",
+      "language": "C",
+      "stars": 22514,
+      "forks": 1081,
+      "stars_today": "16 stars today",
+      "built_by": [
+        "svenklemm",
+        "erimatnor",
+        "cevian",
+        "akuzm",
+        "mkindahl"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "dorianborian/sesame-robot",
+      "url": "https://github.com/dorianborian/sesame-robot",
+      "description": "An open and affordable mini quadruped robot based on ESP32.",
+      "language": "C",
+      "stars": 1768,
+      "forks": 234,
+      "stars_today": "115 stars today",
+      "built_by": [
+        "dorianborian",
+        "shariqnaiyer",
+        "one-for-all",
+        "vido89",
+        "maximeconnolly"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "openucx/ucx",
+      "url": "https://github.com/openucx/ucx",
+      "description": "Unified Communication X (mailing list - https://elist.ornl.gov/mailman/listinfo/ucx-group)",
+      "language": "C",
+      "stars": 1623,
+      "forks": 548,
+      "stars_today": "3 stars today",
+      "built_by": [
+        "yosefe",
+        "dmitrygx",
+        "brminich",
+        "evgeny-leksikov",
+        "alinask"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "open-telemetry/opentelemetry-ebpf-instrumentation",
+      "url": "https://github.com/open-telemetry/opentelemetry-ebpf-instrumentation",
+      "description": "Pas de description",
+      "language": "C",
+      "stars": 444,
+      "forks": 100,
+      "stars_today": "5 stars today",
+      "built_by": [
+        "renovate",
+        "mariomac",
+        "MrAlias",
+        "grcevski",
+        "rafaelroquetto"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "ImageMagick/ImageMagick",
+      "url": "https://github.com/ImageMagick/ImageMagick",
+      "description": "ImageMagick is a free, open-source software suite for creating, editing, converting, and displaying images. It supports 200+ formats and offers powerful command-line tools and APIs for automation, scripting, and integration across platforms.",
+      "language": "C",
+      "stars": 16287,
+      "forks": 1584,
+      "stars_today": "8 stars today",
+      "built_by": [
+        "dlemstra",
+        "glennrp",
+        "dependabot",
+        "reaperhulk",
+        "jgj212"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "apache/httpd",
+      "url": "https://github.com/apache/httpd",
+      "description": "Mirror of Apache HTTP Server. Issues: http://issues.apache.org",
+      "language": "C",
+      "stars": 3935,
+      "forks": 1240,
+      "stars_today": "0 stars today",
+      "built_by": [
+        "wrowe",
+        "trawick",
+        "rbowen",
+        "ylavic",
+        "jimjag"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "pgbackrest/pgbackrest",
+      "url": "https://github.com/pgbackrest/pgbackrest",
+      "description": "Reliable PostgreSQL Backup & Restore",
+      "language": "C",
+      "stars": 3865,
+      "forks": 329,
+      "stars_today": "57 stars today",
+      "built_by": [
+        "dwsteele",
+        "cmwshang",
+        "jreidthompson",
+        "pgstef",
+        "sfrost"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "mattn/go-sqlite3",
+      "url": "https://github.com/mattn/go-sqlite3",
+      "description": "sqlite3 driver for go using database/sql",
+      "language": "C",
+      "stars": 9070,
+      "forks": 1157,
+      "stars_today": "1 star today",
+      "built_by": [
+        "mattn",
+        "gjrtimmer",
+        "rittneje",
+        "otoolep",
+        "larsmans"
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "OpenEPaperLink/OpenEPaperLink",
+      "url": "https://github.com/OpenEPaperLink/OpenEPaperLink",
+      "description": "The OpenEPaperLink core project",
+      "language": "C",
+      "stars": 1685,
+      "forks": 162,
+      "stars_today": "5 stars today",
+      "built_by": [
+        "nlimper",
+        "jjwbruijn",
+        "atc1441",
+        "jonasniesner",
+        "skiphansen"
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "OpenEtherCATsociety/SOEM",
+      "url": "https://github.com/OpenEtherCATsociety/SOEM",
+      "description": "Simple Open Source EtherCAT Master",
+      "language": "C",
+      "stars": 1912,
+      "forks": 851,
+      "stars_today": "5 stars today",
+      "built_by": [
+        "hefloryd",
+        "nakarlsson",
+        "ArthurKetels",
+        "mheden",
+        "claudioscordino"
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "Klipper3d/klipper",
+      "url": "https://github.com/Klipper3d/klipper",
+      "description": "Klipper is a 3d-printer firmware",
+      "language": "C",
+      "stars": 11488,
+      "forks": 5858,
+      "stars_today": "5 stars today",
+      "built_by": [
+        "KevinOConnor",
+        "Arksine",
+        "nefelim4ag",
+        "dmbutyugin",
+        "mcmatrix"
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "andreknieriem/headunit-revived",
+      "url": "https://github.com/andreknieriem/headunit-revived",
+      "description": "Headunit App for displaying Android Auto",
+      "language": "C",
+      "stars": 838,
+      "forks": 66,
+      "stars_today": "5 stars today",
+      "built_by": [
+        "andrecuellar",
+        "andreknieriem",
+        "tsabaia",
+        "nicoruy",
+        "gemini-code-assist"
+      ]
+    },
+    {
+      "rank": 15,
+      "name": "ThrowTheSwitch/Unity",
+      "url": "https://github.com/ThrowTheSwitch/Unity",
+      "description": "Simple unit testing for C",
+      "language": "C",
+      "stars": 5178,
+      "forks": 1100,
+      "stars_today": "1 star today",
+      "built_by": [
+        "mvandervoord",
+        "jsalling",
+        "farrrb",
+        "jlindgren90",
+        "dreamer-coding"
+      ]
+    },
+    {
+      "rank": 16,
+      "name": "eclipse-paho/paho.mqtt.c",
+      "url": "https://github.com/eclipse-paho/paho.mqtt.c",
+      "description": "An Eclipse Paho C client library for MQTT for Windows, Linux and MacOS. API documentation: https://eclipse-paho.github.io/paho.mqtt.c/",
+      "language": "C",
+      "stars": 2300,
+      "forks": 1173,
+      "stars_today": "1 star today",
+      "built_by": [
+        "icraggs",
+        "orpiske",
+        "fpagliughi",
+        "guilhermeferreira",
+        "tbeu"
+      ]
+    },
+    {
+      "rank": 17,
+      "name": "Mbed-TLS/TF-PSA-Crypto",
+      "url": "https://github.com/Mbed-TLS/TF-PSA-Crypto",
+      "description": "Reference implementation of the PSA Cryptography API",
+      "language": "C",
+      "stars": 45,
+      "forks": 95,
+      "stars_today": "0 stars today",
+      "built_by": [
+        "gilles-peskine-arm",
+        "mpg",
+        "ronald-cron-arm",
+        "valeriosetti",
+        "daverodgman"
+      ]
+    },
+    {
+      "rank": 18,
+      "name": "pret/pokeemerald",
+      "url": "https://github.com/pret/pokeemerald",
+      "description": "Decompilation of Pokémon Emerald",
+      "language": "C",
+      "stars": 3100,
+      "forks": 3982,
+      "stars_today": "1 star today",
+      "built_by": [
+        "GriffinRichards",
+        "DizzyEggg",
+        "PikalaxALT",
+        "Sierraffinity",
+        "Kermalis"
+      ]
+    }
+  ]
+}
