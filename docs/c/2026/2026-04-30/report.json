@@ -1,0 +1,400 @@
+{
+  "metadata": {
+    "date": "2026-04-30",
+    "language": "c",
+    "total_repositories": 23,
+    "total_stars": 289087,
+    "total_forks": 60685,
+    "generated_by": "GitHub Trending Scraper",
+    "format_version": "1.0"
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "pgbackrest/pgbackrest",
+      "url": "https://github.com/pgbackrest/pgbackrest",
+      "description": "Reliable PostgreSQL Backup & Restore",
+      "language": "C",
+      "stars": 3883,
+      "forks": 339,
+      "stars_today": "21 stars today",
+      "built_by": [
+        "dwsteele",
+        "cmwshang",
+        "jreidthompson",
+        "pgstef",
+        "sfrost"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "WeebLabs/DSPi",
+      "url": "https://github.com/WeebLabs/DSPi",
+      "description": "A fully featured audio DSP firmware for the Raspberry Pi Pico (RP2040) and Pico 2 (RP2350). Official Discord: https://discord.gg/RCyqxAQ5xS",
+      "language": "C",
+      "stars": 751,
+      "forks": 25,
+      "stars_today": "57 stars today",
+      "built_by": [
+        "WeebLabs",
+        "jrosser"
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "espressif/esp-drone",
+      "url": "https://github.com/espressif/esp-drone",
+      "description": "Mini Drone/Quadcopter Firmware for ESP32 and ESP32-S Series SoCs.",
+      "language": "C",
+      "stars": 1807,
+      "forks": 427,
+      "stars_today": "33 stars today",
+      "built_by": [
+        "leeebo",
+        "skywxFang",
+        "liangshuzhi5193",
+        "hellvesper",
+        "Wxinfeng"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "dorianborian/sesame-robot",
+      "url": "https://github.com/dorianborian/sesame-robot",
+      "description": "An open and affordable mini quadruped robot based on ESP32.",
+      "language": "C",
+      "stars": 1811,
+      "forks": 241,
+      "stars_today": "46 stars today",
+      "built_by": [
+        "dorianborian",
+        "shariqnaiyer",
+        "one-for-all",
+        "vido89",
+        "maximeconnolly"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "winsiderss/systeminformer",
+      "url": "https://github.com/winsiderss/systeminformer",
+      "description": "A free, powerful, multi-purpose tool that helps you monitor system resources, debug software and detect malware. Brought to you by Winsider Seminars & Solutions, Inc. @ http://www.windows-internals.com",
+      "language": "C",
+      "stars": 14304,
+      "forks": 1662,
+      "stars_today": "60 stars today",
+      "built_by": [
+        "dmex",
+        "wj32",
+        "jxy-s",
+        "XhmikosR",
+        "diversenok"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "valkey-io/valkey",
+      "url": "https://github.com/valkey-io/valkey",
+      "description": "A flexible distributed key-value database that is optimized for caching and other realtime workloads.",
+      "language": "C",
+      "stars": 25615,
+      "forks": 1113,
+      "stars_today": "10 stars today",
+      "built_by": [
+        "antirez",
+        "oranagra",
+        "enjoy-binbin",
+        "pietern",
+        "madolson"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "Cisco-Talos/clamav",
+      "url": "https://github.com/Cisco-Talos/clamav",
+      "description": "ClamAV - Documentation is here: https://docs.clamav.net",
+      "language": "C",
+      "stars": 6563,
+      "forks": 854,
+      "stars_today": "2 stars today",
+      "built_by": [
+        "val-ms",
+        "Emzi-Noxum",
+        "TheRaynMan",
+        "recvfrom",
+        "steve-morgan"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "zephyrproject-rtos/zephyr",
+      "url": "https://github.com/zephyrproject-rtos/zephyr",
+      "description": "Primary Git Repository for the Zephyr Project. Zephyr is a new generation, scalable, optimized, secure RTOS for multiple hardware architectures.",
+      "language": "C",
+      "stars": 15113,
+      "forks": 9057,
+      "stars_today": "10 stars today",
+      "built_by": [
+        "nashif",
+        "jukkar",
+        "galak",
+        "gmarull",
+        "cvinayak"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "ufrisk/pcileech",
+      "url": "https://github.com/ufrisk/pcileech",
+      "description": "Direct Memory Access (DMA) Attack Software",
+      "language": "C",
+      "stars": 7606,
+      "forks": 998,
+      "stars_today": "8 stars today",
+      "built_by": [
+        "ufrisk",
+        "signal-5",
+        "shuffle2",
+        "blunden",
+        "blshkv"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "hathach/tinyusb",
+      "url": "https://github.com/hathach/tinyusb",
+      "description": "An open source cross-platform USB stack for embedded system",
+      "language": "C",
+      "stars": 6756,
+      "forks": 1415,
+      "stars_today": "5 stars today",
+      "built_by": [
+        "hathach",
+        "HiFiPhile",
+        "pigrew",
+        "kkitayam",
+        "cr1901"
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "OpenEtherCATsociety/SOEM",
+      "url": "https://github.com/OpenEtherCATsociety/SOEM",
+      "description": "Simple Open Source EtherCAT Master",
+      "language": "C",
+      "stars": 1912,
+      "forks": 852,
+      "stars_today": "0 stars today",
+      "built_by": [
+        "hefloryd",
+        "nakarlsson",
+        "ArthurKetels",
+        "mheden",
+        "claudioscordino"
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "madler/zlib",
+      "url": "https://github.com/madler/zlib",
+      "description": "A massively spiffy yet delicately unobtrusive compression library.",
+      "language": "C",
+      "stars": 6836,
+      "forks": 2748,
+      "stars_today": "6 stars today",
+      "built_by": [
+        "madler",
+        "nmoinvaz",
+        "Chi-Iroh",
+        "DimitriPapadopoulos",
+        "jrn"
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "open-quantum-safe/liboqs",
+      "url": "https://github.com/open-quantum-safe/liboqs",
+      "description": "C library for prototyping and experimenting with quantum-resistant cryptography",
+      "language": "C",
+      "stars": 2901,
+      "forks": 716,
+      "stars_today": "5 stars today",
+      "built_by": [
+        "dstebila",
+        "christianpaquin",
+        "baentsch",
+        "SWilson4",
+        "xvzcf"
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "yugabyte/yugabyte-db",
+      "url": "https://github.com/yugabyte/yugabyte-db",
+      "description": "YugabyteDB - the cloud native distributed SQL database for mission-critical applications.",
+      "language": "C",
+      "stars": 10248,
+      "forks": 1251,
+      "stars_today": "4 stars today",
+      "built_by": [
+        "ddhodge",
+        "spolitov",
+        "aishwarya24",
+        "mbautin",
+        "jaki"
+      ]
+    },
+    {
+      "rank": 15,
+      "name": "FreeRTOS/FreeRTOS-Kernel",
+      "url": "https://github.com/FreeRTOS/FreeRTOS-Kernel",
+      "description": "FreeRTOS kernel files only, submoduled into https://github.com/FreeRTOS/FreeRTOS and various other repos.",
+      "language": "C",
+      "stars": 4085,
+      "forks": 1514,
+      "stars_today": "4 stars today",
+      "built_by": [
+        "RichardBarry",
+        "aggarg",
+        "kar-rahul-aws",
+        "chinglee-iot",
+        "Skptak"
+      ]
+    },
+    {
+      "rank": 16,
+      "name": "paxx12/SnapmakerU1-Extended-Firmware",
+      "url": "https://github.com/paxx12/SnapmakerU1-Extended-Firmware",
+      "description": "Custom and repackaged Snapmaker U1 firmware",
+      "language": "C",
+      "stars": 642,
+      "forks": 70,
+      "stars_today": "6 stars today",
+      "built_by": [
+        "paxx12",
+        "horzadome",
+        "QuinnDamerell",
+        "suchmememanyskill",
+        "justinh-rahb"
+      ]
+    },
+    {
+      "rank": 17,
+      "name": "eclipse-threadx/threadx",
+      "url": "https://github.com/eclipse-threadx/threadx",
+      "description": "Eclipse ThreadX is an advanced real-time operating system (RTOS) designed specifically for deeply embedded applications.",
+      "language": "C",
+      "stars": 3444,
+      "forks": 927,
+      "stars_today": "0 stars today",
+      "built_by": [
+        "fdesbiens",
+        "wickste",
+        "TiejunZhou-CN",
+        "PProvost",
+        "goldscott"
+      ]
+    },
+    {
+      "rank": 18,
+      "name": "redis/redis",
+      "url": "https://github.com/redis/redis",
+      "description": "For developers, who are building real-time data-driven applications, Redis is the preferred, fastest, and most feature-rich cache, data structure server, and document and vector query engine.",
+      "language": "C",
+      "stars": 74067,
+      "forks": 24596,
+      "stars_today": "23 stars today",
+      "built_by": [
+        "antirez",
+        "oranagra",
+        "pietern",
+        "enjoy-binbin",
+        "sundb"
+      ]
+    },
+    {
+      "rank": 19,
+      "name": "nanopb/nanopb",
+      "url": "https://github.com/nanopb/nanopb",
+      "description": "Protocol Buffers with small code size",
+      "language": "C",
+      "stars": 5356,
+      "forks": 1006,
+      "stars_today": "6 stars today",
+      "built_by": [
+        "PetteriAimonen",
+        "kylemanna",
+        "oliverlee",
+        "joshstrohminger",
+        "theunkn0wn1"
+      ]
+    },
+    {
+      "rank": 20,
+      "name": "open62541/open62541",
+      "url": "https://github.com/open62541/open62541",
+      "description": "Open source implementation of OPC UA (OPC Unified Architecture) aka IEC 62541 licensed under Mozilla Public License v2.0",
+      "language": "C",
+      "stars": 3086,
+      "forks": 1412,
+      "stars_today": "3 stars today",
+      "built_by": [
+        "jpfr",
+        "Stasik0",
+        "Pro",
+        "ichrispa",
+        "andreasebner"
+      ]
+    },
+    {
+      "rank": 21,
+      "name": "analogdevicesinc/linux",
+      "url": "https://github.com/analogdevicesinc/linux",
+      "description": "Linux kernel variant from Analog Devices; see README.md for details",
+      "language": "C",
+      "stars": 620,
+      "forks": 944,
+      "stars_today": "1 star today",
+      "built_by": [
+        "torvalds",
+        "davem330",
+        "arndb",
+        "broonie",
+        "tiwai"
+      ]
+    },
+    {
+      "rank": 22,
+      "name": "netdata/netdata",
+      "url": "https://github.com/netdata/netdata",
+      "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
+      "language": "C",
+      "stars": 78649,
+      "forks": 6422,
+      "stars_today": "20 stars today",
+      "built_by": [
+        "ktsaou",
+        "netdatabot",
+        "ilyam8",
+        "Ferroin",
+        "stelfrag"
+      ]
+    },
+    {
+      "rank": 23,
+      "name": "libretro/RetroArch",
+      "url": "https://github.com/libretro/RetroArch",
+      "description": "Cross-platform, sophisticated frontend for the libretro API. Licensed GPLv3.",
+      "language": "C",
+      "stars": 13032,
+      "forks": 2096,
+      "stars_today": "9 stars today",
+      "built_by": [
+        "inactive123",
+        "Themaister",
+        "LibretroAdmin",
+        "andres-asm"
+      ]
+    }
+  ]
+}
