@@ -1,0 +1,334 @@
+{
+  "metadata": {
+    "date": "2026-05-01",
+    "language": "go",
+    "total_repositories": 19,
+    "total_stars": 420571,
+    "total_forks": 50361,
+    "generated_by": "GitHub Trending Scraper",
+    "format_version": "1.0"
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "CJackHwang/ds2api",
+      "url": "https://github.com/CJackHwang/ds2api",
+      "description": "Deepseek to API: A lightweight, high-performance full-stack middleware converting client protocols to universal APIs. Supports multi-account rotation, compiled binaries, Vercel Serverless, and Docker. Compatible with Google, Claude, and OpenAI API formats.",
+      "language": "Go",
+      "stars": 2955,
+      "forks": 770,
+      "stars_today": "294 stars today",
+      "built_by": [
+        "CJackHwang",
+        "shern-point",
+        "claude",
+        "sisyphus-dev-ai",
+        "ouqiting"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "aquasecurity/trivy",
+      "url": "https://github.com/aquasecurity/trivy",
+      "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
+      "language": "Go",
+      "stars": 34790,
+      "forks": 338,
+      "stars_today": "23 stars today",
+      "built_by": [
+        "knqyf263",
+        "DmitriyLewen",
+        "dependabot",
+        "nikpivkin",
+        "simar7"
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "QuantumNous/new-api",
+      "url": "https://github.com/QuantumNous/new-api",
+      "description": "A unified AI model hub for aggregation & distribution. It supports cross-converting various LLMs into OpenAI-compatible, Claude-compatible, or Gemini-compatible formats. A centralized gateway for personal and enterprise model management. 🍥",
+      "language": "Go",
+      "stars": 30009,
+      "forks": 6402,
+      "stars_today": "208 stars today",
+      "built_by": [
+        "Calcium-Ion",
+        "seefs001",
+        "t0ng7u",
+        "songquanpeng"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "everywall/ladder",
+      "url": "https://github.com/everywall/ladder",
+      "description": "Selfhosted alternative to 12ft.io. and 1ft.io. Proxy to remove CORS headers and modify HTML",
+      "language": "Go",
+      "stars": 7358,
+      "forks": 394,
+      "stars_today": "151 stars today",
+      "built_by": [
+        "mms-gianni",
+        "joncrangle",
+        "deoxykev",
+        "boomam",
+        "dkbednarczyk"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "Tencent/WeKnora",
+      "url": "https://github.com/Tencent/WeKnora",
+      "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+      "language": "Go",
+      "stars": 14123,
+      "forks": 1708,
+      "stars_today": "31 stars today",
+      "built_by": [
+        "lyingbug",
+        "begoniezhao",
+        "voidkey",
+        "claude",
+        "ochanism"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "traefik/traefik",
+      "url": "https://github.com/traefik/traefik",
+      "description": "The Cloud Native Application Proxy",
+      "language": "Go",
+      "stars": 62939,
+      "forks": 5953,
+      "stars_today": "18 stars today",
+      "built_by": [
+        "ldez",
+        "emilevauge",
+        "rtribotte",
+        "kevinpollet",
+        "mmatur"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "seaweedfs/seaweedfs",
+      "url": "https://github.com/seaweedfs/seaweedfs",
+      "description": "SeaweedFS is a distributed storage system for object storage (S3), file systems, and Iceberg tables, designed to handle billions of files with O(1) disk access and effortless horizontal scaling.",
+      "language": "Go",
+      "stars": 31993,
+      "forks": 2807,
+      "stars_today": "42 stars today",
+      "built_by": [
+        "chrislusf",
+        "dependabot",
+        "kmlebedev",
+        "chrisluuber",
+        "gemini-code-assist"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "Gentleman-Programming/engram",
+      "url": "https://github.com/Gentleman-Programming/engram",
+      "description": "Persistent memory system for AI coding agents. Agent-agnostic Go binary with SQLite + FTS5, MCP server, HTTP API, CLI, and TUI.",
+      "language": "Go",
+      "stars": 3063,
+      "forks": 337,
+      "stars_today": "37 stars today",
+      "built_by": [
+        "Alan-TheGentleman",
+        "egdev6",
+        "Twinber",
+        "SantiagoBobrik",
+        "sanurb"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "wavetermdev/waveterm",
+      "url": "https://github.com/wavetermdev/waveterm",
+      "description": "An open-source, AI-integrated, cross-platform terminal for seamless workflows",
+      "language": "Go",
+      "stars": 20040,
+      "forks": 943,
+      "stars_today": "43 stars today",
+      "built_by": [
+        "sawka",
+        "esimkowitz",
+        "dependabot",
+        "wave-builder",
+        "oneirocosm"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "Agent-Field/agentfield",
+      "url": "https://github.com/Agent-Field/agentfield",
+      "description": "Build, run and scale AI agents like API and microservices - observable,auditable and identity-aware from day one.",
+      "language": "Go",
+      "stars": 1589,
+      "forks": 260,
+      "stars_today": "25 stars today",
+      "built_by": [
+        "santoshkumarradha",
+        "AbirAbbas",
+        "github-actions",
+        "claude",
+        "dependabot"
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "meshery/meshery",
+      "url": "https://github.com/meshery/meshery",
+      "description": "Meshery, the cloud native manager",
+      "language": "Go",
+      "stars": 10165,
+      "forks": 3286,
+      "stars_today": "3 stars today",
+      "built_by": [
+        "leecalcote",
+        "MUzairS15",
+        "amitamrutiya",
+        "aabidsofi19",
+        "theBeginner86"
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "hashicorp/consul",
+      "url": "https://github.com/hashicorp/consul",
+      "description": "Consul is a distributed, highly available, and data center aware solution to connect and configure applications across dynamic, distributed infrastructure.",
+      "language": "Go",
+      "stars": 29876,
+      "forks": 4582,
+      "stars_today": "4 stars today",
+      "built_by": [
+        "slackpad",
+        "dnephin",
+        "armon",
+        "johncowen",
+        "mkeeler"
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "caddyserver/caddy",
+      "url": "https://github.com/caddyserver/caddy",
+      "description": "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS",
+      "language": "Go",
+      "stars": 71976,
+      "forks": 4709,
+      "stars_today": "35 stars today",
+      "built_by": [
+        "mholt",
+        "francislavoie",
+        "mohammed90",
+        "WeidiDeng",
+        "dunglas"
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "projectdiscovery/nuclei",
+      "url": "https://github.com/projectdiscovery/nuclei",
+      "description": "Nuclei is a fast, customizable vulnerability scanner powered by the global security community and built on a simple YAML-based DSL, enabling collaboration to tackle trending vulnerabilities on the internet. It helps you find vulnerabilities in your applications, APIs, networks, DNS, and cloud configurations.",
+      "language": "Go",
+      "stars": 28166,
+      "forks": 3377,
+      "stars_today": "18 stars today",
+      "built_by": [
+        "ehsandeep",
+        "Mzack9999",
+        "dependabot",
+        "Ice3man543",
+        "tarunKoyalwar"
+      ]
+    },
+    {
+      "rank": 15,
+      "name": "argoproj/argo-cd",
+      "url": "https://github.com/argoproj/argo-cd",
+      "description": "Declarative Continuous Deployment for Kubernetes",
+      "language": "Go",
+      "stars": 22771,
+      "forks": 7141,
+      "stars_today": "15 stars today",
+      "built_by": [
+        "dependabot",
+        "alexmt",
+        "crenshaw-dev",
+        "jannfis",
+        "jessesuen"
+      ]
+    },
+    {
+      "rank": 16,
+      "name": "containerd/containerd",
+      "url": "https://github.com/containerd/containerd",
+      "description": "An open and reliable container runtime",
+      "language": "Go",
+      "stars": 20652,
+      "forks": 3889,
+      "stars_today": "5 stars today",
+      "built_by": [
+        "dmcgowan",
+        "crosbymichael",
+        "estesp",
+        "Random-Liu",
+        "AkihiroSuda"
+      ]
+    },
+    {
+      "rank": 17,
+      "name": "hashicorp/terraform-mcp-server",
+      "url": "https://github.com/hashicorp/terraform-mcp-server",
+      "description": "The Terraform MCP Server provides seamless integration with Terraform ecosystem, enabling advanced automation and interaction capabilities for Infrastructure as Code (IaC) development.",
+      "language": "Go",
+      "stars": 1349,
+      "forks": 153,
+      "stars_today": "1 star today",
+      "built_by": [
+        "gautambaghel",
+        "BBBmau",
+        "dependabot",
+        "jrhouston",
+        "mukeshjc"
+      ]
+    },
+    {
+      "rank": 18,
+      "name": "actions/actions-runner-controller",
+      "url": "https://github.com/actions/actions-runner-controller",
+      "description": "Kubernetes controller for GitHub Actions self-hosted runners",
+      "language": "Go",
+      "stars": 6217,
+      "forks": 1414,
+      "stars_today": "5 stars today",
+      "built_by": [
+        "mumoshu",
+        "summerwind",
+        "nikola-jokic",
+        "toast-gear",
+        "renovate"
+      ]
+    },
+    {
+      "rank": 19,
+      "name": "qax-os/excelize",
+      "url": "https://github.com/qax-os/excelize",
+      "description": "Go language library for reading and writing Microsoft Excel™ (XLAM / XLSM / XLSX / XLTM / XLTX) spreadsheets",
+      "language": "Go",
+      "stars": 20540,
+      "forks": 1898,
+      "stars_today": "3 stars today",
+      "built_by": [
+        "xuri",
+        "mlh758",
+        "dolmen",
+        "albenik"
+      ]
+    }
+  ]
+}
