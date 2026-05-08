@@ -1,0 +1,350 @@
+{
+  "metadata": {
+    "date": "2026-05-08",
+    "language": "c",
+    "total_repositories": 20,
+    "total_stars": 292979,
+    "total_forks": 80504,
+    "generated_by": "GitHub Trending Scraper",
+    "format_version": "1.0"
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "Mbed-TLS/mbedtls",
+      "url": "https://github.com/Mbed-TLS/mbedtls",
+      "description": "An open source, portable, easy to use, readable and flexible TLS library, and reference implementation of the PSA Cryptography API. Releases are on a varying cadence, typically around 3 - 6 months between releases.",
+      "language": "C",
+      "stars": 6641,
+      "forks": 2867,
+      "stars_today": "7 stars today",
+      "built_by": [
+        "gilles-peskine-arm",
+        "mpg",
+        "ronald-cron-arm",
+        "daverodgman",
+        "valeriosetti"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "DaveGamble/cJSON",
+      "url": "https://github.com/DaveGamble/cJSON",
+      "description": "Ultralightweight JSON parser in ANSI C",
+      "language": "C",
+      "stars": 12681,
+      "forks": 3480,
+      "stars_today": "4 stars today",
+      "built_by": [
+        "FSMaxB",
+        "Alanscut",
+        "DaveGamble",
+        "kbranigan",
+        "gatzka"
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "zephyrproject-rtos/zephyr",
+      "url": "https://github.com/zephyrproject-rtos/zephyr",
+      "description": "Primary Git Repository for the Zephyr Project. Zephyr is a new generation, scalable, optimized, secure RTOS for multiple hardware architectures.",
+      "language": "C",
+      "stars": 15186,
+      "forks": 9106,
+      "stars_today": "15 stars today",
+      "built_by": [
+        "nashif",
+        "jukkar",
+        "galak",
+        "gmarull",
+        "cvinayak"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "tianocore/edk2",
+      "url": "https://github.com/tianocore/edk2",
+      "description": "EDK II",
+      "language": "C",
+      "stars": 5972,
+      "forks": 3139,
+      "stars_today": "3 stars today",
+      "built_by": [
+        "niruiyu",
+        "lzeng14",
+        "lgao4",
+        "jljusten",
+        "mdkinney"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "nothings/stb",
+      "url": "https://github.com/nothings/stb",
+      "description": "stb single-file public domain libraries for C/C++",
+      "language": "C",
+      "stars": 33575,
+      "forks": 8049,
+      "stars_today": "15 stars today",
+      "built_by": [
+        "nothings",
+        "rygorous",
+        "BSVino",
+        "ocornut",
+        "rwhitworth"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "esnet/iperf",
+      "url": "https://github.com/esnet/iperf",
+      "description": "iperf3: A TCP, UDP, and SCTP network bandwidth measurement tool",
+      "language": "C",
+      "stars": 8474,
+      "forks": 1415,
+      "stars_today": "6 stars today",
+      "built_by": [
+        "bmah888",
+        "jdugan1024",
+        "bltierney",
+        "davidBar-On",
+        "swlars"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "valkey-io/valkey",
+      "url": "https://github.com/valkey-io/valkey",
+      "description": "A flexible distributed key-value database that is optimized for caching and other realtime workloads.",
+      "language": "C",
+      "stars": 25693,
+      "forks": 1126,
+      "stars_today": "12 stars today",
+      "built_by": [
+        "antirez",
+        "oranagra",
+        "enjoy-binbin",
+        "pietern",
+        "madolson"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "HansKristian-Work/vkd3d-proton",
+      "url": "https://github.com/HansKristian-Work/vkd3d-proton",
+      "description": "Fork of VKD3D. Development branches for Proton's Direct3D 12 implementation.",
+      "language": "C",
+      "stars": 2702,
+      "forks": 277,
+      "stars_today": "6 stars today",
+      "built_by": [
+        "HansKristian-Work",
+        "jozefkucia",
+        "doitsujin",
+        "misyltoad",
+        "Saancreed"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "FreeRTOS/FreeRTOS",
+      "url": "https://github.com/FreeRTOS/FreeRTOS",
+      "description": "'Classic' FreeRTOS distribution. Started as Git clone of FreeRTOS SourceForge SVN repo. Submodules the kernel.",
+      "language": "C",
+      "stars": 7299,
+      "forks": 2012,
+      "stars_today": "8 stars today",
+      "built_by": [
+        "RichardBarry",
+        "aggarg",
+        "AniruddhaKanhere",
+        "chinglee-iot",
+        "paulbartell"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "FreeRTOS/FreeRTOS-Kernel",
+      "url": "https://github.com/FreeRTOS/FreeRTOS-Kernel",
+      "description": "FreeRTOS kernel files only, submoduled into https://github.com/FreeRTOS/FreeRTOS and various other repos.",
+      "language": "C",
+      "stars": 4104,
+      "forks": 1517,
+      "stars_today": "3 stars today",
+      "built_by": [
+        "RichardBarry",
+        "aggarg",
+        "kar-rahul-aws",
+        "chinglee-iot",
+        "Skptak"
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "asterisk/asterisk",
+      "url": "https://github.com/asterisk/asterisk",
+      "description": "The official Asterisk Project repository.",
+      "language": "C",
+      "stars": 3221,
+      "forks": 1233,
+      "stars_today": "1 star today",
+      "built_by": [
+        "jcolp",
+        "russellb",
+        "tilghman",
+        "rmudgett9125",
+        "gtjoseph"
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "lvgl/lvgl",
+      "url": "https://github.com/lvgl/lvgl",
+      "description": "Embedded graphics library to create beautiful UIs for any MCU, MPU and display type.",
+      "language": "C",
+      "stars": 23487,
+      "forks": 4160,
+      "stars_today": "12 stars today",
+      "built_by": [
+        "kisvegabor",
+        "embeddedt",
+        "FASTSHIFT",
+        "github-actions",
+        "AndreCostaaa"
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "sabrogden/Ditto",
+      "url": "https://github.com/sabrogden/Ditto",
+      "description": "Ditto is an extension to the Windows Clipboard. You copy something to the Clipboard and Ditto takes what you copied and stores it in a database to retrieve at a later time.",
+      "language": "C",
+      "stars": 6366,
+      "forks": 389,
+      "stars_today": "4 stars today",
+      "built_by": [
+        "sabrogden",
+        "dcog989",
+        "PzaThief",
+        "schmurtzm",
+        "bovirus"
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "mcu-tools/mcuboot",
+      "url": "https://github.com/mcu-tools/mcuboot",
+      "description": "Secure boot for 32-bit Microcontrollers!",
+      "language": "C",
+      "stars": 1878,
+      "forks": 915,
+      "stars_today": "3 stars today",
+      "built_by": [
+        "utzig",
+        "d3zd3z",
+        "nordicjm",
+        "de-nordic",
+        "nvlsianpu"
+      ]
+    },
+    {
+      "rank": 15,
+      "name": "kingToolbox/WindTerm",
+      "url": "https://github.com/kingToolbox/WindTerm",
+      "description": "A professional cross-platform SSH/Sftp/Shell/Telnet/Tmux/Serial terminal.",
+      "language": "C",
+      "stars": 30865,
+      "forks": 2341,
+      "stars_today": "23 stars today",
+      "built_by": [
+        "kingToolbox",
+        "dnlchen"
+      ]
+    },
+    {
+      "rank": 16,
+      "name": "RfidResearchGroup/proxmark3",
+      "url": "https://github.com/RfidResearchGroup/proxmark3",
+      "description": "Iceman Fork - Proxmark3",
+      "language": "C",
+      "stars": 5612,
+      "forks": 1329,
+      "stars_today": "5 stars today",
+      "built_by": [
+        "iceman1001",
+        "doegox",
+        "merlokk",
+        "tharexde",
+        "Antiklesys"
+      ]
+    },
+    {
+      "rank": 17,
+      "name": "flipperdevices/flipperzero-firmware",
+      "url": "https://github.com/flipperdevices/flipperzero-firmware",
+      "description": "Flipper Zero firmware source code",
+      "language": "C",
+      "stars": 15925,
+      "forks": 3342,
+      "stars_today": "3 stars today",
+      "built_by": [
+        "skotopes",
+        "hedger",
+        "DrZlo13",
+        "gornekich",
+        "glitchcore"
+      ]
+    },
+    {
+      "rank": 18,
+      "name": "git/git",
+      "url": "https://github.com/git/git",
+      "description": "Git Source Code Mirror - This is a publish-only repository but pull requests can be turned into patches to the mailing list via GitGitGadget (https://gitgitgadget.github.io/). Please follow Documentation/SubmittingPatches procedure for any of your improvements.",
+      "language": "C",
+      "stars": 60803,
+      "forks": 27871,
+      "stars_today": "26 stars today",
+      "built_by": [
+        "gitster",
+        "peff",
+        "dscho",
+        "pks-t",
+        "avar"
+      ]
+    },
+    {
+      "rank": 19,
+      "name": "gentilkiwi/mimikatz",
+      "url": "https://github.com/gentilkiwi/mimikatz",
+      "description": "A little tool to play with Windows security",
+      "language": "C",
+      "stars": 21533,
+      "forks": 4116,
+      "stars_today": "10 stars today",
+      "built_by": [
+        "gentilkiwi",
+        "hubert3",
+        "tanrikuluatahan",
+        "vletoux",
+        "zhangyoufu"
+      ]
+    },
+    {
+      "rank": 20,
+      "name": "sonic-net/sonic-buildimage",
+      "url": "https://github.com/sonic-net/sonic-buildimage",
+      "description": "Scripts which perform an installable binary image build for SONiC",
+      "language": "C",
+      "stars": 962,
+      "forks": 1820,
+      "stars_today": "0 stars today",
+      "built_by": [
+        "mssonicbld",
+        "lguohan",
+        "jleveque",
+        "qiluo-msft",
+        "saiarcot895"
+      ]
+    }
+  ]
+}
