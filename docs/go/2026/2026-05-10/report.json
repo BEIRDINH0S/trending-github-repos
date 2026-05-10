@@ -1,0 +1,318 @@
+{
+  "metadata": {
+    "date": "2026-05-10",
+    "language": "go",
+    "total_repositories": 18,
+    "total_stars": 419404,
+    "total_forks": 44404,
+    "generated_by": "GitHub Trending Scraper",
+    "format_version": "1.0"
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "masterking32/MasterDnsVPN",
+      "url": "https://github.com/masterking32/MasterDnsVPN",
+      "description": "Advanced DNS tunneling VPN for censorship bypass, optimized beyond DNSTT and SlipStream with low-overhead ARQ, resolver load balancing, high packet-loss stability and speed.",
+      "language": "Go",
+      "stars": 2587,
+      "forks": 278,
+      "stars_today": "597 stars today",
+      "built_by": [
+        "masterking32",
+        "abolix",
+        "PentSec",
+        "MahdiMirzadeh",
+        "typerhack"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "Tencent/WeKnora",
+      "url": "https://github.com/Tencent/WeKnora",
+      "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+      "language": "Go",
+      "stars": 14517,
+      "forks": 1790,
+      "stars_today": "44 stars today",
+      "built_by": [
+        "lyingbug",
+        "begoniezhao",
+        "claude",
+        "voidkey",
+        "dependabot"
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "fsnotify/fsnotify",
+      "url": "https://github.com/fsnotify/fsnotify",
+      "description": "Cross-platform filesystem notifications for Go.",
+      "language": "Go",
+      "stars": 10675,
+      "forks": 969,
+      "stars_today": "8 stars today",
+      "built_by": [
+        "nathany",
+        "howeyc",
+        "arp242",
+        "PieterD",
+        "mattn"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "enfein/mieru",
+      "url": "https://github.com/enfein/mieru",
+      "description": "mieru is a socks5 / HTTP / HTTPS proxy to bypass censorship. 見える是一款 socks5 / HTTP / HTTPS 网络代理翻墙工具。",
+      "language": "Go",
+      "stars": 1827,
+      "forks": 184,
+      "stars_today": "35 stars today",
+      "built_by": [
+        "enfein",
+        "dependabot",
+        "Nemu-x",
+        "qr243vbi",
+        "mxyhi"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "github/github-mcp-server",
+      "url": "https://github.com/github/github-mcp-server",
+      "description": "GitHub's official MCP Server",
+      "language": "Go",
+      "stars": 29667,
+      "forks": 4151,
+      "stars_today": "43 stars today",
+      "built_by": [
+        "SamMorrowDrums",
+        "JoannaaKL",
+        "dependabot",
+        "mattdholloway",
+        "Copilot"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "QuantumNous/new-api",
+      "url": "https://github.com/QuantumNous/new-api",
+      "description": "A unified AI model hub for aggregation & distribution. It supports cross-converting various LLMs into OpenAI-compatible, Claude-compatible, or Gemini-compatible formats. A centralized gateway for personal and enterprise model management. 🍥",
+      "language": "Go",
+      "stars": 32040,
+      "forks": 6920,
+      "stars_today": "269 stars today",
+      "built_by": [
+        "Calcium-Ion",
+        "seefs001",
+        "t0ng7u",
+        "songquanpeng"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "googleapis/mcp-toolbox",
+      "url": "https://github.com/googleapis/mcp-toolbox",
+      "description": "MCP Toolbox for Databases is an open source MCP server for databases.",
+      "language": "Go",
+      "stars": 15099,
+      "forks": 1520,
+      "stars_today": "48 stars today",
+      "built_by": [
+        "Yuan325",
+        "twishabansal",
+        "duwenxin99",
+        "averikitsch",
+        "release-please"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "caddyserver/caddy",
+      "url": "https://github.com/caddyserver/caddy",
+      "description": "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS",
+      "language": "Go",
+      "stars": 72277,
+      "forks": 4722,
+      "stars_today": "47 stars today",
+      "built_by": [
+        "mholt",
+        "francislavoie",
+        "mohammed90",
+        "WeidiDeng",
+        "dunglas"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "Wei-Shaw/sub2api",
+      "url": "https://github.com/Wei-Shaw/sub2api",
+      "description": "Sub2API-CRS2 一站式开源中转服务，让 Claude、Openai 、Gemini、Antigravity订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
+      "language": "Go",
+      "stars": 19334,
+      "forks": 3558,
+      "stars_today": "319 stars today",
+      "built_by": [
+        "Wei-Shaw",
+        "IanShaw027",
+        "touwaeriol",
+        "claude",
+        "slovx2"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "milvus-io/milvus",
+      "url": "https://github.com/milvus-io/milvus",
+      "description": "Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search",
+      "language": "Go",
+      "stars": 44202,
+      "forks": 3993,
+      "stars_today": "20 stars today",
+      "built_by": [
+        "congqixia",
+        "JinHai-CN",
+        "bigsheeper",
+        "zhuwenxing",
+        "xiaocai2333"
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "everywall/ladder",
+      "url": "https://github.com/everywall/ladder",
+      "description": "Selfhosted alternative to 12ft.io. and 1ft.io. Proxy to remove CORS headers and modify HTML",
+      "language": "Go",
+      "stars": 7700,
+      "forks": 430,
+      "stars_today": "169 stars today",
+      "built_by": [
+        "mms-gianni",
+        "joncrangle",
+        "deoxykev",
+        "boomam",
+        "dependabot"
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "evcc-io/evcc",
+      "url": "https://github.com/evcc-io/evcc",
+      "description": "solar charging ☀️🚘",
+      "language": "Go",
+      "stars": 6581,
+      "forks": 1315,
+      "stars_today": "6 stars today",
+      "built_by": [
+        "andig",
+        "naltatis",
+        "premultiply",
+        "weblate",
+        "DerAndereAndi"
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "wavetermdev/waveterm",
+      "url": "https://github.com/wavetermdev/waveterm",
+      "description": "An open-source, AI-integrated, cross-platform terminal for seamless workflows",
+      "language": "Go",
+      "stars": 20267,
+      "forks": 966,
+      "stars_today": "37 stars today",
+      "built_by": [
+        "sawka",
+        "esimkowitz",
+        "dependabot",
+        "wave-builder",
+        "oneirocosm"
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "samber/lo",
+      "url": "https://github.com/samber/lo",
+      "description": "💥 A Lodash-style Go library based on Go 1.18+ Generics (map, filter, contains, find...)",
+      "language": "Go",
+      "stars": 21255,
+      "forks": 944,
+      "stars_today": "17 stars today",
+      "built_by": [
+        "samber",
+        "dependabot",
+        "d-enk",
+        "NathanBaulch",
+        "CorentinClabaut"
+      ]
+    },
+    {
+      "rank": 15,
+      "name": "1Panel-dev/1Panel",
+      "url": "https://github.com/1Panel-dev/1Panel",
+      "description": "🔥 1Panel is a modern, open-source VPS control panel — and the only one with native AI agent support. Run Ollama models, deploy OpenClaw agents, and manage your entire server stack from one clean web interface.",
+      "language": "Go",
+      "stars": 35377,
+      "forks": 3156,
+      "stars_today": "32 stars today",
+      "built_by": [
+        "zhengkunwang223",
+        "ssongliu",
+        "lan-yonghui",
+        "wanghe-fit2cloud",
+        "HynoR"
+      ]
+    },
+    {
+      "rank": 16,
+      "name": "docker/compose",
+      "url": "https://github.com/docker/compose",
+      "description": "Define and run multi-container applications with Docker",
+      "language": "Go",
+      "stars": 37360,
+      "forks": 5794,
+      "stars_today": "4 stars today",
+      "built_by": [
+        "ndeloof",
+        "glours",
+        "gtardif",
+        "dependabot",
+        "rumpl"
+      ]
+    },
+    {
+      "rank": 17,
+      "name": "maximhq/bifrost",
+      "url": "https://github.com/maximhq/bifrost",
+      "description": "Fastest enterprise AI gateway (50x faster than LiteLLM) with adaptive load balancer, cluster mode, guardrails, 1000+ models support & <100 µs overhead at 5k RPS.",
+      "language": "Go",
+      "stars": 4741,
+      "forks": 572,
+      "stars_today": "22 stars today",
+      "built_by": [
+        "github-actions",
+        "akshaydeo",
+        "Pratham-Mishra04",
+        "TejasGhatte",
+        "impoiler"
+      ]
+    },
+    {
+      "rank": 18,
+      "name": "spf13/cobra",
+      "url": "https://github.com/spf13/cobra",
+      "description": "A Commander for modern Go CLI interactions",
+      "language": "Go",
+      "stars": 43898,
+      "forks": 3142,
+      "stars_today": "9 stars today",
+      "built_by": [
+        "eparis",
+        "n10v",
+        "spf13",
+        "umarcor",
+        "marckhouzam"
+      ]
+    }
+  ]
+}
