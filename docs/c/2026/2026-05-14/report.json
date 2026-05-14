@@ -1,0 +1,335 @@
+{
+  "metadata": {
+    "date": "2026-05-14",
+    "language": "c",
+    "total_repositories": 19,
+    "total_stars": 309815,
+    "total_forks": 58582,
+    "generated_by": "GitHub Trending Scraper",
+    "format_version": "1.0"
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "FreeRTOS/FreeRTOS-Kernel",
+      "url": "https://github.com/FreeRTOS/FreeRTOS-Kernel",
+      "description": "FreeRTOS kernel files only, submoduled into https://github.com/FreeRTOS/FreeRTOS and various other repos.",
+      "language": "C",
+      "stars": 4130,
+      "forks": 1524,
+      "stars_today": "8 stars today",
+      "built_by": [
+        "RichardBarry",
+        "aggarg",
+        "kar-rahul-aws",
+        "chinglee-iot",
+        "Skptak"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "DavidXanatos/TaskExplorer",
+      "url": "https://github.com/DavidXanatos/TaskExplorer",
+      "description": "Power full Task Manager",
+      "language": "C",
+      "stars": 3558,
+      "forks": 281,
+      "stars_today": "123 stars today",
+      "built_by": [
+        "DavidXanatos",
+        "love-code-yeyixiao",
+        "bovirus",
+        "coolvitto",
+        "offhub"
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "mit-pdos/xv6-riscv",
+      "url": "https://github.com/mit-pdos/xv6-riscv",
+      "description": "Xv6 for RISC-V",
+      "language": "C",
+      "stars": 9682,
+      "forks": 3948,
+      "stars_today": "57 stars today",
+      "built_by": [
+        "kaashoek",
+        "zeldovich",
+        "segfauIt",
+        "4ge32",
+        "anishathalye"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "Genymobile/scrcpy",
+      "url": "https://github.com/Genymobile/scrcpy",
+      "description": "Display and control your Android device",
+      "language": "C",
+      "stars": 140787,
+      "forks": 13022,
+      "stars_today": "589 stars today",
+      "built_by": [
+        "rom1v",
+        "yume-chan",
+        "npes87184",
+        "brunoais",
+        "rootkea"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "MrPowerGamerBR/Butterscotch",
+      "url": "https://github.com/MrPowerGamerBR/Butterscotch",
+      "description": "🥧 An open source re-implementation of GameMaker: Studio's runner (YoYo Runner), targeting Undertale v1.08 (Bytecode Version 16)",
+      "language": "C",
+      "stars": 221,
+      "forks": 46,
+      "stars_today": "8 stars today",
+      "built_by": [
+        "MrPowerGamerBR",
+        "Fancy2209",
+        "LukeWarnut",
+        "Eliandro4",
+        "mattx433"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "timescale/timescaledb",
+      "url": "https://github.com/timescale/timescaledb",
+      "description": "A time-series database for high-performance real-time analytics packaged as a Postgres extension",
+      "language": "C",
+      "stars": 22627,
+      "forks": 1089,
+      "stars_today": "10 stars today",
+      "built_by": [
+        "svenklemm",
+        "erimatnor",
+        "cevian",
+        "akuzm",
+        "mkindahl"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "openssl/openssl",
+      "url": "https://github.com/openssl/openssl",
+      "description": "General purpose TLS and crypto library",
+      "language": "C",
+      "stars": 30149,
+      "forks": 11257,
+      "stars_today": "6 stars today",
+      "built_by": [
+        "levitte",
+        "mattcaswell",
+        "dot-asm",
+        "paulidale",
+        "snhenson"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "curl/curl",
+      "url": "https://github.com/curl/curl",
+      "description": "A command line tool and library for transferring data with URL syntax, supporting DICT, FILE, FTP, FTPS, GOPHER, GOPHERS, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, MQTT, MQTTS, POP3, POP3S, RTSP, SCP, SFTP, SMB, SMBS, SMTP, SMTPS, TELNET, TFTP, WS and WSS. libcurl offers a myriad of powerful features",
+      "language": "C",
+      "stars": 41844,
+      "forks": 7192,
+      "stars_today": "31 stars today",
+      "built_by": [
+        "bagder",
+        "vszakats",
+        "yangtse",
+        "captain-caveman2k",
+        "dfandrich"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "ThrowTheSwitch/Unity",
+      "url": "https://github.com/ThrowTheSwitch/Unity",
+      "description": "Simple unit testing for C",
+      "language": "C",
+      "stars": 5213,
+      "forks": 1106,
+      "stars_today": "2 stars today",
+      "built_by": [
+        "mvandervoord",
+        "jsalling",
+        "farrrb",
+        "jlindgren90",
+        "dreamer-coding"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "sonic-net/sonic-buildimage",
+      "url": "https://github.com/sonic-net/sonic-buildimage",
+      "description": "Scripts which perform an installable binary image build for SONiC",
+      "language": "C",
+      "stars": 964,
+      "forks": 1832,
+      "stars_today": "0 stars today",
+      "built_by": [
+        "mssonicbld",
+        "lguohan",
+        "jleveque",
+        "qiluo-msft",
+        "saiarcot895"
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "NVIDIA/cuda-samples",
+      "url": "https://github.com/NVIDIA/cuda-samples",
+      "description": "Samples for CUDA Developers which demonstrates features in CUDA Toolkit",
+      "language": "C++",
+      "stars": 9169,
+      "forks": 2334,
+      "stars_today": "8 stars today",
+      "built_by": [
+        "rwarmstr",
+        "XSShawnZeng",
+        "mdoijade",
+        "Ru7w1k",
+        "jnbntz"
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "Ralim/IronOS",
+      "url": "https://github.com/Ralim/IronOS",
+      "description": "Open Source Soldering Iron firmware",
+      "language": "C",
+      "stars": 8203,
+      "forks": 810,
+      "stars_today": "4 stars today",
+      "built_by": [
+        "Ralim",
+        "discip",
+        "github-actions",
+        "ia",
+        "River-Mochi"
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "hzqst/VmwareHardenedLoader",
+      "url": "https://github.com/hzqst/VmwareHardenedLoader",
+      "description": "Vmware Hardened VM detection mitigation loader (anti anti-vm)",
+      "language": "C",
+      "stars": 2266,
+      "forks": 528,
+      "stars_today": "5 stars today",
+      "built_by": [
+        "hzqst",
+        "franciosi",
+        "erjanmx",
+        "uragan1987"
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "zephyrproject-rtos/zephyr",
+      "url": "https://github.com/zephyrproject-rtos/zephyr",
+      "description": "Primary Git Repository for the Zephyr Project. Zephyr is a new generation, scalable, optimized, secure RTOS for multiple hardware architectures.",
+      "language": "C",
+      "stars": 15246,
+      "forks": 9140,
+      "stars_today": "10 stars today",
+      "built_by": [
+        "nashif",
+        "jukkar",
+        "galak",
+        "gmarull",
+        "cvinayak"
+      ]
+    },
+    {
+      "rank": 15,
+      "name": "abishekvashok/cmatrix",
+      "url": "https://github.com/abishekvashok/cmatrix",
+      "description": "Terminal based \"The Matrix\" like implementation",
+      "language": "C",
+      "stars": 5072,
+      "forks": 526,
+      "stars_today": "4 stars today",
+      "built_by": [
+        "abishekvashok",
+        "hoijui",
+        "livibetter",
+        "a1346054",
+        "AstolfoKawaii"
+      ]
+    },
+    {
+      "rank": 16,
+      "name": "Xilinx/linux-xlnx",
+      "url": "https://github.com/Xilinx/linux-xlnx",
+      "description": "The official Linux kernel from Xilinx",
+      "language": "C",
+      "stars": 1541,
+      "forks": 1612,
+      "stars_today": "0 stars today",
+      "built_by": [
+        "torvalds",
+        "davem330",
+        "tiwai",
+        "broonie",
+        "gregkh"
+      ]
+    },
+    {
+      "rank": 17,
+      "name": "bdth-7777777/OLED_UI",
+      "url": "https://github.com/bdth-7777777/OLED_UI",
+      "description": "一个丝滑的、可以轻松部署的OLED UI界面，包含基本的多级菜单，窗口等组件。",
+      "language": "C",
+      "stars": 499,
+      "forks": 58,
+      "stars_today": "15 stars today",
+      "built_by": [
+        "LaoGuaiGe",
+        "bdth-7777777",
+        "SteamedCharger",
+        "5akura1",
+        "claude"
+      ]
+    },
+    {
+      "rank": 18,
+      "name": "apache/nuttx",
+      "url": "https://github.com/apache/nuttx",
+      "description": "Apache NuttX is a mature, real-time embedded operating system (RTOS)",
+      "language": "C",
+      "stars": 3854,
+      "forks": 1574,
+      "stars_today": "1 star today",
+      "built_by": [
+        "gregory-nutt",
+        "xiaoxiang781216",
+        "yamt",
+        "anchao",
+        "raiden00pl"
+      ]
+    },
+    {
+      "rank": 19,
+      "name": "HarbourMasters/Shipwright",
+      "url": "https://github.com/HarbourMasters/Shipwright",
+      "description": "Pas de description",
+      "language": "C",
+      "stars": 4790,
+      "forks": 703,
+      "stars_today": "24 stars today",
+      "built_by": [
+        "briaguya0",
+        "Malkierian",
+        "Archez",
+        "serprex",
+        "garrettjoecox"
+      ]
+    }
+  ]
+}

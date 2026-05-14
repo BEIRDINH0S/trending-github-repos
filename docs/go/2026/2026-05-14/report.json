@@ -1,0 +1,369 @@
+{
+  "metadata": {
+    "date": "2026-05-14",
+    "language": "go",
+    "total_repositories": 21,
+    "total_stars": 446859,
+    "total_forks": 71178,
+    "generated_by": "GitHub Trending Scraper",
+    "format_version": "1.0"
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "influxdata/telegraf",
+      "url": "https://github.com/influxdata/telegraf",
+      "description": "Agent for collecting, processing, aggregating, and writing metrics, logs, and other arbitrary data.",
+      "language": "Go",
+      "stars": 17035,
+      "forks": 5780,
+      "stars_today": "13 stars today",
+      "built_by": [
+        "danielnelson",
+        "dependabot",
+        "srebhan",
+        "sparrc",
+        "powersj"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "apernet/hysteria",
+      "url": "https://github.com/apernet/hysteria",
+      "description": "Hysteria is a powerful, lightning fast and censorship resistant proxy.",
+      "language": "Go",
+      "stars": 20653,
+      "forks": 2138,
+      "stars_today": "485 stars today",
+      "built_by": [
+        "tobyxdd",
+        "haruue",
+        "dependabot",
+        "mritd",
+        "HynoR"
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "etcd-io/etcd",
+      "url": "https://github.com/etcd-io/etcd",
+      "description": "Distributed reliable key-value store for the most critical data of a distributed system",
+      "language": "Go",
+      "stars": 51701,
+      "forks": 10350,
+      "stars_today": "9 stars today",
+      "built_by": [
+        "gyuho",
+        "ahrtr",
+        "xiang90",
+        "serathius",
+        "yichengq"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "hashicorp/vault",
+      "url": "https://github.com/hashicorp/vault",
+      "description": "A tool for secrets management, encryption as a service, and privileged access management",
+      "language": "Go",
+      "stars": 35610,
+      "forks": 4667,
+      "stars_today": "5 stars today",
+      "built_by": [
+        "jefferai",
+        "hc-github-team-secure-vault-core",
+        "vishalnayak",
+        "armon",
+        "ncabatoff"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "cloudwego/eino",
+      "url": "https://github.com/cloudwego/eino",
+      "description": "The ultimate LLM/AI application development framework in Go.",
+      "language": "Go",
+      "stars": 11220,
+      "forks": 909,
+      "stars_today": "26 stars today",
+      "built_by": [
+        "meguminnnnnnnnn",
+        "shentongmartin",
+        "hi-pender",
+        "luohq-bytedance",
+        "N3kox"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "github/gh-aw",
+      "url": "https://github.com/github/gh-aw",
+      "description": "GitHub Agentic Workflows",
+      "language": "Go",
+      "stars": 4467,
+      "forks": 385,
+      "stars_today": "14 stars today",
+      "built_by": [
+        "Copilot",
+        "pelikhan",
+        "github-actions",
+        "dsyme",
+        "mnkiefer"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "pranshuparmar/witr",
+      "url": "https://github.com/pranshuparmar/witr",
+      "description": "Why is this running?",
+      "language": "Go",
+      "stars": 15497,
+      "forks": 435,
+      "stars_today": "222 stars today",
+      "built_by": [
+        "pranshuparmar",
+        "sunydepalpur",
+        "chojs23",
+        "amerine",
+        "gaod"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "open-telemetry/opentelemetry-collector",
+      "url": "https://github.com/open-telemetry/opentelemetry-collector",
+      "description": "OpenTelemetry Collector",
+      "language": "Go",
+      "stars": 6983,
+      "forks": 2060,
+      "stars_today": "5 stars today",
+      "built_by": [
+        "bogdandrutu",
+        "renovate",
+        "codeboten",
+        "mx-psi",
+        "dmitryax"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "QuantumNous/new-api",
+      "url": "https://github.com/QuantumNous/new-api",
+      "description": "A unified AI model hub for aggregation & distribution. It supports cross-converting various LLMs into OpenAI-compatible, Claude-compatible, or Gemini-compatible formats. A centralized gateway for personal and enterprise model management. 🍥",
+      "language": "Go",
+      "stars": 33166,
+      "forks": 7282,
+      "stars_today": "321 stars today",
+      "built_by": [
+        "Calcium-Ion",
+        "seefs001",
+        "t0ng7u",
+        "songquanpeng"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "Tencent/WeKnora",
+      "url": "https://github.com/Tencent/WeKnora",
+      "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+      "language": "Go",
+      "stars": 14865,
+      "forks": 1849,
+      "stars_today": "185 stars today",
+      "built_by": [
+        "lyingbug",
+        "begoniezhao",
+        "voidkey",
+        "claude",
+        "dependabot"
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "hashicorp/nomad",
+      "url": "https://github.com/hashicorp/nomad",
+      "description": "Nomad is an easy-to-use, flexible, and performant workload orchestrator that can deploy a mix of microservice, batch, containerized, and non-containerized applications. Nomad is easy to operate and scale and has native Consul and Vault integrations.",
+      "language": "Go",
+      "stars": 16499,
+      "forks": 2084,
+      "stars_today": "2 stars today",
+      "built_by": [
+        "dadgar",
+        "schmichael",
+        "tgross",
+        "DingoEatingFuzz",
+        "notnoop"
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "BenedictKing/ccx",
+      "url": "https://github.com/BenedictKing/ccx",
+      "description": "Claude / Codex / Gemini API Proxy - CCX",
+      "language": "Go",
+      "stars": 661,
+      "forks": 62,
+      "stars_today": "96 stars today",
+      "built_by": [
+        "BenedictKing",
+        "aider-chat-bot",
+        "BugMasterLab",
+        "sucr233",
+        "glidea"
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "urfave/cli",
+      "url": "https://github.com/urfave/cli",
+      "description": "A declarative, simple, fast, and fun package for building command line tools in Go",
+      "language": "Go",
+      "stars": 24045,
+      "forks": 1777,
+      "stars_today": "7 stars today",
+      "built_by": [
+        "meatballhat",
+        "dearchap",
+        "jszwedko",
+        "coilysiren",
+        "asahasrabuddhe"
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "Project-HAMi/HAMi",
+      "url": "https://github.com/Project-HAMi/HAMi",
+      "description": "Heterogeneous GPU Sharing on Kubernetes",
+      "language": "Go",
+      "stars": 3440,
+      "forks": 554,
+      "stars_today": "10 stars today",
+      "built_by": [
+        "archlitchi",
+        "dependabot",
+        "lengrongfu",
+        "wawa0210",
+        "Shouren"
+      ]
+    },
+    {
+      "rank": 15,
+      "name": "fatedier/frp",
+      "url": "https://github.com/fatedier/frp",
+      "description": "A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet.",
+      "language": "Go",
+      "stars": 106514,
+      "forks": 15046,
+      "stars_today": "53 stars today",
+      "built_by": [
+        "fatedier",
+        "blizard863",
+        "GuyLewin",
+        "yuyulei",
+        "maodanp"
+      ]
+    },
+    {
+      "rank": 16,
+      "name": "bytebase/bytebase",
+      "url": "https://github.com/bytebase/bytebase",
+      "description": "World's most advanced database DevSecOps solution for Developer, Security, DBA and Platform Engineering teams. The GitHub/GitLab for database DevSecOps.",
+      "language": "Go",
+      "stars": 14018,
+      "forks": 938,
+      "stars_today": "20 stars today",
+      "built_by": [
+        "d-bytebase",
+        "tianzhou",
+        "boojack",
+        "RainbowDashy",
+        "ecmadao"
+      ]
+    },
+    {
+      "rank": 17,
+      "name": "mark3labs/mcp-go",
+      "url": "https://github.com/mark3labs/mcp-go",
+      "description": "A Go implementation of the Model Context Protocol (MCP), enabling seamless integration between LLM applications and external data sources and tools.",
+      "language": "Go",
+      "stars": 8698,
+      "forks": 829,
+      "stars_today": "6 stars today",
+      "built_by": [
+        "ezynda3",
+        "pottekkat",
+        "dugenkui03",
+        "cryo-zd",
+        "rwjblue-glean"
+      ]
+    },
+    {
+      "rank": 18,
+      "name": "GoogleCloudPlatform/microservices-demo",
+      "url": "https://github.com/GoogleCloudPlatform/microservices-demo",
+      "description": "Sample cloud-first application with 10 microservices showcasing Kubernetes, Istio, and gRPC.",
+      "language": "Go",
+      "stars": 20224,
+      "forks": 9887,
+      "stars_today": "9 stars today",
+      "built_by": [
+        "renovate-bot",
+        "ahmetb",
+        "dependabot",
+        "NimJay",
+        "mathieu-benoit"
+      ]
+    },
+    {
+      "rank": 19,
+      "name": "nats-io/nats-server",
+      "url": "https://github.com/nats-io/nats-server",
+      "description": "High-Performance server for NATS.io, the cloud and edge native messaging system.",
+      "language": "Go",
+      "stars": 19782,
+      "forks": 1797,
+      "stars_today": "9 stars today",
+      "built_by": [
+        "derekcollison",
+        "kozlovic",
+        "neilalexander",
+        "MauriceVanVeen",
+        "matthiashanel"
+      ]
+    },
+    {
+      "rank": 20,
+      "name": "Agent-Field/agentfield",
+      "url": "https://github.com/Agent-Field/agentfield",
+      "description": "Build, run and scale AI agents like API and microservices - observable,auditable and identity-aware from day one.",
+      "language": "Go",
+      "stars": 1729,
+      "forks": 281,
+      "stars_today": "22 stars today",
+      "built_by": [
+        "santoshkumarradha",
+        "AbirAbbas",
+        "github-actions",
+        "claude",
+        "dependabot"
+      ]
+    },
+    {
+      "rank": 21,
+      "name": "knadh/listmonk",
+      "url": "https://github.com/knadh/listmonk",
+      "description": "High performance, self-hosted, newsletter and mailing list manager with a modern dashboard. Single binary app.",
+      "language": "Go",
+      "stars": 20052,
+      "forks": 2068,
+      "stars_today": "14 stars today",
+      "built_by": [
+        "knadh",
+        "github-actions",
+        "dependabot",
+        "mr-karan",
+        "MaximilianKohler"
+      ]
+    }
+  ]
+}
