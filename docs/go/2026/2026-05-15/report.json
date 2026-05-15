@@ -1,0 +1,386 @@
+{
+  "metadata": {
+    "date": "2026-05-15",
+    "language": "go",
+    "total_repositories": 22,
+    "total_stars": 498204,
+    "total_forks": 97900,
+    "generated_by": "GitHub Trending Scraper",
+    "format_version": "1.0"
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "influxdata/telegraf",
+      "url": "https://github.com/influxdata/telegraf",
+      "description": "Agent for collecting, processing, aggregating, and writing metrics, logs, and other arbitrary data.",
+      "language": "Go",
+      "stars": 17239,
+      "forks": 5796,
+      "stars_today": "215 stars today",
+      "built_by": [
+        "danielnelson",
+        "dependabot",
+        "srebhan",
+        "sparrc",
+        "powersj"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "pranshuparmar/witr",
+      "url": "https://github.com/pranshuparmar/witr",
+      "description": "Why is this running?",
+      "language": "Go",
+      "stars": 15988,
+      "forks": 468,
+      "stars_today": "395 stars today",
+      "built_by": [
+        "pranshuparmar",
+        "sunydepalpur",
+        "chojs23",
+        "amerine",
+        "gaod"
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "apernet/hysteria",
+      "url": "https://github.com/apernet/hysteria",
+      "description": "Hysteria is a powerful, lightning fast and censorship resistant proxy.",
+      "language": "Go",
+      "stars": 20783,
+      "forks": 2145,
+      "stars_today": "224 stars today",
+      "built_by": [
+        "tobyxdd",
+        "haruue",
+        "dependabot",
+        "mritd",
+        "HynoR"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "CJackHwang/ds2api",
+      "url": "https://github.com/CJackHwang/ds2api",
+      "description": "DeepSeek-Compatible Middleware Interface: A technical exploration project in Go, focusing on high-concurrency protocol adaptation. It serves as a reference implementation for converting diverse web protocols into standardized formats.",
+      "language": "Go",
+      "stars": 4400,
+      "forks": 1378,
+      "stars_today": "78 stars today",
+      "built_by": [
+        "CJackHwang",
+        "claude",
+        "shern-point",
+        "ouqiting",
+        "sisyphus-dev-ai"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "Tencent/WeKnora",
+      "url": "https://github.com/Tencent/WeKnora",
+      "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+      "language": "Go",
+      "stars": 14956,
+      "forks": 1868,
+      "stars_today": "88 stars today",
+      "built_by": [
+        "lyingbug",
+        "begoniezhao",
+        "voidkey",
+        "claude",
+        "dependabot"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "mostlygeek/llama-swap",
+      "url": "https://github.com/mostlygeek/llama-swap",
+      "description": "Reliable model swapping for any local OpenAI/Anthropic compatible server - llama.cpp, vllm, etc",
+      "language": "Go",
+      "stars": 4057,
+      "forks": 311,
+      "stars_today": "42 stars today",
+      "built_by": [
+        "mostlygeek",
+        "claude",
+        "ryan-steed-usa",
+        "marcusds",
+        "shirayu"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "kubernetes/kubernetes",
+      "url": "https://github.com/kubernetes/kubernetes",
+      "description": "Production-Grade Container Scheduling and Management",
+      "language": "Go",
+      "stars": 122266,
+      "forks": 43066,
+      "stars_today": "30 stars today",
+      "built_by": [
+        "k8s-ci-robot",
+        "liggitt",
+        "thockin",
+        "wojtek-t",
+        "brendandburns"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "nats-io/nats-server",
+      "url": "https://github.com/nats-io/nats-server",
+      "description": "High-Performance server for NATS.io, the cloud and edge native messaging system.",
+      "language": "Go",
+      "stars": 19797,
+      "forks": 1799,
+      "stars_today": "12 stars today",
+      "built_by": [
+        "derekcollison",
+        "kozlovic",
+        "neilalexander",
+        "MauriceVanVeen",
+        "matthiashanel"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "trufflesecurity/trufflehog",
+      "url": "https://github.com/trufflesecurity/trufflehog",
+      "description": "Find, verify, and analyze leaked credentials",
+      "language": "Go",
+      "stars": 26285,
+      "forks": 2397,
+      "stars_today": "110 stars today",
+      "built_by": [
+        "renovate",
+        "lonmarsDev",
+        "roxanne-tampus",
+        "ahrav",
+        "dustin-decker"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "github/github-mcp-server",
+      "url": "https://github.com/github/github-mcp-server",
+      "description": "GitHub's official MCP Server",
+      "language": "Go",
+      "stars": 29836,
+      "forks": 4188,
+      "stars_today": "33 stars today",
+      "built_by": [
+        "SamMorrowDrums",
+        "JoannaaKL",
+        "dependabot",
+        "mattdholloway",
+        "Copilot"
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "open-telemetry/opentelemetry-collector-contrib",
+      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib",
+      "description": "Contrib repository for the OpenTelemetry Collector",
+      "language": "Go",
+      "stars": 4655,
+      "forks": 3570,
+      "stars_today": "2 stars today",
+      "built_by": [
+        "renovate",
+        "bogdandrutu",
+        "opentelemetrybot",
+        "atoulme",
+        "dependabot"
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "gravitational/teleport",
+      "url": "https://github.com/gravitational/teleport",
+      "description": "The easiest, and most secure way to access and protect all of your infrastructure.",
+      "language": "Go",
+      "stars": 20322,
+      "forks": 2060,
+      "stars_today": "19 stars today",
+      "built_by": [
+        "klizhentas",
+        "kontsevoy",
+        "zmb3",
+        "rosstimothy",
+        "ptgott"
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "QuantumNous/new-api",
+      "url": "https://github.com/QuantumNous/new-api",
+      "description": "A unified AI model hub for aggregation & distribution. It supports cross-converting various LLMs into OpenAI-compatible, Claude-compatible, or Gemini-compatible formats. A centralized gateway for personal and enterprise model management. 🍥",
+      "language": "Go",
+      "stars": 33393,
+      "forks": 7356,
+      "stars_today": "234 stars today",
+      "built_by": [
+        "Calcium-Ion",
+        "seefs001",
+        "t0ng7u",
+        "songquanpeng"
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "Loyalsoldier/geoip",
+      "url": "https://github.com/Loyalsoldier/geoip",
+      "description": "🌚 🌍 🌝 GeoIP 增强版，支持自由定制 V2Ray dat 格式文件 geoip.dat、MaxMind mmdb 格式文件、sing-box SRS 格式文件、mihomo MRS 格式文件、Clash ruleset、Surge ruleset 等。Enhanced edition of GeoIP for V2Ray, Xray-core, sing-box, Clash, mihomo, Shadowrocket, Quantumult X, Surge, hysteria, Trojan-Go, Leaf, Nginx, etc.",
+      "language": "Go",
+      "stars": 6027,
+      "forks": 878,
+      "stars_today": "7 stars today",
+      "built_by": [
+        "Loyalsoldier",
+        "dependabot",
+        "DarienRaymond",
+        "github-actions",
+        "kslr"
+      ]
+    },
+    {
+      "rank": 15,
+      "name": "coreybutler/nvm-windows",
+      "url": "https://github.com/coreybutler/nvm-windows",
+      "description": "A node.js version management utility for Windows. Ironically written in Go.",
+      "language": "Go",
+      "stars": 46364,
+      "forks": 3822,
+      "stars_today": "17 stars today",
+      "built_by": [
+        "coreybutler",
+        "dependabot",
+        "wsobolewski",
+        "rahulroy9202",
+        "Excited-ccccly"
+      ]
+    },
+    {
+      "rank": 16,
+      "name": "helm/helm",
+      "url": "https://github.com/helm/helm",
+      "description": "The Kubernetes Package Manager",
+      "language": "Go",
+      "stars": 29815,
+      "forks": 7602,
+      "stars_today": "5 stars today",
+      "built_by": [
+        "technosophos",
+        "adamreese",
+        "mattfarina",
+        "dependabot",
+        "gjenkins8"
+      ]
+    },
+    {
+      "rank": 17,
+      "name": "jaegertracing/jaeger",
+      "url": "https://github.com/jaegertracing/jaeger",
+      "description": "CNCF Jaeger, a Distributed Tracing Platform",
+      "language": "Go",
+      "stars": 22796,
+      "forks": 2901,
+      "stars_today": "5 stars today",
+      "built_by": [
+        "yurishkuro",
+        "dependabot",
+        "renovate-bot",
+        "pavolloffay",
+        "mahadzaryab1"
+      ]
+    },
+    {
+      "rank": 18,
+      "name": "urfave/cli",
+      "url": "https://github.com/urfave/cli",
+      "description": "A declarative, simple, fast, and fun package for building command line tools in Go",
+      "language": "Go",
+      "stars": 24059,
+      "forks": 1777,
+      "stars_today": "12 stars today",
+      "built_by": [
+        "meatballhat",
+        "dearchap",
+        "jszwedko",
+        "coilysiren",
+        "asahasrabuddhe"
+      ]
+    },
+    {
+      "rank": 19,
+      "name": "higress-group/higress",
+      "url": "https://github.com/higress-group/higress",
+      "description": "🤖 AI Gateway | AI Native API Gateway",
+      "language": "Go",
+      "stars": 8380,
+      "forks": 1109,
+      "stars_today": "10 stars today",
+      "built_by": [
+        "johnlanni",
+        "CH3CHO",
+        "rinfx",
+        "Xunzhuo",
+        "Jing-ze"
+      ]
+    },
+    {
+      "rank": 20,
+      "name": "prometheus/client_golang",
+      "url": "https://github.com/prometheus/client_golang",
+      "description": "Prometheus instrumentation library for Go applications",
+      "language": "Go",
+      "stars": 5966,
+      "forks": 1271,
+      "stars_today": "3 stars today",
+      "built_by": [
+        "beorn7",
+        "dependabot",
+        "github-actions",
+        "kakkoyun",
+        "bwplotka"
+      ]
+    },
+    {
+      "rank": 21,
+      "name": "knadh/listmonk",
+      "url": "https://github.com/knadh/listmonk",
+      "description": "High performance, self-hosted, newsletter and mailing list manager with a modern dashboard. Single binary app.",
+      "language": "Go",
+      "stars": 20071,
+      "forks": 2066,
+      "stars_today": "27 stars today",
+      "built_by": [
+        "knadh",
+        "github-actions",
+        "dependabot",
+        "mr-karan",
+        "MaximilianKohler"
+      ]
+    },
+    {
+      "rank": 22,
+      "name": "BenedictKing/ccx",
+      "url": "https://github.com/BenedictKing/ccx",
+      "description": "Claude / Codex / Gemini API Proxy - CCX",
+      "language": "Go",
+      "stars": 749,
+      "forks": 72,
+      "stars_today": "97 stars today",
+      "built_by": [
+        "BenedictKing",
+        "aider-chat-bot",
+        "BugMasterLab",
+        "sucr233",
+        "glidea"
+      ]
+    }
+  ]
+}
