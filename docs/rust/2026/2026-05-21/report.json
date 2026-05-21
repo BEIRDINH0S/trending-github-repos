@@ -1,0 +1,319 @@
+{
+  "metadata": {
+    "date": "2026-05-21",
+    "language": "rust",
+    "total_repositories": 18,
+    "total_stars": 438344,
+    "total_forks": 33837,
+    "generated_by": "GitHub Trending Scraper",
+    "format_version": "1.0"
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "tinyhumansai/openhuman",
+      "url": "https://github.com/tinyhumansai/openhuman",
+      "description": "Your Personal AI super intelligence. Private, Simple and extremely powerful.",
+      "language": "Rust",
+      "stars": 23874,
+      "forks": 2143,
+      "stars_today": "3,394 stars today",
+      "built_by": [
+        "senamakel",
+        "claude",
+        "graycyrus",
+        "github-actions",
+        "M3gA-Mind"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "rtk-ai/rtk",
+      "url": "https://github.com/rtk-ai/rtk",
+      "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
+      "language": "Rust",
+      "stars": 51950,
+      "forks": 3158,
+      "stars_today": "1,156 stars today",
+      "built_by": [
+        "aeppling",
+        "claude",
+        "pszymkowiak",
+        "FlorianBruniaux",
+        "github-actions"
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "Michael-A-Kuykendall/shimmy",
+      "url": "https://github.com/Michael-A-Kuykendall/shimmy",
+      "description": "⚡ Python-free Rust inference server — OpenAI-API compatible. GGUF + SafeTensors, hot model swap, auto-discovery, single binary. FREE now, FREE forever.",
+      "language": "Rust",
+      "stars": 5181,
+      "forks": 477,
+      "stars_today": "54 stars today",
+      "built_by": [
+        "Michael-A-Kuykendall",
+        "claude",
+        "VMLYR-MikeKuykendall",
+        "Copilot",
+        "LopezNuance"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "vercel-labs/agent-browser",
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "description": "Browser automation CLI for AI agents",
+      "language": "Rust",
+      "stars": 33741,
+      "forks": 2103,
+      "stars_today": "178 stars today",
+      "built_by": [
+        "ctate",
+        "github-actions",
+        "claude",
+        "hyunjinee",
+        "jin-2-kakaoent"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "git-ai-project/git-ai",
+      "url": "https://github.com/git-ai-project/git-ai",
+      "description": "A Git extension for tracking the AI-generated code in your repos",
+      "language": "Rust",
+      "stars": 1925,
+      "forks": 176,
+      "stars_today": "22 stars today",
+      "built_by": [
+        "svarlamov",
+        "acunniffe",
+        "claude",
+        "jwiegley",
+        "devin-ai-integration"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "dani-garcia/vaultwarden",
+      "url": "https://github.com/dani-garcia/vaultwarden",
+      "description": "Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs",
+      "language": "Rust",
+      "stars": 60807,
+      "forks": 2822,
+      "stars_today": "89 stars today",
+      "built_by": [
+        "dani-garcia",
+        "BlackDex",
+        "jjlin",
+        "mprasil",
+        "stefan0xC"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "astral-sh/uv",
+      "url": "https://github.com/astral-sh/uv",
+      "description": "An extremely fast Python package and project manager, written in Rust.",
+      "language": "Rust",
+      "stars": 85258,
+      "forks": 3143,
+      "stars_today": "67 stars today",
+      "built_by": [
+        "charliermarsh",
+        "zanieb",
+        "konstin",
+        "renovate",
+        "BurntSushi"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "openai/codex",
+      "url": "https://github.com/openai/codex",
+      "description": "Lightweight coding agent that runs in your terminal",
+      "language": "Rust",
+      "stars": 84183,
+      "forks": 12240,
+      "stars_today": "268 stars today",
+      "built_by": [
+        "bolinfest",
+        "jif-oai",
+        "aibrahim-oai",
+        "pakrym-oai",
+        "etraut-openai"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "ast-grep/ast-grep",
+      "url": "https://github.com/ast-grep/ast-grep",
+      "description": "⚡A CLI tool for code structural search, lint and rewriting. Written in Rust",
+      "language": "Rust",
+      "stars": 14003,
+      "forks": 372,
+      "stars_today": "48 stars today",
+      "built_by": [
+        "HerringtonDarkholme",
+        "renovate",
+        "Copilot",
+        "mohebifar",
+        "SigureMo"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "vectordotdev/vector",
+      "url": "https://github.com/vectordotdev/vector",
+      "description": "A high-performance observability data pipeline.",
+      "language": "Rust",
+      "stars": 21876,
+      "forks": 2136,
+      "stars_today": "7 stars today",
+      "built_by": [
+        "dependabot",
+        "jszwedko",
+        "binarylogic",
+        "pront",
+        "bruceg"
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "ai-dynamo/dynamo",
+      "url": "https://github.com/ai-dynamo/dynamo",
+      "description": "A Datacenter Scale Distributed Inference Serving Framework",
+      "language": "Rust",
+      "stars": 6824,
+      "forks": 1126,
+      "stars_today": "8 stars today",
+      "built_by": [
+        "PeaBrane",
+        "grahamking",
+        "claude",
+        "rmccorm4",
+        "nv-anants"
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "rerun-io/rerun",
+      "url": "https://github.com/rerun-io/rerun",
+      "description": "Visualize, query, and stream to train on multimodal robotics data.",
+      "language": "Rust",
+      "stars": 10808,
+      "forks": 740,
+      "stars_today": "46 stars today",
+      "built_by": [
+        "emilk",
+        "Wumpf",
+        "teh-cmc",
+        "abey79",
+        "jleibs"
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "iii-hq/iii",
+      "url": "https://github.com/iii-hq/iii",
+      "description": "Effortlessly compose, extend, and observe every service in real-time for the first time ever.",
+      "language": "Rust",
+      "stars": 15889,
+      "forks": 1057,
+      "stars_today": "44 stars today",
+      "built_by": [
+        "ytallo",
+        "sergiofilhowz",
+        "rohitg00",
+        "andersonleal",
+        "actions-user"
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "dmtrKovalenko/fff",
+      "url": "https://github.com/dmtrKovalenko/fff",
+      "description": "The fastest and the most accurate file search toolkit for AI agents, Neovim, Rust, C, and NodeJS",
+      "language": "Rust",
+      "stars": 6203,
+      "forks": 282,
+      "stars_today": "43 stars today",
+      "built_by": [
+        "dmtrKovalenko",
+        "github-actions",
+        "sQVe",
+        "SamuelLHuber",
+        "WillLillis"
+      ]
+    },
+    {
+      "rank": 15,
+      "name": "agentgateway/agentgateway",
+      "url": "https://github.com/agentgateway/agentgateway",
+      "description": "Next Generation Agentic Proxy for AI Agents and MCP servers",
+      "language": "Rust",
+      "stars": 2781,
+      "forks": 466,
+      "stars_today": "20 stars today",
+      "built_by": [
+        "howardjohn",
+        "EItanya",
+        "npolshakova",
+        "timflannagan",
+        "chandler-solo"
+      ]
+    },
+    {
+      "rank": 16,
+      "name": "bountyyfi/lonkero",
+      "url": "https://github.com/bountyyfi/lonkero",
+      "description": "Lonkero - Wraps around your attack surface. Professional-grade scanner for real penetration testing. Fast. Modular. Rust.",
+      "language": "Rust",
+      "stars": 910,
+      "forks": 65,
+      "stars_today": "21 stars today",
+      "built_by": [
+        "claude",
+        "bountyyfi",
+        "dependabot",
+        "github-actions",
+        "oh2fih"
+      ]
+    },
+    {
+      "rank": 17,
+      "name": "lance-format/lance",
+      "url": "https://github.com/lance-format/lance",
+      "description": "Open Lakehouse Format for Multimodal AI. Convert from Parquet in 2 lines of code for 100x faster random access, vector index, and data versioning. Compatible with Pandas, DuckDB, Polars, Pyarrow, and PyTorch with more integrations coming..",
+      "language": "Rust",
+      "stars": 6466,
+      "forks": 675,
+      "stars_today": "12 stars today",
+      "built_by": [
+        "github-actions",
+        "eddyxu",
+        "westonpace",
+        "wjones127",
+        "BubbleCal"
+      ]
+    },
+    {
+      "rank": 18,
+      "name": "cloud-hypervisor/cloud-hypervisor",
+      "url": "https://github.com/cloud-hypervisor/cloud-hypervisor",
+      "description": "A Virtual Machine Monitor for modern Cloud workloads. Features include CPU, memory and device hotplug, support for running Windows and Linux guests, device offload with vhost-user and a minimal compact footprint. Written in Rust with a strong focus on security.",
+      "language": "Rust",
+      "stars": 5665,
+      "forks": 656,
+      "stars_today": "2 stars today",
+      "built_by": [
+        "rbradford",
+        "dependabot",
+        "dependabot-preview",
+        "likebreath",
+        "liuw"
+      ]
+    }
+  ]
+}
