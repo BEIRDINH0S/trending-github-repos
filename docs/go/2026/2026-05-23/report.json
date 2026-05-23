@@ -1,0 +1,352 @@
+{
+  "metadata": {
+    "date": "2026-05-23",
+    "language": "go",
+    "total_repositories": 20,
+    "total_stars": 651012,
+    "total_forks": 92406,
+    "generated_by": "GitHub Trending Scraper",
+    "format_version": "1.0"
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "multica-ai/multica",
+      "url": "https://github.com/multica-ai/multica",
+      "description": "The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.",
+      "language": "TypeScript",
+      "stars": 31477,
+      "forks": 3813,
+      "stars_today": "879 stars today",
+      "built_by": [
+        "claude",
+        "forrestchang",
+        "NevilleQingNY",
+        "Bohan-J",
+        "ldnvnbl"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "kubernetes-sigs/agent-sandbox",
+      "url": "https://github.com/kubernetes-sigs/agent-sandbox",
+      "description": "agent-sandbox enables easy management of isolated, stateful, singleton workloads, ideal for use cases like AI agent runtimes.",
+      "language": "Go",
+      "stars": 2323,
+      "forks": 284,
+      "stars_today": "24 stars today",
+      "built_by": [
+        "k8s-ci-robot",
+        "janetkuo",
+        "justinsb",
+        "shrutiyam-glitch",
+        "vicentefb"
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "docker/compose",
+      "url": "https://github.com/docker/compose",
+      "description": "Define and run multi-container applications with Docker",
+      "language": "Go",
+      "stars": 37422,
+      "forks": 5843,
+      "stars_today": "15 stars today",
+      "built_by": [
+        "ndeloof",
+        "glours",
+        "gtardif",
+        "dependabot",
+        "rumpl"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "modelcontextprotocol/registry",
+      "url": "https://github.com/modelcontextprotocol/registry",
+      "description": "A community driven registry service for Model Context Protocol (MCP) servers.",
+      "language": "Go",
+      "stars": 6848,
+      "forks": 825,
+      "stars_today": "3 stars today",
+      "built_by": [
+        "rdimitrov",
+        "domdomegg",
+        "sridharavinash",
+        "dependabot",
+        "tadasant"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "distribution/distribution",
+      "url": "https://github.com/distribution/distribution",
+      "description": "The toolkit to pack, ship, store, and deliver container content",
+      "language": "Go",
+      "stars": 10431,
+      "forks": 2746,
+      "stars_today": "2 stars today",
+      "built_by": [
+        "stevvooe",
+        "milosgajdos",
+        "dmcgowan",
+        "dmp42",
+        "thaJeztah"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "containerd/containerd",
+      "url": "https://github.com/containerd/containerd",
+      "description": "An open and reliable container runtime",
+      "language": "Go",
+      "stars": 20748,
+      "forks": 3932,
+      "stars_today": "11 stars today",
+      "built_by": [
+        "dmcgowan",
+        "crosbymichael",
+        "estesp",
+        "Random-Liu",
+        "AkihiroSuda"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "aquasecurity/trivy",
+      "url": "https://github.com/aquasecurity/trivy",
+      "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
+      "language": "Go",
+      "stars": 35128,
+      "forks": 388,
+      "stars_today": "25 stars today",
+      "built_by": [
+        "knqyf263",
+        "DmitriyLewen",
+        "dependabot",
+        "nikpivkin",
+        "simar7"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "QuantumNous/new-api",
+      "url": "https://github.com/QuantumNous/new-api",
+      "description": "A unified AI model hub for aggregation & distribution. It supports cross-converting various LLMs into OpenAI-compatible, Claude-compatible, or Gemini-compatible formats. A centralized gateway for personal and enterprise model management. 🍥",
+      "language": "Go",
+      "stars": 34933,
+      "forks": 7794,
+      "stars_today": "225 stars today",
+      "built_by": [
+        "Calcium-Ion",
+        "seefs001",
+        "t0ng7u",
+        "songquanpeng"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "Wei-Shaw/sub2api",
+      "url": "https://github.com/Wei-Shaw/sub2api",
+      "description": "Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Antigravity订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
+      "language": "Go",
+      "stars": 22836,
+      "forks": 4350,
+      "stars_today": "270 stars today",
+      "built_by": [
+        "Wei-Shaw",
+        "IanShaw027",
+        "touwaeriol",
+        "claude",
+        "slovx2"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "alireza0/s-ui",
+      "url": "https://github.com/alireza0/s-ui",
+      "description": "An advanced Web Panel • Built for SagerNet/Sing-Box",
+      "language": "Go",
+      "stars": 9028,
+      "forks": 1521,
+      "stars_today": "141 stars today",
+      "built_by": [
+        "alireza0",
+        "dependabot",
+        "Shellgate",
+        "cola-prince",
+        "Kagashini"
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "ollama/ollama",
+      "url": "https://github.com/ollama/ollama",
+      "description": "Get up and running with Kimi-K2.5, GLM-5, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+      "language": "Go",
+      "stars": 172061,
+      "forks": 16249,
+      "stars_today": "146 stars today",
+      "built_by": [
+        "mxyng",
+        "jmorganca",
+        "dhiltgen",
+        "BruceMacD",
+        "jessegross"
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "moby/moby",
+      "url": "https://github.com/moby/moby",
+      "description": "The Moby Project - a collaborative project for the container ecosystem to assemble container-based systems",
+      "language": "Go",
+      "stars": 71586,
+      "forks": 18955,
+      "stars_today": "6 stars today",
+      "built_by": [
+        "thaJeztah",
+        "cpuguy83",
+        "crosbymichael",
+        "vdemeester",
+        "vieux"
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "derailed/k9s",
+      "url": "https://github.com/derailed/k9s",
+      "description": "🐶 Kubernetes CLI To Manage Your Clusters In Style!",
+      "language": "Go",
+      "stars": 33716,
+      "forks": 2166,
+      "stars_today": "22 stars today",
+      "built_by": [
+        "derailed",
+        "dependabot",
+        "wjiec",
+        "uozalp",
+        "paivagustavo"
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "maximhq/bifrost",
+      "url": "https://github.com/maximhq/bifrost",
+      "description": "Fastest enterprise AI gateway (50x faster than LiteLLM) with adaptive load balancer, cluster mode, guardrails, 1000+ models support & <100 µs overhead at 5k RPS.",
+      "language": "Go",
+      "stars": 5159,
+      "forks": 624,
+      "stars_today": "35 stars today",
+      "built_by": [
+        "akshaydeo",
+        "github-actions",
+        "Pratham-Mishra04",
+        "impoiler",
+        "TejasGhatte"
+      ]
+    },
+    {
+      "rank": 15,
+      "name": "BenedictKing/ccx",
+      "url": "https://github.com/BenedictKing/ccx",
+      "description": "Claude / Codex / Gemini API Proxy - CCX",
+      "language": "Go",
+      "stars": 1453,
+      "forks": 120,
+      "stars_today": "99 stars today",
+      "built_by": [
+        "BenedictKing",
+        "aider-chat-bot",
+        "BugMasterLab",
+        "sucr233",
+        "glidea"
+      ]
+    },
+    {
+      "rank": 16,
+      "name": "etcd-io/etcd",
+      "url": "https://github.com/etcd-io/etcd",
+      "description": "Distributed reliable key-value store for the most critical data of a distributed system",
+      "language": "Go",
+      "stars": 51721,
+      "forks": 10363,
+      "stars_today": "5 stars today",
+      "built_by": [
+        "gyuho",
+        "ahrtr",
+        "xiang90",
+        "serathius",
+        "yichengq"
+      ]
+    },
+    {
+      "rank": 17,
+      "name": "grafana/alloy",
+      "url": "https://github.com/grafana/alloy",
+      "description": "OpenTelemetry Collector distribution with programmable pipelines",
+      "language": "Go",
+      "stars": 3190,
+      "forks": 600,
+      "stars_today": "1 star today",
+      "built_by": [
+        "rfratto",
+        "clayton-cornell",
+        "ptodev",
+        "kalleep",
+        "thampiotr"
+      ]
+    },
+    {
+      "rank": 18,
+      "name": "bytedance/sonic",
+      "url": "https://github.com/bytedance/sonic",
+      "description": "A blazingly fast JSON serializing & deserializing library",
+      "language": "Go",
+      "stars": 9446,
+      "forks": 444,
+      "stars_today": "8 stars today",
+      "built_by": [
+        "AsterDY",
+        "liuq19",
+        "chenzhuoyu",
+        "cyn6315",
+        "PureWhiteWu"
+      ]
+    },
+    {
+      "rank": 19,
+      "name": "hashicorp/vault",
+      "url": "https://github.com/hashicorp/vault",
+      "description": "A tool for secrets management, encryption as a service, and privileged access management",
+      "language": "Go",
+      "stars": 35650,
+      "forks": 4673,
+      "stars_today": "9 stars today",
+      "built_by": [
+        "jefferai",
+        "hc-github-team-secure-vault-core",
+        "vishalnayak",
+        "armon",
+        "ncabatoff"
+      ]
+    },
+    {
+      "rank": 20,
+      "name": "go-gitea/gitea",
+      "url": "https://github.com/go-gitea/gitea",
+      "description": "Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD",
+      "language": "Go",
+      "stars": 55856,
+      "forks": 6716,
+      "stars_today": "23 stars today",
+      "built_by": [
+        "lunny",
+        "unknwon",
+        "wxiaoguang",
+        "GiteaBot",
+        "silverwind"
+      ]
+    }
+  ]
+}
