@@ -1,0 +1,351 @@
+{
+  "metadata": {
+    "date": "2026-05-24",
+    "language": "c",
+    "total_repositories": 20,
+    "total_stars": 342933,
+    "total_forks": 114180,
+    "generated_by": "GitHub Trending Scraper",
+    "format_version": "1.0"
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "curl/curl",
+      "url": "https://github.com/curl/curl",
+      "description": "A command line tool and library for transferring data with URL syntax, supporting DICT, FILE, FTP, FTPS, GOPHER, GOPHERS, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, MQTT, MQTTS, POP3, POP3S, RTSP, SCP, SFTP, SMB, SMBS, SMTP, SMTPS, TELNET, TFTP, WS and WSS. libcurl offers a myriad of powerful features",
+      "language": "C",
+      "stars": 41994,
+      "forks": 7213,
+      "stars_today": "24 stars today",
+      "built_by": [
+        "bagder",
+        "vszakats",
+        "yangtse",
+        "captain-caveman2k",
+        "dfandrich"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "OpenVPN/openvpn",
+      "url": "https://github.com/OpenVPN/openvpn",
+      "description": "OpenVPN is an open source VPN daemon",
+      "language": "C",
+      "stars": 13982,
+      "forks": 3334,
+      "stars_today": "11 stars today",
+      "built_by": [
+        "schwabe",
+        "flichtenheld",
+        "cron2",
+        "syzzer",
+        "ordex"
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "capstone-engine/capstone",
+      "url": "https://github.com/capstone-engine/capstone",
+      "description": "Capstone disassembly/disassembler framework for ARM, ARM64 (ARMv8), Alpha, BPF, Ethereum VM, HPPA, LoongArch, M68K, M680X, Mips, MOS65XX, PPC, RISC-V(rv32G/rv64G), SH, Sparc, SystemZ, TMS320C64X, TriCore, Webassembly, XCore and X86.",
+      "language": "C",
+      "stars": 8732,
+      "forks": 1679,
+      "stars_today": "2 stars today",
+      "built_by": [
+        "aquynh",
+        "kabeor",
+        "b1llow",
+        "Rot127",
+        "catenacyber"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "openssl/openssl",
+      "url": "https://github.com/openssl/openssl",
+      "description": "General purpose TLS and crypto library",
+      "language": "C",
+      "stars": 30202,
+      "forks": 11275,
+      "stars_today": "5 stars today",
+      "built_by": [
+        "levitte",
+        "mattcaswell",
+        "dot-asm",
+        "paulidale",
+        "snhenson"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "glfw/glfw",
+      "url": "https://github.com/glfw/glfw",
+      "description": "A multi-platform library for OpenGL, OpenGL ES, Vulkan, window and input",
+      "language": "C",
+      "stars": 15030,
+      "forks": 5885,
+      "stars_today": "6 stars today",
+      "built_by": [
+        "elmindreda",
+        "linkmauve",
+        "dougbinks",
+        "adrianbroher",
+        "siavashserver"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "OpenTenBase/OpenTenBase",
+      "url": "https://github.com/OpenTenBase/OpenTenBase",
+      "description": "OpenTenBase is an enterprise-level distributed HTAP open source database.",
+      "language": "C",
+      "stars": 331,
+      "forks": 239,
+      "stars_today": "3 stars today",
+      "built_by": [
+        "JennyJennyChen",
+        "s36326",
+        "robertmhaas",
+        "bethding-database",
+        "bartdong"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "systemd/systemd",
+      "url": "https://github.com/systemd/systemd",
+      "description": "The systemd System and Service Manager",
+      "language": "C",
+      "stars": 16320,
+      "forks": 4509,
+      "stars_today": "2 stars today",
+      "built_by": [
+        "poettering",
+        "yuwata",
+        "keszybz",
+        "daandemeyer",
+        "bluca"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "tianocore/edk2",
+      "url": "https://github.com/tianocore/edk2",
+      "description": "EDK II",
+      "language": "C",
+      "stars": 5999,
+      "forks": 3160,
+      "stars_today": "1 star today",
+      "built_by": [
+        "niruiyu",
+        "lzeng14",
+        "lgao4",
+        "jljusten",
+        "mdkinney"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "FreeRTOS/FreeRTOS-Kernel",
+      "url": "https://github.com/FreeRTOS/FreeRTOS-Kernel",
+      "description": "FreeRTOS kernel files only, submoduled into https://github.com/FreeRTOS/FreeRTOS and various other repos.",
+      "language": "C",
+      "stars": 4158,
+      "forks": 1529,
+      "stars_today": "3 stars today",
+      "built_by": [
+        "RichardBarry",
+        "aggarg",
+        "kar-rahul-aws",
+        "chinglee-iot",
+        "Skptak"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "DeusData/codebase-memory-mcp",
+      "url": "https://github.com/DeusData/codebase-memory-mcp",
+      "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 155 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
+      "language": "C",
+      "stars": 2619,
+      "forks": 286,
+      "stars_today": "34 stars today",
+      "built_by": [
+        "DeusData",
+        "claude",
+        "shanemccarron-maker",
+        "dependabot",
+        "dLo999"
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "qmk/qmk_firmware",
+      "url": "https://github.com/qmk/qmk_firmware",
+      "description": "Open-source keyboard firmware for Atmel AVR and Arm USB families",
+      "language": "C",
+      "stars": 20388,
+      "forks": 43899,
+      "stars_today": "4 stars today",
+      "built_by": [
+        "fauxpark",
+        "qmk-bot",
+        "drashna",
+        "noroadsleft",
+        "zvecr"
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "ffmpegwasm/ffmpeg.wasm",
+      "url": "https://github.com/ffmpegwasm/ffmpeg.wasm",
+      "description": "FFmpeg for browser, powered by WebAssembly",
+      "language": "C",
+      "stars": 17499,
+      "forks": 1075,
+      "stars_today": "3 stars today",
+      "built_by": [
+        "jeromewu",
+        "lucasgelfond",
+        "dependabot",
+        "PaulKinlan",
+        "rinarjn"
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "nothings/stb",
+      "url": "https://github.com/nothings/stb",
+      "description": "stb single-file public domain libraries for C/C++",
+      "language": "C",
+      "stars": 33727,
+      "forks": 8057,
+      "stars_today": "11 stars today",
+      "built_by": [
+        "nothings",
+        "rygorous",
+        "BSVino",
+        "ocornut",
+        "rwhitworth"
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "esnet/iperf",
+      "url": "https://github.com/esnet/iperf",
+      "description": "iperf3: A TCP, UDP, and SCTP network bandwidth measurement tool",
+      "language": "C",
+      "stars": 8497,
+      "forks": 1418,
+      "stars_today": "2 stars today",
+      "built_by": [
+        "bmah888",
+        "jdugan1024",
+        "bltierney",
+        "davidBar-On",
+        "swlars"
+      ]
+    },
+    {
+      "rank": 15,
+      "name": "vChewing/vChewing-macOS",
+      "url": "https://github.com/vChewing/vChewing-macOS",
+      "description": "唯音輸入法 macOS 版，恐怕是截至目前為止在功能多樣性方面最強的第三方免費 macOS 系統專用輸入法，採純 Swift 語言寫就。唯音的著力點是盡可能在力所能及的範圍內將整個產品的功能做得更好用，搭配特製的簡體中文與繁體中文專用辭庫。是純粹的簡體中文注音輸入法（也內贈原生繁體中文輸入模式），更具諸多唯音特色功能。目前研發管理工作均在 AtomGit 進行。",
+      "language": "C",
+      "stars": 506,
+      "forks": 30,
+      "stars_today": "1 star today",
+      "built_by": [
+        "ShikiSuen",
+        "IsaacXen",
+        "hirakujira"
+      ]
+    },
+    {
+      "rank": 16,
+      "name": "zephyrproject-rtos/zephyr",
+      "url": "https://github.com/zephyrproject-rtos/zephyr",
+      "description": "Primary Git Repository for the Zephyr Project. Zephyr is a new generation, scalable, optimized, secure RTOS for multiple hardware architectures.",
+      "language": "C",
+      "stars": 15387,
+      "forks": 9216,
+      "stars_today": "8 stars today",
+      "built_by": [
+        "nashif",
+        "jukkar",
+        "galak",
+        "gmarull",
+        "cvinayak"
+      ]
+    },
+    {
+      "rank": 17,
+      "name": "bol-van/zapret",
+      "url": "https://github.com/bol-van/zapret",
+      "description": "DPI bypass multi platform",
+      "language": "C",
+      "stars": 15307,
+      "forks": 1059,
+      "stars_today": "8 stars today",
+      "built_by": [
+        "bol-van",
+        "maximilionus",
+        "spvkgn",
+        "anphsw",
+        "chymaboy"
+      ]
+    },
+    {
+      "rank": 18,
+      "name": "netdata/netdata",
+      "url": "https://github.com/netdata/netdata",
+      "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
+      "language": "C",
+      "stars": 78923,
+      "forks": 6442,
+      "stars_today": "12 stars today",
+      "built_by": [
+        "ktsaou",
+        "netdatabot",
+        "ilyam8",
+        "Ferroin",
+        "stelfrag"
+      ]
+    },
+    {
+      "rank": 19,
+      "name": "littlefs-project/littlefs",
+      "url": "https://github.com/littlefs-project/littlefs",
+      "description": "A little fail-safe filesystem designed for microcontrollers",
+      "language": "C",
+      "stars": 6662,
+      "forks": 990,
+      "stars_today": "0 stars today",
+      "built_by": [
+        "geky",
+        "BrianPugh",
+        "yamt",
+        "sipkev",
+        "aldot"
+      ]
+    },
+    {
+      "rank": 20,
+      "name": "Mbed-TLS/mbedtls",
+      "url": "https://github.com/Mbed-TLS/mbedtls",
+      "description": "An open source, portable, easy to use, readable and flexible TLS library, and reference implementation of the PSA Cryptography API. Releases are on a varying cadence, typically around 3 - 6 months between releases.",
+      "language": "C",
+      "stars": 6670,
+      "forks": 2885,
+      "stars_today": "1 star today",
+      "built_by": [
+        "gilles-peskine-arm",
+        "mpg",
+        "ronald-cron-arm",
+        "daverodgman",
+        "valeriosetti"
+      ]
+    }
+  ]
+}
