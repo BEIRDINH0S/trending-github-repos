@@ -1,0 +1,336 @@
+{
+  "metadata": {
+    "date": "2026-05-25",
+    "language": "rust",
+    "total_repositories": 19,
+    "total_stars": 524159,
+    "total_forks": 45246,
+    "generated_by": "GitHub Trending Scraper",
+    "format_version": "1.0"
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "perspective-dev/perspective",
+      "url": "https://github.com/perspective-dev/perspective",
+      "description": "A data visualization and analytics component, especially well-suited for large and/or streaming datasets.",
+      "language": "Rust",
+      "stars": 10878,
+      "forks": 1325,
+      "stars_today": "37 stars today",
+      "built_by": [
+        "texodus",
+        "sc1f",
+        "timkpaine",
+        "Ro4052",
+        "redbearsam"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "GraphiteEditor/Graphite",
+      "url": "https://github.com/GraphiteEditor/Graphite",
+      "description": "Community-built comprehensive 2D content creation appplication for graphic design, digital art, and interactive real-time motion graphics powered by a node-based procedural graphics engine",
+      "language": "Rust",
+      "stars": 25870,
+      "forks": 1181,
+      "stars_today": "74 stars today",
+      "built_by": [
+        "Keavon",
+        "TrueDoctor",
+        "0HyperCube",
+        "timon-schelling",
+        "mfish33"
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "ruvnet/RuView",
+      "url": "https://github.com/ruvnet/RuView",
+      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "language": "Rust",
+      "stars": 65481,
+      "forks": 8660,
+      "stars_today": "712 stars today",
+      "built_by": [
+        "ruvnet",
+        "claude",
+        "dependabot",
+        "github-actions",
+        "fr4iser90"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "katanemo/plano",
+      "url": "https://github.com/katanemo/plano",
+      "description": "Plano is an AI-native proxy and data plane for agentic apps — with built-in orchestration, safety, observability, and smart LLM routing so you stay focused on your agents core logic.",
+      "language": "Rust",
+      "stars": 6529,
+      "forks": 421,
+      "stars_today": "19 stars today",
+      "built_by": [
+        "adilhafeez",
+        "salmanap",
+        "Spherrrical",
+        "junr03",
+        "cotran2"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "bytecodealliance/wasmtime",
+      "url": "https://github.com/bytecodealliance/wasmtime",
+      "description": "A lightweight WebAssembly runtime that is fast, secure, and standards-compliant",
+      "language": "Rust",
+      "stars": 18066,
+      "forks": 1713,
+      "stars_today": "7 stars today",
+      "built_by": [
+        "alexcrichton",
+        "sunfishcode",
+        "fitzgen",
+        "cfallin",
+        "pchickey"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "BloopAI/vibe-kanban",
+      "url": "https://github.com/BloopAI/vibe-kanban",
+      "description": "Get 10X more out of Claude Code, Codex or any coding agent",
+      "language": "Rust",
+      "stars": 26493,
+      "forks": 2774,
+      "stars_today": "30 stars today",
+      "built_by": [
+        "stunningpixels",
+        "abcpro1",
+        "LSRCT",
+        "actions-user",
+        "ggordonhall"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "lakehq/sail",
+      "url": "https://github.com/lakehq/sail",
+      "description": "Drop-in Apache Spark replacement written in Rust, unifying batch processing, stream processing, and compute-intensive AI workloads.",
+      "language": "Rust",
+      "stars": 2707,
+      "forks": 159,
+      "stars_today": "22 stars today",
+      "built_by": [
+        "linhr",
+        "shehabgamin",
+        "dependabot",
+        "lonless9",
+        "Copilot"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "denoland/deno",
+      "url": "https://github.com/denoland/deno",
+      "description": "A modern runtime for JavaScript and TypeScript.",
+      "language": "Rust",
+      "stars": 106858,
+      "forks": 6065,
+      "stars_today": "18 stars today",
+      "built_by": [
+        "bartlomieju",
+        "dsherret",
+        "ry",
+        "littledivy",
+        "nayeemrmn"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "nautechsystems/nautilus_trader",
+      "url": "https://github.com/nautechsystems/nautilus_trader",
+      "description": "Production-grade Rust-native trading engine with deterministic event-driven architecture",
+      "language": "Rust",
+      "stars": 22975,
+      "forks": 2868,
+      "stars_today": "29 stars today",
+      "built_by": [
+        "cjdsellers",
+        "limx0",
+        "filipmacek",
+        "faysou",
+        "davidsblom"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "influxdata/influxdb",
+      "url": "https://github.com/influxdata/influxdb",
+      "description": "Scalable datastore for metrics, events, and real-time analytics",
+      "language": "Rust",
+      "stars": 31523,
+      "forks": 3703,
+      "stars_today": "11 stars today",
+      "built_by": [
+        "kodiakhq",
+        "alexpaxton",
+        "121watts",
+        "carols10cents",
+        "otoolep"
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "modrinth/code",
+      "url": "https://github.com/modrinth/code",
+      "description": "The Modrinth monorepo containing all code which powers Modrinth!",
+      "language": "Rust",
+      "stars": 2110,
+      "forks": 458,
+      "stars_today": "4 stars today",
+      "built_by": [
+        "Geometrically",
+        "Prospector",
+        "IMB11",
+        "triphora",
+        "venashial"
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "farion1231/cc-switch",
+      "url": "https://github.com/farion1231/cc-switch",
+      "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Gemini CLI & Hermes Agent. Only official website: ccswitch.io",
+      "language": "Rust",
+      "stars": 79898,
+      "forks": 5214,
+      "stars_today": "724 stars today",
+      "built_by": [
+        "farion1231",
+        "yovinchen",
+        "claude",
+        "TinsFox",
+        "dependabot"
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "vercel/turborepo",
+      "url": "https://github.com/vercel/turborepo",
+      "description": "Build system optimized for JavaScript and TypeScript, written in Rust",
+      "language": "Rust",
+      "stars": 30435,
+      "forks": 2348,
+      "stars_today": "8 stars today",
+      "built_by": [
+        "anthonyshew",
+        "sokra",
+        "chris-olszewski",
+        "tknickman",
+        "jaredpalmer"
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "uutils/coreutils",
+      "url": "https://github.com/uutils/coreutils",
+      "description": "Cross-platform Rust rewrite of the GNU coreutils",
+      "language": "Rust",
+      "stars": 23279,
+      "forks": 1868,
+      "stars_today": "7 stars today",
+      "built_by": [
+        "sylvestre",
+        "cakebaker",
+        "tertsdiepraam",
+        "renovate",
+        "rivy"
+      ]
+    },
+    {
+      "rank": 15,
+      "name": "alvr-org/ALVR",
+      "url": "https://github.com/alvr-org/ALVR",
+      "description": "Stream VR games from your PC to your headset via Wi-Fi",
+      "language": "Rust",
+      "stars": 7620,
+      "forks": 652,
+      "stars_today": "5 stars today",
+      "built_by": [
+        "zmerp",
+        "sctanf",
+        "korejan",
+        "pull",
+        "maxer456"
+      ]
+    },
+    {
+      "rank": 16,
+      "name": "jely2002/youtube-dl-gui",
+      "url": "https://github.com/jely2002/youtube-dl-gui",
+      "description": "Open Video Downloader - A cross-platform GUI for youtube-dl made in Rust with Tauri and Vue + Typescript.",
+      "language": "Rust",
+      "stars": 8284,
+      "forks": 615,
+      "stars_today": "10 stars today",
+      "built_by": [
+        "jely2002",
+        "dependabot",
+        "bovirus",
+        "independent-arg",
+        "fco-pires"
+      ]
+    },
+    {
+      "rank": 17,
+      "name": "Pumpkin-MC/Pumpkin",
+      "url": "https://github.com/Pumpkin-MC/Pumpkin",
+      "description": "Empowering everyone to host fast and efficient Minecraft servers.",
+      "language": "Rust",
+      "stars": 7646,
+      "forks": 520,
+      "stars_today": "6 stars today",
+      "built_by": [
+        "Snowiiii",
+        "kralverde",
+        "Bryntet",
+        "lukas0008",
+        "Purdze"
+      ]
+    },
+    {
+      "rank": 18,
+      "name": "bevyengine/bevy",
+      "url": "https://github.com/bevyengine/bevy",
+      "description": "A refreshingly simple data-driven game engine built in Rust",
+      "language": "Rust",
+      "stars": 46251,
+      "forks": 4583,
+      "stars_today": "25 stars today",
+      "built_by": [
+        "cart",
+        "mockersf",
+        "alice-i-cecile",
+        "ickshonpe",
+        "atlv24"
+      ]
+    },
+    {
+      "rank": 19,
+      "name": "firecrawl/pdf-inspector",
+      "url": "https://github.com/firecrawl/pdf-inspector",
+      "description": "Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions.",
+      "language": "Rust",
+      "stars": 1256,
+      "forks": 119,
+      "stars_today": "102 stars today",
+      "built_by": [
+        "abimaelmartell",
+        "claude",
+        "rth",
+        "Jacqkues",
+        "cursoragent"
+      ]
+    }
+  ]
+}
