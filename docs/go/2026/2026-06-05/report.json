@@ -1,0 +1,387 @@
+{
+  "metadata": {
+    "date": "2026-06-05",
+    "language": "go",
+    "total_repositories": 22,
+    "total_stars": 915290,
+    "total_forks": 125293,
+    "generated_by": "GitHub Trending Scraper",
+    "format_version": "1.0"
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "aquasecurity/trivy",
+      "url": "https://github.com/aquasecurity/trivy",
+      "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
+      "language": "Go",
+      "stars": 35691,
+      "forks": 431,
+      "stars_today": "255 stars today",
+      "built_by": [
+        "knqyf263",
+        "DmitriyLewen",
+        "dependabot",
+        "nikpivkin",
+        "simar7"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "ollama/ollama",
+      "url": "https://github.com/ollama/ollama",
+      "description": "Get up and running with Kimi-K2.6, GLM-5.1, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+      "language": "Go",
+      "stars": 173201,
+      "forks": 16446,
+      "stars_today": "150 stars today",
+      "built_by": [
+        "mxyng",
+        "jmorganca",
+        "dhiltgen",
+        "BruceMacD",
+        "jessegross"
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "kagent-dev/kagent",
+      "url": "https://github.com/kagent-dev/kagent",
+      "description": "Cloud Native Agentic AI | Discord: https://bit.ly/kagentdiscord",
+      "language": "Go",
+      "stars": 2929,
+      "forks": 590,
+      "stars_today": "18 stars today",
+      "built_by": [
+        "EItanya",
+        "peterj",
+        "ilackarms",
+        "onematchfox",
+        "supreme-gg-gg"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "github/github-mcp-server",
+      "url": "https://github.com/github/github-mcp-server",
+      "description": "GitHub's official MCP Server",
+      "language": "Go",
+      "stars": 30436,
+      "forks": 4322,
+      "stars_today": "33 stars today",
+      "built_by": [
+        "SamMorrowDrums",
+        "dependabot",
+        "JoannaaKL",
+        "mattdholloway",
+        "Copilot"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "golang/go",
+      "url": "https://github.com/golang/go",
+      "description": "The Go programming language",
+      "language": "Go",
+      "stars": 134282,
+      "forks": 19098,
+      "stars_today": "76 stars today",
+      "built_by": [
+        "rsc",
+        "griesemer",
+        "robpike",
+        "ianlancetaylor",
+        "bradfitz"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "caddyserver/caddy",
+      "url": "https://github.com/caddyserver/caddy",
+      "description": "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS",
+      "language": "Go",
+      "stars": 73150,
+      "forks": 4760,
+      "stars_today": "121 stars today",
+      "built_by": [
+        "mholt",
+        "francislavoie",
+        "mohammed90",
+        "WeidiDeng",
+        "dunglas"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "tulir/whatsmeow",
+      "url": "https://github.com/tulir/whatsmeow",
+      "description": "Go library for the WhatsApp web multidevice API",
+      "language": "Go",
+      "stars": 6296,
+      "forks": 1009,
+      "stars_today": "14 stars today",
+      "built_by": [
+        "tulir",
+        "SchulteMK",
+        "Rhymen",
+        "sthales",
+        "houstondapaz"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "derailed/k9s",
+      "url": "https://github.com/derailed/k9s",
+      "description": "🐶 Kubernetes CLI To Manage Your Clusters In Style!",
+      "language": "Go",
+      "stars": 33929,
+      "forks": 2179,
+      "stars_today": "70 stars today",
+      "built_by": [
+        "derailed",
+        "dependabot",
+        "wjiec",
+        "uozalp",
+        "paivagustavo"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "grafana/pyroscope",
+      "url": "https://github.com/grafana/pyroscope",
+      "description": "Continuous Profiling Platform. Debug performance issues down to a single line of code",
+      "language": "Go",
+      "stars": 11471,
+      "forks": 769,
+      "stars_today": "4 stars today",
+      "built_by": [
+        "simonswine",
+        "petethepig",
+        "cyriltovena",
+        "pyroscopebot",
+        "kolesnikovae"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "docker/compose",
+      "url": "https://github.com/docker/compose",
+      "description": "Define and run multi-container applications with Docker",
+      "language": "Go",
+      "stars": 37484,
+      "forks": 5905,
+      "stars_today": "56 stars today",
+      "built_by": [
+        "ndeloof",
+        "glours",
+        "gtardif",
+        "dependabot",
+        "rumpl"
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "ArvinLovegood/go-stock",
+      "url": "https://github.com/ArvinLovegood/go-stock",
+      "description": "🦄🦄🦄AI赋能股票分析：AI加持的股票分析/选股工具。股票行情获取，AI热点资讯分析，AI资金/财务分析，涨跌报警推送。支持A股，港股，美股。支持市场整体/个股情绪分析，AI辅助选股等。数据全部保留在本地。支持DeepSeek，OpenAI， Ollama，LMStudio，AnythingLLM，硅基流动，火山方舟，阿里云百炼等平台或模型。",
+      "language": "Go",
+      "stars": 6082,
+      "forks": 1091,
+      "stars_today": "53 stars today",
+      "built_by": [
+        "ArvinLovegood",
+        "CodeNoobLH",
+        "dependabot",
+        "GiCo001",
+        "github-advanced-security"
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "hashicorp/nomad",
+      "url": "https://github.com/hashicorp/nomad",
+      "description": "Nomad is an easy-to-use, flexible, and performant workload orchestrator that can deploy a mix of microservice, batch, containerized, and non-containerized applications. Nomad is easy to operate and scale and has native Consul and Vault integrations.",
+      "language": "Go",
+      "stars": 16553,
+      "forks": 2092,
+      "stars_today": "7 stars today",
+      "built_by": [
+        "dadgar",
+        "schmichael",
+        "tgross",
+        "DingoEatingFuzz",
+        "notnoop"
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "podman-container-tools/podman",
+      "url": "https://github.com/podman-container-tools/podman",
+      "description": "Podman: A tool for managing OCI containers and pods.",
+      "language": "Go",
+      "stars": 31942,
+      "forks": 3138,
+      "stars_today": "21 stars today",
+      "built_by": [
+        "openshift-merge-robot",
+        "openshift-merge-bot",
+        "mheon",
+        "rhatdan",
+        "Luap99"
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "grafana/mcp-grafana",
+      "url": "https://github.com/grafana/mcp-grafana",
+      "description": "MCP server for Grafana",
+      "language": "Go",
+      "stars": 3106,
+      "forks": 377,
+      "stars_today": "9 stars today",
+      "built_by": [
+        "sd2k",
+        "claude",
+        "renovate-sh-app",
+        "dependabot",
+        "ioanarm"
+      ]
+    },
+    {
+      "rank": 15,
+      "name": "kyverno/kyverno",
+      "url": "https://github.com/kyverno/kyverno",
+      "description": "Unified Policy as Code",
+      "language": "Go",
+      "stars": 7811,
+      "forks": 1379,
+      "stars_today": "6 stars today",
+      "built_by": [
+        "realshuting",
+        "eddycharly",
+        "dependabot",
+        "JimBugwadia",
+        "MariamFahmy98"
+      ]
+    },
+    {
+      "rank": 16,
+      "name": "traefik/traefik",
+      "url": "https://github.com/traefik/traefik",
+      "description": "The Cloud Native Application Proxy",
+      "language": "Go",
+      "stars": 63564,
+      "forks": 6032,
+      "stars_today": "96 stars today",
+      "built_by": [
+        "ldez",
+        "emilevauge",
+        "rtribotte",
+        "kevinpollet",
+        "mmatur"
+      ]
+    },
+    {
+      "rank": 17,
+      "name": "gitleaks/gitleaks",
+      "url": "https://github.com/gitleaks/gitleaks",
+      "description": "Find secrets with Gitleaks 🔑",
+      "language": "Go",
+      "stars": 27510,
+      "forks": 2095,
+      "stars_today": "20 stars today",
+      "built_by": [
+        "zricethezav",
+        "rgmz",
+        "w0rmr1d3r",
+        "petegallagher",
+        "bufferoverflow"
+      ]
+    },
+    {
+      "rank": 18,
+      "name": "Gentleman-Programming/gentle-ai",
+      "url": "https://github.com/Gentleman-Programming/gentle-ai",
+      "description": "Pas de description",
+      "language": "Go",
+      "stars": 3651,
+      "forks": 441,
+      "stars_today": "34 stars today",
+      "built_by": [
+        "Alan-TheGentleman",
+        "tonyblu331",
+        "IrrealV",
+        "claude",
+        "Tech-Codde"
+      ]
+    },
+    {
+      "rank": 19,
+      "name": "kubernetes/kubernetes",
+      "url": "https://github.com/kubernetes/kubernetes",
+      "description": "Production-Grade Container Scheduling and Management",
+      "language": "Go",
+      "stars": 122695,
+      "forks": 43257,
+      "stars_today": "79 stars today",
+      "built_by": [
+        "k8s-ci-robot",
+        "liggitt",
+        "thockin",
+        "wojtek-t",
+        "brendandburns"
+      ]
+    },
+    {
+      "rank": 20,
+      "name": "danielmiessler/Fabric",
+      "url": "https://github.com/danielmiessler/Fabric",
+      "description": "Fabric is an open-source framework for augmenting humans using AI. It provides a modular system for solving specific problems using a crowdsourced set of AI prompts that can be used anywhere.",
+      "language": "Go",
+      "stars": 42035,
+      "forks": 4163,
+      "stars_today": "50 stars today",
+      "built_by": [
+        "danielmiessler",
+        "ksylvan",
+        "github-actions",
+        "eugeis",
+        "xssdoctor"
+      ]
+    },
+    {
+      "rank": 21,
+      "name": "filebrowser/filebrowser",
+      "url": "https://github.com/filebrowser/filebrowser",
+      "description": "📂 Web File Browser",
+      "language": "Go",
+      "stars": 34953,
+      "forks": 3867,
+      "stars_today": "16 stars today",
+      "built_by": [
+        "hacdias",
+        "o1egl",
+        "dependabot-preview",
+        "ramiresviana",
+        "eine"
+      ]
+    },
+    {
+      "rank": 22,
+      "name": "pion/webrtc",
+      "url": "https://github.com/pion/webrtc",
+      "description": "Pure Go implementation of the WebRTC API",
+      "language": "Go",
+      "stars": 16519,
+      "forks": 1852,
+      "stars_today": "4 stars today",
+      "built_by": [
+        "Sean-Der",
+        "renovate",
+        "renovate-bot",
+        "backkem",
+        "trivigy"
+      ]
+    }
+  ]
+}
