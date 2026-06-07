@@ -1,0 +1,404 @@
+{
+  "metadata": {
+    "date": "2026-06-07",
+    "language": "go",
+    "total_repositories": 23,
+    "total_stars": 875220,
+    "total_forks": 95278,
+    "generated_by": "GitHub Trending Scraper",
+    "format_version": "1.0"
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "aquasecurity/trivy",
+      "url": "https://github.com/aquasecurity/trivy",
+      "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
+      "language": "Go",
+      "stars": 36018,
+      "forks": 455,
+      "stars_today": "159 stars today",
+      "built_by": [
+        "knqyf263",
+        "DmitriyLewen",
+        "dependabot",
+        "nikpivkin",
+        "simar7"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "golang/go",
+      "url": "https://github.com/golang/go",
+      "description": "The Go programming language",
+      "language": "Go",
+      "stars": 134523,
+      "forks": 19087,
+      "stars_today": "30 stars today",
+      "built_by": [
+        "rsc",
+        "griesemer",
+        "robpike",
+        "ianlancetaylor",
+        "bradfitz"
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "ethereum/go-ethereum",
+      "url": "https://github.com/ethereum/go-ethereum",
+      "description": "Go implementation of the Ethereum protocol",
+      "language": "Go",
+      "stars": 51095,
+      "forks": 21926,
+      "stars_today": "4 stars today",
+      "built_by": [
+        "obscuren",
+        "karalabe",
+        "fjl",
+        "holiman",
+        "rjl493456442"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "ArvinLovegood/go-stock",
+      "url": "https://github.com/ArvinLovegood/go-stock",
+      "description": "🦄🦄🦄AI赋能股票分析：AI加持的股票分析/选股工具。股票行情获取，AI热点资讯分析，AI资金/财务分析，涨跌报警推送。支持A股，港股，美股。支持市场整体/个股情绪分析，AI辅助选股等。数据全部保留在本地。支持DeepSeek，OpenAI， Ollama，LMStudio，AnythingLLM，硅基流动，火山方舟，阿里云百炼等平台或模型。",
+      "language": "Go",
+      "stars": 6158,
+      "forks": 1106,
+      "stars_today": "37 stars today",
+      "built_by": [
+        "ArvinLovegood",
+        "CodeNoobLH",
+        "dependabot",
+        "GiCo001",
+        "github-advanced-security"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "nezhahq/nezha",
+      "url": "https://github.com/nezhahq/nezha",
+      "description": "Self-hosted, lightweight server and website monitoring and O&M tool",
+      "language": "Go",
+      "stars": 10095,
+      "forks": 1599,
+      "stars_today": "16 stars today",
+      "built_by": [
+        "naiba",
+        "uubulb",
+        "github-actions",
+        "AkkiaS7",
+        "matchch"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "traefik/traefik",
+      "url": "https://github.com/traefik/traefik",
+      "description": "The Cloud Native Application Proxy",
+      "language": "Go",
+      "stars": 63616,
+      "forks": 6040,
+      "stars_today": "58 stars today",
+      "built_by": [
+        "ldez",
+        "emilevauge",
+        "rtribotte",
+        "kevinpollet",
+        "mmatur"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "tailscale/tailscale",
+      "url": "https://github.com/tailscale/tailscale",
+      "description": "The easiest, most secure way to use WireGuard and 2FA.",
+      "language": "Go",
+      "stars": 32298,
+      "forks": 2632,
+      "stars_today": "38 stars today",
+      "built_by": [
+        "bradfitz",
+        "danderson",
+        "josharian",
+        "raggi",
+        "andrew-d"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "multica-ai/multica",
+      "url": "https://github.com/multica-ai/multica",
+      "description": "The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.",
+      "language": "Go",
+      "stars": 35600,
+      "forks": 4331,
+      "stars_today": "140 stars today",
+      "built_by": [
+        "claude",
+        "NevilleQingNY",
+        "forrestchang",
+        "Bohan-J",
+        "ldnvnbl"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "livekit/livekit",
+      "url": "https://github.com/livekit/livekit",
+      "description": "End-to-end realtime stack for connecting humans and AI",
+      "language": "Go",
+      "stars": 19095,
+      "forks": 2055,
+      "stars_today": "11 stars today",
+      "built_by": [
+        "boks1971",
+        "davidzhao",
+        "cnderrauber",
+        "paulwe",
+        "renovate"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "dlvhdr/gh-dash",
+      "url": "https://github.com/dlvhdr/gh-dash",
+      "description": "A rich terminal UI for GitHub that doesn't break your flow.",
+      "language": "Go",
+      "stars": 11833,
+      "forks": 401,
+      "stars_today": "34 stars today",
+      "built_by": [
+        "dlvhdr",
+        "sideshowbarker",
+        "robdimsdale",
+        "kyu08",
+        "alcpereira"
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "envoyproxy/ai-gateway",
+      "url": "https://github.com/envoyproxy/ai-gateway",
+      "description": "Manages Unified Access to Generative AI Services built on Envoy Gateway",
+      "language": "Go",
+      "stars": 1729,
+      "forks": 271,
+      "stars_today": "3 stars today",
+      "built_by": [
+        "mathetake",
+        "dependabot",
+        "nacx",
+        "yuzisun",
+        "missBerg"
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "tulir/whatsmeow",
+      "url": "https://github.com/tulir/whatsmeow",
+      "description": "Go library for the WhatsApp web multidevice API",
+      "language": "Go",
+      "stars": 6332,
+      "forks": 1012,
+      "stars_today": "22 stars today",
+      "built_by": [
+        "tulir",
+        "SchulteMK",
+        "Rhymen",
+        "sthales",
+        "houstondapaz"
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "pulumi/pulumi",
+      "url": "https://github.com/pulumi/pulumi",
+      "description": "Pulumi - Infrastructure as Code in any programming language 🚀",
+      "language": "Go",
+      "stars": 25276,
+      "forks": 1385,
+      "stars_today": "6 stars today",
+      "built_by": [
+        "Frassle",
+        "joeduffy",
+        "bors",
+        "justinvp",
+        "tgummerer"
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "volcano-sh/volcano",
+      "url": "https://github.com/volcano-sh/volcano",
+      "description": "A Cloud Native Batch System (Project under CNCF)",
+      "language": "Go",
+      "stars": 5642,
+      "forks": 1393,
+      "stars_today": "7 stars today",
+      "built_by": [
+        "volcano-sh-bot",
+        "k82cn",
+        "hzxuzhonghu",
+        "TommyLike",
+        "k8s-ci-robot"
+      ]
+    },
+    {
+      "rank": 15,
+      "name": "DataDog/terraform-provider-datadog",
+      "url": "https://github.com/DataDog/terraform-provider-datadog",
+      "description": "Terraform Datadog provider",
+      "language": "Go",
+      "stars": 450,
+      "forks": 433,
+      "stars_today": "2 stars today",
+      "built_by": [
+        "skarimo",
+        "therve",
+        "nkzou",
+        "nmuesch",
+        "zippolyte"
+      ]
+    },
+    {
+      "rank": 16,
+      "name": "jesseduffield/lazygit",
+      "url": "https://github.com/jesseduffield/lazygit",
+      "description": "simple terminal UI for git commands",
+      "language": "Go",
+      "stars": 79054,
+      "forks": 2860,
+      "stars_today": "90 stars today",
+      "built_by": [
+        "jesseduffield",
+        "stefanhaller",
+        "mjarkk",
+        "dawidd6",
+        "Ryooooooga"
+      ]
+    },
+    {
+      "rank": 17,
+      "name": "danielmiessler/Fabric",
+      "url": "https://github.com/danielmiessler/Fabric",
+      "description": "Fabric is an open-source framework for augmenting humans using AI. It provides a modular system for solving specific problems using a crowdsourced set of AI prompts that can be used anywhere.",
+      "language": "Go",
+      "stars": 42116,
+      "forks": 4169,
+      "stars_today": "42 stars today",
+      "built_by": [
+        "danielmiessler",
+        "ksylvan",
+        "github-actions",
+        "eugeis",
+        "xssdoctor"
+      ]
+    },
+    {
+      "rank": 18,
+      "name": "abiosoft/colima",
+      "url": "https://github.com/abiosoft/colima",
+      "description": "Container runtimes on macOS (and Linux) with minimal setup",
+      "language": "Go",
+      "stars": 29175,
+      "forks": 581,
+      "stars_today": "16 stars today",
+      "built_by": [
+        "abiosoft",
+        "dependabot",
+        "rfay",
+        "LaszloGombos",
+        "artygus"
+      ]
+    },
+    {
+      "rank": 19,
+      "name": "nektos/act",
+      "url": "https://github.com/nektos/act",
+      "description": "Run your GitHub Actions locally 🚀",
+      "language": "Go",
+      "stars": 70783,
+      "forks": 1949,
+      "stars_today": "41 stars today",
+      "built_by": [
+        "mergify",
+        "dependabot",
+        "cplee",
+        "ChristopherHX",
+        "github-actions"
+      ]
+    },
+    {
+      "rank": 20,
+      "name": "ollama/ollama",
+      "url": "https://github.com/ollama/ollama",
+      "description": "Get up and running with Kimi-K2.6, GLM-5.1, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+      "language": "Go",
+      "stars": 173400,
+      "forks": 16477,
+      "stars_today": "129 stars today",
+      "built_by": [
+        "mxyng",
+        "jmorganca",
+        "dhiltgen",
+        "BruceMacD",
+        "jessegross"
+      ]
+    },
+    {
+      "rank": 21,
+      "name": "netbirdio/netbird",
+      "url": "https://github.com/netbirdio/netbird",
+      "description": "Connect your devices into a secure WireGuard®-based overlay network with SSO, MFA and granular access controls.",
+      "language": "Go",
+      "stars": 25781,
+      "forks": 1378,
+      "stars_today": "15 stars today",
+      "built_by": [
+        "mlsmaycon",
+        "pascal-fischer",
+        "braginini",
+        "lixmal",
+        "pappz"
+      ]
+    },
+    {
+      "rank": 22,
+      "name": "prometheus/alertmanager",
+      "url": "https://github.com/prometheus/alertmanager",
+      "description": "Prometheus Alertmanager",
+      "language": "Go",
+      "stars": 8498,
+      "forks": 2425,
+      "stars_today": "4 stars today",
+      "built_by": [
+        "fabxc",
+        "stuartnelson3",
+        "simonpasquier",
+        "dependabot",
+        "juliusv"
+      ]
+    },
+    {
+      "rank": 23,
+      "name": "external-secrets/external-secrets",
+      "url": "https://github.com/external-secrets/external-secrets",
+      "description": "External Secrets Operator reads information from a third-party service like AWS Secrets Manager and automatically injects the values as Kubernetes Secrets.",
+      "language": "Go",
+      "stars": 6653,
+      "forks": 1313,
+      "stars_today": "1 star today",
+      "built_by": [
+        "Skarlso",
+        "dependabot",
+        "moolen",
+        "paul-the-alien",
+        "gusfcarvalho"
+      ]
+    }
+  ]
+}
