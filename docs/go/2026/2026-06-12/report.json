@@ -1,0 +1,420 @@
+{
+  "metadata": {
+    "date": "2026-06-12",
+    "language": "go",
+    "total_repositories": 24,
+    "total_stars": 477691,
+    "total_forks": 55014,
+    "generated_by": "GitHub Trending Scraper",
+    "format_version": "1.0"
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "restic/restic",
+      "url": "https://github.com/restic/restic",
+      "description": "Fast, secure, efficient backup program",
+      "language": "Go",
+      "stars": 34219,
+      "forks": 1786,
+      "stars_today": "61 stars today",
+      "built_by": [
+        "fd0",
+        "MichaelEischer",
+        "rawtaz",
+        "dependabot",
+        "greatroar"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "masterking32/MasterDnsVPN",
+      "url": "https://github.com/masterking32/MasterDnsVPN",
+      "description": "Advanced DNS tunneling VPN for censorship bypass, optimized beyond DNSTT and SlipStream with low-overhead ARQ, resolver load balancing, high packet-loss stability and speed.",
+      "language": "Go",
+      "stars": 5749,
+      "forks": 523,
+      "stars_today": "507 stars today",
+      "built_by": [
+        "masterking32",
+        "abolix",
+        "PentSec",
+        "MahdiMirzadeh",
+        "typerhack"
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "kenn-io/agentsview",
+      "url": "https://github.com/kenn-io/agentsview",
+      "description": "Local-first session intelligence and analytics for coding agents, supporting Claude Code, Codex, and more than 20 other agents. Also: 100x faster replacement for ccusage!",
+      "language": "Go",
+      "stars": 1753,
+      "forks": 176,
+      "stars_today": "114 stars today",
+      "built_by": [
+        "wesm",
+        "claude",
+        "mariusvniekerk",
+        "dependabot",
+        "userFRM"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "googleapis/mcp-toolbox",
+      "url": "https://github.com/googleapis/mcp-toolbox",
+      "description": "MCP Toolbox for Databases is an open source MCP server for databases.",
+      "language": "Go",
+      "stars": 15590,
+      "forks": 1597,
+      "stars_today": "25 stars today",
+      "built_by": [
+        "Yuan325",
+        "twishabansal",
+        "duwenxin99",
+        "averikitsch",
+        "release-please"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "coder/coder",
+      "url": "https://github.com/coder/coder",
+      "description": "Secure environments for developers and their agents",
+      "language": "Go",
+      "stars": 13438,
+      "forks": 1323,
+      "stars_today": "15 stars today",
+      "built_by": [
+        "dependabot",
+        "kylecarbs",
+        "mafredri",
+        "johnstcn",
+        "Emyrk"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "larksuite/cli",
+      "url": "https://github.com/larksuite/cli",
+      "description": "The official Lark/Feishu CLI tool, maintained by the larksuite team — built for humans and AI Agents. Covers core business domains including Messenger, Docs, Base, Sheets, Calendar, Mail, Tasks, Meetings, and more, with 200+ commands and 20+ AI Agent Skills.",
+      "language": "Go",
+      "stars": 13962,
+      "forks": 955,
+      "stars_today": "86 stars today",
+      "built_by": [
+        "liangshuo-1",
+        "fangshuyu-768",
+        "evandance",
+        "wittam-01",
+        "zgz2048"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "prometheus/node_exporter",
+      "url": "https://github.com/prometheus/node_exporter",
+      "description": "Exporter for machine metrics",
+      "language": "Go",
+      "stars": 13496,
+      "forks": 2665,
+      "stars_today": "10 stars today",
+      "built_by": [
+        "SuperQ",
+        "discordianfish",
+        "dependabot",
+        "grobie",
+        "juliusv"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "traefik/traefik",
+      "url": "https://github.com/traefik/traefik",
+      "description": "The Cloud Native Application Proxy",
+      "language": "Go",
+      "stars": 63593,
+      "forks": 6040,
+      "stars_today": "79 stars today",
+      "built_by": [
+        "ldez",
+        "emilevauge",
+        "rtribotte",
+        "kevinpollet",
+        "mmatur"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "netbirdio/netbird",
+      "url": "https://github.com/netbirdio/netbird",
+      "description": "Connect your devices into a secure WireGuard®-based overlay network with SSO, MFA and granular access controls.",
+      "language": "Go",
+      "stars": 25906,
+      "forks": 1396,
+      "stars_today": "26 stars today",
+      "built_by": [
+        "mlsmaycon",
+        "pascal-fischer",
+        "braginini",
+        "lixmal",
+        "pappz"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "seaweedfs/seaweedfs",
+      "url": "https://github.com/seaweedfs/seaweedfs",
+      "description": "SeaweedFS is a distributed storage system for object storage (S3), file systems, and Iceberg tables, designed to handle billions of files with O(1) disk access and effortless horizontal scaling.",
+      "language": "Go",
+      "stars": 32860,
+      "forks": 2847,
+      "stars_today": "32 stars today",
+      "built_by": [
+        "chrislusf",
+        "dependabot",
+        "kmlebedev",
+        "chrisluuber",
+        "gemini-code-assist"
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "hashicorp/vault",
+      "url": "https://github.com/hashicorp/vault",
+      "description": "A tool for secrets management, encryption as a service, and privileged access management",
+      "language": "Go",
+      "stars": 35776,
+      "forks": 4697,
+      "stars_today": "9 stars today",
+      "built_by": [
+        "jefferai",
+        "hc-github-team-secure-vault-core",
+        "vishalnayak",
+        "armon",
+        "ncabatoff"
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "vllm-project/semantic-router",
+      "url": "https://github.com/vllm-project/semantic-router",
+      "description": "System Level Intelligent Router for Mixture-of-Models at Cloud, Data Center and Edge",
+      "language": "Go",
+      "stars": 4319,
+      "forks": 707,
+      "stars_today": "5 stars today",
+      "built_by": [
+        "Xunzhuo",
+        "rootfs",
+        "samzong",
+        "yuluo-yx",
+        "yossiovadia"
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "bluenviron/mediamtx",
+      "url": "https://github.com/bluenviron/mediamtx",
+      "description": "Ready-to-use Media-over-QUIC / SRT / WebRTC / RTSP / RTMP / LL-HLS / MPEG-TS / RTP live media server and media proxy that allows to read, publish, proxy, record and playback real-time video and audio streams.",
+      "language": "Go",
+      "stars": 19057,
+      "forks": 2254,
+      "stars_today": "22 stars today",
+      "built_by": [
+        "aler9",
+        "dependabot",
+        "bluenviron-bot",
+        "github-actions",
+        "tmatth"
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "crowdsecurity/crowdsec",
+      "url": "https://github.com/crowdsecurity/crowdsec",
+      "description": "CrowdSec - the open-source and participative security solution offering crowdsourced protection against malicious IPs and access to the most advanced real-world CTI.",
+      "language": "Go",
+      "stars": 13809,
+      "forks": 653,
+      "stars_today": "25 stars today",
+      "built_by": [
+        "mmetc",
+        "buixor",
+        "blotus",
+        "AlteredCoder",
+        "dependabot"
+      ]
+    },
+    {
+      "rank": 15,
+      "name": "hatchet-dev/hatchet",
+      "url": "https://github.com/hatchet-dev/hatchet",
+      "description": "🪓 An orchestration engine for background tasks, AI agents, and durable workflows",
+      "language": "Go",
+      "stars": 7332,
+      "forks": 413,
+      "stars_today": "10 stars today",
+      "built_by": [
+        "dependabot",
+        "abelanger5",
+        "mrkaye97",
+        "grutt",
+        "mnafees"
+      ]
+    },
+    {
+      "rank": 16,
+      "name": "Ed1s0nZ/CyberStrikeAI",
+      "url": "https://github.com/Ed1s0nZ/CyberStrikeAI",
+      "description": "CyberStrikeAI is an AI-native security testing platform built in Go. It integrates 100+ security tools, an intelligent orchestration engine, role-based testing with predefined security roles, a skills system with specialized testing skills, and comprehensive lifecycle management capabilities.",
+      "language": "Go",
+      "stars": 4434,
+      "forks": 740,
+      "stars_today": "74 stars today",
+      "built_by": [
+        "Ed1s0nZ",
+        "donnel666",
+        "claude",
+        "chhs1129",
+        "huajinping"
+      ]
+    },
+    {
+      "rank": 17,
+      "name": "juicedata/juicefs",
+      "url": "https://github.com/juicedata/juicefs",
+      "description": "JuiceFS is a distributed POSIX file system built on top of Redis and S3.",
+      "language": "Go",
+      "stars": 13942,
+      "forks": 1226,
+      "stars_today": "47 stars today",
+      "built_by": [
+        "davies",
+        "zhijian-pro",
+        "SandyXSD",
+        "zhoucheng361",
+        "xiaogaozi"
+      ]
+    },
+    {
+      "rank": 18,
+      "name": "enfein/mieru",
+      "url": "https://github.com/enfein/mieru",
+      "description": "mieru is a socks5 / HTTP / HTTPS proxy to bypass censorship. 見える是一款 socks5 / HTTP / HTTPS 网络代理翻墙工具。",
+      "language": "Go",
+      "stars": 2242,
+      "forks": 210,
+      "stars_today": "20 stars today",
+      "built_by": [
+        "enfein",
+        "dependabot",
+        "Nemu-x",
+        "qr243vbi",
+        "tianrking"
+      ]
+    },
+    {
+      "rank": 19,
+      "name": "gruntwork-io/terragrunt",
+      "url": "https://github.com/gruntwork-io/terragrunt",
+      "description": "Terragrunt is a flexible orchestration tool that allows Infrastructure as Code written in OpenTofu/Terraform to scale.",
+      "language": "Go",
+      "stars": 9648,
+      "forks": 1197,
+      "stars_today": "7 stars today",
+      "built_by": [
+        "yhakbar",
+        "brikis98",
+        "denis256",
+        "yorinasub17",
+        "dependabot"
+      ]
+    },
+    {
+      "rank": 20,
+      "name": "QuantumNous/new-api",
+      "url": "https://github.com/QuantumNous/new-api",
+      "description": "A unified AI model hub for aggregation & distribution. It supports cross-converting various LLMs into OpenAI-compatible, Claude-compatible, or Gemini-compatible formats. A centralized gateway for personal and enterprise model management. 🍥",
+      "language": "Go",
+      "stars": 38409,
+      "forks": 8725,
+      "stars_today": "188 stars today",
+      "built_by": [
+        "Calcium-Ion",
+        "seefs001",
+        "t0ng7u",
+        "songquanpeng"
+      ]
+    },
+    {
+      "rank": 21,
+      "name": "argoproj/argo-cd",
+      "url": "https://github.com/argoproj/argo-cd",
+      "description": "Declarative Continuous Deployment for Kubernetes",
+      "language": "Go",
+      "stars": 23112,
+      "forks": 7321,
+      "stars_today": "10 stars today",
+      "built_by": [
+        "dependabot",
+        "alexmt",
+        "crenshaw-dev",
+        "jannfis",
+        "jessesuen"
+      ]
+    },
+    {
+      "rank": 22,
+      "name": "milvus-io/milvus",
+      "url": "https://github.com/milvus-io/milvus",
+      "description": "Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search",
+      "language": "Go",
+      "stars": 44734,
+      "forks": 4059,
+      "stars_today": "14 stars today",
+      "built_by": [
+        "congqixia",
+        "JinHai-CN",
+        "bigsheeper",
+        "zhuwenxing",
+        "xiaocai2333"
+      ]
+    },
+    {
+      "rank": 23,
+      "name": "flyteorg/flyte",
+      "url": "https://github.com/flyteorg/flyte",
+      "description": "Dynamic, resilient AI orchestration. Coordinate data, models, and compute as you build AI workflows.",
+      "language": "Go",
+      "stars": 7079,
+      "forks": 829,
+      "stars_today": "4 stars today",
+      "built_by": [
+        "EngHabu",
+        "eapolinario",
+        "pingsutw",
+        "hamersaw",
+        "katrogan"
+      ]
+    },
+    {
+      "rank": 24,
+      "name": "k3s-io/k3s",
+      "url": "https://github.com/k3s-io/k3s",
+      "description": "Lightweight Kubernetes",
+      "language": "Go",
+      "stars": 33232,
+      "forks": 2675,
+      "stars_today": "10 stars today",
+      "built_by": [
+        "brandond",
+        "erikwilson",
+        "dereknola",
+        "ibuildthecloud",
+        "manuelbuil"
+      ]
+    }
+  ]
+}
