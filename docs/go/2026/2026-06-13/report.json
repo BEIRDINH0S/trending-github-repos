@@ -1,0 +1,404 @@
+{
+  "metadata": {
+    "date": "2026-06-13",
+    "language": "go",
+    "total_repositories": 23,
+    "total_stars": 352012,
+    "total_forks": 49946,
+    "generated_by": "GitHub Trending Scraper",
+    "format_version": "1.0"
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "masterking32/MasterDnsVPN",
+      "url": "https://github.com/masterking32/MasterDnsVPN",
+      "description": "Advanced DNS tunneling VPN for censorship bypass, optimized beyond DNSTT and SlipStream with low-overhead ARQ, resolver load balancing, high packet-loss stability and speed.",
+      "language": "Go",
+      "stars": 6043,
+      "forks": 543,
+      "stars_today": "400 stars today",
+      "built_by": [
+        "masterking32",
+        "abolix",
+        "PentSec",
+        "MahdiMirzadeh",
+        "typerhack"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "kenn-io/agentsview",
+      "url": "https://github.com/kenn-io/agentsview",
+      "description": "Local-first session intelligence and analytics for coding agents, supporting Claude Code, Codex, and more than 20 other agents. Also: 100x faster replacement for ccusage!",
+      "language": "Go",
+      "stars": 2092,
+      "forks": 198,
+      "stars_today": "530 stars today",
+      "built_by": [
+        "wesm",
+        "claude",
+        "mariusvniekerk",
+        "dependabot",
+        "mjacobs"
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "restic/restic",
+      "url": "https://github.com/restic/restic",
+      "description": "Fast, secure, efficient backup program",
+      "language": "Go",
+      "stars": 34351,
+      "forks": 1790,
+      "stars_today": "307 stars today",
+      "built_by": [
+        "fd0",
+        "MichaelEischer",
+        "rawtaz",
+        "dependabot",
+        "greatroar"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "coder/coder",
+      "url": "https://github.com/coder/coder",
+      "description": "Secure environments for developers and their agents",
+      "language": "Go",
+      "stars": 13469,
+      "forks": 1326,
+      "stars_today": "29 stars today",
+      "built_by": [
+        "dependabot",
+        "kylecarbs",
+        "mafredri",
+        "johnstcn",
+        "Emyrk"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "vllm-project/aibrix",
+      "url": "https://github.com/vllm-project/aibrix",
+      "description": "Cost-efficient and pluggable Infrastructure components for GenAI inference",
+      "language": "Go",
+      "stars": 4873,
+      "forks": 600,
+      "stars_today": "6 stars today",
+      "built_by": [
+        "Jeffwan",
+        "varungup90",
+        "DwyaneShi",
+        "googs1025",
+        "happyandslow"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "wailsapp/wails",
+      "url": "https://github.com/wailsapp/wails",
+      "description": "Create beautiful applications using Go",
+      "language": "Go",
+      "stars": 34774,
+      "forks": 1718,
+      "stars_today": "17 stars today",
+      "built_by": [
+        "leaanthony",
+        "github-actions",
+        "claude",
+        "stffabi",
+        "popaprozac"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "envoyproxy/ai-gateway",
+      "url": "https://github.com/envoyproxy/ai-gateway",
+      "description": "Manages Unified Access to Generative AI Services built on Envoy Gateway",
+      "language": "Go",
+      "stars": 1747,
+      "forks": 272,
+      "stars_today": "6 stars today",
+      "built_by": [
+        "mathetake",
+        "dependabot",
+        "nacx",
+        "yuzisun",
+        "missBerg"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "moby/buildkit",
+      "url": "https://github.com/moby/buildkit",
+      "description": "concurrent, cache-efficient, and Dockerfile-agnostic builder toolkit",
+      "language": "Go",
+      "stars": 10045,
+      "forks": 1434,
+      "stars_today": "1 star today",
+      "built_by": [
+        "tonistiigi",
+        "crazy-max",
+        "AkihiroSuda",
+        "thaJeztah",
+        "jedevc"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "agentscope-ai/HiClaw",
+      "url": "https://github.com/agentscope-ai/HiClaw",
+      "description": "An open-source Collaborative Multi-Agent OS for transparent, human-in-the-loop task coordination via Matrix rooms.",
+      "language": "Go",
+      "stars": 4823,
+      "forks": 572,
+      "stars_today": "14 stars today",
+      "built_by": [
+        "johnlanni",
+        "claude",
+        "Jing-ze",
+        "shiyiyue1102",
+        "googs1025"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "rancher/rancher",
+      "url": "https://github.com/rancher/rancher",
+      "description": "Complete container management platform",
+      "language": "Go",
+      "stars": 25665,
+      "forks": 3204,
+      "stars_today": "2 stars today",
+      "built_by": [
+        "ibuildthecloud",
+        "kinarashah",
+        "dramich",
+        "jakefhyde",
+        "jiaqiluo"
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "kai-scheduler/KAI-Scheduler",
+      "url": "https://github.com/kai-scheduler/KAI-Scheduler",
+      "description": "KAI Scheduler is an open source Kubernetes Native scheduler for AI workloads at large scale",
+      "language": "Go",
+      "stars": 1322,
+      "forks": 204,
+      "stars_today": "4 stars today",
+      "built_by": [
+        "enoodle",
+        "davidLif",
+        "itsomri",
+        "romanbaron",
+        "gshaibi"
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "istio/istio",
+      "url": "https://github.com/istio/istio",
+      "description": "Connect, secure, control, and observe services.",
+      "language": "Go",
+      "stars": 38214,
+      "forks": 8322,
+      "stars_today": "3 stars today",
+      "built_by": [
+        "istio-testing",
+        "howardjohn",
+        "hzxuzhonghu",
+        "ramaraochavali",
+        "kyessenov"
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "zitadel/zitadel",
+      "url": "https://github.com/zitadel/zitadel",
+      "description": "ZITADEL - Identity infrastructure, simplified for you.",
+      "language": "Go",
+      "stars": 14028,
+      "forks": 1115,
+      "stars_today": "10 stars today",
+      "built_by": [
+        "livio-a",
+        "peintnermax",
+        "hifabienne",
+        "adlerhurst",
+        "fforootd"
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "YuJunZhiXue/qwen2API",
+      "url": "https://github.com/YuJunZhiXue/qwen2API",
+      "description": "A project converting the Qwen web page to an API.",
+      "language": "Go",
+      "stars": 841,
+      "forks": 264,
+      "stars_today": "10 stars today",
+      "built_by": [
+        "YuJunZhiXue",
+        "traeagent",
+        "zheng-yang-zhang",
+        "claude",
+        "a8851625"
+      ]
+    },
+    {
+      "rank": 15,
+      "name": "hashicorp/terraform-provider-aws",
+      "url": "https://github.com/hashicorp/terraform-provider-aws",
+      "description": "The AWS Provider enables Terraform to manage AWS resources.",
+      "language": "Go",
+      "stars": 10933,
+      "forks": 10193,
+      "stars_today": "7 stars today",
+      "built_by": [
+        "ewbankkit",
+        "YakDriver",
+        "gdavison",
+        "bflad",
+        "jar-b"
+      ]
+    },
+    {
+      "rank": 16,
+      "name": "kyverno/kyverno",
+      "url": "https://github.com/kyverno/kyverno",
+      "description": "Unified Policy as Code",
+      "language": "Go",
+      "stars": 7830,
+      "forks": 1389,
+      "stars_today": "2 stars today",
+      "built_by": [
+        "realshuting",
+        "eddycharly",
+        "dependabot",
+        "JimBugwadia",
+        "MariamFahmy98"
+      ]
+    },
+    {
+      "rank": 17,
+      "name": "helm/helm",
+      "url": "https://github.com/helm/helm",
+      "description": "The Kubernetes Package Manager",
+      "language": "Go",
+      "stars": 29868,
+      "forks": 7645,
+      "stars_today": "3 stars today",
+      "built_by": [
+        "technosophos",
+        "adamreese",
+        "mattfarina",
+        "dependabot",
+        "gjenkins8"
+      ]
+    },
+    {
+      "rank": 18,
+      "name": "jetify-com/devbox",
+      "url": "https://github.com/jetify-com/devbox",
+      "description": "Instant, easy, and predictable development environments",
+      "language": "Go",
+      "stars": 11998,
+      "forks": 338,
+      "stars_today": "102 stars today",
+      "built_by": [
+        "mikeland73",
+        "savil",
+        "Lagoja",
+        "gcurtis",
+        "mohsenari"
+      ]
+    },
+    {
+      "rank": 19,
+      "name": "owncloud/ocis",
+      "url": "https://github.com/owncloud/ocis",
+      "description": "⚛️ ownCloud Infinite Scale",
+      "language": "Go",
+      "stars": 1996,
+      "forks": 251,
+      "stars_today": "2 stars today",
+      "built_by": [
+        "micbar",
+        "wkloucek",
+        "refs",
+        "butonic",
+        "kobergj"
+      ]
+    },
+    {
+      "rank": 20,
+      "name": "gruntwork-io/terragrunt",
+      "url": "https://github.com/gruntwork-io/terragrunt",
+      "description": "Terragrunt is a flexible orchestration tool that allows Infrastructure as Code written in OpenTofu/Terraform to scale.",
+      "language": "Go",
+      "stars": 9652,
+      "forks": 1198,
+      "stars_today": "5 stars today",
+      "built_by": [
+        "yhakbar",
+        "brikis98",
+        "denis256",
+        "yorinasub17",
+        "dependabot"
+      ]
+    },
+    {
+      "rank": 21,
+      "name": "wavetermdev/waveterm",
+      "url": "https://github.com/wavetermdev/waveterm",
+      "description": "An open-source, AI-integrated, cross-platform terminal for seamless workflows",
+      "language": "Go",
+      "stars": 21226,
+      "forks": 1035,
+      "stars_today": "40 stars today",
+      "built_by": [
+        "sawka",
+        "esimkowitz",
+        "dependabot",
+        "wave-builder",
+        "oneirocosm"
+      ]
+    },
+    {
+      "rank": 22,
+      "name": "traefik/traefik",
+      "url": "https://github.com/traefik/traefik",
+      "description": "The Cloud Native Application Proxy",
+      "language": "Go",
+      "stars": 63595,
+      "forks": 6044,
+      "stars_today": "41 stars today",
+      "built_by": [
+        "ldez",
+        "emilevauge",
+        "rtribotte",
+        "kevinpollet",
+        "mmatur"
+      ]
+    },
+    {
+      "rank": 23,
+      "name": "bbernhard/signal-cli-rest-api",
+      "url": "https://github.com/bbernhard/signal-cli-rest-api",
+      "description": "Dockerized Signal Messenger REST API",
+      "language": "Go",
+      "stars": 2627,
+      "forks": 291,
+      "stars_today": "3 stars today",
+      "built_by": [
+        "bbernhard",
+        "Gara-Dorta",
+        "crummy",
+        "danijelst",
+        "filipre"
+      ]
+    }
+  ]
+}
