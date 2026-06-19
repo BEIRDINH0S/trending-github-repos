@@ -1,0 +1,370 @@
+{
+  "metadata": {
+    "date": "2026-06-19",
+    "language": "go",
+    "total_repositories": 21,
+    "total_stars": 415868,
+    "total_forks": 75735,
+    "generated_by": "GitHub Trending Scraper",
+    "format_version": "1.0"
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "beclab/Olares",
+      "url": "https://github.com/beclab/Olares",
+      "description": "Olares: An Open-Source Personal Cloud to Reclaim Your Data",
+      "language": "Go",
+      "stars": 4877,
+      "forks": 291,
+      "stars_today": "38 stars today",
+      "built_by": [
+        "eball",
+        "dkeven",
+        "hysyeah",
+        "Meow33",
+        "fnalways"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "zzet/gortex",
+      "url": "https://github.com/zzet/gortex",
+      "description": "High-performance code-intelligence engine for AI agents and IDE, supports 257 languages, multi repositories, with access via CLI, MCP Server, and API. AI coding agents teammate - expose only needed information, cutting token usage up to 50x. 100% local.",
+      "language": "Go",
+      "stars": 602,
+      "forks": 49,
+      "stars_today": "103 stars today",
+      "built_by": [
+        "zzet",
+        "claude",
+        "avfirsov",
+        "dependabot",
+        "ztkent"
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "multica-ai/multica",
+      "url": "https://github.com/multica-ai/multica",
+      "description": "The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.",
+      "language": "Go",
+      "stars": 37182,
+      "forks": 4589,
+      "stars_today": "137 stars today",
+      "built_by": [
+        "claude",
+        "NevilleQingNY",
+        "Bohan-J",
+        "forrestchang",
+        "multica-agent"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "kubernetes/kubernetes",
+      "url": "https://github.com/kubernetes/kubernetes",
+      "description": "Production-Grade Container Scheduling and Management",
+      "language": "Go",
+      "stars": 123116,
+      "forks": 43242,
+      "stars_today": "31 stars today",
+      "built_by": [
+        "k8s-ci-robot",
+        "liggitt",
+        "thockin",
+        "wojtek-t",
+        "brendandburns"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "hibiken/asynq",
+      "url": "https://github.com/hibiken/asynq",
+      "description": "Simple, reliable, and efficient distributed task queue in Go",
+      "language": "Go",
+      "stars": 13397,
+      "forks": 946,
+      "stars_today": "10 stars today",
+      "built_by": [
+        "hibiken",
+        "kamikazechaser",
+        "dependabot",
+        "pior",
+        "enilsen16"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "mudler/LocalAI",
+      "url": "https://github.com/mudler/LocalAI",
+      "description": "LocalAI is the open-source AI engine. Run any model - LLMs, vision, voice, image, video - on any hardware. No GPU required.",
+      "language": "Go",
+      "stars": 46980,
+      "forks": 4148,
+      "stars_today": "40 stars today",
+      "built_by": [
+        "mudler",
+        "localai-bot",
+        "dependabot",
+        "renovate",
+        "richiejp"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "fleetdm/fleet",
+      "url": "https://github.com/fleetdm/fleet",
+      "description": "Open device management",
+      "language": "Go",
+      "stars": 6505,
+      "forks": 921,
+      "stars_today": "7 stars today",
+      "built_by": [
+        "eashaw",
+        "noahtalerman",
+        "RachelElysia",
+        "mikermcneil",
+        "zwass"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "thanos-io/thanos",
+      "url": "https://github.com/thanos-io/thanos",
+      "description": "Highly available Prometheus setup with long term storage capabilities. A CNCF Incubating project.",
+      "language": "Go",
+      "stars": 14113,
+      "forks": 2317,
+      "stars_today": "4 stars today",
+      "built_by": [
+        "bwplotka",
+        "GiedriusS",
+        "fpetkovski",
+        "yeya24",
+        "fabxc"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "Tencent/WeKnora",
+      "url": "https://github.com/Tencent/WeKnora",
+      "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+      "language": "Go",
+      "stars": 16466,
+      "forks": 2125,
+      "stars_today": "39 stars today",
+      "built_by": [
+        "lyingbug",
+        "voidkey",
+        "begoniezhao",
+        "claude",
+        "dependabot"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "charmbracelet/crush",
+      "url": "https://github.com/charmbracelet/crush",
+      "description": "Glamourous agentic coding for all 💘",
+      "language": "Go",
+      "stars": 25485,
+      "forks": 1845,
+      "stars_today": "45 stars today",
+      "built_by": [
+        "kujtimiihoxha",
+        "andreynering",
+        "meowgorithm",
+        "aymanbagabas",
+        "caarlos0"
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "projectdiscovery/nuclei",
+      "url": "https://github.com/projectdiscovery/nuclei",
+      "description": "Nuclei is a fast, customizable vulnerability scanner powered by the global security community and built on a simple YAML-based DSL, enabling collaboration to tackle trending vulnerabilities on the internet. It helps you find vulnerabilities in your applications, APIs, networks, DNS, and cloud configurations.",
+      "language": "Go",
+      "stars": 29266,
+      "forks": 3497,
+      "stars_today": "25 stars today",
+      "built_by": [
+        "Mzack9999",
+        "ehsandeep",
+        "dependabot",
+        "Ice3man543",
+        "tarunKoyalwar"
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "komari-monitor/komari",
+      "url": "https://github.com/komari-monitor/komari",
+      "description": "A simple server monitor tool.",
+      "language": "Go",
+      "stars": 5045,
+      "forks": 473,
+      "stars_today": "29 stars today",
+      "built_by": [
+        "Akizon77",
+        "github-actions",
+        "airium",
+        "mogumc",
+        "imlonghao"
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "google/osv-scanner",
+      "url": "https://github.com/google/osv-scanner",
+      "description": "Vulnerability scanner written in Go which uses the data provided by https://osv.dev",
+      "language": "Go",
+      "stars": 10543,
+      "forks": 727,
+      "stars_today": "7 stars today",
+      "built_by": [
+        "another-rex",
+        "G-Rath",
+        "renovate-bot",
+        "cuixq",
+        "osv-robot"
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "nezhahq/nezha",
+      "url": "https://github.com/nezhahq/nezha",
+      "description": "Self-hosted, lightweight server and website monitoring and O&M tool",
+      "language": "Go",
+      "stars": 10173,
+      "forks": 1608,
+      "stars_today": "5 stars today",
+      "built_by": [
+        "naiba",
+        "uubulb",
+        "github-actions",
+        "AkkiaS7",
+        "matchch"
+      ]
+    },
+    {
+      "rank": 15,
+      "name": "keploy/keploy",
+      "url": "https://github.com/keploy/keploy",
+      "description": "Open-source platform for creating safe, isolated production sandboxes for API, integration, and E2E testing.",
+      "language": "Go",
+      "stars": 17630,
+      "forks": 2243,
+      "stars_today": "5 stars today",
+      "built_by": [
+        "slayerjain",
+        "gouravkrosx",
+        "shivamsouravjha",
+        "re-Tick",
+        "Sarthak160"
+      ]
+    },
+    {
+      "rank": 16,
+      "name": "Velocidex/velociraptor",
+      "url": "https://github.com/Velocidex/velociraptor",
+      "description": "Digging Deeper....",
+      "language": "Go",
+      "stars": 4028,
+      "forks": 623,
+      "stars_today": "3 stars today",
+      "built_by": [
+        "scudette",
+        "mgreen27",
+        "snyk-bot",
+        "dependabot",
+        "predictiple"
+      ]
+    },
+    {
+      "rank": 17,
+      "name": "getlago/lago",
+      "url": "https://github.com/getlago/lago",
+      "description": "Open Source Metering and Usage Based Billing API ⭐️ Consumption tracking, Subscription management, Pricing iterations, Payment orchestration & Revenue analytics",
+      "language": "Go",
+      "stars": 10012,
+      "forks": 672,
+      "stars_today": "31 stars today",
+      "built_by": [
+        "jdenquin",
+        "vincent-pochet",
+        "rsempe",
+        "groyoh",
+        "IxDay"
+      ]
+    },
+    {
+      "rank": 18,
+      "name": "charmbracelet/glamour",
+      "url": "https://github.com/charmbracelet/glamour",
+      "description": "Stylesheet-based markdown rendering for your CLI apps 💇🏻‍♀️",
+      "language": "Go",
+      "stars": 3557,
+      "forks": 294,
+      "stars_today": "6 stars today",
+      "built_by": [
+        "muesli",
+        "dependabot",
+        "andreynering",
+        "meowgorithm",
+        "aymanbagabas"
+      ]
+    },
+    {
+      "rank": 19,
+      "name": "xvzc/spoofdpi",
+      "url": "https://github.com/xvzc/spoofdpi",
+      "description": "Simple and fast anti-censorship tool written in Go",
+      "language": "Go",
+      "stars": 4785,
+      "forks": 323,
+      "stars_today": "35 stars today",
+      "built_by": [
+        "xvzc",
+        "github-actions",
+        "LiquidTheDangerous",
+        "Ledorub",
+        "gohoski"
+      ]
+    },
+    {
+      "rank": 20,
+      "name": "cilium/cilium",
+      "url": "https://github.com/cilium/cilium",
+      "description": "eBPF-based Networking, Security, and Observability",
+      "language": "Go",
+      "stars": 24540,
+      "forks": 3840,
+      "stars_today": "7 stars today",
+      "built_by": [
+        "aanm",
+        "tgraf",
+        "joestringer",
+        "tklauser",
+        "jrajahalme"
+      ]
+    },
+    {
+      "rank": 21,
+      "name": "go-git/go-git",
+      "url": "https://github.com/go-git/go-git",
+      "description": "A highly extensible Git implementation in pure Go.",
+      "language": "Go",
+      "stars": 7566,
+      "forks": 962,
+      "stars_today": "4 stars today",
+      "built_by": [
+        "pjbgf",
+        "mcuadros",
+        "aymanbagabas",
+        "smola",
+        "hiddeco"
+      ]
+    }
+  ]
+}
