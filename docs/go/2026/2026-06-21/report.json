@@ -1,0 +1,421 @@
+{
+  "metadata": {
+    "date": "2026-06-21",
+    "language": "go",
+    "total_repositories": 24,
+    "total_stars": 577879,
+    "total_forks": 89270,
+    "generated_by": "GitHub Trending Scraper",
+    "format_version": "1.0"
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "cilium/cilium",
+      "url": "https://github.com/cilium/cilium",
+      "description": "eBPF-based Networking, Security, and Observability",
+      "language": "Go",
+      "stars": 24558,
+      "forks": 3841,
+      "stars_today": "10 stars today",
+      "built_by": [
+        "aanm",
+        "tgraf",
+        "joestringer",
+        "tklauser",
+        "jrajahalme"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "weaviate/weaviate",
+      "url": "https://github.com/weaviate/weaviate",
+      "description": "Weaviate is an open-source vector database that stores both objects and vectors, allowing for the combination of vector search with structured filtering with the fault tolerance and scalability of a cloud-native database​.",
+      "language": "Go",
+      "stars": 16381,
+      "forks": 1314,
+      "stars_today": "17 stars today",
+      "built_by": [
+        "antas-marcin",
+        "etiennedi",
+        "dirkkul",
+        "moogacs",
+        "bobvanluijt"
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "github/gh-aw",
+      "url": "https://github.com/github/gh-aw",
+      "description": "GitHub Agentic Workflows",
+      "language": "Go",
+      "stars": 4653,
+      "forks": 429,
+      "stars_today": "3 stars today",
+      "built_by": [
+        "Copilot",
+        "pelikhan",
+        "github-actions",
+        "dsyme",
+        "mnkiefer"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "krillinai/KrillinAI",
+      "url": "https://github.com/krillinai/KrillinAI",
+      "description": "AI video translation & dubbing tool for humans and AI Agents, powered by LLMs. Full pipeline: download, transcribe, translate, TTS dub, reformat, cover generation. 100+ languages, optimized for YouTube, TikTok, Bilibili, Douyin, and more.AI视频翻译配音工具，面向人类与AI Agent，100+语言全链路，CLI分阶段调用，适配抖音、小红书、哔哩哔哩、视频号、TikTok、YouTube",
+      "language": "Go",
+      "stars": 10356,
+      "forks": 965,
+      "stars_today": "14 stars today",
+      "built_by": [
+        "maranello-o",
+        "wulien",
+        "puji4810",
+        "krillinai",
+        "PairZhu"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "asheshgoplani/agent-deck",
+      "url": "https://github.com/asheshgoplani/agent-deck",
+      "description": "Terminal session manager for AI coding agents. One TUI for Claude, Gemini, OpenCode, Codex, and more.",
+      "language": "Go",
+      "stars": 312,
+      "forks": 33,
+      "stars_today": "65 stars today",
+      "built_by": [
+        "asheshgoplani",
+        "claude",
+        "johnuopini",
+        "seanyoungberg",
+        "BestSithInEU"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "argoproj/argo-cd",
+      "url": "https://github.com/argoproj/argo-cd",
+      "description": "Declarative Continuous Deployment for Kubernetes",
+      "language": "Go",
+      "stars": 23192,
+      "forks": 7350,
+      "stars_today": "11 stars today",
+      "built_by": [
+        "dependabot",
+        "alexmt",
+        "crenshaw-dev",
+        "jannfis",
+        "jessesuen"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "netbirdio/netbird",
+      "url": "https://github.com/netbirdio/netbird",
+      "description": "Connect your devices into a secure WireGuard®-based overlay network with SSO, MFA and granular access controls.",
+      "language": "Go",
+      "stars": 26122,
+      "forks": 1424,
+      "stars_today": "31 stars today",
+      "built_by": [
+        "mlsmaycon",
+        "pascal-fischer",
+        "lixmal",
+        "braginini",
+        "pappz"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "bluenviron/mediamtx",
+      "url": "https://github.com/bluenviron/mediamtx",
+      "description": "Ready-to-use Media-over-QUIC / SRT / WebRTC / RTSP / RTMP / LL-HLS / MPEG-TS / RTP live media server and media proxy that allows to read, publish, proxy, record and playback real-time video and audio streams.",
+      "language": "Go",
+      "stars": 19190,
+      "forks": 2267,
+      "stars_today": "14 stars today",
+      "built_by": [
+        "aler9",
+        "dependabot",
+        "bluenviron-bot",
+        "github-actions",
+        "tmatth"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "Billionmail/BillionMail",
+      "url": "https://github.com/Billionmail/BillionMail",
+      "description": "BillionMail gives you open-source MailServer, NewsLetter, Email Marketing — fully self-hosted, dev-friendly, and free from monthly fees. Join the discord: https://discord.gg/asfXzBUhZr",
+      "language": "Go",
+      "stars": 15180,
+      "forks": 1627,
+      "stars_today": "4 stars today",
+      "built_by": [
+        "lotkmm",
+        "aaPanel",
+        "dreambladeflag",
+        "xiemoumou",
+        "claude"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "aquasecurity/trivy",
+      "url": "https://github.com/aquasecurity/trivy",
+      "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
+      "language": "Go",
+      "stars": 36506,
+      "forks": 480,
+      "stars_today": "8 stars today",
+      "built_by": [
+        "knqyf263",
+        "DmitriyLewen",
+        "dependabot",
+        "nikpivkin",
+        "simar7"
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "Jguer/yay",
+      "url": "https://github.com/Jguer/yay",
+      "description": "Yet another Yogurt - An AUR Helper written in Go",
+      "language": "Go",
+      "stars": 13584,
+      "forks": 408,
+      "stars_today": "13 stars today",
+      "built_by": [
+        "Jguer",
+        "Morganamilo",
+        "transifex-integration",
+        "dependabot",
+        "jdholtz"
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "yorukot/superfile",
+      "url": "https://github.com/yorukot/superfile",
+      "description": "Pretty fancy and modern terminal file manager",
+      "language": "Go",
+      "stars": 17561,
+      "forks": 468,
+      "stars_today": "9 stars today",
+      "built_by": [
+        "yorukot",
+        "lazysegtree",
+        "renovate",
+        "nonepork",
+        "AnshumanNeon"
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "evcc-io/evcc",
+      "url": "https://github.com/evcc-io/evcc",
+      "description": "solar charging ☀️🚘",
+      "language": "Go",
+      "stars": 6842,
+      "forks": 1372,
+      "stars_today": "3 stars today",
+      "built_by": [
+        "andig",
+        "naltatis",
+        "premultiply",
+        "weblate",
+        "DerAndereAndi"
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "BishopFox/cloudfox",
+      "url": "https://github.com/BishopFox/cloudfox",
+      "description": "Automating situational awareness for cloud penetration tests.",
+      "language": "Go",
+      "stars": 2498,
+      "forks": 243,
+      "stars_today": "12 stars today",
+      "built_by": [
+        "sethsec-bf",
+        "carlosvendramini-bf",
+        "jbarciabf",
+        "sethsec",
+        "edops973"
+      ]
+    },
+    {
+      "rank": 15,
+      "name": "opentofu/opentofu",
+      "url": "https://github.com/opentofu/opentofu",
+      "description": "OpenTofu lets you declaratively manage your cloud infrastructure.",
+      "language": "Go",
+      "stars": 29119,
+      "forks": 1277,
+      "stars_today": "12 stars today",
+      "built_by": [
+        "apparentlymart",
+        "cam72cam",
+        "yottta",
+        "Yantrio",
+        "diofeher"
+      ]
+    },
+    {
+      "rank": 16,
+      "name": "hashicorp/terraform-provider-azurerm",
+      "url": "https://github.com/hashicorp/terraform-provider-azurerm",
+      "description": "Terraform provider for Azure Resource Manager",
+      "language": "Go",
+      "stars": 4949,
+      "forks": 5003,
+      "stars_today": "0 stars today",
+      "built_by": [
+        "tombuildsstuff",
+        "katbyte",
+        "mbfrahry",
+        "jackofallops",
+        "stephybun"
+      ]
+    },
+    {
+      "rank": 17,
+      "name": "syncthing/syncthing",
+      "url": "https://github.com/syncthing/syncthing",
+      "description": "Open Source Continuous File Synchronization",
+      "language": "Go",
+      "stars": 85583,
+      "forks": 5279,
+      "stars_today": "40 stars today",
+      "built_by": [
+        "calmh",
+        "AudriusButkevicius",
+        "imsodin",
+        "st-release",
+        "tomasz1986"
+      ]
+    },
+    {
+      "rank": 18,
+      "name": "microsoft/typescript-go",
+      "url": "https://github.com/microsoft/typescript-go",
+      "description": "Staging repo for development of native port of TypeScript",
+      "language": "Go",
+      "stars": 25695,
+      "forks": 1007,
+      "stars_today": "6 stars today",
+      "built_by": [
+        "jakebailey",
+        "Copilot",
+        "ahejlsberg",
+        "andrewbranch",
+        "Andarist"
+      ]
+    },
+    {
+      "rank": 19,
+      "name": "everywall/ladder",
+      "url": "https://github.com/everywall/ladder",
+      "description": "Selfhosted alternative to 12ft.io. and 1ft.io. Proxy to remove CORS headers and modify HTML",
+      "language": "Go",
+      "stars": 8380,
+      "forks": 481,
+      "stars_today": "244 stars today",
+      "built_by": [
+        "mms-gianni",
+        "joncrangle",
+        "deoxykev",
+        "boomam",
+        "dependabot"
+      ]
+    },
+    {
+      "rank": 20,
+      "name": "Agent-Field/agentfield",
+      "url": "https://github.com/Agent-Field/agentfield",
+      "description": "Build, run and scale AI agents like API and microservices - observable,auditable and identity-aware from day one.",
+      "language": "Go",
+      "stars": 2201,
+      "forks": 357,
+      "stars_today": "11 stars today",
+      "built_by": [
+        "santoshkumarradha",
+        "AbirAbbas",
+        "github-actions",
+        "claude",
+        "dependabot"
+      ]
+    },
+    {
+      "rank": 21,
+      "name": "XTLS/Xray-core",
+      "url": "https://github.com/XTLS/Xray-core",
+      "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
+      "language": "Go",
+      "stars": 39725,
+      "forks": 5508,
+      "stars_today": "26 stars today",
+      "built_by": [
+        "RPRX",
+        "dependabot",
+        "yuhan6665",
+        "Fangliding",
+        "LjhAUMEM"
+      ]
+    },
+    {
+      "rank": 22,
+      "name": "kubernetes/kubernetes",
+      "url": "https://github.com/kubernetes/kubernetes",
+      "description": "Production-Grade Container Scheduling and Management",
+      "language": "Go",
+      "stars": 123143,
+      "forks": 43258,
+      "stars_today": "24 stars today",
+      "built_by": [
+        "k8s-ci-robot",
+        "liggitt",
+        "thockin",
+        "wojtek-t",
+        "brendandburns"
+      ]
+    },
+    {
+      "rank": 23,
+      "name": "containerd/containerd",
+      "url": "https://github.com/containerd/containerd",
+      "description": "An open and reliable container runtime",
+      "language": "Go",
+      "stars": 20848,
+      "forks": 3976,
+      "stars_today": "4 stars today",
+      "built_by": [
+        "dmcgowan",
+        "crosbymichael",
+        "estesp",
+        "Random-Liu",
+        "AkihiroSuda"
+      ]
+    },
+    {
+      "rank": 24,
+      "name": "lima-vm/lima",
+      "url": "https://github.com/lima-vm/lima",
+      "description": "Linux virtual machines, with a focus on running containers",
+      "language": "Go",
+      "stars": 21301,
+      "forks": 903,
+      "stars_today": "8 stars today",
+      "built_by": [
+        "AkihiroSuda",
+        "jandubois",
+        "dependabot",
+        "afbjorklund",
+        "norio-nomura"
+      ]
+    }
+  ]
+}
