@@ -1,0 +1,353 @@
+{
+  "metadata": {
+    "date": "2026-06-22",
+    "language": "go",
+    "total_repositories": 20,
+    "total_stars": 595239,
+    "total_forks": 80555,
+    "generated_by": "GitHub Trending Scraper",
+    "format_version": "1.0"
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "sartoopjj/thefeed",
+      "url": "https://github.com/sartoopjj/thefeed",
+      "description": "DNS-based feed reader and lite messenger for environments where only DNS queries work. Read Telegram channels and public X accounts, and exchange end-to-end-encrypted messages with other users — all over DNS.",
+      "language": "Go",
+      "stars": 1333,
+      "forks": 82,
+      "stars_today": "143 stars today",
+      "built_by": [
+        "sartoopjj",
+        "Danialsamadi",
+        "sepehr-alipour",
+        "ChosoMeister",
+        "claude"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "everywall/ladder",
+      "url": "https://github.com/everywall/ladder",
+      "description": "Selfhosted alternative to 12ft.io. and 1ft.io. Proxy to remove CORS headers and modify HTML",
+      "language": "Go",
+      "stars": 8448,
+      "forks": 485,
+      "stars_today": "134 stars today",
+      "built_by": [
+        "mms-gianni",
+        "joncrangle",
+        "deoxykev",
+        "boomam",
+        "dependabot"
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "dapr/dapr",
+      "url": "https://github.com/dapr/dapr",
+      "description": "Dapr is a portable runtime for building distributed applications across cloud and edge, combining event-driven architecture with workflow orchestration.",
+      "language": "Go",
+      "stars": 25848,
+      "forks": 2089,
+      "stars_today": "2 stars today",
+      "built_by": [
+        "yaron2",
+        "JoshVanL",
+        "artursouza",
+        "dapr-bot",
+        "ItalyPaleAle"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "tailscale/tailscale",
+      "url": "https://github.com/tailscale/tailscale",
+      "description": "The easiest, most secure way to use WireGuard and 2FA.",
+      "language": "Go",
+      "stars": 32755,
+      "forks": 2672,
+      "stars_today": "35 stars today",
+      "built_by": [
+        "bradfitz",
+        "danderson",
+        "josharian",
+        "raggi",
+        "andrew-d"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "Armur-Ai/Pentest-Swarm-AI",
+      "url": "https://github.com/Armur-Ai/Pentest-Swarm-AI",
+      "description": "Autonomous penetration testing using a swarm of AI agents. Orchestrates recon, classification, exploitation, and reporting specialists with ReAct reasoning — supports bug bounty, continuous monitoring, and CTF modes. Built with Go, Claude API, and 7+ native security tools.",
+      "language": "Go",
+      "stars": 1898,
+      "forks": 378,
+      "stars_today": "22 stars today",
+      "built_by": [
+        "AkhilSharma90",
+        "Kuro0911",
+        "claude",
+        "siwacarn",
+        "akhilairi"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "google/cadvisor",
+      "url": "https://github.com/google/cadvisor",
+      "description": "Analyzes resource usage and performance characteristics of running containers.",
+      "language": "Go",
+      "stars": 19219,
+      "forks": 2473,
+      "stars_today": "4 stars today",
+      "built_by": [
+        "vmarmol",
+        "dashpole",
+        "rjnagal",
+        "vishh",
+        "monnand"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "Agent-Field/agentfield",
+      "url": "https://github.com/Agent-Field/agentfield",
+      "description": "Build, run and scale AI agents like API and microservices - observable,auditable and identity-aware from day one.",
+      "language": "Go",
+      "stars": 2214,
+      "forks": 359,
+      "stars_today": "15 stars today",
+      "built_by": [
+        "santoshkumarradha",
+        "AbirAbbas",
+        "github-actions",
+        "claude",
+        "dependabot"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "netbirdio/netbird",
+      "url": "https://github.com/netbirdio/netbird",
+      "description": "Connect your devices into a secure WireGuard®-based overlay network with SSO, MFA and granular access controls.",
+      "language": "Go",
+      "stars": 26145,
+      "forks": 1427,
+      "stars_today": "28 stars today",
+      "built_by": [
+        "mlsmaycon",
+        "pascal-fischer",
+        "lixmal",
+        "braginini",
+        "pappz"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "seaweedfs/seaweedfs",
+      "url": "https://github.com/seaweedfs/seaweedfs",
+      "description": "SeaweedFS is a distributed storage system for object storage (S3), file systems, and Iceberg tables, designed to handle billions of files with O(1) disk access and effortless horizontal scaling.",
+      "language": "Go",
+      "stars": 33058,
+      "forks": 2857,
+      "stars_today": "14 stars today",
+      "built_by": [
+        "chrislusf",
+        "dependabot",
+        "kmlebedev",
+        "chrisluuber",
+        "gemini-code-assist"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "maximhq/bifrost",
+      "url": "https://github.com/maximhq/bifrost",
+      "description": "Fastest enterprise AI gateway (50x faster than LiteLLM) with adaptive load balancer, cluster mode, guardrails, 1000+ models support & <100 µs overhead at 5k RPS.",
+      "language": "Go",
+      "stars": 5942,
+      "forks": 791,
+      "stars_today": "16 stars today",
+      "built_by": [
+        "akshaydeo",
+        "github-actions",
+        "Pratham-Mishra04",
+        "impoiler",
+        "TejasGhatte"
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "kubernetes/kubernetes",
+      "url": "https://github.com/kubernetes/kubernetes",
+      "description": "Production-Grade Container Scheduling and Management",
+      "language": "Go",
+      "stars": 123182,
+      "forks": 43268,
+      "stars_today": "28 stars today",
+      "built_by": [
+        "k8s-ci-robot",
+        "liggitt",
+        "thockin",
+        "wojtek-t",
+        "brendandburns"
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "mayswind/ezbookkeeping",
+      "url": "https://github.com/mayswind/ezbookkeeping",
+      "description": "A lightweight, self-hosted personal finance app with a user-friendly interface and powerful bookkeeping features.",
+      "language": "Go",
+      "stars": 5095,
+      "forks": 572,
+      "stars_today": "7 stars today",
+      "built_by": [
+        "mayswind",
+        "tkymmm",
+        "abrugues",
+        "Miguelonlonlon",
+        "nktlitvinenko"
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "weaviate/weaviate",
+      "url": "https://github.com/weaviate/weaviate",
+      "description": "Weaviate is an open-source vector database that stores both objects and vectors, allowing for the combination of vector search with structured filtering with the fault tolerance and scalability of a cloud-native database​.",
+      "language": "Go",
+      "stars": 16391,
+      "forks": 1315,
+      "stars_today": "10 stars today",
+      "built_by": [
+        "antas-marcin",
+        "etiennedi",
+        "dirkkul",
+        "moogacs",
+        "bobvanluijt"
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "charmbracelet/crush",
+      "url": "https://github.com/charmbracelet/crush",
+      "description": "Glamourous agentic coding for all 💘",
+      "language": "Go",
+      "stars": 25563,
+      "forks": 1860,
+      "stars_today": "34 stars today",
+      "built_by": [
+        "kujtimiihoxha",
+        "andreynering",
+        "meowgorithm",
+        "aymanbagabas",
+        "caarlos0"
+      ]
+    },
+    {
+      "rank": 15,
+      "name": "keploy/keploy",
+      "url": "https://github.com/keploy/keploy",
+      "description": "Open-source platform for creating safe, isolated production sandboxes for API, integration, and E2E testing.",
+      "language": "Go",
+      "stars": 17710,
+      "forks": 2249,
+      "stars_today": "34 stars today",
+      "built_by": [
+        "slayerjain",
+        "gouravkrosx",
+        "shivamsouravjha",
+        "re-Tick",
+        "Sarthak160"
+      ]
+    },
+    {
+      "rank": 16,
+      "name": "avelino/awesome-go",
+      "url": "https://github.com/avelino/awesome-go",
+      "description": "A curated list of awesome Go frameworks, libraries and software",
+      "language": "Go",
+      "stars": 176064,
+      "forks": 13336,
+      "stars_today": "88 stars today",
+      "built_by": [
+        "avelino",
+        "mholt",
+        "kirillDanshin",
+        "dmitshur",
+        "kazhuravlev"
+      ]
+    },
+    {
+      "rank": 17,
+      "name": "smtg-ai/claude-squad",
+      "url": "https://github.com/smtg-ai/claude-squad",
+      "description": "Manage multiple AI terminal agents like Claude Code, Codex, OpenCode, and Amp.",
+      "language": "Go",
+      "stars": 7874,
+      "forks": 563,
+      "stars_today": "15 stars today",
+      "built_by": [
+        "mufeez-amjad",
+        "jayshrivastava",
+        "claude",
+        "neokim",
+        "jennings"
+      ]
+    },
+    {
+      "rank": 18,
+      "name": "AdguardTeam/AdGuardHome",
+      "url": "https://github.com/AdguardTeam/AdGuardHome",
+      "description": "Network-wide ads & trackers blocking DNS server",
+      "language": "Go",
+      "stars": 35022,
+      "forks": 2402,
+      "stars_today": "26 stars today",
+      "built_by": [
+        "ainar-g",
+        "szolin",
+        "IldarKamalov",
+        "ameshkov",
+        "EugeneOne1"
+      ]
+    },
+    {
+      "rank": 19,
+      "name": "charmbracelet/glow",
+      "url": "https://github.com/charmbracelet/glow",
+      "description": "Render markdown on the CLI, with pizzazz! 💅🏻",
+      "language": "Go",
+      "stars": 25940,
+      "forks": 709,
+      "stars_today": "13 stars today",
+      "built_by": [
+        "meowgorithm",
+        "muesli",
+        "dependabot",
+        "caarlos0",
+        "penguwin"
+      ]
+    },
+    {
+      "rank": 20,
+      "name": "ossf/scorecard",
+      "url": "https://github.com/ossf/scorecard",
+      "description": "OpenSSF Scorecard - Security health metrics for Open Source",
+      "language": "Go",
+      "stars": 5538,
+      "forks": 668,
+      "stars_today": "3 stars today",
+      "built_by": [
+        "dependabot",
+        "naveensrinivasan",
+        "azeemshaikh38",
+        "spencerschrock",
+        "laurentsimon"
+      ]
+    }
+  ]
+}
