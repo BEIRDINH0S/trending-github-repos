@@ -1,0 +1,414 @@
+{
+  "metadata": {
+    "date": "2026-06-24",
+    "language": "go",
+    "total_repositories": 24,
+    "total_stars": 689393,
+    "total_forks": 77733,
+    "generated_by": "GitHub Trending Scraper",
+    "format_version": "1.0"
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "Tencent/WeKnora",
+      "url": "https://github.com/Tencent/WeKnora",
+      "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+      "language": "Go",
+      "stars": 17096,
+      "forks": 2227,
+      "stars_today": "254 stars today",
+      "built_by": [
+        "lyingbug",
+        "voidkey",
+        "begoniezhao",
+        "claude",
+        "dependabot"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "aquasecurity/trivy",
+      "url": "https://github.com/aquasecurity/trivy",
+      "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
+      "language": "Go",
+      "stars": 36560,
+      "forks": 490,
+      "stars_today": "21 stars today",
+      "built_by": [
+        "knqyf263",
+        "DmitriyLewen",
+        "dependabot",
+        "nikpivkin",
+        "simar7"
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "syncthing/syncthing",
+      "url": "https://github.com/syncthing/syncthing",
+      "description": "Open Source Continuous File Synchronization",
+      "language": "Go",
+      "stars": 85736,
+      "forks": 5302,
+      "stars_today": "47 stars today",
+      "built_by": [
+        "calmh",
+        "AudriusButkevicius",
+        "imsodin",
+        "st-release",
+        "tomasz1986"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "jackc/pgx",
+      "url": "https://github.com/jackc/pgx",
+      "description": "PostgreSQL driver and toolkit for Go",
+      "language": "Go",
+      "stars": 13961,
+      "forks": 1060,
+      "stars_today": "11 stars today",
+      "built_by": [
+        "jackc",
+        "manniwood",
+        "claude",
+        "furdarius",
+        "drakkan"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "prometheus/node_exporter",
+      "url": "https://github.com/prometheus/node_exporter",
+      "description": "Exporter for machine metrics",
+      "language": "Go",
+      "stars": 13535,
+      "forks": 2672,
+      "stars_today": "5 stars today",
+      "built_by": [
+        "SuperQ",
+        "discordianfish",
+        "dependabot",
+        "grobie",
+        "juliusv"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "multica-ai/multica",
+      "url": "https://github.com/multica-ai/multica",
+      "description": "The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.",
+      "language": "Go",
+      "stars": 37729,
+      "forks": 4669,
+      "stars_today": "172 stars today",
+      "built_by": [
+        "claude",
+        "NevilleQingNY",
+        "Bohan-J",
+        "forrestchang",
+        "multica-agent"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "Armur-Ai/Pentest-Swarm-AI",
+      "url": "https://github.com/Armur-Ai/Pentest-Swarm-AI",
+      "description": "Autonomous penetration testing using a swarm of AI agents. Orchestrates recon, classification, exploitation, and reporting specialists with ReAct reasoning — supports bug bounty, continuous monitoring, and CTF modes. Built with Go, Claude API, and 7+ native security tools.",
+      "language": "Go",
+      "stars": 1942,
+      "forks": 387,
+      "stars_today": "17 stars today",
+      "built_by": [
+        "AkhilSharma90",
+        "Kuro0911",
+        "claude",
+        "siwacarn",
+        "akhilairi"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "kunchenguid/no-mistakes",
+      "url": "https://github.com/kunchenguid/no-mistakes",
+      "description": "git push no-mistakes",
+      "language": "Go",
+      "stars": 1708,
+      "forks": 121,
+      "stars_today": "90 stars today",
+      "built_by": [
+        "kunchenguid",
+        "github-actions",
+        "ghyghoo8",
+        "e-jung",
+        "luojiyin1987"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "esengine/DeepSeek-Reasonix",
+      "url": "https://github.com/esengine/DeepSeek-Reasonix",
+      "description": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
+      "language": "Go",
+      "stars": 24194,
+      "forks": 1468,
+      "stars_today": "301 stars today",
+      "built_by": [
+        "SivanCola",
+        "esengine",
+        "HUQIANTAO",
+        "cursoragent",
+        "light-front-theory"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "kubernetes-sigs/agent-sandbox",
+      "url": "https://github.com/kubernetes-sigs/agent-sandbox",
+      "description": "agent-sandbox enables easy management of isolated, stateful, singleton workloads, ideal for use cases like AI agent runtimes.",
+      "language": "Go",
+      "stars": 2966,
+      "forks": 359,
+      "stars_today": "14 stars today",
+      "built_by": [
+        "janetkuo",
+        "k8s-ci-robot",
+        "justinsb",
+        "shrutiyam-glitch",
+        "vicentefb"
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "voocel/ainovel-cli",
+      "url": "https://github.com/voocel/ainovel-cli",
+      "description": "✨多agent实现全自动AI小说生成",
+      "language": "Go",
+      "stars": 821,
+      "forks": 161,
+      "stars_today": "56 stars today",
+      "built_by": [
+        "voocel",
+        "star8521",
+        "525300887039",
+        "MaybeJustLikeThis"
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "milvus-io/milvus",
+      "url": "https://github.com/milvus-io/milvus",
+      "description": "Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search",
+      "language": "Go",
+      "stars": 44922,
+      "forks": 4088,
+      "stars_today": "27 stars today",
+      "built_by": [
+        "congqixia",
+        "JinHai-CN",
+        "bigsheeper",
+        "zhuwenxing",
+        "xiaocai2333"
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "danielmiessler/Fabric",
+      "url": "https://github.com/danielmiessler/Fabric",
+      "description": "Fabric is an open-source framework for augmenting humans using AI. It provides a modular system for solving specific problems using a crowdsourced set of AI prompts that can be used anywhere.",
+      "language": "Go",
+      "stars": 42594,
+      "forks": 4191,
+      "stars_today": "30 stars today",
+      "built_by": [
+        "danielmiessler",
+        "ksylvan",
+        "github-actions",
+        "eugeis",
+        "xssdoctor"
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "gin-gonic/gin",
+      "url": "https://github.com/gin-gonic/gin",
+      "description": "Gin is a high-performance HTTP web framework written in Go. It provides a Martini-like API but with significantly better performance—up to 40 times faster—thanks to httprouter. Gin is designed for building REST APIs, web applications, and microservices.",
+      "language": "Go",
+      "stars": 88738,
+      "forks": 8632,
+      "stars_today": "21 stars today",
+      "built_by": [
+        "manucorporat",
+        "appleboy",
+        "javierprovecho",
+        "thinkerou",
+        "dependabot"
+      ]
+    },
+    {
+      "rank": 15,
+      "name": "harness/harness",
+      "url": "https://github.com/harness/harness",
+      "description": "Harness Open Source is an end-to-end developer platform with Source Control Management, CI/CD Pipelines, Hosted Developer Environments, and Artifact Registries.",
+      "language": "Go",
+      "stars": 36950,
+      "forks": 3228,
+      "stars_today": "27 stars today",
+      "built_by": [
+        "marko-gacesa",
+        "johannesHarness",
+        "cjlee01",
+        "shivanand-harness",
+        "tan-nhu"
+      ]
+    },
+    {
+      "rank": 16,
+      "name": "argoproj/argo-cd",
+      "url": "https://github.com/argoproj/argo-cd",
+      "description": "Declarative Continuous Deployment for Kubernetes",
+      "language": "Go",
+      "stars": 23239,
+      "forks": 7362,
+      "stars_today": "21 stars today",
+      "built_by": [
+        "dependabot",
+        "alexmt",
+        "crenshaw-dev",
+        "jannfis",
+        "jessesuen"
+      ]
+    },
+    {
+      "rank": 17,
+      "name": "kunchenguid/treehouse",
+      "url": "https://github.com/kunchenguid/treehouse",
+      "description": "Manage worktrees without managing worktrees.",
+      "language": "Go",
+      "stars": 304,
+      "forks": 29,
+      "stars_today": "34 stars today",
+      "built_by": [
+        "kunchenguid",
+        "github-actions"
+      ]
+    },
+    {
+      "rank": 18,
+      "name": "guohuiyuan/go-music-dl",
+      "url": "https://github.com/guohuiyuan/go-music-dl",
+      "description": "一个基于 Go 语言的全网音乐搜索与下载工具。支持 CLI 命令行与 Web 服务双模式，内置网易云、QQ、酷狗、Bilibili、汽水音乐等 10+ 个主流平台，支持多源并发搜索与无损音质解析。music-dl交流群：1074285005",
+      "language": "Go",
+      "stars": 3329,
+      "forks": 298,
+      "stars_today": "24 stars today",
+      "built_by": [
+        "guohuiyuan",
+        "lianhong2758",
+        "nannyu"
+      ]
+    },
+    {
+      "rank": 19,
+      "name": "navidrome/navidrome",
+      "url": "https://github.com/navidrome/navidrome",
+      "description": "🎧 Your Personal Streaming Service",
+      "language": "Go",
+      "stars": 21906,
+      "forks": 1549,
+      "stars_today": "23 stars today",
+      "built_by": [
+        "deluan",
+        "dependabot",
+        "kgarner7",
+        "dependabot-preview",
+        "caiocotts"
+      ]
+    },
+    {
+      "rank": 20,
+      "name": "prometheus/prometheus",
+      "url": "https://github.com/prometheus/prometheus",
+      "description": "The Prometheus monitoring system and time series database.",
+      "language": "Go",
+      "stars": 64738,
+      "forks": 10522,
+      "stars_today": "34 stars today",
+      "built_by": [
+        "fabxc",
+        "juliusv",
+        "beorn7",
+        "bboreham",
+        "dependabot"
+      ]
+    },
+    {
+      "rank": 21,
+      "name": "hashicorp/vault",
+      "url": "https://github.com/hashicorp/vault",
+      "description": "A tool for secrets management, encryption as a service, and privileged access management",
+      "language": "Go",
+      "stars": 35820,
+      "forks": 4700,
+      "stars_today": "8 stars today",
+      "built_by": [
+        "jefferai",
+        "hc-github-team-secure-vault-core",
+        "vishalnayak",
+        "armon",
+        "ncabatoff"
+      ]
+    },
+    {
+      "rank": 22,
+      "name": "tailscale/tailscale",
+      "url": "https://github.com/tailscale/tailscale",
+      "description": "The easiest, most secure way to use WireGuard and 2FA.",
+      "language": "Go",
+      "stars": 32848,
+      "forks": 2682,
+      "stars_today": "45 stars today",
+      "built_by": [
+        "bradfitz",
+        "danderson",
+        "josharian",
+        "raggi",
+        "andrew-d"
+      ]
+    },
+    {
+      "rank": 23,
+      "name": "QuantumNous/new-api",
+      "url": "https://github.com/QuantumNous/new-api",
+      "description": "A unified AI model hub for aggregation & distribution. It supports cross-converting various LLMs into OpenAI-compatible, Claude-compatible, or Gemini-compatible formats. A centralized gateway for personal and enterprise model management. 🍥",
+      "language": "Go",
+      "stars": 39826,
+      "forks": 9098,
+      "stars_today": "128 stars today",
+      "built_by": [
+        "Calcium-Ion",
+        "seefs001",
+        "t0ng7u",
+        "songquanpeng"
+      ]
+    },
+    {
+      "rank": 24,
+      "name": "vxcontrol/pentagi",
+      "url": "https://github.com/vxcontrol/pentagi",
+      "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
+      "language": "Go",
+      "stars": 17931,
+      "forks": 2438,
+      "stars_today": "28 stars today",
+      "built_by": [
+        "sirozha",
+        "asdek",
+        "claude",
+        "mason5052",
+        "cursoragent"
+      ]
+    }
+  ]
+}
