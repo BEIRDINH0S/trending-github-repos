@@ -1,0 +1,386 @@
+{
+  "metadata": {
+    "date": "2026-06-25",
+    "language": "rust",
+    "total_repositories": 22,
+    "total_stars": 900347,
+    "total_forks": 83188,
+    "generated_by": "GitHub Trending Scraper",
+    "format_version": "1.0"
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "googleworkspace/cli",
+      "url": "https://github.com/googleworkspace/cli",
+      "description": "Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills.",
+      "language": "Rust",
+      "stars": 28405,
+      "forks": 1555,
+      "stars_today": "922 stars today",
+      "built_by": [
+        "googleworkspace-bot",
+        "jpoehnelt-bot",
+        "jpoehnelt",
+        "github-actions",
+        "malob"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "cjpais/Handy",
+      "url": "https://github.com/cjpais/Handy",
+      "description": "A free, open source, and extensible speech-to-text application that works completely offline.",
+      "language": "Rust",
+      "stars": 24841,
+      "forks": 2097,
+      "stars_today": "143 stars today",
+      "built_by": [
+        "cjpais",
+        "vladstudio",
+        "claude",
+        "VirenMohindra",
+        "xilec"
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "astral-sh/uv",
+      "url": "https://github.com/astral-sh/uv",
+      "description": "An extremely fast Python package and project manager, written in Rust.",
+      "language": "Rust",
+      "stars": 86734,
+      "forks": 3237,
+      "stars_today": "32 stars today",
+      "built_by": [
+        "charliermarsh",
+        "zanieb",
+        "konstin",
+        "renovate",
+        "BurntSushi"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "louis-e/arnis",
+      "url": "https://github.com/louis-e/arnis",
+      "description": "Generate any location from the real world in Minecraft with a high level of detail.",
+      "language": "Rust",
+      "stars": 16301,
+      "forks": 1355,
+      "stars_today": "83 stars today",
+      "built_by": [
+        "louis-e",
+        "claude",
+        "dependabot",
+        "Oleg4260",
+        "XianlinSheng"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "tursodatabase/turso",
+      "url": "https://github.com/tursodatabase/turso",
+      "description": "Turso is an in-process SQL database, compatible with SQLite.",
+      "language": "Rust",
+      "stars": 22083,
+      "forks": 1112,
+      "stars_today": "193 stars today",
+      "built_by": [
+        "penberg",
+        "jussisaurio",
+        "PThorpe92",
+        "pedrocarlo",
+        "sivukhin"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "vercel-labs/agent-browser",
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "description": "Browser automation CLI for AI agents",
+      "language": "Rust",
+      "stars": 37074,
+      "forks": 2362,
+      "stars_today": "141 stars today",
+      "built_by": [
+        "ctate",
+        "github-actions",
+        "claude",
+        "hyunjinee",
+        "jin-2-kakaoent"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "juspay/hyperswitch",
+      "url": "https://github.com/juspay/hyperswitch",
+      "description": "Open source, composable payments platform | PCI compliant | SaaS and Self-host options | Enables connectivity to multiple payment, payout, fraud, vault and tokenization providers | Uplifts authorization with intelligent routing and revenue recovery | Reduce payment processing costs with cost observability | Reduces payment ops with reconciliation",
+      "language": "Rust",
+      "stars": 43098,
+      "forks": 4870,
+      "stars_today": "52 stars today",
+      "built_by": [
+        "hyperswitch-bot",
+        "github-actions",
+        "SanchithHegde",
+        "Narayanbhat166",
+        "pixincreate"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "openai/codex",
+      "url": "https://github.com/openai/codex",
+      "description": "Lightweight coding agent that runs in your terminal",
+      "language": "Rust",
+      "stars": 93460,
+      "forks": 13816,
+      "stars_today": "349 stars today",
+      "built_by": [
+        "jif-oai",
+        "bolinfest",
+        "aibrahim-oai",
+        "pakrym-oai",
+        "etraut-openai"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "rustdesk/rustdesk",
+      "url": "https://github.com/rustdesk/rustdesk",
+      "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
+      "language": "Rust",
+      "stars": 116871,
+      "forks": 17695,
+      "stars_today": "90 stars today",
+      "built_by": [
+        "rustdesk",
+        "fufesou",
+        "21pages",
+        "Kingtous",
+        "Heap-Hop"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "rust-lang/rust",
+      "url": "https://github.com/rust-lang/rust",
+      "description": "Empowering everyone to build reliable and efficient software.",
+      "language": "Rust",
+      "stars": 114272,
+      "forks": 15007,
+      "stars_today": "101 stars today",
+      "built_by": [
+        "bors",
+        "matthiaskrgr",
+        "RalfJung",
+        "GuillaumeGomez",
+        "matklad"
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "fastrepl/anarlog",
+      "url": "https://github.com/fastrepl/anarlog",
+      "description": "Open source Granola AI Alternative",
+      "language": "TypeScript",
+      "stars": 8717,
+      "forks": 646,
+      "stars_today": "18 stars today",
+      "built_by": [
+        "yujonglee",
+        "ComputelessComputer",
+        "devin-ai-integration",
+        "duckduckhero",
+        "goranmoomin"
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "oven-sh/bun",
+      "url": "https://github.com/oven-sh/bun",
+      "description": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one",
+      "language": "Rust",
+      "stars": 93435,
+      "forks": 4734,
+      "stars_today": "34 stars today",
+      "built_by": [
+        "Jarred-Sumner",
+        "dylan-conway",
+        "robobun",
+        "autofix-ci",
+        "nektro"
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "meilisearch/meilisearch",
+      "url": "https://github.com/meilisearch/meilisearch",
+      "description": "A lightning-fast search engine API bringing AI-powered hybrid search to your sites and applications.",
+      "language": "Rust",
+      "stars": 58282,
+      "forks": 2586,
+      "stars_today": "19 stars today",
+      "built_by": [
+        "Kerollmops",
+        "dureuill",
+        "irevoire",
+        "ManyTheFish",
+        "MarinPostma"
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "TencentCloud/CubeSandbox",
+      "url": "https://github.com/TencentCloud/CubeSandbox",
+      "description": "Instant, Concurrent, Secure & Lightweight Sandbox for AI Agents.",
+      "language": "Rust",
+      "stars": 6502,
+      "forks": 530,
+      "stars_today": "31 stars today",
+      "built_by": [
+        "fslongjin",
+        "chenhengqi",
+        "ls-ggg",
+        "lisongqian",
+        "QingqLin"
+      ]
+    },
+    {
+      "rank": 15,
+      "name": "ankitects/anki",
+      "url": "https://github.com/ankitects/anki",
+      "description": "Anki is a smart spaced repetition flashcard program",
+      "language": "Rust",
+      "stars": 28759,
+      "forks": 3020,
+      "stars_today": "28 stars today",
+      "built_by": [
+        "dae",
+        "hgiesel",
+        "RumovZ",
+        "abdnh",
+        "Arthur-Milchior"
+      ]
+    },
+    {
+      "rank": 16,
+      "name": "oxc-project/oxc",
+      "url": "https://github.com/oxc-project/oxc",
+      "description": "⚓ A collection of high-performance JavaScript tools.",
+      "language": "Rust",
+      "stars": 21698,
+      "forks": 1086,
+      "stars_today": "14 stars today",
+      "built_by": [
+        "Boshen",
+        "overlookmotel",
+        "camc314",
+        "Dunqing",
+        "Sysix"
+      ]
+    },
+    {
+      "rank": 17,
+      "name": "EasyTier/EasyTier",
+      "url": "https://github.com/EasyTier/EasyTier",
+      "description": "A simple, decentralized mesh VPN with WireGuard support.",
+      "language": "Rust",
+      "stars": 12125,
+      "forks": 1196,
+      "stars_today": "20 stars today",
+      "built_by": [
+        "KKRainbow",
+        "m1m1sha",
+        "ZnqbuZ",
+        "xzzpig",
+        "fanyang89"
+      ]
+    },
+    {
+      "rank": 18,
+      "name": "astral-sh/ruff",
+      "url": "https://github.com/astral-sh/ruff",
+      "description": "An extremely fast Python linter and code formatter, written in Rust.",
+      "language": "Rust",
+      "stars": 48196,
+      "forks": 2184,
+      "stars_today": "31 stars today",
+      "built_by": [
+        "charliermarsh",
+        "MichaReiser",
+        "AlexWaygood",
+        "renovate",
+        "sharkdp"
+      ]
+    },
+    {
+      "rank": 19,
+      "name": "mmalmi/nostr-vpn",
+      "url": "https://github.com/mmalmi/nostr-vpn",
+      "description": "Pas de description",
+      "language": "Rust",
+      "stars": 1034,
+      "forks": 96,
+      "stars_today": "13 stars today",
+      "built_by": [
+        "mmalmi",
+        "claude",
+        "TheIcarusWings",
+        "lauri000"
+      ]
+    },
+    {
+      "rank": 20,
+      "name": "tinyhumansai/openhuman",
+      "url": "https://github.com/tinyhumansai/openhuman",
+      "description": "Your Personal AI super intelligence. Private, Simple and extremely powerful.",
+      "language": "Rust",
+      "stars": 32928,
+      "forks": 3199,
+      "stars_today": "69 stars today",
+      "built_by": [
+        "senamakel",
+        "claude",
+        "graycyrus",
+        "github-actions",
+        "M3gA-Mind"
+      ]
+    },
+    {
+      "rank": 21,
+      "name": "edwardkim/rhwp",
+      "url": "https://github.com/edwardkim/rhwp",
+      "description": "아래한글 hwp viewer and editor by rust and wasm",
+      "language": "Rust",
+      "stars": 3402,
+      "forks": 594,
+      "stars_today": "11 stars today",
+      "built_by": [
+        "edwardkim",
+        "claude",
+        "jangster77",
+        "planet6897",
+        "postmelee"
+      ]
+    },
+    {
+      "rank": 22,
+      "name": "git-ai-project/git-ai",
+      "url": "https://github.com/git-ai-project/git-ai",
+      "description": "A Git extension for tracking the AI-generated code in your repos",
+      "language": "Rust",
+      "stars": 2130,
+      "forks": 211,
+      "stars_today": "7 stars today",
+      "built_by": [
+        "svarlamov",
+        "claude",
+        "acunniffe",
+        "jwiegley",
+        "devin-ai-integration"
+      ]
+    }
+  ]
+}
