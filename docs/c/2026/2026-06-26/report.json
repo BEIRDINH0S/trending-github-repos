@@ -1,0 +1,404 @@
+{
+  "metadata": {
+    "date": "2026-06-26",
+    "language": "c",
+    "total_repositories": 23,
+    "total_stars": 618557,
+    "total_forks": 147153,
+    "generated_by": "GitHub Trending Scraper",
+    "format_version": "1.0"
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "microsoft/PowerToys",
+      "url": "https://github.com/microsoft/PowerToys",
+      "description": "Microsoft PowerToys is a collection of utilities that supercharge productivity and customization on Windows",
+      "language": "C",
+      "stars": 135519,
+      "forks": 8147,
+      "stars_today": "54 stars today",
+      "built_by": [
+        "crutkas",
+        "bao-qian",
+        "qianlifeng",
+        "jaimecbernardo",
+        "niels9001"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "openssl/openssl",
+      "url": "https://github.com/openssl/openssl",
+      "description": "General purpose TLS and crypto library",
+      "language": "C",
+      "stars": 30366,
+      "forks": 11338,
+      "stars_today": "11 stars today",
+      "built_by": [
+        "levitte",
+        "mattcaswell",
+        "dot-asm",
+        "paulidale",
+        "snhenson"
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "Mbed-TLS/mbedtls",
+      "url": "https://github.com/Mbed-TLS/mbedtls",
+      "description": "An open source, portable, easy to use, readable and flexible TLS library, and reference implementation of the PSA Cryptography API. Releases are on a varying cadence, typically around 3 - 6 months between releases.",
+      "language": "C",
+      "stars": 6730,
+      "forks": 2908,
+      "stars_today": "4 stars today",
+      "built_by": [
+        "gilles-peskine-arm",
+        "mpg",
+        "ronald-cron-arm",
+        "daverodgman",
+        "valeriosetti"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "curl/curl",
+      "url": "https://github.com/curl/curl",
+      "description": "A command line tool and library for transferring data with URL syntax, supporting DICT, FILE, FTP, FTPS, GOPHER, GOPHERS, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, MQTT, MQTTS, POP3, POP3S, RTSP, SCP, SFTP, SMB, SMBS, SMTP, SMTPS, TELNET, TFTP, WS and WSS. libcurl offers a myriad of powerful features",
+      "language": "C",
+      "stars": 42243,
+      "forks": 7246,
+      "stars_today": "13 stars today",
+      "built_by": [
+        "bagder",
+        "vszakats",
+        "yangtse",
+        "captain-caveman2k",
+        "dfandrich"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "FRRouting/frr",
+      "url": "https://github.com/FRRouting/frr",
+      "description": "The FRRouting Protocol Suite",
+      "language": "C",
+      "stars": 4189,
+      "forks": 1548,
+      "stars_today": "1 star today",
+      "built_by": [
+        "donaldsharp",
+        "ton31337",
+        "eqvinox",
+        "qlyoung",
+        "riw777"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "ventoy/Ventoy",
+      "url": "https://github.com/ventoy/Ventoy",
+      "description": "A new bootable USB solution.",
+      "language": "C",
+      "stars": 77438,
+      "forks": 4836,
+      "stars_today": "44 stars today",
+      "built_by": [
+        "ventoy",
+        "wiz64",
+        "VenusGirl",
+        "crasadure",
+        "AnomSanjaya"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "zephyrproject-rtos/zephyr",
+      "url": "https://github.com/zephyrproject-rtos/zephyr",
+      "description": "Primary Git Repository for the Zephyr Project. Zephyr is a new generation, scalable, optimized, secure RTOS for multiple hardware architectures.",
+      "language": "C",
+      "stars": 15719,
+      "forks": 9413,
+      "stars_today": "11 stars today",
+      "built_by": [
+        "nashif",
+        "jukkar",
+        "galak",
+        "gmarull",
+        "cvinayak"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "pbatard/rufus",
+      "url": "https://github.com/pbatard/rufus",
+      "description": "The Reliable USB Formatting Utility",
+      "language": "C",
+      "stars": 36617,
+      "forks": 3097,
+      "stars_today": "32 stars today",
+      "built_by": [
+        "pbatard",
+        "bovirus",
+        "ThiloL",
+        "MehmetaliKuran",
+        "Sopor"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "DeusData/codebase-memory-mcp",
+      "url": "https://github.com/DeusData/codebase-memory-mcp",
+      "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
+      "language": "C",
+      "stars": 14867,
+      "forks": 1094,
+      "stars_today": "703 stars today",
+      "built_by": [
+        "DeusData",
+        "claude",
+        "shanemccarron-maker",
+        "dependabot",
+        "dLo999"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "FreeRTOS/FreeRTOS",
+      "url": "https://github.com/FreeRTOS/FreeRTOS",
+      "description": "'Classic' FreeRTOS distribution. Started as Git clone of FreeRTOS SourceForge SVN repo. Submodules the kernel.",
+      "language": "C",
+      "stars": 7503,
+      "forks": 2047,
+      "stars_today": "4 stars today",
+      "built_by": [
+        "RichardBarry",
+        "aggarg",
+        "AniruddhaKanhere",
+        "chinglee-iot",
+        "paulbartell"
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "pgvector/pgvector",
+      "url": "https://github.com/pgvector/pgvector",
+      "description": "Open-source vector similarity search for Postgres",
+      "language": "C",
+      "stars": 21940,
+      "forks": 1225,
+      "stars_today": "25 stars today",
+      "built_by": [
+        "ankane",
+        "hlinnaka",
+        "jkatz",
+        "lychen0618",
+        "binarycleric"
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "FreeRTOS/FreeRTOS-Kernel",
+      "url": "https://github.com/FreeRTOS/FreeRTOS-Kernel",
+      "description": "FreeRTOS kernel files only, submoduled into https://github.com/FreeRTOS/FreeRTOS and various other repos.",
+      "language": "C",
+      "stars": 4295,
+      "forks": 1561,
+      "stars_today": "6 stars today",
+      "built_by": [
+        "RichardBarry",
+        "aggarg",
+        "kar-rahul-aws",
+        "chinglee-iot",
+        "Skptak"
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "OP-TEE/optee_os",
+      "url": "https://github.com/OP-TEE/optee_os",
+      "description": "Trusted side of the TEE",
+      "language": "C",
+      "stars": 1906,
+      "forks": 1230,
+      "stars_today": "0 stars today",
+      "built_by": [
+        "jenswikl",
+        "etienne-lms",
+        "jforissier",
+        "GseoC",
+        "ldts"
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "fluent/fluent-bit",
+      "url": "https://github.com/fluent/fluent-bit",
+      "description": "Fast and Lightweight Logs, Metrics and Traces processor for Linux, BSD, OSX and Windows",
+      "language": "C",
+      "stars": 7948,
+      "forks": 1933,
+      "stars_today": "2 stars today",
+      "built_by": [
+        "edsiper",
+        "cosmo0920",
+        "nokute78",
+        "pwhelan",
+        "leonardo-albertovich"
+      ]
+    },
+    {
+      "rank": 15,
+      "name": "php/php-src",
+      "url": "https://github.com/php/php-src",
+      "description": "The PHP Interpreter",
+      "language": "C",
+      "stars": 40205,
+      "forks": 8080,
+      "stars_today": "10 stars today",
+      "built_by": [
+        "dstogov",
+        "nikic",
+        "weltling",
+        "cmb69",
+        "laruence"
+      ]
+    },
+    {
+      "rank": 16,
+      "name": "tmux/tmux",
+      "url": "https://github.com/tmux/tmux",
+      "description": "tmux source code",
+      "language": "C",
+      "stars": 47002,
+      "forks": 2713,
+      "stars_today": "145 stars today",
+      "built_by": [
+        "nicm",
+        "ThomasAdam",
+        "tcunha",
+        "topcat001",
+        "mathstuf"
+      ]
+    },
+    {
+      "rank": 17,
+      "name": "winfsp/winfsp",
+      "url": "https://github.com/winfsp/winfsp",
+      "description": "Windows File System Proxy - FUSE for Windows",
+      "language": "C",
+      "stars": 8700,
+      "forks": 610,
+      "stars_today": "5 stars today",
+      "built_by": [
+        "billziss-gh",
+        "JohnOberschelp",
+        "FrKaram",
+        "zeho11",
+        "dworkin"
+      ]
+    },
+    {
+      "rank": 18,
+      "name": "git/git",
+      "url": "https://github.com/git/git",
+      "description": "Git Source Code Mirror - This is a publish-only repository but pull requests can be turned into patches to the mailing list via GitGitGadget (https://gitgitgadget.github.io/). Please follow Documentation/SubmittingPatches procedure for any of your improvements.",
+      "language": "C",
+      "stars": 61673,
+      "forks": 28050,
+      "stars_today": "61 stars today",
+      "built_by": [
+        "gitster",
+        "peff",
+        "dscho",
+        "pks-t",
+        "avar"
+      ]
+    },
+    {
+      "rank": 19,
+      "name": "signalwire/freeswitch",
+      "url": "https://github.com/signalwire/freeswitch",
+      "description": "FreeSWITCH is a Software Defined Telecom Stack enabling the digital transformation from proprietary telecom switches to a versatile software implementation that runs on any commodity hardware. From a Raspberry PI to a multi-core server, FreeSWITCH can unlock the telecommunications potential of any device.",
+      "language": "C",
+      "stars": 4961,
+      "forks": 1794,
+      "stars_today": "2 stars today",
+      "built_by": [
+        "anthmFS",
+        "mjerris",
+        "briankwest",
+        "andywolk",
+        "seven1240"
+      ]
+    },
+    {
+      "rank": 20,
+      "name": "apache/nuttx",
+      "url": "https://github.com/apache/nuttx",
+      "description": "Apache NuttX is a mature, real-time embedded operating system (RTOS)",
+      "language": "C",
+      "stars": 3916,
+      "forks": 1609,
+      "stars_today": "2 stars today",
+      "built_by": [
+        "gregory-nutt",
+        "xiaoxiang781216",
+        "raiden00pl",
+        "yamt",
+        "anchao"
+      ]
+    },
+    {
+      "rank": 21,
+      "name": "nrfconnect/sdk-nrf",
+      "url": "https://github.com/nrfconnect/sdk-nrf",
+      "description": "nRF Connect SDK main repository",
+      "language": "C",
+      "stars": 1356,
+      "forks": 1540,
+      "stars_today": "0 stars today",
+      "built_by": [
+        "MarekPieta",
+        "NordicBuilder",
+        "krish2718",
+        "nordic-piks",
+        "nordicjm"
+      ]
+    },
+    {
+      "rank": 22,
+      "name": "qmk/qmk_firmware",
+      "url": "https://github.com/qmk/qmk_firmware",
+      "description": "Open-source keyboard firmware for Atmel AVR and Arm USB families",
+      "language": "C",
+      "stars": 20489,
+      "forks": 44024,
+      "stars_today": "2 stars today",
+      "built_by": [
+        "qmk-bot",
+        "fauxpark",
+        "drashna",
+        "noroadsleft",
+        "zvecr"
+      ]
+    },
+    {
+      "rank": 23,
+      "name": "timescale/timescaledb",
+      "url": "https://github.com/timescale/timescaledb",
+      "description": "A time-series database for high-performance real-time analytics packaged as a Postgres extension",
+      "language": "C",
+      "stars": 22975,
+      "forks": 1110,
+      "stars_today": "10 stars today",
+      "built_by": [
+        "svenklemm",
+        "erimatnor",
+        "akuzm",
+        "cevian",
+        "mkindahl"
+      ]
+    }
+  ]
+}

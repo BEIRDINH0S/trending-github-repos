@@ -1,0 +1,370 @@
+{
+  "metadata": {
+    "date": "2026-06-26",
+    "language": "rust",
+    "total_repositories": 21,
+    "total_stars": 897710,
+    "total_forks": 88797,
+    "generated_by": "GitHub Trending Scraper",
+    "format_version": "1.0"
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "juspay/hyperswitch",
+      "url": "https://github.com/juspay/hyperswitch",
+      "description": "Open source, composable payments platform | PCI compliant | SaaS and Self-host options | Enables connectivity to multiple payment, payout, fraud, vault and tokenization providers | Uplifts authorization with intelligent routing and revenue recovery | Reduce payment processing costs with cost observability | Reduces payment ops with reconciliation",
+      "language": "Rust",
+      "stars": 43124,
+      "forks": 4893,
+      "stars_today": "44 stars today",
+      "built_by": [
+        "hyperswitch-bot",
+        "github-actions",
+        "SanchithHegde",
+        "Narayanbhat166",
+        "pixincreate"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "googleworkspace/cli",
+      "url": "https://github.com/googleworkspace/cli",
+      "description": "Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills.",
+      "language": "Rust",
+      "stars": 28713,
+      "forks": 1604,
+      "stars_today": "459 stars today",
+      "built_by": [
+        "googleworkspace-bot",
+        "jpoehnelt-bot",
+        "jpoehnelt",
+        "github-actions",
+        "malob"
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "kata-containers/kata-containers",
+      "url": "https://github.com/kata-containers/kata-containers",
+      "description": "Kata Containers is an open source project and community working to build a standard implementation of lightweight Virtual Machines (VMs) that feel and perform like containers, but provide the workload isolation and security advantages of VMs. https://katacontainers.io/",
+      "language": "Rust",
+      "stars": 8170,
+      "forks": 1372,
+      "stars_today": "12 stars today",
+      "built_by": [
+        "fidencio",
+        "GabyCT",
+        "stevenhorsman",
+        "bergwolf",
+        "Apokleos"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "denoland/deno",
+      "url": "https://github.com/denoland/deno",
+      "description": "A modern runtime for JavaScript and TypeScript.",
+      "language": "Rust",
+      "stars": 107312,
+      "forks": 6089,
+      "stars_today": "73 stars today",
+      "built_by": [
+        "bartlomieju",
+        "dsherret",
+        "ry",
+        "littledivy",
+        "nayeemrmn"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "ruffle-rs/ruffle",
+      "url": "https://github.com/ruffle-rs/ruffle",
+      "description": "A Flash Player emulator written in Rust",
+      "language": "Rust",
+      "stars": 18239,
+      "forks": 1042,
+      "stars_today": "11 stars today",
+      "built_by": [
+        "kmeisthax",
+        "Dinnerbone",
+        "kjarosh",
+        "Herschel",
+        "dependabot"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "risingwavelabs/risingwave",
+      "url": "https://github.com/risingwavelabs/risingwave",
+      "description": "Event streaming platform for agentic AI. Continuously ingest, transform, and serve event streams in real time, at scale.",
+      "language": "Rust",
+      "stars": 9110,
+      "forks": 782,
+      "stars_today": "9 stars today",
+      "built_by": [
+        "mergify",
+        "BugenZhao",
+        "xxchan",
+        "dependabot",
+        "wenym1"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "rustdesk/rustdesk",
+      "url": "https://github.com/rustdesk/rustdesk",
+      "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
+      "language": "Rust",
+      "stars": 116970,
+      "forks": 17717,
+      "stars_today": "95 stars today",
+      "built_by": [
+        "rustdesk",
+        "fufesou",
+        "21pages",
+        "Kingtous",
+        "Heap-Hop"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "astral-sh/ruff",
+      "url": "https://github.com/astral-sh/ruff",
+      "description": "An extremely fast Python linter and code formatter, written in Rust.",
+      "language": "Rust",
+      "stars": 48231,
+      "forks": 2190,
+      "stars_today": "56 stars today",
+      "built_by": [
+        "charliermarsh",
+        "MichaReiser",
+        "AlexWaygood",
+        "renovate",
+        "sharkdp"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "git-ai-project/git-ai",
+      "url": "https://github.com/git-ai-project/git-ai",
+      "description": "A Git extension for tracking the AI-generated code in your repos",
+      "language": "Rust",
+      "stars": 2151,
+      "forks": 213,
+      "stars_today": "19 stars today",
+      "built_by": [
+        "svarlamov",
+        "claude",
+        "acunniffe",
+        "jwiegley",
+        "devin-ai-integration"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "farion1231/cc-switch",
+      "url": "https://github.com/farion1231/cc-switch",
+      "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Gemini CLI & Hermes Agent. Only official website: ccswitch.io",
+      "language": "Rust",
+      "stars": 108583,
+      "forks": 7181,
+      "stars_today": "728 stars today",
+      "built_by": [
+        "farion1231",
+        "yovinchen",
+        "claude",
+        "TinsFox",
+        "makoMakoGo"
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "ClementTsang/bottom",
+      "url": "https://github.com/ClementTsang/bottom",
+      "description": "Yet another cross-platform graphical process/system monitor.",
+      "language": "Rust",
+      "stars": 13641,
+      "forks": 355,
+      "stars_today": "8 stars today",
+      "built_by": [
+        "ClementTsang",
+        "github-actions",
+        "allcontributors",
+        "ImgBotApp",
+        "jamartin9"
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "windmill-labs/windmill",
+      "url": "https://github.com/windmill-labs/windmill",
+      "description": "Open-source developer platform to power your entire infra and turn scripts into webhooks, workflows and UIs. Fastest workflow engine (13x vs Airflow). Open-source alternative to Retool and Temporal.",
+      "language": "Rust",
+      "stars": 16939,
+      "forks": 1011,
+      "stars_today": "15 stars today",
+      "built_by": [
+        "rubenfiszel",
+        "claude",
+        "hugocasa",
+        "fatonramadani",
+        "centdix"
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "wezterm/wezterm",
+      "url": "https://github.com/wezterm/wezterm",
+      "description": "A GPU-accelerated cross-platform terminal emulator and multiplexer written by @wez and implemented in Rust",
+      "language": "Rust",
+      "stars": 26921,
+      "forks": 1523,
+      "stars_today": "43 stars today",
+      "built_by": [
+        "wez",
+        "bew",
+        "tzx",
+        "chipsenkbeil",
+        "jsgf"
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "dbt-labs/dbt-core",
+      "url": "https://github.com/dbt-labs/dbt-core",
+      "description": "dbt enables data analysts and engineers to transform their data using the same practices that software engineers use to build applications.",
+      "language": "Rust",
+      "stars": 13069,
+      "forks": 2430,
+      "stars_today": "5 stars today",
+      "built_by": [
+        "drewbanin",
+        "beckjake",
+        "jtcohen6",
+        "claude",
+        "emmyoop"
+      ]
+    },
+    {
+      "rank": 15,
+      "name": "fish-shell/fish-shell",
+      "url": "https://github.com/fish-shell/fish-shell",
+      "description": "The user-friendly command line shell.",
+      "language": "Rust",
+      "stars": 33752,
+      "forks": 2313,
+      "stars_today": "14 stars today",
+      "built_by": [
+        "ridiculousfish",
+        "faho",
+        "krobelus",
+        "liljencrantz",
+        "mqudsi"
+      ]
+    },
+    {
+      "rank": 16,
+      "name": "ogulcancelik/herdr",
+      "url": "https://github.com/ogulcancelik/herdr",
+      "description": "agent multiplexer that lives in your terminal.",
+      "language": "Rust",
+      "stars": 7357,
+      "forks": 454,
+      "stars_today": "203 stars today",
+      "built_by": [
+        "ogulcancelik",
+        "github-actions",
+        "kangal-bot",
+        "Golden-Pigeon",
+        "othavi0"
+      ]
+    },
+    {
+      "rank": 17,
+      "name": "openai/codex",
+      "url": "https://github.com/openai/codex",
+      "description": "Lightweight coding agent that runs in your terminal",
+      "language": "Rust",
+      "stars": 93746,
+      "forks": 13871,
+      "stars_today": "298 stars today",
+      "built_by": [
+        "jif-oai",
+        "bolinfest",
+        "aibrahim-oai",
+        "pakrym-oai",
+        "etraut-openai"
+      ]
+    },
+    {
+      "rank": 18,
+      "name": "rust-lang/rust",
+      "url": "https://github.com/rust-lang/rust",
+      "description": "Empowering everyone to build reliable and efficient software.",
+      "language": "Rust",
+      "stars": 114177,
+      "forks": 15019,
+      "stars_today": "202 stars today",
+      "built_by": [
+        "bors",
+        "matthiaskrgr",
+        "RalfJung",
+        "GuillaumeGomez",
+        "matklad"
+      ]
+    },
+    {
+      "rank": 19,
+      "name": "vercel/turborepo",
+      "url": "https://github.com/vercel/turborepo",
+      "description": "Build system optimized for JavaScript and TypeScript, written in Rust",
+      "language": "Rust",
+      "stars": 30606,
+      "forks": 2371,
+      "stars_today": "13 stars today",
+      "built_by": [
+        "anthonyshew",
+        "sokra",
+        "chris-olszewski",
+        "tknickman",
+        "jaredpalmer"
+      ]
+    },
+    {
+      "rank": 20,
+      "name": "xingkongliang/skills-manager",
+      "url": "https://github.com/xingkongliang/skills-manager",
+      "description": "A lightweight desktop app to manage, sync, and organize AI agent skills across 15+ coding tools — Cursor, Claude Code, Codex, Copilot, and more.",
+      "language": "Rust",
+      "stars": 2506,
+      "forks": 219,
+      "stars_today": "40 stars today",
+      "built_by": [
+        "xingkongliang",
+        "claude",
+        "enshulv",
+        "whereissam",
+        "beyond-infra"
+      ]
+    },
+    {
+      "rank": 21,
+      "name": "lencx/ChatGPT",
+      "url": "https://github.com/lencx/ChatGPT",
+      "description": "🔮 ChatGPT Desktop Application (Mac, Windows and Linux)",
+      "language": "Rust",
+      "stars": 54393,
+      "forks": 6148,
+      "stars_today": "7 stars today",
+      "built_by": [
+        "lencx",
+        "tk103331",
+        "yixinBC",
+        "asheroto",
+        "djdarcy"
+      ]
+    }
+  ]
+}
