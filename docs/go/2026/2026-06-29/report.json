@@ -1,0 +1,319 @@
+{
+  "metadata": {
+    "date": "2026-06-29",
+    "language": "go",
+    "total_repositories": 18,
+    "total_stars": 308505,
+    "total_forks": 54761,
+    "generated_by": "GitHub Trending Scraper",
+    "format_version": "1.0"
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "influxdata/telegraf",
+      "url": "https://github.com/influxdata/telegraf",
+      "description": "Agent for collecting, processing, aggregating, and writing metrics, logs, and other arbitrary data.",
+      "language": "Go",
+      "stars": 17669,
+      "forks": 5824,
+      "stars_today": "8 stars today",
+      "built_by": [
+        "danielnelson",
+        "dependabot",
+        "srebhan",
+        "sparrc",
+        "powersj"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "IceWhaleTech/CasaOS",
+      "url": "https://github.com/IceWhaleTech/CasaOS",
+      "description": "CasaOS - A simple, easy-to-use, elegant open-source Personal Cloud system.",
+      "language": "Go",
+      "stars": 35983,
+      "forks": 2052,
+      "stars_today": "347 stars today",
+      "built_by": [
+        "LinkLeong",
+        "JohnGuan",
+        "tigerinus",
+        "jerrykuku",
+        "allcontributors"
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "netbirdio/netbird",
+      "url": "https://github.com/netbirdio/netbird",
+      "description": "Connect your devices into a secure WireGuard®-based overlay network with SSO, MFA and granular access controls.",
+      "language": "Go",
+      "stars": 26465,
+      "forks": 1442,
+      "stars_today": "49 stars today",
+      "built_by": [
+        "mlsmaycon",
+        "pascal-fischer",
+        "lixmal",
+        "braginini",
+        "pappz"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "workweave/router",
+      "url": "https://github.com/workweave/router",
+      "description": "Model router for agentic systems. Routes every prompt to the right model in <50ms. Cut costs 40-70% with just an endpoint change.",
+      "language": "Go",
+      "stars": 553,
+      "forks": 23,
+      "stars_today": "86 stars today",
+      "built_by": [
+        "steventohme",
+        "claude",
+        "aminsamir45",
+        "cursoragent",
+        "a-churchill"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "canopy-network/canopy",
+      "url": "https://github.com/canopy-network/canopy",
+      "description": "The official go implementation of the Canopy Network protocol",
+      "language": "Go",
+      "stars": 12363,
+      "forks": 15245,
+      "stars_today": "341 stars today",
+      "built_by": [
+        "andrewnguyen22",
+        "rem1niscence",
+        "pablocampogo",
+        "ezeike",
+        "ECHOAD"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "livekit/livekit",
+      "url": "https://github.com/livekit/livekit",
+      "description": "End-to-end realtime stack for connecting humans and AI",
+      "language": "Go",
+      "stars": 19469,
+      "forks": 2103,
+      "stars_today": "15 stars today",
+      "built_by": [
+        "boks1971",
+        "davidzhao",
+        "cnderrauber",
+        "paulwe",
+        "renovate"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "sysadminsmedia/homebox",
+      "url": "https://github.com/sysadminsmedia/homebox",
+      "description": "A continuation of HomeBox the inventory and organization system built for the Home User",
+      "language": "Go",
+      "stars": 6460,
+      "forks": 441,
+      "stars_today": "12 stars today",
+      "built_by": [
+        "weblate",
+        "tankerkiller125",
+        "hay-kot",
+        "katosdev",
+        "renovate"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "AlistGo/alist",
+      "url": "https://github.com/AlistGo/alist",
+      "description": "🗂️A file list/WebDAV program that supports multiple storages, powered by Gin and Solidjs. / 一个支持多存储的文件列表/WebDAV程序，使用 Gin 和 Solidjs。",
+      "language": "Go",
+      "stars": 49762,
+      "forks": 7944,
+      "stars_today": "13 stars today",
+      "built_by": [
+        "xhofe",
+        "renovate",
+        "okatu-loli",
+        "foxxorcat",
+        "BoYanZh"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "AgentWrapper/agent-orchestrator",
+      "url": "https://github.com/AgentWrapper/agent-orchestrator",
+      "description": "Agentic orchestrator for parallel coding agents — plans tasks, spawns agents, and autonomously handles CI fixes, merge conflicts, and code reviews.",
+      "language": "Go",
+      "stars": 7743,
+      "forks": 1081,
+      "stars_today": "34 stars today",
+      "built_by": [
+        "claude",
+        "harshitsinghbhandari",
+        "AgentWrapper",
+        "suraj-markup",
+        "ashish921998"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "lxc/incus",
+      "url": "https://github.com/lxc/incus",
+      "description": "Powerful system container and virtual machine manager",
+      "language": "Go",
+      "stars": 5624,
+      "forks": 459,
+      "stars_today": "11 stars today",
+      "built_by": [
+        "stgraber",
+        "tomponline",
+        "freeekanayaka",
+        "monstermunchkin",
+        "hallyn"
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "XIU2/CloudflareSpeedTest",
+      "url": "https://github.com/XIU2/CloudflareSpeedTest",
+      "description": "🌩「自选优选 IP」测试 Cloudflare CDN 延迟和速度，获取最快 IP ！当然也支持其他 CDN / 多个解析 IP 的网站 ~",
+      "language": "Go",
+      "stars": 27593,
+      "forks": 5233,
+      "stars_today": "23 stars today",
+      "built_by": [
+        "XIU2",
+        "seek4self",
+        "Spedoske",
+        "ipcjs",
+        "Sving1024"
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "volcano-sh/volcano",
+      "url": "https://github.com/volcano-sh/volcano",
+      "description": "A Cloud Native Batch System (Project under CNCF)",
+      "language": "Go",
+      "stars": 5721,
+      "forks": 1423,
+      "stars_today": "2 stars today",
+      "built_by": [
+        "volcano-sh-bot",
+        "k82cn",
+        "hzxuzhonghu",
+        "TommyLike",
+        "k8s-ci-robot"
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "mudler/LocalAI",
+      "url": "https://github.com/mudler/LocalAI",
+      "description": "LocalAI is the open-source AI engine. Run any model - LLMs, vision, voice, image, video - on any hardware. No GPU required.",
+      "language": "Go",
+      "stars": 47213,
+      "forks": 4182,
+      "stars_today": "23 stars today",
+      "built_by": [
+        "mudler",
+        "localai-bot",
+        "dependabot",
+        "renovate",
+        "richiejp"
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "beclab/Olares",
+      "url": "https://github.com/beclab/Olares",
+      "description": "Olares: An Open-Source Personal Cloud to Reclaim Your Data",
+      "language": "Go",
+      "stars": 4998,
+      "forks": 302,
+      "stars_today": "22 stars today",
+      "built_by": [
+        "eball",
+        "dkeven",
+        "hysyeah",
+        "Meow33",
+        "fnalways"
+      ]
+    },
+    {
+      "rank": 15,
+      "name": "Gentleman-Programming/gentle-ai",
+      "url": "https://github.com/Gentleman-Programming/gentle-ai",
+      "description": "Pas de description",
+      "language": "Go",
+      "stars": 4433,
+      "forks": 521,
+      "stars_today": "117 stars today",
+      "built_by": [
+        "Alan-TheGentleman",
+        "tonyblu331",
+        "IrrealV",
+        "claude",
+        "Tech-Codde"
+      ]
+    },
+    {
+      "rank": 16,
+      "name": "5rahim/seanime",
+      "url": "https://github.com/5rahim/seanime",
+      "description": "Open-source media server with a web interface and desktop app for anime and manga.",
+      "language": "Go",
+      "stars": 3798,
+      "forks": 275,
+      "stars_today": "14 stars today",
+      "built_by": [
+        "5rahim",
+        "kyoruno",
+        "umag",
+        "Ari-03",
+        "Viren070"
+      ]
+    },
+    {
+      "rank": 17,
+      "name": "Wei-Shaw/sub2api",
+      "url": "https://github.com/Wei-Shaw/sub2api",
+      "description": "Sub2API is an open-source relay platform that unifies Claude, OpenAI, Gemini, and Antigravity subscriptions into a single endpoint. It supports account sharing and cost-sharing, with seamless native tool compatibility.",
+      "language": "Go",
+      "stars": 29476,
+      "forks": 6012,
+      "stars_today": "100 stars today",
+      "built_by": [
+        "Wei-Shaw",
+        "IanShaw027",
+        "touwaeriol",
+        "claude",
+        "slovx2"
+      ]
+    },
+    {
+      "rank": 18,
+      "name": "PeerDB-io/peerdb",
+      "url": "https://github.com/PeerDB-io/peerdb",
+      "description": "Fast, Simple and a cost effective tool to replicate data from Postgres to Data Warehouses, Queues and Storage",
+      "language": "Go",
+      "stars": 3182,
+      "forks": 199,
+      "stars_today": "5 stars today",
+      "built_by": [
+        "serprex",
+        "Amogh-Bharadwaj",
+        "iskakaushik",
+        "heavycrystal",
+        "renovate"
+      ]
+    }
+  ]
+}
