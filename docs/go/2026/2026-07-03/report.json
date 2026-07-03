@@ -1,0 +1,336 @@
+{
+  "metadata": {
+    "date": "2026-07-03",
+    "language": "go",
+    "total_repositories": 19,
+    "total_stars": 851215,
+    "total_forks": 102817,
+    "generated_by": "GitHub Trending Scraper",
+    "format_version": "1.0"
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "gin-gonic/gin",
+      "url": "https://github.com/gin-gonic/gin",
+      "description": "Gin is a high-performance HTTP web framework written in Go. It provides a Martini-like API but with significantly better performance—up to 40 times faster—thanks to httprouter. Gin is designed for building REST APIs, web applications, and microservices.",
+      "language": "Go",
+      "stars": 88816,
+      "forks": 8648,
+      "stars_today": "22 stars today",
+      "built_by": [
+        "manucorporat",
+        "appleboy",
+        "javierprovecho",
+        "thinkerou",
+        "dependabot"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "google/adk-go",
+      "url": "https://github.com/google/adk-go",
+      "description": "An open-source, code-first Go toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.",
+      "language": "Go",
+      "stars": 8342,
+      "forks": 729,
+      "stars_today": "37 stars today",
+      "built_by": [
+        "dpasiukevich",
+        "baptmont",
+        "kdroste-google",
+        "yarolegovich",
+        "hyangah"
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "gohugoio/hugo",
+      "url": "https://github.com/gohugoio/hugo",
+      "description": "The world’s fastest framework for building websites.",
+      "language": "Go",
+      "stars": 88826,
+      "forks": 8282,
+      "stars_today": "23 stars today",
+      "built_by": [
+        "bep",
+        "dependabot",
+        "spf13",
+        "jmooring",
+        "anthonyfok"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "yorukot/superfile",
+      "url": "https://github.com/yorukot/superfile",
+      "description": "Pretty fancy and modern terminal file manager",
+      "language": "Go",
+      "stars": 18152,
+      "forks": 489,
+      "stars_today": "252 stars today",
+      "built_by": [
+        "yorukot",
+        "lazysegtree",
+        "renovate",
+        "nonepork",
+        "AnshumanNeon"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "ollama/ollama",
+      "url": "https://github.com/ollama/ollama",
+      "description": "Get up and running with Kimi-K2.6, GLM-5.1, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+      "language": "Go",
+      "stars": 175329,
+      "forks": 16803,
+      "stars_today": "86 stars today",
+      "built_by": [
+        "mxyng",
+        "jmorganca",
+        "dhiltgen",
+        "BruceMacD",
+        "jessegross"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "stretchr/testify",
+      "url": "https://github.com/stretchr/testify",
+      "description": "A toolkit with common assertions and mocks that plays nicely with the standard library",
+      "language": "Go",
+      "stars": 26056,
+      "forks": 1729,
+      "stars_today": "8 stars today",
+      "built_by": [
+        "ernesto-jimenez",
+        "dolmen",
+        "brackendawson",
+        "tylerstillwater",
+        "boyan-soubachov"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "rs/zerolog",
+      "url": "https://github.com/rs/zerolog",
+      "description": "Zero Allocation JSON Logger",
+      "language": "Go",
+      "stars": 12443,
+      "forks": 627,
+      "stars_today": "1 star today",
+      "built_by": [
+        "rs",
+        "mitar",
+        "dependabot",
+        "IDisposable",
+        "toravir"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "moby/moby",
+      "url": "https://github.com/moby/moby",
+      "description": "The Moby Project - a collaborative project for the container ecosystem to assemble container-based systems",
+      "language": "Go",
+      "stars": 71777,
+      "forks": 18975,
+      "stars_today": "20 stars today",
+      "built_by": [
+        "thaJeztah",
+        "cpuguy83",
+        "crosbymichael",
+        "vdemeester",
+        "vvoland"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "go-vikunja/vikunja",
+      "url": "https://github.com/go-vikunja/vikunja",
+      "description": "The to-do app to organize your life.",
+      "language": "Go",
+      "stars": 4644,
+      "forks": 527,
+      "stars_today": "20 stars today",
+      "built_by": [
+        "kolaente",
+        "renovate",
+        "dpschen",
+        "vikunja-bot",
+        "tink-bot"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "fatedier/frp",
+      "url": "https://github.com/fatedier/frp",
+      "description": "A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet.",
+      "language": "Go",
+      "stars": 107747,
+      "forks": 15096,
+      "stars_today": "42 stars today",
+      "built_by": [
+        "fatedier",
+        "blizard863",
+        "GuyLewin",
+        "yuyulei",
+        "maodanp"
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "gastownhall/gascity",
+      "url": "https://github.com/gastownhall/gascity",
+      "description": "Orchestration-builder SDK for multi-agent coding workflows",
+      "language": "Go",
+      "stars": 960,
+      "forks": 308,
+      "stars_today": "3 stars today",
+      "built_by": [
+        "julianknutsen",
+        "claude",
+        "quad341",
+        "sjarmak",
+        "csells"
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "samber/lo",
+      "url": "https://github.com/samber/lo",
+      "description": "💥 A Lodash-style Go library based on Go 1.18+ Generics (map, filter, contains, find...)",
+      "language": "Go",
+      "stars": 21371,
+      "forks": 942,
+      "stars_today": "3 stars today",
+      "built_by": [
+        "samber",
+        "dependabot",
+        "d-enk",
+        "NathanBaulch",
+        "CorentinClabaut"
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "avelino/awesome-go",
+      "url": "https://github.com/avelino/awesome-go",
+      "description": "A curated list of awesome Go frameworks, libraries and software",
+      "language": "Go",
+      "stars": 176996,
+      "forks": 13376,
+      "stars_today": "90 stars today",
+      "built_by": [
+        "avelino",
+        "mholt",
+        "kirillDanshin",
+        "dmitshur",
+        "kazhuravlev"
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "trpc-group/trpc-agent-go",
+      "url": "https://github.com/trpc-group/trpc-agent-go",
+      "description": "A Go framework for building production agent systems with graph workflows, tools, memory, A2A, AG-UI, MCP, evaluation, and observability.",
+      "language": "Go",
+      "stars": 1492,
+      "forks": 202,
+      "stars_today": "16 stars today",
+      "built_by": [
+        "WineChord",
+        "Rememorio",
+        "sandyskies",
+        "Flash-LHR",
+        "hyprh"
+      ]
+    },
+    {
+      "rank": 15,
+      "name": "hashicorp/terraform-provider-aws",
+      "url": "https://github.com/hashicorp/terraform-provider-aws",
+      "description": "The AWS Provider enables Terraform to manage AWS resources.",
+      "language": "Go",
+      "stars": 10968,
+      "forks": 10237,
+      "stars_today": "1 star today",
+      "built_by": [
+        "ewbankkit",
+        "YakDriver",
+        "gdavison",
+        "bflad",
+        "jar-b"
+      ]
+    },
+    {
+      "rank": 16,
+      "name": "containerd/containerd",
+      "url": "https://github.com/containerd/containerd",
+      "description": "An open and reliable container runtime",
+      "language": "Go",
+      "stars": 20912,
+      "forks": 3997,
+      "stars_today": "0 stars today",
+      "built_by": [
+        "dmcgowan",
+        "crosbymichael",
+        "estesp",
+        "Random-Liu",
+        "AkihiroSuda"
+      ]
+    },
+    {
+      "rank": 17,
+      "name": "getarcaneapp/arcane",
+      "url": "https://github.com/getarcaneapp/arcane",
+      "description": "Modern Docker Management, Designed for Everyone",
+      "language": "Go",
+      "stars": 6126,
+      "forks": 224,
+      "stars_today": "75 stars today",
+      "built_by": [
+        "kmendell",
+        "dependabot",
+        "getarcaneappbot",
+        "cabaucom376",
+        "GiulioSavini"
+      ]
+    },
+    {
+      "rank": 18,
+      "name": "kenn-io/agentsview",
+      "url": "https://github.com/kenn-io/agentsview",
+      "description": "Local-first session search, analytics, insights, and token use statistics for coding agents, supporting Claude Code, Codex, and more than 20 other agents.",
+      "language": "Go",
+      "stars": 3537,
+      "forks": 278,
+      "stars_today": "32 stars today",
+      "built_by": [
+        "wesm",
+        "claude",
+        "mariusvniekerk",
+        "rodboev",
+        "mjacobs"
+      ]
+    },
+    {
+      "rank": 19,
+      "name": "external-secrets/external-secrets",
+      "url": "https://github.com/external-secrets/external-secrets",
+      "description": "External Secrets Operator reads information from a third-party service like AWS Secrets Manager and automatically injects the values as Kubernetes Secrets.",
+      "language": "Go",
+      "stars": 6721,
+      "forks": 1348,
+      "stars_today": "1 star today",
+      "built_by": [
+        "Skarlso",
+        "dependabot",
+        "moolen",
+        "paul-the-alien",
+        "gusfcarvalho"
+      ]
+    }
+  ]
+}
