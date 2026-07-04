@@ -1,0 +1,369 @@
+{
+  "metadata": {
+    "date": "2026-07-04",
+    "language": "go",
+    "total_repositories": 21,
+    "total_stars": 827148,
+    "total_forks": 157683,
+    "generated_by": "GitHub Trending Scraper",
+    "format_version": "1.0"
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "prometheus/prometheus",
+      "url": "https://github.com/prometheus/prometheus",
+      "description": "The Prometheus monitoring system and time series database.",
+      "language": "Go",
+      "stars": 64932,
+      "forks": 10559,
+      "stars_today": "90 stars today",
+      "built_by": [
+        "fabxc",
+        "juliusv",
+        "beorn7",
+        "bboreham",
+        "dependabot"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "golang/go",
+      "url": "https://github.com/golang/go",
+      "description": "The Go programming language",
+      "language": "Go",
+      "stars": 135018,
+      "forks": 19084,
+      "stars_today": "100 stars today",
+      "built_by": [
+        "rsc",
+        "griesemer",
+        "robpike",
+        "ianlancetaylor",
+        "bradfitz"
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "hashicorp/terraform",
+      "url": "https://github.com/hashicorp/terraform",
+      "description": "Terraform enables you to safely and predictably create, change, and improve infrastructure. It is a source-available tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned.",
+      "language": "Go",
+      "stars": 48822,
+      "forks": 10386,
+      "stars_today": "55 stars today",
+      "built_by": [
+        "jbardin",
+        "mitchellh",
+        "apparentlymart",
+        "stack72",
+        "catsby"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "stretchr/testify",
+      "url": "https://github.com/stretchr/testify",
+      "description": "A toolkit with common assertions and mocks that plays nicely with the standard library",
+      "language": "Go",
+      "stars": 26058,
+      "forks": 1730,
+      "stars_today": "2 stars today",
+      "built_by": [
+        "ernesto-jimenez",
+        "dolmen",
+        "brackendawson",
+        "tylerstillwater",
+        "boyan-soubachov"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "kubernetes/kubernetes",
+      "url": "https://github.com/kubernetes/kubernetes",
+      "description": "Production-Grade Container Scheduling and Management",
+      "language": "Go",
+      "stars": 123415,
+      "forks": 43411,
+      "stars_today": "98 stars today",
+      "built_by": [
+        "k8s-ci-robot",
+        "liggitt",
+        "thockin",
+        "wojtek-t",
+        "brendandburns"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "yorukot/superfile",
+      "url": "https://github.com/yorukot/superfile",
+      "description": "Pretty fancy and modern terminal file manager",
+      "language": "Go",
+      "stars": 18302,
+      "forks": 494,
+      "stars_today": "176 stars today",
+      "built_by": [
+        "yorukot",
+        "lazysegtree",
+        "renovate",
+        "nonepork",
+        "AnshumanNeon"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "opencode-ai/opencode",
+      "url": "https://github.com/opencode-ai/opencode",
+      "description": "A powerful AI coding agent. Built for the terminal.",
+      "language": "Go",
+      "stars": 13205,
+      "forks": 1518,
+      "stars_today": "20 stars today",
+      "built_by": [
+        "kujtimiihoxha",
+        "ezynda3",
+        "rekram1-node",
+        "AvicennaJr",
+        "garrettladley"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "ethereum/go-ethereum",
+      "url": "https://github.com/ethereum/go-ethereum",
+      "description": "Go implementation of the Ethereum protocol",
+      "language": "Go",
+      "stars": 51200,
+      "forks": 21922,
+      "stars_today": "48 stars today",
+      "built_by": [
+        "obscuren",
+        "karalabe",
+        "fjl",
+        "holiman",
+        "rjl493456442"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "larksuite/cli",
+      "url": "https://github.com/larksuite/cli",
+      "description": "The official Lark/Feishu CLI tool, maintained by the larksuite team — built for humans and AI Agents. Covers core business domains including Messenger, Docs, Base, Sheets, Calendar, Mail, Tasks, Meetings, and more, with 200+ commands and 20+ AI Agent Skills.",
+      "language": "Go",
+      "stars": 15078,
+      "forks": 1043,
+      "stars_today": "47 stars today",
+      "built_by": [
+        "liangshuo-1",
+        "fangshuyu-768",
+        "evandance",
+        "wittam-01",
+        "zgz2048"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "swaggo/swag",
+      "url": "https://github.com/swaggo/swag",
+      "description": "Automatically generate RESTful API documentation with Swagger 2.0 for Go.",
+      "language": "Go",
+      "stars": 12884,
+      "forks": 1377,
+      "stars_today": "5 stars today",
+      "built_by": [
+        "easonlin404",
+        "ubogdan",
+        "sdghchj",
+        "pei0804",
+        "dependabot"
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "spf13/viper",
+      "url": "https://github.com/spf13/viper",
+      "description": "Go configuration with fangs",
+      "language": "Go",
+      "stars": 30357,
+      "forks": 2103,
+      "stars_today": "6 stars today",
+      "built_by": [
+        "sagikazarmark",
+        "dependabot",
+        "spf13",
+        "bep",
+        "spacez320"
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "projectdiscovery/nuclei",
+      "url": "https://github.com/projectdiscovery/nuclei",
+      "description": "Nuclei is a fast, customizable vulnerability scanner powered by the global security community and built on a simple YAML-based DSL, enabling collaboration to tackle trending vulnerabilities on the internet. It helps you find vulnerabilities in your applications, APIs, networks, DNS, and cloud configurations.",
+      "language": "Go",
+      "stars": 29468,
+      "forks": 3533,
+      "stars_today": "18 stars today",
+      "built_by": [
+        "Mzack9999",
+        "ehsandeep",
+        "dependabot",
+        "Ice3man543",
+        "tarunKoyalwar"
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "tailscale/tailscale",
+      "url": "https://github.com/tailscale/tailscale",
+      "description": "The easiest, most secure way to use WireGuard and 2FA.",
+      "language": "Go",
+      "stars": 33129,
+      "forks": 2714,
+      "stars_today": "43 stars today",
+      "built_by": [
+        "bradfitz",
+        "danderson",
+        "josharian",
+        "raggi",
+        "andrew-d"
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "moby/moby",
+      "url": "https://github.com/moby/moby",
+      "description": "The Moby Project - a collaborative project for the container ecosystem to assemble container-based systems",
+      "language": "Go",
+      "stars": 71779,
+      "forks": 18972,
+      "stars_today": "8 stars today",
+      "built_by": [
+        "thaJeztah",
+        "cpuguy83",
+        "crosbymichael",
+        "vdemeester",
+        "vvoland"
+      ]
+    },
+    {
+      "rank": 15,
+      "name": "google/gvisor",
+      "url": "https://github.com/google/gvisor",
+      "description": "Application Kernel for Containers",
+      "language": "Go",
+      "stars": 18664,
+      "forks": 1663,
+      "stars_today": "6 stars today",
+      "built_by": [
+        "gvisor-bot",
+        "ayushr2",
+        "avagin",
+        "fvoznika",
+        "kevinGC"
+      ]
+    },
+    {
+      "rank": 16,
+      "name": "sipeed/picoclaw",
+      "url": "https://github.com/sipeed/picoclaw",
+      "description": "Tiny, Fast, and Deployable anywhere — automate the mundane, unleash your creativity",
+      "language": "Go",
+      "stars": 29581,
+      "forks": 4266,
+      "stars_today": "20 stars today",
+      "built_by": [
+        "afjcjsbx",
+        "alexhoshina",
+        "claude",
+        "dependabot",
+        "lxowalle"
+      ]
+    },
+    {
+      "rank": 17,
+      "name": "charmbracelet/crush",
+      "url": "https://github.com/charmbracelet/crush",
+      "description": "Glamourous agentic coding for all 💘",
+      "language": "Go",
+      "stars": 26029,
+      "forks": 1906,
+      "stars_today": "43 stars today",
+      "built_by": [
+        "kujtimiihoxha",
+        "andreynering",
+        "meowgorithm",
+        "aymanbagabas",
+        "caarlos0"
+      ]
+    },
+    {
+      "rank": 18,
+      "name": "masterking32/MasterDnsVPN",
+      "url": "https://github.com/masterking32/MasterDnsVPN",
+      "description": "Advanced DNS tunneling VPN for censorship bypass, optimized beyond DNSTT and SlipStream with low-overhead ARQ, resolver load balancing, high packet-loss stability and speed.",
+      "language": "Go",
+      "stars": 6631,
+      "forks": 615,
+      "stars_today": "21 stars today",
+      "built_by": [
+        "masterking32",
+        "abolix",
+        "PentSec",
+        "MahdiMirzadeh",
+        "typerhack"
+      ]
+    },
+    {
+      "rank": 19,
+      "name": "google/adk-go",
+      "url": "https://github.com/google/adk-go",
+      "description": "An open-source, code-first Go toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.",
+      "language": "Go",
+      "stars": 8359,
+      "forks": 731,
+      "stars_today": "23 stars today",
+      "built_by": [
+        "dpasiukevich",
+        "baptmont",
+        "kdroste-google",
+        "yarolegovich",
+        "hyangah"
+      ]
+    },
+    {
+      "rank": 20,
+      "name": "juanfont/headscale",
+      "url": "https://github.com/juanfont/headscale",
+      "description": "An open source, self-hosted implementation of the Tailscale control server",
+      "language": "Go",
+      "stars": 40930,
+      "forks": 2254,
+      "stars_today": "130 stars today",
+      "built_by": [
+        "kradalby",
+        "juanfont",
+        "nblock",
+        "restanrm"
+      ]
+    },
+    {
+      "rank": 21,
+      "name": "argoproj/argo-cd",
+      "url": "https://github.com/argoproj/argo-cd",
+      "description": "Declarative Continuous Deployment for Kubernetes",
+      "language": "Go",
+      "stars": 23307,
+      "forks": 7402,
+      "stars_today": "11 stars today",
+      "built_by": [
+        "dependabot",
+        "alexmt",
+        "crenshaw-dev",
+        "jannfis",
+        "jessesuen"
+      ]
+    }
+  ]
+}
