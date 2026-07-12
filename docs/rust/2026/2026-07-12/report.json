@@ -1,0 +1,351 @@
+{
+  "metadata": {
+    "date": "2026-07-12",
+    "language": "rust",
+    "total_repositories": 20,
+    "total_stars": 637753,
+    "total_forks": 57410,
+    "generated_by": "GitHub Trending Scraper",
+    "format_version": "1.0"
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "oven-sh/bun",
+      "url": "https://github.com/oven-sh/bun",
+      "description": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one",
+      "language": "Rust",
+      "stars": 94575,
+      "forks": 4957,
+      "stars_today": "658 stars today",
+      "built_by": [
+        "Jarred-Sumner",
+        "robobun",
+        "dylan-conway",
+        "autofix-ci",
+        "nektro"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "malisper/pgrust",
+      "url": "https://github.com/malisper/pgrust",
+      "description": "Postgres rewritten in Rust, now passing 100% of the Postgres regression tests",
+      "language": "Rust",
+      "stars": 2107,
+      "forks": 51,
+      "stars_today": "774 stars today",
+      "built_by": [
+        "malisper",
+        "BookSock",
+        "claude",
+        "github-actions",
+        "detail-app"
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "NVIDIA/OpenShell",
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
+      "language": "Rust",
+      "stars": 7649,
+      "forks": 1084,
+      "stars_today": "30 stars today",
+      "built_by": [
+        "drew",
+        "johntmyers",
+        "pimlock",
+        "miyoungc",
+        "kirit93"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "biomejs/biome",
+      "url": "https://github.com/biomejs/biome",
+      "description": "A toolchain for web projects, aimed to provide functionalities to maintain them. Biome offers formatter and linter, usable via CLI and LSP.",
+      "language": "Rust",
+      "stars": 25388,
+      "forks": 1201,
+      "stars_today": "20 stars today",
+      "built_by": [
+        "ematipico",
+        "Conaclos",
+        "sebmck",
+        "renovate",
+        "dyc3"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "aaif-goose/goose",
+      "url": "https://github.com/aaif-goose/goose",
+      "description": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
+      "language": "Rust",
+      "stars": 51092,
+      "forks": 5678,
+      "stars_today": "45 stars today",
+      "built_by": [
+        "blackgirlbytes",
+        "angiejones",
+        "dianed-square",
+        "michaelneale",
+        "alexhancock"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "denoland/deno",
+      "url": "https://github.com/denoland/deno",
+      "description": "A modern runtime for JavaScript and TypeScript.",
+      "language": "Rust",
+      "stars": 107772,
+      "forks": 6280,
+      "stars_today": "43 stars today",
+      "built_by": [
+        "bartlomieju",
+        "dsherret",
+        "ry",
+        "littledivy",
+        "nayeemrmn"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "rust-lang/rust",
+      "url": "https://github.com/rust-lang/rust",
+      "description": "Empowering everyone to build reliable and efficient software.",
+      "language": "Rust",
+      "stars": 114663,
+      "forks": 15393,
+      "stars_today": "65 stars today",
+      "built_by": [
+        "bors",
+        "matthiaskrgr",
+        "RalfJung",
+        "GuillaumeGomez",
+        "matklad"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "t8y2/dbx",
+      "url": "https://github.com/t8y2/dbx",
+      "description": "20MB, lightweight, cross-platform database client. Supports MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, ClickHouse, SQL Server and more.20MB，轻量级跨平台数据库客户端、数据库管理工具。支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、DuckDB、ClickHouse、SQL Server 等。",
+      "language": "TypeScript",
+      "stars": 9746,
+      "forks": 965,
+      "stars_today": "77 stars today",
+      "built_by": [
+        "t8y2",
+        "zipg",
+        "eryajf",
+        "github-actions",
+        "Abeautifulsnow"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "swc-project/swc",
+      "url": "https://github.com/swc-project/swc",
+      "description": "Rust-based platform for the Web",
+      "language": "Rust",
+      "stars": 34244,
+      "forks": 1587,
+      "stars_today": "9 stars today",
+      "built_by": [
+        "kdy1",
+        "swc-bot",
+        "alexander-akait",
+        "magic-akari",
+        "kwonoj"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "n0-computer/iroh",
+      "url": "https://github.com/n0-computer/iroh",
+      "description": "IP addresses break, dial keys instead. A library that adds QUIC + NAT Traversal to your apps.",
+      "language": "Rust",
+      "stars": 11517,
+      "forks": 675,
+      "stars_today": "67 stars today",
+      "built_by": [
+        "dignifiedquire",
+        "flub",
+        "rklaehn",
+        "Frando",
+        "ramfox"
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "openai/codex",
+      "url": "https://github.com/openai/codex",
+      "description": "Lightweight coding agent that runs in your terminal",
+      "language": "Rust",
+      "stars": 97224,
+      "forks": 14473,
+      "stars_today": "224 stars today",
+      "built_by": [
+        "jif-oai",
+        "bolinfest",
+        "aibrahim-oai",
+        "pakrym-oai",
+        "etraut-openai"
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "junhoyeo/tokscale",
+      "url": "https://github.com/junhoyeo/tokscale",
+      "description": "🛰️ A CLI tool for tracking token usage from OpenCode, Claude Code, 🦞OpenClaw, Pi, Codex, Gemini, Cursor, AmpCode, Factory Droid, Kimi, and more! • 🏅Global Leaderboard + 2D/3D Contributions Graph",
+      "language": "Rust",
+      "stars": 4376,
+      "forks": 422,
+      "stars_today": "31 stars today",
+      "built_by": [
+        "junhoyeo",
+        "github-actions",
+        "IvGolovach",
+        "claude",
+        "cantalupo555"
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "macro-inc/macro",
+      "url": "https://github.com/macro-inc/macro",
+      "description": "Macro is a unified interface for email, messages, tasks, calls, agents, pull requests, docs, crm — linked together with shared AI memory.",
+      "language": "Rust",
+      "stars": 548,
+      "forks": 205,
+      "stars_today": "31 stars today",
+      "built_by": [
+        "whutchinson98",
+        "gbirman",
+        "synoet",
+        "sedson",
+        "evanhutnik"
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "GyulyVGC/sniffnet",
+      "url": "https://github.com/GyulyVGC/sniffnet",
+      "description": "Comfortably monitor your Internet traffic 🕵️‍♂️",
+      "language": "Rust",
+      "stars": 40078,
+      "forks": 1884,
+      "stars_today": "16 stars today",
+      "built_by": [
+        "GyulyVGC",
+        "dependabot",
+        "allcontributors",
+        "Crirock",
+        "colin99d"
+      ]
+    },
+    {
+      "rank": 15,
+      "name": "raine/workmux",
+      "url": "https://github.com/raine/workmux",
+      "description": "git worktrees + tmux windows for zero-friction parallel dev",
+      "language": "Rust",
+      "stars": 1855,
+      "forks": 264,
+      "stars_today": "9 stars today",
+      "built_by": [
+        "raine",
+        "Infonautica",
+        "rstacruz",
+        "bps",
+        "evatths"
+      ]
+    },
+    {
+      "rank": 16,
+      "name": "rolldown/rolldown",
+      "url": "https://github.com/rolldown/rolldown",
+      "description": "Fast Rust bundler for JavaScript/TypeScript with Rollup-compatible API.",
+      "language": "Rust",
+      "stars": 13926,
+      "forks": 955,
+      "stars_today": "6 stars today",
+      "built_by": [
+        "hyf0",
+        "IWANABETHATGUY",
+        "shulaoda",
+        "renovate",
+        "sapphi-red"
+      ]
+    },
+    {
+      "rank": 17,
+      "name": "ast-grep/ast-grep",
+      "url": "https://github.com/ast-grep/ast-grep",
+      "description": "⚡A CLI tool for code structural search, lint and rewriting. Written in Rust",
+      "language": "Rust",
+      "stars": 15036,
+      "forks": 411,
+      "stars_today": "16 stars today",
+      "built_by": [
+        "HerringtonDarkholme",
+        "renovate",
+        "Copilot",
+        "mohebifar",
+        "SigureMo"
+      ]
+    },
+    {
+      "rank": 18,
+      "name": "juhaku/utoipa",
+      "url": "https://github.com/juhaku/utoipa",
+      "description": "Simple, Fast, Code first and Compile time generated OpenAPI documentation for Rust",
+      "language": "Rust",
+      "stars": 4031,
+      "forks": 498,
+      "stars_today": "7 stars today",
+      "built_by": [
+        "juhaku",
+        "jayvdb",
+        "Turbo87",
+        "kellpossible",
+        "JMLX42"
+      ]
+    },
+    {
+      "rank": 19,
+      "name": "martin-olivier/airgorah",
+      "url": "https://github.com/martin-olivier/airgorah",
+      "description": "A WiFi security auditing software mainly based on aircrack-ng tools suite",
+      "language": "Rust",
+      "stars": 872,
+      "forks": 228,
+      "stars_today": "11 stars today",
+      "built_by": [
+        "dependabot",
+        "martin-olivier",
+        "m-bdf"
+      ]
+    },
+    {
+      "rank": 20,
+      "name": "LargeModGames/spotatui",
+      "url": "https://github.com/LargeModGames/spotatui",
+      "description": "A fast, standalone terminal music player in Rust: native Spotify streaming plus local, Subsonic, radio, and YouTube sources.",
+      "language": "Rust",
+      "stars": 1054,
+      "forks": 199,
+      "stars_today": "27 stars today",
+      "built_by": [
+        "LargeModGames",
+        "Rigellute",
+        "allcontributors",
+        "dependabot-preview",
+        "dependabot"
+      ]
+    }
+  ]
+}

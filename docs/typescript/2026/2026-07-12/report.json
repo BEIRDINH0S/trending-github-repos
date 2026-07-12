@@ -1,0 +1,421 @@
+{
+  "metadata": {
+    "date": "2026-07-12",
+    "language": "typescript",
+    "total_repositories": 24,
+    "total_stars": 1407611,
+    "total_forks": 187539,
+    "generated_by": "GitHub Trending Scraper",
+    "format_version": "1.0"
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "google-labs-code/stitch-skills",
+      "url": "https://github.com/google-labs-code/stitch-skills",
+      "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+      "language": "TypeScript",
+      "stars": 7091,
+      "forks": 946,
+      "stars_today": "340 stars today",
+      "built_by": [
+        "JLXIA",
+        "davideast",
+        "dalmaer",
+        "meeChn",
+        "vinothsubramanian"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "wonderwhy-er/DesktopCommanderMCP",
+      "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+      "description": "This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities",
+      "language": "TypeScript",
+      "stars": 7792,
+      "forks": 968,
+      "stars_today": "909 stars today",
+      "built_by": [
+        "wonderwhy-er",
+        "serg33v",
+        "edgarsskore",
+        "claude",
+        "dmitry-ottic-ai"
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "actions/checkout",
+      "url": "https://github.com/actions/checkout",
+      "description": "Action for checking out a repo",
+      "language": "TypeScript",
+      "stars": 8469,
+      "forks": 2713,
+      "stars_today": "8 stars today",
+      "built_by": [
+        "ericsciple",
+        "dependabot",
+        "cory-miller",
+        "jww3",
+        "thboop"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "cypress-io/cypress",
+      "url": "https://github.com/cypress-io/cypress",
+      "description": "Fast, easy and reliable testing for anything that runs in a browser.",
+      "language": "TypeScript",
+      "stars": 50633,
+      "forks": 3590,
+      "stars_today": "19 stars today",
+      "built_by": [
+        "brian-mann",
+        "chrisbreiding",
+        "jennifer-shehane",
+        "renovate-bot",
+        "flotwig"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "DayuanJiang/next-ai-draw-io",
+      "url": "https://github.com/DayuanJiang/next-ai-draw-io",
+      "description": "A next.js web application that integrates AI capabilities with draw.io diagrams. This app allows you to create, modify, and enhance diagrams through natural language commands and AI-assisted visualization.",
+      "language": "TypeScript",
+      "stars": 33312,
+      "forks": 3604,
+      "stars_today": "81 stars today",
+      "built_by": [
+        "DayuanJiang",
+        "renovate",
+        "Biki-dev",
+        "github-actions",
+        "ElshadHu"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "prisma/prisma",
+      "url": "https://github.com/prisma/prisma",
+      "description": "Next-generation ORM for Node.js & TypeScript | PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB",
+      "language": "TypeScript",
+      "stars": 47268,
+      "forks": 2472,
+      "stars_today": "37 stars today",
+      "built_by": [
+        "timsuchanek",
+        "prisma-bot",
+        "Jolg42",
+        "renovate",
+        "nikolasburk"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "nuxt/nuxt",
+      "url": "https://github.com/nuxt/nuxt",
+      "description": "the full-stack Vue framework",
+      "language": "TypeScript",
+      "stars": 60735,
+      "forks": 5840,
+      "stars_today": "16 stars today",
+      "built_by": [
+        "danielroe",
+        "renovate",
+        "pi0",
+        "renovate-bot",
+        "antfu"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "microsoft/vscode",
+      "url": "https://github.com/microsoft/vscode",
+      "description": "Visual Studio Code",
+      "language": "TypeScript",
+      "stars": 187465,
+      "forks": 41220,
+      "stars_today": "63 stars today",
+      "built_by": [
+        "jrieken",
+        "Tyriar",
+        "sandy081",
+        "joaomoreno",
+        "alexdima"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "apollographql/apollo-client",
+      "url": "https://github.com/apollographql/apollo-client",
+      "description": "The industry-leading GraphQL client for TypeScript, JavaScript, React, Vue, Angular, and more. Apollo Client delivers powerful caching, intuitive APIs, and comprehensive developer tools to accelerate your app development.",
+      "language": "TypeScript",
+      "stars": 19870,
+      "forks": 2836,
+      "stars_today": "6 stars today",
+      "built_by": [
+        "benjamn",
+        "renovate-bot",
+        "hwillson",
+        "helfer",
+        "stubailo"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "grafana/grafana",
+      "url": "https://github.com/grafana/grafana",
+      "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more.",
+      "language": "TypeScript",
+      "stars": 75545,
+      "forks": 14351,
+      "stars_today": "49 stars today",
+      "built_by": [
+        "torkelo",
+        "bergquist",
+        "renovate",
+        "ryantxu",
+        "marefr"
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "supabase/supabase",
+      "url": "https://github.com/supabase/supabase",
+      "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
+      "language": "TypeScript",
+      "stars": 106203,
+      "forks": 13197,
+      "stars_today": "74 stars today",
+      "built_by": [
+        "joshenlim",
+        "kiwicopple",
+        "MildTomato",
+        "saltcod",
+        "alaister"
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "angular/angular",
+      "url": "https://github.com/angular/angular",
+      "description": "Deliver web apps with confidence 🚀",
+      "language": "TypeScript",
+      "stars": 100621,
+      "forks": 27492,
+      "stars_today": "27 stars today",
+      "built_by": [
+        "gkalpak",
+        "petebacondarwin",
+        "devversion",
+        "crisbeto",
+        "angular-robot"
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "babel/babel",
+      "url": "https://github.com/babel/babel",
+      "description": "🐠 Babel is a compiler for writing next generation JavaScript.",
+      "language": "TypeScript",
+      "stars": 44093,
+      "forks": 5968,
+      "stars_today": "6 stars today",
+      "built_by": [
+        "sebmck",
+        "nicolo-ribaudo",
+        "hzoo",
+        "JLHwung",
+        "benjamn"
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "rowboatlabs/rowboat",
+      "url": "https://github.com/rowboatlabs/rowboat",
+      "description": "Open-source AI coworker, with memory",
+      "language": "TypeScript",
+      "stars": 16160,
+      "forks": 1606,
+      "stars_today": "112 stars today",
+      "built_by": [
+        "ramnique",
+        "arkml",
+        "akhisud3195",
+        "tusharmagar",
+        "claude"
+      ]
+    },
+    {
+      "rank": 15,
+      "name": "storybookjs/storybook",
+      "url": "https://github.com/storybookjs/storybook",
+      "description": "Storybook is the industry standard workshop for building, documenting, and testing UI components in isolation",
+      "language": "TypeScript",
+      "stars": 90662,
+      "forks": 10323,
+      "stars_today": "13 stars today",
+      "built_by": [
+        "ndelangen",
+        "shilman",
+        "valentinpalkovic",
+        "yannbf",
+        "JReinhold"
+      ]
+    },
+    {
+      "rank": 16,
+      "name": "microsoft/TypeScript",
+      "url": "https://github.com/microsoft/TypeScript",
+      "description": "TypeScript is a superset of JavaScript that compiles to clean JavaScript output.",
+      "language": "TypeScript",
+      "stars": 109858,
+      "forks": 13643,
+      "stars_today": "148 stars today",
+      "built_by": [
+        "ahejlsberg",
+        "sheetalkamat",
+        "DanielRosenwasser",
+        "sandersn",
+        "mhegazy"
+      ]
+    },
+    {
+      "rank": 17,
+      "name": "shadcn-ui/ui",
+      "url": "https://github.com/shadcn-ui/ui",
+      "description": "A set of beautifully-designed, accessible components and a code distribution platform. Works with your favorite frameworks. Open Source. Open Code.",
+      "language": "TypeScript",
+      "stars": 118855,
+      "forks": 9476,
+      "stars_today": "109 stars today",
+      "built_by": [
+        "shadcn",
+        "github-actions",
+        "dependabot",
+        "claude",
+        "kapishdima"
+      ]
+    },
+    {
+      "rank": 18,
+      "name": "nestjs/nest",
+      "url": "https://github.com/nestjs/nest",
+      "description": "A progressive Node.js framework for building efficient, scalable, and enterprise-grade server-side applications with TypeScript/JavaScript 🚀",
+      "language": "TypeScript",
+      "stars": 76231,
+      "forks": 8449,
+      "stars_today": "19 stars today",
+      "built_by": [
+        "kamilmysliwiec",
+        "dependabot",
+        "renovate-bot",
+        "renovate",
+        "micalevisk"
+      ]
+    },
+    {
+      "rank": 19,
+      "name": "ChromeDevTools/chrome-devtools-mcp",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "description": "Chrome DevTools for coding agents",
+      "language": "TypeScript",
+      "stars": 46697,
+      "forks": 3191,
+      "stars_today": "66 stars today",
+      "built_by": [
+        "OrKoN",
+        "dependabot",
+        "Lightning00Blade",
+        "browser-automation-bot",
+        "nroscino"
+      ]
+    },
+    {
+      "rank": 20,
+      "name": "stablyai/orca",
+      "url": "https://github.com/stablyai/orca",
+      "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop and mobile.",
+      "language": "TypeScript",
+      "stars": 16410,
+      "forks": 1287,
+      "stars_today": "466 stars today",
+      "built_by": [
+        "nwparker",
+        "orca-ide",
+        "AmethystLiang",
+        "Jinwoo-H",
+        "brennanb2025"
+      ]
+    },
+    {
+      "rank": 21,
+      "name": "lfnovo/open-notebook",
+      "url": "https://github.com/lfnovo/open-notebook",
+      "description": "An Open Source implementation of Notebook LM with more flexibility and features",
+      "language": "TypeScript",
+      "stars": 35477,
+      "forks": 4102,
+      "stars_today": "59 stars today",
+      "built_by": [
+        "lfnovo",
+        "dependabot",
+        "claude",
+        "kwp3",
+        "mvanhorn"
+      ]
+    },
+    {
+      "rank": 22,
+      "name": "EveryInc/compound-engineering-plugin",
+      "url": "https://github.com/EveryInc/compound-engineering-plugin",
+      "description": "Official Compound Engineering plugin for Claude Code, Codex, Cursor, and more",
+      "language": "TypeScript",
+      "stars": 23060,
+      "forks": 1850,
+      "stars_today": "45 stars today",
+      "built_by": [
+        "tmchow",
+        "claude",
+        "kieranklaassen",
+        "github-actions",
+        "mvanhorn"
+      ]
+    },
+    {
+      "rank": 23,
+      "name": "tailwindlabs/tailwindcss",
+      "url": "https://github.com/tailwindlabs/tailwindcss",
+      "description": "A utility-first CSS framework for rapid UI development.",
+      "language": "TypeScript",
+      "stars": 95946,
+      "forks": 5490,
+      "stars_today": "46 stars today",
+      "built_by": [
+        "adamwathan",
+        "RobinMalfait",
+        "depfu",
+        "thecrypticace",
+        "reinink"
+      ]
+    },
+    {
+      "rank": 24,
+      "name": "nrwl/nx",
+      "url": "https://github.com/nrwl/nx",
+      "description": "The Monorepo Platform that amplifies both developers and AI agents. Nx optimizes your builds, scales your CI, and fixes failed PRs automatically. Ship in half the time.",
+      "language": "TypeScript",
+      "stars": 29158,
+      "forks": 2925,
+      "stars_today": "9 stars today",
+      "built_by": [
+        "FrozenPandaz",
+        "vsavkin",
+        "jaysoo",
+        "leosvelperez",
+        "Coly010"
+      ]
+    }
+  ]
+}

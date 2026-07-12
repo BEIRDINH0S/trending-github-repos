@@ -1,0 +1,386 @@
+{
+  "metadata": {
+    "date": "2026-07-12",
+    "language": "go",
+    "total_repositories": 22,
+    "total_stars": 809106,
+    "total_forks": 163094,
+    "generated_by": "GitHub Trending Scraper",
+    "format_version": "1.0"
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "hashicorp/terraform",
+      "url": "https://github.com/hashicorp/terraform",
+      "description": "Terraform enables you to safely and predictably create, change, and improve infrastructure. It is a source-available tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned.",
+      "language": "Go",
+      "stars": 49379,
+      "forks": 10680,
+      "stars_today": "229 stars today",
+      "built_by": [
+        "jbardin",
+        "mitchellh",
+        "apparentlymart",
+        "stack72",
+        "catsby"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "tailscale/tailscale",
+      "url": "https://github.com/tailscale/tailscale",
+      "description": "The easiest, most secure way to use WireGuard and 2FA.",
+      "language": "Go",
+      "stars": 33841,
+      "forks": 2922,
+      "stars_today": "368 stars today",
+      "built_by": [
+        "bradfitz",
+        "danderson",
+        "josharian",
+        "raggi",
+        "andrew-d"
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "google/gvisor",
+      "url": "https://github.com/google/gvisor",
+      "description": "Application Kernel for Containers",
+      "language": "Go",
+      "stars": 18834,
+      "forks": 1823,
+      "stars_today": "20 stars today",
+      "built_by": [
+        "gvisor-bot",
+        "ayushr2",
+        "avagin",
+        "fvoznika",
+        "kevinGC"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "juanfont/headscale",
+      "url": "https://github.com/juanfont/headscale",
+      "description": "An open source, self-hosted implementation of the Tailscale control server",
+      "language": "Go",
+      "stars": 41558,
+      "forks": 2432,
+      "stars_today": "64 stars today",
+      "built_by": [
+        "kradalby",
+        "juanfont",
+        "nblock",
+        "restanrm"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "projectdiscovery/nuclei",
+      "url": "https://github.com/projectdiscovery/nuclei",
+      "description": "Nuclei is a fast, customizable vulnerability scanner powered by the global security community and built on a simple YAML-based DSL, enabling collaboration to tackle trending vulnerabilities on the internet. It helps you find vulnerabilities in your applications, APIs, networks, DNS, and cloud configurations.",
+      "language": "Go",
+      "stars": 29729,
+      "forks": 3716,
+      "stars_today": "24 stars today",
+      "built_by": [
+        "Mzack9999",
+        "ehsandeep",
+        "dependabot",
+        "Ice3man543",
+        "tarunKoyalwar"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "opencode-ai/opencode",
+      "url": "https://github.com/opencode-ai/opencode",
+      "description": "A powerful AI coding agent. Built for the terminal.",
+      "language": "Go",
+      "stars": 13422,
+      "forks": 1718,
+      "stars_today": "18 stars today",
+      "built_by": [
+        "kujtimiihoxha",
+        "ezynda3",
+        "rekram1-node",
+        "AvicennaJr",
+        "garrettladley"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "larksuite/cli",
+      "url": "https://github.com/larksuite/cli",
+      "description": "The official Lark/Feishu CLI tool, maintained by the larksuite team — built for humans and AI Agents. Covers core business domains including Messenger, Docs, Base, Sheets, Calendar, Mail, Tasks, Meetings, and more, with 200+ commands and 20+ AI Agent Skills.",
+      "language": "Go",
+      "stars": 15485,
+      "forks": 1215,
+      "stars_today": "26 stars today",
+      "built_by": [
+        "liangshuo-1",
+        "fangshuyu-768",
+        "evandance",
+        "wittam-01",
+        "zgz2048"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "golang/go",
+      "url": "https://github.com/golang/go",
+      "description": "The Go programming language",
+      "language": "Go",
+      "stars": 135355,
+      "forks": 19316,
+      "stars_today": "44 stars today",
+      "built_by": [
+        "rsc",
+        "griesemer",
+        "robpike",
+        "ianlancetaylor",
+        "bradfitz"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "argoproj/argo-cd",
+      "url": "https://github.com/argoproj/argo-cd",
+      "description": "Declarative Continuous Deployment for Kubernetes",
+      "language": "Go",
+      "stars": 23635,
+      "forks": 7608,
+      "stars_today": "27 stars today",
+      "built_by": [
+        "dependabot",
+        "alexmt",
+        "crenshaw-dev",
+        "jannfis",
+        "jessesuen"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "sundowndev/phoneinfoga",
+      "url": "https://github.com/sundowndev/phoneinfoga",
+      "description": "Information gathering framework for phone numbers",
+      "language": "Go",
+      "stars": 16945,
+      "forks": 5145,
+      "stars_today": "52 stars today",
+      "built_by": [
+        "sundowndev",
+        "renovate-bot",
+        "dependabot",
+        "RomainMaillot",
+        "d4rkc0nd0r"
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "sipeed/picoclaw",
+      "url": "https://github.com/sipeed/picoclaw",
+      "description": "Tiny, Fast, and Deployable anywhere — automate the mundane, unleash your creativity",
+      "language": "Go",
+      "stars": 29718,
+      "forks": 4437,
+      "stars_today": "7 stars today",
+      "built_by": [
+        "afjcjsbx",
+        "alexhoshina",
+        "claude",
+        "dependabot",
+        "lxowalle"
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "charmbracelet/crush",
+      "url": "https://github.com/charmbracelet/crush",
+      "description": "Glamourous agentic coding for all 💘",
+      "language": "Go",
+      "stars": 26468,
+      "forks": 2101,
+      "stars_today": "41 stars today",
+      "built_by": [
+        "kujtimiihoxha",
+        "andreynering",
+        "meowgorithm",
+        "aymanbagabas",
+        "caarlos0"
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "prometheus/prometheus",
+      "url": "https://github.com/prometheus/prometheus",
+      "description": "The Prometheus monitoring system and time series database.",
+      "language": "Go",
+      "stars": 65166,
+      "forks": 10760,
+      "stars_today": "39 stars today",
+      "built_by": [
+        "fabxc",
+        "juliusv",
+        "beorn7",
+        "bboreham",
+        "dependabot"
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "kubernetes/kubernetes",
+      "url": "https://github.com/kubernetes/kubernetes",
+      "description": "Production-Grade Container Scheduling and Management",
+      "language": "Go",
+      "stars": 123731,
+      "forks": 43723,
+      "stars_today": "54 stars today",
+      "built_by": [
+        "k8s-ci-robot",
+        "liggitt",
+        "thockin",
+        "wojtek-t",
+        "brendandburns"
+      ]
+    },
+    {
+      "rank": 15,
+      "name": "kunchenguid/no-mistakes",
+      "url": "https://github.com/kunchenguid/no-mistakes",
+      "description": "git push no-mistakes",
+      "language": "Go",
+      "stars": 5926,
+      "forks": 519,
+      "stars_today": "99 stars today",
+      "built_by": [
+        "kunchenguid",
+        "github-actions",
+        "e-jung",
+        "mielyemitchell",
+        "claude"
+      ]
+    },
+    {
+      "rank": 16,
+      "name": "google/adk-go",
+      "url": "https://github.com/google/adk-go",
+      "description": "An open-source, code-first Go toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.",
+      "language": "Go",
+      "stars": 8536,
+      "forks": 882,
+      "stars_today": "10 stars today",
+      "built_by": [
+        "dpasiukevich",
+        "baptmont",
+        "kdroste-google",
+        "yarolegovich",
+        "hyangah"
+      ]
+    },
+    {
+      "rank": 17,
+      "name": "moby/moby",
+      "url": "https://github.com/moby/moby",
+      "description": "The Moby Project - a collaborative project for the container ecosystem to assemble container-based systems",
+      "language": "Go",
+      "stars": 71899,
+      "forks": 19124,
+      "stars_today": "13 stars today",
+      "built_by": [
+        "thaJeztah",
+        "cpuguy83",
+        "crosbymichael",
+        "vdemeester",
+        "vvoland"
+      ]
+    },
+    {
+      "rank": 18,
+      "name": "ethereum/go-ethereum",
+      "url": "https://github.com/ethereum/go-ethereum",
+      "description": "Go implementation of the Ethereum protocol",
+      "language": "Go",
+      "stars": 51335,
+      "forks": 22092,
+      "stars_today": "11 stars today",
+      "built_by": [
+        "obscuren",
+        "karalabe",
+        "fjl",
+        "holiman",
+        "rjl493456442"
+      ]
+    },
+    {
+      "rank": 19,
+      "name": "masterking32/MasterDnsVPN",
+      "url": "https://github.com/masterking32/MasterDnsVPN",
+      "description": "Advanced DNS tunneling VPN for censorship bypass, optimized beyond DNSTT and SlipStream with low-overhead ARQ, resolver load balancing, high packet-loss stability and speed.",
+      "language": "Go",
+      "stars": 6787,
+      "forks": 781,
+      "stars_today": "14 stars today",
+      "built_by": [
+        "masterking32",
+        "abolix",
+        "PentSec",
+        "MahdiMirzadeh",
+        "typerhack"
+      ]
+    },
+    {
+      "rank": 20,
+      "name": "pocket-id/pocket-id",
+      "url": "https://github.com/pocket-id/pocket-id",
+      "description": "An easy-to-use OpenID Connect Certified™ and OAuth 2.0 provider that lets users sign in to your applications with passkeys.",
+      "language": "Go",
+      "stars": 8305,
+      "forks": 271,
+      "stars_today": "13 stars today",
+      "built_by": [
+        "stonith404",
+        "kmendell",
+        "ItalyPaleAle",
+        "dependabot",
+        "github-actions"
+      ]
+    },
+    {
+      "rank": 21,
+      "name": "yorukot/superfile",
+      "url": "https://github.com/yorukot/superfile",
+      "description": "Pretty fancy and modern terminal file manager",
+      "language": "Go",
+      "stars": 18670,
+      "forks": 663,
+      "stars_today": "30 stars today",
+      "built_by": [
+        "yorukot",
+        "lazysegtree",
+        "renovate",
+        "nonepork",
+        "AnshumanNeon"
+      ]
+    },
+    {
+      "rank": 22,
+      "name": "zitadel/zitadel",
+      "url": "https://github.com/zitadel/zitadel",
+      "description": "ZITADEL - Identity infrastructure, simplified for you.",
+      "language": "Go",
+      "stars": 14382,
+      "forks": 1166,
+      "stars_today": "16 stars today",
+      "built_by": [
+        "livio-a",
+        "peintnermax",
+        "hifabienne",
+        "adlerhurst",
+        "fforootd"
+      ]
+    }
+  ]
+}
