@@ -1,0 +1,387 @@
+{
+  "metadata": {
+    "date": "2026-07-14",
+    "language": "go",
+    "total_repositories": 22,
+    "total_stars": 1000168,
+    "total_forks": 91615,
+    "generated_by": "GitHub Trending Scraper",
+    "format_version": "1.0"
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "MHSanaei/3x-ui",
+      "url": "https://github.com/MHSanaei/3x-ui",
+      "description": "Xray panel supporting multi-protocol multi-user expire day & traffic & IP limit (Vmess, Vless, Trojan, ShadowSocks, Wireguard, Hysteria, Tunnel, Mixed, HTTP, Tun, MTProto)",
+      "language": "Go",
+      "stars": 42893,
+      "forks": 8162,
+      "stars_today": "94 stars today",
+      "built_by": [
+        "MHSanaei",
+        "alireza0",
+        "dependabot",
+        "hamid-gh98",
+        "sh1shd"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "perber/leafwiki",
+      "url": "https://github.com/perber/leafwiki",
+      "description": "LeafWiki - Self-hosted wiki. Single Go binary, SQLite, Markdown on disk. No external database required.",
+      "language": "Go",
+      "stars": 774,
+      "forks": 52,
+      "stars_today": "20 stars today",
+      "built_by": [
+        "perber",
+        "dependabot",
+        "Hugo-Galley",
+        "Copilot",
+        "mvanhorn"
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "authelia/authelia",
+      "url": "https://github.com/authelia/authelia",
+      "description": "The Single Sign-On Multi-Factor portal for web apps, now OpenID Certified™",
+      "language": "Go",
+      "stars": 28266,
+      "forks": 1439,
+      "stars_today": "12 stars today",
+      "built_by": [
+        "renovate",
+        "james-d-elliott",
+        "nightah",
+        "clems4ever",
+        "renovate-bot"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "AlistGo/alist",
+      "url": "https://github.com/AlistGo/alist",
+      "description": "🗂️A file list/WebDAV program that supports multiple storages, powered by Gin and Solidjs. / 一个支持多存储的文件列表/WebDAV程序，使用 Gin 和 Solidjs。",
+      "language": "Go",
+      "stars": 49867,
+      "forks": 7952,
+      "stars_today": "15 stars today",
+      "built_by": [
+        "xhofe",
+        "renovate",
+        "okatu-loli",
+        "foxxorcat",
+        "BoYanZh"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "syncthing/syncthing",
+      "url": "https://github.com/syncthing/syncthing",
+      "description": "Open Source Continuous File Synchronization",
+      "language": "Go",
+      "stars": 86352,
+      "forks": 5341,
+      "stars_today": "46 stars today",
+      "built_by": [
+        "calmh",
+        "AudriusButkevicius",
+        "imsodin",
+        "st-release",
+        "tomasz1986"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "caddyserver/caddy",
+      "url": "https://github.com/caddyserver/caddy",
+      "description": "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS",
+      "language": "Go",
+      "stars": 73999,
+      "forks": 4823,
+      "stars_today": "44 stars today",
+      "built_by": [
+        "mholt",
+        "francislavoie",
+        "mohammed90",
+        "WeidiDeng",
+        "dunglas"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "rcourtman/Pulse",
+      "url": "https://github.com/rcourtman/Pulse",
+      "description": "Monitoring for Proxmox, Docker, Kubernetes, TrueNAS, and vSphere that watches your infrastructure for you: smart alerts, AI patrols that catch silent failures, and verified fixes",
+      "language": "Go",
+      "stars": 6246,
+      "forks": 250,
+      "stars_today": "77 stars today",
+      "built_by": [
+        "rcourtman",
+        "claude",
+        "actions-user",
+        "dependabot",
+        "github-actions"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "avelino/awesome-go",
+      "url": "https://github.com/avelino/awesome-go",
+      "description": "A curated list of awesome Go frameworks, libraries and software",
+      "language": "Go",
+      "stars": 178105,
+      "forks": 13405,
+      "stars_today": "102 stars today",
+      "built_by": [
+        "avelino",
+        "mholt",
+        "kirillDanshin",
+        "dmitshur",
+        "kazhuravlev"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "Gentleman-Programming/engram",
+      "url": "https://github.com/Gentleman-Programming/engram",
+      "description": "Persistent memory system for AI coding agents. Agent-agnostic Go binary with SQLite + FTS5, MCP server, HTTP API, CLI, and TUI.",
+      "language": "Go",
+      "stars": 5341,
+      "forks": 581,
+      "stars_today": "256 stars today",
+      "built_by": [
+        "Alan-TheGentleman",
+        "egdev6",
+        "Twinber",
+        "carlosmoradev",
+        "SantiagoBobrik"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "pocket-id/pocket-id",
+      "url": "https://github.com/pocket-id/pocket-id",
+      "description": "An easy-to-use OpenID Connect Certified™ and OAuth 2.0 provider that lets users sign in to your applications with passkeys.",
+      "language": "Go",
+      "stars": 8391,
+      "forks": 273,
+      "stars_today": "67 stars today",
+      "built_by": [
+        "stonith404",
+        "kmendell",
+        "ItalyPaleAle",
+        "dependabot",
+        "github-actions"
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "pressly/goose",
+      "url": "https://github.com/pressly/goose",
+      "description": "A database migration tool. Supports SQL migrations and Go functions.",
+      "language": "Go",
+      "stars": 11163,
+      "forks": 671,
+      "stars_today": "20 stars today",
+      "built_by": [
+        "mfridman",
+        "VojtechVitek",
+        "liamstask",
+        "dependabot",
+        "1vn"
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "ollama/ollama",
+      "url": "https://github.com/ollama/ollama",
+      "description": "Get up and running with Kimi-K2.6, GLM-5.1, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+      "language": "Go",
+      "stars": 176068,
+      "forks": 16955,
+      "stars_today": "82 stars today",
+      "built_by": [
+        "mxyng",
+        "jmorganca",
+        "dhiltgen",
+        "BruceMacD",
+        "jessegross"
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "netdata/netdata",
+      "url": "https://github.com/netdata/netdata",
+      "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
+      "language": "Go",
+      "stars": 79636,
+      "forks": 6514,
+      "stars_today": "25 stars today",
+      "built_by": [
+        "ktsaou",
+        "netdatabot",
+        "ilyam8",
+        "Ferroin",
+        "stelfrag"
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "XTLS/RealiTLScanner",
+      "url": "https://github.com/XTLS/RealiTLScanner",
+      "description": "A TLS server scanner for Reality",
+      "language": "Go",
+      "stars": 4136,
+      "forks": 300,
+      "stars_today": "8 stars today",
+      "built_by": [
+        "juzeon",
+        "yuhan6665",
+        "larinkonstantin",
+        "Perfidus",
+        "ghggn"
+      ]
+    },
+    {
+      "rank": 15,
+      "name": "traefik/traefik",
+      "url": "https://github.com/traefik/traefik",
+      "description": "The Cloud Native Application Proxy",
+      "language": "Go",
+      "stars": 63980,
+      "forks": 6065,
+      "stars_today": "20 stars today",
+      "built_by": [
+        "ldez",
+        "emilevauge",
+        "rtribotte",
+        "kevinpollet",
+        "mmatur"
+      ]
+    },
+    {
+      "rank": 16,
+      "name": "FiloSottile/age",
+      "url": "https://github.com/FiloSottile/age",
+      "description": "A simple, modern and secure encryption tool (and Go library) with small explicit keys, no config options, and UNIX-style composability.",
+      "language": "Go",
+      "stars": 22862,
+      "forks": 650,
+      "stars_today": "20 stars today",
+      "built_by": [
+        "FiloSottile",
+        "codesoap",
+        "0x2b3bfa0",
+        "noncombatant",
+        "interrato"
+      ]
+    },
+    {
+      "rank": 17,
+      "name": "IceWhaleTech/CasaOS",
+      "url": "https://github.com/IceWhaleTech/CasaOS",
+      "description": "CasaOS - A simple, easy-to-use, elegant open-source Personal Cloud system.",
+      "language": "Go",
+      "stars": 36596,
+      "forks": 2130,
+      "stars_today": "114 stars today",
+      "built_by": [
+        "LinkLeong",
+        "JohnGuan",
+        "tigerinus",
+        "jerrykuku",
+        "allcontributors"
+      ]
+    },
+    {
+      "rank": 18,
+      "name": "sundowndev/phoneinfoga",
+      "url": "https://github.com/sundowndev/phoneinfoga",
+      "description": "Information gathering framework for phone numbers",
+      "language": "Go",
+      "stars": 16993,
+      "forks": 5156,
+      "stars_today": "29 stars today",
+      "built_by": [
+        "sundowndev",
+        "renovate-bot",
+        "dependabot",
+        "RomainMaillot",
+        "d4rkc0nd0r"
+      ]
+    },
+    {
+      "rank": 19,
+      "name": "schollz/croc",
+      "url": "https://github.com/schollz/croc",
+      "description": "Easily and securely send things from one computer to another 🐊 📦",
+      "language": "Go",
+      "stars": 35523,
+      "forks": 1406,
+      "stars_today": "74 stars today",
+      "built_by": [
+        "schollz",
+        "TheQueasle",
+        "dependabot",
+        "stefins",
+        "jolheiser"
+      ]
+    },
+    {
+      "rank": 20,
+      "name": "influxdata/telegraf",
+      "url": "https://github.com/influxdata/telegraf",
+      "description": "Agent for collecting, processing, aggregating, and writing metrics, logs, and other arbitrary data.",
+      "language": "Go",
+      "stars": 17710,
+      "forks": 5828,
+      "stars_today": "5 stars today",
+      "built_by": [
+        "danielnelson",
+        "dependabot",
+        "srebhan",
+        "sparrc",
+        "powersj"
+      ]
+    },
+    {
+      "rank": 21,
+      "name": "gofiber/fiber",
+      "url": "https://github.com/gofiber/fiber",
+      "description": "⚡️ Express inspired web framework written in Go",
+      "language": "Go",
+      "stars": 39953,
+      "forks": 2004,
+      "stars_today": "14 stars today",
+      "built_by": [
+        "Fenny",
+        "ReneWerner87",
+        "gaby",
+        "dependabot",
+        "Copilot"
+      ]
+    },
+    {
+      "rank": 22,
+      "name": "Billionmail/BillionMail",
+      "url": "https://github.com/Billionmail/BillionMail",
+      "description": "BillionMail gives you open-source MailServer, NewsLetter, Email Marketing — fully self-hosted, dev-friendly, and free from monthly fees. Join the discord: https://discord.gg/asfXzBUhZr",
+      "language": "Go",
+      "stars": 15314,
+      "forks": 1658,
+      "stars_today": "7 stars today",
+      "built_by": [
+        "lotkmm",
+        "aaPanel",
+        "dreambladeflag",
+        "xiemoumou",
+        "claude"
+      ]
+    }
+  ]
+}
