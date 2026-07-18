@@ -1,0 +1,316 @@
+{
+  "metadata": {
+    "date": "2026-07-18",
+    "language": "rust",
+    "total_repositories": 18,
+    "total_stars": 555790,
+    "total_forks": 53475,
+    "generated_by": "GitHub Trending Scraper",
+    "format_version": "1.0"
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "openinterpreter/openinterpreter",
+      "url": "https://github.com/openinterpreter/openinterpreter",
+      "description": "A coding agent for open models like Kimi K3",
+      "language": "Rust",
+      "stars": 66398,
+      "forks": 5706,
+      "stars_today": "431 stars today",
+      "built_by": [
+        "jif-oai",
+        "bolinfest",
+        "aibrahim-oai",
+        "pakrym-oai",
+        "etraut-openai"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "openai/codex",
+      "url": "https://github.com/openai/codex",
+      "description": "Lightweight coding agent that runs in your terminal",
+      "language": "Rust",
+      "stars": 99168,
+      "forks": 14835,
+      "stars_today": "328 stars today",
+      "built_by": [
+        "jif-oai",
+        "bolinfest",
+        "aibrahim-oai",
+        "pakrym-oai",
+        "etraut-openai"
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "screenpipe/screenpipe",
+      "url": "https://github.com/screenpipe/screenpipe",
+      "description": "YC (S26) | Record your screen 24/7 and plug into your agents. Local, private, secure. Connect to OpenClaw, Hermes agent and 100+ apps",
+      "language": "Rust",
+      "stars": 20248,
+      "forks": 1989,
+      "stars_today": "73 stars today",
+      "built_by": [
+        "louis030195",
+        "claude",
+        "github-actions",
+        "EzraEllette",
+        "Anshgrover23"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "juspay/hyperswitch",
+      "url": "https://github.com/juspay/hyperswitch",
+      "description": "Open source, composable payments platform | PCI compliant | SaaS and Self-host options | Enables connectivity to multiple payment, payout, fraud, vault and tokenization providers | Uplifts authorization with intelligent routing and revenue recovery | Reduce payment processing costs with cost observability | Reduces payment ops with reconciliation",
+      "language": "Rust",
+      "stars": 43326,
+      "forks": 4958,
+      "stars_today": "32 stars today",
+      "built_by": [
+        "hyperswitch-bot",
+        "github-actions",
+        "SanchithHegde",
+        "Narayanbhat166",
+        "swangi-kumari"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "memvid/memvid",
+      "url": "https://github.com/memvid/memvid",
+      "description": "Memory layer for AI Agents. Replace complex RAG pipelines with a serverless, single-file memory layer. Give your agents instant retrieval and long-term memory.",
+      "language": "Rust",
+      "stars": 15978,
+      "forks": 1383,
+      "stars_today": "42 stars today",
+      "built_by": [
+        "sharafdin",
+        "Olow304",
+        "mo-omar-0197",
+        "TyJK",
+        "akash-R-A-J"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "gitbutlerapp/gitbutler",
+      "url": "https://github.com/gitbutlerapp/gitbutler",
+      "description": "The GitButler version control client, backed by Git, powered by Tauri/Rust/Svelte",
+      "language": "Rust",
+      "stars": 21329,
+      "forks": 987,
+      "stars_today": "19 stars today",
+      "built_by": [
+        "estib-vega",
+        "OliverJAsh",
+        "Byron",
+        "mtsgrd",
+        "Caleb-T-Owens"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "emilk/egui",
+      "url": "https://github.com/emilk/egui",
+      "description": "egui: an easy-to-use immediate mode GUI in Rust that runs on both web and native",
+      "language": "Rust",
+      "stars": 29723,
+      "forks": 2069,
+      "stars_today": "28 stars today",
+      "built_by": [
+        "emilk",
+        "lucasmerlin",
+        "Wumpf",
+        "YgorSouza",
+        "rustbasic"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "ai-dynamo/dynamo",
+      "url": "https://github.com/ai-dynamo/dynamo",
+      "description": "A Datacenter Scale Distributed Inference Serving Framework",
+      "language": "Rust",
+      "stars": 7516,
+      "forks": 1349,
+      "stars_today": "8 stars today",
+      "built_by": [
+        "claude",
+        "PeaBrane",
+        "grahamking",
+        "rmccorm4",
+        "nv-anants"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "BoundaryML/baml",
+      "url": "https://github.com/BoundaryML/baml",
+      "description": "The programming language for agents",
+      "language": "Rust",
+      "stars": 8563,
+      "forks": 451,
+      "stars_today": "4 stars today",
+      "built_by": [
+        "hellovai",
+        "aaronvg",
+        "sxlijin",
+        "antoniosarosi",
+        "imalsogreg"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "cloud-hypervisor/cloud-hypervisor",
+      "url": "https://github.com/cloud-hypervisor/cloud-hypervisor",
+      "description": "A Virtual Machine Monitor for modern Cloud workloads. Features include CPU, memory and device hotplug, support for running Windows and Linux guests, device offload with vhost-user and a minimal compact footprint. Written in Rust with a strong focus on security.",
+      "language": "Rust",
+      "stars": 5968,
+      "forks": 713,
+      "stars_today": "9 stars today",
+      "built_by": [
+        "rbradford",
+        "dependabot",
+        "dependabot-preview",
+        "weltling",
+        "liuw"
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "1jehuang/jcode",
+      "url": "https://github.com/1jehuang/jcode",
+      "description": "Coding Agent Harness",
+      "language": "Rust",
+      "stars": 8394,
+      "forks": 951,
+      "stars_today": "10 stars today",
+      "built_by": [
+        "1jehuang",
+        "claude",
+        "FabianAmherd"
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "zed-industries/zed",
+      "url": "https://github.com/zed-industries/zed",
+      "description": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
+      "language": "Rust",
+      "stars": 87151,
+      "forks": 9576,
+      "stars_today": "63 stars today",
+      "built_by": [
+        "as-cii",
+        "maxbrunsfeld",
+        "maxdeviant",
+        "nathansobo",
+        "ConradIrwin"
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "Moonholder/Wuwa_Mod_Fixer",
+      "url": "https://github.com/Moonholder/Wuwa_Mod_Fixer",
+      "description": "Pas de description",
+      "language": "Rust",
+      "stars": 889,
+      "forks": 25,
+      "stars_today": "5 stars today",
+      "built_by": [
+        "Moonholder",
+        "Fall-of-Fall",
+        "blargorjan",
+        "myparsleycat"
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "vectordotdev/vector",
+      "url": "https://github.com/vectordotdev/vector",
+      "description": "A high-performance observability data pipeline.",
+      "language": "Rust",
+      "stars": 22193,
+      "forks": 2208,
+      "stars_today": "4 stars today",
+      "built_by": [
+        "dependabot",
+        "jszwedko",
+        "binarylogic",
+        "pront",
+        "bruceg"
+      ]
+    },
+    {
+      "rank": 15,
+      "name": "git-ai-project/git-ai",
+      "url": "https://github.com/git-ai-project/git-ai",
+      "description": "A Git extension for tracking the AI-generated code in your repos",
+      "language": "Rust",
+      "stars": 2296,
+      "forks": 237,
+      "stars_today": "10 stars today",
+      "built_by": [
+        "svarlamov",
+        "claude",
+        "acunniffe",
+        "jwiegley",
+        "devin-ai-integration"
+      ]
+    },
+    {
+      "rank": 16,
+      "name": "rustfs/rustfs",
+      "url": "https://github.com/rustfs/rustfs",
+      "description": "🚀2.3x faster than MinIO for 4KB object payloads. RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph.",
+      "language": "Rust",
+      "stars": 29944,
+      "forks": 1311,
+      "stars_today": "51 stars today",
+      "built_by": [
+        "overtrue",
+        "houseme",
+        "weisd",
+        "loverustfs",
+        "guojidan"
+      ]
+    },
+    {
+      "rank": 17,
+      "name": "BurntSushi/ripgrep",
+      "url": "https://github.com/BurntSushi/ripgrep",
+      "description": "ripgrep recursively searches directories for a regex pattern while respecting your gitignore",
+      "language": "Rust",
+      "stars": 66269,
+      "forks": 2648,
+      "stars_today": "98 stars today",
+      "built_by": [
+        "BurntSushi",
+        "okdana",
+        "jgarte",
+        "balajisivaraman",
+        "igor-raits"
+      ]
+    },
+    {
+      "rank": 18,
+      "name": "cube-js/cube",
+      "url": "https://github.com/cube-js/cube",
+      "description": "📊 Cube Core is open-source semantic layer for AI, BI and embedded analytics",
+      "language": "Rust",
+      "stars": 20437,
+      "forks": 2079,
+      "stars_today": "8 stars today",
+      "built_by": [
+        "paveltiunov",
+        "ovr",
+        "hassankhan",
+        "vasilev-alex",
+        "igorlukanin"
+      ]
+    }
+  ]
+}
