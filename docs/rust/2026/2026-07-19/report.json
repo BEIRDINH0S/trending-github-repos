@@ -1,0 +1,302 @@
+{
+  "metadata": {
+    "date": "2026-07-19",
+    "language": "rust",
+    "total_repositories": 17,
+    "total_stars": 370659,
+    "total_forks": 26968,
+    "generated_by": "GitHub Trending Scraper",
+    "format_version": "1.0"
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "rivet-dev/agentos",
+      "url": "https://github.com/rivet-dev/agentos",
+      "description": "A faster, lighter, cheaper alternative to sandboxes. Run any coding agent inside an isolated Linux VM, with agent orchestration built in.",
+      "language": "Rust",
+      "stars": 3899,
+      "forks": 192,
+      "stars_today": "136 stars today",
+      "built_by": [
+        "NathanFlurry",
+        "Blckbrry-Pi",
+        "abcxff",
+        "jog1t",
+        "MasterPtato"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "tursodatabase/turso",
+      "url": "https://github.com/tursodatabase/turso",
+      "description": "A SQL database in Rust: SQLite-compatible, now also speaking Postgres (experimental). The LLVM of databases.",
+      "language": "Rust",
+      "stars": 23172,
+      "forks": 1182,
+      "stars_today": "75 stars today",
+      "built_by": [
+        "penberg",
+        "jussisaurio",
+        "PThorpe92",
+        "pedrocarlo",
+        "sivukhin"
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "Hmbown/CodeWhale",
+      "url": "https://github.com/Hmbown/CodeWhale",
+      "description": "Open-source, community-driven agent harness",
+      "language": "Rust",
+      "stars": 39917,
+      "forks": 3445,
+      "stars_today": "31 stars today",
+      "built_by": [
+        "Hmbown",
+        "claude",
+        "cyq1017",
+        "nightt5879",
+        "idling11"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "openinterpreter/openinterpreter",
+      "url": "https://github.com/openinterpreter/openinterpreter",
+      "description": "A coding agent for open models like Kimi K3",
+      "language": "Rust",
+      "stars": 66684,
+      "forks": 5731,
+      "stars_today": "383 stars today",
+      "built_by": [
+        "jif-oai",
+        "bolinfest",
+        "aibrahim-oai",
+        "pakrym-oai",
+        "etraut-openai"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "rustfs/rustfs",
+      "url": "https://github.com/rustfs/rustfs",
+      "description": "🚀2.3x faster than MinIO for 4KB object payloads. RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph.",
+      "language": "Rust",
+      "stars": 29964,
+      "forks": 1315,
+      "stars_today": "26 stars today",
+      "built_by": [
+        "overtrue",
+        "houseme",
+        "weisd",
+        "loverustfs",
+        "guojidan"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "dmtrKovalenko/fff",
+      "url": "https://github.com/dmtrKovalenko/fff",
+      "description": "The fastest and the most accurate file search SDK for AI agents, Neovim, Rust, C, Python, Bun and NodeJS",
+      "language": "Rust",
+      "stars": 9740,
+      "forks": 383,
+      "stars_today": "15 stars today",
+      "built_by": [
+        "dmtrKovalenko",
+        "gustav-fff",
+        "github-actions",
+        "sQVe",
+        "thuan1412"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "66HEX/frame",
+      "url": "https://github.com/66HEX/frame",
+      "description": "FFmpeg GUI",
+      "language": "Rust",
+      "stars": 1656,
+      "forks": 51,
+      "stars_today": "40 stars today",
+      "built_by": [
+        "66HEX",
+        "Kevinjohn",
+        "JSKitty",
+        "addisonking",
+        "dufu1991"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "astral-sh/ruff",
+      "url": "https://github.com/astral-sh/ruff",
+      "description": "An extremely fast Python linter and code formatter, written in Rust.",
+      "language": "Rust",
+      "stars": 48692,
+      "forks": 2257,
+      "stars_today": "19 stars today",
+      "built_by": [
+        "charliermarsh",
+        "MichaReiser",
+        "AlexWaygood",
+        "renovate",
+        "sharkdp"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "tree-sitter/tree-sitter",
+      "url": "https://github.com/tree-sitter/tree-sitter",
+      "description": "An incremental parsing system for programming tools",
+      "language": "Rust",
+      "stars": 26306,
+      "forks": 2768,
+      "stars_today": "12 stars today",
+      "built_by": [
+        "maxbrunsfeld",
+        "amaanq",
+        "ahlinc",
+        "WillLillis",
+        "dependabot"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "run-llama/liteparse",
+      "url": "https://github.com/run-llama/liteparse",
+      "description": "A fast, helpful, and open-source document parser",
+      "language": "Rust",
+      "stars": 11659,
+      "forks": 788,
+      "stars_today": "34 stars today",
+      "built_by": [
+        "logan-markewich",
+        "AstraBert",
+        "dependabot",
+        "AdemBoukhris457",
+        "github-actions"
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "ogulcancelik/herdr",
+      "url": "https://github.com/ogulcancelik/herdr",
+      "description": "agent multiplexer that lives in your terminal.",
+      "language": "Rust",
+      "stars": 18035,
+      "forks": 1155,
+      "stars_today": "393 stars today",
+      "built_by": [
+        "ogulcancelik",
+        "kangal-bot",
+        "github-actions",
+        "akbash-bot",
+        "dmmulroy"
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "warpdotdev/warp",
+      "url": "https://github.com/warpdotdev/warp",
+      "description": "Warp is an agentic development environment, born out of the terminal.",
+      "language": "Rust",
+      "stars": 63372,
+      "forks": 5279,
+      "stars_today": "59 stars today",
+      "built_by": [
+        "oz-agent",
+        "harryalbert",
+        "warp-dev-github-integration",
+        "kevinyang372",
+        "acarl005"
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "stalwartlabs/stalwart",
+      "url": "https://github.com/stalwartlabs/stalwart",
+      "description": "All-in-one Mail & Collaboration server. Secure, scalable and fluent in every protocol (IMAP, JMAP, SMTP, CalDAV, CardDAV, WebDAV).",
+      "language": "Rust",
+      "stars": 13720,
+      "forks": 842,
+      "stars_today": "20 stars today",
+      "built_by": [
+        "mdecimus",
+        "dependabot",
+        "vickunwu",
+        "rmsc",
+        "stratacast"
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "DataDog/pup",
+      "url": "https://github.com/DataDog/pup",
+      "description": "Give your AI agent a Pup — a CLI companion with 200+ commands across 33+ Datadog products.",
+      "language": "Rust",
+      "stars": 958,
+      "forks": 95,
+      "stars_today": "1 star today",
+      "built_by": [
+        "platinummonkey",
+        "claude",
+        "srosenthal-dd",
+        "jack-edmonds-dd",
+        "dd-octo-sts"
+      ]
+    },
+    {
+      "rank": 15,
+      "name": "cocoindex-io/cocoindex",
+      "url": "https://github.com/cocoindex-io/cocoindex",
+      "description": "Incremental engine for long horizon agents 🌟 Star if you like it!",
+      "language": "Rust",
+      "stars": 10887,
+      "forks": 836,
+      "stars_today": "52 stars today",
+      "built_by": [
+        "georgeh0",
+        "badmonster0",
+        "claude",
+        "lemorage",
+        "Haleshot"
+      ]
+    },
+    {
+      "rank": 16,
+      "name": "andrewrabert/jellium-desktop",
+      "url": "https://github.com/andrewrabert/jellium-desktop",
+      "description": "An unofficial desktop client for Jellyfin",
+      "language": "Rust",
+      "stars": 1192,
+      "forks": 103,
+      "stars_today": "55 stars today",
+      "built_by": [
+        "andrewrabert",
+        "renovate",
+        "rodis120",
+        "claude",
+        "gnattu"
+      ]
+    },
+    {
+      "rank": 17,
+      "name": "base/base",
+      "url": "https://github.com/base/base",
+      "description": "All components used to run Base",
+      "language": "Rust",
+      "stars": 806,
+      "forks": 546,
+      "stars_today": "2 stars today",
+      "built_by": [
+        "refcell",
+        "danyalprout",
+        "ratankaliani",
+        "fakedev9999",
+        "jackchuma"
+      ]
+    }
+  ]
+}

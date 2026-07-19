@@ -1,0 +1,421 @@
+{
+  "metadata": {
+    "date": "2026-07-19",
+    "language": "go",
+    "total_repositories": 24,
+    "total_stars": 392806,
+    "total_forks": 28934,
+    "generated_by": "GitHub Trending Scraper",
+    "format_version": "1.0"
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "mudler/LocalAI",
+      "url": "https://github.com/mudler/LocalAI",
+      "description": "LocalAI is the open-source AI engine. Run any model - LLMs, vision, voice, image, video - on any hardware. No GPU required.",
+      "language": "Go",
+      "stars": 47656,
+      "forks": 4256,
+      "stars_today": "32 stars today",
+      "built_by": [
+        "mudler",
+        "localai-bot",
+        "dependabot",
+        "renovate",
+        "richiejp"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "microsoft/agent-framework-go",
+      "url": "https://github.com/microsoft/agent-framework-go",
+      "description": "A framework for building, orchestrating and deploying AI agents and multi-agent workflows with support for Go.",
+      "language": "Go",
+      "stars": 304,
+      "forks": 25,
+      "stars_today": "80 stars today",
+      "built_by": [
+        "qmuntal",
+        "gdams",
+        "michelle-clayton-work",
+        "griffinbird",
+        "PratikDhanave"
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "lima-vm/lima",
+      "url": "https://github.com/lima-vm/lima",
+      "description": "Linux virtual machines, with a focus on running containers",
+      "language": "Go",
+      "stars": 21525,
+      "forks": 930,
+      "stars_today": "19 stars today",
+      "built_by": [
+        "AkihiroSuda",
+        "jandubois",
+        "dependabot",
+        "afbjorklund",
+        "norio-nomura"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "dstotijn/hetty",
+      "url": "https://github.com/dstotijn/hetty",
+      "description": "An HTTP toolkit for security research.",
+      "language": "Go",
+      "stars": 11900,
+      "forks": 768,
+      "stars_today": "29 stars today",
+      "built_by": [
+        "dstotijn",
+        "dependabot",
+        "holiman",
+        "MichalZalecki",
+        "StevenMaude"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "e2b-dev/infra",
+      "url": "https://github.com/e2b-dev/infra",
+      "description": "Infrastructure that's powering E2B Cloud.",
+      "language": "Go",
+      "stars": 1254,
+      "forks": 367,
+      "stars_today": "2 stars today",
+      "built_by": [
+        "ValentaTomas",
+        "jakubno",
+        "dobrac",
+        "mlejva",
+        "djeebus"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "livekit/livekit",
+      "url": "https://github.com/livekit/livekit",
+      "description": "End-to-end realtime stack for connecting humans and AI",
+      "language": "Go",
+      "stars": 19840,
+      "forks": 2167,
+      "stars_today": "20 stars today",
+      "built_by": [
+        "boks1971",
+        "davidzhao",
+        "cnderrauber",
+        "paulwe",
+        "renovate"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "gosom/google-maps-scraper",
+      "url": "https://github.com/gosom/google-maps-scraper",
+      "description": "scrape data from Google Maps. Extracts data such as the name, address, phone number, website URL, rating, reviews number, latitude and longitude, reviews,email and more for each place",
+      "language": "Go",
+      "stars": 5140,
+      "forks": 809,
+      "stars_today": "71 stars today",
+      "built_by": [
+        "gosom",
+        "dredozubov",
+        "sbOogway",
+        "fidalgo",
+        "xavier-villelegier"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "superplanehq/superplane",
+      "url": "https://github.com/superplanehq/superplane",
+      "description": "The open source control plane for agentic engineering.",
+      "language": "Go",
+      "stars": 4014,
+      "forks": 356,
+      "stars_today": "35 stars today",
+      "built_by": [
+        "forestileao",
+        "shiroyasha",
+        "lucaspin",
+        "cursoragent",
+        "AleksandarCole"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "open-telemetry/opentelemetry-go",
+      "url": "https://github.com/open-telemetry/opentelemetry-go",
+      "description": "OpenTelemetry Go API and SDK",
+      "language": "Go",
+      "stars": 6479,
+      "forks": 1423,
+      "stars_today": "28 stars today",
+      "built_by": [
+        "MrAlias",
+        "renovate",
+        "pellared",
+        "dependabot",
+        "dmathieu"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "syncthing/syncthing",
+      "url": "https://github.com/syncthing/syncthing",
+      "description": "Open Source Continuous File Synchronization",
+      "language": "Go",
+      "stars": 86607,
+      "forks": 5362,
+      "stars_today": "54 stars today",
+      "built_by": [
+        "calmh",
+        "AudriusButkevicius",
+        "imsodin",
+        "st-release",
+        "tomasz1986"
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "nektos/act",
+      "url": "https://github.com/nektos/act",
+      "description": "Run your GitHub Actions locally 🚀",
+      "language": "Go",
+      "stars": 71115,
+      "forks": 1977,
+      "stars_today": "16 stars today",
+      "built_by": [
+        "mergify",
+        "dependabot",
+        "cplee",
+        "ChristopherHX",
+        "github-actions"
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "anchore/grype",
+      "url": "https://github.com/anchore/grype",
+      "description": "A vulnerability scanner for container images and filesystems",
+      "language": "Go",
+      "stars": 12588,
+      "forks": 830,
+      "stars_today": "6 stars today",
+      "built_by": [
+        "dependabot",
+        "wagoodman",
+        "anchore-actions-token-generator",
+        "westonsteimel",
+        "spiffcs"
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "zakirullin/files.md",
+      "url": "https://github.com/zakirullin/files.md",
+      "description": "🌱 Private, quiet space for thinking. Simple app for .md files. AI-friendly.",
+      "language": "Go",
+      "stars": 4004,
+      "forks": 209,
+      "stars_today": "28 stars today",
+      "built_by": [
+        "zakirullin",
+        "alx-ef",
+        "jolice",
+        "kir-drozdov",
+        "claude"
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "tphakala/birdnet-go",
+      "url": "https://github.com/tphakala/birdnet-go",
+      "description": "Self-hosted realtime soundscape analyser for birds, bats and other wildlife. Multi-model local AI inference, runs 24/7 on a Raspberry Pi.",
+      "language": "Go",
+      "stars": 1471,
+      "forks": 140,
+      "stars_today": "3 stars today",
+      "built_by": [
+        "tphakala",
+        "claude",
+        "dependabot",
+        "github-actions",
+        "isZumpo"
+      ]
+    },
+    {
+      "rank": 15,
+      "name": "github/gh-stack",
+      "url": "https://github.com/github/gh-stack",
+      "description": "GitHub Stacked PRs",
+      "language": "Go",
+      "stars": 531,
+      "forks": 23,
+      "stars_today": "4 stars today",
+      "built_by": [
+        "skarim",
+        "dependabot",
+        "Copilot",
+        "Copilot",
+        "Copilot"
+      ]
+    },
+    {
+      "rank": 16,
+      "name": "Ed1s0nZ/CyberStrikeAI",
+      "url": "https://github.com/Ed1s0nZ/CyberStrikeAI",
+      "description": "The system of action for AI-native cybersecurity—where intent becomes governed execution, evidence becomes operational memory, and every operation improves the next.",
+      "language": "Go",
+      "stars": 5195,
+      "forks": 836,
+      "stars_today": "11 stars today",
+      "built_by": [
+        "Ed1s0nZ",
+        "ruanmingchen",
+        "donnel666",
+        "claude",
+        "chhs1129"
+      ]
+    },
+    {
+      "rank": 17,
+      "name": "agent-substrate/substrate",
+      "url": "https://github.com/agent-substrate/substrate",
+      "description": "Agent Substrate: the core system",
+      "language": "Go",
+      "stars": 807,
+      "forks": 142,
+      "stars_today": "23 stars today",
+      "built_by": [
+        "BenTheElder",
+        "thockin",
+        "juli4n",
+        "HavenXia",
+        "mesutoezdil"
+      ]
+    },
+    {
+      "rank": 18,
+      "name": "weaviate/weaviate",
+      "url": "https://github.com/weaviate/weaviate",
+      "description": "Weaviate is an open-source vector database that stores both objects and vectors, allowing for the combination of vector search with structured filtering with the fault tolerance and scalability of a cloud-native database​.",
+      "language": "Go",
+      "stars": 16612,
+      "forks": 1351,
+      "stars_today": "2 stars today",
+      "built_by": [
+        "antas-marcin",
+        "etiennedi",
+        "dirkkul",
+        "moogacs",
+        "asdine"
+      ]
+    },
+    {
+      "rank": 19,
+      "name": "dexidp/dex",
+      "url": "https://github.com/dexidp/dex",
+      "description": "OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable connectors",
+      "language": "Go",
+      "stars": 10970,
+      "forks": 1957,
+      "stars_today": "2 stars today",
+      "built_by": [
+        "dependabot",
+        "sagikazarmark",
+        "nabokihms",
+        "ericchiang",
+        "rithujohn191"
+      ]
+    },
+    {
+      "rank": 20,
+      "name": "kai-scheduler/KAI-Scheduler",
+      "url": "https://github.com/kai-scheduler/KAI-Scheduler",
+      "description": "KAI Scheduler is an open source Kubernetes Native scheduler for AI workloads at large scale",
+      "language": "Go",
+      "stars": 1401,
+      "forks": 233,
+      "stars_today": "6 stars today",
+      "built_by": [
+        "enoodle",
+        "davidLif",
+        "itsomri",
+        "romanbaron",
+        "gshaibi"
+      ]
+    },
+    {
+      "rank": 21,
+      "name": "gravitational/teleport",
+      "url": "https://github.com/gravitational/teleport",
+      "description": "The easiest, and most secure way to access and protect all of your infrastructure.",
+      "language": "Go",
+      "stars": 20661,
+      "forks": 2117,
+      "stars_today": "3 stars today",
+      "built_by": [
+        "klizhentas",
+        "kontsevoy",
+        "zmb3",
+        "rosstimothy",
+        "ptgott"
+      ]
+    },
+    {
+      "rank": 22,
+      "name": "dlvhdr/gh-dash",
+      "url": "https://github.com/dlvhdr/gh-dash",
+      "description": "A rich terminal UI for GitHub that doesn't break your flow.",
+      "language": "Go",
+      "stars": 12100,
+      "forks": 417,
+      "stars_today": "11 stars today",
+      "built_by": [
+        "dlvhdr",
+        "sideshowbarker",
+        "robdimsdale",
+        "mchisolm0",
+        "kyu08"
+      ]
+    },
+    {
+      "rank": 23,
+      "name": "safing/portmaster",
+      "url": "https://github.com/safing/portmaster",
+      "description": "🏔 Love Freedom - ❌ Block Mass Surveillance",
+      "language": "Go",
+      "stars": 13277,
+      "forks": 544,
+      "stars_today": "38 stars today",
+      "built_by": [
+        "dhaavi",
+        "stenya",
+        "ppacher",
+        "vlabo",
+        "davegson"
+      ]
+    },
+    {
+      "rank": 24,
+      "name": "VictoriaMetrics/VictoriaMetrics",
+      "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
+      "description": "VictoriaMetrics: fast, cost-effective monitoring solution and time series database",
+      "language": "Go",
+      "stars": 17355,
+      "forks": 1695,
+      "stars_today": "3 stars today",
+      "built_by": [
+        "valyala",
+        "hagen1778",
+        "f41gh7",
+        "makasim",
+        "zekker6"
+      ]
+    }
+  ]
+}
