@@ -1,0 +1,382 @@
+{
+  "metadata": {
+    "date": "2026-07-23",
+    "language": "c++",
+    "total_repositories": 22,
+    "total_stars": 373741,
+    "total_forks": 65399,
+    "generated_by": "GitHub Trending Scraper",
+    "format_version": "1.0"
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "hyprwm/Hyprland",
+      "url": "https://github.com/hyprwm/Hyprland",
+      "description": "Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks.",
+      "language": "C++",
+      "stars": 37311,
+      "forks": 1871,
+      "stars_today": "356 stars today",
+      "built_by": [
+        "vaxerski",
+        "fufexan",
+        "gulafaran",
+        "MightyPlaza",
+        "UjinT34"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "catchorg/Catch2",
+      "url": "https://github.com/catchorg/Catch2",
+      "description": "A modern, C++-native, test framework for unit-tests, TDD and BDD - using C++14, C++17 and later (C++11 support is in v2.x branch, and C++03 on the Catch1.x branch)",
+      "language": "C++",
+      "stars": 21280,
+      "forks": 3354,
+      "stars_today": "19 stars today",
+      "built_by": [
+        "horenmar",
+        "philsquared",
+        "ChrisThrasher",
+        "claremacrae",
+        "JoeyGrajciar"
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "handy-computer/transcribe.cpp",
+      "url": "https://github.com/handy-computer/transcribe.cpp",
+      "description": "ggml speech-to-text inference for 16+ model families",
+      "language": "C++",
+      "stars": 1525,
+      "forks": 49,
+      "stars_today": "67 stars today",
+      "built_by": [
+        "cjpais",
+        "claude"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "moonshine-ai/moonshine",
+      "url": "https://github.com/moonshine-ai/moonshine",
+      "description": "Very low latency speech to text, intent recognition, and text to speech, for building voice agents and interfaces",
+      "language": "C++",
+      "stars": 10296,
+      "forks": 543,
+      "stars_today": "75 stars today",
+      "built_by": [
+        "evmaki",
+        "kylehowells",
+        "petewarden",
+        "giovanninibarbosa",
+        "cursoragent"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "ggml-org/whisper.cpp",
+      "url": "https://github.com/ggml-org/whisper.cpp",
+      "description": "Port of OpenAI's Whisper model in C/C++",
+      "language": "C++",
+      "stars": 52198,
+      "forks": 5869,
+      "stars_today": "163 stars today",
+      "built_by": [
+        "ggerganov",
+        "jeffbolznv",
+        "JohannesGaessler",
+        "danbev",
+        "slaren"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "project-chip/connectedhomeip",
+      "url": "https://github.com/project-chip/connectedhomeip",
+      "description": "Matter (formerly Project CHIP) creates more connections between more objects, simplifying development for manufacturers and increasing compatibility for consumers, guided by the Connectivity Standards Alliance.",
+      "language": "C++",
+      "stars": 8835,
+      "forks": 2440,
+      "stars_today": "2 stars today",
+      "built_by": [
+        "restyled-commits",
+        "bzbarsky-apple",
+        "andy31415",
+        "vivien-apple",
+        "yufengwangca"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "vllm-project/vllm-ascend",
+      "url": "https://github.com/vllm-project/vllm-ascend",
+      "description": "Community maintained hardware plugin for vLLM on Ascend",
+      "language": "C++",
+      "stars": 2457,
+      "forks": 1785,
+      "stars_today": "6 stars today",
+      "built_by": [
+        "wangxiyuan",
+        "Potabk",
+        "MengqingCao",
+        "zhangxinyuehfad",
+        "Yikun"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "godotengine/godot",
+      "url": "https://github.com/godotengine/godot",
+      "description": "Godot Engine – Multi-platform 2D and 3D game engine",
+      "language": "C++",
+      "stars": 114505,
+      "forks": 26076,
+      "stars_today": "81 stars today",
+      "built_by": [
+        "akien-mga",
+        "Repiteo",
+        "reduz",
+        "Calinou",
+        "bruvzg"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "wolfpld/tracy",
+      "url": "https://github.com/wolfpld/tracy",
+      "description": "Frame profiler",
+      "language": "C++",
+      "stars": 16410,
+      "forks": 1177,
+      "stars_today": "10 stars today",
+      "built_by": [
+        "wolfpld",
+        "slomp",
+        "Lectem",
+        "YaLTeR",
+        "mcourteaux"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "k2-fsa/sherpa-onnx",
+      "url": "https://github.com/k2-fsa/sherpa-onnx",
+      "description": "Speech-to-text, text-to-speech, speaker diarization, speech enhancement, source separation, and VAD using next-gen Kaldi with onnxruntime without Internet connection. Support embedded systems, Android, iOS, HarmonyOS, Raspberry Pi, RISC-V, RK NPU, Axera NPU, Ascend NPU, x86_64 servers, websocket server/client, support 12 programming languages",
+      "language": "C++",
+      "stars": 13716,
+      "forks": 1577,
+      "stars_today": "16 stars today",
+      "built_by": [
+        "csukuangfj",
+        "pkufool",
+        "Wasser1462",
+        "ZhaoChaoqun",
+        "pingfengluo"
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "realsenseai/librealsense",
+      "url": "https://github.com/realsenseai/librealsense",
+      "description": "RealSense SDK",
+      "language": "C++",
+      "stars": 8909,
+      "forks": 5035,
+      "stars_today": "3 stars today",
+      "built_by": [
+        "maloel",
+        "dorodnic",
+        "Nir-Az",
+        "remibettan",
+        "OhadMeir"
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "Livox-SDK/livox_ros_driver2",
+      "url": "https://github.com/Livox-SDK/livox_ros_driver2",
+      "description": "Livox device driver under Ros(Compatible with ros and ros2), support Lidar HAP and Mid-360.",
+      "language": "C++",
+      "stars": 808,
+      "forks": 656,
+      "stars_today": "1 star today",
+      "built_by": [
+        "Livox-Infra",
+        "Livox-SDK",
+        "Livox-louie"
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "taskflow/taskflow",
+      "url": "https://github.com/taskflow/taskflow",
+      "description": "A General-purpose Task-parallel Programming System in C++",
+      "language": "C++",
+      "stars": 12074,
+      "forks": 1397,
+      "stars_today": "4 stars today",
+      "built_by": [
+        "tsung-wei-huang",
+        "twhuang-utah",
+        "clin99",
+        "snikithasiddavatam",
+        "Hatem-707"
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "lammps/lammps",
+      "url": "https://github.com/lammps/lammps",
+      "description": "Public development project of the LAMMPS MD software package",
+      "language": "C++",
+      "stars": 2986,
+      "forks": 2018,
+      "stars_today": "0 stars today",
+      "built_by": [
+        "akohlmey",
+        "stanmoore1",
+        "rbberger",
+        "jrgissing",
+        "jtclemm"
+      ]
+    },
+    {
+      "rank": 15,
+      "name": "assimp/assimp",
+      "url": "https://github.com/assimp/assimp",
+      "description": "The official Open-Asset-Importer-Library Repository. Loads 40+ 3D-file-formats into one unified and clean data structure.",
+      "language": "C++",
+      "stars": 13080,
+      "forks": 3211,
+      "stars_today": "5 stars today",
+      "built_by": [
+        "kimkulling",
+        "acgessler",
+        "turol",
+        "RichardTea",
+        "matyrr-havok"
+      ]
+    },
+    {
+      "rank": 16,
+      "name": "thorvg/thorvg",
+      "url": "https://github.com/thorvg/thorvg",
+      "description": "A production-ready C++ vector graphics engine supporting SVG and Lottie formats, featuring advanced rendering backends such as WebGPU for high-performance graphics.",
+      "language": "C++",
+      "stars": 1705,
+      "forks": 225,
+      "stars_today": "5 stars today",
+      "built_by": [
+        "hermet",
+        "JSUYA",
+        "tinyjin",
+        "SergeyLebedkin",
+        "mmaciola"
+      ]
+    },
+    {
+      "rank": 17,
+      "name": "transmission/transmission",
+      "url": "https://github.com/transmission/transmission",
+      "description": "Official Transmission BitTorrent client repository",
+      "language": "C++",
+      "stars": 14998,
+      "forks": 1413,
+      "stars_today": "11 stars today",
+      "built_by": [
+        "ckerr",
+        "mikedld",
+        "tearfur",
+        "jre",
+        "titer"
+      ]
+    },
+    {
+      "rank": 18,
+      "name": "gabime/spdlog",
+      "url": "https://github.com/gabime/spdlog",
+      "description": "Fast C++ logging library.",
+      "language": "C++",
+      "stars": 29241,
+      "forks": 5261,
+      "stars_today": "21 stars today",
+      "built_by": [
+        "gabime",
+        "Gabi120",
+        "sylveon",
+        "DanielChabrowski",
+        "mguludag"
+      ]
+    },
+    {
+      "rank": 19,
+      "name": "ROCm/rocm-systems",
+      "url": "https://github.com/ROCm/rocm-systems",
+      "description": "super repo for rocm systems projects",
+      "language": "C++",
+      "stars": 439,
+      "forks": 322,
+      "stars_today": "0 stars today",
+      "built_by": [
+        "lmoriche",
+        "kiritigowda",
+        "marifamd",
+        "dgaliffiAMD",
+        "AryanSalmanpour"
+      ]
+    },
+    {
+      "rank": 20,
+      "name": "ERGO-Code/HiGHS",
+      "url": "https://github.com/ERGO-Code/HiGHS",
+      "description": "Linear optimization software",
+      "language": "C++",
+      "stars": 1735,
+      "forks": 334,
+      "stars_today": "0 stars today",
+      "built_by": [
+        "jajhall",
+        "galabovaa",
+        "lgottwald",
+        "fwesselm",
+        "filikat"
+      ]
+    },
+    {
+      "rank": 21,
+      "name": "cloudflare/workerd",
+      "url": "https://github.com/cloudflare/workerd",
+      "description": "The JavaScript / Wasm runtime that powers Cloudflare Workers",
+      "language": "C++",
+      "stars": 8414,
+      "forks": 679,
+      "stars_today": "3 stars today",
+      "built_by": [
+        "jasnell",
+        "kentonv",
+        "anonrig",
+        "fhanau",
+        "dom96"
+      ]
+    },
+    {
+      "rank": 22,
+      "name": "jtenniswood/espcontrol",
+      "url": "https://github.com/jtenniswood/espcontrol",
+      "description": "Esphome based smart home control panel",
+      "language": "C++",
+      "stars": 819,
+      "forks": 107,
+      "stars_today": "15 stars today",
+      "built_by": [
+        "jtenniswood",
+        "salnajjar",
+        "renovate",
+        "modem7",
+        "hunter-nl"
+      ]
+    }
+  ]
+}

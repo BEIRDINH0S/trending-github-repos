@@ -1,0 +1,370 @@
+{
+  "metadata": {
+    "date": "2026-07-23",
+    "language": "go",
+    "total_repositories": 21,
+    "total_stars": 441863,
+    "total_forks": 59329,
+    "generated_by": "GitHub Trending Scraper",
+    "format_version": "1.0"
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "schollz/croc",
+      "url": "https://github.com/schollz/croc",
+      "description": "Easily and securely send things from one computer to another 🐊 📦",
+      "language": "Go",
+      "stars": 37686,
+      "forks": 1489,
+      "stars_today": "739 stars today",
+      "built_by": [
+        "schollz",
+        "TheQueasle",
+        "dependabot",
+        "stefins",
+        "jolheiser"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "jhaals/yopass",
+      "url": "https://github.com/jhaals/yopass",
+      "description": "Secure sharing of secrets, passwords and files",
+      "language": "Go",
+      "stars": 2998,
+      "forks": 431,
+      "stars_today": "43 stars today",
+      "built_by": [
+        "dependabot",
+        "jhaals",
+        "dependabot-preview",
+        "dependabot-bot",
+        "Copilot"
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "Wei-Shaw/sub2api",
+      "url": "https://github.com/Wei-Shaw/sub2api",
+      "description": "Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Grok订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
+      "language": "Go",
+      "stars": 33666,
+      "forks": 6923,
+      "stars_today": "294 stars today",
+      "built_by": [
+        "Wei-Shaw",
+        "IanShaw027",
+        "touwaeriol",
+        "claude",
+        "slovx2"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "ltaoo/wx_channels_download",
+      "url": "https://github.com/ltaoo/wx_channels_download",
+      "description": "微信视频号下载器",
+      "language": "Go",
+      "stars": 7906,
+      "forks": 1282,
+      "stars_today": "147 stars today",
+      "built_by": [
+        "ltaoo",
+        "NormanMises",
+        "claude",
+        "guanzi008",
+        "mochenya"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "grafana/pyroscope",
+      "url": "https://github.com/grafana/pyroscope",
+      "description": "Continuous Profiling Platform. Debug performance issues down to a single line of code",
+      "language": "Go",
+      "stars": 11574,
+      "forks": 777,
+      "stars_today": "11 stars today",
+      "built_by": [
+        "simonswine",
+        "petethepig",
+        "cyriltovena",
+        "pyroscopebot",
+        "kolesnikovae"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "tulir/whatsmeow",
+      "url": "https://github.com/tulir/whatsmeow",
+      "description": "Go library for the WhatsApp web multidevice API",
+      "language": "Go",
+      "stars": 6796,
+      "forks": 1101,
+      "stars_today": "13 stars today",
+      "built_by": [
+        "tulir",
+        "SchulteMK",
+        "Rhymen",
+        "sthales",
+        "houstondapaz"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "grafana/alloy",
+      "url": "https://github.com/grafana/alloy",
+      "description": "OpenTelemetry Collector distribution with programmable pipelines",
+      "language": "Go",
+      "stars": 3356,
+      "forks": 655,
+      "stars_today": "4 stars today",
+      "built_by": [
+        "rfratto",
+        "clayton-cornell",
+        "ptodev",
+        "kalleep",
+        "thampiotr"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "description": "Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "language": "Go",
+      "stars": 10975,
+      "forks": 760,
+      "stars_today": "162 stars today",
+      "built_by": [
+        "lizhengfeng101",
+        "stay-foolish-forever",
+        "chethanuk",
+        "claude",
+        "MuoDoo"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "v2fly/domain-list-community",
+      "url": "https://github.com/v2fly/domain-list-community",
+      "description": "Community managed domain list. Generate geosite.dat for V2Ray.",
+      "language": "Go",
+      "stars": 9185,
+      "forks": 1389,
+      "stars_today": "12 stars today",
+      "built_by": [
+        "Loyalsoldier",
+        "EpLiar",
+        "rootmelo92118",
+        "Robot-DaneelOlivaw",
+        "IceCodeNew"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "kubernetes-sigs/kueue",
+      "url": "https://github.com/kubernetes-sigs/kueue",
+      "description": "Kubernetes-native Job Queueing",
+      "language": "Go",
+      "stars": 2741,
+      "forks": 699,
+      "stars_today": "4 stars today",
+      "built_by": [
+        "mbobrovskyi",
+        "dependabot",
+        "k8s-ci-robot",
+        "tenzen-y",
+        "mimowo"
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "open-telemetry/opentelemetry-collector",
+      "url": "https://github.com/open-telemetry/opentelemetry-collector",
+      "description": "OpenTelemetry Collector",
+      "language": "Go",
+      "stars": 7294,
+      "forks": 2161,
+      "stars_today": "8 stars today",
+      "built_by": [
+        "bogdandrutu",
+        "renovate",
+        "codeboten",
+        "mx-psi",
+        "dmitryax"
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "volcano-sh/volcano",
+      "url": "https://github.com/volcano-sh/volcano",
+      "description": "A Cloud Native Batch System (Project under CNCF)",
+      "language": "Go",
+      "stars": 5799,
+      "forks": 1456,
+      "stars_today": "2 stars today",
+      "built_by": [
+        "volcano-sh-bot",
+        "k82cn",
+        "hzxuzhonghu",
+        "TommyLike",
+        "k8s-ci-robot"
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "rclone/rclone",
+      "url": "https://github.com/rclone/rclone",
+      "description": "\"rsync for cloud storage\" - Google Drive, S3, Dropbox, Backblaze B2, One Drive, Swift, Hubic, Wasabi, Google Cloud Storage, Azure Blob, Azure Files, Yandex Files",
+      "language": "Go",
+      "stars": 58647,
+      "forks": 5241,
+      "stars_today": "71 stars today",
+      "built_by": [
+        "ncw",
+        "albertony",
+        "nielash",
+        "ivandeex",
+        "B4dM4n"
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "golangci/golangci-lint",
+      "url": "https://github.com/golangci/golangci-lint",
+      "description": "Fast linters runner for Go",
+      "language": "Go",
+      "stars": 19202,
+      "forks": 1593,
+      "stars_today": "3 stars today",
+      "built_by": [
+        "ldez",
+        "dependabot",
+        "jirfag",
+        "alexandear",
+        "golangci-releaser"
+      ]
+    },
+    {
+      "rank": 15,
+      "name": "multica-ai/multica",
+      "url": "https://github.com/multica-ai/multica",
+      "description": "The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.",
+      "language": "Go",
+      "stars": 41601,
+      "forks": 5251,
+      "stars_today": "173 stars today",
+      "built_by": [
+        "claude",
+        "Bohan-J",
+        "NevilleQingNY",
+        "multica-agent",
+        "forrestchang"
+      ]
+    },
+    {
+      "rank": 16,
+      "name": "fatedier/frp",
+      "url": "https://github.com/fatedier/frp",
+      "description": "A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet.",
+      "language": "Go",
+      "stars": 108281,
+      "forks": 15131,
+      "stars_today": "52 stars today",
+      "built_by": [
+        "fatedier",
+        "blizard863",
+        "GuyLewin",
+        "yuyulei",
+        "maodanp"
+      ]
+    },
+    {
+      "rank": 17,
+      "name": "kubernetes-sigs/agent-sandbox",
+      "url": "https://github.com/kubernetes-sigs/agent-sandbox",
+      "description": "agent-sandbox enables easy management of isolated, stateful, singleton workloads, ideal for use cases like AI agent runtimes.",
+      "language": "Go",
+      "stars": 3256,
+      "forks": 419,
+      "stars_today": "15 stars today",
+      "built_by": [
+        "janetkuo",
+        "justinsb",
+        "k8s-ci-robot",
+        "shrutiyam-glitch",
+        "vicentefb"
+      ]
+    },
+    {
+      "rank": 18,
+      "name": "argoproj/argo-cd",
+      "url": "https://github.com/argoproj/argo-cd",
+      "description": "Declarative Continuous Deployment for Kubernetes",
+      "language": "Go",
+      "stars": 23697,
+      "forks": 7543,
+      "stars_today": "15 stars today",
+      "built_by": [
+        "dependabot",
+        "alexmt",
+        "crenshaw-dev",
+        "jannfis",
+        "jessesuen"
+      ]
+    },
+    {
+      "rank": 19,
+      "name": "gruntwork-io/terragrunt",
+      "url": "https://github.com/gruntwork-io/terragrunt",
+      "description": "Terragrunt is a flexible orchestration tool that allows Infrastructure as Code written in OpenTofu/Terraform to scale.",
+      "language": "Go",
+      "stars": 9725,
+      "forks": 1214,
+      "stars_today": "3 stars today",
+      "built_by": [
+        "yhakbar",
+        "brikis98",
+        "denis256",
+        "yorinasub17",
+        "dependabot"
+      ]
+    },
+    {
+      "rank": 20,
+      "name": "agentscope-ai/AgentTeams",
+      "url": "https://github.com/agentscope-ai/AgentTeams",
+      "description": "An open-source Collaborative Multi-Agent OS for transparent, human-in-the-loop task coordination via Matrix rooms.",
+      "language": "Go",
+      "stars": 5143,
+      "forks": 610,
+      "stars_today": "22 stars today",
+      "built_by": [
+        "johnlanni",
+        "claude",
+        "shiyiyue1102",
+        "Jing-ze",
+        "googs1025"
+      ]
+    },
+    {
+      "rank": 21,
+      "name": "podman-container-tools/podman",
+      "url": "https://github.com/podman-container-tools/podman",
+      "description": "Podman: A tool for managing OCI containers and pods.",
+      "language": "Go",
+      "stars": 32335,
+      "forks": 3204,
+      "stars_today": "13 stars today",
+      "built_by": [
+        "openshift-merge-robot",
+        "openshift-merge-bot",
+        "mheon",
+        "Luap99",
+        "rhatdan"
+      ]
+    }
+  ]
+}
