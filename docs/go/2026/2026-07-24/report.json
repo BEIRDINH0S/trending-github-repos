@@ -1,0 +1,353 @@
+{
+  "metadata": {
+    "date": "2026-07-24",
+    "language": "go",
+    "total_repositories": 20,
+    "total_stars": 342354,
+    "total_forks": 35457,
+    "generated_by": "GitHub Trending Scraper",
+    "format_version": "1.0"
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "description": "Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "language": "Go",
+      "stars": 11632,
+      "forks": 803,
+      "stars_today": "180 stars today",
+      "built_by": [
+        "lizhengfeng101",
+        "stay-foolish-forever",
+        "chethanuk",
+        "claude",
+        "MuoDoo"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "schollz/croc",
+      "url": "https://github.com/schollz/croc",
+      "description": "Easily and securely send things from one computer to another 🐊 📦",
+      "language": "Go",
+      "stars": 38121,
+      "forks": 1510,
+      "stars_today": "797 stars today",
+      "built_by": [
+        "schollz",
+        "TheQueasle",
+        "dependabot",
+        "stefins",
+        "jolheiser"
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "Wei-Shaw/sub2api",
+      "url": "https://github.com/Wei-Shaw/sub2api",
+      "description": "Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Grok订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
+      "language": "Go",
+      "stars": 33875,
+      "forks": 6983,
+      "stars_today": "221 stars today",
+      "built_by": [
+        "Wei-Shaw",
+        "IanShaw027",
+        "touwaeriol",
+        "claude",
+        "slovx2"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "aquasecurity/trivy",
+      "url": "https://github.com/aquasecurity/trivy",
+      "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
+      "language": "Go",
+      "stars": 37050,
+      "forks": 552,
+      "stars_today": "24 stars today",
+      "built_by": [
+        "knqyf263",
+        "DmitriyLewen",
+        "dependabot",
+        "nikpivkin",
+        "simar7"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "maximhq/bifrost",
+      "url": "https://github.com/maximhq/bifrost",
+      "description": "Fastest enterprise AI gateway (50x faster than LiteLLM) with adaptive load balancer, cluster mode, guardrails, 1000+ models support & <100 µs overhead at 5k RPS.",
+      "language": "Go",
+      "stars": 6746,
+      "forks": 935,
+      "stars_today": "37 stars today",
+      "built_by": [
+        "akshaydeo",
+        "github-actions",
+        "Pratham-Mishra04",
+        "impoiler",
+        "TejasGhatte"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "aldinokemal/go-whatsapp-web-multidevice",
+      "url": "https://github.com/aldinokemal/go-whatsapp-web-multidevice",
+      "description": "GOWA - WhatsApp REST API with support for UI, Multi Account, Webhooks, and MCP, and Chatwoot. Built with Golang for efficient memory use.",
+      "language": "Go",
+      "stars": 4323,
+      "forks": 1049,
+      "stars_today": "22 stars today",
+      "built_by": [
+        "aldinokemal",
+        "cursoragent",
+        "claude",
+        "juliomuhlbauer",
+        "coderabbitai"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "anchore/syft",
+      "url": "https://github.com/anchore/syft",
+      "description": "CLI tool and library for generating a Software Bill of Materials from container images and filesystems",
+      "language": "Go",
+      "stars": 9288,
+      "forks": 902,
+      "stars_today": "6 stars today",
+      "built_by": [
+        "wagoodman",
+        "dependabot",
+        "spiffcs",
+        "anchore-actions-token-generator",
+        "kzantow"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "hatchet-dev/hatchet",
+      "url": "https://github.com/hatchet-dev/hatchet",
+      "description": "🪓 An orchestration engine for background tasks, AI agents, and durable workflows",
+      "language": "Go",
+      "stars": 7572,
+      "forks": 454,
+      "stars_today": "21 stars today",
+      "built_by": [
+        "dependabot",
+        "abelanger5",
+        "mrkaye97",
+        "grutt",
+        "mnafees"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "ethereum-optimism/optimism",
+      "url": "https://github.com/ethereum-optimism/optimism",
+      "description": "Optimism is Ethereum, scaled.",
+      "language": "Go",
+      "stars": 6454,
+      "forks": 3999,
+      "stars_today": "0 stars today",
+      "built_by": [
+        "tynes",
+        "mergify",
+        "ajsutton",
+        "mslipper",
+        "smartcontracts"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "grafana/pyroscope",
+      "url": "https://github.com/grafana/pyroscope",
+      "description": "Continuous Profiling Platform. Debug performance issues down to a single line of code",
+      "language": "Go",
+      "stars": 11583,
+      "forks": 777,
+      "stars_today": "12 stars today",
+      "built_by": [
+        "simonswine",
+        "petethepig",
+        "cyriltovena",
+        "pyroscopebot",
+        "kolesnikovae"
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "gastownhall/beads",
+      "url": "https://github.com/gastownhall/beads",
+      "description": "Beads - A memory upgrade for your coding agent",
+      "language": "Go",
+      "stars": 25603,
+      "forks": 1726,
+      "stars_today": "95 stars today",
+      "built_by": [
+        "steveyegge",
+        "claude",
+        "maphew",
+        "coffeegoddd",
+        "julianknutsen"
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "influxdata/telegraf",
+      "url": "https://github.com/influxdata/telegraf",
+      "description": "Agent for collecting, processing, aggregating, and writing metrics, logs, and other arbitrary data.",
+      "language": "Go",
+      "stars": 17721,
+      "forks": 5831,
+      "stars_today": "2 stars today",
+      "built_by": [
+        "danielnelson",
+        "dependabot",
+        "srebhan",
+        "sparrc",
+        "powersj"
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "wal-g/wal-g",
+      "url": "https://github.com/wal-g/wal-g",
+      "description": "Archival and Restoration for databases in the Cloud",
+      "language": "Go",
+      "stars": 4188,
+      "forks": 564,
+      "stars_today": "4 stars today",
+      "built_by": [
+        "x4m",
+        "usernamedt",
+        "serprex",
+        "katie31",
+        "mialinx"
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "samber/lo",
+      "url": "https://github.com/samber/lo",
+      "description": "💥 A Lodash-style Go library based on Go 1.18+ Generics (map, filter, contains, find...)",
+      "language": "Go",
+      "stars": 21394,
+      "forks": 946,
+      "stars_today": "2 stars today",
+      "built_by": [
+        "samber",
+        "dependabot",
+        "d-enk",
+        "NathanBaulch",
+        "CorentinClabaut"
+      ]
+    },
+    {
+      "rank": 15,
+      "name": "voocel/ainovel-cli",
+      "url": "https://github.com/voocel/ainovel-cli",
+      "description": "✨多agent实现全自动AI小说生成",
+      "language": "Go",
+      "stars": 1486,
+      "forks": 297,
+      "stars_today": "25 stars today",
+      "built_by": [
+        "voocel",
+        "star8521",
+        "bakaz",
+        "525300887039",
+        "MaybeJustLikeThis"
+      ]
+    },
+    {
+      "rank": 16,
+      "name": "seaweedfs/seaweedfs",
+      "url": "https://github.com/seaweedfs/seaweedfs",
+      "description": "SeaweedFS is a distributed storage system for object storage (S3), file systems, and Iceberg tables, designed to handle billions of files with O(1) disk access and effortless horizontal scaling.",
+      "language": "Go",
+      "stars": 33680,
+      "forks": 2923,
+      "stars_today": "30 stars today",
+      "built_by": [
+        "chrislusf",
+        "dependabot",
+        "kmlebedev",
+        "chrisluuber",
+        "gemini-code-assist"
+      ]
+    },
+    {
+      "rank": 17,
+      "name": "zitadel/zitadel",
+      "url": "https://github.com/zitadel/zitadel",
+      "description": "ZITADEL - Identity infrastructure, simplified for you.",
+      "language": "Go",
+      "stars": 14522,
+      "forks": 1197,
+      "stars_today": "13 stars today",
+      "built_by": [
+        "livio-a",
+        "peintnermax",
+        "hifabienne",
+        "adlerhurst",
+        "fforootd"
+      ]
+    },
+    {
+      "rank": 18,
+      "name": "ava-labs/avalanchego",
+      "url": "https://github.com/ava-labs/avalanchego",
+      "description": "Go implementation of an Avalanche node.",
+      "language": "Go",
+      "stars": 2355,
+      "forks": 860,
+      "stars_today": "0 stars today",
+      "built_by": [
+        "StephenButtolph",
+        "aaronbuchwald",
+        "ceyonur",
+        "abi87",
+        "JonathanOppenheimer"
+      ]
+    },
+    {
+      "rank": 19,
+      "name": "glanceapp/glance",
+      "url": "https://github.com/glanceapp/glance",
+      "description": "A self-hosted dashboard that puts all your feeds in one place",
+      "language": "Go",
+      "stars": 35914,
+      "forks": 1385,
+      "stars_today": "39 stars today",
+      "built_by": [
+        "svilenmarkov",
+        "ralphocdol",
+        "c0smicdev",
+        "wfg",
+        "DVDAndroid"
+      ]
+    },
+    {
+      "rank": 20,
+      "name": "google/gvisor",
+      "url": "https://github.com/google/gvisor",
+      "description": "Application Kernel for Containers",
+      "language": "Go",
+      "stars": 18847,
+      "forks": 1764,
+      "stars_today": "13 stars today",
+      "built_by": [
+        "gvisor-bot",
+        "ayushr2",
+        "avagin",
+        "fvoznika",
+        "EtiennePerot"
+      ]
+    }
+  ]
+}
