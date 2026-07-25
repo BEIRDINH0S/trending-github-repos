@@ -1,0 +1,317 @@
+{
+  "metadata": {
+    "date": "2026-07-25",
+    "language": "c",
+    "total_repositories": 18,
+    "total_stars": 351774,
+    "total_forks": 67690,
+    "generated_by": "GitHub Trending Scraper",
+    "format_version": "1.0"
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "colbymchenry/codegraph",
+      "url": "https://github.com/colbymchenry/codegraph",
+      "description": "Pre-indexed code knowledge graph, auto syncs on code changes, for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
+      "language": "C",
+      "stars": 62285,
+      "forks": 3900,
+      "stars_today": "311 stars today",
+      "built_by": [
+        "colbymchenry",
+        "claude",
+        "github-actions",
+        "omonien",
+        "andreinknv"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "zephyrproject-rtos/zephyr",
+      "url": "https://github.com/zephyrproject-rtos/zephyr",
+      "description": "Primary Git Repository for the Zephyr Project. Zephyr is a new generation, scalable, optimized, secure RTOS for multiple hardware architectures.",
+      "language": "C",
+      "stars": 15986,
+      "forks": 9607,
+      "stars_today": "11 stars today",
+      "built_by": [
+        "nashif",
+        "jukkar",
+        "galak",
+        "gmarull",
+        "cvinayak"
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "DeusData/codebase-memory-mcp",
+      "url": "https://github.com/DeusData/codebase-memory-mcp",
+      "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
+      "language": "C",
+      "stars": 35019,
+      "forks": 2708,
+      "stars_today": "380 stars today",
+      "built_by": [
+        "DeusData",
+        "shanemccarron-maker",
+        "claude",
+        "dependabot",
+        "mvanhorn"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "OpenEtherCATsociety/SOEM",
+      "url": "https://github.com/OpenEtherCATsociety/SOEM",
+      "description": "Simple Open Source EtherCAT Master",
+      "language": "C",
+      "stars": 2024,
+      "forks": 896,
+      "stars_today": "5 stars today",
+      "built_by": [
+        "hefloryd",
+        "nakarlsson",
+        "ArthurKetels",
+        "mheden",
+        "claudioscordino"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "mkj/dropbear",
+      "url": "https://github.com/mkj/dropbear",
+      "description": "Dropbear SSH",
+      "language": "C",
+      "stars": 2335,
+      "forks": 464,
+      "stars_today": "3 stars today",
+      "built_by": [
+        "mkj",
+        "fperrad",
+        "gportay",
+        "HansH111",
+        "stokito"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "SchedMD/slurm",
+      "url": "https://github.com/SchedMD/slurm",
+      "description": "Slurm: A Highly Scalable Workload Manager",
+      "language": "C",
+      "stars": 4182,
+      "forks": 870,
+      "stars_today": "2 stars today",
+      "built_by": [
+        "dannyauble",
+        "jette",
+        "wickberg",
+        "naterini",
+        "gaijin03"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "pgbouncer/pgbouncer",
+      "url": "https://github.com/pgbouncer/pgbouncer",
+      "description": "lightweight connection pooler for PostgreSQL",
+      "language": "C",
+      "stars": 4277,
+      "forks": 584,
+      "stars_today": "2 stars today",
+      "built_by": [
+        "markokr",
+        "petere",
+        "JelteF",
+        "eulerto",
+        "emelsimsek"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "redis/redis",
+      "url": "https://github.com/redis/redis",
+      "description": "For developers, who are building real-time data-driven applications, Redis is the preferred, fastest, and most feature-rich cache, data structure server, and document and vector query engine.",
+      "language": "C",
+      "stars": 75662,
+      "forks": 24731,
+      "stars_today": "25 stars today",
+      "built_by": [
+        "antirez",
+        "oranagra",
+        "pietern",
+        "enjoy-binbin",
+        "sundb"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "zmap/zmap",
+      "url": "https://github.com/zmap/zmap",
+      "description": "ZMap is a fast single packet network scanner designed for Internet-wide network surveys.",
+      "language": "C",
+      "stars": 6324,
+      "forks": 985,
+      "stars_today": "3 stars today",
+      "built_by": [
+        "zakird",
+        "dadrian",
+        "paul-pearce",
+        "phillip-stephens",
+        "amirian28"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "esnet/iperf",
+      "url": "https://github.com/esnet/iperf",
+      "description": "iperf3: A TCP, UDP, and SCTP network bandwidth measurement tool",
+      "language": "C",
+      "stars": 8642,
+      "forks": 1434,
+      "stars_today": "3 stars today",
+      "built_by": [
+        "bmah888",
+        "jdugan1024",
+        "bltierney",
+        "davidBar-On",
+        "swlars"
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "bkaradzic/bgfx",
+      "url": "https://github.com/bkaradzic/bgfx",
+      "description": "Cross-platform, graphics API agnostic, \"Bring Your Own Engine/Framework\" style rendering library.",
+      "language": "C",
+      "stars": 17317,
+      "forks": 2114,
+      "stars_today": "8 stars today",
+      "built_by": [
+        "bkaradzic",
+        "dariomanesku",
+        "attilaz",
+        "MikePopoloski",
+        "pezcode"
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "tianocore/edk2",
+      "url": "https://github.com/tianocore/edk2",
+      "description": "EDK II",
+      "language": "C",
+      "stars": 6125,
+      "forks": 3212,
+      "stars_today": "2 stars today",
+      "built_by": [
+        "niruiyu",
+        "lzeng14",
+        "lgao4",
+        "jljusten",
+        "mdkinney"
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "califio/publications",
+      "url": "https://github.com/califio/publications",
+      "description": "Publications from Calif",
+      "language": "C",
+      "stars": 681,
+      "forks": 118,
+      "stars_today": "5 stars today",
+      "built_by": [
+        "tedcalif",
+        "claude",
+        "thaidn"
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "valinet/ExplorerPatcher",
+      "url": "https://github.com/valinet/ExplorerPatcher",
+      "description": "This project aims to enhance the working environment on Windows",
+      "language": "C",
+      "stars": 33407,
+      "forks": 1357,
+      "stars_today": "14 stars today",
+      "built_by": [
+        "valinet",
+        "Amrsatrio",
+        "Kichura",
+        "AllieTheFox",
+        "Speedy37"
+      ]
+    },
+    {
+      "rank": 15,
+      "name": "espressif/esp-drone",
+      "url": "https://github.com/espressif/esp-drone",
+      "description": "Mini Drone/Quadcopter Firmware for ESP32 and ESP32-S Series SoCs.",
+      "language": "C",
+      "stars": 2058,
+      "forks": 477,
+      "stars_today": "20 stars today",
+      "built_by": [
+        "leeebo",
+        "skywxFang",
+        "liangshuzhi5193",
+        "hellvesper",
+        "Wxinfeng"
+      ]
+    },
+    {
+      "rank": 16,
+      "name": "curl/curl",
+      "url": "https://github.com/curl/curl",
+      "description": "A command line tool and library for transferring data with URL syntax, supporting DICT, FILE, FTP, FTPS, GOPHER, GOPHERS, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, MQTT, MQTTS, POP3, POP3S, RTSP, SCP, SFTP, SMB, SMBS, SMTP, SMTPS, TELNET, TFTP, WS and WSS. libcurl offers a myriad of powerful features",
+      "language": "C",
+      "stars": 42463,
+      "forks": 7277,
+      "stars_today": "10 stars today",
+      "built_by": [
+        "bagder",
+        "vszakats",
+        "yangtse",
+        "captain-caveman2k",
+        "dfandrich"
+      ]
+    },
+    {
+      "rank": 17,
+      "name": "taosdata/TDengine",
+      "url": "https://github.com/taosdata/TDengine",
+      "description": "High-performance, scalable time-series database designed for Industrial IoT (IIoT) scenarios",
+      "language": "C",
+      "stars": 24994,
+      "forks": 5008,
+      "stars_today": "7 stars today",
+      "built_by": [
+        "guanshengliang",
+        "hjxilinx",
+        "hzcheng",
+        "dapan1121",
+        "yihaoDeng"
+      ]
+    },
+    {
+      "rank": 18,
+      "name": "fluent/fluent-bit",
+      "url": "https://github.com/fluent/fluent-bit",
+      "description": "Fast and Lightweight Logs, Metrics and Traces processor for Linux, BSD, OSX and Windows",
+      "language": "C",
+      "stars": 7993,
+      "forks": 1948,
+      "stars_today": "3 stars today",
+      "built_by": [
+        "edsiper",
+        "cosmo0920",
+        "nokute78",
+        "pwhelan",
+        "leonardo-albertovich"
+      ]
+    }
+  ]
+}
