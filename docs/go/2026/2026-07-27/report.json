@@ -1,0 +1,403 @@
+{
+  "metadata": {
+    "date": "2026-07-27",
+    "language": "go",
+    "total_repositories": 23,
+    "total_stars": 1076768,
+    "total_forks": 176094,
+    "generated_by": "GitHub Trending Scraper",
+    "format_version": "1.0"
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "yorukot/superfile",
+      "url": "https://github.com/yorukot/superfile",
+      "description": "Pretty fancy and modern terminal file manager",
+      "language": "Go",
+      "stars": 20298,
+      "forks": 640,
+      "stars_today": "131 stars today",
+      "built_by": [
+        "yorukot",
+        "lazysegtree",
+        "renovate",
+        "nonepork",
+        "AnshumanNeon"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "description": "Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "language": "Go",
+      "stars": 13948,
+      "forks": 946,
+      "stars_today": "832 stars today",
+      "built_by": [
+        "lizhengfeng101",
+        "chethanuk",
+        "stay-foolish-forever",
+        "claude",
+        "MuoDoo"
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "moby/moby",
+      "url": "https://github.com/moby/moby",
+      "description": "The Moby Project - a collaborative project for the container ecosystem to assemble container-based systems",
+      "language": "Go",
+      "stars": 71910,
+      "forks": 19065,
+      "stars_today": "13 stars today",
+      "built_by": [
+        "thaJeztah",
+        "cpuguy83",
+        "crosbymichael",
+        "vvoland",
+        "vdemeester"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "wailsapp/wails",
+      "url": "https://github.com/wailsapp/wails",
+      "description": "Create beautiful applications using Go",
+      "language": "Go",
+      "stars": 35520,
+      "forks": 1777,
+      "stars_today": "81 stars today",
+      "built_by": [
+        "leaanthony",
+        "github-actions",
+        "claude",
+        "stffabi",
+        "popaprozac"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "ethereum/go-ethereum",
+      "url": "https://github.com/ethereum/go-ethereum",
+      "description": "Go implementation of the Ethereum protocol",
+      "language": "Go",
+      "stars": 51230,
+      "forks": 22014,
+      "stars_today": "15 stars today",
+      "built_by": [
+        "obscuren",
+        "karalabe",
+        "fjl",
+        "holiman",
+        "rjl493456442"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "hashicorp/terraform",
+      "url": "https://github.com/hashicorp/terraform",
+      "description": "Terraform enables you to safely and predictably create, change, and improve infrastructure. It is a source-available tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned.",
+      "language": "Go",
+      "stars": 49301,
+      "forks": 10579,
+      "stars_today": "11 stars today",
+      "built_by": [
+        "jbardin",
+        "mitchellh",
+        "apparentlymart",
+        "stack72",
+        "catsby"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "kubernetes/kubernetes",
+      "url": "https://github.com/kubernetes/kubernetes",
+      "description": "Production-Grade Container Scheduling and Management",
+      "language": "Go",
+      "stars": 123978,
+      "forks": 43607,
+      "stars_today": "28 stars today",
+      "built_by": [
+        "k8s-ci-robot",
+        "liggitt",
+        "thockin",
+        "wojtek-t",
+        "brendandburns"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "stretchr/testify",
+      "url": "https://github.com/stretchr/testify",
+      "description": "A toolkit with common assertions and mocks that plays nicely with the standard library",
+      "language": "Go",
+      "stars": 26114,
+      "forks": 1826,
+      "stars_today": "8 stars today",
+      "built_by": [
+        "ernesto-jimenez",
+        "dolmen",
+        "brackendawson",
+        "tylerstillwater",
+        "boyan-soubachov"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "spf13/viper",
+      "url": "https://github.com/spf13/viper",
+      "description": "Go configuration with fangs",
+      "language": "Go",
+      "stars": 30384,
+      "forks": 2201,
+      "stars_today": "8 stars today",
+      "built_by": [
+        "sagikazarmark",
+        "dependabot",
+        "spf13",
+        "bep",
+        "spacez320"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "projectdiscovery/nuclei",
+      "url": "https://github.com/projectdiscovery/nuclei",
+      "description": "Nuclei is a fast, customizable vulnerability scanner powered by the global security community and built on a simple YAML-based DSL, enabling collaboration to tackle trending vulnerabilities on the internet. It helps you find vulnerabilities in your applications, APIs, networks, DNS, and cloud configurations.",
+      "language": "Go",
+      "stars": 30034,
+      "forks": 3675,
+      "stars_today": "31 stars today",
+      "built_by": [
+        "Mzack9999",
+        "ehsandeep",
+        "dependabot",
+        "Ice3man543",
+        "dwisiswant0"
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "opencode-ai/opencode",
+      "url": "https://github.com/opencode-ai/opencode",
+      "description": "A powerful AI coding agent. Built for the terminal.",
+      "language": "Go",
+      "stars": 13558,
+      "forks": 1656,
+      "stars_today": "14 stars today",
+      "built_by": [
+        "kujtimiihoxha",
+        "ezynda3",
+        "rekram1-node",
+        "AvicennaJr",
+        "garrettladley"
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "swaggo/swag",
+      "url": "https://github.com/swaggo/swag",
+      "description": "Automatically generate RESTful API documentation with Swagger 2.0 for Go.",
+      "language": "Go",
+      "stars": 12932,
+      "forks": 1451,
+      "stars_today": "9 stars today",
+      "built_by": [
+        "easonlin404",
+        "ubogdan",
+        "sdghchj",
+        "pei0804",
+        "dependabot"
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "golang/go",
+      "url": "https://github.com/golang/go",
+      "description": "The Go programming language",
+      "language": "Go",
+      "stars": 135395,
+      "forks": 19147,
+      "stars_today": "27 stars today",
+      "built_by": [
+        "rsc",
+        "griesemer",
+        "robpike",
+        "ianlancetaylor",
+        "bradfitz"
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "gohugoio/hugo",
+      "url": "https://github.com/gohugoio/hugo",
+      "description": "The world’s fastest framework for building websites.",
+      "language": "Go",
+      "stars": 89198,
+      "forks": 8310,
+      "stars_today": "20 stars today",
+      "built_by": [
+        "bep",
+        "dependabot",
+        "spf13",
+        "jmooring",
+        "anthonyfok"
+      ]
+    },
+    {
+      "rank": 15,
+      "name": "vitessio/vitess",
+      "url": "https://github.com/vitessio/vitess",
+      "description": "Vitess is a database clustering system for horizontal scaling of MySQL.",
+      "language": "Go",
+      "stars": 21169,
+      "forks": 2374,
+      "stars_today": "6 stars today",
+      "built_by": [
+        "sougou",
+        "alainjobart",
+        "shlomi-noach",
+        "systay",
+        "harshit-gangal"
+      ]
+    },
+    {
+      "rank": 16,
+      "name": "ollama/ollama",
+      "url": "https://github.com/ollama/ollama",
+      "description": "Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+      "language": "Go",
+      "stars": 176950,
+      "forks": 17124,
+      "stars_today": "83 stars today",
+      "built_by": [
+        "mxyng",
+        "jmorganca",
+        "dhiltgen",
+        "BruceMacD",
+        "jessegross"
+      ]
+    },
+    {
+      "rank": 17,
+      "name": "zzet/gortex",
+      "url": "https://github.com/zzet/gortex",
+      "description": "High-performance code-intelligence engine for AI agents and IDE, supports 257 languages, multi repositories, based on graph, with access via CLI, MCP Server, and API. AI coding agents teammate - expose only needed information, cutting token usage up to 50x. 100% local. Discord: https://discord.gg/ysC2prTGD",
+      "language": "Go",
+      "stars": 955,
+      "forks": 82,
+      "stars_today": "8 stars today",
+      "built_by": [
+        "zzet",
+        "claude",
+        "avfirsov",
+        "dependabot",
+        "blankanswer"
+      ]
+    },
+    {
+      "rank": 18,
+      "name": "prometheus/prometheus",
+      "url": "https://github.com/prometheus/prometheus",
+      "description": "The Prometheus monitoring system and time series database.",
+      "language": "Go",
+      "stars": 65320,
+      "forks": 10705,
+      "stars_today": "18 stars today",
+      "built_by": [
+        "fabxc",
+        "juliusv",
+        "beorn7",
+        "bboreham",
+        "dependabot"
+      ]
+    },
+    {
+      "rank": 19,
+      "name": "quic-go/quic-go",
+      "url": "https://github.com/quic-go/quic-go",
+      "description": "A production-ready QUIC implementation in pure Go",
+      "language": "Go",
+      "stars": 11724,
+      "forks": 1602,
+      "stars_today": "4 stars today",
+      "built_by": [
+        "marten-seemann",
+        "lucas-clemente",
+        "dependabot",
+        "WeidiDeng",
+        "Glonee"
+      ]
+    },
+    {
+      "rank": 20,
+      "name": "tailscale/tailscale",
+      "url": "https://github.com/tailscale/tailscale",
+      "description": "The easiest, most secure way to use WireGuard and 2FA.",
+      "language": "Go",
+      "stars": 34376,
+      "forks": 2894,
+      "stars_today": "41 stars today",
+      "built_by": [
+        "bradfitz",
+        "danderson",
+        "josharian",
+        "raggi",
+        "andrew-d"
+      ]
+    },
+    {
+      "rank": 21,
+      "name": "juanfont/headscale",
+      "url": "https://github.com/juanfont/headscale",
+      "description": "An open source, self-hosted implementation of the Tailscale control server",
+      "language": "Go",
+      "stars": 42149,
+      "forks": 2395,
+      "stars_today": "39 stars today",
+      "built_by": [
+        "kradalby",
+        "juanfont",
+        "nblock",
+        "restanrm"
+      ]
+    },
+    {
+      "rank": 22,
+      "name": "google/gvisor",
+      "url": "https://github.com/google/gvisor",
+      "description": "Application Kernel for Containers",
+      "language": "Go",
+      "stars": 18873,
+      "forks": 1798,
+      "stars_today": "13 stars today",
+      "built_by": [
+        "gvisor-bot",
+        "ayushr2",
+        "avagin",
+        "fvoznika",
+        "EtiennePerot"
+      ]
+    },
+    {
+      "rank": 23,
+      "name": "ikemen-engine/Ikemen-GO",
+      "url": "https://github.com/ikemen-engine/Ikemen-GO",
+      "description": "An open-source fighting game engine that supports MUGEN resources.",
+      "language": "Go",
+      "stars": 1452,
+      "forks": 226,
+      "stars_today": "8 stars today",
+      "built_by": [
+        "K4thos",
+        "potsmugen",
+        "Windblade-GR01",
+        "lint-action",
+        "NeatUnsou"
+      ]
+    }
+  ]
+}
