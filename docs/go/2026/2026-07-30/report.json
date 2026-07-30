@@ -1,0 +1,386 @@
+{
+  "metadata": {
+    "date": "2026-07-30",
+    "language": "go",
+    "total_repositories": 22,
+    "total_stars": 483214,
+    "total_forks": 46065,
+    "generated_by": "GitHub Trending Scraper",
+    "format_version": "1.0"
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "description": "Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "language": "Go",
+      "stars": 16067,
+      "forks": 1083,
+      "stars_today": "359 stars today",
+      "built_by": [
+        "lizhengfeng101",
+        "chethanuk",
+        "stay-foolish-forever",
+        "claude",
+        "MuoDoo"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "benbjohnson/litestream",
+      "url": "https://github.com/benbjohnson/litestream",
+      "description": "Streaming replication for SQLite.",
+      "language": "Go",
+      "stars": 14143,
+      "forks": 382,
+      "stars_today": "30 stars today",
+      "built_by": [
+        "benbjohnson",
+        "corylanou",
+        "claude",
+        "hifi",
+        "dependabot"
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "rorkai/App-Store-Connect-CLI",
+      "url": "https://github.com/rorkai/App-Store-Connect-CLI",
+      "description": "Fast, scriptable CLI for the App Store Connect API. Automate TestFlight, builds, submissions, signing, analytics, screenshots, subscriptions, and more. JSON-first, no interactive prompts",
+      "language": "Go",
+      "stars": 5341,
+      "forks": 468,
+      "stars_today": "29 stars today",
+      "built_by": [
+        "rudrankriyam",
+        "cursoragent",
+        "mithileshchellappan",
+        "Abdo-codes",
+        "claude"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "getarcaneapp/arcane",
+      "url": "https://github.com/getarcaneapp/arcane",
+      "description": "Modern Docker Management, Designed for Everyone",
+      "language": "Go",
+      "stars": 6769,
+      "forks": 265,
+      "stars_today": "83 stars today",
+      "built_by": [
+        "kmendell",
+        "dependabot",
+        "getarcaneappbot",
+        "cabaucom376",
+        "GiulioSavini"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "oauth2-proxy/oauth2-proxy",
+      "url": "https://github.com/oauth2-proxy/oauth2-proxy",
+      "description": "A reverse proxy that provides authentication with Google, Azure, OpenID Connect and many more identity providers.",
+      "language": "Go",
+      "stars": 14773,
+      "forks": 2164,
+      "stars_today": "11 stars today",
+      "built_by": [
+        "JoelSpeed",
+        "tuunit",
+        "jehiah",
+        "renovate",
+        "mbland"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "gastownhall/gastown",
+      "url": "https://github.com/gastownhall/gastown",
+      "description": "Gas Town - multi-agent workspace manager",
+      "language": "Go",
+      "stars": 17339,
+      "forks": 1595,
+      "stars_today": "26 stars today",
+      "built_by": [
+        "steveyegge",
+        "claude",
+        "julianknutsen",
+        "Thalia-geraghty",
+        "seanbearden"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "Project-HAMi/HAMi",
+      "url": "https://github.com/Project-HAMi/HAMi",
+      "description": "Heterogeneous GPU Sharing on Kubernetes",
+      "language": "Go",
+      "stars": 4116,
+      "forks": 672,
+      "stars_today": "18 stars today",
+      "built_by": [
+        "archlitchi",
+        "dependabot",
+        "lengrongfu",
+        "wawa0210",
+        "Shouren"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "netbirdio/netbird",
+      "url": "https://github.com/netbirdio/netbird",
+      "description": "Connect your devices into a secure WireGuard®-based overlay network with SSO, MFA and granular access controls.",
+      "language": "Go",
+      "stars": 27882,
+      "forks": 1554,
+      "stars_today": "55 stars today",
+      "built_by": [
+        "mlsmaycon",
+        "pascal-fischer",
+        "lixmal",
+        "braginini",
+        "pappz"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "certimate-go/certimate",
+      "url": "https://github.com/certimate-go/certimate",
+      "description": "An open-source and free self-hosted SSL certificates ACME tool, automates the full-cycle of issuance, deployment, renewal, and monitoring visually. 完全开源免费的自托管 SSL 证书 ACME 工具，申请、部署、续期、监控全流程自动化可视化，支持各大主流云厂商。",
+      "language": "Go",
+      "stars": 8966,
+      "forks": 867,
+      "stars_today": "83 stars today",
+      "built_by": [
+        "fudiwei",
+        "usual2970",
+        "LeoChen98",
+        "Netrvin",
+        "PBK-B"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "ollama/ollama",
+      "url": "https://github.com/ollama/ollama",
+      "description": "Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+      "language": "Go",
+      "stars": 177248,
+      "forks": 17177,
+      "stars_today": "111 stars today",
+      "built_by": [
+        "mxyng",
+        "jmorganca",
+        "dhiltgen",
+        "BruceMacD",
+        "jessegross"
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "higress-group/higress",
+      "url": "https://github.com/higress-group/higress",
+      "description": "🤖 AI Gateway | AI Native API Gateway",
+      "language": "Go",
+      "stars": 8967,
+      "forks": 1204,
+      "stars_today": "4 stars today",
+      "built_by": [
+        "johnlanni",
+        "CH3CHO",
+        "rinfx",
+        "Jing-ze",
+        "Xunzhuo"
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "go-gitea/gitea",
+      "url": "https://github.com/go-gitea/gitea",
+      "description": "Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD",
+      "language": "Go",
+      "stars": 57114,
+      "forks": 6951,
+      "stars_today": "24 stars today",
+      "built_by": [
+        "lunny",
+        "unknwon",
+        "wxiaoguang",
+        "GiteaBot",
+        "silverwind"
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "kagent-dev/kagent",
+      "url": "https://github.com/kagent-dev/kagent",
+      "description": "Cloud Native Agentic AI | Discord: https://bit.ly/kagentdiscord",
+      "language": "Go",
+      "stars": 3417,
+      "forks": 683,
+      "stars_today": "12 stars today",
+      "built_by": [
+        "EItanya",
+        "peterj",
+        "dependabot",
+        "ilackarms",
+        "supreme-gg-gg"
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "heroiclabs/nakama",
+      "url": "https://github.com/heroiclabs/nakama",
+      "description": "Scalable open-source game backend server: multiplayer, matchmaking, leaderboards, chat, and social features for games.",
+      "language": "Go",
+      "stars": 13005,
+      "forks": 1451,
+      "stars_today": "17 stars today",
+      "built_by": [
+        "zyro",
+        "novabyte",
+        "sesposito",
+        "mofirouz",
+        "ftkg"
+      ]
+    },
+    {
+      "rank": 15,
+      "name": "yorukot/superfile",
+      "url": "https://github.com/yorukot/superfile",
+      "description": "Pretty fancy and modern terminal file manager",
+      "language": "Go",
+      "stars": 21852,
+      "forks": 721,
+      "stars_today": "548 stars today",
+      "built_by": [
+        "yorukot",
+        "lazysegtree",
+        "renovate",
+        "nonepork",
+        "AnshumanNeon"
+      ]
+    },
+    {
+      "rank": 16,
+      "name": "gtsteffaniak/filebrowser",
+      "url": "https://github.com/gtsteffaniak/filebrowser",
+      "description": "📂 Web File Browser",
+      "language": "Go",
+      "stars": 7569,
+      "forks": 396,
+      "stars_today": "20 stars today",
+      "built_by": [
+        "gtsteffaniak",
+        "Kurami32",
+        "Stephan-P",
+        "dependabot",
+        "pyroch"
+      ]
+    },
+    {
+      "rank": 17,
+      "name": "seaweedfs/seaweedfs",
+      "url": "https://github.com/seaweedfs/seaweedfs",
+      "description": "SeaweedFS is a distributed storage system for object storage (S3), file systems, and Iceberg tables, designed to handle billions of files with O(1) disk access and effortless horizontal scaling.",
+      "language": "Go",
+      "stars": 33794,
+      "forks": 2928,
+      "stars_today": "28 stars today",
+      "built_by": [
+        "chrislusf",
+        "dependabot",
+        "kmlebedev",
+        "chrisluuber",
+        "gemini-code-assist"
+      ]
+    },
+    {
+      "rank": 18,
+      "name": "kunchenguid/treehouse",
+      "url": "https://github.com/kunchenguid/treehouse",
+      "description": "Manage worktrees without managing worktrees.",
+      "language": "Go",
+      "stars": 1158,
+      "forks": 120,
+      "stars_today": "47 stars today",
+      "built_by": [
+        "kunchenguid",
+        "github-actions",
+        "Tsha0",
+        "ampagent"
+      ]
+    },
+    {
+      "rank": 19,
+      "name": "modelcontextprotocol/registry",
+      "url": "https://github.com/modelcontextprotocol/registry",
+      "description": "A community driven registry service for Model Context Protocol (MCP) servers.",
+      "language": "Go",
+      "stars": 7090,
+      "forks": 920,
+      "stars_today": "7 stars today",
+      "built_by": [
+        "rdimitrov",
+        "domdomegg",
+        "dependabot",
+        "sridharavinash",
+        "claude"
+      ]
+    },
+    {
+      "rank": 20,
+      "name": "e2b-dev/infra",
+      "url": "https://github.com/e2b-dev/infra",
+      "description": "Infrastructure that's powering E2B Cloud.",
+      "language": "Go",
+      "stars": 1284,
+      "forks": 374,
+      "stars_today": "3 stars today",
+      "built_by": [
+        "ValentaTomas",
+        "jakubno",
+        "dobrac",
+        "mlejva",
+        "djeebus"
+      ]
+    },
+    {
+      "rank": 21,
+      "name": "xpzouying/xiaohongshu-mcp",
+      "url": "https://github.com/xpzouying/xiaohongshu-mcp",
+      "description": "MCP for xiaohongshu.com",
+      "language": "Go",
+      "stars": 14965,
+      "forks": 2203,
+      "stars_today": "48 stars today",
+      "built_by": [
+        "xpzouying",
+        "claude",
+        "allcontributors",
+        "tanxxjun321",
+        "Angiin"
+      ]
+    },
+    {
+      "rank": 22,
+      "name": "nats-io/nats-server",
+      "url": "https://github.com/nats-io/nats-server",
+      "description": "High-Performance server for NATS.io, the cloud and edge native messaging system.",
+      "language": "Go",
+      "stars": 20355,
+      "forks": 1887,
+      "stars_today": "9 stars today",
+      "built_by": [
+        "derekcollison",
+        "kozlovic",
+        "neilalexander",
+        "MauriceVanVeen",
+        "matthiashanel"
+      ]
+    }
+  ]
+}
