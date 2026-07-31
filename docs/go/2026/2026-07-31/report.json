@@ -1,0 +1,404 @@
+{
+  "metadata": {
+    "date": "2026-07-31",
+    "language": "go",
+    "total_repositories": 23,
+    "total_stars": 534358,
+    "total_forks": 72252,
+    "generated_by": "GitHub Trending Scraper",
+    "format_version": "1.0"
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "argoproj/argo-cd",
+      "url": "https://github.com/argoproj/argo-cd",
+      "description": "Declarative Continuous Deployment for Kubernetes",
+      "language": "Go",
+      "stars": 23789,
+      "forks": 7617,
+      "stars_today": "18 stars today",
+      "built_by": [
+        "dependabot",
+        "alexmt",
+        "crenshaw-dev",
+        "jannfis",
+        "jessesuen"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "modelcontextprotocol/go-sdk",
+      "url": "https://github.com/modelcontextprotocol/go-sdk",
+      "description": "The official Go SDK for Model Context Protocol servers and clients. Maintained in collaboration with Google.",
+      "language": "Go",
+      "stars": 4906,
+      "forks": 488,
+      "stars_today": "13 stars today",
+      "built_by": [
+        "findleyr",
+        "jba",
+        "maciej-kisiel",
+        "guglielmo-san",
+        "samthanawalla"
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "larksuite/cli",
+      "url": "https://github.com/larksuite/cli",
+      "description": "The official Lark/Feishu CLI tool, maintained by the larksuite team — built for humans and AI Agents. Covers core business domains including Messenger, Docs, Base, Sheets, Calendar, Mail, Tasks, Meetings, and more, with 200+ commands and 20+ AI Agent Skills.",
+      "language": "Go",
+      "stars": 16008,
+      "forks": 1213,
+      "stars_today": "40 stars today",
+      "built_by": [
+        "liangshuo-1",
+        "fangshuyu-768",
+        "ethan-zhx",
+        "wittam-01",
+        "evandance"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "kenn-io/agentsview",
+      "url": "https://github.com/kenn-io/agentsview",
+      "description": "Local-first session search, analytics, insights, and token use statistics for coding agents, supporting Claude Code, Codex, and more than 20 other agents.",
+      "language": "Go",
+      "stars": 4641,
+      "forks": 482,
+      "stars_today": "17 stars today",
+      "built_by": [
+        "wesm",
+        "claude",
+        "mariusvniekerk",
+        "rodboev",
+        "mjacobs"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "netdata/netdata",
+      "url": "https://github.com/netdata/netdata",
+      "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
+      "language": "Go",
+      "stars": 79942,
+      "forks": 6557,
+      "stars_today": "31 stars today",
+      "built_by": [
+        "ktsaou",
+        "netdatabot",
+        "ilyam8",
+        "Ferroin",
+        "stelfrag"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "cert-manager/cert-manager",
+      "url": "https://github.com/cert-manager/cert-manager",
+      "description": "Automatically provision and manage TLS certificates in Kubernetes",
+      "language": "Go",
+      "stars": 13989,
+      "forks": 2416,
+      "stars_today": "6 stars today",
+      "built_by": [
+        "jetstack-bot",
+        "munnerz",
+        "cert-manager-prow",
+        "JoshVanL",
+        "inteon"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "google/gvisor",
+      "url": "https://github.com/google/gvisor",
+      "description": "Application Kernel for Containers",
+      "language": "Go",
+      "stars": 18924,
+      "forks": 1819,
+      "stars_today": "13 stars today",
+      "built_by": [
+        "gvisor-bot",
+        "ayushr2",
+        "avagin",
+        "fvoznika",
+        "EtiennePerot"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "certimate-go/certimate",
+      "url": "https://github.com/certimate-go/certimate",
+      "description": "An open-source and free self-hosted SSL certificates ACME tool, automates the full-cycle of issuance, deployment, renewal, and monitoring visually. 完全开源免费的自托管 SSL 证书 ACME 工具，申请、部署、续期、监控全流程自动化可视化，支持各大主流云厂商。",
+      "language": "Go",
+      "stars": 8987,
+      "forks": 867,
+      "stars_today": "27 stars today",
+      "built_by": [
+        "fudiwei",
+        "usual2970",
+        "LeoChen98",
+        "Netrvin",
+        "PBK-B"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "swaggo/swag",
+      "url": "https://github.com/swaggo/swag",
+      "description": "Automatically generate RESTful API documentation with Swagger 2.0 for Go.",
+      "language": "Go",
+      "stars": 12955,
+      "forks": 1481,
+      "stars_today": "7 stars today",
+      "built_by": [
+        "easonlin404",
+        "ubogdan",
+        "sdghchj",
+        "pei0804",
+        "dependabot"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "spf13/viper",
+      "url": "https://github.com/spf13/viper",
+      "description": "Go configuration with fangs",
+      "language": "Go",
+      "stars": 30405,
+      "forks": 2234,
+      "stars_today": "6 stars today",
+      "built_by": [
+        "sagikazarmark",
+        "dependabot",
+        "spf13",
+        "bep",
+        "spacez320"
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "getarcaneapp/arcane",
+      "url": "https://github.com/getarcaneapp/arcane",
+      "description": "Modern Docker Management, Designed for Everyone",
+      "language": "Go",
+      "stars": 6791,
+      "forks": 266,
+      "stars_today": "35 stars today",
+      "built_by": [
+        "kmendell",
+        "dependabot",
+        "getarcaneappbot",
+        "cabaucom376",
+        "GiulioSavini"
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "golang/go",
+      "url": "https://github.com/golang/go",
+      "description": "The Go programming language",
+      "language": "Go",
+      "stars": 135434,
+      "forks": 19183,
+      "stars_today": "35 stars today",
+      "built_by": [
+        "rsc",
+        "griesemer",
+        "robpike",
+        "ianlancetaylor",
+        "bradfitz"
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "argoproj/argo-workflows",
+      "url": "https://github.com/argoproj/argo-workflows",
+      "description": "Workflow Engine for Kubernetes",
+      "language": "Go",
+      "stars": 16859,
+      "forks": 3593,
+      "stars_today": "2 stars today",
+      "built_by": [
+        "alexec",
+        "terrytangyuan",
+        "dependabot",
+        "simster7",
+        "sarabala1979"
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "stretchr/testify",
+      "url": "https://github.com/stretchr/testify",
+      "description": "A toolkit with common assertions and mocks that plays nicely with the standard library",
+      "language": "Go",
+      "stars": 26130,
+      "forks": 1844,
+      "stars_today": "8 stars today",
+      "built_by": [
+        "ernesto-jimenez",
+        "dolmen",
+        "brackendawson",
+        "tylerstillwater",
+        "boyan-soubachov"
+      ]
+    },
+    {
+      "rank": 15,
+      "name": "istio/istio",
+      "url": "https://github.com/istio/istio",
+      "description": "Connect, secure, control, and observe services.",
+      "language": "Go",
+      "stars": 38312,
+      "forks": 8360,
+      "stars_today": "4 stars today",
+      "built_by": [
+        "istio-testing",
+        "howardjohn",
+        "hzxuzhonghu",
+        "ramaraochavali",
+        "kyessenov"
+      ]
+    },
+    {
+      "rank": 16,
+      "name": "openshift/origin",
+      "url": "https://github.com/openshift/origin",
+      "description": "Conformance test suite for OpenShift",
+      "language": "Go",
+      "stars": 8675,
+      "forks": 4793,
+      "stars_today": "1 star today",
+      "built_by": [
+        "openshift-merge-robot",
+        "deads2k",
+        "smarterclayton",
+        "openshift-merge-bot",
+        "soltysh"
+      ]
+    },
+    {
+      "rank": 17,
+      "name": "pulumi/pulumi",
+      "url": "https://github.com/pulumi/pulumi",
+      "description": "Pulumi - Infrastructure as Code in any programming language 🚀",
+      "language": "Go",
+      "stars": 25494,
+      "forks": 1406,
+      "stars_today": "3 stars today",
+      "built_by": [
+        "Frassle",
+        "joeduffy",
+        "bors",
+        "tgummerer",
+        "justinvp"
+      ]
+    },
+    {
+      "rank": 18,
+      "name": "ccfos/nightingale",
+      "url": "https://github.com/ccfos/nightingale",
+      "description": "Nightingale is to monitoring and alerting what Grafana is to visualization.",
+      "language": "Go",
+      "stars": 13185,
+      "forks": 1745,
+      "stars_today": "8 stars today",
+      "built_by": [
+        "710leo",
+        "UlricQin",
+        "yubo",
+        "jsers",
+        "shardingHe"
+      ]
+    },
+    {
+      "rank": 19,
+      "name": "github/gh-aw",
+      "url": "https://github.com/github/gh-aw",
+      "description": "GitHub Agentic Workflows",
+      "language": "Go",
+      "stars": 4837,
+      "forks": 473,
+      "stars_today": "7 stars today",
+      "built_by": [
+        "Copilot",
+        "pelikhan",
+        "github-actions",
+        "dsyme",
+        "mnkiefer"
+      ]
+    },
+    {
+      "rank": 20,
+      "name": "kunchenguid/no-mistakes",
+      "url": "https://github.com/kunchenguid/no-mistakes",
+      "description": "git push no-mistakes",
+      "language": "Go",
+      "stars": 7253,
+      "forks": 623,
+      "stars_today": "48 stars today",
+      "built_by": [
+        "kunchenguid",
+        "github-actions",
+        "e-jung",
+        "mielyemitchell",
+        "claude"
+      ]
+    },
+    {
+      "rank": 21,
+      "name": "rancher/rancher",
+      "url": "https://github.com/rancher/rancher",
+      "description": "Complete container management platform",
+      "language": "Go",
+      "stars": 25798,
+      "forks": 3220,
+      "stars_today": "7 stars today",
+      "built_by": [
+        "ibuildthecloud",
+        "kinarashah",
+        "dramich",
+        "jakefhyde",
+        "jiaqiluo"
+      ]
+    },
+    {
+      "rank": 22,
+      "name": "nianzhibai/91",
+      "url": "https://github.com/nianzhibai/91",
+      "description": "nine one",
+      "language": "Go",
+      "stars": 1299,
+      "forks": 356,
+      "stars_today": "20 stars today",
+      "built_by": [
+        "nianzhibai",
+        "claude",
+        "cursoragent",
+        "Just-Spider",
+        "Hi-Mr-Wind"
+      ]
+    },
+    {
+      "rank": 23,
+      "name": "gruntwork-io/terragrunt",
+      "url": "https://github.com/gruntwork-io/terragrunt",
+      "description": "Terragrunt is a flexible orchestration tool that allows Infrastructure as Code written in OpenTofu/Terraform to scale.",
+      "language": "Go",
+      "stars": 9745,
+      "forks": 1216,
+      "stars_today": "8 stars today",
+      "built_by": [
+        "yhakbar",
+        "brikis98",
+        "denis256",
+        "yorinasub17",
+        "dependabot"
+      ]
+    }
+  ]
+}
