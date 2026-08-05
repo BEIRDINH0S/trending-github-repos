@@ -1,0 +1,353 @@
+{
+  "metadata": {
+    "date": "2026-08-05",
+    "language": "rust",
+    "total_repositories": 20,
+    "total_stars": 686483,
+    "total_forks": 53076,
+    "generated_by": "GitHub Trending Scraper",
+    "format_version": "1.0"
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "firecrawl/pdf-inspector",
+      "url": "https://github.com/firecrawl/pdf-inspector",
+      "description": "Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions.",
+      "language": "Rust",
+      "stars": 10153,
+      "forks": 661,
+      "stars_today": "2,540 stars today",
+      "built_by": [
+        "abimaelmartell",
+        "claude",
+        "cursoragent",
+        "rth",
+        "bryan"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "denoland/deno",
+      "url": "https://github.com/denoland/deno",
+      "description": "A modern runtime for JavaScript and TypeScript.",
+      "language": "Rust",
+      "stars": 108071,
+      "forks": 6306,
+      "stars_today": "31 stars today",
+      "built_by": [
+        "bartlomieju",
+        "dsherret",
+        "ry",
+        "littledivy",
+        "nayeemrmn"
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "rust-lang/rust",
+      "url": "https://github.com/rust-lang/rust",
+      "description": "Empowering everyone to build reliable and efficient software.",
+      "language": "Rust",
+      "stars": 115200,
+      "forks": 15368,
+      "stars_today": "51 stars today",
+      "built_by": [
+        "bors",
+        "matthiaskrgr",
+        "RalfJung",
+        "GuillaumeGomez",
+        "matklad"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "rolldown/rolldown",
+      "url": "https://github.com/rolldown/rolldown",
+      "description": "Fast Rust bundler for JavaScript/TypeScript with Rollup-compatible API.",
+      "language": "Rust",
+      "stars": 13861,
+      "forks": 1004,
+      "stars_today": "3 stars today",
+      "built_by": [
+        "hyfdev",
+        "IWANABETHATGUY",
+        "shulaoda",
+        "renovate",
+        "sapphi-red"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "n0-computer/iroh",
+      "url": "https://github.com/n0-computer/iroh",
+      "description": "IP addresses break, dial keys instead. A library that adds QUIC + NAT Traversal to your apps.",
+      "language": "Rust",
+      "stars": 12071,
+      "forks": 718,
+      "stars_today": "34 stars today",
+      "built_by": [
+        "dignifiedquire",
+        "flub",
+        "rklaehn",
+        "Frando",
+        "ramfox"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "farion1231/cc-switch",
+      "url": "https://github.com/farion1231/cc-switch",
+      "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Grok Build & Hermes Agent. Only official website: ccswitch.io",
+      "language": "Rust",
+      "stars": 124394,
+      "forks": 8442,
+      "stars_today": "422 stars today",
+      "built_by": [
+        "farion1231",
+        "yovinchen",
+        "claude",
+        "makoMakoGo",
+        "TinsFox"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "LargeModGames/spotatui",
+      "url": "https://github.com/LargeModGames/spotatui",
+      "description": "A fast, standalone terminal music player in Rust: native Spotify streaming plus local, Subsonic, radio, and YouTube sources.",
+      "language": "Rust",
+      "stars": 1147,
+      "forks": 228,
+      "stars_today": "8 stars today",
+      "built_by": [
+        "LargeModGames",
+        "Rigellute",
+        "allcontributors",
+        "dependabot-preview",
+        "dependabot"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "FalkorDB/FalkorDB",
+      "url": "https://github.com/FalkorDB/FalkorDB",
+      "description": "A super fast Graph Database uses GraphBLAS under the hood for its sparse adjacency matrix graph representation. Our goal is to provide the best Knowledge Graph for LLM (GraphRAG).",
+      "language": "Rust",
+      "stars": 5274,
+      "forks": 416,
+      "stars_today": "182 stars today",
+      "built_by": [
+        "swilly22",
+        "AviAvni",
+        "jeffreylovitz",
+        "gkorland",
+        "dependabot"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "quickwit-oss/tantivy",
+      "url": "https://github.com/quickwit-oss/tantivy",
+      "description": "Tantivy is a full-text search engine library inspired by Apache Lucene and written in Rust",
+      "language": "Rust",
+      "stars": 15647,
+      "forks": 955,
+      "stars_today": "10 stars today",
+      "built_by": [
+        "fulmicoton",
+        "PSeitz",
+        "trinity-1686a",
+        "dependabot",
+        "lnicola"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "tokio-rs/tokio",
+      "url": "https://github.com/tokio-rs/tokio",
+      "description": "A runtime for writing reliable asynchronous applications with Rust. Provides I/O, networking, scheduling, timers, ...",
+      "language": "Rust",
+      "stars": 32803,
+      "forks": 3182,
+      "stars_today": "24 stars today",
+      "built_by": [
+        "traviscibot",
+        "Darksonn",
+        "carllerche",
+        "alexcrichton",
+        "taiki-e"
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "moghtech/komodo",
+      "url": "https://github.com/moghtech/komodo",
+      "description": "🦎 a tool to build and deploy software on many servers 🦎",
+      "language": "Rust",
+      "stars": 11820,
+      "forks": 372,
+      "stars_today": "28 stars today",
+      "built_by": [
+        "mbecker20",
+        "beckerinj",
+        "karamvirsingh98",
+        "jackra1n",
+        "MP-Tool"
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "risingwavelabs/risingwave",
+      "url": "https://github.com/risingwavelabs/risingwave",
+      "description": "Event streaming platform for agentic AI. Continuously ingest, transform, and serve event streams in real time, at scale.",
+      "language": "Rust",
+      "stars": 9216,
+      "forks": 810,
+      "stars_today": "8 stars today",
+      "built_by": [
+        "mergify",
+        "BugenZhao",
+        "xxchan",
+        "dependabot",
+        "wenym1"
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "qdrant/qdrant",
+      "url": "https://github.com/qdrant/qdrant",
+      "description": "Qdrant - High-performance, massive-scale Vector Database and Vector Search Engine for the next generation of AI. Also available in the cloud https://cloud.qdrant.io/",
+      "language": "Rust",
+      "stars": 33781,
+      "forks": 2553,
+      "stars_today": "20 stars today",
+      "built_by": [
+        "dependabot",
+        "generall",
+        "timvisee",
+        "agourlay",
+        "coszio"
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "PyO3/pyo3",
+      "url": "https://github.com/PyO3/pyo3",
+      "description": "Rust bindings for the Python interpreter",
+      "language": "Rust",
+      "stars": 15993,
+      "forks": 1002,
+      "stars_today": "7 stars today",
+      "built_by": [
+        "davidhewitt",
+        "kngwyu",
+        "konstin",
+        "fafhrd91",
+        "messense"
+      ]
+    },
+    {
+      "rank": 15,
+      "name": "rerun-io/rerun",
+      "url": "https://github.com/rerun-io/rerun",
+      "description": "Visualize, query, and stream to train on multimodal robotics data.",
+      "language": "Rust",
+      "stars": 11249,
+      "forks": 816,
+      "stars_today": "10 stars today",
+      "built_by": [
+        "emilk",
+        "Wumpf",
+        "teh-cmc",
+        "abey79",
+        "jprochazk"
+      ]
+    },
+    {
+      "rank": 16,
+      "name": "rtk-ai/rtk",
+      "url": "https://github.com/rtk-ai/rtk",
+      "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
+      "language": "Rust",
+      "stars": 74743,
+      "forks": 4700,
+      "stars_today": "181 stars today",
+      "built_by": [
+        "aeppling",
+        "claude",
+        "pszymkowiak",
+        "FlorianBruniaux",
+        "github-actions"
+      ]
+    },
+    {
+      "rank": 17,
+      "name": "rust-lang/rust-clippy",
+      "url": "https://github.com/rust-lang/rust-clippy",
+      "description": "A bunch of lints to catch common mistakes and improve your Rust code. Book: https://doc.rust-lang.org/clippy/",
+      "language": "Rust",
+      "stars": 13426,
+      "forks": 2095,
+      "stars_today": "11 stars today",
+      "built_by": [
+        "bors",
+        "flip1995",
+        "oli-obk",
+        "samueltardieu",
+        "Jarcho"
+      ]
+    },
+    {
+      "rank": 18,
+      "name": "zellij-org/zellij",
+      "url": "https://github.com/zellij-org/zellij",
+      "description": "A terminal workspace with batteries included",
+      "language": "Rust",
+      "stars": 34710,
+      "forks": 1352,
+      "stars_today": "19 stars today",
+      "built_by": [
+        "imsnif",
+        "a-kenji",
+        "TheLostLambda",
+        "kunalmohan",
+        "jaeheonji"
+      ]
+    },
+    {
+      "rank": 19,
+      "name": "pnpm/pnpm",
+      "url": "https://github.com/pnpm/pnpm",
+      "description": "Fast, disk space efficient package manager",
+      "language": "Rust",
+      "stars": 35968,
+      "forks": 1616,
+      "stars_today": "15 stars today",
+      "built_by": [
+        "zkochan",
+        "KSXGitHub",
+        "rstacruz",
+        "renovate-bot",
+        "anonrig"
+      ]
+    },
+    {
+      "rank": 20,
+      "name": "katanemo/plano",
+      "url": "https://github.com/katanemo/plano",
+      "description": "Plano is an AI-native proxy server and data plane for agentic apps. Smart LLM routing, observability, agent orchestration, and guardrails so you stay focused on your agents core logic.",
+      "language": "Rust",
+      "stars": 6956,
+      "forks": 480,
+      "stars_today": "25 stars today",
+      "built_by": [
+        "adilhafeez",
+        "salmanap",
+        "Spherrrical",
+        "junr03",
+        "cotran2"
+      ]
+    }
+  ]
+}

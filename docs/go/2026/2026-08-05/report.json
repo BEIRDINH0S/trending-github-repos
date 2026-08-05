@@ -1,0 +1,403 @@
+{
+  "metadata": {
+    "date": "2026-08-05",
+    "language": "go",
+    "total_repositories": 23,
+    "total_stars": 965122,
+    "total_forks": 153760,
+    "generated_by": "GitHub Trending Scraper",
+    "format_version": "1.0"
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "esengine/DeepSeek-Reasonix",
+      "url": "https://github.com/esengine/DeepSeek-Reasonix",
+      "description": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
+      "language": "Go",
+      "stars": 30857,
+      "forks": 1985,
+      "stars_today": "922 stars today",
+      "built_by": [
+        "SivanCola",
+        "esengine",
+        "ttmouse",
+        "lifu963",
+        "cursoragent"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "moby/moby",
+      "url": "https://github.com/moby/moby",
+      "description": "The Moby Project - a collaborative project for the container ecosystem to assemble container-based systems",
+      "language": "Go",
+      "stars": 71977,
+      "forks": 19154,
+      "stars_today": "10 stars today",
+      "built_by": [
+        "thaJeztah",
+        "cpuguy83",
+        "crosbymichael",
+        "vvoland",
+        "vdemeester"
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "kubernetes/kubernetes",
+      "url": "https://github.com/kubernetes/kubernetes",
+      "description": "Production-Grade Container Scheduling and Management",
+      "language": "Go",
+      "stars": 124237,
+      "forks": 43759,
+      "stars_today": "24 stars today",
+      "built_by": [
+        "k8s-ci-robot",
+        "liggitt",
+        "thockin",
+        "wojtek-t",
+        "brendandburns"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "golang/go",
+      "url": "https://github.com/golang/go",
+      "description": "The Go programming language",
+      "language": "Go",
+      "stars": 135600,
+      "forks": 19244,
+      "stars_today": "27 stars today",
+      "built_by": [
+        "rsc",
+        "griesemer",
+        "robpike",
+        "ianlancetaylor",
+        "bradfitz"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "projectdiscovery/nuclei",
+      "url": "https://github.com/projectdiscovery/nuclei",
+      "description": "Nuclei is a fast, customizable vulnerability scanner powered by the global security community and built on a simple YAML-based DSL, enabling collaboration to tackle trending vulnerabilities on the internet. It helps you find vulnerabilities in your applications, APIs, networks, DNS, and cloud configurations.",
+      "language": "Go",
+      "stars": 30298,
+      "forks": 3779,
+      "stars_today": "59 stars today",
+      "built_by": [
+        "Mzack9999",
+        "ehsandeep",
+        "dependabot",
+        "Ice3man543",
+        "dwisiswant0"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "argoproj/argo-cd",
+      "url": "https://github.com/argoproj/argo-cd",
+      "description": "Declarative Continuous Deployment for Kubernetes",
+      "language": "Go",
+      "stars": 23838,
+      "forks": 7689,
+      "stars_today": "12 stars today",
+      "built_by": [
+        "dependabot",
+        "alexmt",
+        "crenshaw-dev",
+        "jannfis",
+        "jessesuen"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "ethereum/go-ethereum",
+      "url": "https://github.com/ethereum/go-ethereum",
+      "description": "Go implementation of the Ethereum protocol",
+      "language": "Go",
+      "stars": 51263,
+      "forks": 22092,
+      "stars_today": "2 stars today",
+      "built_by": [
+        "obscuren",
+        "karalabe",
+        "fjl",
+        "holiman",
+        "rjl493456442"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "spf13/viper",
+      "url": "https://github.com/spf13/viper",
+      "description": "Go configuration with fangs",
+      "language": "Go",
+      "stars": 30423,
+      "forks": 2282,
+      "stars_today": "8 stars today",
+      "built_by": [
+        "sagikazarmark",
+        "dependabot",
+        "spf13",
+        "bep",
+        "spacez320"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "multica-ai/multica",
+      "url": "https://github.com/multica-ai/multica",
+      "description": "The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.",
+      "language": "Go",
+      "stars": 43962,
+      "forks": 5573,
+      "stars_today": "406 stars today",
+      "built_by": [
+        "claude",
+        "multica-agent",
+        "Bohan-J",
+        "NevilleQingNY",
+        "forrestchang"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "docker/compose",
+      "url": "https://github.com/docker/compose",
+      "description": "Define and run multi-container applications with Docker",
+      "language": "Go",
+      "stars": 37973,
+      "forks": 5780,
+      "stars_today": "9 stars today",
+      "built_by": [
+        "ndeloof",
+        "glours",
+        "gtardif",
+        "dependabot",
+        "rumpl"
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "chaitin/SafeLine",
+      "url": "https://github.com/chaitin/SafeLine",
+      "description": "SafeLine is a self-hosted WAF(Web Application Firewall) / reverse proxy to protect your web apps from attacks and exploits.",
+      "language": "Go",
+      "stars": 22268,
+      "forks": 1496,
+      "stars_today": "60 stars today",
+      "built_by": [
+        "xbingW",
+        "delong8",
+        "zclaiqcc",
+        "safe1ine"
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "gastownhall/beads",
+      "url": "https://github.com/gastownhall/beads",
+      "description": "Beads - A memory upgrade for your coding agent",
+      "language": "Go",
+      "stars": 26002,
+      "forks": 1743,
+      "stars_today": "102 stars today",
+      "built_by": [
+        "steveyegge",
+        "claude",
+        "maphew",
+        "coffeegoddd",
+        "julianknutsen"
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "superplanehq/superplane",
+      "url": "https://github.com/superplanehq/superplane",
+      "description": "The open source control plane for agentic engineering.",
+      "language": "Go",
+      "stars": 4609,
+      "forks": 487,
+      "stars_today": "177 stars today",
+      "built_by": [
+        "forestileao",
+        "shiroyasha",
+        "lucaspin",
+        "cursoragent",
+        "AleksandarCole"
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "aquasecurity/trivy",
+      "url": "https://github.com/aquasecurity/trivy",
+      "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
+      "language": "Go",
+      "stars": 37242,
+      "forks": 566,
+      "stars_today": "19 stars today",
+      "built_by": [
+        "knqyf263",
+        "DmitriyLewen",
+        "dependabot",
+        "nikpivkin",
+        "simar7"
+      ]
+    },
+    {
+      "rank": 15,
+      "name": "dolthub/dolt",
+      "url": "https://github.com/dolthub/dolt",
+      "description": "Dolt – Git for Data",
+      "language": "Go",
+      "stars": 24072,
+      "forks": 844,
+      "stars_today": "20 stars today",
+      "built_by": [
+        "zachmu",
+        "andy-wm-arthur",
+        "reltuk",
+        "fulghum",
+        "coffeegoddd"
+      ]
+    },
+    {
+      "rank": 16,
+      "name": "masterking32/MasterDnsVPN",
+      "url": "https://github.com/masterking32/MasterDnsVPN",
+      "description": "Advanced DNS tunneling VPN for censorship bypass, optimized beyond DNSTT and SlipStream with low-overhead ARQ, resolver load balancing, high packet-loss stability and speed.",
+      "language": "Go",
+      "stars": 6895,
+      "forks": 778,
+      "stars_today": "10 stars today",
+      "built_by": [
+        "masterking32",
+        "abolix",
+        "PentSec",
+        "MahdiMirzadeh",
+        "typerhack"
+      ]
+    },
+    {
+      "rank": 17,
+      "name": "zzet/gortex",
+      "url": "https://github.com/zzet/gortex",
+      "description": "High-performance code-intelligence engine for AI agents and IDE, supports 257 languages, multi repositories, based on graph, with access via CLI, MCP Server, and API. AI coding agents teammate - expose only needed information, cutting token usage up to 50x. 100% local. Discord: https://discord.gg/39MFHu3J5d",
+      "language": "Go",
+      "stars": 1072,
+      "forks": 98,
+      "stars_today": "59 stars today",
+      "built_by": [
+        "zzet",
+        "claude",
+        "dependabot",
+        "avfirsov",
+        "tiendungdev"
+      ]
+    },
+    {
+      "rank": 18,
+      "name": "danielmiessler/Fabric",
+      "url": "https://github.com/danielmiessler/Fabric",
+      "description": "Fabric is an open-source framework for augmenting humans using AI. It provides a modular system for solving specific problems using a crowdsourced set of AI prompts that can be used anywhere.",
+      "language": "Go",
+      "stars": 43322,
+      "forks": 4222,
+      "stars_today": "17 stars today",
+      "built_by": [
+        "danielmiessler",
+        "ksylvan",
+        "github-actions",
+        "eugeis",
+        "xssdoctor"
+      ]
+    },
+    {
+      "rank": 19,
+      "name": "Project-HAMi/HAMi",
+      "url": "https://github.com/Project-HAMi/HAMi",
+      "description": "Heterogeneous GPU Sharing on Kubernetes",
+      "language": "Go",
+      "stars": 4191,
+      "forks": 716,
+      "stars_today": "15 stars today",
+      "built_by": [
+        "archlitchi",
+        "dependabot",
+        "lengrongfu",
+        "wawa0210",
+        "Shouren"
+      ]
+    },
+    {
+      "rank": 20,
+      "name": "junegunn/fzf",
+      "url": "https://github.com/junegunn/fzf",
+      "description": "🌸 A command-line fuzzy finder",
+      "language": "Go",
+      "stars": 82302,
+      "forks": 2840,
+      "stars_today": "42 stars today",
+      "built_by": [
+        "junegunn",
+        "dependabot",
+        "bitraid",
+        "LangLangBart",
+        "janlazo"
+      ]
+    },
+    {
+      "rank": 21,
+      "name": "spf13/cobra",
+      "url": "https://github.com/spf13/cobra",
+      "description": "A Commander for modern Go CLI interactions",
+      "language": "Go",
+      "stars": 44389,
+      "forks": 3197,
+      "stars_today": "16 stars today",
+      "built_by": [
+        "eparis",
+        "n10v",
+        "spf13",
+        "umarcor",
+        "marckhouzam"
+      ]
+    },
+    {
+      "rank": 22,
+      "name": "github/gh-stack",
+      "url": "https://github.com/github/gh-stack",
+      "description": "GitHub Stacked PRs",
+      "language": "Go",
+      "stars": 1054,
+      "forks": 44,
+      "stars_today": "57 stars today",
+      "built_by": [
+        "skarim",
+        "dependabot",
+        "Copilot",
+        "Copilot",
+        "Copilot"
+      ]
+    },
+    {
+      "rank": 23,
+      "name": "syncthing/syncthing",
+      "url": "https://github.com/syncthing/syncthing",
+      "description": "Open Source Continuous File Synchronization",
+      "language": "Go",
+      "stars": 87276,
+      "forks": 5392,
+      "stars_today": "44 stars today",
+      "built_by": [
+        "calmh",
+        "AudriusButkevicius",
+        "imsodin",
+        "st-release",
+        "tomasz1986"
+      ]
+    }
+  ]
+}
