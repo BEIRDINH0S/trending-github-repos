@@ -1,0 +1,315 @@
+{
+  "metadata": {
+    "date": "2026-08-06",
+    "language": "rust",
+    "total_repositories": 18,
+    "total_stars": 739648,
+    "total_forks": 71029,
+    "generated_by": "GitHub Trending Scraper",
+    "format_version": "1.0"
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "firecrawl/pdf-inspector",
+      "url": "https://github.com/firecrawl/pdf-inspector",
+      "description": "Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions.",
+      "language": "Rust",
+      "stars": 11536,
+      "forks": 778,
+      "stars_today": "1,582 stars today",
+      "built_by": [
+        "abimaelmartell",
+        "claude",
+        "cursoragent",
+        "rth",
+        "bryan"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "ovexro/dockpanel",
+      "url": "https://github.com/ovexro/dockpanel",
+      "description": "Modern server management panel built with Rust and React. Sites, databases, Docker apps, Git deploy, mail, DNS, monitoring, backups, and security — all in one panel.",
+      "language": "Rust",
+      "stars": 864,
+      "forks": 134,
+      "stars_today": "28 stars today",
+      "built_by": [
+        "claude",
+        "ovexro"
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "risingwavelabs/risingwave",
+      "url": "https://github.com/risingwavelabs/risingwave",
+      "description": "Event streaming platform for agentic AI. Continuously ingest, transform, and serve event streams in real time, at scale.",
+      "language": "Rust",
+      "stars": 9219,
+      "forks": 810,
+      "stars_today": "7 stars today",
+      "built_by": [
+        "mergify",
+        "BugenZhao",
+        "xxchan",
+        "dependabot",
+        "wenym1"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "farion1231/cc-switch",
+      "url": "https://github.com/farion1231/cc-switch",
+      "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Grok Build & Hermes Agent. Only official website: ccswitch.io",
+      "language": "Rust",
+      "stars": 124835,
+      "forks": 8474,
+      "stars_today": "454 stars today",
+      "built_by": [
+        "farion1231",
+        "yovinchen",
+        "claude",
+        "makoMakoGo",
+        "TinsFox"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "tokio-rs/tokio",
+      "url": "https://github.com/tokio-rs/tokio",
+      "description": "A runtime for writing reliable asynchronous applications with Rust. Provides I/O, networking, scheduling, timers, ...",
+      "language": "Rust",
+      "stars": 32834,
+      "forks": 3182,
+      "stars_today": "39 stars today",
+      "built_by": [
+        "traviscibot",
+        "Darksonn",
+        "carllerche",
+        "alexcrichton",
+        "taiki-e"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "pnpm/pnpm",
+      "url": "https://github.com/pnpm/pnpm",
+      "description": "Fast, disk space efficient package manager",
+      "language": "Rust",
+      "stars": 35985,
+      "forks": 1617,
+      "stars_today": "25 stars today",
+      "built_by": [
+        "zkochan",
+        "KSXGitHub",
+        "rstacruz",
+        "renovate-bot",
+        "anonrig"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "FalkorDB/FalkorDB",
+      "url": "https://github.com/FalkorDB/FalkorDB",
+      "description": "A super fast Graph Database uses GraphBLAS under the hood for its sparse adjacency matrix graph representation. Our goal is to provide the best Knowledge Graph for LLM (GraphRAG).",
+      "language": "Rust",
+      "stars": 5349,
+      "forks": 419,
+      "stars_today": "82 stars today",
+      "built_by": [
+        "swilly22",
+        "AviAvni",
+        "jeffreylovitz",
+        "gkorland",
+        "dependabot"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "katanemo/plano",
+      "url": "https://github.com/katanemo/plano",
+      "description": "Plano is an AI-native proxy server and data plane for agentic apps. Smart LLM routing, observability, agent orchestration, and guardrails so you stay focused on your agents core logic.",
+      "language": "Rust",
+      "stars": 6973,
+      "forks": 483,
+      "stars_today": "20 stars today",
+      "built_by": [
+        "adilhafeez",
+        "salmanap",
+        "Spherrrical",
+        "junr03",
+        "cotran2"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "yvgude/lean-ctx",
+      "url": "https://github.com/yvgude/lean-ctx",
+      "description": "Control what your AI can see. LeanCTX (Lean Context) is the context intelligence layer for AI agents — one local Rust binary that decides what they read, remembers what they learn, guards what they touch, and proves what they save. 60–90% fewer tokens as the receipt. 76 MCP tools, 30+ agents, local-first.",
+      "language": "Rust",
+      "stars": 3514,
+      "forks": 315,
+      "stars_today": "20 stars today",
+      "built_by": [
+        "cursoragent",
+        "yvgude",
+        "cedric013",
+        "andig",
+        "claude"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "rust-lang/rust",
+      "url": "https://github.com/rust-lang/rust",
+      "description": "Empowering everyone to build reliable and efficient software.",
+      "language": "Rust",
+      "stars": 115284,
+      "forks": 15374,
+      "stars_today": "96 stars today",
+      "built_by": [
+        "bors",
+        "matthiaskrgr",
+        "RalfJung",
+        "GuillaumeGomez",
+        "matklad"
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "moghtech/komodo",
+      "url": "https://github.com/moghtech/komodo",
+      "description": "🦎 a tool to build and deploy software on many servers 🦎",
+      "language": "Rust",
+      "stars": 11839,
+      "forks": 373,
+      "stars_today": "16 stars today",
+      "built_by": [
+        "mbecker20",
+        "beckerinj",
+        "karamvirsingh98",
+        "jackra1n",
+        "MP-Tool"
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "astral-sh/uv",
+      "url": "https://github.com/astral-sh/uv",
+      "description": "An extremely fast Python package and project manager, written in Rust.",
+      "language": "Rust",
+      "stars": 88394,
+      "forks": 3449,
+      "stars_today": "54 stars today",
+      "built_by": [
+        "charliermarsh",
+        "zanieb",
+        "konstin",
+        "renovate",
+        "BurntSushi"
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "zed-industries/zed",
+      "url": "https://github.com/zed-industries/zed",
+      "description": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
+      "language": "Rust",
+      "stars": 88094,
+      "forks": 9883,
+      "stars_today": "72 stars today",
+      "built_by": [
+        "as-cii",
+        "maxbrunsfeld",
+        "maxdeviant",
+        "nathansobo",
+        "ConradIrwin"
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "openai/codex",
+      "url": "https://github.com/openai/codex",
+      "description": "Lightweight coding agent that runs in your terminal",
+      "language": "Rust",
+      "stars": 104205,
+      "forks": 15751,
+      "stars_today": "268 stars today",
+      "built_by": [
+        "jif-oai",
+        "bolinfest",
+        "aibrahim-oai",
+        "pakrym-oai",
+        "etraut-openai"
+      ]
+    },
+    {
+      "rank": 15,
+      "name": "juspay/hyperswitch",
+      "url": "https://github.com/juspay/hyperswitch",
+      "description": "Open source, composable payments platform | PCI compliant | SaaS and Self-host options | Enables connectivity to multiple payment, payout, fraud, vault and tokenization providers | Uplifts authorization with intelligent routing and revenue recovery | Reduce payment processing costs with cost observability | Reduces payment ops with reconciliation",
+      "language": "Rust",
+      "stars": 43403,
+      "forks": 5006,
+      "stars_today": "24 stars today",
+      "built_by": [
+        "hyperswitch-bot",
+        "github-actions",
+        "SanchithHegde",
+        "Narayanbhat166",
+        "swangi-kumari"
+      ]
+    },
+    {
+      "rank": 16,
+      "name": "pola-rs/polars",
+      "url": "https://github.com/pola-rs/polars",
+      "description": "Extremely fast Query Engine for DataFrames, written in Rust",
+      "language": "Rust",
+      "stars": 39272,
+      "forks": 2997,
+      "stars_today": "20 stars today",
+      "built_by": [
+        "ritchie46",
+        "alexander-beedie",
+        "orlp",
+        "coastalwhite",
+        "nameexhaustion"
+      ]
+    },
+    {
+      "rank": 17,
+      "name": "hyperium/hyper",
+      "url": "https://github.com/hyperium/hyper",
+      "description": "An HTTP library for Rust",
+      "language": "Rust",
+      "stars": 16260,
+      "forks": 1781,
+      "stars_today": "6 stars today",
+      "built_by": [
+        "seanmonstar",
+        "reem",
+        "tottoto",
+        "pyfisch",
+        "weihanglo"
+      ]
+    },
+    {
+      "rank": 18,
+      "name": "WeaveMindAI/weft",
+      "url": "https://github.com/WeaveMindAI/weft",
+      "description": "A programming language for AI orchestrations (POC)",
+      "language": "Rust",
+      "stars": 1788,
+      "forks": 203,
+      "stars_today": "12 stars today",
+      "built_by": [
+        "qfeuilla",
+        "sjoerdvink99",
+        "mikerobaderant",
+        "Strattoon"
+      ]
+    }
+  ]
+}
