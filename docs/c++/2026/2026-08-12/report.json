@@ -1,0 +1,365 @@
+{
+  "metadata": {
+    "date": "2026-08-12",
+    "language": "c++",
+    "total_repositories": 21,
+    "total_stars": 612579,
+    "total_forks": 135003,
+    "generated_by": "GitHub Trending Scraper",
+    "format_version": "1.0"
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "protocolbuffers/protobuf",
+      "url": "https://github.com/protocolbuffers/protobuf",
+      "description": "Protocol Buffers - Google's data interchange format",
+      "language": "C++",
+      "stars": 71722,
+      "forks": 16208,
+      "stars_today": "7 stars today",
+      "built_by": [
+        "protobuf-github-bot",
+        "haberman",
+        "protobuf-team-bot",
+        "mkruskal-google",
+        "xfxyjwf"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "juce-framework/JUCE",
+      "url": "https://github.com/juce-framework/JUCE",
+      "description": "JUCE is an open-source cross-platform C++ application framework for desktop and mobile applications, including VST, VST3, AU, AUv3, LV2 and AAX audio plug-ins.",
+      "language": "C++",
+      "stars": 8766,
+      "forks": 2143,
+      "stars_today": "10 stars today",
+      "built_by": [
+        "reuk",
+        "ed95",
+        "julianstorer",
+        "hogliux",
+        "tpoole"
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "k4yt3x/video2x",
+      "url": "https://github.com/k4yt3x/video2x",
+      "description": "A machine learning-based video super resolution and frame interpolation framework. Est. Hack the Valley II, 2018.",
+      "language": "C++",
+      "stars": 20884,
+      "forks": 1811,
+      "stars_today": "31 stars today",
+      "built_by": [
+        "k4yt3x",
+        "BrianPetkovsek",
+        "sat3ll",
+        "Integral-Tech",
+        "snixon"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "NVIDIA/nccl",
+      "url": "https://github.com/NVIDIA/nccl",
+      "description": "Optimized primitives for collective multi-GPU communication",
+      "language": "C++",
+      "stars": 4982,
+      "forks": 1373,
+      "stars_today": "4 stars today",
+      "built_by": [
+        "sjeaugey",
+        "xiakun-lu",
+        "kgioioso",
+        "artpol84",
+        "nv-lschneider"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "microsoft/BitNet",
+      "url": "https://github.com/microsoft/BitNet",
+      "description": "Official inference framework for 1-bit LLMs",
+      "language": "C++",
+      "stars": 39998,
+      "forks": 3688,
+      "stars_today": "40 stars today",
+      "built_by": [
+        "potassiummmm",
+        "tsong-ms",
+        "younesbelkada",
+        "isHuangXin",
+        "XsquirrelC"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "ggml-org/llama.cpp",
+      "url": "https://github.com/ggml-org/llama.cpp",
+      "description": "LLM inference in C/C++",
+      "language": "C++",
+      "stars": 123501,
+      "forks": 21593,
+      "stars_today": "158 stars today",
+      "built_by": [
+        "ggerganov",
+        "ngxson",
+        "CISC",
+        "slaren",
+        "JohannesGaessler"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "LadybirdBrowser/ladybird",
+      "url": "https://github.com/LadybirdBrowser/ladybird",
+      "description": "Truly independent web browser",
+      "language": "C++",
+      "stars": 65409,
+      "forks": 3129,
+      "stars_today": "198 stars today",
+      "built_by": [
+        "awesomekling",
+        "trflynn89",
+        "AtkinsSJ",
+        "linusg",
+        "kalenikaliaksandr"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "k2-fsa/sherpa-onnx",
+      "url": "https://github.com/k2-fsa/sherpa-onnx",
+      "description": "Speech-to-text, text-to-speech, speaker diarization, speech enhancement, source separation, and VAD using next-gen Kaldi with onnxruntime without Internet connection. Support embedded systems, Android, iOS, HarmonyOS, Raspberry Pi, RISC-V, RK NPU, Axera NPU, Ascend NPU, x86_64 servers, websocket server/client, support 12 programming languages",
+      "language": "C++",
+      "stars": 14114,
+      "forks": 1623,
+      "stars_today": "25 stars today",
+      "built_by": [
+        "csukuangfj",
+        "pkufool",
+        "Wasser1462",
+        "ZhaoChaoqun",
+        "pingfengluo"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "moonshine-ai/moonshine",
+      "url": "https://github.com/moonshine-ai/moonshine",
+      "description": "Very low latency speech to text, intent recognition, and text to speech, for building voice agents and interfaces",
+      "language": "C++",
+      "stars": 10788,
+      "forks": 585,
+      "stars_today": "30 stars today",
+      "built_by": [
+        "cursoragent",
+        "evmaki",
+        "kylehowells",
+        "petewarden",
+        "giovanninibarbosa"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "microsoft/onnxruntime",
+      "url": "https://github.com/microsoft/onnxruntime",
+      "description": "ONNX Runtime: cross-platform, high performance ML inferencing and training accelerator",
+      "language": "C++",
+      "stars": 21349,
+      "forks": 4117,
+      "stars_today": "11 stars today",
+      "built_by": [
+        "tianleiwu",
+        "fs-eire",
+        "skottmckay",
+        "edgchen1",
+        "yuslepukhin"
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "sal063/AC6_recomp",
+      "url": "https://github.com/sal063/AC6_recomp",
+      "description": "static Recomp of AC6 with Rexglue",
+      "language": "C++",
+      "stars": 269,
+      "forks": 10,
+      "stars_today": "15 stars today",
+      "built_by": [
+        "sal063",
+        "rapidsamphire",
+        "Copilot"
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "google/flatbuffers",
+      "url": "https://github.com/google/flatbuffers",
+      "description": "FlatBuffers: Memory Efficient Serialization Library",
+      "language": "C++",
+      "stars": 26322,
+      "forks": 3618,
+      "stars_today": "9 stars today",
+      "built_by": [
+        "dbaileychess",
+        "aardappel",
+        "vglavnyy",
+        "rw",
+        "mustiikhalil"
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "azahar-emu/azahar",
+      "url": "https://github.com/azahar-emu/azahar",
+      "description": "An open-source 3DS emulator project based on Citra.",
+      "language": "C++",
+      "stars": 7853,
+      "forks": 607,
+      "stars_today": "12 stars today",
+      "built_by": [
+        "bunnei",
+        "wwylele",
+        "lioncash",
+        "OpenSauce04",
+        "yuriks"
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "transmission/transmission",
+      "url": "https://github.com/transmission/transmission",
+      "description": "Official Transmission BitTorrent client repository",
+      "language": "C++",
+      "stars": 15070,
+      "forks": 1425,
+      "stars_today": "7 stars today",
+      "built_by": [
+        "ckerr",
+        "mikedld",
+        "tearfur",
+        "jre",
+        "titer"
+      ]
+    },
+    {
+      "rank": 15,
+      "name": "ml-explore/mlx",
+      "url": "https://github.com/ml-explore/mlx",
+      "description": "MLX: An array framework for Apple silicon",
+      "language": "C++",
+      "stars": 27914,
+      "forks": 2121,
+      "stars_today": "19 stars today",
+      "built_by": [
+        "angeloskath",
+        "zcbenz",
+        "jagrit06",
+        "barronalex",
+        "awni"
+      ]
+    },
+    {
+      "rank": 16,
+      "name": "lraton/FlopperZiro",
+      "url": "https://github.com/lraton/FlopperZiro",
+      "description": "A Flipper Zero clone, but cheapest, DIY and simply Open Source, made with Arduino IDE",
+      "language": "C++",
+      "stars": 2012,
+      "forks": 101,
+      "stars_today": "55 stars today",
+      "built_by": [
+        "lraton",
+        "Kitki30"
+      ]
+    },
+    {
+      "rank": 17,
+      "name": "mavlink/qgroundcontrol",
+      "url": "https://github.com/mavlink/qgroundcontrol",
+      "description": "Cross-platform ground control station for drones (Android, iOS, Mac OS, Linux, Windows)",
+      "language": "C++",
+      "stars": 4832,
+      "forks": 4969,
+      "stars_today": "3 stars today",
+      "built_by": [
+        "DonLakeFlyer",
+        "LorenzMeier",
+        "dogmaphobic",
+        "PX4BuildBot",
+        "HTRamsey"
+      ]
+    },
+    {
+      "rank": 18,
+      "name": "deskflow/deskflow",
+      "url": "https://github.com/deskflow/deskflow",
+      "description": "Share a single keyboard and mouse between multiple computers.",
+      "language": "C++",
+      "stars": 28008,
+      "forks": 4776,
+      "stars_today": "40 stars today",
+      "built_by": [
+        "sithlord48",
+        "nbolton",
+        "Jnewbon",
+        "SerhiiGadzhilov",
+        "speaker"
+      ]
+    },
+    {
+      "rank": 19,
+      "name": "google-deepmind/mujoco",
+      "url": "https://github.com/google-deepmind/mujoco",
+      "description": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
+      "language": "C++",
+      "stars": 14522,
+      "forks": 1678,
+      "stars_today": "10 stars today",
+      "built_by": [
+        "yuvaltassa",
+        "quagla",
+        "haroonq",
+        "saran-t",
+        "kbayes"
+      ]
+    },
+    {
+      "rank": 20,
+      "name": "opencv/opencv",
+      "url": "https://github.com/opencv/opencv",
+      "description": "Open Source Computer Vision Library",
+      "language": "C++",
+      "stars": 90379,
+      "forks": 56967,
+      "stars_today": "16 stars today",
+      "built_by": [
+        "alalek",
+        "asmorkalov",
+        "vpisarev",
+        "mshabunin",
+        "ilya-lavrenov"
+      ]
+    },
+    {
+      "rank": 21,
+      "name": "google/or-tools",
+      "url": "https://github.com/google/or-tools",
+      "description": "Google's Operations Research tools:",
+      "language": "C++",
+      "stars": 13885,
+      "forks": 2461,
+      "stars_today": "6 stars today",
+      "built_by": [
+        "lperron",
+        "Mizux",
+        "sgatto",
+        "furnon",
+        "gchatelet"
+      ]
+    }
+  ]
+}
