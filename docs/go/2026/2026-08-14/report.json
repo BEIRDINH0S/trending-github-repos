@@ -1,0 +1,421 @@
+{
+  "metadata": {
+    "date": "2026-08-14",
+    "language": "go",
+    "total_repositories": 24,
+    "total_stars": 584161,
+    "total_forks": 59438,
+    "generated_by": "GitHub Trending Scraper",
+    "format_version": "1.0"
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "infiniflow/ragflow",
+      "url": "https://github.com/infiniflow/ragflow",
+      "description": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
+      "language": "Go",
+      "stars": 88047,
+      "forks": 10355,
+      "stars_today": "465 stars today",
+      "built_by": [
+        "cike8899",
+        "KevinHuSh",
+        "JinHai-CN",
+        "writinwaters",
+        "yuzhichang"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "netdata/netdata",
+      "url": "https://github.com/netdata/netdata",
+      "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
+      "language": "Go",
+      "stars": 80187,
+      "forks": 6584,
+      "stars_today": "34 stars today",
+      "built_by": [
+        "ktsaou",
+        "netdatabot",
+        "ilyam8",
+        "Ferroin",
+        "stelfrag"
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "compozy/compozy",
+      "url": "https://github.com/compozy/compozy",
+      "description": "An operating system for AI agents. Plug in the agent CLIs you already use (Claude Code, Codex, Gemini CLI, Cursor) and they become a team: they split the work, hand tasks to each other, run automated on jobs and loops, and share one project memory. You steer everything from the browser.",
+      "language": "Go",
+      "stars": 2549,
+      "forks": 145,
+      "stars_today": "17 stars today",
+      "built_by": [
+        "pedronauck",
+        "github-actions",
+        "claude",
+        "MatheusBBarni",
+        "compozybot"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "alibaba/skill-up",
+      "url": "https://github.com/alibaba/skill-up",
+      "description": "An evaluation and evolution tool for Agent Skills.",
+      "language": "Go",
+      "stars": 532,
+      "forks": 38,
+      "stars_today": "7 stars today",
+      "built_by": [
+        "roark47",
+        "zpzjzj",
+        "claude",
+        "dependabot",
+        "jwx0925"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "Agent-Field/pr-af",
+      "url": "https://github.com/Agent-Field/pr-af",
+      "description": "#1 open-source code reviewer on Code-Review-Bench",
+      "language": "Go",
+      "stars": 532,
+      "forks": 56,
+      "stars_today": "19 stars today",
+      "built_by": [
+        "AbirAbbas",
+        "santoshkumarradha",
+        "claude",
+        "jainakshay93",
+        "oktaygoktas"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "nats-io/nats-server",
+      "url": "https://github.com/nats-io/nats-server",
+      "description": "High-Performance server for NATS.io, the cloud and edge native messaging system.",
+      "language": "Go",
+      "stars": 20495,
+      "forks": 1904,
+      "stars_today": "21 stars today",
+      "built_by": [
+        "derekcollison",
+        "kozlovic",
+        "neilalexander",
+        "MauriceVanVeen",
+        "matthiashanel"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "trufflesecurity/trufflehog",
+      "url": "https://github.com/trufflesecurity/trufflehog",
+      "description": "Find, verify, and analyze leaked credentials",
+      "language": "Go",
+      "stars": 27443,
+      "forks": 2536,
+      "stars_today": "34 stars today",
+      "built_by": [
+        "renovate",
+        "lonmarsDev",
+        "roxanne-tampus",
+        "ahrav",
+        "dustin-decker"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "actions/actions-runner-controller",
+      "url": "https://github.com/actions/actions-runner-controller",
+      "description": "Kubernetes controller for GitHub Actions self-hosted runners",
+      "language": "Go",
+      "stars": 6438,
+      "forks": 1463,
+      "stars_today": "5 stars today",
+      "built_by": [
+        "mumoshu",
+        "nikola-jokic",
+        "summerwind",
+        "toast-gear",
+        "renovate"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "knadh/listmonk",
+      "url": "https://github.com/knadh/listmonk",
+      "description": "High performance, self-hosted, newsletter and mailing list manager with a modern dashboard. Single binary app.",
+      "language": "Go",
+      "stars": 22806,
+      "forks": 2509,
+      "stars_today": "40 stars today",
+      "built_by": [
+        "knadh",
+        "github-actions",
+        "dependabot",
+        "mr-karan",
+        "MaximilianKohler"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "argoproj/argo-cd",
+      "url": "https://github.com/argoproj/argo-cd",
+      "description": "Declarative Continuous Deployment for Kubernetes",
+      "language": "Go",
+      "stars": 23918,
+      "forks": 7735,
+      "stars_today": "16 stars today",
+      "built_by": [
+        "dependabot",
+        "alexmt",
+        "crenshaw-dev",
+        "jannfis",
+        "jessesuen"
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "spf13/cobra",
+      "url": "https://github.com/spf13/cobra",
+      "description": "A Commander for modern Go CLI interactions",
+      "language": "Go",
+      "stars": 44463,
+      "forks": 3213,
+      "stars_today": "10 stars today",
+      "built_by": [
+        "eparis",
+        "n10v",
+        "spf13",
+        "umarcor",
+        "marckhouzam"
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "geekjourneyx/md2wechat-skill",
+      "url": "https://github.com/geekjourneyx/md2wechat-skill",
+      "description": "Markdown to WeChat CLI | 一键排版发布到微信公众号：支持 40+ 排版样式和专业主题 、AI 配图 、批量发布 、多账号管理",
+      "language": "Go",
+      "stars": 3513,
+      "forks": 401,
+      "stars_today": "18 stars today",
+      "built_by": [
+        "geekjourneyx",
+        "Copilot",
+        "claude",
+        "web-flow",
+        "warp-agent"
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "semaphoreui/semaphore",
+      "url": "https://github.com/semaphoreui/semaphore",
+      "description": "Modern UI and powerful API for Ansible, Terraform/OpenTofu/Terragrunt, PowerShell and other DevOps tools.",
+      "language": "Go",
+      "stars": 14004,
+      "forks": 1288,
+      "stars_today": "3 stars today",
+      "built_by": [
+        "fiftin",
+        "matejkramny",
+        "renovate",
+        "twhiston",
+        "strangeman"
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "astaxie/TokenHub",
+      "url": "https://github.com/astaxie/TokenHub",
+      "description": "TokenHub gives enterprises a private gateway to unify AI model access and governance, making every request controllable, traceable, and attributable.",
+      "language": "Go",
+      "stars": 1048,
+      "forks": 126,
+      "stars_today": "56 stars today",
+      "built_by": [
+        "astaxie",
+        "legendtkl",
+        "deepjerry-ai",
+        "claude",
+        "cngump"
+      ]
+    },
+    {
+      "rank": 15,
+      "name": "gitleaks/gitleaks",
+      "url": "https://github.com/gitleaks/gitleaks",
+      "description": "Find secrets with Gitleaks 🔑",
+      "language": "Go",
+      "stars": 28697,
+      "forks": 2186,
+      "stars_today": "49 stars today",
+      "built_by": [
+        "zricethezav",
+        "rgmz",
+        "w0rmr1d3r",
+        "bryanbeverly",
+        "petegallagher"
+      ]
+    },
+    {
+      "rank": 16,
+      "name": "m1k1o/neko",
+      "url": "https://github.com/m1k1o/neko",
+      "description": "A self hosted virtual browser that runs in docker and uses WebRTC.",
+      "language": "Go",
+      "stars": 22060,
+      "forks": 1591,
+      "stars_today": "100 stars today",
+      "built_by": [
+        "m1k1o",
+        "nurdism",
+        "mbattista",
+        "prophetofxenu",
+        "gbrian"
+      ]
+    },
+    {
+      "rank": 17,
+      "name": "kubernetes-sigs/kueue",
+      "url": "https://github.com/kubernetes-sigs/kueue",
+      "description": "Kubernetes-native Job Queueing",
+      "language": "Go",
+      "stars": 2828,
+      "forks": 745,
+      "stars_today": "22 stars today",
+      "built_by": [
+        "mbobrovskyi",
+        "dependabot",
+        "k8s-ci-robot",
+        "tenzen-y",
+        "mimowo"
+      ]
+    },
+    {
+      "rank": 18,
+      "name": "Willxup/cpa-usage-keeper",
+      "url": "https://github.com/Willxup/cpa-usage-keeper",
+      "description": "Standalone CliProxyAPI usage tracker with SQLite persistence and built-in dashboard.",
+      "language": "Go",
+      "stars": 1143,
+      "forks": 116,
+      "stars_today": "13 stars today",
+      "built_by": [
+        "Willxup",
+        "yueziji",
+        "Linwenqiang-git",
+        "aliceric27",
+        "KorenKrita"
+      ]
+    },
+    {
+      "rank": 19,
+      "name": "flexprice/flexprice",
+      "url": "https://github.com/flexprice/flexprice",
+      "description": "Usage-based pricing and billing for developers 🔓 Cloud or self-hosted ⚙️ No-code UI 💰 Realtime usage metering 🎟 Credits & top-ups 🔑 Control feature access",
+      "language": "Go",
+      "stars": 4342,
+      "forks": 501,
+      "stars_today": "33 stars today",
+      "built_by": [
+        "omkar273",
+        "nkmishra1997",
+        "hiteshshimpi-55",
+        "claude",
+        "subratsahilgupta"
+      ]
+    },
+    {
+      "rank": 20,
+      "name": "danielmiessler/Fabric",
+      "url": "https://github.com/danielmiessler/Fabric",
+      "description": "Fabric is an open-source framework for augmenting humans using AI. It provides a modular system for solving specific problems using a crowdsourced set of AI prompts that can be used anywhere.",
+      "language": "Go",
+      "stars": 43429,
+      "forks": 4226,
+      "stars_today": "13 stars today",
+      "built_by": [
+        "danielmiessler",
+        "ksylvan",
+        "github-actions",
+        "eugeis",
+        "xssdoctor"
+      ]
+    },
+    {
+      "rank": 21,
+      "name": "aws/karpenter-provider-aws",
+      "url": "https://github.com/aws/karpenter-provider-aws",
+      "description": "Karpenter is a Kubernetes Node Autoscaler built for flexibility, performance, and simplicity.",
+      "language": "Go",
+      "stars": 7701,
+      "forks": 1318,
+      "stars_today": "4 stars today",
+      "built_by": [
+        "jonathan-innis",
+        "dependabot",
+        "ellistarn",
+        "engedaam",
+        "bwagner5"
+      ]
+    },
+    {
+      "rank": 22,
+      "name": "cloudreve/cloudreve",
+      "url": "https://github.com/cloudreve/cloudreve",
+      "description": "🌩 Self-hosted file management and sharing system, supports multiple storage providers",
+      "language": "Go",
+      "stars": 28540,
+      "forks": 3878,
+      "stars_today": "8 stars today",
+      "built_by": [
+        "HFO4",
+        "YUDONGLING",
+        "WeidiDeng",
+        "dependabot",
+        "vvisionnn"
+      ]
+    },
+    {
+      "rank": 23,
+      "name": "JuliusBrussee/caveman",
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "description": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
+      "language": "Go",
+      "stars": 98039,
+      "forks": 5665,
+      "stars_today": "263 stars today",
+      "built_by": [
+        "JuliusBrussee",
+        "claude",
+        "github-actions",
+        "sebastianbreguel",
+        "vraj00222"
+      ]
+    },
+    {
+      "rank": 24,
+      "name": "0xJacky/nginx-ui",
+      "url": "https://github.com/0xJacky/nginx-ui",
+      "description": "Yet another WebUI for Nginx",
+      "language": "Go",
+      "stars": 11407,
+      "forks": 859,
+      "stars_today": "5 stars today",
+      "built_by": [
+        "0xJacky",
+        "renovate",
+        "Hintay",
+        "claude",
+        "dependabot"
+      ]
+    }
+  ]
+}
