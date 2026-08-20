@@ -1,0 +1,336 @@
+{
+  "metadata": {
+    "date": "2026-08-20",
+    "language": "c",
+    "total_repositories": 19,
+    "total_stars": 457296,
+    "total_forks": 108905,
+    "generated_by": "GitHub Trending Scraper",
+    "format_version": "1.0"
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "colbymchenry/codegraph",
+      "url": "https://github.com/colbymchenry/codegraph",
+      "description": "Pre-indexed code knowledge graph, auto syncs on code changes, for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
+      "language": "C",
+      "stars": 67105,
+      "forks": 4259,
+      "stars_today": "181 stars today",
+      "built_by": [
+        "colbymchenry",
+        "claude",
+        "github-actions",
+        "omonien",
+        "ctype-lab"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "dorianborian/sesame-robot",
+      "url": "https://github.com/dorianborian/sesame-robot",
+      "description": "An open and affordable mini quadruped robot based on ESP32.",
+      "language": "C",
+      "stars": 4007,
+      "forks": 545,
+      "stars_today": "22 stars today",
+      "built_by": [
+        "dorianborian",
+        "shariqnaiyer",
+        "one-for-all",
+        "vido89",
+        "maximeconnolly"
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "DeusData/codebase-memory-mcp",
+      "url": "https://github.com/DeusData/codebase-memory-mcp",
+      "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
+      "language": "C",
+      "stars": 39586,
+      "forks": 3182,
+      "stars_today": "179 stars today",
+      "built_by": [
+        "DeusData",
+        "shanemccarron-maker",
+        "claude",
+        "dependabot",
+        "mvanhorn"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "redis/redis",
+      "url": "https://github.com/redis/redis",
+      "description": "For developers, who are building real-time data-driven applications, Redis is the preferred, fastest, and most feature-rich cache, data structure server, and document and vector query engine.",
+      "language": "C",
+      "stars": 76047,
+      "forks": 24760,
+      "stars_today": "18 stars today",
+      "built_by": [
+        "antirez",
+        "oranagra",
+        "pietern",
+        "enjoy-binbin",
+        "sundb"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "curl/curl",
+      "url": "https://github.com/curl/curl",
+      "description": "A command line tool and library for transferring data with URL syntax, supporting DICT, FILE, FTP, FTPS, GOPHER, GOPHERS, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, MQTT, MQTTS, POP3, POP3S, RTSP, SCP, SFTP, SMB, SMBS, SMTP, SMTPS, TELNET, TFTP, WS and WSS. libcurl offers a myriad of powerful features",
+      "language": "C",
+      "stars": 42645,
+      "forks": 7308,
+      "stars_today": "17 stars today",
+      "built_by": [
+        "bagder",
+        "vszakats",
+        "yangtse",
+        "captain-caveman2k",
+        "dfandrich"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "UberGuidoZ/Flipper",
+      "url": "https://github.com/UberGuidoZ/Flipper",
+      "description": "Playground (and dump) of stuff I make or modify for the Flipper Zero",
+      "language": "C",
+      "stars": 17390,
+      "forks": 3896,
+      "stars_today": "17 stars today",
+      "built_by": [
+        "UberGuidoZ",
+        "amec0e",
+        "RogueMaster",
+        "FalsePhilosopher",
+        "MarkCyber"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "Mbed-TLS/mbedtls",
+      "url": "https://github.com/Mbed-TLS/mbedtls",
+      "description": "An open source, portable, easy to use, readable and flexible TLS library, and reference implementation of the PSA Cryptography API. Releases are on a varying cadence, typically around 3 - 6 months between releases.",
+      "language": "C",
+      "stars": 6885,
+      "forks": 2954,
+      "stars_today": "6 stars today",
+      "built_by": [
+        "gilles-peskine-arm",
+        "mpg",
+        "ronald-cron-arm",
+        "valeriosetti",
+        "daverodgman"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "google/XNNPACK",
+      "url": "https://github.com/google/XNNPACK",
+      "description": "High-efficiency floating-point neural network inference operators for mobile, server, and Web",
+      "language": "C",
+      "stars": 2425,
+      "forks": 542,
+      "stars_today": "1 star today",
+      "built_by": [
+        "fbarchard",
+        "Maratyszcza",
+        "dsharletg",
+        "ngzhian",
+        "xnnpack-bot"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "libuv/libuv",
+      "url": "https://github.com/libuv/libuv",
+      "description": "Cross-platform asynchronous I/O",
+      "language": "C",
+      "stars": 27119,
+      "forks": 3916,
+      "stars_today": "5 stars today",
+      "built_by": [
+        "bnoordhuis",
+        "piscisaureus",
+        "saghul",
+        "ry",
+        "cjihrig"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "nmap/nmap",
+      "url": "https://github.com/nmap/nmap",
+      "description": "Nmap - the Network Mapper. Github mirror of official SVN repository.",
+      "language": "C",
+      "stars": 13389,
+      "forks": 2884,
+      "stars_today": "10 stars today",
+      "built_by": [
+        "bonsaiviking",
+        "G10h4ck",
+        "rewanthtammana",
+        "vinamrabhatia",
+        "tremblerz"
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "istoreos/istoreos",
+      "url": "https://github.com/istoreos/istoreos",
+      "description": "提供一个人人会用的的路由、NAS系统 （目前活跃的分支是 istoreos-24.10，main或master分支不维护请勿使用）",
+      "language": "C",
+      "stars": 7989,
+      "forks": 923,
+      "stars_today": "6 stars today",
+      "built_by": [
+        "juhosg",
+        "ffainelli",
+        "jow-",
+        "hauke",
+        "nbd168"
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "git/git",
+      "url": "https://github.com/git/git",
+      "description": "Git Source Code Mirror - This is a publish-only repository but pull requests can be turned into patches to the mailing list via GitGitGadget (https://gitgitgadget.github.io/). Please follow Documentation/SubmittingPatches procedure for any of your improvements.",
+      "language": "C",
+      "stars": 62667,
+      "forks": 28265,
+      "stars_today": "29 stars today",
+      "built_by": [
+        "gitster",
+        "peff",
+        "dscho",
+        "pks-t",
+        "avar"
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "DaveGamble/cJSON",
+      "url": "https://github.com/DaveGamble/cJSON",
+      "description": "Ultralightweight JSON parser in ANSI C",
+      "language": "C",
+      "stars": 12928,
+      "forks": 3515,
+      "stars_today": "1 star today",
+      "built_by": [
+        "FSMaxB",
+        "Alanscut",
+        "DaveGamble",
+        "kbranigan",
+        "gatzka"
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "zephyrproject-rtos/zephyr",
+      "url": "https://github.com/zephyrproject-rtos/zephyr",
+      "description": "Primary Git Repository for the Zephyr Project. Zephyr is a new generation, scalable, optimized, secure RTOS for multiple hardware architectures.",
+      "language": "C",
+      "stars": 16257,
+      "forks": 9780,
+      "stars_today": "13 stars today",
+      "built_by": [
+        "nashif",
+        "jukkar",
+        "galak",
+        "gmarull",
+        "kartben"
+      ]
+    },
+    {
+      "rank": 15,
+      "name": "libsdl-org/SDL",
+      "url": "https://github.com/libsdl-org/SDL",
+      "description": "Simple DirectMedia Layer",
+      "language": "C",
+      "stars": 16354,
+      "forks": 2923,
+      "stars_today": "7 stars today",
+      "built_by": [
+        "slouken",
+        "icculus",
+        "sezero",
+        "madebr",
+        "SDLWikiBot"
+      ]
+    },
+    {
+      "rank": 16,
+      "name": "cilium/tetragon",
+      "url": "https://github.com/cilium/tetragon",
+      "description": "eBPF-based Security Observability and Runtime Enforcement",
+      "language": "C",
+      "stars": 4937,
+      "forks": 586,
+      "stars_today": "5 stars today",
+      "built_by": [
+        "olsajiri",
+        "cilium-renovate",
+        "kkourt",
+        "mtardy",
+        "tixxdz"
+      ]
+    },
+    {
+      "rank": 17,
+      "name": "libimobiledevice/libimobiledevice",
+      "url": "https://github.com/libimobiledevice/libimobiledevice",
+      "description": "A cross-platform protocol library to communicate with iOS devices",
+      "language": "C",
+      "stars": 8117,
+      "forks": 1526,
+      "stars_today": "3 stars today",
+      "built_by": [
+        "nikias",
+        "FunkyM",
+        "JonathanBeck",
+        "mcolyer",
+        "cfergeau"
+      ]
+    },
+    {
+      "rank": 18,
+      "name": "lvgl/lvgl",
+      "url": "https://github.com/lvgl/lvgl",
+      "description": "LVGL is a free, full-featured embedded UI library for devices from small MCUs to 3D-capable MPUs, enhanced by LVGL Pro, a professional editor and tooling.",
+      "language": "C",
+      "stars": 24420,
+      "forks": 4306,
+      "stars_today": "10 stars today",
+      "built_by": [
+        "kisvegabor",
+        "embeddedt",
+        "FASTSHIFT",
+        "AndreCostaaa",
+        "github-actions"
+      ]
+    },
+    {
+      "rank": 19,
+      "name": "madler/zlib",
+      "url": "https://github.com/madler/zlib",
+      "description": "A massively spiffy yet delicately unobtrusive compression library.",
+      "language": "C",
+      "stars": 7029,
+      "forks": 2835,
+      "stars_today": "5 stars today",
+      "built_by": [
+        "madler",
+        "nmoinvaz",
+        "Chi-Iroh",
+        "DimitriPapadopoulos",
+        "Vollstrecker"
+      ]
+    }
+  ]
+}
