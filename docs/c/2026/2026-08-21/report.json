@@ -1,0 +1,353 @@
+{
+  "metadata": {
+    "date": "2026-08-21",
+    "language": "c",
+    "total_repositories": 20,
+    "total_stars": 716632,
+    "total_forks": 119208,
+    "generated_by": "GitHub Trending Scraper",
+    "format_version": "1.0"
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "openssl/openssl",
+      "url": "https://github.com/openssl/openssl",
+      "description": "General purpose TLS and crypto library",
+      "language": "C",
+      "stars": 30666,
+      "forks": 11401,
+      "stars_today": "7 stars today",
+      "built_by": [
+        "levitte",
+        "mattcaswell",
+        "dot-asm",
+        "paulidale",
+        "snhenson"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "DeusData/codebase-memory-mcp",
+      "url": "https://github.com/DeusData/codebase-memory-mcp",
+      "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
+      "language": "C",
+      "stars": 39707,
+      "forks": 3191,
+      "stars_today": "159 stars today",
+      "built_by": [
+        "DeusData",
+        "shanemccarron-maker",
+        "claude",
+        "dependabot",
+        "mvanhorn"
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "jqlang/jq",
+      "url": "https://github.com/jqlang/jq",
+      "description": "Command-line JSON processor",
+      "language": "C",
+      "stars": 35478,
+      "forks": 1820,
+      "stars_today": "7 stars today",
+      "built_by": [
+        "stedolan",
+        "nicowilliams",
+        "itchyny",
+        "dtolnay",
+        "github-actions"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "Mbed-TLS/mbedtls",
+      "url": "https://github.com/Mbed-TLS/mbedtls",
+      "description": "An open source, portable, easy to use, readable and flexible TLS library, and reference implementation of the PSA Cryptography API. Releases are on a varying cadence, typically around 3 - 6 months between releases.",
+      "language": "C",
+      "stars": 6889,
+      "forks": 2955,
+      "stars_today": "5 stars today",
+      "built_by": [
+        "gilles-peskine-arm",
+        "mpg",
+        "ronald-cron-arm",
+        "valeriosetti",
+        "daverodgman"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "Genymobile/scrcpy",
+      "url": "https://github.com/Genymobile/scrcpy",
+      "description": "Display and control your Android device",
+      "language": "C",
+      "stars": 147989,
+      "forks": 13629,
+      "stars_today": "71 stars today",
+      "built_by": [
+        "rom1v",
+        "yume-chan",
+        "npes87184",
+        "brunoais",
+        "rootkea"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "nginx/nginx",
+      "url": "https://github.com/nginx/nginx",
+      "description": "The official NGINX Open Source repository.",
+      "language": "C",
+      "stars": 31461,
+      "forks": 8262,
+      "stars_today": "12 stars today",
+      "built_by": [
+        "mdounin",
+        "arut",
+        "vl-homutov",
+        "VBart",
+        "pluknet"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "microsoft/mimalloc",
+      "url": "https://github.com/microsoft/mimalloc",
+      "description": "mimalloc is a compact general purpose allocator with excellent performance.",
+      "language": "C",
+      "stars": 13314,
+      "forks": 1160,
+      "stars_today": "4 stars today",
+      "built_by": [
+        "daanx",
+        "devnexen",
+        "jserv",
+        "res2k",
+        "asl"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "yugabyte/yugabyte-db",
+      "url": "https://github.com/yugabyte/yugabyte-db",
+      "description": "YugabyteDB - the cloud native distributed SQL database for mission-critical applications.",
+      "language": "C",
+      "stars": 10485,
+      "forks": 1304,
+      "stars_today": "4 stars today",
+      "built_by": [
+        "ddhodge",
+        "spolitov",
+        "aishwarya24",
+        "mbautin",
+        "jaki"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "redis/redis",
+      "url": "https://github.com/redis/redis",
+      "description": "For developers, who are building real-time data-driven applications, Redis is the preferred, fastest, and most feature-rich cache, data structure server, and document and vector query engine.",
+      "language": "C",
+      "stars": 76064,
+      "forks": 24758,
+      "stars_today": "19 stars today",
+      "built_by": [
+        "antirez",
+        "oranagra",
+        "pietern",
+        "enjoy-binbin",
+        "sundb"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "colbymchenry/codegraph",
+      "url": "https://github.com/colbymchenry/codegraph",
+      "description": "Pre-indexed code knowledge graph, auto syncs on code changes, for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
+      "language": "C",
+      "stars": 67410,
+      "forks": 4278,
+      "stars_today": "253 stars today",
+      "built_by": [
+        "colbymchenry",
+        "claude",
+        "github-actions",
+        "omonien",
+        "ctype-lab"
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "FreeRDP/FreeRDP",
+      "url": "https://github.com/FreeRDP/FreeRDP",
+      "description": "FreeRDP is a free remote desktop protocol library and clients",
+      "language": "C",
+      "stars": 13582,
+      "forks": 15408,
+      "stars_today": "9 stars today",
+      "built_by": [
+        "akallabeth",
+        "awakecoding",
+        "hardening",
+        "bmiklautz",
+        "mfleisz"
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "libjpeg-turbo/libjpeg-turbo",
+      "url": "https://github.com/libjpeg-turbo/libjpeg-turbo",
+      "description": "Main libjpeg-turbo repository",
+      "language": "C",
+      "stars": 4397,
+      "forks": 1172,
+      "stars_today": "0 stars today",
+      "built_by": [
+        "dcommander",
+        "jwright-arm",
+        "mayeut",
+        "CendioOssman",
+        "kornelski"
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "facebook/zstd",
+      "url": "https://github.com/facebook/zstd",
+      "description": "Zstandard - Fast real-time compression algorithm",
+      "language": "C",
+      "stars": 27590,
+      "forks": 2559,
+      "stars_today": "8 stars today",
+      "built_by": [
+        "Cyan4973",
+        "terrelln",
+        "inikep",
+        "felixhandte",
+        "stellamplau"
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "NVIDIA/open-gpu-kernel-modules",
+      "url": "https://github.com/NVIDIA/open-gpu-kernel-modules",
+      "description": "NVIDIA Linux open GPU kernel module source",
+      "language": "C",
+      "stars": 17305,
+      "forks": 1809,
+      "stars_today": "5 stars today",
+      "built_by": [
+        "niv",
+        "aritger",
+        "mmaneetsingh",
+        "misyltoad",
+        "gauravjuvekar"
+      ]
+    },
+    {
+      "rank": 15,
+      "name": "FreeRTOS/FreeRTOS-Kernel",
+      "url": "https://github.com/FreeRTOS/FreeRTOS-Kernel",
+      "description": "FreeRTOS kernel files only, submoduled into https://github.com/FreeRTOS/FreeRTOS and various other repos.",
+      "language": "C",
+      "stars": 4427,
+      "forks": 1597,
+      "stars_today": "3 stars today",
+      "built_by": [
+        "RichardBarry",
+        "aggarg",
+        "kar-rahul-aws",
+        "chinglee-iot",
+        "Skptak"
+      ]
+    },
+    {
+      "rank": 16,
+      "name": "zephyrproject-rtos/zephyr",
+      "url": "https://github.com/zephyrproject-rtos/zephyr",
+      "description": "Primary Git Repository for the Zephyr Project. Zephyr is a new generation, scalable, optimized, secure RTOS for multiple hardware architectures.",
+      "language": "C",
+      "stars": 16268,
+      "forks": 9791,
+      "stars_today": "9 stars today",
+      "built_by": [
+        "nashif",
+        "jukkar",
+        "galak",
+        "gmarull",
+        "kartben"
+      ]
+    },
+    {
+      "rank": 17,
+      "name": "microsoft/PowerToys",
+      "url": "https://github.com/microsoft/PowerToys",
+      "description": "Microsoft PowerToys is a collection of utilities that supercharge productivity and customization on Windows",
+      "language": "C",
+      "stars": 137915,
+      "forks": 8494,
+      "stars_today": "47 stars today",
+      "built_by": [
+        "crutkas",
+        "bao-qian",
+        "niels9001",
+        "qianlifeng",
+        "jaimecbernardo"
+      ]
+    },
+    {
+      "rank": 18,
+      "name": "sabrogden/Ditto",
+      "url": "https://github.com/sabrogden/Ditto",
+      "description": "Ditto is an extension to the Windows Clipboard. You copy something to the Clipboard and Ditto takes what you copied and stores it in a database to retrieve at a later time.",
+      "language": "C",
+      "stars": 6986,
+      "forks": 432,
+      "stars_today": "2 stars today",
+      "built_by": [
+        "sabrogden",
+        "dcog989",
+        "PzaThief",
+        "schmurtzm",
+        "bovirus"
+      ]
+    },
+    {
+      "rank": 19,
+      "name": "SchedMD/slurm",
+      "url": "https://github.com/SchedMD/slurm",
+      "description": "Slurm: A Highly Scalable Workload Manager",
+      "language": "C",
+      "stars": 4268,
+      "forks": 880,
+      "stars_today": "1 star today",
+      "built_by": [
+        "dannyauble",
+        "jette",
+        "wickberg",
+        "naterini",
+        "gaijin03"
+      ]
+    },
+    {
+      "rank": 20,
+      "name": "lvgl/lvgl",
+      "url": "https://github.com/lvgl/lvgl",
+      "description": "LVGL is a free, full-featured embedded UI library for devices from small MCUs to 3D-capable MPUs, enhanced by LVGL Pro, a professional editor and tooling.",
+      "language": "C",
+      "stars": 24431,
+      "forks": 4308,
+      "stars_today": "11 stars today",
+      "built_by": [
+        "kisvegabor",
+        "embeddedt",
+        "FASTSHIFT",
+        "AndreCostaaa",
+        "github-actions"
+      ]
+    }
+  ]
+}
