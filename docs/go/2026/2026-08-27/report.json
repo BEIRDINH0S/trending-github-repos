@@ -1,0 +1,404 @@
+{
+  "metadata": {
+    "date": "2026-08-27",
+    "language": "go",
+    "total_repositories": 23,
+    "total_stars": 494862,
+    "total_forks": 69121,
+    "generated_by": "GitHub Trending Scraper",
+    "format_version": "1.0"
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "asciimoo/hister",
+      "url": "https://github.com/asciimoo/hister",
+      "description": "Your own search engine",
+      "language": "Go",
+      "stars": 3095,
+      "forks": 137,
+      "stars_today": "430 stars today",
+      "built_by": [
+        "asciimoo",
+        "4evy",
+        "dependabot",
+        "ISSOtm",
+        "Shadowbee27"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "containerd/containerd",
+      "url": "https://github.com/containerd/containerd",
+      "description": "An open and reliable container runtime",
+      "language": "Go",
+      "stars": 21195,
+      "forks": 4079,
+      "stars_today": "22 stars today",
+      "built_by": [
+        "dmcgowan",
+        "crosbymichael",
+        "estesp",
+        "Random-Liu",
+        "mxpv"
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "open-telemetry/opentelemetry-collector-contrib",
+      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib",
+      "description": "Contrib repository for the OpenTelemetry Collector",
+      "language": "Go",
+      "stars": 4888,
+      "forks": 3836,
+      "stars_today": "4 stars today",
+      "built_by": [
+        "renovate",
+        "bogdandrutu",
+        "opentelemetrybot",
+        "songy23",
+        "atoulme"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "MHSanaei/3x-ui",
+      "url": "https://github.com/MHSanaei/3x-ui",
+      "description": "Xray panel supporting multi-protocol multi-user expire day & traffic & IP limit (Vmess, Vless, Trojan, ShadowSocks, Wireguard, Hysteria, Tunnel, Mixed, HTTP, Tun, MTProto)",
+      "language": "Go",
+      "stars": 45401,
+      "forks": 9289,
+      "stars_today": "86 stars today",
+      "built_by": [
+        "MHSanaei",
+        "alireza0",
+        "dependabot",
+        "hamid-gh98",
+        "sh1shd"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "Layr-Labs/d-inference",
+      "url": "https://github.com/Layr-Labs/d-inference",
+      "description": "Private Inference Network on Idle Macs",
+      "language": "Go",
+      "stars": 429,
+      "forks": 81,
+      "stars_today": "39 stars today",
+      "built_by": [
+        "Gajesh2007",
+        "cursoragent",
+        "anupsv",
+        "ethenotethan",
+        "claude"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "netdata/netdata",
+      "url": "https://github.com/netdata/netdata",
+      "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
+      "language": "Go",
+      "stars": 80314,
+      "forks": 6602,
+      "stars_today": "20 stars today",
+      "built_by": [
+        "ktsaou",
+        "netdatabot",
+        "ilyam8",
+        "Ferroin",
+        "stelfrag"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "grafana/alloy",
+      "url": "https://github.com/grafana/alloy",
+      "description": "OpenTelemetry Collector distribution with programmable pipelines",
+      "language": "Go",
+      "stars": 3475,
+      "forks": 691,
+      "stars_today": "6 stars today",
+      "built_by": [
+        "rfratto",
+        "clayton-cornell",
+        "ptodev",
+        "kalleep",
+        "thampiotr"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "temporalio/temporal",
+      "url": "https://github.com/temporalio/temporal",
+      "description": "Temporal service",
+      "language": "Go",
+      "stars": 22558,
+      "forks": 1840,
+      "stars_today": "22 stars today",
+      "built_by": [
+        "wxing1292",
+        "yycptt",
+        "dnr",
+        "stephanos",
+        "yux0"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "kubernetes-sigs/agent-sandbox",
+      "url": "https://github.com/kubernetes-sigs/agent-sandbox",
+      "description": "agent-sandbox enables easy management of isolated, stateful, singleton workloads, ideal for use cases like AI agent runtimes and reinforcement learning (RL).",
+      "language": "Go",
+      "stars": 3648,
+      "forks": 467,
+      "stars_today": "15 stars today",
+      "built_by": [
+        "janetkuo",
+        "justinsb",
+        "k8s-ci-robot",
+        "shrutiyam-glitch",
+        "aditya-shantanu"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "milvus-io/milvus",
+      "url": "https://github.com/milvus-io/milvus",
+      "description": "Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search",
+      "language": "Go",
+      "stars": 45817,
+      "forks": 4203,
+      "stars_today": "22 stars today",
+      "built_by": [
+        "congqixia",
+        "JinHai-CN",
+        "bigsheeper",
+        "zhuwenxing",
+        "xiaocai2333"
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "open-policy-agent/opa",
+      "url": "https://github.com/open-policy-agent/opa",
+      "description": "Open Policy Agent (OPA) is an open source, general-purpose policy engine.",
+      "language": "Go",
+      "stars": 12169,
+      "forks": 1663,
+      "stars_today": "6 stars today",
+      "built_by": [
+        "tsandall",
+        "srenatus",
+        "patrick-east",
+        "dependabot",
+        "anderseknert"
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "moby/moby",
+      "url": "https://github.com/moby/moby",
+      "description": "The Moby Project - a collaborative project for the container ecosystem to assemble container-based systems",
+      "language": "Go",
+      "stars": 72003,
+      "forks": 19207,
+      "stars_today": "3 stars today",
+      "built_by": [
+        "thaJeztah",
+        "cpuguy83",
+        "crosbymichael",
+        "vvoland",
+        "vdemeester"
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "siderolabs/talos",
+      "url": "https://github.com/siderolabs/talos",
+      "description": "Talos Linux is a modern Linux distribution built for Kubernetes.",
+      "language": "Go",
+      "stars": 11025,
+      "forks": 882,
+      "stars_today": "6 stars today",
+      "built_by": [
+        "smira",
+        "andrewrynhard",
+        "frezbo",
+        "rsmitty",
+        "Unix4ever"
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "larksuite/cli",
+      "url": "https://github.com/larksuite/cli",
+      "description": "The official Lark/飞书 CLI tool, maintained by the larksuite team — built for humans and AI Agents. Covers core business domains including Messenger, Docs, Base, Sheets, Calendar, Mail, Tasks, Meetings, and more, with 200+ commands and 20+ AI Agent Skills.",
+      "language": "Go",
+      "stars": 16788,
+      "forks": 1351,
+      "stars_today": "31 stars today",
+      "built_by": [
+        "liangshuo-1",
+        "ethan-zhx",
+        "fangshuyu-768",
+        "wittam-01",
+        "zgz2048"
+      ]
+    },
+    {
+      "rank": 15,
+      "name": "getarcaneapp/arcane",
+      "url": "https://github.com/getarcaneapp/arcane",
+      "description": "Modern Docker Management, Designed for Everyone",
+      "language": "Go",
+      "stars": 7151,
+      "forks": 290,
+      "stars_today": "17 stars today",
+      "built_by": [
+        "kmendell",
+        "dependabot",
+        "getarcaneappbot",
+        "cabaucom376",
+        "GiulioSavini"
+      ]
+    },
+    {
+      "rank": 16,
+      "name": "nats-io/nats-server",
+      "url": "https://github.com/nats-io/nats-server",
+      "description": "High-Performance server for NATS.io, the cloud and edge native messaging system.",
+      "language": "Go",
+      "stars": 20610,
+      "forks": 1914,
+      "stars_today": "12 stars today",
+      "built_by": [
+        "derekcollison",
+        "kozlovic",
+        "neilalexander",
+        "MauriceVanVeen",
+        "matthiashanel"
+      ]
+    },
+    {
+      "rank": 17,
+      "name": "aquasecurity/trivy",
+      "url": "https://github.com/aquasecurity/trivy",
+      "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
+      "language": "Go",
+      "stars": 37647,
+      "forks": 636,
+      "stars_today": "21 stars today",
+      "built_by": [
+        "knqyf263",
+        "DmitriyLewen",
+        "dependabot",
+        "nikpivkin",
+        "simar7"
+      ]
+    },
+    {
+      "rank": 18,
+      "name": "projectdiscovery/nuclei",
+      "url": "https://github.com/projectdiscovery/nuclei",
+      "description": "Nuclei is a fast, customizable vulnerability scanner powered by the global security community and built on a simple YAML-based DSL, enabling collaboration to tackle trending vulnerabilities on the internet. It helps you find vulnerabilities in your applications, APIs, networks, DNS, and cloud configurations.",
+      "language": "Go",
+      "stars": 30866,
+      "forks": 3833,
+      "stars_today": "54 stars today",
+      "built_by": [
+        "Mzack9999",
+        "dependabot",
+        "ehsandeep",
+        "Ice3man543",
+        "dwisiswant0"
+      ]
+    },
+    {
+      "rank": 19,
+      "name": "ongridio/ongrid",
+      "url": "https://github.com/ongridio/ongrid",
+      "description": "An ops AI Agent that understands your infrastructure, finds the root cause, and fixes it — right from Slack, Telegram, Lark or DingTalk.",
+      "language": "Go",
+      "stars": 903,
+      "forks": 196,
+      "stars_today": "48 stars today",
+      "built_by": [
+        "singchia",
+        "youzi-1122",
+        "claude",
+        "anrenlx2025",
+        "ixchitl"
+      ]
+    },
+    {
+      "rank": 20,
+      "name": "hashicorp/vault",
+      "url": "https://github.com/hashicorp/vault",
+      "description": "A tool for secrets management, encryption as a service, and privileged access management",
+      "language": "Go",
+      "stars": 36179,
+      "forks": 4742,
+      "stars_today": "9 stars today",
+      "built_by": [
+        "jefferai",
+        "hc-github-team-secure-vault-core",
+        "vishalnayak",
+        "armon",
+        "ncabatoff"
+      ]
+    },
+    {
+      "rank": 21,
+      "name": "sigstore/cosign",
+      "url": "https://github.com/sigstore/cosign",
+      "description": "Code signing and transparency for containers and binaries",
+      "language": "Go",
+      "stars": 6255,
+      "forks": 794,
+      "stars_today": "4 stars today",
+      "built_by": [
+        "dependabot",
+        "cpanato",
+        "Hayden-IO",
+        "mattmoor",
+        "developer-guy"
+      ]
+    },
+    {
+      "rank": 22,
+      "name": "tektoncd/pipeline",
+      "url": "https://github.com/tektoncd/pipeline",
+      "description": "A cloud-native Pipeline resource.",
+      "language": "Go",
+      "stars": 9048,
+      "forks": 1958,
+      "stars_today": "2 stars today",
+      "built_by": [
+        "dependabot",
+        "vdemeester",
+        "bobcatfish",
+        "afrittoli",
+        "imjasonh"
+      ]
+    },
+    {
+      "rank": 23,
+      "name": "grafana/mcp-grafana",
+      "url": "https://github.com/grafana/mcp-grafana",
+      "description": "MCP server for Grafana",
+      "language": "Go",
+      "stars": 3398,
+      "forks": 430,
+      "stars_today": "5 stars today",
+      "built_by": [
+        "sd2k",
+        "claude",
+        "renovate-sh-app",
+        "dependabot",
+        "ioanarm"
+      ]
+    }
+  ]
+}
