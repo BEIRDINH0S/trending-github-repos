@@ -1,0 +1,335 @@
+{
+  "metadata": {
+    "date": "2026-08-29",
+    "language": "go",
+    "total_repositories": 19,
+    "total_stars": 392368,
+    "total_forks": 41135,
+    "generated_by": "GitHub Trending Scraper",
+    "format_version": "1.0"
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "JetBrains/go-modern-guidelines",
+      "url": "https://github.com/JetBrains/go-modern-guidelines",
+      "description": "Help AI coding agents write modern Go",
+      "language": "Go",
+      "stars": 2654,
+      "forks": 79,
+      "stars_today": "574 stars today",
+      "built_by": [
+        "simpletonDL",
+        "Splatjov",
+        "nikitakuchur",
+        "raeperd",
+        "endigma"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "tailscale/tailcat",
+      "url": "https://github.com/tailscale/tailcat",
+      "description": "like netcat, but over Tailscale's data plane, without Tailscale's control plane",
+      "language": "Go",
+      "stars": 2920,
+      "forks": 79,
+      "stars_today": "965 stars today",
+      "built_by": [
+        "bradfitz",
+        "danderson",
+        "andrew-d",
+        "raggi",
+        "jwhited"
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "workweave/router",
+      "url": "https://github.com/workweave/router",
+      "description": "Model router for agentic systems. Routes every prompt to the right model in <50ms. Cut costs 40-70% with just an endpoint change.",
+      "language": "Go",
+      "stars": 2449,
+      "forks": 72,
+      "stars_today": "693 stars today",
+      "built_by": [
+        "steventohme",
+        "claude",
+        "aminsamir45",
+        "a-churchill",
+        "devin-ai-integration"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "vxcontrol/pentagi",
+      "url": "https://github.com/vxcontrol/pentagi",
+      "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
+      "language": "Go",
+      "stars": 22143,
+      "forks": 2946,
+      "stars_today": "68 stars today",
+      "built_by": [
+        "sirozha",
+        "claude",
+        "asdek",
+        "mason5052",
+        "cursoragent"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "grafana/alloy",
+      "url": "https://github.com/grafana/alloy",
+      "description": "OpenTelemetry Collector distribution with programmable pipelines",
+      "language": "Go",
+      "stars": 3483,
+      "forks": 695,
+      "stars_today": "4 stars today",
+      "built_by": [
+        "rfratto",
+        "clayton-cornell",
+        "ptodev",
+        "kalleep",
+        "thampiotr"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "vllm-project/semantic-router",
+      "url": "https://github.com/vllm-project/semantic-router",
+      "description": "A programmable Mixture-of-Models router for heterogeneous LLM inference",
+      "language": "Go",
+      "stars": 5392,
+      "forks": 851,
+      "stars_today": "41 stars today",
+      "built_by": [
+        "Xunzhuo",
+        "rootfs",
+        "AayushSaini101",
+        "theohsiung",
+        "samzong"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "QuantumNous/new-api",
+      "url": "https://github.com/QuantumNous/new-api",
+      "description": "A unified AI model hub for aggregation & distribution. It supports cross-converting various LLMs into OpenAI-compatible, Claude-compatible, or Gemini-compatible formats. A centralized gateway for personal and enterprise model management.",
+      "language": "Go",
+      "stars": 46713,
+      "forks": 11103,
+      "stars_today": "110 stars today",
+      "built_by": [
+        "Calcium-Ion",
+        "seefs001",
+        "t0ng7u",
+        "songquanpeng"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "milvus-io/milvus",
+      "url": "https://github.com/milvus-io/milvus",
+      "description": "Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search",
+      "language": "Go",
+      "stars": 45860,
+      "forks": 4207,
+      "stars_today": "26 stars today",
+      "built_by": [
+        "congqixia",
+        "JinHai-CN",
+        "bigsheeper",
+        "zhuwenxing",
+        "xiaocai2333"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "traefik/traefik",
+      "url": "https://github.com/traefik/traefik",
+      "description": "The Cloud Native Application Proxy",
+      "language": "Go",
+      "stars": 64639,
+      "forks": 6171,
+      "stars_today": "15 stars today",
+      "built_by": [
+        "ldez",
+        "emilevauge",
+        "rtribotte",
+        "kevinpollet",
+        "mmatur"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "tailscale/tailscale",
+      "url": "https://github.com/tailscale/tailscale",
+      "description": "The easiest, most secure way to use WireGuard and 2FA.",
+      "language": "Go",
+      "stars": 35722,
+      "forks": 3124,
+      "stars_today": "44 stars today",
+      "built_by": [
+        "bradfitz",
+        "danderson",
+        "josharian",
+        "raggi",
+        "andrew-d"
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "google/gvisor",
+      "url": "https://github.com/google/gvisor",
+      "description": "Application Kernel for Containers",
+      "language": "Go",
+      "stars": 19186,
+      "forks": 1950,
+      "stars_today": "14 stars today",
+      "built_by": [
+        "gvisor-bot",
+        "ayushr2",
+        "avagin",
+        "fvoznika",
+        "EtiennePerot"
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "aquasecurity/trivy",
+      "url": "https://github.com/aquasecurity/trivy",
+      "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
+      "language": "Go",
+      "stars": 37682,
+      "forks": 637,
+      "stars_today": "22 stars today",
+      "built_by": [
+        "knqyf263",
+        "DmitriyLewen",
+        "dependabot",
+        "nikpivkin",
+        "simar7"
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "glanceapp/glance",
+      "url": "https://github.com/glanceapp/glance",
+      "description": "A self-hosted dashboard that puts all your feeds in one place",
+      "language": "Go",
+      "stars": 36685,
+      "forks": 1440,
+      "stars_today": "22 stars today",
+      "built_by": [
+        "svilenmarkov",
+        "ralphocdol",
+        "c0smicdev",
+        "wfg",
+        "DVDAndroid"
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "nats-io/nats-server",
+      "url": "https://github.com/nats-io/nats-server",
+      "description": "High-Performance server for NATS.io, the cloud and edge native messaging system.",
+      "language": "Go",
+      "stars": 20628,
+      "forks": 1919,
+      "stars_today": "11 stars today",
+      "built_by": [
+        "derekcollison",
+        "kozlovic",
+        "neilalexander",
+        "MauriceVanVeen",
+        "matthiashanel"
+      ]
+    },
+    {
+      "rank": 15,
+      "name": "flyteorg/flyte",
+      "url": "https://github.com/flyteorg/flyte",
+      "description": "Dynamic, resilient AI orchestration. Coordinate data, models, and compute as you build AI workflows.",
+      "language": "Go",
+      "stars": 7308,
+      "forks": 879,
+      "stars_today": "36 stars today",
+      "built_by": [
+        "EngHabu",
+        "eapolinario",
+        "pingsutw",
+        "katrogan",
+        "hamersaw"
+      ]
+    },
+    {
+      "rank": 16,
+      "name": "runatlantis/atlantis",
+      "url": "https://github.com/runatlantis/atlantis",
+      "description": "Terraform Pull Request Automation",
+      "language": "Go",
+      "stars": 9263,
+      "forks": 1329,
+      "stars_today": "5 stars today",
+      "built_by": [
+        "lkysow",
+        "renovate",
+        "chenrui333",
+        "dependabot",
+        "nitrocode"
+      ]
+    },
+    {
+      "rank": 17,
+      "name": "lxc/incus",
+      "url": "https://github.com/lxc/incus",
+      "description": "Powerful system container and virtual machine manager",
+      "language": "Go",
+      "stars": 6066,
+      "forks": 484,
+      "stars_today": "8 stars today",
+      "built_by": [
+        "stgraber",
+        "tomponline",
+        "freeekanayaka",
+        "monstermunchkin",
+        "hallyn"
+      ]
+    },
+    {
+      "rank": 18,
+      "name": "Tencent/WeKnora",
+      "url": "https://github.com/Tencent/WeKnora",
+      "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+      "language": "Go",
+      "stars": 20875,
+      "forks": 3000,
+      "stars_today": "78 stars today",
+      "built_by": [
+        "lyingbug",
+        "voidkey",
+        "begoniezhao",
+        "claude",
+        "dependabot"
+      ]
+    },
+    {
+      "rank": 19,
+      "name": "compozy/compozy",
+      "url": "https://github.com/compozy/compozy",
+      "description": "An operating system for AI agents. Plug in the agent CLIs you already use (Claude Code, Codex, Gemini CLI, Cursor) and they become a team: they split the work, hand tasks to each other, run automated on jobs and loops, and share one project memory. You steer everything from the browser.",
+      "language": "Go",
+      "stars": 2700,
+      "forks": 170,
+      "stars_today": "3 stars today",
+      "built_by": [
+        "pedronauck",
+        "github-actions",
+        "claude",
+        "franciscpd",
+        "codex"
+      ]
+    }
+  ]
+}

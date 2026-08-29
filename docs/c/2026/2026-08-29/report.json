@@ -1,0 +1,366 @@
+{
+  "metadata": {
+    "date": "2026-08-29",
+    "language": "c",
+    "total_repositories": 21,
+    "total_stars": 422100,
+    "total_forks": 79089,
+    "generated_by": "GitHub Trending Scraper",
+    "format_version": "1.0"
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "antirez/ds4",
+      "url": "https://github.com/antirez/ds4",
+      "description": "DeepSeek 4 Flash and PRO local inference engine for Metal, CUDA and ROCm",
+      "language": "C",
+      "stars": 21894,
+      "forks": 2038,
+      "stars_today": "40 stars today",
+      "built_by": [
+        "antirez",
+        "ivanfioravanti",
+        "Entrpi",
+        "jyatesdotdev",
+        "claude"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "openssl/openssl",
+      "url": "https://github.com/openssl/openssl",
+      "description": "General purpose TLS and crypto library",
+      "language": "C",
+      "stars": 30712,
+      "forks": 11421,
+      "stars_today": "7 stars today",
+      "built_by": [
+        "levitte",
+        "mattcaswell",
+        "dot-asm",
+        "paulidale",
+        "snhenson"
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "pgvector/pgvector",
+      "url": "https://github.com/pgvector/pgvector",
+      "description": "Open-source vector similarity search for Postgres",
+      "language": "C",
+      "stars": 22806,
+      "forks": 1302,
+      "stars_today": "20 stars today",
+      "built_by": [
+        "ankane",
+        "hlinnaka",
+        "jkatz",
+        "lychen0618",
+        "binarycleric"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "veracrypt/VeraCrypt",
+      "url": "https://github.com/veracrypt/VeraCrypt",
+      "description": "Disk encryption with strong security based on TrueCrypt",
+      "language": "C",
+      "stars": 11475,
+      "forks": 1325,
+      "stars_today": "33 stars today",
+      "built_by": [
+        "idrassi",
+        "Jertzukka",
+        "Matthaiks",
+        "sandakersmann",
+        "Patriccollu"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "facebook/zstd",
+      "url": "https://github.com/facebook/zstd",
+      "description": "Zstandard - Fast real-time compression algorithm",
+      "language": "C",
+      "stars": 27645,
+      "forks": 2570,
+      "stars_today": "6 stars today",
+      "built_by": [
+        "Cyan4973",
+        "terrelln",
+        "inikep",
+        "felixhandte",
+        "stellamplau"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "curl/curl",
+      "url": "https://github.com/curl/curl",
+      "description": "A command line tool and library for transferring data with URL syntax, supporting DICT, FILE, FTP, FTPS, GOPHER, GOPHERS, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, MQTT, MQTTS, POP3, POP3S, RTSP, SCP, SFTP, SMB, SMBS, SMTP, SMTPS, TELNET, TFTP, WS and WSS. libcurl offers a myriad of powerful features",
+      "language": "C",
+      "stars": 42707,
+      "forks": 7330,
+      "stars_today": "11 stars today",
+      "built_by": [
+        "bagder",
+        "vszakats",
+        "yangtse",
+        "captain-caveman2k",
+        "dfandrich"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "mackron/miniaudio",
+      "url": "https://github.com/mackron/miniaudio",
+      "description": "Audio playback and capture library written in C, in a single source file.",
+      "language": "C",
+      "stars": 7200,
+      "forks": 600,
+      "stars_today": "10 stars today",
+      "built_by": [
+        "mackron",
+        "tycho",
+        "znakeeye",
+        "Clownacy",
+        "iarwain"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "lvgl/lvgl",
+      "url": "https://github.com/lvgl/lvgl",
+      "description": "LVGL is a free, full-featured embedded UI library for devices from small MCUs to 3D-capable MPUs, enhanced by LVGL Pro, a professional editor and tooling.",
+      "language": "C",
+      "stars": 24521,
+      "forks": 4328,
+      "stars_today": "10 stars today",
+      "built_by": [
+        "kisvegabor",
+        "embeddedt",
+        "FASTSHIFT",
+        "AndreCostaaa",
+        "github-actions"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "containers/bubblewrap",
+      "url": "https://github.com/containers/bubblewrap",
+      "description": "Low-level unprivileged sandboxing tool used by Flatpak and similar projects",
+      "language": "C",
+      "stars": 8524,
+      "forks": 378,
+      "stars_today": "13 stars today",
+      "built_by": [
+        "smcv",
+        "alexlarsson",
+        "cgwalters",
+        "giuseppe",
+        "pwithnall"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "sunblaze-ucb/exploitgym",
+      "url": "https://github.com/sunblaze-ucb/exploitgym",
+      "description": "ExploitGym is a large-scale, realistic benchmark built from real-world vulnerabilities designed to evaluate AI agents' ability to develop exploits.",
+      "language": "C",
+      "stars": 854,
+      "forks": 106,
+      "stars_today": "16 stars today",
+      "built_by": [
+        "wzunknown",
+        "claude",
+        "3rdn4Li",
+        "Copilot"
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "hathach/tinyusb",
+      "url": "https://github.com/hathach/tinyusb",
+      "description": "An open source cross-platform USB stack for embedded system",
+      "language": "C",
+      "stars": 7066,
+      "forks": 1502,
+      "stars_today": "6 stars today",
+      "built_by": [
+        "hathach",
+        "HiFiPhile",
+        "claude",
+        "pigrew",
+        "kkitayam"
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "FRRouting/frr",
+      "url": "https://github.com/FRRouting/frr",
+      "description": "The FRRouting Protocol Suite",
+      "language": "C",
+      "stars": 4271,
+      "forks": 1600,
+      "stars_today": "0 stars today",
+      "built_by": [
+        "donaldsharp",
+        "ton31337",
+        "eqvinox",
+        "qlyoung",
+        "riw777"
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "FreeRDP/FreeRDP",
+      "url": "https://github.com/FreeRDP/FreeRDP",
+      "description": "FreeRDP is a free remote desktop protocol library and clients",
+      "language": "C",
+      "stars": 13612,
+      "forks": 15420,
+      "stars_today": "9 stars today",
+      "built_by": [
+        "akallabeth",
+        "awakecoding",
+        "hardening",
+        "bmiklautz",
+        "mfleisz"
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "reactos/reactos",
+      "url": "https://github.com/reactos/reactos",
+      "description": "A free Windows-compatible Operating System",
+      "language": "C",
+      "stars": 17974,
+      "forks": 2196,
+      "stars_today": "3 stars today",
+      "built_by": [
+        "tkreuzer",
+        "AmineKhaldi",
+        "EricKohl",
+        "HBelusca",
+        "ThFabba"
+      ]
+    },
+    {
+      "rank": 15,
+      "name": "kingToolbox/WindTerm",
+      "url": "https://github.com/kingToolbox/WindTerm",
+      "description": "A professional cross-platform SSH/Sftp/Shell/Telnet/Tmux/Serial terminal.",
+      "language": "C",
+      "stars": 32092,
+      "forks": 2445,
+      "stars_today": "14 stars today",
+      "built_by": [
+        "kingToolbox",
+        "dnlchen"
+      ]
+    },
+    {
+      "rank": 16,
+      "name": "madler/zlib",
+      "url": "https://github.com/madler/zlib",
+      "description": "A massively spiffy yet delicately unobtrusive compression library.",
+      "language": "C",
+      "stars": 7055,
+      "forks": 2845,
+      "stars_today": "4 stars today",
+      "built_by": [
+        "madler",
+        "nmoinvaz",
+        "Chi-Iroh",
+        "DimitriPapadopoulos",
+        "Vollstrecker"
+      ]
+    },
+    {
+      "rank": 17,
+      "name": "systemd/systemd",
+      "url": "https://github.com/systemd/systemd",
+      "description": "The systemd System and Service Manager",
+      "language": "C",
+      "stars": 16638,
+      "forks": 4651,
+      "stars_today": "2 stars today",
+      "built_by": [
+        "poettering",
+        "yuwata",
+        "keszybz",
+        "bluca",
+        "daandemeyer"
+      ]
+    },
+    {
+      "rank": 18,
+      "name": "micropython/micropython",
+      "url": "https://github.com/micropython/micropython",
+      "description": "MicroPython - a lean and efficient Python implementation for microcontrollers and constrained systems",
+      "language": "C",
+      "stars": 22019,
+      "forks": 8945,
+      "stars_today": "5 stars today",
+      "built_by": [
+        "dpgeorge",
+        "pfalcon",
+        "jimmo",
+        "robert-hh",
+        "iabdalkader"
+      ]
+    },
+    {
+      "rank": 19,
+      "name": "libuv/libuv",
+      "url": "https://github.com/libuv/libuv",
+      "description": "Cross-platform asynchronous I/O",
+      "language": "C",
+      "stars": 27142,
+      "forks": 3925,
+      "stars_today": "6 stars today",
+      "built_by": [
+        "bnoordhuis",
+        "piscisaureus",
+        "saghul",
+        "ry",
+        "cjihrig"
+      ]
+    },
+    {
+      "rank": 20,
+      "name": "tmux/tmux",
+      "url": "https://github.com/tmux/tmux",
+      "description": "tmux source code",
+      "language": "C",
+      "stars": 48890,
+      "forks": 2860,
+      "stars_today": "21 stars today",
+      "built_by": [
+        "nicm",
+        "ThomasAdam",
+        "tcunha",
+        "actions-user",
+        "mathstuf"
+      ]
+    },
+    {
+      "rank": 21,
+      "name": "valkey-io/valkey",
+      "url": "https://github.com/valkey-io/valkey",
+      "description": "A flexible distributed key-value database that is optimized for caching and other realtime workloads.",
+      "language": "C",
+      "stars": 27003,
+      "forks": 1302,
+      "stars_today": "8 stars today",
+      "built_by": [
+        "antirez",
+        "enjoy-binbin",
+        "oranagra",
+        "pietern",
+        "madolson"
+      ]
+    }
+  ]
+}
