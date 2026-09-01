@@ -1,0 +1,1310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trending Python – 2026-09-01 | GitHub Trends</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <style>
+            /* ── Design tokens ── */
+            :root {
+                /* Backgrounds */
+                --bg-base:          #080C14;
+                --bg-surface:       rgba(8, 18, 36, 0.72);
+                --bg-elevated:      rgba(14, 28, 54, 0.80);
+                --bg-hover:         rgba(22, 42, 78, 0.60);
+
+                /* Borders */
+                --border-default:   rgba(255, 255, 255, 0.06);
+                --border-subtle:    rgba(255, 255, 255, 0.04);
+                --border-hover:     rgba(56, 189, 248, 0.35);
+                --border-glow:      rgba(139, 92, 246, 0.30);
+
+                /* Accent palette */
+                --color-primary:      #38BDF8;
+                --color-primary-dark: #0EA5E9;
+                --color-violet:       #A78BFA;
+                --color-emerald:      #34D399;
+                --color-amber:        #FBBF24;
+                --color-rose:         #FB7185;
+                --color-orange:       #FB923C;
+
+                /* Glows */
+                --glow-primary:  rgba(56, 189, 248, 0.14);
+                --glow-violet:   rgba(167, 139, 250, 0.12);
+                --glow-emerald:  rgba(52, 211, 153, 0.10);
+                --glow-amber:    rgba(251, 191, 36, 0.14);
+
+                /* Text */
+                --text-primary:  #E2E8F0;
+                --text-secondary:#94A3B8;
+                --text-muted:    #64748B;
+                --text-dim:      #475569;
+
+                /* Navbar */
+                --nav-bg:          rgba(6, 10, 20, 0.88);
+                --nav-border:      rgba(255, 255, 255, 0.07);
+                --nav-hover-bg:    rgba(255, 255, 255, 0.05);
+                --nav-text:        #E2E8F0;
+                --nav-text-muted:  #94A3B8;
+                --nav-text-dim:    #64748B;
+                --nav-accent:      #38BDF8;
+
+                /* Sidebar aliases (used by index_generator too) */
+                --sidebar-bg:      #080C14;
+                --sidebar-hover:   rgba(255,255,255,0.05);
+                --sidebar-border:  rgba(255,255,255,0.07);
+                --sidebar-accent:  #38BDF8;
+
+                /* Legacy aliases for backward-compat with renderer code */
+                --color-background:    #080C14;
+                --color-surface:       rgba(8, 18, 36, 0.72);
+                --color-border:        rgba(255,255,255,0.08);
+                --color-border-subtle: rgba(255,255,255,0.05);
+                --color-text:          #E2E8F0;
+                --color-text-muted:    #94A3B8;
+                --color-text-subtle:   #64748B;
+                --color-secondary:     #38BDF8;
+                --color-accent:        #FBBF24;
+                --color-primary-dark:  #0EA5E9;
+            }
+
+            /* ── Reset ── */
+            *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+            /* ── Body + aurora background ── */
+            body {
+                font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+                line-height: 1.65;
+                color: var(--text-primary);
+                background: var(--bg-base);
+                min-height: 100vh;
+                overflow-x: hidden;
+            }
+
+            /* Animated aurora mesh */
+            body::before {
+                content: '';
+                position: fixed;
+                inset: 0;
+                background:
+                    radial-gradient(ellipse 90% 60% at 15% 5%,  rgba(56, 189, 248, 0.08) 0%, transparent 60%),
+                    radial-gradient(ellipse 70% 55% at 85% 85%, rgba(139, 92, 246, 0.07) 0%, transparent 55%),
+                    radial-gradient(ellipse 55% 45% at 55% 40%, rgba(52, 211, 153, 0.04) 0%, transparent 50%),
+                    radial-gradient(ellipse 40% 35% at 30% 75%, rgba(251, 191, 36, 0.03) 0%, transparent 50%);
+                animation: aurora 24s ease-in-out infinite alternate;
+                pointer-events: none;
+                z-index: 0;
+            }
+
+            /* Dot-grid overlay */
+            body::after {
+                content: '';
+                position: fixed;
+                inset: 0;
+                background-image: radial-gradient(rgba(255, 255, 255, 0.028) 1px, transparent 1px);
+                background-size: 26px 26px;
+                pointer-events: none;
+                z-index: 0;
+            }
+
+            /* ── Keyframes ── */
+            @keyframes aurora {
+                0%   { opacity: 0.85; transform: scale(1.00) rotate(0deg); }
+                40%  { opacity: 1.00; transform: scale(1.04) rotate(1.2deg); }
+                100% { opacity: 0.90; transform: scale(1.02) rotate(-0.8deg); }
+            }
+
+            @keyframes fadeInUp {
+                from { opacity: 0; transform: translateY(18px); }
+                to   { opacity: 1; transform: translateY(0); }
+            }
+
+            @keyframes glowPulse {
+                0%, 100% { box-shadow: 0 0 0 0   rgba(56,189,248,0.40); }
+                50%       { box-shadow: 0 0 0 7px rgba(56,189,248,0.00); }
+            }
+
+            @keyframes shimmerSlide {
+                0%   { background-position: -200% center; }
+                100% { background-position:  200% center; }
+            }
+
+            @media (prefers-reduced-motion: reduce) {
+                body::before { animation: none; }
+                *, *::before, *::after {
+                    animation-duration: 0.01ms !important;
+                    transition-duration: 0.01ms !important;
+                }
+            }
+
+            /* ── Links ── */
+            a { color: inherit; text-decoration: none; }
+
+            /* ── Scrollbar ── */
+            ::-webkit-scrollbar          { width: 6px; height: 6px; }
+            ::-webkit-scrollbar-track    { background: transparent; }
+            ::-webkit-scrollbar-thumb    { background: rgba(255,255,255,0.10); border-radius: 3px; }
+            ::-webkit-scrollbar-thumb:hover { background: rgba(255,255,255,0.20); }
+
+            /* ── Layout container ── */
+            .container {
+                max-width: 1400px;
+                margin: 0 auto;
+                min-height: 100vh;
+                position: relative;
+                z-index: 1;
+            }
+
+            /* ── Page header ── */
+            .header {
+                padding: 3rem 2.5rem 2.25rem;
+                position: relative;
+                overflow: hidden;
+            }
+
+            .header::before {
+                content: '';
+                position: absolute;
+                inset: 0;
+                background: linear-gradient(135deg,
+                    rgba(56,189,248,0.07) 0%,
+                    rgba(139,92,246,0.05) 50%,
+                    transparent 100%);
+                pointer-events: none;
+            }
+
+            /* Bottom accent line */
+            .header::after {
+                content: '';
+                position: absolute;
+                bottom: 0; left: 0; right: 0;
+                height: 1px;
+                background: linear-gradient(90deg,
+                    transparent 0%,
+                    rgba(56,189,248,0.50) 30%,
+                    rgba(139,92,246,0.40) 70%,
+                    transparent 100%);
+            }
+
+            .header h1 {
+                font-family: 'Fira Code', monospace;
+                font-size: 1.875rem;
+                font-weight: 700;
+                position: relative;
+                z-index: 1;
+                /* Gradient text */
+                background: linear-gradient(120deg, #F1F5F9 0%, #38BDF8 45%, #A78BFA 100%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+                margin-bottom: 0.5rem;
+                line-height: 1.25;
+                /* Shimmer effect */
+                background-size: 200% auto;
+                animation: shimmerSlide 6s linear infinite;
+            }
+
+            .header .subtitle {
+                color: var(--text-secondary);
+                font-size: 0.9375rem;
+                position: relative;
+                z-index: 1;
+            }
+
+            /* ── Summary ── */
+            .summary {
+                padding: 2rem 2.5rem;
+                border-bottom: 1px solid var(--border-default);
+                position: relative;
+                z-index: 1;
+            }
+
+            .summary h2 {
+                font-size: 0.6875rem;
+                color: var(--text-muted);
+                font-weight: 700;
+                text-transform: uppercase;
+                letter-spacing: 0.12em;
+                margin-bottom: 1.25rem;
+            }
+
+            .summary-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(175px, 1fr));
+                gap: 1rem;
+            }
+
+            .summary-item {
+                background: var(--bg-surface);
+                padding: 1.25rem 1.5rem;
+                border-radius: 12px;
+                border: 1px solid var(--border-default);
+                backdrop-filter: blur(12px);
+                -webkit-backdrop-filter: blur(12px);
+                transition: border-color 0.25s ease, box-shadow 0.25s ease, transform 0.25s ease;
+                animation: fadeInUp 0.45s cubic-bezier(0.22, 1, 0.36, 1) both;
+            }
+
+            .summary-item:nth-child(1) { animation-delay: 0.04s; }
+            .summary-item:nth-child(2) { animation-delay: 0.09s; }
+            .summary-item:nth-child(3) { animation-delay: 0.14s; }
+            .summary-item:nth-child(4) { animation-delay: 0.19s; }
+            .summary-item:nth-child(5) { animation-delay: 0.24s; }
+
+            .summary-item:hover {
+                border-color: var(--border-hover);
+                box-shadow: 0 0 24px var(--glow-primary), 0 8px 32px rgba(0,0,0,0.3);
+                transform: translateY(-2px);
+            }
+
+            .summary-item .label {
+                font-size: 0.6875rem;
+                color: var(--text-muted);
+                margin-bottom: 0.625rem;
+                text-transform: uppercase;
+                letter-spacing: 0.09em;
+                font-weight: 600;
+            }
+
+            .summary-item .value {
+                font-family: 'Fira Code', monospace;
+                font-size: 1.875rem;
+                font-weight: 700;
+                color: var(--color-primary);
+                text-shadow: 0 0 18px rgba(56,189,248,0.35);
+                line-height: 1;
+            }
+
+            /* ── Content area ── */
+            .content {
+                padding: 2rem 2.5rem;
+                position: relative;
+                z-index: 1;
+            }
+
+            .section-title {
+                font-size: 0.75rem;
+                color: var(--text-muted);
+                font-weight: 700;
+                text-transform: uppercase;
+                letter-spacing: 0.10em;
+                margin-bottom: 1.5rem;
+                display: flex;
+                align-items: center;
+                gap: 0.75rem;
+            }
+
+            .section-title::after {
+                content: '';
+                flex: 1;
+                height: 1px;
+                background: linear-gradient(90deg, var(--border-default), transparent);
+            }
+
+            /* ── Badges ── */
+            .badge {
+                display: inline-flex;
+                align-items: center;
+                gap: 0.375rem;
+                padding: 0.25rem 0.625rem;
+                border-radius: 6px;
+                font-size: 0.7rem;
+                font-weight: 700;
+                margin-right: 0.375rem;
+                font-family: 'Fira Code', monospace;
+                border: 1px solid transparent;
+                letter-spacing: 0.02em;
+                transition: box-shadow 0.2s;
+            }
+
+            .badge svg { flex-shrink: 0; }
+
+            .badge-stars {
+                background: rgba(251,191,36, 0.10);
+                color: var(--color-amber);
+                border-color: rgba(251,191,36, 0.22);
+            }
+            .badge-stars:hover { box-shadow: 0 0 10px var(--glow-amber); }
+
+            .badge-forks {
+                background: rgba(56,189,248, 0.10);
+                color: var(--color-primary);
+                border-color: rgba(56,189,248, 0.22);
+            }
+
+            .badge-language {
+                background: rgba(52,211,153, 0.10);
+                color: var(--color-emerald);
+                border-color: rgba(52,211,153, 0.22);
+            }
+
+            .badge-today {
+                background: rgba(251,113,133, 0.10);
+                color: var(--color-rose);
+                border-color: rgba(251,113,133, 0.22);
+            }
+
+            .badge-consistent {
+                background: rgba(52,211,153, 0.10);
+                color: var(--color-emerald);
+                border-color: rgba(52,211,153, 0.22);
+            }
+
+            .badge-trending {
+                background: rgba(251,191,36, 0.10);
+                color: var(--color-amber);
+                border-color: rgba(251,191,36, 0.22);
+            }
+
+            .badge-new {
+                background: rgba(167,139,250, 0.10);
+                color: var(--color-violet);
+                border-color: rgba(167,139,250, 0.22);
+            }
+
+            /* ── Footer ── */
+            .footer {
+                padding: 2rem 2.5rem;
+                text-align: center;
+                color: var(--text-muted);
+                font-size: 0.8125rem;
+                border-top: 1px solid var(--border-default);
+                position: relative;
+                z-index: 1;
+            }
+
+            .footer a:hover { color: var(--color-primary); }
+
+            /* ── Responsive ── */
+            @media (max-width: 768px) {
+                .header  { padding: 2rem 1.25rem 1.75rem; }
+                .header h1 { font-size: 1.375rem; }
+                .summary { padding: 1.5rem 1.25rem; }
+                .content { padding: 1.5rem 1.25rem; }
+                .summary-grid { grid-template-columns: repeat(2, 1fr); }
+            }
+
+            @media (max-width: 480px) {
+                .summary-grid { grid-template-columns: 1fr; }
+            }
+        </style>
+        <style>
+            .top-nav {
+                background: var(--nav-bg, rgba(6,10,20,0.88));
+                border-bottom: 1px solid var(--nav-border, rgba(255,255,255,0.07));
+                position: sticky;
+                top: 0;
+                z-index: 200;
+                backdrop-filter: blur(20px) saturate(160%);
+                -webkit-backdrop-filter: blur(20px) saturate(160%);
+            }
+
+            .top-nav-inner {
+                max-width: 1400px;
+                margin: 0 auto;
+                padding: 0 2.5rem;
+                height: 52px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                gap: 1.5rem;
+            }
+
+            .top-nav-left {
+                display: flex;
+                align-items: center;
+                gap: 1.25rem;
+                min-width: 0;
+                overflow: hidden;
+            }
+
+            .nav-logo {
+                font-family: 'Fira Code', monospace;
+                font-size: 0.875rem;
+                font-weight: 700;
+                color: var(--nav-text, #E2E8F0);
+                text-decoration: none;
+                white-space: nowrap;
+                flex-shrink: 0;
+                transition: color 0.2s, text-shadow 0.2s;
+                display: flex;
+                align-items: center;
+                gap: 0.5rem;
+            }
+
+            .nav-logo:hover {
+                color: var(--nav-accent, #38BDF8);
+                text-shadow: 0 0 14px rgba(56,189,248,0.50);
+            }
+
+            .nav-divider {
+                width: 1px;
+                height: 16px;
+                background: var(--nav-border, rgba(255,255,255,0.08));
+                flex-shrink: 0;
+            }
+
+            .top-nav-breadcrumbs {
+                display: flex;
+                align-items: center;
+                gap: 0.45rem;
+                font-size: 0.8125rem;
+                min-width: 0;
+                overflow: hidden;
+            }
+
+            .nav-breadcrumb-link {
+                color: var(--nav-text-muted, #94A3B8);
+                text-decoration: none;
+                white-space: nowrap;
+                flex-shrink: 0;
+                transition: color 0.15s;
+            }
+
+            .nav-breadcrumb-link:hover { color: var(--nav-accent, #38BDF8); }
+
+            .nav-breadcrumb-sep {
+                color: rgba(255,255,255,0.18);
+                flex-shrink: 0;
+                user-select: none;
+            }
+
+            .nav-breadcrumb-current {
+                color: #CBD5E1;
+                font-weight: 500;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+
+            .top-nav-right {
+                display: flex;
+                align-items: center;
+                gap: 0.5rem;
+                flex-shrink: 0;
+            }
+
+            .format-label {
+                font-size: 0.75rem;
+                color: var(--nav-text-dim, #64748B);
+                white-space: nowrap;
+            }
+
+            .format-pill {
+                display: inline-flex;
+                align-items: center;
+                padding: 0.2rem 0.625rem;
+                border-radius: 6px;
+                text-decoration: none;
+                font-size: 0.6875rem;
+                font-weight: 700;
+                font-family: 'Fira Code', monospace;
+                border: 1px solid transparent;
+                letter-spacing: 0.04em;
+                transition: transform 0.18s ease, box-shadow 0.18s ease, background 0.18s ease;
+                cursor: pointer;
+                white-space: nowrap;
+            }
+
+            .format-pill:hover { transform: translateY(-1px); }
+
+            .pill-json {
+                background: rgba(251,191,36, 0.10);
+                color: #FBBF24;
+                border-color: rgba(251,191,36, 0.22);
+            }
+            .pill-json:hover {
+                background: rgba(251,191,36, 0.18);
+                box-shadow: 0 0 12px rgba(251,191,36,0.22);
+            }
+
+            .pill-md {
+                background: rgba(52,211,153, 0.10);
+                color: #34D399;
+                border-color: rgba(52,211,153, 0.22);
+            }
+            .pill-md:hover {
+                background: rgba(52,211,153, 0.18);
+                box-shadow: 0 0 12px rgba(52,211,153,0.22);
+            }
+
+            .pill-csv {
+                background: rgba(167,139,250, 0.10);
+                color: #A78BFA;
+                border-color: rgba(167,139,250, 0.22);
+            }
+            .pill-csv:hover {
+                background: rgba(167,139,250, 0.18);
+                box-shadow: 0 0 12px rgba(167,139,250,0.22);
+            }
+
+            .pill-html {
+                background: rgba(56,189,248, 0.10);
+                color: #38BDF8;
+                border-color: rgba(56,189,248, 0.22);
+            }
+            .pill-html:hover {
+                background: rgba(56,189,248, 0.18);
+                box-shadow: 0 0 12px rgba(56,189,248,0.22);
+            }
+
+            @media (max-width: 768px) {
+                .top-nav-inner { padding: 0 1rem; gap: 0.75rem; }
+                .format-label  { display: none; }
+                .nav-divider   { display: none; }
+                .top-nav-breadcrumbs { font-size: 0.75rem; }
+            }
+        </style>
+        <style>
+            .repo-card {
+                background: var(--bg-surface);
+                border: 1px solid var(--border-default);
+                border-radius: 14px;
+                padding: 1.5rem;
+                margin-bottom: 0.75rem;
+                backdrop-filter: blur(12px);
+                -webkit-backdrop-filter: blur(12px);
+                transition: border-color 0.25s ease, box-shadow 0.25s ease, transform 0.25s ease;
+                cursor: default;
+                position: relative;
+                overflow: hidden;
+                animation: fadeInUp 0.45s cubic-bezier(0.22, 1, 0.36, 1) both;
+            }
+
+            /* Stagger entrance by position */
+            .repo-card:nth-child(1)  { animation-delay: 0.03s; }
+            .repo-card:nth-child(2)  { animation-delay: 0.07s; }
+            .repo-card:nth-child(3)  { animation-delay: 0.11s; }
+            .repo-card:nth-child(4)  { animation-delay: 0.15s; }
+            .repo-card:nth-child(5)  { animation-delay: 0.19s; }
+            .repo-card:nth-child(6)  { animation-delay: 0.23s; }
+            .repo-card:nth-child(7)  { animation-delay: 0.27s; }
+            .repo-card:nth-child(8)  { animation-delay: 0.31s; }
+            .repo-card:nth-child(9)  { animation-delay: 0.35s; }
+            .repo-card:nth-child(10) { animation-delay: 0.39s; }
+            .repo-card:nth-child(n+11) { animation-delay: 0.43s; }
+
+            /* Top-edge glow line, visible on hover */
+            .repo-card::before {
+                content: '';
+                position: absolute;
+                top: 0; left: 0; right: 0;
+                height: 1px;
+                background: linear-gradient(90deg, transparent, var(--color-primary), transparent);
+                opacity: 0;
+                transition: opacity 0.3s ease;
+            }
+
+            .repo-card:hover {
+                border-color: rgba(56, 189, 248, 0.28);
+                box-shadow:
+                    0 0 0 1px rgba(56,189,248,0.10),
+                    0 0 28px rgba(56,189,248,0.08),
+                    0 8px 36px rgba(0,0,0,0.35);
+                transform: translateY(-2px);
+            }
+
+            .repo-card:hover::before { opacity: 1; }
+
+            /* ── Rank #1 gold / #2 silver / #3 bronze distinctions ── */
+            .repo-card:nth-child(1) {
+                border-color: rgba(251,191,36,0.20);
+            }
+            .repo-card:nth-child(1):hover {
+                border-color: rgba(251,191,36,0.40);
+                box-shadow:
+                    0 0 0 1px rgba(251,191,36,0.15),
+                    0 0 30px rgba(251,191,36,0.10),
+                    0 8px 36px rgba(0,0,0,0.35);
+            }
+            .repo-card:nth-child(1)::before {
+                background: linear-gradient(90deg, transparent, #FBBF24, transparent);
+                opacity: 0.5;
+            }
+
+            .repo-card:nth-child(2) {
+                border-color: rgba(203,213,225,0.12);
+            }
+
+            .repo-card:nth-child(3) {
+                border-color: rgba(249,115,22,0.15);
+            }
+
+            /* ── Header row ── */
+            .repo-header {
+                display: flex;
+                align-items: flex-start;
+                gap: 1rem;
+                margin-bottom: 0.875rem;
+            }
+
+            .repo-rank {
+                min-width: 36px;
+                height: 36px;
+                border-radius: 8px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-family: 'Fira Code', monospace;
+                font-weight: 700;
+                font-size: 0.875rem;
+                flex-shrink: 0;
+                color: #060B14;
+                background: linear-gradient(135deg, var(--color-primary), var(--color-primary-dark));
+                box-shadow: 0 0 12px rgba(56,189,248,0.28);
+            }
+
+            /* #1 gold badge + pulse animation */
+            .repo-card:nth-child(1) .repo-rank {
+                background: linear-gradient(135deg, #FBBF24, #F59E0B);
+                box-shadow: 0 0 14px rgba(251,191,36,0.45);
+                animation: glowPulse 2.8s ease-in-out infinite;
+                color: #1A0F00;
+            }
+
+            /* #2 silver */
+            .repo-card:nth-child(2) .repo-rank {
+                background: linear-gradient(135deg, #CBD5E1, #94A3B8);
+                box-shadow: 0 0 10px rgba(203,213,225,0.28);
+                color: #1E293B;
+            }
+
+            /* #3 bronze */
+            .repo-card:nth-child(3) .repo-rank {
+                background: linear-gradient(135deg, #FB923C, #EA580C);
+                box-shadow: 0 0 12px rgba(249,115,22,0.32);
+                color: #1A0800;
+            }
+
+            .repo-title { flex: 1; min-width: 0; }
+
+            .repo-title a {
+                color: var(--text-primary);
+                text-decoration: none;
+                font-size: 1.0625rem;
+                font-weight: 600;
+                transition: color 0.15s, text-shadow 0.15s;
+                cursor: pointer;
+                display: block;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+            }
+
+            .repo-title a:hover {
+                color: var(--color-primary);
+                text-shadow: 0 0 14px rgba(56,189,248,0.30);
+            }
+
+            .repo-description {
+                color: var(--text-secondary);
+                margin-bottom: 0.875rem;
+                line-height: 1.65;
+                font-size: 0.9375rem;
+            }
+
+            .repo-stats {
+                display: flex;
+                gap: 0.5rem;
+                flex-wrap: wrap;
+                margin-bottom: 0.875rem;
+            }
+
+            .contributors {
+                margin-top: 0.875rem;
+                padding-top: 0.875rem;
+                border-top: 1px solid var(--border-default);
+            }
+
+            .contributors-label {
+                font-size: 0.75rem;
+                color: var(--text-muted);
+                margin-bottom: 0.375rem;
+                font-weight: 500;
+            }
+
+            .contributors-list {
+                display: flex;
+                gap: 0.5rem;
+                flex-wrap: wrap;
+            }
+
+            .contributor-link {
+                color: var(--text-secondary);
+                text-decoration: none;
+                font-size: 0.8125rem;
+                font-weight: 500;
+                transition: color 0.15s;
+                cursor: pointer;
+            }
+
+            .contributor-link:hover { color: var(--color-primary); }
+        </style>
+</head>
+<body>
+
+    <nav class="top-nav" aria-label="Site navigation">
+        <div class="top-nav-inner">
+            <div class="top-nav-left">
+                <a href="../../../index.html" class="nav-logo" aria-label="GitHub Trends home">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg> GitHub Trends
+                </a>
+                <div class="nav-divider" aria-hidden="true"></div>
+                <div class="top-nav-breadcrumbs" aria-label="Breadcrumb">
+                    <a href="../../../index.html" class="nav-breadcrumb-link">Home</a>
+                    <span class="nav-breadcrumb-sep" aria-hidden="true">/</span>
+                    <a href="../../index.html" class="nav-breadcrumb-link">Python</a>
+                    <span class="nav-breadcrumb-sep" aria-hidden="true">/</span>
+                    <a href="../../index.html#daily" class="nav-breadcrumb-link">Daily</a>
+                    <span class="nav-breadcrumb-sep" aria-hidden="true">/</span>
+                    <span class="nav-breadcrumb-current" aria-current="page">2026-09-01</span>
+                </div>
+            </div>
+            <div class="top-nav-right" aria-label="Other formats">
+                <span class="format-label">Also available:</span>
+                <a href="report.json" class="format-pill pill-json" download aria-label="Download JSON report">JSON</a>
+                <a href="report.md" class="format-pill pill-md" download aria-label="Download Markdown report">MD</a>
+                <a href="report.csv" class="format-pill pill-csv" download aria-label="Download CSV report">CSV</a>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="header">
+            <h1>Trending Python Repositories</h1>
+            <div class="subtitle">2026-09-01</div>
+        </div>
+
+        <div class="summary">
+            <h2>Summary</h2>
+            <div class="summary-grid">
+                <div class="summary-item">
+                    <div class="label">Date</div>
+                    <div class="value">2026-09-01</div>
+                </div>
+                <div class="summary-item">
+                    <div class="label">Repositories</div>
+                    <div class="value">20</div>
+                </div>
+                <div class="summary-item">
+                    <div class="label">Total Stars</div>
+                    <div class="value">568,349</div>
+                </div>
+                <div class="summary-item">
+                    <div class="label">Total Forks</div>
+                    <div class="value">67,641</div>
+                </div>
+                <div class="summary-item">
+                    <div class="label">Language</div>
+                    <div class="value">Python</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="content">
+            <h2 class="section-title">Trending Repositories</h2>
+<div class="repo-card">
+    <div class="repo-header">
+        <div class="repo-rank" aria-label="Rank 1">1</div>
+        <div class="repo-title">
+            <a href="https://github.com/K-Dense-AI/scientific-agent-skills" target="_blank" rel="noopener noreferrer">K-Dense-AI/scientific-agent-skills</a>
+        </div>
+    </div>
+    <p class="repo-description">Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ scientists worldwide. 165 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.</p>
+    <div class="repo-stats">
+        <span class="badge badge-stars"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg> 40,871 stars</span>
+        <span class="badge badge-forks"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><circle cx="18" cy="6" r="3"/><path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9"/><line x1="12" y1="12" x2="12" y2="15"/></svg> 3,781 forks</span>
+        <span class="badge badge-language"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg> Python</span>
+        <span class="badge badge-today"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg> 1,980 stars today</span>
+    </div>
+    <div class="contributors">
+        <div class="contributors-label">Built by:</div>
+        <div class="contributors-list">
+            <a href="https://github.com/TKassis" class="contributor-link" target="_blank" rel="noopener noreferrer">@TKassis</a>
+            <a href="https://github.com/cursoragent" class="contributor-link" target="_blank" rel="noopener noreferrer">@cursoragent</a>
+            <a href="https://github.com/borealBytes" class="contributor-link" target="_blank" rel="noopener noreferrer">@borealBytes</a>
+            <a href="https://github.com/github-actions" class="contributor-link" target="_blank" rel="noopener noreferrer">@github-actions</a>
+            <a href="https://github.com/claude" class="contributor-link" target="_blank" rel="noopener noreferrer">@claude</a>
+        </div>
+    </div>
+</div>
+<div class="repo-card">
+    <div class="repo-header">
+        <div class="repo-rank" aria-label="Rank 2">2</div>
+        <div class="repo-title">
+            <a href="https://github.com/jingyaogong/minimind" target="_blank" rel="noopener noreferrer">jingyaogong/minimind</a>
+        </div>
+    </div>
+    <p class="repo-description">🧠 Train a 64M-parameter LLM from scratch in just 2h!</p>
+    <div class="repo-stats">
+        <span class="badge badge-stars"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg> 56,314 stars</span>
+        <span class="badge badge-forks"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><circle cx="18" cy="6" r="3"/><path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9"/><line x1="12" y1="12" x2="12" y2="15"/></svg> 7,342 forks</span>
+        <span class="badge badge-language"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg> Python</span>
+        <span class="badge badge-today"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg> 495 stars today</span>
+    </div>
+    <div class="contributors">
+        <div class="contributors-label">Built by:</div>
+        <div class="contributors-list">
+            <a href="https://github.com/jingyaogong" class="contributor-link" target="_blank" rel="noopener noreferrer">@jingyaogong</a>
+            <a href="https://github.com/iomgaa-ycz" class="contributor-link" target="_blank" rel="noopener noreferrer">@iomgaa-ycz</a>
+            <a href="https://github.com/readlnh" class="contributor-link" target="_blank" rel="noopener noreferrer">@readlnh</a>
+            <a href="https://github.com/wangzhaode" class="contributor-link" target="_blank" rel="noopener noreferrer">@wangzhaode</a>
+            <a href="https://github.com/TKiteRunner" class="contributor-link" target="_blank" rel="noopener noreferrer">@TKiteRunner</a>
+        </div>
+    </div>
+</div>
+<div class="repo-card">
+    <div class="repo-header">
+        <div class="repo-rank" aria-label="Rank 3">3</div>
+        <div class="repo-title">
+            <a href="https://github.com/Osmantic/ODS" target="_blank" rel="noopener noreferrer">Osmantic/ODS</a>
+        </div>
+    </div>
+    <p class="repo-description">Turn your PC, Mac, or Linux box into an AI server. LLM inference, chat UI, voice, agents, workflows, RAG, and image generation.</p>
+    <div class="repo-stats">
+        <span class="badge badge-stars"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg> 5,582 stars</span>
+        <span class="badge badge-forks"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><circle cx="18" cy="6" r="3"/><path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9"/><line x1="12" y1="12" x2="12" y2="15"/></svg> 783 forks</span>
+        <span class="badge badge-language"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg> Python</span>
+        <span class="badge badge-today"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg> 77 stars today</span>
+    </div>
+    <div class="contributors">
+        <div class="contributors-label">Built by:</div>
+        <div class="contributors-list">
+            <a href="https://github.com/Lightheartdevs" class="contributor-link" target="_blank" rel="noopener noreferrer">@Lightheartdevs</a>
+            <a href="https://github.com/claude" class="contributor-link" target="_blank" rel="noopener noreferrer">@claude</a>
+            <a href="https://github.com/yasinBursali" class="contributor-link" target="_blank" rel="noopener noreferrer">@yasinBursali</a>
+            <a href="https://github.com/gabsprogrammer" class="contributor-link" target="_blank" rel="noopener noreferrer">@gabsprogrammer</a>
+            <a href="https://github.com/SSignall" class="contributor-link" target="_blank" rel="noopener noreferrer">@SSignall</a>
+        </div>
+    </div>
+</div>
+<div class="repo-card">
+    <div class="repo-header">
+        <div class="repo-rank" aria-label="Rank 4">4</div>
+        <div class="repo-title">
+            <a href="https://github.com/kaifcodec/user-scanner" target="_blank" rel="noopener noreferrer">kaifcodec/user-scanner</a>
+        </div>
+    </div>
+    <p class="repo-description">🕵️‍♂️ (2-in-1) Email &amp; Username OSINT suite for deep data extraction just from a single Email/Username. Analyzes 465+ actively maintained scan vectors (175+ email / 290+ username) for security research, investigations, and digital footprinting.</p>
+    <div class="repo-stats">
+        <span class="badge badge-stars"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg> 4,338 stars</span>
+        <span class="badge badge-forks"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><circle cx="18" cy="6" r="3"/><path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9"/><line x1="12" y1="12" x2="12" y2="15"/></svg> 451 forks</span>
+        <span class="badge badge-language"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg> Python</span>
+        <span class="badge badge-today"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg> 93 stars today</span>
+    </div>
+    <div class="contributors">
+        <div class="contributors-label">Built by:</div>
+        <div class="contributors-list">
+            <a href="https://github.com/kaifcodec" class="contributor-link" target="_blank" rel="noopener noreferrer">@kaifcodec</a>
+            <a href="https://github.com/brunolm" class="contributor-link" target="_blank" rel="noopener noreferrer">@brunolm</a>
+            <a href="https://github.com/VamatoHD" class="contributor-link" target="_blank" rel="noopener noreferrer">@VamatoHD</a>
+            <a href="https://github.com/json-hunter07" class="contributor-link" target="_blank" rel="noopener noreferrer">@json-hunter07</a>
+            <a href="https://github.com/kristoisberg" class="contributor-link" target="_blank" rel="noopener noreferrer">@kristoisberg</a>
+        </div>
+    </div>
+</div>
+<div class="repo-card">
+    <div class="repo-header">
+        <div class="repo-rank" aria-label="Rank 5">5</div>
+        <div class="repo-title">
+            <a href="https://github.com/p-e-w/heretic" target="_blank" rel="noopener noreferrer">p-e-w/heretic</a>
+        </div>
+    </div>
+    <p class="repo-description">Fully automatic censorship removal for language models</p>
+    <div class="repo-stats">
+        <span class="badge badge-stars"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg> 29,721 stars</span>
+        <span class="badge badge-forks"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><circle cx="18" cy="6" r="3"/><path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9"/><line x1="12" y1="12" x2="12" y2="15"/></svg> 3,255 forks</span>
+        <span class="badge badge-language"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg> Python</span>
+        <span class="badge badge-today"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg> 537 stars today</span>
+    </div>
+    <div class="contributors">
+        <div class="contributors-label">Built by:</div>
+        <div class="contributors-list">
+            <a href="https://github.com/p-e-w" class="contributor-link" target="_blank" rel="noopener noreferrer">@p-e-w</a>
+            <a href="https://github.com/dependabot" class="contributor-link" target="_blank" rel="noopener noreferrer">@dependabot</a>
+            <a href="https://github.com/Vinay-Umrethe" class="contributor-link" target="_blank" rel="noopener noreferrer">@Vinay-Umrethe</a>
+            <a href="https://github.com/anrp" class="contributor-link" target="_blank" rel="noopener noreferrer">@anrp</a>
+            <a href="https://github.com/spikymoth" class="contributor-link" target="_blank" rel="noopener noreferrer">@spikymoth</a>
+        </div>
+    </div>
+</div>
+<div class="repo-card">
+    <div class="repo-header">
+        <div class="repo-rank" aria-label="Rank 6">6</div>
+        <div class="repo-title">
+            <a href="https://github.com/handsomestWei/patent-disclosure-skill" target="_blank" rel="noopener noreferrer">handsomestWei/patent-disclosure-skill</a>
+        </div>
+    </div>
+    <p class="repo-description">中国专利.skill：专利点挖掘与交底书（发明/实用/外观）编写，通俗解读专利，嗅探政策动向，辅助审查答复。</p>
+    <div class="repo-stats">
+        <span class="badge badge-stars"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg> 6,341 stars</span>
+        <span class="badge badge-forks"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><circle cx="18" cy="6" r="3"/><path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9"/><line x1="12" y1="12" x2="12" y2="15"/></svg> 738 forks</span>
+        <span class="badge badge-language"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg> Python</span>
+        <span class="badge badge-today"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg> 571 stars today</span>
+    </div>
+    <div class="contributors">
+        <div class="contributors-label">Built by:</div>
+        <div class="contributors-list">
+            <a href="https://github.com/handsomestWei" class="contributor-link" target="_blank" rel="noopener noreferrer">@handsomestWei</a>
+            <a href="https://github.com/917Dhj" class="contributor-link" target="_blank" rel="noopener noreferrer">@917Dhj</a>
+        </div>
+    </div>
+</div>
+<div class="repo-card">
+    <div class="repo-header">
+        <div class="repo-rank" aria-label="Rank 7">7</div>
+        <div class="repo-title">
+            <a href="https://github.com/pollen-robotics/microduck_rl" target="_blank" rel="noopener noreferrer">pollen-robotics/microduck_rl</a>
+        </div>
+    </div>
+    <p class="repo-description">RL training environments for Microduck (mjlab)</p>
+    <div class="repo-stats">
+        <span class="badge badge-stars"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg> 1,208 stars</span>
+        <span class="badge badge-forks"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><circle cx="18" cy="6" r="3"/><path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9"/><line x1="12" y1="12" x2="12" y2="15"/></svg> 204 forks</span>
+        <span class="badge badge-language"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg> Python</span>
+        <span class="badge badge-today"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg> 385 stars today</span>
+    </div>
+    <div class="contributors">
+        <div class="contributors-label">Built by:</div>
+        <div class="contributors-list">
+            <a href="https://github.com/apirrone" class="contributor-link" target="_blank" rel="noopener noreferrer">@apirrone</a>
+            <a href="https://github.com/Drenayaz" class="contributor-link" target="_blank" rel="noopener noreferrer">@Drenayaz</a>
+            <a href="https://github.com/darkseed" class="contributor-link" target="_blank" rel="noopener noreferrer">@darkseed</a>
+            <a href="https://github.com/tfrere" class="contributor-link" target="_blank" rel="noopener noreferrer">@tfrere</a>
+            <a href="https://github.com/andrewginns" class="contributor-link" target="_blank" rel="noopener noreferrer">@andrewginns</a>
+        </div>
+    </div>
+</div>
+<div class="repo-card">
+    <div class="repo-header">
+        <div class="repo-rank" aria-label="Rank 8">8</div>
+        <div class="repo-title">
+            <a href="https://github.com/browser-use/video-use" target="_blank" rel="noopener noreferrer">browser-use/video-use</a>
+        </div>
+    </div>
+    <p class="repo-description">Edit videos with coding agents</p>
+    <div class="repo-stats">
+        <span class="badge badge-stars"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg> 22,425 stars</span>
+        <span class="badge badge-forks"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><circle cx="18" cy="6" r="3"/><path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9"/><line x1="12" y1="12" x2="12" y2="15"/></svg> 2,774 forks</span>
+        <span class="badge badge-language"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg> Python</span>
+        <span class="badge badge-today"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg> 591 stars today</span>
+    </div>
+    <div class="contributors">
+        <div class="contributors-label">Built by:</div>
+        <div class="contributors-list">
+            <a href="https://github.com/gregpr07" class="contributor-link" target="_blank" rel="noopener noreferrer">@gregpr07</a>
+            <a href="https://github.com/claude" class="contributor-link" target="_blank" rel="noopener noreferrer">@claude</a>
+            <a href="https://github.com/ShawnPana" class="contributor-link" target="_blank" rel="noopener noreferrer">@ShawnPana</a>
+            <a href="https://github.com/sidorovanthon" class="contributor-link" target="_blank" rel="noopener noreferrer">@sidorovanthon</a>
+            <a href="https://github.com/antoinersx" class="contributor-link" target="_blank" rel="noopener noreferrer">@antoinersx</a>
+        </div>
+    </div>
+</div>
+<div class="repo-card">
+    <div class="repo-header">
+        <div class="repo-rank" aria-label="Rank 9">9</div>
+        <div class="repo-title">
+            <a href="https://github.com/unclecode/crawl4ai" target="_blank" rel="noopener noreferrer">unclecode/crawl4ai</a>
+        </div>
+    </div>
+    <p class="repo-description">🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler &amp; Scraper. Don&#x27;t be shy, join here: https://discord.gg/jP8KfhDhyN</p>
+    <div class="repo-stats">
+        <span class="badge badge-stars"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg> 80,614 stars</span>
+        <span class="badge badge-forks"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><circle cx="18" cy="6" r="3"/><path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9"/><line x1="12" y1="12" x2="12" y2="15"/></svg> 8,338 forks</span>
+        <span class="badge badge-language"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg> Python</span>
+        <span class="badge badge-today"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg> 516 stars today</span>
+    </div>
+    <div class="contributors">
+        <div class="contributors-label">Built by:</div>
+        <div class="contributors-list">
+            <a href="https://github.com/unclecode" class="contributor-link" target="_blank" rel="noopener noreferrer">@unclecode</a>
+            <a href="https://github.com/ntohidi" class="contributor-link" target="_blank" rel="noopener noreferrer">@ntohidi</a>
+            <a href="https://github.com/aravindkarnam" class="contributor-link" target="_blank" rel="noopener noreferrer">@aravindkarnam</a>
+            <a href="https://github.com/claude" class="contributor-link" target="_blank" rel="noopener noreferrer">@claude</a>
+            <a href="https://github.com/SohamKukreti" class="contributor-link" target="_blank" rel="noopener noreferrer">@SohamKukreti</a>
+        </div>
+    </div>
+</div>
+<div class="repo-card">
+    <div class="repo-header">
+        <div class="repo-rank" aria-label="Rank 10">10</div>
+        <div class="repo-title">
+            <a href="https://github.com/smicallef/spiderfoot" target="_blank" rel="noopener noreferrer">smicallef/spiderfoot</a>
+        </div>
+    </div>
+    <p class="repo-description">SpiderFoot automates OSINT for threat intelligence and mapping your attack surface.</p>
+    <div class="repo-stats">
+        <span class="badge badge-stars"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg> 21,648 stars</span>
+        <span class="badge badge-forks"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><circle cx="18" cy="6" r="3"/><path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9"/><line x1="12" y1="12" x2="12" y2="15"/></svg> 3,493 forks</span>
+        <span class="badge badge-language"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg> Python</span>
+        <span class="badge badge-today"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg> 77 stars today</span>
+    </div>
+    <div class="contributors">
+        <div class="contributors-label">Built by:</div>
+        <div class="contributors-list">
+            <a href="https://github.com/smicallef" class="contributor-link" target="_blank" rel="noopener noreferrer">@smicallef</a>
+            <a href="https://github.com/bcoles" class="contributor-link" target="_blank" rel="noopener noreferrer">@bcoles</a>
+            <a href="https://github.com/krishnasism" class="contributor-link" target="_blank" rel="noopener noreferrer">@krishnasism</a>
+            <a href="https://github.com/amrawadk" class="contributor-link" target="_blank" rel="noopener noreferrer">@amrawadk</a>
+            <a href="https://github.com/leotrubach" class="contributor-link" target="_blank" rel="noopener noreferrer">@leotrubach</a>
+        </div>
+    </div>
+</div>
+<div class="repo-card">
+    <div class="repo-header">
+        <div class="repo-rank" aria-label="Rank 11">11</div>
+        <div class="repo-title">
+            <a href="https://github.com/securo-finance/securo" target="_blank" rel="noopener noreferrer">securo-finance/securo</a>
+        </div>
+    </div>
+    <p class="repo-description">Open-source personal finance manager. Self-hosted, privacy-first.</p>
+    <div class="repo-stats">
+        <span class="badge badge-stars"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg> 2,863 stars</span>
+        <span class="badge badge-forks"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><circle cx="18" cy="6" r="3"/><path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9"/><line x1="12" y1="12" x2="12" y2="15"/></svg> 366 forks</span>
+        <span class="badge badge-language"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg> Python</span>
+        <span class="badge badge-today"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg> 137 stars today</span>
+    </div>
+    <div class="contributors">
+        <div class="contributors-label">Built by:</div>
+        <div class="contributors-list">
+            <a href="https://github.com/tassionoronha" class="contributor-link" target="_blank" rel="noopener noreferrer">@tassionoronha</a>
+            <a href="https://github.com/claude" class="contributor-link" target="_blank" rel="noopener noreferrer">@claude</a>
+            <a href="https://github.com/DannyFeliz" class="contributor-link" target="_blank" rel="noopener noreferrer">@DannyFeliz</a>
+            <a href="https://github.com/geeosp" class="contributor-link" target="_blank" rel="noopener noreferrer">@geeosp</a>
+            <a href="https://github.com/renovate" class="contributor-link" target="_blank" rel="noopener noreferrer">@renovate</a>
+        </div>
+    </div>
+</div>
+<div class="repo-card">
+    <div class="repo-header">
+        <div class="repo-rank" aria-label="Rank 12">12</div>
+        <div class="repo-title">
+            <a href="https://github.com/microsoft/qlib" target="_blank" rel="noopener noreferrer">microsoft/qlib</a>
+        </div>
+    </div>
+    <p class="repo-description">Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&amp;D process.</p>
+    <div class="repo-stats">
+        <span class="badge badge-stars"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg> 48,162 stars</span>
+        <span class="badge badge-forks"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><circle cx="18" cy="6" r="3"/><path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9"/><line x1="12" y1="12" x2="12" y2="15"/></svg> 7,627 forks</span>
+        <span class="badge badge-language"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg> Python</span>
+        <span class="badge badge-today"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg> 51 stars today</span>
+    </div>
+    <div class="contributors">
+        <div class="contributors-label">Built by:</div>
+        <div class="contributors-list">
+            <a href="https://github.com/you-n-g" class="contributor-link" target="_blank" rel="noopener noreferrer">@you-n-g</a>
+            <a href="https://github.com/bxdd" class="contributor-link" target="_blank" rel="noopener noreferrer">@bxdd</a>
+            <a href="https://github.com/Derek-Wds" class="contributor-link" target="_blank" rel="noopener noreferrer">@Derek-Wds</a>
+            <a href="https://github.com/zhupr" class="contributor-link" target="_blank" rel="noopener noreferrer">@zhupr</a>
+            <a href="https://github.com/SunsetWolf" class="contributor-link" target="_blank" rel="noopener noreferrer">@SunsetWolf</a>
+        </div>
+    </div>
+</div>
+<div class="repo-card">
+    <div class="repo-header">
+        <div class="repo-rank" aria-label="Rank 13">13</div>
+        <div class="repo-title">
+            <a href="https://github.com/mvanhorn/last30days-skill" target="_blank" rel="noopener noreferrer">mvanhorn/last30days-skill</a>
+        </div>
+    </div>
+    <p class="repo-description">AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary</p>
+    <div class="repo-stats">
+        <span class="badge badge-stars"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg> 60,808 stars</span>
+        <span class="badge badge-forks"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><circle cx="18" cy="6" r="3"/><path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9"/><line x1="12" y1="12" x2="12" y2="15"/></svg> 5,313 forks</span>
+        <span class="badge badge-language"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg> Python</span>
+        <span class="badge badge-today"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg> 429 stars today</span>
+    </div>
+    <div class="contributors">
+        <div class="contributors-label">Built by:</div>
+        <div class="contributors-list">
+            <a href="https://github.com/mvanhorn" class="contributor-link" target="_blank" rel="noopener noreferrer">@mvanhorn</a>
+            <a href="https://github.com/tmchow" class="contributor-link" target="_blank" rel="noopener noreferrer">@tmchow</a>
+            <a href="https://github.com/claude" class="contributor-link" target="_blank" rel="noopener noreferrer">@claude</a>
+            <a href="https://github.com/dependabot" class="contributor-link" target="_blank" rel="noopener noreferrer">@dependabot</a>
+            <a href="https://github.com/23241a6749" class="contributor-link" target="_blank" rel="noopener noreferrer">@23241a6749</a>
+        </div>
+    </div>
+</div>
+<div class="repo-card">
+    <div class="repo-header">
+        <div class="repo-rank" aria-label="Rank 14">14</div>
+        <div class="repo-title">
+            <a href="https://github.com/debpalash/VoiceStudio" target="_blank" rel="noopener noreferrer">debpalash/VoiceStudio</a>
+        </div>
+    </div>
+    <p class="repo-description">VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription &amp; audiobook creation in 646 languages.</p>
+    <div class="repo-stats">
+        <span class="badge badge-stars"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg> 12,770 stars</span>
+        <span class="badge badge-forks"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><circle cx="18" cy="6" r="3"/><path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9"/><line x1="12" y1="12" x2="12" y2="15"/></svg> 1,976 forks</span>
+        <span class="badge badge-language"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg> Python</span>
+        <span class="badge badge-today"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg> 509 stars today</span>
+    </div>
+    <div class="contributors">
+        <div class="contributors-label">Built by:</div>
+        <div class="contributors-list">
+            <a href="https://github.com/debpalash" class="contributor-link" target="_blank" rel="noopener noreferrer">@debpalash</a>
+            <a href="https://github.com/claude" class="contributor-link" target="_blank" rel="noopener noreferrer">@claude</a>
+            <a href="https://github.com/velixio" class="contributor-link" target="_blank" rel="noopener noreferrer">@velixio</a>
+            <a href="https://github.com/paoloantinori" class="contributor-link" target="_blank" rel="noopener noreferrer">@paoloantinori</a>
+            <a href="https://github.com/bultodepapas" class="contributor-link" target="_blank" rel="noopener noreferrer">@bultodepapas</a>
+        </div>
+    </div>
+</div>
+<div class="repo-card">
+    <div class="repo-header">
+        <div class="repo-rank" aria-label="Rank 15">15</div>
+        <div class="repo-title">
+            <a href="https://github.com/PrefectHQ/prefect" target="_blank" rel="noopener noreferrer">PrefectHQ/prefect</a>
+        </div>
+    </div>
+    <p class="repo-description">Prefect is a workflow orchestration framework for building resilient data pipelines in Python.</p>
+    <div class="repo-stats">
+        <span class="badge badge-stars"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg> 23,741 stars</span>
+        <span class="badge badge-forks"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><circle cx="18" cy="6" r="3"/><path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9"/><line x1="12" y1="12" x2="12" y2="15"/></svg> 2,497 forks</span>
+        <span class="badge badge-language"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg> Python</span>
+        <span class="badge badge-today"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg> 13 stars today</span>
+    </div>
+    <div class="contributors">
+        <div class="contributors-label">Built by:</div>
+        <div class="contributors-list">
+            <a href="https://github.com/zanieb" class="contributor-link" target="_blank" rel="noopener noreferrer">@zanieb</a>
+            <a href="https://github.com/desertaxle" class="contributor-link" target="_blank" rel="noopener noreferrer">@desertaxle</a>
+            <a href="https://github.com/pleek91" class="contributor-link" target="_blank" rel="noopener noreferrer">@pleek91</a>
+            <a href="https://github.com/zzstoatzz" class="contributor-link" target="_blank" rel="noopener noreferrer">@zzstoatzz</a>
+            <a href="https://github.com/cicdw" class="contributor-link" target="_blank" rel="noopener noreferrer">@cicdw</a>
+        </div>
+    </div>
+</div>
+<div class="repo-card">
+    <div class="repo-header">
+        <div class="repo-rank" aria-label="Rank 16">16</div>
+        <div class="repo-title">
+            <a href="https://github.com/Open-LLM-VTuber/Open-LLM-VTuber" target="_blank" rel="noopener noreferrer">Open-LLM-VTuber/Open-LLM-VTuber</a>
+        </div>
+    </div>
+    <p class="repo-description">Talk to any LLM with hands-free voice interaction, voice interruption, and Live2D taking face running locally across platforms</p>
+    <div class="repo-stats">
+        <span class="badge badge-stars"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg> 13,562 stars</span>
+        <span class="badge badge-forks"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><circle cx="18" cy="6" r="3"/><path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9"/><line x1="12" y1="12" x2="12" y2="15"/></svg> 1,611 forks</span>
+        <span class="badge badge-language"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg> Python</span>
+        <span class="badge badge-today"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg> 18 stars today</span>
+    </div>
+    <div class="contributors">
+        <div class="contributors-label">Built by:</div>
+        <div class="contributors-list">
+            <a href="https://github.com/t41372" class="contributor-link" target="_blank" rel="noopener noreferrer">@t41372</a>
+            <a href="https://github.com/ylxmf2005" class="contributor-link" target="_blank" rel="noopener noreferrer">@ylxmf2005</a>
+            <a href="https://github.com/lozion203" class="contributor-link" target="_blank" rel="noopener noreferrer">@lozion203</a>
+            <a href="https://github.com/Y0oMu" class="contributor-link" target="_blank" rel="noopener noreferrer">@Y0oMu</a>
+            <a href="https://github.com/HITHZQ" class="contributor-link" target="_blank" rel="noopener noreferrer">@HITHZQ</a>
+        </div>
+    </div>
+</div>
+<div class="repo-card">
+    <div class="repo-header">
+        <div class="repo-rank" aria-label="Rank 17">17</div>
+        <div class="repo-title">
+            <a href="https://github.com/abi/screenshot-to-code" target="_blank" rel="noopener noreferrer">abi/screenshot-to-code</a>
+        </div>
+    </div>
+    <p class="repo-description">Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue)</p>
+    <div class="repo-stats">
+        <span class="badge badge-stars"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg> 76,744 stars</span>
+        <span class="badge badge-forks"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><circle cx="18" cy="6" r="3"/><path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9"/><line x1="12" y1="12" x2="12" y2="15"/></svg> 9,342 forks</span>
+        <span class="badge badge-language"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg> Python</span>
+        <span class="badge badge-today"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg> 365 stars today</span>
+    </div>
+    <div class="contributors">
+        <div class="contributors-label">Built by:</div>
+        <div class="contributors-list">
+            <a href="https://github.com/abi" class="contributor-link" target="_blank" rel="noopener noreferrer">@abi</a>
+            <a href="https://github.com/claude" class="contributor-link" target="_blank" rel="noopener noreferrer">@claude</a>
+            <a href="https://github.com/clean99" class="contributor-link" target="_blank" rel="noopener noreferrer">@clean99</a>
+            <a href="https://github.com/sweep-ai-deprecated" class="contributor-link" target="_blank" rel="noopener noreferrer">@sweep-ai-deprecated</a>
+            <a href="https://github.com/kachbit" class="contributor-link" target="_blank" rel="noopener noreferrer">@kachbit</a>
+        </div>
+    </div>
+</div>
+<div class="repo-card">
+    <div class="repo-header">
+        <div class="repo-rank" aria-label="Rank 18">18</div>
+        <div class="repo-title">
+            <a href="https://github.com/mukul975/cve-mcp-server" target="_blank" rel="noopener noreferrer">mukul975/cve-mcp-server</a>
+        </div>
+    </div>
+    <p class="repo-description">Production-grade MCP server giving Claude 27 security intelligence tools across 21 APIs — CVE lookup, EPSS scoring, CISA KEV, MITRE ATT&amp;CK, Shodan, VirusTotal, and more.</p>
+    <div class="repo-stats">
+        <span class="badge badge-stars"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg> 1,338 stars</span>
+        <span class="badge badge-forks"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><circle cx="18" cy="6" r="3"/><path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9"/><line x1="12" y1="12" x2="12" y2="15"/></svg> 233 forks</span>
+        <span class="badge badge-language"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg> Python</span>
+        <span class="badge badge-today"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg> 30 stars today</span>
+    </div>
+    <div class="contributors">
+        <div class="contributors-label">Built by:</div>
+        <div class="contributors-list">
+            <a href="https://github.com/mukul975" class="contributor-link" target="_blank" rel="noopener noreferrer">@mukul975</a>
+            <a href="https://github.com/fergoid" class="contributor-link" target="_blank" rel="noopener noreferrer">@fergoid</a>
+        </div>
+    </div>
+</div>
+<div class="repo-card">
+    <div class="repo-header">
+        <div class="repo-rank" aria-label="Rank 19">19</div>
+        <div class="repo-title">
+            <a href="https://github.com/MakazhanAlpamys/Soup" target="_blank" rel="noopener noreferrer">MakazhanAlpamys/Soup</a>
+        </div>
+    </div>
+    <p class="repo-description">Fine-tune LLMs from one YAML. Layer streaming trains an 8B model on a 4 GB laptop GPU.</p>
+    <div class="repo-stats">
+        <span class="badge badge-stars"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg> 4,218 stars</span>
+        <span class="badge badge-forks"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><circle cx="18" cy="6" r="3"/><path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9"/><line x1="12" y1="12" x2="12" y2="15"/></svg> 646 forks</span>
+        <span class="badge badge-language"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg> Python</span>
+        <span class="badge badge-today"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg> 326 stars today</span>
+    </div>
+    <div class="contributors">
+        <div class="contributors-label">Built by:</div>
+        <div class="contributors-list">
+            <a href="https://github.com/MakazhanAlpamys" class="contributor-link" target="_blank" rel="noopener noreferrer">@MakazhanAlpamys</a>
+            <a href="https://github.com/claude" class="contributor-link" target="_blank" rel="noopener noreferrer">@claude</a>
+            <a href="https://github.com/Amix29" class="contributor-link" target="_blank" rel="noopener noreferrer">@Amix29</a>
+            <a href="https://github.com/AmirF194" class="contributor-link" target="_blank" rel="noopener noreferrer">@AmirF194</a>
+            <a href="https://github.com/ousamabenyounes" class="contributor-link" target="_blank" rel="noopener noreferrer">@ousamabenyounes</a>
+        </div>
+    </div>
+</div>
+<div class="repo-card">
+    <div class="repo-header">
+        <div class="repo-rank" aria-label="Rank 20">20</div>
+        <div class="repo-title">
+            <a href="https://github.com/calesthio/OpenMontage" target="_blank" rel="noopener noreferrer">calesthio/OpenMontage</a>
+        </div>
+    </div>
+    <p class="repo-description">World&#x27;s first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.</p>
+    <div class="repo-stats">
+        <span class="badge badge-stars"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg> 55,081 stars</span>
+        <span class="badge badge-forks"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><circle cx="18" cy="6" r="3"/><path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9"/><line x1="12" y1="12" x2="12" y2="15"/></svg> 6,871 forks</span>
+        <span class="badge badge-language"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg> Python</span>
+        <span class="badge badge-today"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg> 454 stars today</span>
+    </div>
+    <div class="contributors">
+        <div class="contributors-label">Built by:</div>
+        <div class="contributors-list">
+            <a href="https://github.com/calesthio" class="contributor-link" target="_blank" rel="noopener noreferrer">@calesthio</a>
+            <a href="https://github.com/claude" class="contributor-link" target="_blank" rel="noopener noreferrer">@claude</a>
+            <a href="https://github.com/0xDevNinja" class="contributor-link" target="_blank" rel="noopener noreferrer">@0xDevNinja</a>
+            <a href="https://github.com/yiyabo" class="contributor-link" target="_blank" rel="noopener noreferrer">@yiyabo</a>
+            <a href="https://github.com/xucailiang" class="contributor-link" target="_blank" rel="noopener noreferrer">@xucailiang</a>
+        </div>
+    </div>
+</div>
+        </div>
+        <div class="footer">
+            <p>Last updated: 2026-09-01 &mdash; <a href="../../../index.html" style="color:inherit">Back to dashboard</a></p>
+            <p>Generated by GitHub Trending Scraper</p>
+        </div>
+    </div>
+</body>
+</html>
