@@ -1,0 +1,318 @@
+{
+  "metadata": {
+    "date": "2026-09-04",
+    "language": "c",
+    "total_repositories": 18,
+    "total_stars": 363952,
+    "total_forks": 62659,
+    "generated_by": "GitHub Trending Scraper",
+    "format_version": "1.0"
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "facebook/zstd",
+      "url": "https://github.com/facebook/zstd",
+      "description": "Zstandard - Fast real-time compression algorithm",
+      "language": "C",
+      "stars": 27692,
+      "forks": 2576,
+      "stars_today": "20 stars today",
+      "built_by": [
+        "Cyan4973",
+        "terrelln",
+        "inikep",
+        "felixhandte",
+        "stellamplau"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "maharmstone/btrfs",
+      "url": "https://github.com/maharmstone/btrfs",
+      "description": "WinBtrfs - an open-source btrfs driver for Windows",
+      "language": "C",
+      "stars": 7715,
+      "forks": 304,
+      "stars_today": "26 stars today",
+      "built_by": [
+        "maharmstone",
+        "HeisSpiter",
+        "DjArt",
+        "lesderid",
+        "0xbadfca11"
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "openwrt/openwrt",
+      "url": "https://github.com/openwrt/openwrt",
+      "description": "This repository is a mirror of https://git.openwrt.org/openwrt/openwrt.git It is for reference only and is not active for check-ins. We will continue to accept Pull Requests here. They will be merged via staging trees then into openwrt.git.",
+      "language": "C",
+      "stars": 28256,
+      "forks": 12894,
+      "stars_today": "39 stars today",
+      "built_by": [
+        "juhosg",
+        "ffainelli",
+        "nbd168",
+        "hauke",
+        "jow-"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "DeusData/codebase-memory-mcp",
+      "url": "https://github.com/DeusData/codebase-memory-mcp",
+      "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
+      "language": "C",
+      "stars": 42099,
+      "forks": 3424,
+      "stars_today": "183 stars today",
+      "built_by": [
+        "DeusData",
+        "claude",
+        "shanemccarron-maker",
+        "dependabot",
+        "rarepops"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "sunblaze-ucb/exploitgym",
+      "url": "https://github.com/sunblaze-ucb/exploitgym",
+      "description": "ExploitGym is a large-scale, realistic benchmark built from real-world vulnerabilities designed to evaluate AI agents' ability to develop exploits.",
+      "language": "C",
+      "stars": 927,
+      "forks": 115,
+      "stars_today": "31 stars today",
+      "built_by": [
+        "wzunknown",
+        "claude",
+        "3rdn4Li",
+        "Copilot"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "espressif/esp-idf",
+      "url": "https://github.com/espressif/esp-idf",
+      "description": "Espressif IoT Development Framework. Official development framework for Espressif SoCs.",
+      "language": "C",
+      "stars": 18939,
+      "forks": 8469,
+      "stars_today": "10 stars today",
+      "built_by": [
+        "igrr",
+        "projectgus",
+        "jack0c",
+        "suda-morris",
+        "mahavirj"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "colbymchenry/codegraph",
+      "url": "https://github.com/colbymchenry/codegraph",
+      "description": "Pre-indexed code knowledge graph, auto syncs on code changes, for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, CoPilot, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
+      "language": "C",
+      "stars": 69485,
+      "forks": 4431,
+      "stars_today": "171 stars today",
+      "built_by": [
+        "colbymchenry",
+        "claude",
+        "github-actions",
+        "omonien",
+        "ctype-lab"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "lvgl/lvgl",
+      "url": "https://github.com/lvgl/lvgl",
+      "description": "LVGL is a free, full-featured embedded UI library for devices from small MCUs to 3D-capable MPUs, enhanced by LVGL Pro, a professional editor and tooling.",
+      "language": "C",
+      "stars": 24581,
+      "forks": 4347,
+      "stars_today": "11 stars today",
+      "built_by": [
+        "kisvegabor",
+        "embeddedt",
+        "AndreCostaaa",
+        "FASTSHIFT",
+        "github-actions"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "eunomia-bpf/agentsight",
+      "url": "https://github.com/eunomia-bpf/agentsight",
+      "description": "lightweight system-level observability for AI Agents",
+      "language": "C",
+      "stars": 664,
+      "forks": 99,
+      "stars_today": "5 stars today",
+      "built_by": [
+        "github-actions",
+        "yunwei37",
+        "Littlefisher619",
+        "claude",
+        "vickiegpt"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "raspberrypi/linux",
+      "url": "https://github.com/raspberrypi/linux",
+      "description": "Kernel source tree for Raspberry Pi-provided kernel builds. Issues unrelated to the linux kernel should be posted on the community forum at https://forums.raspberrypi.com/",
+      "language": "C",
+      "stars": 13134,
+      "forks": 5464,
+      "stars_today": "6 stars today",
+      "built_by": [
+        "torvalds",
+        "davem330",
+        "arndb",
+        "broonie",
+        "tiwai"
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "ImageMagick/ImageMagick",
+      "url": "https://github.com/ImageMagick/ImageMagick",
+      "description": "ImageMagick is a free, open-source software suite for creating, editing, converting, and displaying images. It supports 200+ formats and offers powerful command-line tools and APIs for automation, scripting, and integration across platforms.",
+      "language": "C",
+      "stars": 17325,
+      "forks": 1652,
+      "stars_today": "16 stars today",
+      "built_by": [
+        "dlemstra",
+        "glennrp",
+        "dependabot",
+        "reaperhulk",
+        "urban-warrior"
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "nginx/nginx",
+      "url": "https://github.com/nginx/nginx",
+      "description": "The official NGINX Open Source repository.",
+      "language": "C",
+      "stars": 31567,
+      "forks": 8301,
+      "stars_today": "17 stars today",
+      "built_by": [
+        "mdounin",
+        "arut",
+        "vl-homutov",
+        "VBart",
+        "pluknet"
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "NVIDIA-RTX/Streamline",
+      "url": "https://github.com/NVIDIA-RTX/Streamline",
+      "description": "Streamline Integration Framework",
+      "language": "C",
+      "stars": 1074,
+      "forks": 148,
+      "stars_today": "13 stars today",
+      "built_by": [
+        "anpurohit",
+        "larsbishop",
+        "liam-middlebrook",
+        "nvthayes",
+        "gw280"
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "tmux/tmux",
+      "url": "https://github.com/tmux/tmux",
+      "description": "tmux source code",
+      "language": "C",
+      "stars": 49044,
+      "forks": 2868,
+      "stars_today": "33 stars today",
+      "built_by": [
+        "nicm",
+        "ThomasAdam",
+        "tcunha",
+        "actions-user",
+        "mathstuf"
+      ]
+    },
+    {
+      "rank": 15,
+      "name": "duixcom/Duix-Avatar",
+      "url": "https://github.com/duixcom/Duix-Avatar",
+      "description": "🚀 Truly open-source AI avatar(digital human) toolkit for offline video generation and digital human cloning.",
+      "language": "C",
+      "stars": 15009,
+      "forks": 2525,
+      "stars_today": "21 stars today",
+      "built_by": [
+        "whl88",
+        "suifeng9203",
+        "haol666",
+        "flyingflyfly",
+        "Samge0"
+      ]
+    },
+    {
+      "rank": 16,
+      "name": "SchedMD/slurm",
+      "url": "https://github.com/SchedMD/slurm",
+      "description": "Slurm: A Highly Scalable Workload Manager",
+      "language": "C",
+      "stars": 4311,
+      "forks": 881,
+      "stars_today": "14 stars today",
+      "built_by": [
+        "dannyauble",
+        "jette",
+        "wickberg",
+        "naterini",
+        "gaijin03"
+      ]
+    },
+    {
+      "rank": 17,
+      "name": "freebsd/freebsd-src",
+      "url": "https://github.com/freebsd/freebsd-src",
+      "description": "The FreeBSD src tree publish-only repository. Experimenting with 'simple' pull requests....",
+      "language": "C",
+      "stars": 9307,
+      "forks": 3414,
+      "stars_today": "3 stars today",
+      "built_by": [
+        "bsdimp",
+        "bsdjhb",
+        "kostikbel",
+        "bsdphk",
+        "DarkHelmet433"
+      ]
+    },
+    {
+      "rank": 18,
+      "name": "destan19/OpenAppFilter",
+      "url": "https://github.com/destan19/OpenAppFilter",
+      "description": "OAF(OpenAppFilter) is a parental control software based on OpenWrt. It supports popular applications across gaming, video streaming, instant messaging, such as TikTok, YouTube, Facebook. Currently, it supports hundreds of different applications.",
+      "language": "C",
+      "stars": 2823,
+      "forks": 747,
+      "stars_today": "10 stars today",
+      "built_by": [
+        "destan19",
+        "jjm2473",
+        "JSZMonkey",
+        "sbwml",
+        "zzhang1987"
+      ]
+    }
+  ]
+}
