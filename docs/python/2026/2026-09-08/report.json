@@ -1,0 +1,325 @@
+{
+  "metadata": {
+    "date": "2026-09-08",
+    "language": "python",
+    "total_repositories": 19,
+    "total_stars": 1416773,
+    "total_forks": 199480,
+    "generated_by": "GitHub Trending Scraper",
+    "format_version": "1.0"
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "microsoft/markitdown",
+      "url": "https://github.com/microsoft/markitdown",
+      "description": "Python tool for converting files and office documents to Markdown.",
+      "language": "Python",
+      "stars": 180497,
+      "forks": 13271,
+      "stars_today": "886 stars today",
+      "built_by": [
+        "afourney",
+        "gagb",
+        "sugatoray",
+        "PetrAPConsulting",
+        "l-lumin"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "The-Swarm-Corporation/AutoHedge",
+      "url": "https://github.com/The-Swarm-Corporation/AutoHedge",
+      "description": "Build your autonomous hedge fund in minutes. AutoHedge harnesses the power of swarm intelligence and AI agents to automate market analysis, risk management, and trade execution.",
+      "language": "Python",
+      "stars": 5314,
+      "forks": 815,
+      "stars_today": "517 stars today",
+      "built_by": [
+        "kyegomez",
+        "dependabot"
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "bytedance/deer-flow",
+      "url": "https://github.com/bytedance/deer-flow",
+      "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
+      "language": "Python",
+      "stars": 81889,
+      "forks": 11294,
+      "stars_today": "195 stars today",
+      "built_by": [
+        "WillemJiang",
+        "MagicCube",
+        "claude",
+        "hetaoBackend",
+        "henry-byted"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "openai/skills",
+      "url": "https://github.com/openai/skills",
+      "description": "Skills Catalog for Codex",
+      "language": "Python",
+      "stars": 26095,
+      "forks": 1750,
+      "stars_today": "351 stars today",
+      "built_by": [
+        "dkundel-openai",
+        "gverma-openai",
+        "vb-openai",
+        "ae-openai",
+        "quuu"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "pytorch/pytorch",
+      "url": "https://github.com/pytorch/pytorch",
+      "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+      "language": "Python",
+      "stars": 102847,
+      "forks": 29157,
+      "stars_today": "36 stars today",
+      "built_by": [
+        "pytorchmergebot",
+        "ezyang",
+        "malfet",
+        "zou3519",
+        "cyyever"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "browser-use/browser-use",
+      "url": "https://github.com/browser-use/browser-use",
+      "description": "🌐 Make websites accessible for AI agents. Automate tasks online with ease.",
+      "language": "Python",
+      "stars": 112983,
+      "forks": 12462,
+      "stars_today": "330 stars today",
+      "built_by": [
+        "MagMueller",
+        "pirate",
+        "mertunsall",
+        "sauravpanda",
+        "gregpr07"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "Comfy-Org/ComfyUI",
+      "url": "https://github.com/Comfy-Org/ComfyUI",
+      "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.",
+      "language": "Python",
+      "stars": 131969,
+      "forks": 15560,
+      "stars_today": "181 stars today",
+      "built_by": [
+        "comfyanonymous",
+        "bigcat88",
+        "pythongosssss",
+        "comfyui-wiki",
+        "rattus128"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "bikini/exploitarium",
+      "url": "https://github.com/bikini/exploitarium",
+      "description": "A single archive of public exploit PoCs and vulnerability research writeups. At the time I post these, none have been reported. Feel free to report them yourself and take credit for the CVE if handed out lulz. Please do not abuse these. I do this so to allure people into the field, and I've always found this is the most efficient way.",
+      "language": "Python",
+      "stars": 4941,
+      "forks": 1284,
+      "stars_today": "63 stars today",
+      "built_by": [
+        "bikini",
+        "we-tech-company"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "mukul975/cve-mcp-server",
+      "url": "https://github.com/mukul975/cve-mcp-server",
+      "description": "Production-grade MCP server giving Claude 27 security intelligence tools across 21 APIs — CVE lookup, EPSS scoring, CISA KEV, MITRE ATT&CK, Shodan, VirusTotal, and more.",
+      "language": "Python",
+      "stars": 1478,
+      "forks": 252,
+      "stars_today": "37 stars today",
+      "built_by": [
+        "mukul975",
+        "fergoid"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "AgriciDaniel/claude-ads",
+      "url": "https://github.com/AgriciDaniel/claude-ads",
+      "description": "Claude-first paid-media operations skill for Claude Code across 12 ad platforms (Google, Meta, YouTube, LinkedIn, TikTok, Microsoft, Apple, Amazon, Reddit, Pinterest, Snapchat, X): source-grounded audits, deterministic scoring, versioned JSON reports, and capability-gated account changes.",
+      "language": "Python",
+      "stars": 8990,
+      "forks": 1342,
+      "stars_today": "89 stars today",
+      "built_by": [
+        "AgriciDaniel",
+        "claude",
+        "dependabot"
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "description": "The agent that grows with you",
+      "language": "Python",
+      "stars": 243093,
+      "forks": 50059,
+      "stars_today": "638 stars today",
+      "built_by": [
+        "teknium1",
+        "OutThisLife",
+        "kshitijk4poor",
+        "claude",
+        "benbarclay"
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "Free-TV/IPTV",
+      "url": "https://github.com/Free-TV/IPTV",
+      "description": "M3U Playlist for free TV channels",
+      "language": "Python",
+      "stars": 20386,
+      "forks": 2952,
+      "stars_today": "71 stars today",
+      "built_by": [
+        "KAMI911",
+        "TVKaista",
+        "NezbednikSK",
+        "infid0",
+        "freetv332"
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "k2-fsa/OmniVoice",
+      "url": "https://github.com/k2-fsa/OmniVoice",
+      "description": "High-Quality Voice Cloning TTS for 600+ Languages",
+      "language": "Python",
+      "stars": 10489,
+      "forks": 1660,
+      "stars_today": "329 stars today",
+      "built_by": [
+        "zhu-han",
+        "HenryVarro666",
+        "pkufool",
+        "Pastells",
+        "claude"
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "blader/humanizer",
+      "url": "https://github.com/blader/humanizer",
+      "description": "Agent skill that removes signs of AI-generated writing from text",
+      "language": "Python",
+      "stars": 45010,
+      "forks": 3712,
+      "stars_today": "903 stars today",
+      "built_by": [
+        "blader",
+        "claude",
+        "mvanhorn",
+        "Scott-Emberson",
+        "warp-agent"
+      ]
+    },
+    {
+      "rank": 15,
+      "name": "numpy/numpy",
+      "url": "https://github.com/numpy/numpy",
+      "description": "The fundamental package for scientific computing with Python.",
+      "language": "Python",
+      "stars": 32702,
+      "forks": 12751,
+      "stars_today": "16 stars today",
+      "built_by": [
+        "charris",
+        "mattip",
+        "seberg",
+        "teoliphant",
+        "cournape"
+      ]
+    },
+    {
+      "rank": 16,
+      "name": "vinta/awesome-python",
+      "url": "https://github.com/vinta/awesome-python",
+      "description": "The definitive list that answers \"I want to do X in Python, which tool should I use?\"",
+      "language": "Python",
+      "stars": 319173,
+      "forks": 28683,
+      "stars_today": "335 stars today",
+      "built_by": [
+        "vinta",
+        "claude",
+        "traviscibot",
+        "JinyangWang27",
+        "dhamaniasad"
+      ]
+    },
+    {
+      "rank": 17,
+      "name": "NVIDIA/personaplex",
+      "url": "https://github.com/NVIDIA/personaplex",
+      "description": "PersonaPlex code.",
+      "language": "Python",
+      "stars": 10436,
+      "forks": 1453,
+      "stars_today": "7 stars today",
+      "built_by": [
+        "rajarshiroy-nvidia",
+        "wachawo",
+        "grafael",
+        "tsdocode",
+        "jaycoolh"
+      ]
+    },
+    {
+      "rank": 18,
+      "name": "huggingface/datasets",
+      "url": "https://github.com/huggingface/datasets",
+      "description": "🤗 The largest hub of ready-to-use datasets for AI models with fast, easy-to-use and efficient data manipulation tools",
+      "language": "Python",
+      "stars": 21949,
+      "forks": 3413,
+      "stars_today": "20 stars today",
+      "built_by": [
+        "lhoestq",
+        "albertvillanova",
+        "mariosasko",
+        "patrickvonplaten",
+        "stevhliu"
+      ]
+    },
+    {
+      "rank": 19,
+      "name": "Zie619/n8n-workflows",
+      "url": "https://github.com/Zie619/n8n-workflows",
+      "description": "all of the workflows of n8n i could find (also from the site itself)",
+      "language": "Python",
+      "stars": 56532,
+      "forks": 7610,
+      "stars_today": "55 stars today",
+      "built_by": [
+        "Zie619",
+        "claude",
+        "PraveenMudalgeri",
+        "wildcard",
+        "Siphon880gh"
+      ]
+    }
+  ]
+}
