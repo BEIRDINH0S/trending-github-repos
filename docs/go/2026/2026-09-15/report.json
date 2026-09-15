@@ -1,0 +1,333 @@
+{
+  "metadata": {
+    "date": "2026-09-15",
+    "language": "go",
+    "total_repositories": 19,
+    "total_stars": 451662,
+    "total_forks": 79663,
+    "generated_by": "GitHub Trending Scraper",
+    "format_version": "1.0"
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "description": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "language": "Go",
+      "stars": 26122,
+      "forks": 1884,
+      "stars_today": "1,571 stars today",
+      "built_by": [
+        "lizhengfeng101",
+        "chethanuk",
+        "wu21-web",
+        "stay-foolish-forever",
+        "claude"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "vxcontrol/pentagi",
+      "url": "https://github.com/vxcontrol/pentagi",
+      "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
+      "language": "Go",
+      "stars": 24427,
+      "forks": 3131,
+      "stars_today": "661 stars today",
+      "built_by": [
+        "sirozha",
+        "claude",
+        "asdek",
+        "mason5052",
+        "cursoragent"
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "operacle/checkcle",
+      "url": "https://github.com/operacle/checkcle",
+      "description": "CheckCle is a self-hosted, open-source monitoring platform for seamless, real-time full-stack systems, applications, and infrastructure. It provides real-time uptime monitoring, distributed checks, incident tracking, and alerts. All deployable anywhere.",
+      "language": "Go",
+      "stars": 3209,
+      "forks": 281,
+      "stars_today": "81 stars today",
+      "built_by": [
+        "tolaleng",
+        "ghotso",
+        "sqkkyzx",
+        "gnsworks",
+        "samang-dauth"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "tbphp/gpt-load",
+      "url": "https://github.com/tbphp/gpt-load",
+      "description": "Self-hosted AI gateway for multi-channel, multi-credential setups — API keys and subscription accounts, scheduling, failover, request logs and usage. 自托管 AI 网关：多渠道多凭据统一接入，含密钥与订阅账号、调度容错、日志与用量。",
+      "language": "Go",
+      "stars": 6762,
+      "forks": 728,
+      "stars_today": "23 stars today",
+      "built_by": [
+        "tbphp",
+        "hptangxi",
+        "dependabot",
+        "OrzMiku",
+        "vickyyd"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "pranshuparmar/witr",
+      "url": "https://github.com/pranshuparmar/witr",
+      "description": "Why is this running? Trace any process, port, container, or file back to what started it - CLI + TUI.",
+      "language": "Go",
+      "stars": 22314,
+      "forks": 775,
+      "stars_today": "43 stars today",
+      "built_by": [
+        "pranshuparmar",
+        "claude",
+        "chojs23",
+        "gaod"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "aldinokemal/go-whatsapp-web-multidevice",
+      "url": "https://github.com/aldinokemal/go-whatsapp-web-multidevice",
+      "description": "GOWA - WhatsApp REST API with support for UI, Multi Account, Webhooks, and MCP, and Chatwoot. Built with Golang for efficient memory use.",
+      "language": "Go",
+      "stars": 4776,
+      "forks": 1137,
+      "stars_today": "17 stars today",
+      "built_by": [
+        "aldinokemal",
+        "cursoragent",
+        "claude",
+        "juliomuhlbauer",
+        "coderabbitai"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "yorukot/superfile",
+      "url": "https://github.com/yorukot/superfile",
+      "description": "Pretty fancy and modern terminal file manager",
+      "language": "Go",
+      "stars": 23243,
+      "forks": 850,
+      "stars_today": "40 stars today",
+      "built_by": [
+        "yorukot",
+        "lazysegtree",
+        "renovate",
+        "nonepork",
+        "AnshumanNeon"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "kubernetes/kubernetes",
+      "url": "https://github.com/kubernetes/kubernetes",
+      "description": "Production-Grade Container Scheduling and Management",
+      "language": "Go",
+      "stars": 127718,
+      "forks": 44067,
+      "stars_today": "278 stars today",
+      "built_by": [
+        "k8s-ci-robot",
+        "liggitt",
+        "thockin",
+        "wojtek-t",
+        "brendandburns"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "usememos/memos",
+      "url": "https://github.com/usememos/memos",
+      "description": "Open-source, self-hosted note-taking tool built for quick capture. Markdown-native, lightweight, and fully yours.",
+      "language": "Go",
+      "stars": 63062,
+      "forks": 4755,
+      "stars_today": "81 stars today",
+      "built_by": [
+        "boojack",
+        "johnnyjoygh",
+        "dependabot",
+        "claude",
+        "athurg"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "SagerNet/sing-box",
+      "url": "https://github.com/SagerNet/sing-box",
+      "description": "The universal proxy platform",
+      "language": "Go",
+      "stars": 38004,
+      "forks": 4584,
+      "stars_today": "53 stars today",
+      "built_by": [
+        "nekohasekai",
+        "macronut",
+        "flyzstu",
+        "NagaseMinato",
+        "renovate"
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "xob0t/gotohp",
+      "url": "https://github.com/xob0t/gotohp",
+      "description": "Unofficial Google Photos Desktop GUI Client",
+      "language": "Go",
+      "stars": 586,
+      "forks": 49,
+      "stars_today": "30 stars today",
+      "built_by": [
+        "xob0t",
+        "claude",
+        "github-actions",
+        "LPFchan",
+        "devinslick"
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "goreleaser/goreleaser",
+      "url": "https://github.com/goreleaser/goreleaser",
+      "description": "Release engineering, simplified",
+      "language": "Go",
+      "stars": 16050,
+      "forks": 1108,
+      "stars_today": "15 stars today",
+      "built_by": [
+        "caarlos0",
+        "dependabot",
+        "actions-user",
+        "Copilot",
+        "kodiakhq"
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "Solr159/JavBoss",
+      "url": "https://github.com/Solr159/JavBoss",
+      "description": "开箱即用的本地 JAV/视频 刮削、管理、播放软件，支持命令行一键安装和 Docker 部署。只需简单添加目录，即可打造你的私人 JAV/视频 媒体库，带给你顶级的浏览体验，懒人必备。| Your local JAV/video manager.",
+      "language": "Go",
+      "stars": 636,
+      "forks": 61,
+      "stars_today": "3 stars today",
+      "built_by": [
+        "Solr159",
+        "github-actions",
+        "736368217"
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "nicocha30/ligolo-ng",
+      "url": "https://github.com/nicocha30/ligolo-ng",
+      "description": "An advanced, yet simple, tunneling/pivoting tool that uses a TUN interface.",
+      "language": "Go",
+      "stars": 4986,
+      "forks": 480,
+      "stars_today": "12 stars today",
+      "built_by": [
+        "nicocha30",
+        "CarrotCultivator",
+        "joehacksalot",
+        "virusvfv",
+        "letmedr3am"
+      ]
+    },
+    {
+      "rank": 15,
+      "name": "fluxcd/flux2",
+      "url": "https://github.com/fluxcd/flux2",
+      "description": "Open and extensible continuous delivery solution for Kubernetes. Powered by GitOps Toolkit.",
+      "language": "Go",
+      "stars": 8407,
+      "forks": 782,
+      "stars_today": "1 star today",
+      "built_by": [
+        "stefanprodan",
+        "hiddeco",
+        "matheuscscp",
+        "fluxcdbot",
+        "dependabot"
+      ]
+    },
+    {
+      "rank": 16,
+      "name": "navidrome/navidrome",
+      "url": "https://github.com/navidrome/navidrome",
+      "description": "🎧 Your Personal Streaming Service",
+      "language": "Go",
+      "stars": 23561,
+      "forks": 1704,
+      "stars_today": "34 stars today",
+      "built_by": [
+        "deluan",
+        "dependabot",
+        "kgarner7",
+        "dependabot-preview",
+        "caiocotts"
+      ]
+    },
+    {
+      "rank": 17,
+      "name": "evcc-io/evcc",
+      "url": "https://github.com/evcc-io/evcc",
+      "description": "solar charging ☀️🚘",
+      "language": "Go",
+      "stars": 7235,
+      "forks": 1506,
+      "stars_today": "6 stars today",
+      "built_by": [
+        "andig",
+        "naltatis",
+        "premultiply",
+        "weblate",
+        "DerAndereAndi"
+      ]
+    },
+    {
+      "rank": 18,
+      "name": "bjarneo/cliamp",
+      "url": "https://github.com/bjarneo/cliamp",
+      "description": "cliamp - Terminal music player inspired by winamp",
+      "language": "Go",
+      "stars": 4180,
+      "forks": 279,
+      "stars_today": "31 stars today",
+      "built_by": [
+        "bjarneo",
+        "claude",
+        "coryshaw1",
+        "tahadx",
+        "rubiojr"
+      ]
+    },
+    {
+      "rank": 19,
+      "name": "MHSanaei/3x-ui",
+      "url": "https://github.com/MHSanaei/3x-ui",
+      "description": "Supporting multi-protocol multi-user(Vmess, Vless, Trojan, ShadowSocks, Wireguard, Hysteria, Tunnel, Mixed, HTTP, Tun, MTProto، AmneziaWG)",
+      "language": "Go",
+      "stars": 46384,
+      "forks": 11502,
+      "stars_today": "58 stars today",
+      "built_by": [
+        "MHSanaei",
+        "alireza0",
+        "dependabot",
+        "hamid-gh98",
+        "sh1shd"
+      ]
+    }
+  ]
+}
