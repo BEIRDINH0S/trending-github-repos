@@ -1,0 +1,370 @@
+{
+  "metadata": {
+    "date": "2026-09-16",
+    "language": "go",
+    "total_repositories": 21,
+    "total_stars": 697759,
+    "total_forks": 79507,
+    "generated_by": "GitHub Trending Scraper",
+    "format_version": "1.0"
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "description": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "language": "Go",
+      "stars": 29007,
+      "forks": 2066,
+      "stars_today": "2,756 stars today",
+      "built_by": [
+        "lizhengfeng101",
+        "wu21-web",
+        "chethanuk",
+        "stay-foolish-forever",
+        "claude"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "TencentCloud/CubeSandbox",
+      "url": "https://github.com/TencentCloud/CubeSandbox",
+      "description": "Instant, Concurrent, Secure & Lightweight Sandbox for AI Agents.",
+      "language": "Go",
+      "stars": 12514,
+      "forks": 1122,
+      "stars_today": "259 stars today",
+      "built_by": [
+        "fslongjin",
+        "chenhengqi",
+        "ls-ggg",
+        "zyl1121",
+        "cursoragent"
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "getarcaneapp/arcane",
+      "url": "https://github.com/getarcaneapp/arcane",
+      "description": "Modern Docker Management, Designed for Everyone",
+      "language": "Go",
+      "stars": 7398,
+      "forks": 309,
+      "stars_today": "13 stars today",
+      "built_by": [
+        "kmendell",
+        "dependabot",
+        "getarcaneappbot",
+        "cabaucom376",
+        "GiulioSavini"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "vxcontrol/pentagi",
+      "url": "https://github.com/vxcontrol/pentagi",
+      "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
+      "language": "Go",
+      "stars": 24506,
+      "forks": 3139,
+      "stars_today": "98 stars today",
+      "built_by": [
+        "sirozha",
+        "claude",
+        "asdek",
+        "mason5052",
+        "cursoragent"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "minio/minio",
+      "url": "https://github.com/minio/minio",
+      "description": "MinIO is a high-performance, S3 compatible object store, open sourced under GNU AGPLv3 license.",
+      "language": "Go",
+      "stars": 61366,
+      "forks": 7927,
+      "stars_today": "1 star today",
+      "built_by": [
+        "harshavardhana",
+        "vadmeste",
+        "klauspost",
+        "minio-trusted",
+        "poornas"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "seaweedfs/seaweedfs",
+      "url": "https://github.com/seaweedfs/seaweedfs",
+      "description": "SeaweedFS is a distributed storage system for object storage (S3), file systems, and Iceberg tables, designed to handle billions of files with O(1) disk access and effortless horizontal scaling.",
+      "language": "Go",
+      "stars": 34726,
+      "forks": 3002,
+      "stars_today": "53 stars today",
+      "built_by": [
+        "chrislusf",
+        "dependabot",
+        "kmlebedev",
+        "chrisluuber",
+        "gemini-code-assist"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "Tencent/WeKnora",
+      "url": "https://github.com/Tencent/WeKnora",
+      "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+      "language": "Go",
+      "stars": 24430,
+      "forks": 3404,
+      "stars_today": "696 stars today",
+      "built_by": [
+        "lyingbug",
+        "voidkey",
+        "begoniezhao",
+        "claude",
+        "dependabot"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "navidrome/navidrome",
+      "url": "https://github.com/navidrome/navidrome",
+      "description": "🎧 Your Personal Streaming Service",
+      "language": "Go",
+      "stars": 23591,
+      "forks": 1703,
+      "stars_today": "32 stars today",
+      "built_by": [
+        "deluan",
+        "dependabot",
+        "kgarner7",
+        "dependabot-preview",
+        "caiocotts"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "goharbor/harbor",
+      "url": "https://github.com/goharbor/harbor",
+      "description": "An open source trusted cloud native registry project that stores, signs, and scans content.",
+      "language": "Go",
+      "stars": 29377,
+      "forks": 5344,
+      "stars_today": "6 stars today",
+      "built_by": [
+        "ywk253100",
+        "reasonerjt",
+        "wy65701436",
+        "steven-zou",
+        "wknet123"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "googleapis/mcp-toolbox",
+      "url": "https://github.com/googleapis/mcp-toolbox",
+      "description": "MCP Toolbox for Databases is an open source MCP server for databases.",
+      "language": "Go",
+      "stars": 16418,
+      "forks": 1721,
+      "stars_today": "8 stars today",
+      "built_by": [
+        "Yuan325",
+        "duwenxin99",
+        "twishabansal",
+        "averikitsch",
+        "release-please"
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "gin-gonic/gin",
+      "url": "https://github.com/gin-gonic/gin",
+      "description": "Gin is a high-performance HTTP web framework written in Go. It provides a Martini-like API but with significantly better performance—up to 40 times faster—thanks to httprouter. Gin is designed for building REST APIs, web applications, and microservices.",
+      "language": "Go",
+      "stars": 89226,
+      "forks": 8695,
+      "stars_today": "11 stars today",
+      "built_by": [
+        "manucorporat",
+        "appleboy",
+        "javierprovecho",
+        "thinkerou",
+        "dependabot"
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "e2b-dev/runtime",
+      "url": "https://github.com/e2b-dev/runtime",
+      "description": "The runtime behind every E2B stack: Cloud, Enterprise, and your own machine.",
+      "language": "Go",
+      "stars": 1512,
+      "forks": 422,
+      "stars_today": "33 stars today",
+      "built_by": [
+        "ValentaTomas",
+        "jakubno",
+        "dobrac",
+        "mlejva",
+        "djeebus"
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "fatedier/frp",
+      "url": "https://github.com/fatedier/frp",
+      "description": "A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet.",
+      "language": "Go",
+      "stars": 109461,
+      "forks": 15214,
+      "stars_today": "25 stars today",
+      "built_by": [
+        "fatedier",
+        "blizard863",
+        "GuyLewin",
+        "yuyulei",
+        "maodanp"
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "majd/ipatool",
+      "url": "https://github.com/majd/ipatool",
+      "description": "Command-line tool that allows you to search for iOS, iPadOS, tvOS, visionOS, and macOS apps on the App Store, and download .ipa or macOS .pkg app packages.",
+      "language": "Go",
+      "stars": 11261,
+      "forks": 940,
+      "stars_today": "50 stars today",
+      "built_by": [
+        "majd",
+        "dependabot",
+        "ViRb3",
+        "tux-mind",
+        "testwill"
+      ]
+    },
+    {
+      "rank": 15,
+      "name": "gosom/google-maps-scraper",
+      "url": "https://github.com/gosom/google-maps-scraper",
+      "description": "scrape data from Google Maps. Extracts data such as the name, address, phone number, website URL, rating, reviews number, latitude and longitude, reviews,email and more for each place",
+      "language": "Go",
+      "stars": 5864,
+      "forks": 925,
+      "stars_today": "24 stars today",
+      "built_by": [
+        "gosom",
+        "dredozubov",
+        "sbOogway",
+        "fidalgo",
+        "claude"
+      ]
+    },
+    {
+      "rank": 16,
+      "name": "kserve/kserve",
+      "url": "https://github.com/kserve/kserve",
+      "description": "Standardized Distributed Generative and Predictive AI Inference Platform for Scalable, Multi-Framework Deployment on Kubernetes",
+      "language": "Go",
+      "stars": 5927,
+      "forks": 1676,
+      "stars_today": "21 stars today",
+      "built_by": [
+        "yuzisun",
+        "sivanantha321",
+        "bartoszmajsak",
+        "Jooho",
+        "andyi2it"
+      ]
+    },
+    {
+      "rank": 17,
+      "name": "Mininglamp-OSS/octo-server",
+      "url": "https://github.com/Mininglamp-OSS/octo-server",
+      "description": "🐙 The Go backend powering OCTO — an open workplace built for humans × AI agents. REST & WebSocket APIs, Lobster (AI agent) orchestration, and WuKongIM real-time messaging control plane.",
+      "language": "Go",
+      "stars": 1032,
+      "forks": 165,
+      "stars_today": "80 stars today",
+      "built_by": [
+        "yujiawei",
+        "an9xyz",
+        "lml2468",
+        "claude",
+        "multica-agent"
+      ]
+    },
+    {
+      "rank": 18,
+      "name": "sysadminsmedia/homebox",
+      "url": "https://github.com/sysadminsmedia/homebox",
+      "description": "A continuation of HomeBox the inventory and organization system built for the Home User",
+      "language": "Go",
+      "stars": 7296,
+      "forks": 556,
+      "stars_today": "50 stars today",
+      "built_by": [
+        "weblate",
+        "tankerkiller125",
+        "hay-kot",
+        "katosdev",
+        "renovate"
+      ]
+    },
+    {
+      "rank": 19,
+      "name": "hashicorp/nomad",
+      "url": "https://github.com/hashicorp/nomad",
+      "description": "Nomad is an easy-to-use, flexible, and performant workload orchestrator that can deploy a mix of microservice, batch, containerized, and non-containerized applications. Nomad is easy to operate and scale and has native Consul and Vault integrations.",
+      "language": "Go",
+      "stars": 16955,
+      "forks": 2142,
+      "stars_today": "28 stars today",
+      "built_by": [
+        "dadgar",
+        "schmichael",
+        "tgross",
+        "DingoEatingFuzz",
+        "notnoop"
+      ]
+    },
+    {
+      "rank": 20,
+      "name": "aldinokemal/go-whatsapp-web-multidevice",
+      "url": "https://github.com/aldinokemal/go-whatsapp-web-multidevice",
+      "description": "GOWA - WhatsApp REST API with support for UI, Multi Account, Webhooks, and MCP, and Chatwoot. Built with Golang for efficient memory use.",
+      "language": "Go",
+      "stars": 4804,
+      "forks": 1141,
+      "stars_today": "26 stars today",
+      "built_by": [
+        "aldinokemal",
+        "cursoragent",
+        "claude",
+        "juliomuhlbauer",
+        "coderabbitai"
+      ]
+    },
+    {
+      "rank": 21,
+      "name": "ollama/ollama",
+      "url": "https://github.com/ollama/ollama",
+      "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+      "language": "Go",
+      "stars": 181088,
+      "forks": 17894,
+      "stars_today": "140 stars today",
+      "built_by": [
+        "mxyng",
+        "dhiltgen",
+        "jmorganca",
+        "BruceMacD",
+        "jessegross"
+      ]
+    }
+  ]
+}
