@@ -1,0 +1,370 @@
+{
+  "metadata": {
+    "date": "2026-09-18",
+    "language": "go",
+    "total_repositories": 21,
+    "total_stars": 799940,
+    "total_forks": 89226,
+    "generated_by": "GitHub Trending Scraper",
+    "format_version": "1.0"
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "description": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "language": "Go",
+      "stars": 35167,
+      "forks": 2492,
+      "stars_today": "3,286 stars today",
+      "built_by": [
+        "lizhengfeng101",
+        "wu21-web",
+        "chethanuk",
+        "stay-foolish-forever",
+        "claude"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "Tencent/WeKnora",
+      "url": "https://github.com/Tencent/WeKnora",
+      "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+      "language": "Go",
+      "stars": 26421,
+      "forks": 3567,
+      "stars_today": "1,125 stars today",
+      "built_by": [
+        "lyingbug",
+        "voidkey",
+        "begoniezhao",
+        "claude",
+        "dependabot"
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "cilium/cilium",
+      "url": "https://github.com/cilium/cilium",
+      "description": "eBPF-based Networking, Security, and Observability",
+      "language": "Go",
+      "stars": 25291,
+      "forks": 4074,
+      "stars_today": "111 stars today",
+      "built_by": [
+        "aanm",
+        "tgraf",
+        "joestringer",
+        "tklauser",
+        "jrajahalme"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "coder/coder",
+      "url": "https://github.com/coder/coder",
+      "description": "Secure environments for developers and their agents",
+      "language": "Go",
+      "stars": 14901,
+      "forks": 1487,
+      "stars_today": "145 stars today",
+      "built_by": [
+        "dependabot",
+        "kylecarbs",
+        "mafredri",
+        "johnstcn",
+        "Emyrk"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "JuliusBrussee/caveman",
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "description": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
+      "language": "Go",
+      "stars": 106318,
+      "forks": 6156,
+      "stars_today": "359 stars today",
+      "built_by": [
+        "JuliusBrussee",
+        "claude",
+        "github-actions",
+        "hunleyd",
+        "AmirF194"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "multica-ai/multica",
+      "url": "https://github.com/multica-ai/multica",
+      "description": "Make humans and AI agents work as one team — open-source and self-hostable.",
+      "language": "Go",
+      "stars": 50343,
+      "forks": 6510,
+      "stars_today": "205 stars today",
+      "built_by": [
+        "multica-agent",
+        "claude",
+        "Bohan-J",
+        "forrestchang",
+        "NevilleQingNY"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "e2b-dev/runtime",
+      "url": "https://github.com/e2b-dev/runtime",
+      "description": "The runtime behind every E2B stack: Cloud, Enterprise, and your own machine.",
+      "language": "Go",
+      "stars": 1569,
+      "forks": 431,
+      "stars_today": "126 stars today",
+      "built_by": [
+        "ValentaTomas",
+        "jakubno",
+        "dobrac",
+        "mlejva",
+        "djeebus"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "tailscale/tailcat",
+      "url": "https://github.com/tailscale/tailcat",
+      "description": "like netcat, but over Tailscale's data plane, without Tailscale's control plane",
+      "language": "Go",
+      "stars": 7406,
+      "forks": 307,
+      "stars_today": "165 stars today",
+      "built_by": [
+        "bradfitz",
+        "danderson",
+        "andrew-d",
+        "raggi",
+        "jwhited"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "junegunn/fzf",
+      "url": "https://github.com/junegunn/fzf",
+      "description": "🌸 A command-line fuzzy finder",
+      "language": "Go",
+      "stars": 83088,
+      "forks": 3023,
+      "stars_today": "59 stars today",
+      "built_by": [
+        "junegunn",
+        "dependabot",
+        "bitraid",
+        "LangLangBart",
+        "janlazo"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "larksuite/cli",
+      "url": "https://github.com/larksuite/cli",
+      "description": "The official Lark/飞书 CLI tool, maintained by the larksuite team — built for humans and AI Agents. Covers core business domains including Messenger, Docs, Base, Sheets, Calendar, Mail, Tasks, Meetings, and more, with 200+ commands and 20+ AI Agent Skills.",
+      "language": "Go",
+      "stars": 17258,
+      "forks": 1389,
+      "stars_today": "48 stars today",
+      "built_by": [
+        "liangshuo-1",
+        "ethan-zhx",
+        "fangshuyu-768",
+        "wittam-01",
+        "liujinkun2025"
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "microsoft/TypeScript",
+      "url": "https://github.com/microsoft/TypeScript",
+      "description": "TypeScript is a superset of JavaScript that compiles to clean JavaScript output.",
+      "language": "Go",
+      "stars": 111096,
+      "forks": 14201,
+      "stars_today": "55 stars today",
+      "built_by": [
+        "ahejlsberg",
+        "sheetalkamat",
+        "DanielRosenwasser",
+        "sandersn",
+        "mhegazy"
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "getarcaneapp/arcane",
+      "url": "https://github.com/getarcaneapp/arcane",
+      "description": "Modern Docker Management, Designed for Everyone",
+      "language": "Go",
+      "stars": 7425,
+      "forks": 311,
+      "stars_today": "32 stars today",
+      "built_by": [
+        "kmendell",
+        "dependabot",
+        "getarcaneappbot",
+        "cabaucom376",
+        "GiulioSavini"
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "gastownhall/beads",
+      "url": "https://github.com/gastownhall/beads",
+      "description": "Beads - A memory upgrade for your coding agent",
+      "language": "Go",
+      "stars": 27265,
+      "forks": 1847,
+      "stars_today": "78 stars today",
+      "built_by": [
+        "steveyegge",
+        "claude",
+        "maphew",
+        "coffeegoddd",
+        "julianknutsen"
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "evcc-io/evcc",
+      "url": "https://github.com/evcc-io/evcc",
+      "description": "solar charging ☀️🚘",
+      "language": "Go",
+      "stars": 7259,
+      "forks": 1513,
+      "stars_today": "19 stars today",
+      "built_by": [
+        "andig",
+        "naltatis",
+        "premultiply",
+        "weblate",
+        "DerAndereAndi"
+      ]
+    },
+    {
+      "rank": 15,
+      "name": "golang/go",
+      "url": "https://github.com/golang/go",
+      "description": "The Go programming language",
+      "language": "Go",
+      "stars": 138868,
+      "forks": 19747,
+      "stars_today": "56 stars today",
+      "built_by": [
+        "rsc",
+        "griesemer",
+        "robpike",
+        "ianlancetaylor",
+        "bradfitz"
+      ]
+    },
+    {
+      "rank": 16,
+      "name": "seaweedfs/seaweedfs",
+      "url": "https://github.com/seaweedfs/seaweedfs",
+      "description": "SeaweedFS is a distributed storage system for object storage (S3), file systems, and Iceberg tables, designed to handle billions of files with O(1) disk access and effortless horizontal scaling.",
+      "language": "Go",
+      "stars": 34795,
+      "forks": 3001,
+      "stars_today": "53 stars today",
+      "built_by": [
+        "chrislusf",
+        "dependabot",
+        "kmlebedev",
+        "chrisluuber",
+        "gemini-code-assist"
+      ]
+    },
+    {
+      "rank": 17,
+      "name": "temporalio/temporal",
+      "url": "https://github.com/temporalio/temporal",
+      "description": "Temporal service",
+      "language": "Go",
+      "stars": 23141,
+      "forks": 1907,
+      "stars_today": "161 stars today",
+      "built_by": [
+        "wxing1292",
+        "yycptt",
+        "dnr",
+        "stephanos",
+        "yux0"
+      ]
+    },
+    {
+      "rank": 18,
+      "name": "nats-io/nats-server",
+      "url": "https://github.com/nats-io/nats-server",
+      "description": "High-Performance server for NATS.io, the cloud and edge native messaging system.",
+      "language": "Go",
+      "stars": 20741,
+      "forks": 1961,
+      "stars_today": "112 stars today",
+      "built_by": [
+        "derekcollison",
+        "kozlovic",
+        "neilalexander",
+        "MauriceVanVeen",
+        "matthiashanel"
+      ]
+    },
+    {
+      "rank": 19,
+      "name": "open-telemetry/opentelemetry-collector-contrib",
+      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib",
+      "description": "Contrib repository for the OpenTelemetry Collector",
+      "language": "Go",
+      "stars": 4937,
+      "forks": 3920,
+      "stars_today": "30 stars today",
+      "built_by": [
+        "renovate",
+        "bogdandrutu",
+        "opentelemetrybot",
+        "songy23",
+        "atoulme"
+      ]
+    },
+    {
+      "rank": 20,
+      "name": "Gentleman-Programming/gentle-ai",
+      "url": "https://github.com/Gentleman-Programming/gentle-ai",
+      "description": "Gentle-AI configures the AI coding agents you already use: Claude Code, Cursor, OpenCode, Codex, Pi, and more. Choose persistent memory, Spec-Driven Development, curated skills, MCP servers, personas, and optional bounded review. Open source, no agent lock-in.",
+      "language": "Go",
+      "stars": 6972,
+      "forks": 760,
+      "stars_today": "89 stars today",
+      "built_by": [
+        "Alan-TheGentleman",
+        "dnlrsls",
+        "decode2",
+        "Matere413",
+        "ElCaaarnal"
+      ]
+    },
+    {
+      "rank": 21,
+      "name": "hashicorp/terraform",
+      "url": "https://github.com/hashicorp/terraform",
+      "description": "Terraform enables you to safely and predictably create, change, and improve infrastructure. It is a source-available tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned.",
+      "language": "Go",
+      "stars": 49679,
+      "forks": 10622,
+      "stars_today": "29 stars today",
+      "built_by": [
+        "jbardin",
+        "mitchellh",
+        "apparentlymart",
+        "stack72",
+        "catsby"
+      ]
+    }
+  ]
+}
