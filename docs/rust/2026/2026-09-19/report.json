@@ -1,0 +1,350 @@
+{
+  "metadata": {
+    "date": "2026-09-19",
+    "language": "rust",
+    "total_repositories": 20,
+    "total_stars": 372381,
+    "total_forks": 30212,
+    "generated_by": "GitHub Trending Scraper",
+    "format_version": "1.0"
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "ankitects/anki",
+      "url": "https://github.com/ankitects/anki",
+      "description": "Anki is a smart spaced repetition flashcard program",
+      "language": "Rust",
+      "stars": 31231,
+      "forks": 3237,
+      "stars_today": "174 stars today",
+      "built_by": [
+        "dae",
+        "hgiesel",
+        "RumovZ",
+        "abdnh",
+        "Arthur-Milchior"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "rustfs/rustfs",
+      "url": "https://github.com/rustfs/rustfs",
+      "description": "RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph.",
+      "language": "Rust",
+      "stars": 33206,
+      "forks": 1484,
+      "stars_today": "267 stars today",
+      "built_by": [
+        "overtrue",
+        "houseme",
+        "heihutu",
+        "weisd",
+        "cxymds"
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "NVIDIA/OpenShell",
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
+      "language": "Rust",
+      "stars": 8700,
+      "forks": 1264,
+      "stars_today": "37 stars today",
+      "built_by": [
+        "drew",
+        "johntmyers",
+        "pimlock",
+        "miyoungc",
+        "elezar"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "vercel-labs/agent-browser",
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "description": "Browser automation CLI for AI agents",
+      "language": "Rust",
+      "stars": 42849,
+      "forks": 2873,
+      "stars_today": "79 stars today",
+      "built_by": [
+        "ctate",
+        "github-actions",
+        "claude",
+        "hyunjinee",
+        "jin-2-kakaoent"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "NVlabs/cuda-oxide",
+      "url": "https://github.com/NVlabs/cuda-oxide",
+      "description": "cuda-oxide is a Rust-to-CUDA compiler that lets you write (SIMT) GPU kernels in safe(ish), idiomatic Rust. It compiles standard Rust code directly to PTX — no DSLs, no foreign language bindings, just Rust.",
+      "language": "Rust",
+      "stars": 3504,
+      "forks": 273,
+      "stars_today": "50 stars today",
+      "built_by": [
+        "nihalpasham",
+        "vyncint",
+        "uurl",
+        "niklebedenko",
+        "honeyspoon"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "yyjeqhc/webcodex",
+      "url": "https://github.com/yyjeqhc/webcodex",
+      "description": "Give cloud AI agents a real development environment on your own machines.",
+      "language": "Rust",
+      "stars": 1335,
+      "forks": 167,
+      "stars_today": "202 stars today",
+      "built_by": [
+        "yyjeqhc",
+        "claude",
+        "franksong2702",
+        "poiuntwl",
+        "ITSGJY"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "iii-hq/iii",
+      "url": "https://github.com/iii-hq/iii",
+      "description": "Effortlessly compose, extend, and observe every service in real-time for the first time ever.",
+      "language": "Rust",
+      "stars": 18789,
+      "forks": 1264,
+      "stars_today": "28 stars today",
+      "built_by": [
+        "ytallo",
+        "sergiofilhowz",
+        "andersonleal",
+        "rohitg00",
+        "actions-user"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "cloudflare/quiche",
+      "url": "https://github.com/cloudflare/quiche",
+      "description": "🥧 Savoury implementation of the QUIC transport protocol and HTTP/3",
+      "language": "Rust",
+      "stars": 11847,
+      "forks": 1096,
+      "stars_today": "5 stars today",
+      "built_by": [
+        "ghedo",
+        "github-actions",
+        "traviscibot",
+        "LPardue",
+        "antoniovicente"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "yynxxxxx/Codex-X",
+      "url": "https://github.com/yynxxxxx/Codex-X",
+      "description": "OpenAI Codex 桌面端/CLI 的可视化管理工具，具有Provider/API 切换、会话同步、提示词注入、Skills/MCP 管理、TOML 配置可视化的跨平台工具。",
+      "language": "Rust",
+      "stars": 3300,
+      "forks": 438,
+      "stars_today": "64 stars today",
+      "built_by": [
+        "yynxxxxx",
+        "muzimu"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "makepad/makepad",
+      "url": "https://github.com/makepad/makepad",
+      "description": "Makepad is a creative software development platform for Rust that compiles to wasm/webGL, osx/metal, windows/dx11 linux/opengl",
+      "language": "Rust",
+      "stars": 6986,
+      "forks": 384,
+      "stars_today": "55 stars today",
+      "built_by": [
+        "claude",
+        "kevinaboos",
+        "okapii",
+        "offline-ant",
+        "eddybruel"
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "lancedb/lancedb",
+      "url": "https://github.com/lancedb/lancedb",
+      "description": "Developer-friendly OSS embedded retrieval library for multimodal AI. Search More; Manage Less.",
+      "language": "Rust",
+      "stars": 11462,
+      "forks": 1057,
+      "stars_today": "10 stars today",
+      "built_by": [
+        "wjones127",
+        "changhiskhan",
+        "eddyxu",
+        "westonpace",
+        "AyushExel"
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "BurntSushi/ripgrep",
+      "url": "https://github.com/BurntSushi/ripgrep",
+      "description": "ripgrep recursively searches directories for a regex pattern while respecting your gitignore",
+      "language": "Rust",
+      "stars": 68420,
+      "forks": 3082,
+      "stars_today": "51 stars today",
+      "built_by": [
+        "BurntSushi",
+        "okdana",
+        "jgarte",
+        "balajisivaraman",
+        "igor-raits"
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "l0ng-ai/tty7",
+      "url": "https://github.com/l0ng-ai/tty7",
+      "description": "A terminal workbench in pure Rust: shells, persistent sessions, SSH, coding agents. GPU-rendered on Zed's gpui, VT core from Alacritty.",
+      "language": "Rust",
+      "stars": 1009,
+      "forks": 75,
+      "stars_today": "16 stars today",
+      "built_by": [
+        "l0ng-ai",
+        "asdwadr",
+        "claude",
+        "shihuaidexianyu",
+        "ayamir"
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "remorses/gpuix",
+      "url": "https://github.com/remorses/gpuix",
+      "description": "Node.js & React bindings for Zed’s GPUI. Build memory efficient native apps with React and no Electron",
+      "language": "Rust",
+      "stars": 1999,
+      "forks": 61,
+      "stars_today": "45 stars today",
+      "built_by": [
+        "remorses",
+        "oxura",
+        "chrissm79",
+        "mateo-m",
+        "monotykamary"
+      ]
+    },
+    {
+      "rank": 15,
+      "name": "alphaXiv/OpenResearch",
+      "url": "https://github.com/alphaXiv/OpenResearch",
+      "description": "Turn your coding agents into research agents",
+      "language": "Rust",
+      "stars": 5307,
+      "forks": 324,
+      "stars_today": "541 stars today",
+      "built_by": [
+        "sox8502",
+        "myles332",
+        "claude",
+        "rehaanahmad2013",
+        "dajiaohuang"
+      ]
+    },
+    {
+      "rank": 16,
+      "name": "EpicGames/lore",
+      "url": "https://github.com/EpicGames/lore",
+      "description": "Lore is a next-generation, open source version control system",
+      "language": "Rust",
+      "stars": 8662,
+      "forks": 433,
+      "stars_today": "19 stars today",
+      "built_by": [
+        "mjansson",
+        "peter-lockhart-pub",
+        "ayyyee",
+        "hmuurine",
+        "ajcarberry"
+      ]
+    },
+    {
+      "rank": 17,
+      "name": "bevyengine/bevy",
+      "url": "https://github.com/bevyengine/bevy",
+      "description": "A refreshingly simple data-driven game engine built in Rust",
+      "language": "Rust",
+      "stars": 48271,
+      "forks": 4847,
+      "stars_today": "49 stars today",
+      "built_by": [
+        "cart",
+        "mockersf",
+        "alice-i-cecile",
+        "ickshonpe",
+        "atlv24"
+      ]
+    },
+    {
+      "rank": 18,
+      "name": "lbjlaq/Antigravity-Manager",
+      "url": "https://github.com/lbjlaq/Antigravity-Manager",
+      "description": "Professional Antigravity Account Manager & Switcher. One-click seamless account switching for Antigravity Tools. Built with Tauri v2 + React (Rust).专业的 Antigravity 账号管理与切换工具。为 Antigravity 提供一键无缝账号切换功能。",
+      "language": "Rust",
+      "stars": 31505,
+      "forks": 3391,
+      "stars_today": "56 stars today",
+      "built_by": [
+        "lbjlaq",
+        "new-Beginner",
+        "claude",
+        "normal-coder",
+        "buluw"
+      ]
+    },
+    {
+      "rank": 19,
+      "name": "qwq233/OhMyKeymint",
+      "url": "https://github.com/qwq233/OhMyKeymint",
+      "description": "Pas de description",
+      "language": "Rust",
+      "stars": 360,
+      "forks": 51,
+      "stars_today": "6 stars today",
+      "built_by": [
+        "qwq233",
+        "dependabot",
+        "947409161",
+        "Hello4A",
+        "Copilot"
+      ]
+    },
+    {
+      "rank": 20,
+      "name": "block/buzz",
+      "url": "https://github.com/block/buzz",
+      "description": "A hive mind communication platform",
+      "language": "Rust",
+      "stars": 33639,
+      "forks": 4411,
+      "stars_today": "123 stars today",
+      "built_by": [
+        "wesbillman",
+        "wpfleger96",
+        "tlongwell-block",
+        "claude",
+        "klopez4212"
+      ]
+    }
+  ]
+}

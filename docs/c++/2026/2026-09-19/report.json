@@ -1,0 +1,370 @@
+{
+  "metadata": {
+    "date": "2026-09-19",
+    "language": "c++",
+    "total_repositories": 21,
+    "total_stars": 576391,
+    "total_forks": 90190,
+    "generated_by": "GitHub Trending Scraper",
+    "format_version": "1.0"
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "apache/arrow",
+      "url": "https://github.com/apache/arrow",
+      "description": "Apache Arrow is the universal columnar format and multi-language toolbox for fast data interchange and in-memory analytics",
+      "language": "C++",
+      "stars": 17138,
+      "forks": 4307,
+      "stars_today": "11 stars today",
+      "built_by": [
+        "kou",
+        "pitrou",
+        "wesm",
+        "kszucs",
+        "jorisvandenbossche"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "duckdb/duckdb",
+      "url": "https://github.com/duckdb/duckdb",
+      "description": "DuckDB is an analytical in-process SQL database management system",
+      "language": "C++",
+      "stars": 41522,
+      "forks": 3803,
+      "stars_today": "76 stars today",
+      "built_by": [
+        "Mytherin",
+        "Tishj",
+        "pdet",
+        "hannes",
+        "carlopi"
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "Neroued/ninfer",
+      "url": "https://github.com/Neroued/ninfer",
+      "description": "High-performance single-GPU inference for selected model checkpoints and GPUs.",
+      "language": "C++",
+      "stars": 2095,
+      "forks": 385,
+      "stars_today": "81 stars today",
+      "built_by": [
+        "Neroued",
+        "ARVLab",
+        "MOVIBALE",
+        "MichaelDementii",
+        "claude"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "microsoft/intelligent-terminal",
+      "url": "https://github.com/microsoft/intelligent-terminal",
+      "description": "A fork of Windows Terminal with native agent integration, right in your command line.",
+      "language": "C++",
+      "stars": 2002,
+      "forks": 159,
+      "stars_today": "15 stars today",
+      "built_by": [
+        "vanzue",
+        "Copilot",
+        "DDKinger",
+        "yeelam-gordon",
+        "PankajBhojwani"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "dragonflydb/dragonfly",
+      "url": "https://github.com/dragonflydb/dragonfly",
+      "description": "A modern replacement for Redis and Memcached",
+      "language": "C++",
+      "stars": 31604,
+      "forks": 1264,
+      "stars_today": "30 stars today",
+      "built_by": [
+        "romange",
+        "dranikpg",
+        "kostasrim",
+        "vyavdoshenko",
+        "BorysTheDev"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "wazuh/wazuh",
+      "url": "https://github.com/wazuh/wazuh",
+      "description": "Wazuh - The Open Source Security Platform. Unified XDR and SIEM protection for endpoints and cloud workloads.",
+      "language": "C++",
+      "stars": 16928,
+      "forks": 2490,
+      "stars_today": "15 stars today",
+      "built_by": [
+        "vikman90",
+        "TomasTurina",
+        "Dwordcito",
+        "chemamartinez",
+        "juliancnn"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "nasa/fprime",
+      "url": "https://github.com/nasa/fprime",
+      "description": "F´ - A flight software and embedded systems framework",
+      "language": "C++",
+      "stars": 11765,
+      "forks": 1821,
+      "stars_today": "9 stars today",
+      "built_by": [
+        "LeStarch",
+        "bocchino",
+        "timcanham",
+        "thomas-bc",
+        "jsoref"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "WerWolv/ImHex",
+      "url": "https://github.com/WerWolv/ImHex",
+      "description": "🔍 A Hex Editor for Reverse Engineers, Programmers and people who value their retinas when working at 3 AM.",
+      "language": "C++",
+      "stars": 54836,
+      "forks": 2458,
+      "stars_today": "10 stars today",
+      "built_by": [
+        "WerWolv",
+        "iTrooz",
+        "paxcut",
+        "WerWolvTranslationBot",
+        "marysaka"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "ggml-org/llama.cpp",
+      "url": "https://github.com/ggml-org/llama.cpp",
+      "description": "LLM inference in C/C++",
+      "language": "C++",
+      "stars": 128749,
+      "forks": 23412,
+      "stars_today": "149 stars today",
+      "built_by": [
+        "ggerganov",
+        "ngxson",
+        "CISC",
+        "slaren",
+        "JohannesGaessler"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "telegramdesktop/tdesktop",
+      "url": "https://github.com/telegramdesktop/tdesktop",
+      "description": "Telegram Desktop messaging app",
+      "language": "C++",
+      "stars": 32959,
+      "forks": 7220,
+      "stars_today": "15 stars today",
+      "built_by": [
+        "john-preston",
+        "23rd",
+        "ilya-fedin",
+        "claude",
+        "actions-user"
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "k2-fsa/sherpa-onnx",
+      "url": "https://github.com/k2-fsa/sherpa-onnx",
+      "description": "Speech-to-text, text-to-speech, speaker diarization, speech enhancement, source separation, and VAD using next-gen Kaldi with onnxruntime without Internet connection. Support embedded systems, Android, iOS, HarmonyOS, Raspberry Pi, RISC-V, RK NPU, Axera NPU, Ascend NPU, x86_64 servers, websocket server/client, support 12 programming languages",
+      "language": "C++",
+      "stars": 14847,
+      "forks": 1708,
+      "stars_today": "19 stars today",
+      "built_by": [
+        "csukuangfj",
+        "pkufool",
+        "Wasser1462",
+        "ZhaoChaoqun",
+        "pingfengluo"
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "Z3Prover/z3",
+      "url": "https://github.com/Z3Prover/z3",
+      "description": "The Z3 Theorem Prover",
+      "language": "C++",
+      "stars": 12698,
+      "forks": 1690,
+      "stars_today": "6 stars today",
+      "built_by": [
+        "NikolajBjorner",
+        "levnach",
+        "Copilot",
+        "leodemoura",
+        "nunoplopes"
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "protocolbuffers/protobuf",
+      "url": "https://github.com/protocolbuffers/protobuf",
+      "description": "Protocol Buffers - Google's data interchange format",
+      "language": "C++",
+      "stars": 72044,
+      "forks": 16291,
+      "stars_today": "9 stars today",
+      "built_by": [
+        "protobuf-github-bot",
+        "haberman",
+        "protobuf-team-bot",
+        "mkruskal-google",
+        "xfxyjwf"
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "gabime/spdlog",
+      "url": "https://github.com/gabime/spdlog",
+      "description": "Fast C++ logging library.",
+      "language": "C++",
+      "stars": 29613,
+      "forks": 5396,
+      "stars_today": "5 stars today",
+      "built_by": [
+        "gabime",
+        "Gabi120",
+        "sylveon",
+        "DanielChabrowski",
+        "mguludag"
+      ]
+    },
+    {
+      "rank": 15,
+      "name": "kvcache-ai/Mooncake",
+      "url": "https://github.com/kvcache-ai/Mooncake",
+      "description": "Mooncake is the serving platform for Kimi, a leading LLM service provided by Moonshot AI.",
+      "language": "C++",
+      "stars": 6610,
+      "forks": 1243,
+      "stars_today": "10 stars today",
+      "built_by": [
+        "stmatengss",
+        "claude",
+        "alogfans",
+        "Aionw",
+        "xiaguan"
+      ]
+    },
+    {
+      "rank": 16,
+      "name": "vllm-project/vllm-ascend",
+      "url": "https://github.com/vllm-project/vllm-ascend",
+      "description": "Community maintained hardware plugin for vLLM on Ascend",
+      "language": "C++",
+      "stars": 2850,
+      "forks": 2305,
+      "stars_today": "9 stars today",
+      "built_by": [
+        "wangxiyuan",
+        "Potabk",
+        "zhangxinyuehfad",
+        "MengqingCao",
+        "Yikun"
+      ]
+    },
+    {
+      "rank": 17,
+      "name": "microsoft/WSL",
+      "url": "https://github.com/microsoft/WSL",
+      "description": "Windows Subsystem for Linux",
+      "language": "C++",
+      "stars": 33730,
+      "forks": 1829,
+      "stars_today": "11 stars today",
+      "built_by": [
+        "OneBlue",
+        "benhillis",
+        "Copilot",
+        "49081",
+        "craigloewen-msft"
+      ]
+    },
+    {
+      "rank": 18,
+      "name": "colmap/colmap",
+      "url": "https://github.com/colmap/colmap",
+      "description": "COLMAP - Structure-from-Motion and Multi-View Stereo",
+      "language": "C++",
+      "stars": 12758,
+      "forks": 2147,
+      "stars_today": "10 stars today",
+      "built_by": [
+        "ahojnnes",
+        "B1ueber2y",
+        "sarlinpe",
+        "whuaegeanse",
+        "anmatako"
+      ]
+    },
+    {
+      "rank": 19,
+      "name": "realsenseai/librealsense",
+      "url": "https://github.com/realsenseai/librealsense",
+      "description": "RealSense SDK",
+      "language": "C++",
+      "stars": 9028,
+      "forks": 5041,
+      "stars_today": "3 stars today",
+      "built_by": [
+        "maloel",
+        "Nir-Az",
+        "dorodnic",
+        "remibettan",
+        "OhadMeir"
+      ]
+    },
+    {
+      "rank": 20,
+      "name": "facebookresearch/faiss",
+      "url": "https://github.com/facebookresearch/faiss",
+      "description": "A library for efficient similarity search and clustering of dense vectors.",
+      "language": "C++",
+      "stars": 40931,
+      "forks": 4526,
+      "stars_today": "4 stars today",
+      "built_by": [
+        "facebook-github-bot",
+        "mdouze",
+        "meta-codesync",
+        "alibeklfc",
+        "algoriddle"
+      ]
+    },
+    {
+      "rank": 21,
+      "name": "tenstorrent/tt-metal",
+      "url": "https://github.com/tenstorrent/tt-metal",
+      "description": "🤘 TT-NN operator library, and TT-Metalium low level kernel programming model.",
+      "language": "C++",
+      "stars": 1684,
+      "forks": 695,
+      "stars_today": "2 stars today",
+      "built_by": [
+        "github-merge-queue",
+        "tt-rkim",
+        "claude",
+        "tt-aho",
+        "blozano-tt"
+      ]
+    }
+  ]
+}
