@@ -1,0 +1,333 @@
+{
+  "metadata": {
+    "date": "2026-09-20",
+    "language": "rust",
+    "total_repositories": 19,
+    "total_stars": 477586,
+    "total_forks": 33413,
+    "generated_by": "GitHub Trending Scraper",
+    "format_version": "1.0"
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "cloudflare/quiche",
+      "url": "https://github.com/cloudflare/quiche",
+      "description": "🥧 Savoury implementation of the QUIC transport protocol and HTTP/3",
+      "language": "Rust",
+      "stars": 12049,
+      "forks": 1120,
+      "stars_today": "31 stars today",
+      "built_by": [
+        "ghedo",
+        "github-actions",
+        "traviscibot",
+        "LPardue",
+        "antoniovicente"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "yynxxxxx/Codex-X",
+      "url": "https://github.com/yynxxxxx/Codex-X",
+      "description": "OpenAI Codex 桌面端/CLI 的可视化管理工具，具有Provider/API 切换、会话同步、提示词注入、Skills/MCP 管理、TOML 配置可视化的跨平台工具。",
+      "language": "Rust",
+      "stars": 3444,
+      "forks": 450,
+      "stars_today": "32 stars today",
+      "built_by": [
+        "yynxxxxx",
+        "muzimu"
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "rustfs/rustfs",
+      "url": "https://github.com/rustfs/rustfs",
+      "description": "RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph.",
+      "language": "Rust",
+      "stars": 33380,
+      "forks": 1496,
+      "stars_today": "295 stars today",
+      "built_by": [
+        "overtrue",
+        "houseme",
+        "heihutu",
+        "weisd",
+        "cxymds"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "rui314/mold",
+      "url": "https://github.com/rui314/mold",
+      "description": "mold 🦠: A Modern Linker in Rust 🦀",
+      "language": "Rust",
+      "stars": 17169,
+      "forks": 558,
+      "stars_today": "57 stars today",
+      "built_by": [
+        "rui314",
+        "claude",
+        "ishitatsuyuki",
+        "sicherha",
+        "marxin"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "yyjeqhc/webcodex",
+      "url": "https://github.com/yyjeqhc/webcodex",
+      "description": "Give cloud AI agents a real development environment on your own machines.",
+      "language": "Rust",
+      "stars": 1437,
+      "forks": 179,
+      "stars_today": "137 stars today",
+      "built_by": [
+        "yyjeqhc",
+        "claude",
+        "franksong2702",
+        "poiuntwl",
+        "ITSGJY"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "Automattic/harper",
+      "url": "https://github.com/Automattic/harper",
+      "description": "Offline, privacy-first grammar checker. Fast, open-source, Rust-powered",
+      "language": "Rust",
+      "stars": 15677,
+      "forks": 651,
+      "stars_today": "75 stars today",
+      "built_by": [
+        "elijah-potter",
+        "hippietrail",
+        "dependabot",
+        "grantlemons",
+        "mcecode"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "remorses/gpuix",
+      "url": "https://github.com/remorses/gpuix",
+      "description": "Node.js & React bindings for Zed’s GPUI. Build memory efficient native apps with React and no Electron",
+      "language": "Rust",
+      "stars": 2024,
+      "forks": 64,
+      "stars_today": "24 stars today",
+      "built_by": [
+        "remorses",
+        "oxura",
+        "chrissm79",
+        "mateo-m",
+        "monotykamary"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "EpicGames/lore",
+      "url": "https://github.com/EpicGames/lore",
+      "description": "Lore is a next-generation, open source version control system",
+      "language": "Rust",
+      "stars": 8684,
+      "forks": 434,
+      "stars_today": "23 stars today",
+      "built_by": [
+        "mjansson",
+        "peter-lockhart-pub",
+        "ayyyee",
+        "hmuurine",
+        "ajcarberry"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "EricLBuehler/mistral.rs",
+      "url": "https://github.com/EricLBuehler/mistral.rs",
+      "description": "Fast, flexible LLM inference",
+      "language": "Rust",
+      "stars": 7711,
+      "forks": 710,
+      "stars_today": "3 stars today",
+      "built_by": [
+        "EricLBuehler",
+        "lucasavila00",
+        "LLukas22",
+        "guoqingbao",
+        "dependabot"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "tokio-rs/tokio",
+      "url": "https://github.com/tokio-rs/tokio",
+      "description": "A runtime for writing reliable asynchronous applications with Rust. Provides I/O, networking, scheduling, timers, ...",
+      "language": "Rust",
+      "stars": 33184,
+      "forks": 3619,
+      "stars_today": "8 stars today",
+      "built_by": [
+        "traviscibot",
+        "Darksonn",
+        "carllerche",
+        "alexcrichton",
+        "taiki-e"
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "pola-rs/polars",
+      "url": "https://github.com/pola-rs/polars",
+      "description": "Extremely fast Query Engine for DataFrames, written in Rust",
+      "language": "Rust",
+      "stars": 39800,
+      "forks": 3119,
+      "stars_today": "12 stars today",
+      "built_by": [
+        "ritchie46",
+        "alexander-beedie",
+        "orlp",
+        "coastalwhite",
+        "nameexhaustion"
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "iii-hq/iii",
+      "url": "https://github.com/iii-hq/iii",
+      "description": "Effortlessly compose, extend, and observe every service in real-time for the first time ever.",
+      "language": "Rust",
+      "stars": 18790,
+      "forks": 1265,
+      "stars_today": "14 stars today",
+      "built_by": [
+        "ytallo",
+        "sergiofilhowz",
+        "andersonleal",
+        "rohitg00",
+        "actions-user"
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "qwq233/OhMyKeymint",
+      "url": "https://github.com/qwq233/OhMyKeymint",
+      "description": "Pas de description",
+      "language": "Rust",
+      "stars": 373,
+      "forks": 52,
+      "stars_today": "10 stars today",
+      "built_by": [
+        "qwq233",
+        "dependabot",
+        "947409161",
+        "Hello4A",
+        "Copilot"
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "rust-unofficial/awesome-rust",
+      "url": "https://github.com/rust-unofficial/awesome-rust",
+      "description": "A curated list of Rust code and resources.",
+      "language": "Rust",
+      "stars": 59446,
+      "forks": 3626,
+      "stars_today": "24 stars today",
+      "built_by": [
+        "palfrey",
+        "luciusmagn",
+        "kud1ing",
+        "suradet-ps",
+        "operagxoksana"
+      ]
+    },
+    {
+      "rank": 15,
+      "name": "zed-industries/zed",
+      "url": "https://github.com/zed-industries/zed",
+      "description": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
+      "language": "Rust",
+      "stars": 90585,
+      "forks": 10701,
+      "stars_today": "77 stars today",
+      "built_by": [
+        "as-cii",
+        "maxbrunsfeld",
+        "maxdeviant",
+        "nathansobo",
+        "ConradIrwin"
+      ]
+    },
+    {
+      "rank": 16,
+      "name": "warp-tech/warpgate",
+      "url": "https://github.com/warp-tech/warpgate",
+      "description": "Fully transparent SSH, HTTPS, Kubernetes, database and RDP/VNC bastion/PAM that doesn't need additional client-side software",
+      "language": "Rust",
+      "stars": 7938,
+      "forks": 380,
+      "stars_today": "37 stars today",
+      "built_by": [
+        "Eugeny",
+        "dependabot",
+        "allcontributors",
+        "LarsSven",
+        "janisdombr"
+      ]
+    },
+    {
+      "rank": 17,
+      "name": "lahfir/agent-desktop",
+      "url": "https://github.com/lahfir/agent-desktop",
+      "description": "Agent Desktop gives any agent reliable computer use on the desktop. Built with Rust, it sees any app's real UI structure through OS accessibility trees and operates it — refs stay stable and actions stay safe to retry, instead of guessing from pixels.",
+      "language": "Rust",
+      "stars": 1304,
+      "forks": 87,
+      "stars_today": "22 stars today",
+      "built_by": [
+        "lahfir",
+        "github-actions",
+        "detail-app",
+        "dependabot",
+        "cursoragent"
+      ]
+    },
+    {
+      "rank": 18,
+      "name": "typst/typst",
+      "url": "https://github.com/typst/typst",
+      "description": "A markup-based typesetting system that is powerful and easy to learn.",
+      "language": "Rust",
+      "stars": 56136,
+      "forks": 1719,
+      "stars_today": "23 stars today",
+      "built_by": [
+        "laurmaedje",
+        "reknih",
+        "saecki",
+        "MDLC01",
+        "mkorje"
+      ]
+    },
+    {
+      "rank": 19,
+      "name": "BurntSushi/ripgrep",
+      "url": "https://github.com/BurntSushi/ripgrep",
+      "description": "ripgrep recursively searches directories for a regex pattern while respecting your gitignore",
+      "language": "Rust",
+      "stars": 68455,
+      "forks": 3183,
+      "stars_today": "33 stars today",
+      "built_by": [
+        "BurntSushi",
+        "okdana",
+        "jgarte",
+        "balajisivaraman",
+        "igor-raits"
+      ]
+    }
+  ]
+}

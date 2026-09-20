@@ -1,0 +1,367 @@
+{
+  "metadata": {
+    "date": "2026-09-20",
+    "language": "go",
+    "total_repositories": 21,
+    "total_stars": 594842,
+    "total_forks": 55558,
+    "generated_by": "GitHub Trending Scraper",
+    "format_version": "1.0"
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "coder/coder",
+      "url": "https://github.com/coder/coder",
+      "description": "Secure environments for developers and their agents",
+      "language": "Go",
+      "stars": 15665,
+      "forks": 1525,
+      "stars_today": "402 stars today",
+      "built_by": [
+        "dependabot",
+        "kylecarbs",
+        "mafredri",
+        "johnstcn",
+        "Emyrk"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "asciimoo/hister",
+      "url": "https://github.com/asciimoo/hister",
+      "description": "Your own search engine",
+      "language": "Go",
+      "stars": 5282,
+      "forks": 221,
+      "stars_today": "420 stars today",
+      "built_by": [
+        "asciimoo",
+        "4evy",
+        "dependabot",
+        "ISSOtm",
+        "Shadowbee27"
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "Wei-Shaw/sub2api",
+      "url": "https://github.com/Wei-Shaw/sub2api",
+      "description": "Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Grok订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
+      "language": "Go",
+      "stars": 42071,
+      "forks": 8961,
+      "stars_today": "83 stars today",
+      "built_by": [
+        "Wei-Shaw",
+        "IanShaw027",
+        "touwaeriol",
+        "claude",
+        "wucm667"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "language": "Go",
+      "stars": 37736,
+      "forks": 2693,
+      "stars_today": "985 stars today",
+      "built_by": [
+        "lizhengfeng101",
+        "wu21-web",
+        "chethanuk",
+        "stay-foolish-forever",
+        "claude"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "JuliusBrussee/caveman",
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "description": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
+      "language": "Go",
+      "stars": 106803,
+      "forks": 6178,
+      "stars_today": "220 stars today",
+      "built_by": [
+        "JuliusBrussee",
+        "claude",
+        "github-actions",
+        "hunleyd",
+        "AmirF194"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "agent-substrate/substrate",
+      "url": "https://github.com/agent-substrate/substrate",
+      "description": "Agent Substrate: the core system",
+      "language": "Go",
+      "stars": 1981,
+      "forks": 333,
+      "stars_today": "12 stars today",
+      "built_by": [
+        "BenTheElder",
+        "HavenXia",
+        "juli4n",
+        "thockin",
+        "zoez7"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "Tencent/WeKnora",
+      "url": "https://github.com/Tencent/WeKnora",
+      "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+      "language": "Go",
+      "stars": 27558,
+      "forks": 3710,
+      "stars_today": "478 stars today",
+      "built_by": [
+        "lyingbug",
+        "voidkey",
+        "begoniezhao",
+        "claude",
+        "dependabot"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "danielmiessler/Fabric",
+      "url": "https://github.com/danielmiessler/Fabric",
+      "description": "Fabric is an open-source framework for augmenting humans using AI. It provides a modular system for solving specific problems using a crowdsourced set of AI prompts that can be used anywhere.",
+      "language": "Go",
+      "stars": 44009,
+      "forks": 4270,
+      "stars_today": "21 stars today",
+      "built_by": [
+        "danielmiessler",
+        "ksylvan",
+        "github-actions",
+        "eugeis",
+        "xssdoctor"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "cilium/cilium",
+      "url": "https://github.com/cilium/cilium",
+      "description": "eBPF-based Networking, Security, and Observability",
+      "language": "Go",
+      "stars": 25360,
+      "forks": 4082,
+      "stars_today": "11 stars today",
+      "built_by": [
+        "aanm",
+        "tgraf",
+        "joestringer",
+        "tklauser",
+        "jrajahalme"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "docker/compose",
+      "url": "https://github.com/docker/compose",
+      "description": "Define and run multi-container applications with Docker",
+      "language": "Go",
+      "stars": 38195,
+      "forks": 5825,
+      "stars_today": "17 stars today",
+      "built_by": [
+        "ndeloof",
+        "glours",
+        "gtardif",
+        "dependabot",
+        "rumpl"
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "karmada-io/karmada",
+      "url": "https://github.com/karmada-io/karmada",
+      "description": "Open, Multi-Cloud, Multi-Cluster Kubernetes Orchestration",
+      "language": "Go",
+      "stars": 5677,
+      "forks": 1201,
+      "stars_today": "11 stars today",
+      "built_by": [
+        "karmada-bot",
+        "RainbowMango",
+        "XiShanYongYe-Chang",
+        "zhzhuang-zju",
+        "Garrybest"
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "weave-os/router",
+      "url": "https://github.com/weave-os/router",
+      "description": "Model router for agentic systems. Routes every prompt to the right model in <50ms. Cut costs 40-70% with just an endpoint change.",
+      "language": "Go",
+      "stars": 4515,
+      "forks": 125,
+      "stars_today": "56 stars today",
+      "built_by": [
+        "steventohme",
+        "claude",
+        "devin-ai-integration",
+        "aminsamir45",
+        "a-churchill"
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "cloudflare/cloudflared",
+      "url": "https://github.com/cloudflare/cloudflared",
+      "description": "Cloudflare Tunnel client",
+      "language": "Go",
+      "stars": 15771,
+      "forks": 1449,
+      "stars_today": "53 stars today",
+      "built_by": [
+        "chungthuang",
+        "DevinCarr",
+        "adamchalmers",
+        "sudarshan-reddy",
+        "ipostelnik"
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "junegunn/fzf",
+      "url": "https://github.com/junegunn/fzf",
+      "description": "🌸 A command-line fuzzy finder",
+      "language": "Go",
+      "stars": 83141,
+      "forks": 3224,
+      "stars_today": "34 stars today",
+      "built_by": [
+        "junegunn",
+        "dependabot",
+        "bitraid",
+        "LangLangBart",
+        "janlazo"
+      ]
+    },
+    {
+      "rank": 15,
+      "name": "netbirdio/netbird",
+      "url": "https://github.com/netbirdio/netbird",
+      "description": "Connect your devices into a secure WireGuard®-based overlay network with SSO, MFA and granular access controls.",
+      "language": "Go",
+      "stars": 29387,
+      "forks": 1687,
+      "stars_today": "34 stars today",
+      "built_by": [
+        "mlsmaycon",
+        "pascal-fischer",
+        "lixmal",
+        "braginini",
+        "pappz"
+      ]
+    },
+    {
+      "rank": 16,
+      "name": "openai/tunnel-client",
+      "url": "https://github.com/openai/tunnel-client",
+      "description": "Customer-run client for Secure MCP Tunnel: connect private or localhost MCP servers to ChatGPT, Codex, the Responses API, and AgentKit without exposing them to the public internet.",
+      "language": "Go",
+      "stars": 437,
+      "forks": 87,
+      "stars_today": "10 stars today",
+      "built_by": [
+        "hintz-openai",
+        "denyska-oai"
+      ]
+    },
+    {
+      "rank": 17,
+      "name": "anchore/syft",
+      "url": "https://github.com/anchore/syft",
+      "description": "CLI tool and library for generating a Software Bill of Materials from container images and filesystems",
+      "language": "Go",
+      "stars": 9588,
+      "forks": 963,
+      "stars_today": "8 stars today",
+      "built_by": [
+        "wagoodman",
+        "dependabot",
+        "spiffcs",
+        "anchore-actions-token-generator",
+        "kzantow"
+      ]
+    },
+    {
+      "rank": 18,
+      "name": "multica-ai/multica",
+      "url": "https://github.com/multica-ai/multica",
+      "description": "Make humans and AI agents work as one team — open-source and self-hostable.",
+      "language": "Go",
+      "stars": 50660,
+      "forks": 6557,
+      "stars_today": "99 stars today",
+      "built_by": [
+        "multica-agent",
+        "claude",
+        "Bohan-J",
+        "forrestchang",
+        "NevilleQingNY"
+      ]
+    },
+    {
+      "rank": 19,
+      "name": "looplj/axonhub",
+      "url": "https://github.com/looplj/axonhub",
+      "description": "⚡️ Open-source AI Gateway — Use any SDK to call 100+ LLMs. Built-in failover, load balancing, cost control & end-to-end tracing.",
+      "language": "Go",
+      "stars": 5262,
+      "forks": 702,
+      "stars_today": "10 stars today",
+      "built_by": [
+        "looplj",
+        "github-actions",
+        "djdembeck",
+        "sisyphus-dev-ai",
+        "llc1123"
+      ]
+    },
+    {
+      "rank": 20,
+      "name": "charmbracelet/bubbletea",
+      "url": "https://github.com/charmbracelet/bubbletea",
+      "description": "A powerful little TUI framework 🏗",
+      "language": "Go",
+      "stars": 45037,
+      "forks": 1713,
+      "stars_today": "17 stars today",
+      "built_by": [
+        "aymanbagabas",
+        "meowgorithm",
+        "muesli",
+        "dependabot",
+        "caarlos0"
+      ]
+    },
+    {
+      "rank": 21,
+      "name": "grafana/gcx",
+      "url": "https://github.com/grafana/gcx",
+      "description": "A CLI for managing Grafana and Grafana Cloud resources. Optimized for agentic usage.",
+      "language": "Go",
+      "stars": 707,
+      "forks": 52,
+      "stars_today": "23 stars today",
+      "built_by": [
+        "claude",
+        "wardbekker",
+        "radiohead",
+        "dafydd-t",
+        "K-Phoen"
+      ]
+    }
+  ]
+}
