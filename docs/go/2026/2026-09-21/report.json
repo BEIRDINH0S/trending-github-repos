@@ -1,0 +1,248 @@
+{
+  "metadata": {
+    "date": "2026-09-21",
+    "language": "go",
+    "total_repositories": 14,
+    "total_stars": 197877,
+    "total_forks": 17598,
+    "generated_by": "GitHub Trending Scraper",
+    "format_version": "1.0"
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "coder/coder",
+      "url": "https://github.com/coder/coder",
+      "description": "Secure environments for developers and their agents",
+      "language": "Go",
+      "stars": 16108,
+      "forks": 1545,
+      "stars_today": "379 stars today",
+      "built_by": [
+        "dependabot",
+        "kylecarbs",
+        "mafredri",
+        "johnstcn",
+        "Emyrk"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "guohuiyuan/go-music-dl",
+      "url": "https://github.com/guohuiyuan/go-music-dl",
+      "description": "一个基于 Go 语言的全网音乐搜索与下载工具。支持 CLI 命令行与 Web 服务双模式，内置网易云、QQ、酷狗、Bilibili、汽水音乐等 10+ 个主流平台，支持多源并发搜索与无损音质解析。music-dl交流群：755087923",
+      "language": "Go",
+      "stars": 4615,
+      "forks": 444,
+      "stars_today": "162 stars today",
+      "built_by": [
+        "guohuiyuan",
+        "lianhong2758",
+        "claude",
+        "nannyu",
+        "yuanxiao1225"
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "asciimoo/hister",
+      "url": "https://github.com/asciimoo/hister",
+      "description": "Your own search engine",
+      "language": "Go",
+      "stars": 5439,
+      "forks": 229,
+      "stars_today": "271 stars today",
+      "built_by": [
+        "asciimoo",
+        "4evy",
+        "dependabot",
+        "ISSOtm",
+        "Shadowbee27"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "henrygd/beszel",
+      "url": "https://github.com/henrygd/beszel",
+      "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
+      "language": "Go",
+      "stars": 25575,
+      "forks": 1027,
+      "stars_today": "37 stars today",
+      "built_by": [
+        "henrygd",
+        "svenvg93",
+        "dependabot",
+        "a-mnich",
+        "stanol"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "cloudreve/cloudreve",
+      "url": "https://github.com/cloudreve/cloudreve",
+      "description": "🌩 Self-hosted file management and sharing system, supports multiple storage providers",
+      "language": "Go",
+      "stars": 28737,
+      "forks": 3898,
+      "stars_today": "5 stars today",
+      "built_by": [
+        "HFO4",
+        "YUDONGLING",
+        "WeidiDeng",
+        "dependabot",
+        "vvisionnn"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "dagger/dagger",
+      "url": "https://github.com/dagger/dagger",
+      "description": "Automation engine to build, test and ship any codebase. Runs locally, in CI, or directly in the cloud",
+      "language": "Go",
+      "stars": 16282,
+      "forks": 924,
+      "stars_today": "9 stars today",
+      "built_by": [
+        "vito",
+        "aluzzardi",
+        "sipsma",
+        "shykes",
+        "jedevc"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "weave-os/router",
+      "url": "https://github.com/weave-os/router",
+      "description": "Model router for agentic systems. Routes every prompt to the right model in <50ms. Cut costs 40-70% with just an endpoint change.",
+      "language": "Go",
+      "stars": 4549,
+      "forks": 125,
+      "stars_today": "44 stars today",
+      "built_by": [
+        "steventohme",
+        "claude",
+        "devin-ai-integration",
+        "aminsamir45",
+        "a-churchill"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "wailsapp/wails",
+      "url": "https://github.com/wailsapp/wails",
+      "description": "Create beautiful applications using Go",
+      "language": "Go",
+      "stars": 36290,
+      "forks": 1856,
+      "stars_today": "12 stars today",
+      "built_by": [
+        "leaanthony",
+        "github-actions",
+        "claude",
+        "taliesin-ai",
+        "stffabi"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "openai/tunnel-client",
+      "url": "https://github.com/openai/tunnel-client",
+      "description": "Customer-run client for Secure MCP Tunnel: connect private or localhost MCP servers to ChatGPT, Codex, the Responses API, and AgentKit without exposing them to the public internet.",
+      "language": "Go",
+      "stars": 451,
+      "forks": 90,
+      "stars_today": "19 stars today",
+      "built_by": [
+        "hintz-openai",
+        "denyska-oai"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "screego/server",
+      "url": "https://github.com/screego/server",
+      "description": "screen sharing for developers https://screego.net/",
+      "language": "Go",
+      "stars": 10679,
+      "forks": 732,
+      "stars_today": "49 stars today",
+      "built_by": [
+        "jmattheis",
+        "max-baz",
+        "tvrg",
+        "SvenKube",
+        "DennisBecker"
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "vshulcz/deja-vu",
+      "url": "https://github.com/vshulcz/deja-vu",
+      "description": "One memory shared by Claude Code, Codex, Cursor, Copilot CLI, OpenClaw and 28 more coding agents, built from the session history already on disk. A fix found in one agent comes back in any of them, including months of sessions from before you installed it. No LLM, no embeddings, one local Go binary.",
+      "language": "Go",
+      "stars": 902,
+      "forks": 87,
+      "stars_today": "26 stars today",
+      "built_by": [
+        "vshulcz",
+        "Sora-bluesky",
+        "claude",
+        "vaibhav8a",
+        "AliceLJY"
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "kubernetes/minikube",
+      "url": "https://github.com/kubernetes/minikube",
+      "description": "Run Kubernetes locally",
+      "language": "Go",
+      "stars": 32144,
+      "forks": 5330,
+      "stars_today": "3 stars today",
+      "built_by": [
+        "medyagh",
+        "spowelljr",
+        "sharifelgamal",
+        "dependabot",
+        "afbjorklund"
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "superdurable/dex",
+      "url": "https://github.com/superdurable/dex",
+      "description": "Durable Execution (D-EX) framework built on Temporal/Cadence",
+      "language": "Go",
+      "stars": 120,
+      "forks": 10,
+      "stars_today": "13 stars today",
+      "built_by": [
+        "longquanzheng",
+        "lwolczynski",
+        "samuel27m",
+        "cursoragent",
+        "duoertai"
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "mikefarah/yq",
+      "url": "https://github.com/mikefarah/yq",
+      "description": "yq is a portable command-line YAML, JSON, XML, CSV, TOML, HCL and properties processor",
+      "language": "Go",
+      "stars": 15986,
+      "forks": 1301,
+      "stars_today": "8 stars today",
+      "built_by": [
+        "mikefarah",
+        "dependabot",
+        "kenjones-cisco",
+        "stevenwdv",
+        "Copilot"
+      ]
+    }
+  ]
+}
