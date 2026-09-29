@@ -1,0 +1,299 @@
+{
+  "metadata": {
+    "date": "2026-09-29",
+    "language": "go",
+    "total_repositories": 17,
+    "total_stars": 471889,
+    "total_forks": 57509,
+    "generated_by": "GitHub Trending Scraper",
+    "format_version": "1.0"
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "guohuiyuan/go-music-dl",
+      "url": "https://github.com/guohuiyuan/go-music-dl",
+      "description": "一个基于 Go 语言的全网音乐搜索与下载工具。支持 CLI 命令行与 Web 服务双模式，内置网易云、QQ、酷狗、Bilibili、汽水音乐等 10+ 个主流平台，支持多源并发搜索与无损音质解析。music-dl交流群：755087923",
+      "language": "Go",
+      "stars": 4967,
+      "forks": 476,
+      "stars_today": "56 stars today",
+      "built_by": [
+        "guohuiyuan",
+        "lianhong2758",
+        "claude",
+        "nannyu",
+        "yuanxiao1225"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "Billionmail/BillionMail",
+      "url": "https://github.com/Billionmail/BillionMail",
+      "description": "BillionMail gives you open-source MailServer, NewsLetter, Email Marketing — fully self-hosted, dev-friendly, and free from monthly fees. Join the discord: https://discord.gg/asfXzBUhZr",
+      "language": "Go",
+      "stars": 15742,
+      "forks": 1727,
+      "stars_today": "55 stars today",
+      "built_by": [
+        "lotkmm",
+        "aaPanel",
+        "dreambladeflag",
+        "xiemoumou",
+        "claude"
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "dagucloud/dagu",
+      "url": "https://github.com/dagucloud/dagu",
+      "description": "Self-hostable workflow orchestrator for teams whose main work isn't orchestration. Declarative YAML over your scripts, SSH commands, containers, etc; keep workflows separate from business logic. One binary, no database, runs on limited H/W resources. Alternative to Airflow / Cron / Job Scheduler.",
+      "language": "Go",
+      "stars": 4204,
+      "forks": 352,
+      "stars_today": "34 stars today",
+      "built_by": [
+        "yohamta0",
+        "dependabot",
+        "arky",
+        "kriyanshii",
+        "LouisDeconinck"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "openbao/openbao",
+      "url": "https://github.com/openbao/openbao",
+      "description": "OpenBao is a software solution to manage, store, and distribute sensitive data including secrets, certificates, and keys.",
+      "language": "Go",
+      "stars": 8185,
+      "forks": 598,
+      "stars_today": "45 stars today",
+      "built_by": [
+        "jefferai",
+        "vishalnayak",
+        "cipherboy",
+        "hc-github-team-secure-vault-core",
+        "armon"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "londek/ipadecrypt",
+      "url": "https://github.com/londek/ipadecrypt",
+      "description": "🔓 ipadecrypt is an open-source tool for downloading, patching and decrypting .ipa's with minimal user intervention on palera1n and dopamine jailbreaks",
+      "language": "Go",
+      "stars": 608,
+      "forks": 71,
+      "stars_today": "10 stars today",
+      "built_by": [
+        "londek",
+        "b1atant",
+        "efibalogh",
+        "0xdbug",
+        "iCrazeiOS"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "ffuf/ffuf",
+      "url": "https://github.com/ffuf/ffuf",
+      "description": "Fast web fuzzer written in Go",
+      "language": "Go",
+      "stars": 16768,
+      "forks": 1608,
+      "stars_today": "22 stars today",
+      "built_by": [
+        "joohoi",
+        "delic",
+        "denandz",
+        "jimen0",
+        "bjhulst"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "junegunn/fzf",
+      "url": "https://github.com/junegunn/fzf",
+      "description": "🌸 A command-line fuzzy finder",
+      "language": "Go",
+      "stars": 83299,
+      "forks": 4025,
+      "stars_today": "16 stars today",
+      "built_by": [
+        "junegunn",
+        "dependabot",
+        "bitraid",
+        "LangLangBart",
+        "janlazo"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "NdoleStudio/httpsms",
+      "url": "https://github.com/NdoleStudio/httpsms",
+      "description": "Send and receive SMS messages using your Android phone programmatically via a simple HTTP API",
+      "language": "Go",
+      "stars": 5238,
+      "forks": 961,
+      "stars_today": "14 stars today",
+      "built_by": [
+        "AchoArnold",
+        "dependabot",
+        "Copilot",
+        "eriksson",
+        "whiteboxsolutions"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "daeuniverse/dae",
+      "url": "https://github.com/daeuniverse/dae",
+      "description": "eBPF-based Linux high-performance transparent proxy solution.",
+      "language": "Go",
+      "stars": 6256,
+      "forks": 410,
+      "stars_today": "13 stars today",
+      "built_by": [
+        "mzz2017",
+        "piyoki",
+        "sumire88",
+        "dae-prow",
+        "jschwinger233"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "nats-io/nats-server",
+      "url": "https://github.com/nats-io/nats-server",
+      "description": "High-Performance server for NATS.io, the cloud and edge native messaging system.",
+      "language": "Go",
+      "stars": 20790,
+      "forks": 1978,
+      "stars_today": "8 stars today",
+      "built_by": [
+        "derekcollison",
+        "kozlovic",
+        "neilalexander",
+        "MauriceVanVeen",
+        "matthiashanel"
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "golang/go",
+      "url": "https://github.com/golang/go",
+      "description": "The Go programming language",
+      "language": "Go",
+      "stars": 139067,
+      "forks": 20841,
+      "stars_today": "21 stars today",
+      "built_by": [
+        "rsc",
+        "griesemer",
+        "robpike",
+        "ianlancetaylor",
+        "bradfitz"
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "hashicorp/terraform",
+      "url": "https://github.com/hashicorp/terraform",
+      "description": "Terraform enables you to safely and predictably create, change, and improve infrastructure. It is a source-available tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned.",
+      "language": "Go",
+      "stars": 49786,
+      "forks": 10636,
+      "stars_today": "9 stars today",
+      "built_by": [
+        "jbardin",
+        "mitchellh",
+        "apparentlymart",
+        "stack72",
+        "catsby"
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "AminMGMT/BackPack",
+      "url": "https://github.com/AminMGMT/BackPack",
+      "description": "High Performance reverse tunnel engine in Go, built for edge ⇄ origin server setups",
+      "language": "Go",
+      "stars": 403,
+      "forks": 95,
+      "stars_today": "13 stars today",
+      "built_by": [
+        "AminMGMT",
+        "claude"
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "grafana/k6",
+      "url": "https://github.com/grafana/k6",
+      "description": "A modern load testing tool, using Go and JavaScript",
+      "language": "Go",
+      "stars": 31698,
+      "forks": 1651,
+      "stars_today": "25 stars today",
+      "built_by": [
+        "inancgumus",
+        "mstoykov",
+        "ankur22",
+        "na--",
+        "codebien"
+      ]
+    },
+    {
+      "rank": 15,
+      "name": "fish2018/pansou",
+      "url": "https://github.com/fish2018/pansou",
+      "description": "PanSou是一款高性能的网盘资源搜索API服务，支持TG频道和插件搜索。系统设计以性能和可扩展性为核心，支持多频道多插件并发搜索、结果智能排序和网盘类型分类。docker集成前后端，一键启动，开箱即用。仅供学习研究，请勿以各种形式用于盈利目的。 https://t.me/s/webhtv",
+      "language": "Go",
+      "stars": 14733,
+      "forks": 3576,
+      "stars_today": "15 stars today",
+      "built_by": [
+        "fish2018",
+        "woleigedouer",
+        "yayoinoyume",
+        "CCRSRG",
+        "andyzjb"
+      ]
+    },
+    {
+      "rank": 16,
+      "name": "gitleaks/gitleaks",
+      "url": "https://github.com/gitleaks/gitleaks",
+      "description": "Find secrets with Gitleaks 🔑",
+      "language": "Go",
+      "stars": 29541,
+      "forks": 2254,
+      "stars_today": "20 stars today",
+      "built_by": [
+        "zricethezav",
+        "rgmz",
+        "w0rmr1d3r",
+        "bryanbeverly",
+        "petegallagher"
+      ]
+    },
+    {
+      "rank": 17,
+      "name": "pingcap/tidb",
+      "url": "https://github.com/pingcap/tidb",
+      "description": "TiDB is built for agentic workloads that grow unpredictably, with ACID guarantees and native support for transactions, analytics, and vector search. No data silos. No noisy neighbors. No infrastructure ceiling.",
+      "language": "Go",
+      "stars": 40604,
+      "forks": 6250,
+      "stars_today": "8 stars today",
+      "built_by": [
+        "hawkingrei",
+        "tiancaiamao",
+        "coocood",
+        "zimulala",
+        "qw4990"
+      ]
+    }
+  ]
+}
