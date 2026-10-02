@@ -1,0 +1,317 @@
+{
+  "metadata": {
+    "date": "2026-10-02",
+    "language": "rust",
+    "total_repositories": 18,
+    "total_stars": 690083,
+    "total_forks": 85328,
+    "generated_by": "GitHub Trending Scraper",
+    "format_version": "1.0"
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "NVIDIA/OpenShell",
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
+      "language": "Rust",
+      "stars": 14087,
+      "forks": 1632,
+      "stars_today": "2,456 stars today",
+      "built_by": [
+        "drew",
+        "johntmyers",
+        "pimlock",
+        "miyoungc",
+        "elezar"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "t8y2/dbx",
+      "url": "https://github.com/t8y2/dbx",
+      "description": "25 MB lightweight cross-platform database client for 100+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 100+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP。",
+      "language": "Rust",
+      "stars": 23767,
+      "forks": 2180,
+      "stars_today": "739 stars today",
+      "built_by": [
+        "t8y2",
+        "zipg",
+        "eryajf",
+        "github-actions",
+        "q396921921"
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "openai/codex",
+      "url": "https://github.com/openai/codex",
+      "description": "Lightweight coding agent that runs in your terminal",
+      "language": "Rust",
+      "stars": 127562,
+      "forks": 19953,
+      "stars_today": "157 stars today",
+      "built_by": [
+        "jif-oai",
+        "bolinfest",
+        "etraut-openai",
+        "aibrahim-oai",
+        "pakrym-oai"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "magnitudedev/magnitude",
+      "url": "https://github.com/magnitudedev/magnitude",
+      "description": "Open source inference engine for agents that optimizes itself for your exact hardware. Compiles and tunes its kernels on your device, so open models run up to 2x faster than llama.cpp. Works on Apple Silicon, NVIDIA, AMD, or just a CPU.",
+      "language": "Rust",
+      "stars": 6177,
+      "forks": 414,
+      "stars_today": "538 stars today",
+      "built_by": [
+        "anerli",
+        "thrgreenwald",
+        "github-actions",
+        "ambikeesshh",
+        "Nitish-1303"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "Pumpkin-MC/Pumpkin",
+      "url": "https://github.com/Pumpkin-MC/Pumpkin",
+      "description": "Empowering everyone to host fast and efficient Minecraft servers",
+      "language": "Rust",
+      "stars": 11838,
+      "forks": 856,
+      "stars_today": "75 stars today",
+      "built_by": [
+        "Snowiiii",
+        "kralverde",
+        "Bryntet",
+        "lukas0008",
+        "RoosterBooster007"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "PrimeIntellect-ai/prime-agent",
+      "url": "https://github.com/PrimeIntellect-ai/prime-agent",
+      "description": "A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
+      "language": "Rust",
+      "stars": 21465,
+      "forks": 2366,
+      "stars_today": "51 stars today",
+      "built_by": [
+        "kevinjosethomas",
+        "snimu",
+        "sethkarten",
+        "alexzhang13",
+        "xeophon"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "dmtrKovalenko/fframes",
+      "url": "https://github.com/dmtrKovalenko/fframes",
+      "description": "programmatic video rendering framework that is actually fast",
+      "language": "Rust",
+      "stars": 1818,
+      "forks": 37,
+      "stars_today": "357 stars today",
+      "built_by": [
+        "dmtrKovalenko",
+        "ryanleecode",
+        "peter-jammable",
+        "rymalia",
+        "arkatriymfalnaya"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "helix-editor/helix",
+      "url": "https://github.com/helix-editor/helix",
+      "description": "A post-modern modal text editor.",
+      "language": "Rust",
+      "stars": 46426,
+      "forks": 3801,
+      "stars_today": "21 stars today",
+      "built_by": [
+        "archseer",
+        "the-mikedavis",
+        "dependabot",
+        "pascalkuthe",
+        "sudormrfbin"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "tinyhumansai/openhuman",
+      "url": "https://github.com/tinyhumansai/openhuman",
+      "description": "OpenHuman is the fastest, cheapest, most efficient open-source agent harness. Written in Rust",
+      "language": "Rust",
+      "stars": 40433,
+      "forks": 3994,
+      "stars_today": "219 stars today",
+      "built_by": [
+        "senamakel",
+        "medullabot",
+        "M3gA-Mind",
+        "YellowSnnowmann",
+        "claude"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "ai-dynamo/dynamo",
+      "url": "https://github.com/ai-dynamo/dynamo",
+      "description": "A Datacenter Scale Distributed Inference Serving Framework",
+      "language": "Rust",
+      "stars": 8205,
+      "forks": 1649,
+      "stars_today": "13 stars today",
+      "built_by": [
+        "claude",
+        "PeaBrane",
+        "rmccorm4",
+        "grahamking",
+        "nv-anants"
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "JayWebtech/autoshorts",
+      "url": "https://github.com/JayWebtech/autoshorts",
+      "description": "AutoShorts is a local-first desktop application for turning long-form video or audio recordings into high-impact, vertical short-form clip candidates (9:16 portrait) with AI-powered viral moment ranking.",
+      "language": "Rust",
+      "stars": 1085,
+      "forks": 208,
+      "stars_today": "34 stars today",
+      "built_by": [
+        "JayWebtech",
+        "KrOnAsK",
+        "Coder-015"
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "longbridge/gpui-kit",
+      "url": "https://github.com/longbridge/gpui-kit",
+      "description": "Rust GUI components for building fantastic cross-platform desktop application by using GPUI.",
+      "language": "Rust",
+      "stars": 15543,
+      "forks": 959,
+      "stars_today": "202 stars today",
+      "built_by": [
+        "huacnlee",
+        "madcodelife",
+        "claude",
+        "codex",
+        "ylinwind"
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "zed-industries/zed",
+      "url": "https://github.com/zed-industries/zed",
+      "description": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
+      "language": "Rust",
+      "stars": 91181,
+      "forks": 10867,
+      "stars_today": "61 stars today",
+      "built_by": [
+        "as-cii",
+        "maxbrunsfeld",
+        "maxdeviant",
+        "nathansobo",
+        "ConradIrwin"
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "ruvnet/RuView",
+      "url": "https://github.com/ruvnet/RuView",
+      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "language": "Rust",
+      "stars": 95895,
+      "forks": 12656,
+      "stars_today": "156 stars today",
+      "built_by": [
+        "ruvnet",
+        "claude",
+        "proffesor-for-testing",
+        "dependabot",
+        "github-actions"
+      ]
+    },
+    {
+      "rank": 15,
+      "name": "firecracker-microvm/firecracker",
+      "url": "https://github.com/firecracker-microvm/firecracker",
+      "description": "Secure and fast microVMs for serverless computing.",
+      "language": "Rust",
+      "stars": 37104,
+      "forks": 2657,
+      "stars_today": "28 stars today",
+      "built_by": [
+        "roypat",
+        "dianpopa",
+        "ShadowCurse",
+        "pb8o",
+        "zulinx86"
+      ]
+    },
+    {
+      "rank": 16,
+      "name": "EasyTier/EasyTier",
+      "url": "https://github.com/EasyTier/EasyTier",
+      "description": "A simple, decentralized mesh VPN with WireGuard support.",
+      "language": "Rust",
+      "stars": 13903,
+      "forks": 1415,
+      "stars_today": "9 stars today",
+      "built_by": [
+        "KKRainbow",
+        "m1m1sha",
+        "ZnqbuZ",
+        "xzzpig",
+        "fanyang89"
+      ]
+    },
+    {
+      "rank": 17,
+      "name": "rustdesk/rustdesk",
+      "url": "https://github.com/rustdesk/rustdesk",
+      "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
+      "language": "Rust",
+      "stars": 124970,
+      "forks": 19376,
+      "stars_today": "97 stars today",
+      "built_by": [
+        "rustdesk",
+        "fufesou",
+        "21pages",
+        "Kingtous",
+        "Heap-Hop"
+      ]
+    },
+    {
+      "rank": 18,
+      "name": "max-sixty/worktrunk",
+      "url": "https://github.com/max-sixty/worktrunk",
+      "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
+      "language": "Rust",
+      "stars": 8624,
+      "forks": 308,
+      "stars_today": "49 stars today",
+      "built_by": [
+        "max-sixty",
+        "claude",
+        "worktrunk-bot",
+        "dependabot",
+        "github-actions"
+      ]
+    }
+  ]
+}
