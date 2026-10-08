@@ -1,0 +1,353 @@
+{
+  "metadata": {
+    "date": "2026-10-08",
+    "language": "go",
+    "total_repositories": 20,
+    "total_stars": 925139,
+    "total_forks": 100632,
+    "generated_by": "GitHub Trending Scraper",
+    "format_version": "1.0"
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "caddyserver/caddy",
+      "url": "https://github.com/caddyserver/caddy",
+      "description": "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS",
+      "language": "Go",
+      "stars": 77495,
+      "forks": 5098,
+      "stars_today": "93 stars today",
+      "built_by": [
+        "mholt",
+        "francislavoie",
+        "mohammed90",
+        "WeidiDeng",
+        "dunglas"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "golang/go",
+      "url": "https://github.com/golang/go",
+      "description": "The Go programming language",
+      "language": "Go",
+      "stars": 139319,
+      "forks": 21511,
+      "stars_today": "35 stars today",
+      "built_by": [
+        "rsc",
+        "griesemer",
+        "robpike",
+        "ianlancetaylor",
+        "bradfitz"
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "gin-gonic/gin",
+      "url": "https://github.com/gin-gonic/gin",
+      "description": "Gin is a high-performance HTTP web framework written in Go. It provides a Martini-like API but with significantly better performance—up to 40 times faster—thanks to httprouter. Gin is designed for building REST APIs, web applications, and microservices.",
+      "language": "Go",
+      "stars": 89294,
+      "forks": 8734,
+      "stars_today": "9 stars today",
+      "built_by": [
+        "manucorporat",
+        "appleboy",
+        "javierprovecho",
+        "thinkerou",
+        "dependabot"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "Autumn-27/ARTEX",
+      "url": "https://github.com/Autumn-27/ARTEX",
+      "description": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
+      "language": "Go",
+      "stars": 2053,
+      "forks": 531,
+      "stars_today": "236 stars today",
+      "built_by": [
+        "Autumn-27",
+        "claude",
+        "neouks",
+        "RuoJi6",
+        "lucksec"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "ys-ll/uniterm",
+      "url": "https://github.com/ys-ll/uniterm",
+      "description": "All-in-one terminal covering 30+ protocols — SSH, RDP, SFTP, databases, Kubernetes and more. With a built-in AI Agent that runs multi-turn shell commands autonomously.",
+      "language": "Go",
+      "stars": 771,
+      "forks": 119,
+      "stars_today": "20 stars today",
+      "built_by": [
+        "ys-ll",
+        "claude",
+        "coderstory",
+        "surenwuyuwuqiu",
+        "windtear"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "gitleaks/gitleaks",
+      "url": "https://github.com/gitleaks/gitleaks",
+      "description": "Find secrets with Gitleaks 🔑",
+      "language": "Go",
+      "stars": 29787,
+      "forks": 2270,
+      "stars_today": "44 stars today",
+      "built_by": [
+        "zricethezav",
+        "rgmz",
+        "w0rmr1d3r",
+        "bryanbeverly",
+        "petegallagher"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "open-telemetry/opentelemetry-collector-contrib",
+      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib",
+      "description": "Contrib repository for the OpenTelemetry Collector",
+      "language": "Go",
+      "stars": 4980,
+      "forks": 3985,
+      "stars_today": "5 stars today",
+      "built_by": [
+        "renovate",
+        "bogdandrutu",
+        "opentelemetrybot",
+        "songy23",
+        "atoulme"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "ollama/ollama",
+      "url": "https://github.com/ollama/ollama",
+      "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+      "language": "Go",
+      "stars": 182517,
+      "forks": 18145,
+      "stars_today": "130 stars today",
+      "built_by": [
+        "mxyng",
+        "dhiltgen",
+        "jmorganca",
+        "BruceMacD",
+        "jessegross"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "aquasecurity/trivy",
+      "url": "https://github.com/aquasecurity/trivy",
+      "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
+      "language": "Go",
+      "stars": 38289,
+      "forks": 743,
+      "stars_today": "31 stars today",
+      "built_by": [
+        "knqyf263",
+        "DmitriyLewen",
+        "dependabot",
+        "nikpivkin",
+        "simar7"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "drakkan/sftpgo",
+      "url": "https://github.com/drakkan/sftpgo",
+      "description": "Full-featured and highly configurable SFTP, HTTP/S, FTP/S and WebDAV server - S3, Google Cloud Storage, Azure Blob",
+      "language": "Go",
+      "stars": 12633,
+      "forks": 975,
+      "stars_today": "4 stars today",
+      "built_by": [
+        "drakkan",
+        "dependabot",
+        "jovandeginste",
+        "sagikazarmark",
+        "enescakir"
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "spf13/cobra",
+      "url": "https://github.com/spf13/cobra",
+      "description": "A Commander for modern Go CLI interactions",
+      "language": "Go",
+      "stars": 44696,
+      "forks": 5149,
+      "stars_today": "7 stars today",
+      "built_by": [
+        "eparis",
+        "n10v",
+        "spf13",
+        "umarcor",
+        "marckhouzam"
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "getprobo/probo",
+      "url": "https://github.com/getprobo/probo",
+      "description": "Open source solutions for SOC2, GDPR, and ISO27001",
+      "language": "Go",
+      "stars": 1438,
+      "forks": 228,
+      "stars_today": "4 stars today",
+      "built_by": [
+        "gearnode",
+        "codenem",
+        "SachaProbo",
+        "cursoragent",
+        "aureliensibiril"
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "maximhq/bifrost",
+      "url": "https://github.com/maximhq/bifrost",
+      "description": "Fastest enterprise AI gateway (50x faster than LiteLLM) with adaptive load balancer, cluster mode, guardrails, 1000+ models support & <100 µs overhead at 5k RPS.",
+      "language": "Go",
+      "stars": 8621,
+      "forks": 1354,
+      "stars_today": "22 stars today",
+      "built_by": [
+        "akshaydeo",
+        "github-actions",
+        "Pratham-Mishra04",
+        "impoiler",
+        "TejasGhatte"
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "junegunn/fzf",
+      "url": "https://github.com/junegunn/fzf",
+      "description": "🌸 A command-line fuzzy finder",
+      "language": "Go",
+      "stars": 83438,
+      "forks": 4649,
+      "stars_today": "27 stars today",
+      "built_by": [
+        "junegunn",
+        "dependabot",
+        "bitraid",
+        "LangLangBart",
+        "janlazo"
+      ]
+    },
+    {
+      "rank": 15,
+      "name": "grafana/gcx",
+      "url": "https://github.com/grafana/gcx",
+      "description": "A CLI for managing Grafana and Grafana Cloud resources. Optimized for agentic usage.",
+      "language": "Go",
+      "stars": 771,
+      "forks": 57,
+      "stars_today": "3 stars today",
+      "built_by": [
+        "claude",
+        "wardbekker",
+        "radiohead",
+        "dafydd-t",
+        "K-Phoen"
+      ]
+    },
+    {
+      "rank": 16,
+      "name": "icereed/paperless-gpt",
+      "url": "https://github.com/icereed/paperless-gpt",
+      "description": "Use LLMs and LLM Vision (OCR) to handle paperless-ngx - Document Digitalization powered by AI",
+      "language": "Go",
+      "stars": 2743,
+      "forks": 216,
+      "stars_today": "8 stars today",
+      "built_by": [
+        "renovate",
+        "icereed",
+        "claude",
+        "hensing",
+        "Copilot"
+      ]
+    },
+    {
+      "rank": 17,
+      "name": "traefik/traefik",
+      "url": "https://github.com/traefik/traefik",
+      "description": "The Cloud Native Application Proxy",
+      "language": "Go",
+      "stars": 65105,
+      "forks": 6228,
+      "stars_today": "23 stars today",
+      "built_by": [
+        "ldez",
+        "emilevauge",
+        "rtribotte",
+        "kevinpollet",
+        "mmatur"
+      ]
+    },
+    {
+      "rank": 18,
+      "name": "microsoft/TypeScript",
+      "url": "https://github.com/microsoft/TypeScript",
+      "description": "TypeScript is a superset of JavaScript that compiles to clean JavaScript output.",
+      "language": "Go",
+      "stars": 111391,
+      "forks": 15956,
+      "stars_today": "19 stars today",
+      "built_by": [
+        "ahejlsberg",
+        "sheetalkamat",
+        "DanielRosenwasser",
+        "sandersn",
+        "mhegazy"
+      ]
+    },
+    {
+      "rank": 19,
+      "name": "kubernetes-sigs/agent-sandbox",
+      "url": "https://github.com/kubernetes-sigs/agent-sandbox",
+      "description": "agent-sandbox enables easy management of isolated, stateful, singleton workloads, ideal for use cases like AI agent runtimes and reinforcement learning (RL).",
+      "language": "Go",
+      "stars": 4183,
+      "forks": 549,
+      "stars_today": "12 stars today",
+      "built_by": [
+        "janetkuo",
+        "justinsb",
+        "aditya-shantanu",
+        "k8s-ci-robot",
+        "shrutiyam-glitch"
+      ]
+    },
+    {
+      "rank": 20,
+      "name": "cilium/cilium",
+      "url": "https://github.com/cilium/cilium",
+      "description": "eBPF-based Networking, Security, and Observability",
+      "language": "Go",
+      "stars": 25615,
+      "forks": 4135,
+      "stars_today": "4 stars today",
+      "built_by": [
+        "aanm",
+        "tgraf",
+        "joestringer",
+        "tklauser",
+        "jrajahalme"
+      ]
+    }
+  ]
+}
