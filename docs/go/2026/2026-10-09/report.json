@@ -1,0 +1,285 @@
+{
+  "metadata": {
+    "date": "2026-10-09",
+    "language": "go",
+    "total_repositories": 16,
+    "total_stars": 465487,
+    "total_forks": 52664,
+    "generated_by": "GitHub Trending Scraper",
+    "format_version": "1.0"
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "docker/docker-agent",
+      "url": "https://github.com/docker/docker-agent",
+      "description": "AI Agent Builder and Runtime by Docker Engineering",
+      "language": "Go",
+      "stars": 4251,
+      "forks": 494,
+      "stars_today": "766 stars today",
+      "built_by": [
+        "dgageot",
+        "rumpl",
+        "aheritier",
+        "Sayt-0",
+        "krissetto"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "hashicorp/vault",
+      "url": "https://github.com/hashicorp/vault",
+      "description": "A tool for secrets management, encryption as a service, and privileged access management",
+      "language": "Go",
+      "stars": 36360,
+      "forks": 4781,
+      "stars_today": "7 stars today",
+      "built_by": [
+        "jefferai",
+        "hc-github-team-secure-vault-core",
+        "vishalnayak",
+        "armon",
+        "ncabatoff"
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "ollama/ollama",
+      "url": "https://github.com/ollama/ollama",
+      "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+      "language": "Go",
+      "stars": 182430,
+      "forks": 18168,
+      "stars_today": "128 stars today",
+      "built_by": [
+        "mxyng",
+        "dhiltgen",
+        "jmorganca",
+        "BruceMacD",
+        "jessegross"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "argoproj/argo-cd",
+      "url": "https://github.com/argoproj/argo-cd",
+      "description": "Declarative Continuous Deployment for Kubernetes",
+      "language": "Go",
+      "stars": 24350,
+      "forks": 7928,
+      "stars_today": "3 stars today",
+      "built_by": [
+        "dependabot",
+        "alexmt",
+        "crenshaw-dev",
+        "jannfis",
+        "jessesuen"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "go-acme/lego",
+      "url": "https://github.com/go-acme/lego",
+      "description": "Let's Encrypt/ACME client and library written in Go",
+      "language": "Go",
+      "stars": 9917,
+      "forks": 1175,
+      "stars_today": "2 stars today",
+      "built_by": [
+        "ldez",
+        "xenolf",
+        "github-actions",
+        "mholt",
+        "dmke"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "llm-d/llm-d-router",
+      "url": "https://github.com/llm-d/llm-d-router",
+      "description": "llm-d Router: The intelligent entry point for inference requests",
+      "language": "Go",
+      "stars": 383,
+      "forks": 424,
+      "stars_today": "3 stars today",
+      "built_by": [
+        "elevran",
+        "nirrozenbaum",
+        "roytman",
+        "llm-d-router-release-notes",
+        "vMaroon"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "external-secrets/external-secrets",
+      "url": "https://github.com/external-secrets/external-secrets",
+      "description": "External Secrets Operator reads information from a third-party service like AWS Secrets Manager and automatically injects the values as Kubernetes Secrets.",
+      "language": "Go",
+      "stars": 6898,
+      "forks": 1452,
+      "stars_today": "2 stars today",
+      "built_by": [
+        "Skarlso",
+        "dependabot",
+        "moolen",
+        "paul-the-alien",
+        "gusfcarvalho"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "open-telemetry/opentelemetry-collector-contrib",
+      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib",
+      "description": "Contrib repository for the OpenTelemetry Collector",
+      "language": "Go",
+      "stars": 4983,
+      "forks": 3993,
+      "stars_today": "4 stars today",
+      "built_by": [
+        "renovate",
+        "bogdandrutu",
+        "opentelemetrybot",
+        "songy23",
+        "atoulme"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "kai-scheduler/KAI-Scheduler",
+      "url": "https://github.com/kai-scheduler/KAI-Scheduler",
+      "description": "KAI Scheduler is an open source Kubernetes Native scheduler for AI workloads at large scale",
+      "language": "Go",
+      "stars": 1559,
+      "forks": 295,
+      "stars_today": "3 stars today",
+      "built_by": [
+        "enoodle",
+        "davidLif",
+        "itsomri",
+        "gshaibi",
+        "romanbaron"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "ltaoo/wx_channels_download",
+      "url": "https://github.com/ltaoo/wx_channels_download",
+      "description": "微信视频号下载器",
+      "language": "Go",
+      "stars": 9702,
+      "forks": 1607,
+      "stars_today": "15 stars today",
+      "built_by": [
+        "ltaoo",
+        "claude",
+        "NormanMises",
+        "Simon-LeeXuan",
+        "guanzi008"
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "kyverno/kyverno",
+      "url": "https://github.com/kyverno/kyverno",
+      "description": "Unified Policy as Code",
+      "language": "Go",
+      "stars": 8231,
+      "forks": 1643,
+      "stars_today": "4 stars today",
+      "built_by": [
+        "realshuting",
+        "eddycharly",
+        "dependabot",
+        "JimBugwadia",
+        "MariamFahmy98"
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "stacklok/toolhive",
+      "url": "https://github.com/stacklok/toolhive",
+      "description": "ToolHive is an enterprise-grade platform for running and managing Model Context Protocol (MCP) servers.",
+      "language": "Go",
+      "stars": 2255,
+      "forks": 315,
+      "stars_today": "8 stars today",
+      "built_by": [
+        "JAORMX",
+        "claude",
+        "renovate",
+        "ChrisJBurns",
+        "github-actions"
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "jesseduffield/lazygit",
+      "url": "https://github.com/jesseduffield/lazygit",
+      "description": "simple terminal UI for git commands",
+      "language": "Go",
+      "stars": 83026,
+      "forks": 3070,
+      "stars_today": "49 stars today",
+      "built_by": [
+        "stefanhaller",
+        "jesseduffield",
+        "claude",
+        "mjarkk",
+        "dawidd6"
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "navidrome/navidrome",
+      "url": "https://github.com/navidrome/navidrome",
+      "description": "🎧 Your Personal Streaming Service",
+      "language": "Go",
+      "stars": 24047,
+      "forks": 1748,
+      "stars_today": "22 stars today",
+      "built_by": [
+        "deluan",
+        "dependabot",
+        "kgarner7",
+        "dependabot-preview",
+        "caiocotts"
+      ]
+    },
+    {
+      "rank": 15,
+      "name": "gitleaks/gitleaks",
+      "url": "https://github.com/gitleaks/gitleaks",
+      "description": "Find secrets with Gitleaks 🔑",
+      "language": "Go",
+      "stars": 29805,
+      "forks": 2271,
+      "stars_today": "24 stars today",
+      "built_by": [
+        "zricethezav",
+        "rgmz",
+        "w0rmr1d3r",
+        "bryanbeverly",
+        "petegallagher"
+      ]
+    },
+    {
+      "rank": 16,
+      "name": "tailscale/tailscale",
+      "url": "https://github.com/tailscale/tailscale",
+      "description": "The easiest, most secure way to use WireGuard and 2FA.",
+      "language": "Go",
+      "stars": 37290,
+      "forks": 3300,
+      "stars_today": "46 stars today",
+      "built_by": [
+        "bradfitz",
+        "danderson",
+        "josharian",
+        "raggi",
+        "andrew-d"
+      ]
+    }
+  ]
+}
