@@ -1,0 +1,302 @@
+{
+  "metadata": {
+    "date": "2026-10-10",
+    "language": "go",
+    "total_repositories": 17,
+    "total_stars": 714195,
+    "total_forks": 99511,
+    "generated_by": "GitHub Trending Scraper",
+    "format_version": "1.0"
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "language": "Go",
+      "stars": 45412,
+      "forks": 3277,
+      "stars_today": "326 stars today",
+      "built_by": [
+        "lizhengfeng101",
+        "wu21-web",
+        "chethanuk",
+        "stay-foolish-forever",
+        "Qiyuanqiii"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "ollama/ollama",
+      "url": "https://github.com/ollama/ollama",
+      "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+      "language": "Go",
+      "stars": 182560,
+      "forks": 18179,
+      "stars_today": "151 stars today",
+      "built_by": [
+        "mxyng",
+        "dhiltgen",
+        "jmorganca",
+        "BruceMacD",
+        "jessegross"
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "Wei-Shaw/sub2api",
+      "url": "https://github.com/Wei-Shaw/sub2api",
+      "description": "Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Grok订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
+      "language": "Go",
+      "stars": 43594,
+      "forks": 9348,
+      "stars_today": "89 stars today",
+      "built_by": [
+        "Wei-Shaw",
+        "IanShaw027",
+        "touwaeriol",
+        "claude",
+        "wucm667"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "infiniflow/ragflow",
+      "url": "https://github.com/infiniflow/ragflow",
+      "description": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
+      "language": "Go",
+      "stars": 91938,
+      "forks": 10938,
+      "stars_today": "81 stars today",
+      "built_by": [
+        "cike8899",
+        "KevinHuSh",
+        "JinHai-CN",
+        "dcc123456",
+        "writinwaters"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "hashicorp/vault",
+      "url": "https://github.com/hashicorp/vault",
+      "description": "A tool for secrets management, encryption as a service, and privileged access management",
+      "language": "Go",
+      "stars": 36371,
+      "forks": 4782,
+      "stars_today": "8 stars today",
+      "built_by": [
+        "jefferai",
+        "hc-github-team-secure-vault-core",
+        "vishalnayak",
+        "armon",
+        "ncabatoff"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "QuantumNous/new-api",
+      "url": "https://github.com/QuantumNous/new-api",
+      "description": "A unified AI model hub for aggregation & distribution. It supports cross-converting various LLMs into OpenAI-compatible, Claude-compatible, or Gemini-compatible formats. A centralized gateway for personal and enterprise model management.",
+      "language": "Go",
+      "stars": 49566,
+      "forks": 11915,
+      "stars_today": "102 stars today",
+      "built_by": [
+        "Calcium-Ion",
+        "seefs001",
+        "t0ng7u",
+        "songquanpeng",
+        "feitianbubu"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "multica-ai/multica",
+      "url": "https://github.com/multica-ai/multica",
+      "description": "Make humans and AI agents work as one team — open-source and self-hostable.",
+      "language": "Go",
+      "stars": 52336,
+      "forks": 6815,
+      "stars_today": "100 stars today",
+      "built_by": [
+        "multica-agent",
+        "claude",
+        "Bohan-J",
+        "forrestchang",
+        "NevilleQingNY"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "docker/docker-agent",
+      "url": "https://github.com/docker/docker-agent",
+      "description": "AI Agent Builder and Runtime by Docker Engineering",
+      "language": "Go",
+      "stars": 4324,
+      "forks": 503,
+      "stars_today": "144 stars today",
+      "built_by": [
+        "dgageot",
+        "rumpl",
+        "aheritier",
+        "Sayt-0",
+        "krissetto"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "TencentCloud/CubeSandbox",
+      "url": "https://github.com/TencentCloud/CubeSandbox",
+      "description": "Instant, Concurrent, Secure & Lightweight Sandbox for AI Agents.",
+      "language": "Go",
+      "stars": 12859,
+      "forks": 1182,
+      "stars_today": "13 stars today",
+      "built_by": [
+        "fslongjin",
+        "chenhengqi",
+        "ls-ggg",
+        "zyl1121",
+        "cursoragent"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "Tencent/WeKnora",
+      "url": "https://github.com/Tencent/WeKnora",
+      "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+      "language": "Go",
+      "stars": 32895,
+      "forks": 4373,
+      "stars_today": "217 stars today",
+      "built_by": [
+        "lyingbug",
+        "voidkey",
+        "claude",
+        "begoniezhao",
+        "dependabot"
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "fish2018/pansou",
+      "url": "https://github.com/fish2018/pansou",
+      "description": "PanSou是一款高性能的网盘资源搜索API服务，支持TG频道和插件搜索。系统设计以性能和可扩展性为核心，支持多频道多插件并发搜索、结果智能排序和网盘类型分类。docker集成前后端，一键启动，开箱即用。仅供学习研究，请勿以各种形式用于盈利目的。 https://t.me/s/webhtv",
+      "language": "Go",
+      "stars": 14854,
+      "forks": 3605,
+      "stars_today": "17 stars today",
+      "built_by": [
+        "fish2018",
+        "woleigedouer",
+        "yayoinoyume",
+        "CCRSRG",
+        "andyzjb"
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "XTLS/Xray-core",
+      "url": "https://github.com/XTLS/Xray-core",
+      "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
+      "language": "Go",
+      "stars": 42025,
+      "forks": 5964,
+      "stars_today": "24 stars today",
+      "built_by": [
+        "RPRX",
+        "dependabot",
+        "yuhan6665",
+        "Fangliding",
+        "LjhAUMEM"
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "grafana/mcp-grafana",
+      "url": "https://github.com/grafana/mcp-grafana",
+      "description": "MCP server for Grafana",
+      "language": "Go",
+      "stars": 3545,
+      "forks": 461,
+      "stars_today": "6 stars today",
+      "built_by": [
+        "sd2k",
+        "claude",
+        "renovate-sh-app",
+        "dependabot",
+        "ioanarm"
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "vxcontrol/pentagi",
+      "url": "https://github.com/vxcontrol/pentagi",
+      "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
+      "language": "Go",
+      "stars": 25413,
+      "forks": 3272,
+      "stars_today": "55 stars today",
+      "built_by": [
+        "sirozha",
+        "claude",
+        "asdek",
+        "mason5052",
+        "cursoragent"
+      ]
+    },
+    {
+      "rank": 15,
+      "name": "Agent-Field/CodeAF",
+      "url": "https://github.com/Agent-Field/CodeAF",
+      "description": "Open-Source Software factory for Open Models",
+      "language": "Go",
+      "stars": 376,
+      "forks": 48,
+      "stars_today": "29 stars today",
+      "built_by": [
+        "santoshkumarradha",
+        "agentfield-bot",
+        "AbirAbbas",
+        "claude",
+        "ZeroPoint95"
+      ]
+    },
+    {
+      "rank": 16,
+      "name": "MHSanaei/3x-ui",
+      "url": "https://github.com/MHSanaei/3x-ui",
+      "description": "Supporting multi-protocol multi-user(Vmess, Vless, Trojan, ShadowSocks, Wireguard, Hysteria, Tunnel, Mixed, HTTP, Tun, MTProto، AmneziaWG)",
+      "language": "Go",
+      "stars": 47722,
+      "forks": 12224,
+      "stars_today": "73 stars today",
+      "built_by": [
+        "MHSanaei",
+        "alireza0",
+        "dependabot",
+        "hamid-gh98",
+        "sh1shd"
+      ]
+    },
+    {
+      "rank": 17,
+      "name": "trufflesecurity/trufflehog",
+      "url": "https://github.com/trufflesecurity/trufflehog",
+      "description": "Find, verify, and analyze leaked credentials",
+      "language": "Go",
+      "stars": 28405,
+      "forks": 2625,
+      "stars_today": "41 stars today",
+      "built_by": [
+        "renovate",
+        "lonmarsDev",
+        "roxanne-tampus",
+        "ahrav",
+        "dustin-decker"
+      ]
+    }
+  ]
+}
