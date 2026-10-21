@@ -1,0 +1,352 @@
+{
+  "metadata": {
+    "date": "2026-10-21",
+    "language": "go",
+    "total_repositories": 20,
+    "total_stars": 844321,
+    "total_forks": 152776,
+    "generated_by": "GitHub Trending Scraper",
+    "format_version": "1.0"
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "kubernetes/kubernetes",
+      "url": "https://github.com/kubernetes/kubernetes",
+      "description": "Production-Grade Container Scheduling and Management",
+      "language": "Go",
+      "stars": 128452,
+      "forks": 47012,
+      "stars_today": "76 stars today",
+      "built_by": [
+        "k8s-ci-robot",
+        "liggitt",
+        "thockin",
+        "wojtek-t",
+        "brendandburns"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "helm/helm",
+      "url": "https://github.com/helm/helm",
+      "description": "The Kubernetes Package Manager",
+      "language": "Go",
+      "stars": 30351,
+      "forks": 7860,
+      "stars_today": "10 stars today",
+      "built_by": [
+        "technosophos",
+        "adamreese",
+        "mattfarina",
+        "dependabot",
+        "gjenkins8"
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "gosom/google-maps-scraper",
+      "url": "https://github.com/gosom/google-maps-scraper",
+      "description": "scrape data from Google Maps. Extracts data such as the name, address, phone number, website URL, rating, reviews number, latitude and longitude, reviews,email and more for each place",
+      "language": "Go",
+      "stars": 6676,
+      "forks": 1045,
+      "stars_today": "40 stars today",
+      "built_by": [
+        "gosom",
+        "dredozubov",
+        "sbOogway",
+        "fidalgo",
+        "claude"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "mudler/LocalAI",
+      "url": "https://github.com/mudler/LocalAI",
+      "description": "LocalAI is the open-source AI engine. Run any model - LLMs, vision, voice, image, video - on any hardware. No GPU required.",
+      "language": "Go",
+      "stars": 49803,
+      "forks": 4526,
+      "stars_today": "126 stars today",
+      "built_by": [
+        "mudler",
+        "dependabot",
+        "localai-org-maint-bot",
+        "renovate"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "QuantumNous/new-api",
+      "url": "https://github.com/QuantumNous/new-api",
+      "description": "A unified AI model hub for aggregation & distribution. It supports cross-converting various LLMs into OpenAI-compatible, Claude-compatible, or Gemini-compatible formats. A centralized gateway for personal and enterprise model management.",
+      "language": "Go",
+      "stars": 50354,
+      "forks": 12170,
+      "stars_today": "82 stars today",
+      "built_by": [
+        "Calcium-Ion",
+        "seefs001",
+        "t0ng7u",
+        "songquanpeng",
+        "feitianbubu"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "go-gitea/gitea",
+      "url": "https://github.com/go-gitea/gitea",
+      "description": "Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD",
+      "language": "Go",
+      "stars": 58593,
+      "forks": 7309,
+      "stars_today": "27 stars today",
+      "built_by": [
+        "lunny",
+        "wxiaoguang",
+        "unknwon",
+        "GiteaBot",
+        "silverwind"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "strelov1/freehire",
+      "url": "https://github.com/strelov1/freehire",
+      "description": "freehire — the open-source search engine for job seekers",
+      "language": "Go",
+      "stars": 1911,
+      "forks": 223,
+      "stars_today": "405 stars today",
+      "built_by": [
+        "strelov1",
+        "claude",
+        "dependabot",
+        "github-actions",
+        "gearsandcode"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "DataDog/datadog-agent",
+      "url": "https://github.com/DataDog/datadog-agent",
+      "description": "Main repository for Datadog Agent",
+      "language": "Go",
+      "stars": 3769,
+      "forks": 1514,
+      "stars_today": "0 stars today",
+      "built_by": [
+        "pgimalac",
+        "hush-hush",
+        "renovate",
+        "chouetz",
+        "dependabot"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "samber/cc-skills-golang",
+      "url": "https://github.com/samber/cc-skills-golang",
+      "description": "🧑‍🎨 A collection of Golang agentic skills that works",
+      "language": "Go",
+      "stars": 3530,
+      "forks": 235,
+      "stars_today": "7 stars today",
+      "built_by": [
+        "samber",
+        "screenfluent",
+        "headless-samber",
+        "dependabot",
+        "Copilot"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "hashicorp/vault",
+      "url": "https://github.com/hashicorp/vault",
+      "description": "A tool for secrets management, encryption as a service, and privileged access management",
+      "language": "Go",
+      "stars": 36411,
+      "forks": 4795,
+      "stars_today": "9 stars today",
+      "built_by": [
+        "jefferai",
+        "hc-github-team-secure-vault-core",
+        "vishalnayak",
+        "armon",
+        "ncabatoff"
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "kenn-io/agentsview",
+      "url": "https://github.com/kenn-io/agentsview",
+      "description": "Local-first session search, analytics, insights, and token use statistics for coding agents, supporting Claude Code, Codex, and more than 20 other agents.",
+      "language": "Go",
+      "stars": 6217,
+      "forks": 664,
+      "stars_today": "13 stars today",
+      "built_by": [
+        "wesm",
+        "rodboev",
+        "claude",
+        "mariusvniekerk",
+        "cpcloud"
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "goharbor/harbor",
+      "url": "https://github.com/goharbor/harbor",
+      "description": "An open source trusted cloud native registry project that stores, signs, and scans content.",
+      "language": "Go",
+      "stars": 29581,
+      "forks": 5393,
+      "stars_today": "9 stars today",
+      "built_by": [
+        "ywk253100",
+        "reasonerjt",
+        "wy65701436",
+        "steven-zou",
+        "wknet123"
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "knadh/listmonk",
+      "url": "https://github.com/knadh/listmonk",
+      "description": "High performance, self-hosted, newsletter and mailing list manager with a modern dashboard. Single binary app.",
+      "language": "Go",
+      "stars": 23886,
+      "forks": 2707,
+      "stars_today": "36 stars today",
+      "built_by": [
+        "knadh",
+        "github-actions",
+        "dependabot",
+        "mr-karan",
+        "MaximilianKohler"
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "netdata/netdata",
+      "url": "https://github.com/netdata/netdata",
+      "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
+      "language": "Go",
+      "stars": 81068,
+      "forks": 6697,
+      "stars_today": "33 stars today",
+      "built_by": [
+        "ktsaou",
+        "netdatabot",
+        "ilyam8",
+        "Ferroin",
+        "stelfrag"
+      ]
+    },
+    {
+      "rank": 15,
+      "name": "golang/go",
+      "url": "https://github.com/golang/go",
+      "description": "The Go programming language",
+      "language": "Go",
+      "stars": 139382,
+      "forks": 22253,
+      "stars_today": "63 stars today",
+      "built_by": [
+        "rsc",
+        "griesemer",
+        "robpike",
+        "ianlancetaylor",
+        "bradfitz"
+      ]
+    },
+    {
+      "rank": 16,
+      "name": "argoproj/argo-cd",
+      "url": "https://github.com/argoproj/argo-cd",
+      "description": "Declarative Continuous Deployment for Kubernetes",
+      "language": "Go",
+      "stars": 24434,
+      "forks": 7970,
+      "stars_today": "7 stars today",
+      "built_by": [
+        "dependabot",
+        "alexmt",
+        "crenshaw-dev",
+        "jannfis",
+        "jessesuen"
+      ]
+    },
+    {
+      "rank": 17,
+      "name": "gin-gonic/gin",
+      "url": "https://github.com/gin-gonic/gin",
+      "description": "Gin is a high-performance HTTP web framework written in Go. It provides a Martini-like API but with significantly better performance—up to 40 times faster—thanks to httprouter. Gin is designed for building REST APIs, web applications, and microservices.",
+      "language": "Go",
+      "stars": 89395,
+      "forks": 8778,
+      "stars_today": "17 stars today",
+      "built_by": [
+        "manucorporat",
+        "appleboy",
+        "javierprovecho",
+        "thinkerou",
+        "dependabot"
+      ]
+    },
+    {
+      "rank": 18,
+      "name": "larksuite/cli",
+      "url": "https://github.com/larksuite/cli",
+      "description": "The official Lark/飞书 CLI tool, maintained by the larksuite team — built for humans and AI Agents. Covers core business domains including Messenger, Docs, Base, Sheets, Calendar, Mail, Tasks, Meetings, and more, with 200+ commands and 20+ AI Agent Skills.",
+      "language": "Go",
+      "stars": 17752,
+      "forks": 1356,
+      "stars_today": "22 stars today",
+      "built_by": [
+        "liangshuo-1",
+        "ethan-zhx",
+        "fangshuyu-768",
+        "wittam-01",
+        "zgz2048"
+      ]
+    },
+    {
+      "rank": 19,
+      "name": "istio/istio",
+      "url": "https://github.com/istio/istio",
+      "description": "Connect, secure, control, and observe services.",
+      "language": "Go",
+      "stars": 38460,
+      "forks": 8403,
+      "stars_today": "4 stars today",
+      "built_by": [
+        "istio-testing",
+        "howardjohn",
+        "hzxuzhonghu",
+        "ramaraochavali",
+        "kyessenov"
+      ]
+    },
+    {
+      "rank": 20,
+      "name": "urfave/cli",
+      "url": "https://github.com/urfave/cli",
+      "description": "A declarative, simple, fast, and fun package for building command line tools in Go",
+      "language": "Go",
+      "stars": 24296,
+      "forks": 1866,
+      "stars_today": "6 stars today",
+      "built_by": [
+        "dearchap",
+        "meatballhat",
+        "jszwedko",
+        "coilysiren",
+        "asahasrabuddhe"
+      ]
+    }
+  ]
+}
