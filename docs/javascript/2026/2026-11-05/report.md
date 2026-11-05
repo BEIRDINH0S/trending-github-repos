@@ -1,0 +1,131 @@
+# Trending Javascript Repositories
+### 2026-11-05
+
+> Daily report of trending repositories in the GitHub community
+
+---
+
+## Summary
+
+- **Date:** 2026-11-05
+- **Total Repositories:** 6
+- **Total Stars:** 529,972
+- **Total Forks:** 86,542
+- **Language:** Javascript
+
+---
+
+## Table of Contents
+
+1. [michael-denyer/pstack-claude](#1-michael-denyerpstack-claude)
+2. [withmarbleapp/os-taxonomy](#2-withmarbleappos-taxonomy)
+3. [affaan-m/ECC](#3-affaan-mecc)
+4. [ConardLi/garden-skills](#4-conardligarden-skills)
+5. [jgraph/drawio-desktop](#5-jgraphdrawio-desktop)
+6. [vercel/next.js](#6-vercelnext.js)
+
+---
+
+## Trending Repositories
+
+### 1. [michael-denyer/pstack-claude](https://github.com/michael-denyer/pstack-claude)
+
+![Stars](https://img.shields.io/badge/Stars-3,987-yellow) ![Forks](https://img.shields.io/badge/Forks-358-blue) ![Language](https://img.shields.io/badge/Language-JavaScript-green)
+
+**Description:** Antigravity, Claude Code, Codex, Copilot, Gemini, Muse, OpenCode, Pi, and Prime Agent versions of Poteto's pstack. Rigorous agent workflows with Cursor primitives translated for other harnesses.
+
+**Stats:**
+- **Total Stars:** 3,987
+- **Forks:** 358
+- **Today:** 93 stars today
+- **Language:** JavaScript
+
+**Built by:** [michael-denyer](https://github.com/michael-denyer), [EthanYoQ](https://github.com/EthanYoQ), [claude](https://github.com/claude), [foreztgump](https://github.com/foreztgump), [younes-io](https://github.com/younes-io)
+
+---
+
+### 2. [withmarbleapp/os-taxonomy](https://github.com/withmarbleapp/os-taxonomy)
+
+![Stars](https://img.shields.io/badge/Stars-7,596-yellow) ![Forks](https://img.shields.io/badge/Forks-1,237-blue) ![Language](https://img.shields.io/badge/Language-JavaScript-green)
+
+**Description:** Pas de description
+
+**Stats:**
+- **Total Stars:** 7,596
+- **Forks:** 1,237
+- **Today:** 31 stars today
+- **Language:** JavaScript
+
+**Built by:** [guillaumeboniface](https://github.com/guillaumeboniface), [lauramionel](https://github.com/lauramionel), [kevin9327](https://github.com/kevin9327), [Aliciawque](https://github.com/Aliciawque), [ShiroKSH](https://github.com/ShiroKSH)
+
+---
+
+### 3. [affaan-m/ECC](https://github.com/affaan-m/ECC)
+
+![Stars](https://img.shields.io/badge/Stars-297,366-yellow) ![Forks](https://img.shields.io/badge/Forks-43,963-blue) ![Language](https://img.shields.io/badge/Language-JavaScript-green)
+
+**Description:** The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.
+
+**Stats:**
+- **Total Stars:** 297,366
+- **Forks:** 43,963
+- **Today:** 783 stars today
+- **Language:** JavaScript
+
+**Built by:** [affaan-m](https://github.com/affaan-m), [haelyra](https://github.com/haelyra), [claude](https://github.com/claude), [montjeffrey](https://github.com/montjeffrey), [dependabot](https://github.com/dependabot)
+
+---
+
+### 4. [ConardLi/garden-skills](https://github.com/ConardLi/garden-skills)
+
+![Stars](https://img.shields.io/badge/Stars-13,875-yellow) ![Forks](https://img.shields.io/badge/Forks-1,625-blue) ![Language](https://img.shields.io/badge/Language-JavaScript-green)
+
+**Description:** ConardLi's open-source Skills collection, featuring web design, knowledge retrieval, image generation, and more.
+
+**Stats:**
+- **Total Stars:** 13,875
+- **Forks:** 1,625
+- **Today:** 181 stars today
+- **Language:** JavaScript
+
+**Built by:** [ConardLi](https://github.com/ConardLi), [github-actions](https://github.com/github-actions), [cursoragent](https://github.com/cursoragent), [eltociear](https://github.com/eltociear)
+
+---
+
+### 5. [jgraph/drawio-desktop](https://github.com/jgraph/drawio-desktop)
+
+![Stars](https://img.shields.io/badge/Stars-63,820-yellow) ![Forks](https://img.shields.io/badge/Forks-5,809-blue) ![Language](https://img.shields.io/badge/Language-JavaScript-green)
+
+**Description:** Official electron build of draw.io
+
+**Stats:**
+- **Total Stars:** 63,820
+- **Forks:** 5,809
+- **Today:** 19 stars today
+- **Language:** JavaScript
+
+**Built by:** [davidjgraph](https://github.com/davidjgraph), [m-mohamedin](https://github.com/m-mohamedin), [claude](https://github.com/claude), [alderg](https://github.com/alderg), [mediaslav](https://github.com/mediaslav)
+
+---
+
+### 6. [vercel/next.js](https://github.com/vercel/next.js)
+
+![Stars](https://img.shields.io/badge/Stars-143,328-yellow) ![Forks](https://img.shields.io/badge/Forks-33,550-blue) ![Language](https://img.shields.io/badge/Language-JavaScript-green)
+
+**Description:** The React Framework
+
+**Stats:**
+- **Total Stars:** 143,328
+- **Forks:** 33,550
+- **Today:** 124 stars today
+- **Language:** JavaScript
+
+**Built by:** [ijjk](https://github.com/ijjk), [timneutkens](https://github.com/timneutkens), [sokra](https://github.com/sokra), [vercel-release-bot](https://github.com/vercel-release-bot), [huozhi](https://github.com/huozhi)
+
+---
+
+---
+
+*Last updated: 2026-11-05*
+
+*Generated by GitHub Trending Scraper*
