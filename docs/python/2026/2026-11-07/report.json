@@ -1,0 +1,353 @@
+{
+  "metadata": {
+    "date": "2026-11-07",
+    "language": "python",
+    "total_repositories": 20,
+    "total_stars": 807103,
+    "total_forks": 162741,
+    "generated_by": "GitHub Trending Scraper",
+    "format_version": "1.0"
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "NVIDIA/auto-ontology",
+      "url": "https://github.com/NVIDIA/auto-ontology",
+      "description": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
+      "language": "Python",
+      "stars": 9245,
+      "forks": 734,
+      "stars_today": "2,015 stars today",
+      "built_by": [
+        "DinaLaptii",
+        "yuvalshkolar",
+        "liavnave",
+        "liofnv",
+        "tomer-levin-nv"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "google/skills",
+      "url": "https://github.com/google/skills",
+      "description": "Agent Skills for Google products and technologies",
+      "language": "Python",
+      "stars": 22916,
+      "forks": 1927,
+      "stars_today": "534 stars today",
+      "built_by": [
+        "cloud-ix-copybara",
+        "holtskinner",
+        "martinvarelaj",
+        "helloeve",
+        "wangauone"
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "psf/requests",
+      "url": "https://github.com/psf/requests",
+      "description": "A simple, yet elegant, HTTP library.",
+      "language": "Python",
+      "stars": 54711,
+      "forks": 11520,
+      "stars_today": "119 stars today",
+      "built_by": [
+        "kennethreitz",
+        "Lukasa",
+        "sigmavirus24",
+        "nateprewitt",
+        "dependabot"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "NVIDIA/TensorRT-LLM",
+      "url": "https://github.com/NVIDIA/TensorRT-LLM",
+      "description": "TensorRT LLM provides users with an easy-to-use Python API to define Large Language Models (LLMs) and supports state-of-the-art optimizations to perform inference efficiently on NVIDIA GPUs. TensorRT LLM also contains components to create Python and C++ runtimes that orchestrate the inference execution in a performant way.",
+      "language": "Python",
+      "stars": 15031,
+      "forks": 2916,
+      "stars_today": "9 stars today",
+      "built_by": [
+        "tensorrt-cicd",
+        "trtllm-agent",
+        "xinhe-nv",
+        "kaiyux",
+        "EmmaQiaoCh"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "apache/airflow",
+      "url": "https://github.com/apache/airflow",
+      "description": "Apache Airflow - A platform to programmatically author, schedule, and monitor workflows",
+      "language": "Python",
+      "stars": 47403,
+      "forks": 18320,
+      "stars_today": "21 stars today",
+      "built_by": [
+        "potiuk",
+        "kaxil",
+        "mistercrunch",
+        "ashb",
+        "amoghrajesh"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "python-poetry/poetry",
+      "url": "https://github.com/python-poetry/poetry",
+      "description": "Python packaging and dependency management made easy",
+      "language": "Python",
+      "stars": 34430,
+      "forks": 2584,
+      "stars_today": "133 stars today",
+      "built_by": [
+        "sdispater",
+        "radoering",
+        "abn",
+        "dimbleby",
+        "finswimmer"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "airbytehq/airbyte",
+      "url": "https://github.com/airbytehq/airbyte",
+      "description": "Open-source data movement for ELT pipelines and AI agents — from APIs, databases & files to warehouses, lakes, and AI applications. Both self-hosted and Cloud.",
+      "language": "Python",
+      "stars": 22330,
+      "forks": 5441,
+      "stars_today": "8 stars today",
+      "built_by": [
+        "airbyteio",
+        "octavia-bot-hoard",
+        "sophiecuiy",
+        "alafanechere",
+        "devin-ai-integration"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "microsoft/VibeVoice",
+      "url": "https://github.com/microsoft/VibeVoice",
+      "description": "Open-Source Frontier Voice AI",
+      "language": "Python",
+      "stars": 56515,
+      "forks": 6367,
+      "stars_today": "1,004 stars today",
+      "built_by": [
+        "YaoyaoChang",
+        "pengzhiliang",
+        "MSLDCherryPick",
+        "Copilot",
+        "jsoref"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "pandas-dev/pandas",
+      "url": "https://github.com/pandas-dev/pandas",
+      "description": "Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures similar to R data.frame objects, statistical functions, and much more",
+      "language": "Python",
+      "stars": 50503,
+      "forks": 20727,
+      "stars_today": "194 stars today",
+      "built_by": [
+        "jbrockmendel",
+        "jreback",
+        "wesm",
+        "mroeschke",
+        "jorisvandenbossche"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "onnx/onnx",
+      "url": "https://github.com/onnx/onnx",
+      "description": "Open standard for machine learning interoperability",
+      "language": "Python",
+      "stars": 21657,
+      "forks": 4080,
+      "stars_today": "9 stars today",
+      "built_by": [
+        "andife",
+        "dependabot",
+        "jcwchen",
+        "justinchuby",
+        "gramalingam"
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "django/django",
+      "url": "https://github.com/django/django",
+      "description": "The Web framework for perfectionists with deadlines.",
+      "language": "Python",
+      "stars": 91672,
+      "forks": 35967,
+      "stars_today": "169 stars today",
+      "built_by": [
+        "timgraham",
+        "adrianholovaty",
+        "malcolmt",
+        "felixxm",
+        "freakboy3742"
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "pydantic/pydantic",
+      "url": "https://github.com/pydantic/pydantic",
+      "description": "Data validation using Python type hints",
+      "language": "Python",
+      "stars": 29353,
+      "forks": 3153,
+      "stars_today": "25 stars today",
+      "built_by": [
+        "samuelcolvin",
+        "Viicos",
+        "sydney-runkle",
+        "dependabot",
+        "dmontagu"
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "pipeshub-ai/pipeshub-ai",
+      "url": "https://github.com/pipeshub-ai/pipeshub-ai",
+      "description": "The open-source context layer for AI agents. PipesHub turns your company's knowledge (Slack, Drive, Jira, GitHub, Microsoft 365 and 50+ connectors) into a permission-aware workspace that agents can search, grep, navigate and cite. MCP, SDKs and built-in agents. Self-hosted.",
+      "language": "Python",
+      "stars": 4031,
+      "forks": 650,
+      "stars_today": "64 stars today",
+      "built_by": [
+        "claude",
+        "shekharkadyan",
+        "abhishekgml1991",
+        "vishwjeet-pawar03",
+        "abhishek-pipeshub"
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "antoniaci/blackbird",
+      "url": "https://github.com/antoniaci/blackbird",
+      "description": "An OSINT tool to search for accounts by username and email in social networks.",
+      "language": "Python",
+      "stars": 9870,
+      "forks": 1398,
+      "stars_today": "121 stars today",
+      "built_by": [
+        "antoniaci",
+        "Pandede",
+        "yutodadil",
+        "Sushant-69x",
+        "tr33n"
+      ]
+    },
+    {
+      "rank": 15,
+      "name": "D4Vinci/Scrapling",
+      "url": "https://github.com/D4Vinci/Scrapling",
+      "description": "🕷️ The BEST Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily tips and tricks: https://x.com/Scrapling_dev",
+      "language": "Python",
+      "stars": 98919,
+      "forks": 10363,
+      "stars_today": "1,324 stars today",
+      "built_by": [
+        "D4Vinci",
+        "yetval",
+        "AbdullahY36",
+        "SulimanAbdulrazzaq",
+        "codex"
+      ]
+    },
+    {
+      "rank": 16,
+      "name": "numpy/numpy",
+      "url": "https://github.com/numpy/numpy",
+      "description": "The fundamental package for scientific computing with Python.",
+      "language": "Python",
+      "stars": 33376,
+      "forks": 13090,
+      "stars_today": "131 stars today",
+      "built_by": [
+        "charris",
+        "mattip",
+        "seberg",
+        "teoliphant",
+        "cournape"
+      ]
+    },
+    {
+      "rank": 17,
+      "name": "psf/black",
+      "url": "https://github.com/psf/black",
+      "description": "The uncompromising Python code formatter",
+      "language": "Python",
+      "stars": 42124,
+      "forks": 2970,
+      "stars_today": "13 stars today",
+      "built_by": [
+        "ambv",
+        "JelleZijlstra",
+        "cobaltt7",
+        "dependabot",
+        "ichard26"
+      ]
+    },
+    {
+      "rank": 18,
+      "name": "dgtlmoon/changedetection.io",
+      "url": "https://github.com/dgtlmoon/changedetection.io",
+      "description": "Best and simplest tool for website change detection, web page monitoring, and website change alerts. Perfect for tracking content changes, price drops, restock alerts, and website defacement monitoring— MCP included! all for free or enjoy our SaaS plan!",
+      "language": "Python",
+      "stars": 35599,
+      "forks": 2220,
+      "stars_today": "55 stars today",
+      "built_by": [
+        "dgtlmoon",
+        "dependabot",
+        "claude",
+        "skkzsh",
+        "Constantin1489"
+      ]
+    },
+    {
+      "rank": 19,
+      "name": "mlflow/mlflow",
+      "url": "https://github.com/mlflow/mlflow",
+      "description": "The open source AI engineering platform for agents, LLMs, and ML models. MLflow enables teams of all sizes to debug, evaluate, monitor, and optimize production-quality AI applications while controlling costs and managing access to models and data.",
+      "language": "Python",
+      "stars": 28707,
+      "forks": 6593,
+      "stars_today": "8 stars today",
+      "built_by": [
+        "harupy",
+        "claude",
+        "Copilot",
+        "B-Step62",
+        "serena-ruan"
+      ]
+    },
+    {
+      "rank": 20,
+      "name": "sherlock-project/sherlock",
+      "url": "https://github.com/sherlock-project/sherlock",
+      "description": "Hunt down social media accounts by username across social networks",
+      "language": "Python",
+      "stars": 98711,
+      "forks": 11721,
+      "stars_today": "1,761 stars today",
+      "built_by": [
+        "sdushantha",
+        "hoadlck",
+        "ppfeister",
+        "TheYahya",
+        "Czechball"
+      ]
+    }
+  ]
+}
