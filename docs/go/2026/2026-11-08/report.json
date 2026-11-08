@@ -1,0 +1,336 @@
+{
+  "metadata": {
+    "date": "2026-11-08",
+    "language": "go",
+    "total_repositories": 19,
+    "total_stars": 849278,
+    "total_forks": 139533,
+    "generated_by": "GitHub Trending Scraper",
+    "format_version": "1.0"
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "prometheus/prometheus",
+      "url": "https://github.com/prometheus/prometheus",
+      "description": "The Prometheus monitoring system and time series database.",
+      "language": "Go",
+      "stars": 67474,
+      "forks": 11009,
+      "stars_today": "322 stars today",
+      "built_by": [
+        "fabxc",
+        "juliusv",
+        "beorn7",
+        "bboreham",
+        "dependabot"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "dsx-ai-factory/nvke",
+      "url": "https://github.com/dsx-ai-factory/nvke",
+      "description": "NVIDIA Kubernetes Engine (NVKE). A management plane for GPU Kubernetes on bare metal.",
+      "language": "Go",
+      "stars": 599,
+      "forks": 92,
+      "stars_today": "123 stars today",
+      "built_by": [
+        "dims",
+        "TerryHowe",
+        "lia-campbell",
+        "jedimt",
+        "danbudris"
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "google-gemini/gemini-api-cli",
+      "url": "https://github.com/google-gemini/gemini-api-cli",
+      "description": "An (experimental) CLI for the Gemini API",
+      "language": "Go",
+      "stars": 473,
+      "forks": 73,
+      "stars_today": "14 stars today",
+      "built_by": [
+        "philschmid",
+        "wanlin31",
+        "MarkDaoust",
+        "2ynn",
+        "amirh"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "go-vikunja/vikunja",
+      "url": "https://github.com/go-vikunja/vikunja",
+      "description": "The task manager you actually own.",
+      "language": "Go",
+      "stars": 5993,
+      "forks": 817,
+      "stars_today": "15 stars today",
+      "built_by": [
+        "kolaente",
+        "renovate",
+        "dpschen",
+        "vikunja-bot",
+        "tink-bot"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "etcd-io/etcd",
+      "url": "https://github.com/etcd-io/etcd",
+      "description": "Distributed reliable key-value store for the most critical data of a distributed system",
+      "language": "Go",
+      "stars": 52669,
+      "forks": 10594,
+      "stars_today": "159 stars today",
+      "built_by": [
+        "gyuho",
+        "ahrtr",
+        "xiang90",
+        "serathius",
+        "yichengq"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "spf13/cobra",
+      "url": "https://github.com/spf13/cobra",
+      "description": "A Commander for modern Go CLI interactions",
+      "language": "Go",
+      "stars": 44845,
+      "forks": 4478,
+      "stars_today": "64 stars today",
+      "built_by": [
+        "eparis",
+        "n10v",
+        "spf13",
+        "umarcor",
+        "marckhouzam"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "mikefarah/yq",
+      "url": "https://github.com/mikefarah/yq",
+      "description": "yq is a portable command-line YAML, JSON, XML, CSV, TOML, HCL and properties processor",
+      "language": "Go",
+      "stars": 16239,
+      "forks": 2068,
+      "stars_today": "8 stars today",
+      "built_by": [
+        "mikefarah",
+        "dependabot",
+        "kenjones-cisco",
+        "stevenwdv",
+        "Copilot"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "JuliusBrussee/caveman",
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "description": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
+      "language": "Go",
+      "stars": 118190,
+      "forks": 6871,
+      "stars_today": "205 stars today",
+      "built_by": [
+        "JuliusBrussee",
+        "claude",
+        "github-actions",
+        "nikpushkarski",
+        "AmirF194"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "kubernetes/kubernetes",
+      "url": "https://github.com/kubernetes/kubernetes",
+      "description": "Production-Grade Container Scheduling and Management",
+      "language": "Go",
+      "stars": 128908,
+      "forks": 45756,
+      "stars_today": "105 stars today",
+      "built_by": [
+        "k8s-ci-robot",
+        "liggitt",
+        "thockin",
+        "wojtek-t",
+        "brendandburns"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "kagent-dev/kagent",
+      "url": "https://github.com/kagent-dev/kagent",
+      "description": "Cloud Native Agentic AI | Discord: https://bit.ly/kagentdiscord",
+      "language": "Go",
+      "stars": 4184,
+      "forks": 886,
+      "stars_today": "8 stars today",
+      "built_by": [
+        "EItanya",
+        "peterj",
+        "dependabot",
+        "claude",
+        "supreme-gg-gg"
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "gin-gonic/gin",
+      "url": "https://github.com/gin-gonic/gin",
+      "description": "Gin is a high-performance HTTP web framework written in Go. It provides a Martini-like API but with significantly better performance—up to 40 times faster—thanks to httprouter. Gin is designed for building REST APIs, web applications, and microservices.",
+      "language": "Go",
+      "stars": 89601,
+      "forks": 8913,
+      "stars_today": "82 stars today",
+      "built_by": [
+        "manucorporat",
+        "appleboy",
+        "javierprovecho",
+        "thinkerou",
+        "dependabot"
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "google/gvisor",
+      "url": "https://github.com/google/gvisor",
+      "description": "Application Kernel for Containers",
+      "language": "Go",
+      "stars": 19911,
+      "forks": 2065,
+      "stars_today": "16 stars today",
+      "built_by": [
+        "gvisor-bot",
+        "ayushr2",
+        "avagin",
+        "EtiennePerot",
+        "fvoznika"
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "microsoft/TypeScript",
+      "url": "https://github.com/microsoft/TypeScript",
+      "description": "TypeScript is a superset of JavaScript that compiles to clean JavaScript output.",
+      "language": "Go",
+      "stars": 111862,
+      "forks": 15400,
+      "stars_today": "86 stars today",
+      "built_by": [
+        "ahejlsberg",
+        "sheetalkamat",
+        "DanielRosenwasser",
+        "sandersn",
+        "mhegazy"
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "aquasecurity/trivy",
+      "url": "https://github.com/aquasecurity/trivy",
+      "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
+      "language": "Go",
+      "stars": 39105,
+      "forks": 835,
+      "stars_today": "29 stars today",
+      "built_by": [
+        "knqyf263",
+        "DmitriyLewen",
+        "dependabot",
+        "nikpivkin",
+        "simar7"
+      ]
+    },
+    {
+      "rank": 15,
+      "name": "moby/moby",
+      "url": "https://github.com/moby/moby",
+      "description": "The Moby Project - a collaborative project for the container ecosystem to assemble container-based systems",
+      "language": "Go",
+      "stars": 72363,
+      "forks": 19320,
+      "stars_today": "87 stars today",
+      "built_by": [
+        "thaJeztah",
+        "cpuguy83",
+        "vvoland",
+        "crosbymichael",
+        "vdemeester"
+      ]
+    },
+    {
+      "rank": 16,
+      "name": "multica-ai/multica",
+      "url": "https://github.com/multica-ai/multica",
+      "description": "Make humans and AI agents work as one team — open-source and self-hostable.",
+      "language": "Go",
+      "stars": 55243,
+      "forks": 7283,
+      "stars_today": "85 stars today",
+      "built_by": [
+        "multica-agent",
+        "claude",
+        "Bohan-J",
+        "forrestchang",
+        "NevilleQingNY"
+      ]
+    },
+    {
+      "rank": 17,
+      "name": "Gentleman-Programming/gentle-ai",
+      "url": "https://github.com/Gentleman-Programming/gentle-ai",
+      "description": "Gentle-AI configures the AI coding agents you already use: Claude Code, Cursor, OpenCode, Codex, Pi, and more. Choose persistent memory, Organic-Driven Development, curated skills, MCP servers, personas, and optional bounded review. Open source, no agent lock-in.",
+      "language": "Go",
+      "stars": 8583,
+      "forks": 886,
+      "stars_today": "75 stars today",
+      "built_by": [
+        "Alan-TheGentleman",
+        "decode2",
+        "dnlrsls",
+        "ElCaaarnal",
+        "egdev6"
+      ]
+    },
+    {
+      "rank": 18,
+      "name": "agent-substrate/substrate",
+      "url": "https://github.com/agent-substrate/substrate",
+      "description": "Agent Substrate: the core system",
+      "language": "Go",
+      "stars": 6201,
+      "forks": 700,
+      "stars_today": "51 stars today",
+      "built_by": [
+        "BenTheElder",
+        "HavenXia",
+        "juli4n",
+        "thockin",
+        "zoez7"
+      ]
+    },
+    {
+      "rank": 19,
+      "name": "lharries/whatsapp-mcp",
+      "url": "https://github.com/lharries/whatsapp-mcp",
+      "description": "WhatsApp MCP server",
+      "language": "Go",
+      "stars": 6835,
+      "forks": 1487,
+      "stars_today": "8 stars today",
+      "built_by": [
+        "lharries",
+        "yaniv-golan",
+        "aastroza",
+        "eltociear",
+        "cs4alhaider"
+      ]
+    }
+  ]
+}
