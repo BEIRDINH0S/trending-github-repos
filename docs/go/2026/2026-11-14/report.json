@@ -1,0 +1,284 @@
+{
+  "metadata": {
+    "date": "2026-11-14",
+    "language": "go",
+    "total_repositories": 16,
+    "total_stars": 523222,
+    "total_forks": 57524,
+    "generated_by": "GitHub Trending Scraper",
+    "format_version": "1.0"
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "language": "Go",
+      "stars": 50785,
+      "forks": 3778,
+      "stars_today": "215 stars today",
+      "built_by": [
+        "lizhengfeng101",
+        "wu21-web",
+        "chethanuk",
+        "Qiyuanqiii",
+        "stay-foolish-forever"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "tailscale/tailcat",
+      "url": "https://github.com/tailscale/tailcat",
+      "description": "like netcat, but over Tailscale's data plane, without Tailscale's control plane",
+      "language": "Go",
+      "stars": 9544,
+      "forks": 435,
+      "stars_today": "256 stars today",
+      "built_by": [
+        "bradfitz",
+        "danderson",
+        "andrew-d",
+        "raggi",
+        "jwhited"
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "Tencent/LoopForge",
+      "url": "https://github.com/Tencent/LoopForge",
+      "description": "Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.",
+      "language": "Go",
+      "stars": 676,
+      "forks": 110,
+      "stars_today": "174 stars today",
+      "built_by": [
+        "claude",
+        "fx-kurumi",
+        "Robert0622",
+        "cursoragent",
+        "cocofhu"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "Tencent/WeKnora",
+      "url": "https://github.com/Tencent/WeKnora",
+      "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+      "language": "Go",
+      "stars": 37404,
+      "forks": 5187,
+      "stars_today": "88 stars today",
+      "built_by": [
+        "lyingbug",
+        "claude",
+        "voidkey",
+        "begoniezhao",
+        "dependabot"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "ollama/ollama",
+      "url": "https://github.com/ollama/ollama",
+      "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+      "language": "Go",
+      "stars": 186907,
+      "forks": 19075,
+      "stars_today": "141 stars today",
+      "built_by": [
+        "mxyng",
+        "dhiltgen",
+        "jmorganca",
+        "BruceMacD",
+        "jessegross"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "Gentleman-Programming/gentle-ai",
+      "url": "https://github.com/Gentleman-Programming/gentle-ai",
+      "description": "Gentle-AI configures the AI coding agents you already use: Claude Code, Cursor, OpenCode, Codex, Pi, and more. Choose persistent memory, Organic-Driven Development, curated skills, MCP servers, personas, and optional bounded review. Open source, no agent lock-in.",
+      "language": "Go",
+      "stars": 9145,
+      "forks": 898,
+      "stars_today": "242 stars today",
+      "built_by": [
+        "Alan-TheGentleman",
+        "decode2",
+        "dnlrsls",
+        "ElCaaarnal",
+        "egdev6"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "modelcontextprotocol/go-sdk",
+      "url": "https://github.com/modelcontextprotocol/go-sdk",
+      "description": "The official Go SDK for Model Context Protocol servers and clients. Maintained in collaboration with Google.",
+      "language": "Go",
+      "stars": 5343,
+      "forks": 617,
+      "stars_today": "2 stars today",
+      "built_by": [
+        "findleyr",
+        "guglielmo-san",
+        "jba",
+        "maciej-kisiel",
+        "dependabot"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "multica-ai/multica",
+      "url": "https://github.com/multica-ai/multica",
+      "description": "Make humans and AI agents work as one team — open-source and self-hostable.",
+      "language": "Go",
+      "stars": 56070,
+      "forks": 7407,
+      "stars_today": "167 stars today",
+      "built_by": [
+        "multica-agent",
+        "claude",
+        "Bohan-J",
+        "forrestchang",
+        "NevilleQingNY"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "hashicorp/vault",
+      "url": "https://github.com/hashicorp/vault",
+      "description": "A tool for secrets management, encryption as a service, and privileged access management",
+      "language": "Go",
+      "stars": 36510,
+      "forks": 4820,
+      "stars_today": "7 stars today",
+      "built_by": [
+        "jefferai",
+        "hc-github-team-secure-vault-core",
+        "vishalnayak",
+        "armon",
+        "ncabatoff"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "agent-substrate/substrate",
+      "url": "https://github.com/agent-substrate/substrate",
+      "description": "Agent Substrate: the core system",
+      "language": "Go",
+      "stars": 6601,
+      "forks": 745,
+      "stars_today": "52 stars today",
+      "built_by": [
+        "BenTheElder",
+        "HavenXia",
+        "juli4n",
+        "thockin",
+        "zoez7"
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "crowdsecurity/crowdsec",
+      "url": "https://github.com/crowdsecurity/crowdsec",
+      "description": "Open-source IDS/IPS, WAF and bot detection for Linux, Windows, Docker and Kubernetes, with a crowdsourced blocklist of malicious IPs.",
+      "language": "Go",
+      "stars": 15608,
+      "forks": 763,
+      "stars_today": "25 stars today",
+      "built_by": [
+        "mmetc",
+        "buixor",
+        "blotus",
+        "dependabot",
+        "AlteredCoder"
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "vernette/warpscout",
+      "url": "https://github.com/vernette/warpscout",
+      "description": "🛰️ Cloudflare WARP endpoint scanner - find working endpoints over wg/awg/masque and see the exit region and edge node they land on",
+      "language": "Go",
+      "stars": 648,
+      "forks": 61,
+      "stars_today": "9 stars today",
+      "built_by": [
+        "vernette",
+        "eleutherifer",
+        "labi-le",
+        "v14d4n"
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "netbirdio/netbird",
+      "url": "https://github.com/netbirdio/netbird",
+      "description": "NetBird securely connects people, machines and AI agents across any network with one identity-based Zero Trust platform. Powered by peer-to-peer WireGuard®",
+      "language": "Go",
+      "stars": 30981,
+      "forks": 1858,
+      "stars_today": "49 stars today",
+      "built_by": [
+        "mlsmaycon",
+        "pascal-fischer",
+        "lixmal",
+        "braginini",
+        "pappz"
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "cli/cli",
+      "url": "https://github.com/cli/cli",
+      "description": "GitHub’s official command line tool",
+      "language": "Go",
+      "stars": 47006,
+      "forks": 9293,
+      "stars_today": "29 stars today",
+      "built_by": [
+        "mislav",
+        "vilmibm",
+        "BagToad",
+        "williammartin",
+        "babakks"
+      ]
+    },
+    {
+      "rank": 15,
+      "name": "kubescape/kubescape",
+      "url": "https://github.com/kubescape/kubescape",
+      "description": "Kubescape is an open-source Kubernetes security platform for your IDE, CI/CD pipelines, and clusters. It includes risk analysis, security, compliance, and misconfiguration scanning, saving Kubernetes users and administrators precious time, effort, and resources.",
+      "language": "Go",
+      "stars": 11893,
+      "forks": 1102,
+      "stars_today": "23 stars today",
+      "built_by": [
+        "matthyx",
+        "Daniel-GrunbergerCA",
+        "slashben",
+        "dependabot",
+        "vladklokun"
+      ]
+    },
+    {
+      "rank": 16,
+      "name": "larksuite/cli",
+      "url": "https://github.com/larksuite/cli",
+      "description": "The official Lark/飞书 CLI tool, maintained by the larksuite team — built for humans and AI Agents. Covers core business domains including Messenger, Docs, Base, Sheets, Calendar, Mail, Tasks, Meetings, and more, with 200+ commands and 20+ AI Agent Skills.",
+      "language": "Go",
+      "stars": 18101,
+      "forks": 1375,
+      "stars_today": "15 stars today",
+      "built_by": [
+        "liangshuo-1",
+        "ethan-zhx",
+        "fangshuyu-768",
+        "wittam-01",
+        "zgz2048"
+      ]
+    }
+  ]
+}
