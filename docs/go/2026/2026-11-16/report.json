@@ -1,0 +1,299 @@
+{
+  "metadata": {
+    "date": "2026-11-16",
+    "language": "go",
+    "total_repositories": 17,
+    "total_stars": 359072,
+    "total_forks": 67412,
+    "generated_by": "GitHub Trending Scraper",
+    "format_version": "1.0"
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "language": "Go",
+      "stars": 52306,
+      "forks": 4151,
+      "stars_today": "691 stars today",
+      "built_by": [
+        "lizhengfeng101",
+        "wu21-web",
+        "chethanuk",
+        "Qiyuanqiii",
+        "stay-foolish-forever"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "Tencent/LoopForge",
+      "url": "https://github.com/Tencent/LoopForge",
+      "description": "Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.",
+      "language": "Go",
+      "stars": 1754,
+      "forks": 297,
+      "stars_today": "423 stars today",
+      "built_by": [
+        "claude",
+        "cursoragent",
+        "Robert0622",
+        "crispinhu27"
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "google/ax",
+      "url": "https://github.com/google/ax",
+      "description": "Agent Executor (AX) is Google's open agentic orchestration runtime",
+      "language": "Go",
+      "stars": 14726,
+      "forks": 794,
+      "stars_today": "31 stars today",
+      "built_by": [
+        "rakyll",
+        "joycel-github",
+        "wjjclaud",
+        "anj-s",
+        "zbl94"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "tailscale/tailcat",
+      "url": "https://github.com/tailscale/tailcat",
+      "description": "like netcat, but over Tailscale's data plane, without Tailscale's control plane",
+      "language": "Go",
+      "stars": 9957,
+      "forks": 459,
+      "stars_today": "238 stars today",
+      "built_by": [
+        "bradfitz",
+        "danderson",
+        "andrew-d",
+        "raggi",
+        "jwhited"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "kubescape/kubescape",
+      "url": "https://github.com/kubescape/kubescape",
+      "description": "Kubescape is an open-source Kubernetes security platform for your IDE, CI/CD pipelines, and clusters. It includes risk analysis, security, compliance, and misconfiguration scanning, saving Kubernetes users and administrators precious time, effort, and resources.",
+      "language": "Go",
+      "stars": 11923,
+      "forks": 1110,
+      "stars_today": "13 stars today",
+      "built_by": [
+        "matthyx",
+        "Daniel-GrunbergerCA",
+        "slashben",
+        "dependabot",
+        "vladklokun"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "trustwallet/assets",
+      "url": "https://github.com/trustwallet/assets",
+      "description": "A comprehensive, up-to-date collection of information about several thousands (!) of crypto tokens.",
+      "language": "Go",
+      "stars": 5417,
+      "forks": 27646,
+      "stars_today": "2 stars today",
+      "built_by": [
+        "Cryptocool1",
+        "assets-bot",
+        "cryptomanz1",
+        "kolya182",
+        "zachzwei"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "HuskerMinion/techo5",
+      "url": "https://github.com/HuskerMinion/techo5",
+      "description": "Open firmware for the Echo Show 5, 1st and 2nd gen: Alpine Linux instead of Android, no Alexa. A local Home Assistant voice satellite with its own touch screen, on-device wake word, SSH and A/B over-the-air updates.",
+      "language": "Go",
+      "stars": 702,
+      "forks": 119,
+      "stars_today": "22 stars today",
+      "built_by": [
+        "HuskerMinion",
+        "nuno407",
+        "Uthrom",
+        "miraassist",
+        "mawi13"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "gravitational/teleport",
+      "url": "https://github.com/gravitational/teleport",
+      "description": "The easiest, and most secure way to access and protect all of your infrastructure.",
+      "language": "Go",
+      "stars": 21104,
+      "forks": 2190,
+      "stars_today": "2 stars today",
+      "built_by": [
+        "klizhentas",
+        "kontsevoy",
+        "zmb3",
+        "rosstimothy",
+        "ptgott"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "XTLS/Xray-core",
+      "url": "https://github.com/XTLS/Xray-core",
+      "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
+      "language": "Go",
+      "stars": 42933,
+      "forks": 6154,
+      "stars_today": "27 stars today",
+      "built_by": [
+        "RPRX",
+        "dependabot",
+        "Fangliding",
+        "yuhan6665",
+        "LjhAUMEM"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "erigontech/erigon",
+      "url": "https://github.com/erigontech/erigon",
+      "description": "Ethereum implementation on the efficiency frontier",
+      "language": "Go",
+      "stars": 3633,
+      "forks": 1580,
+      "stars_today": "3 stars today",
+      "built_by": [
+        "AskAlexSharov",
+        "obscuren",
+        "karalabe",
+        "yperbasis",
+        "Giulio2002"
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "getlago/lago",
+      "url": "https://github.com/getlago/lago",
+      "description": "Open Source Metering and Usage Based Billing API ⭐️ Consumption tracking, Subscription management, Pricing iterations, Payment orchestration & Revenue analytics",
+      "language": "Go",
+      "stars": 10880,
+      "forks": 797,
+      "stars_today": "25 stars today",
+      "built_by": [
+        "jdenquin",
+        "vincent-pochet",
+        "rsempe",
+        "IxDay",
+        "groyoh"
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "mudler/LocalAI",
+      "url": "https://github.com/mudler/LocalAI",
+      "description": "LocalAI is the open-source AI engine. Run any model - LLMs, vision, voice, image, video - on any hardware. No GPU required.",
+      "language": "Go",
+      "stars": 50388,
+      "forks": 4610,
+      "stars_today": "13 stars today",
+      "built_by": [
+        "mudler",
+        "dependabot",
+        "renovate"
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "jaegertracing/jaeger",
+      "url": "https://github.com/jaegertracing/jaeger",
+      "description": "CNCF Jaeger, a Distributed Tracing Platform",
+      "language": "Go",
+      "stars": 23415,
+      "forks": 3248,
+      "stars_today": "1 star today",
+      "built_by": [
+        "yurishkuro",
+        "renovate-bot",
+        "dependabot",
+        "claude",
+        "pavolloffay"
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "black-ant/Ant-Browser",
+      "url": "https://github.com/black-ant/Ant-Browser",
+      "description": "指纹浏览器",
+      "language": "Go",
+      "stars": 2190,
+      "forks": 358,
+      "stars_today": "9 stars today",
+      "built_by": [
+        "black-ant",
+        "voidvon",
+        "UltraSoundX",
+        "hmtdpetn",
+        "claude"
+      ]
+    },
+    {
+      "rank": 15,
+      "name": "meshery/meshery",
+      "url": "https://github.com/meshery/meshery",
+      "description": "Meshery, the cloud native manager",
+      "language": "Go",
+      "stars": 12210,
+      "forks": 4190,
+      "stars_today": "14 stars today",
+      "built_by": [
+        "leecalcote",
+        "MUzairS15",
+        "aabidsofi19",
+        "amitamrutiya",
+        "theBeginner86"
+      ]
+    },
+    {
+      "rank": 16,
+      "name": "gohugoio/hugo",
+      "url": "https://github.com/gohugoio/hugo",
+      "description": "The world’s fastest framework for building websites.",
+      "language": "Go",
+      "stars": 90479,
+      "forks": 8475,
+      "stars_today": "10 stars today",
+      "built_by": [
+        "bep",
+        "dependabot",
+        "spf13",
+        "jmooring",
+        "anthonyfok"
+      ]
+    },
+    {
+      "rank": 17,
+      "name": "aldinokemal/go-whatsapp-web-multidevice",
+      "url": "https://github.com/aldinokemal/go-whatsapp-web-multidevice",
+      "description": "GOWA - WhatsApp REST API with support for UI, Multi Account, Webhooks, and MCP, and Chatwoot. Built with Golang for efficient memory use.",
+      "language": "Go",
+      "stars": 5055,
+      "forks": 1234,
+      "stars_today": "8 stars today",
+      "built_by": [
+        "aldinokemal",
+        "claude",
+        "cursoragent",
+        "gobeyondpty",
+        "juliomuhlbauer"
+      ]
+    }
+  ]
+}
