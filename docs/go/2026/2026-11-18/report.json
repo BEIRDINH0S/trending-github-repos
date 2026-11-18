@@ -1,0 +1,250 @@
+{
+  "metadata": {
+    "date": "2026-11-18",
+    "language": "go",
+    "total_repositories": 14,
+    "total_stars": 354239,
+    "total_forks": 38358,
+    "generated_by": "GitHub Trending Scraper",
+    "format_version": "1.0"
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "language": "Go",
+      "stars": 53907,
+      "forks": 4445,
+      "stars_today": "763 stars today",
+      "built_by": [
+        "lizhengfeng101",
+        "wu21-web",
+        "chethanuk",
+        "Qiyuanqiii",
+        "stay-foolish-forever"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "Tencent/LoopForge",
+      "url": "https://github.com/Tencent/LoopForge",
+      "description": "Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.",
+      "language": "Go",
+      "stars": 3464,
+      "forks": 472,
+      "stars_today": "591 stars today",
+      "built_by": [
+        "claude",
+        "Robert0622",
+        "cursoragent",
+        "crispinhu27"
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "getarcaneapp/arcane",
+      "url": "https://github.com/getarcaneapp/arcane",
+      "description": "Modern Docker Management, Designed for Everyone",
+      "language": "Go",
+      "stars": 9449,
+      "forks": 518,
+      "stars_today": "618 stars today",
+      "built_by": [
+        "kmendell",
+        "dependabot",
+        "getarcaneappbot",
+        "cabaucom376",
+        "GiulioSavini"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "JuliusBrussee/caveman",
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "description": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter answers, smaller tool output, every original recoverable.",
+      "language": "Go",
+      "stars": 121127,
+      "forks": 7078,
+      "stars_today": "318 stars today",
+      "built_by": [
+        "JuliusBrussee",
+        "claude",
+        "github-actions",
+        "nikpushkarski",
+        "AmirF194"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "crossplane/crossplane",
+      "url": "https://github.com/crossplane/crossplane",
+      "description": "The Cloud Native Control Plane",
+      "language": "Go",
+      "stars": 12251,
+      "forks": 1296,
+      "stars_today": "2 stars today",
+      "built_by": [
+        "negz",
+        "hasheddan",
+        "jbw976",
+        "phisco",
+        "turkenh"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "seaweedfs/seaweedfs",
+      "url": "https://github.com/seaweedfs/seaweedfs",
+      "description": "SeaweedFS is a distributed storage system for object storage (S3), file systems, Iceberg table buckets, and Lance vector buckets, designed to handle billions of files with O(1) disk access and effortless horizontal scaling.",
+      "language": "Go",
+      "stars": 36131,
+      "forks": 3125,
+      "stars_today": "25 stars today",
+      "built_by": [
+        "chrislusf",
+        "dependabot",
+        "kmlebedev",
+        "claude",
+        "devin-ai-integration"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "knadh/listmonk",
+      "url": "https://github.com/knadh/listmonk",
+      "description": "High performance, self-hosted, newsletter and mailing list manager with a modern dashboard. Single binary app.",
+      "language": "Go",
+      "stars": 24360,
+      "forks": 2807,
+      "stars_today": "22 stars today",
+      "built_by": [
+        "knadh",
+        "github-actions",
+        "dependabot",
+        "mr-karan",
+        "MaximilianKohler"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "guohuiyuan/go-music-dl",
+      "url": "https://github.com/guohuiyuan/go-music-dl",
+      "description": "一个基于 Go 语言的全网音乐搜索与下载工具。支持 CLI 命令行与 Web 服务双模式，内置网易云、QQ、酷狗、Bilibili、汽水音乐等 10+ 个主流平台，支持多源并发搜索与无损音质解析。music-dl交流群：755087923",
+      "language": "Go",
+      "stars": 6557,
+      "forks": 622,
+      "stars_today": "71 stars today",
+      "built_by": [
+        "guohuiyuan",
+        "lianhong2758",
+        "Zorabi",
+        "claude",
+        "nannyu"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "Christ9038/Ydisks-Xianyu-Helper",
+      "url": "https://github.com/Christ9038/Ydisks-Xianyu-Helper",
+      "description": "闲鱼多账号自动发货、消息回复系统——基于 Go 与 React 构建",
+      "language": "Go",
+      "stars": 2465,
+      "forks": 656,
+      "stars_today": "16 stars today",
+      "built_by": [
+        "Christ9038",
+        "claude",
+        "v2camp",
+        "Liu8Can",
+        "go31"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "QuantumNous/new-api",
+      "url": "https://github.com/QuantumNous/new-api",
+      "description": "Open-source AI gateway. Self-hosted LLM gateway with OpenAI-, Claude- and Gemini-compatible APIs, model routing, access control, usage tracking and cost accounting.",
+      "language": "Go",
+      "stars": 52118,
+      "forks": 12728,
+      "stars_today": "79 stars today",
+      "built_by": [
+        "Calcium-Ion",
+        "seefs001",
+        "t0ng7u",
+        "songquanpeng",
+        "feitianbubu"
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "Autumn-27/ScopeSentry",
+      "url": "https://github.com/Autumn-27/ScopeSentry",
+      "description": "ScopeSentry-Cyberspace mapping, subdomain enumeration, port scanning, sensitive information discovery, vulnerability scanning, distributed nodes",
+      "language": "Go",
+      "stars": 2500,
+      "forks": 628,
+      "stars_today": "29 stars today",
+      "built_by": [
+        "Autumn-27",
+        "cursoragent",
+        "yjy123123",
+        "NomadicZzz",
+        "rockmelodies"
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "ArvinLovegood/go-stock",
+      "url": "https://github.com/ArvinLovegood/go-stock",
+      "description": "🦄🦄🦄AI赋能股票分析：AI加持的股票分析/选股工具。股票行情获取，AI热点资讯分析，AI资金/财务分析，涨跌报警推送。支持A股，港股，美股。支持市场整体/个股情绪分析，AI辅助选股等。数据全部保留在本地。支持DeepSeek，OpenAI， Ollama，LMStudio，AnythingLLM，硅基流动，火山方舟，阿里云百炼等平台或模型。",
+      "language": "Go",
+      "stars": 8198,
+      "forks": 1431,
+      "stars_today": "27 stars today",
+      "built_by": [
+        "ArvinLovegood",
+        "CodeNoobLH",
+        "github-advanced-security",
+        "dependabot",
+        "GiCo001"
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "basketikun/chatgpt2api",
+      "url": "https://github.com/basketikun/chatgpt2api",
+      "description": "ChatGPT 官网接口纯协议逆向实现，Go 语言编写，高并发、低内存、高性能。指纹级请求还原，支持 GPT-Image-2.6 生图/改图、GIF 动图、文本模型与语音合成/转写，兼容 OpenAI 接口协议，在线批量生图，号池管理，支持导入 CPA、sub2api 号池，可接入 Cherry Studio、New API 等软件",
+      "language": "Go",
+      "stars": 6938,
+      "forks": 1756,
+      "stars_today": "16 stars today",
+      "built_by": [
+        "basketikun",
+        "codex",
+        "claude",
+        "Jimmy-Bots",
+        "YuSaZh"
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "google/ax",
+      "url": "https://github.com/google/ax",
+      "description": "Agent Executor (AX) is Google's open agentic orchestration runtime",
+      "language": "Go",
+      "stars": 14774,
+      "forks": 796,
+      "stars_today": "24 stars today",
+      "built_by": [
+        "rakyll",
+        "joycel-github",
+        "wjjclaud",
+        "anj-s",
+        "zbl94"
+      ]
+    }
+  ]
+}
